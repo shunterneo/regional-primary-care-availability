@@ -11,6 +11,7 @@ for r in xs:
     if key in names:errors.append(f'duplicate listing {name}')
     names.add(key)
     if r['status'] not in STATUSES or r['status']=='needs_review':errors.append(f'bad stored status {id}')
+    if r.get('operating_status','active') not in ('active','closed','archived','registry_listed'):errors.append(f'bad operating status {id}')
     if r['community'] not in CITY_COORDS:errors.append(f'unknown city coordinates {id}')
     else:
         dist=km(center['latitude'],center['longitude'],*CITY_COORDS[r['community']])

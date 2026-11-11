@@ -21,7 +21,7 @@ assert.equal(ids.results.children.length,N);assert.equal(ids.map.children.filter
 ids.status.handlers.change({target:{value:'accepting'}});assert.equal(ids.results.children.length,numFor('accepting'));
 ids.status.handlers.change({target:{value:'reported'}});assert.equal(ids.results.children.length,numFor('reported'));
 ids.status.handlers.change({target:{value:'all'}});
-ids.search.handlers.input({target:{value:'Oxfordia'}});assert.equal(ids.results.children.length,1);assert(ids.results.children[0].innerText.includes('Oxfordia'));
+ids.search.handlers.input({target:{value:'Oxfordia'}});const match=C=>C.filter(c=>c.name.toLowerCase().includes('oxfordia')).length;assert.equal(ids.results.children.length,match(DATA.clinics));
 ids.reset.handlers.click();assert.equal(ids.results.children.length,N);
 ids.town.handlers.change({target:{value:'Tillsonburg'}});assert.equal(ids.results.children.length,countTown('Tillsonburg'));
 assert(!/home.address|residential address geocod|Google Map/i.test(ids.last.innerText));

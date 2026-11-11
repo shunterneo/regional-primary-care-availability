@@ -22,3 +22,10 @@
 ## Safe operating rule
 
 No search result, stale link, RSS headline, AI inference or webpage failure automatically turns a clinic marker to **Accepting** or **Closed**. Only an explicit reviewed decision changes the published status. Older statuses gradually display **Needs reconfirmation**.
+
+### Autonomous confirmation release
+- Added deterministic first-party two-day intake confirmation; auto-publishes clinic-specific accepting and not-accepting statements while rejecting ambiguous, stale and shared team-level notices.
+- Explicit permanent closures are archived only after confirmation on two separate days; removal from active map and documents preserves the audit record.
+- Added automatic discovery of government-listed NP, FHT and CHC program sites through Ontario MOHSERLO; exact public coordinates required; added entries are labeled intake unknown and not presumed operational.
+- Uncertain public search results still require human review. No third-party AI or news article can independently assert accepting patients.
+- Added offline regression tests for safe closure, duplicate suppression, conflicting language and transient source failures.

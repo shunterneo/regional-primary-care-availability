@@ -11,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 from common import ROOT,load_data,is_url
 from intake_evidence import classify
+from auto_evidence import decisive_statement, observe, first_party
 DATA=ROOT/'data';state_path=DATA/'source_state.json';queue_path=DATA/'review_queue.json'
 state=json.loads(state_path.read_text());queue=json.loads(queue_path.read_text());clinics=load_data()['clinics']
 extra=json.loads((DATA/'discovery_sources.json').read_text())
@@ -46,7 +47,7 @@ def fetch_one(pair):
         if len(res.content)>4_000_000:raise ValueError('Page too large')
         body=extract(res.text)
         if not body.strip():raise ValueError('No matching text')
-        return url,{'hash':hashlib.sha256(body.encode()).hexdigest(),'error':None,'excerpt':body[:1400],'assessment':classify(body)}
+        return url,{'hash':hashlib.sha256(body.encode()).hexdigest(),'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':decisive_statement(body)}
     except Exception as exc:
         return url,{'hash':None,'error':str(exc)[:180]}
 
@@ -60,11 +61,18 @@ def run():
             prev=state['sources'].get(url,{})
             if result['error']:
                 failed+=1
-                state['sources'][url]={**prev,'last_attempt':now,'last_error':result['error']}
+                state['sources'][url]={**prev,'last_attempt':now,'last_error':result['error'],'auto_observation':{}}
                 continue
             ok+=1
             newhash=result['hash'];oldhash=prev.get('hash')
-            state['sources'][url]={**prev,'hash':newhash,'excerpt':result['excerpt'][:1400],'possible_claim':result['assessment']['classification'],'last_attempt':now,'last_success':now,'last_error':None}
+            owners=urlmap[url]['clinics']
+            verified=bool(len(owners)==1 and first_party(next(c for c in clinics if c['id']==owners[0]),url,owners,result['final_url']))
+            prior_obs=prev.get('auto_observation',{}) if verified else {}
+            # A failed, ambiguous or redirected page breaks the consecutive evidence chain.
+            observation=observe(prior_obs,result['explicit_candidate'] if verified else None,now)
+            state['sources'][url]={**prev,'hash':newhash,'excerpt':result['excerpt'][:1400],
+              'possible_claim':result['assessment']['classification'],'last_attempt':now,'last_success':now,
+              'last_error':None,'official_first_party':verified,'auto_observation':observation}
             if not oldhash:
                 baseline+=1;continue
             if oldhash!=newhash and (url,newhash) not in pending_ids:

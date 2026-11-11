@@ -20,13 +20,13 @@ from reportlab.pdfbase import pdfmetrics
 
 today=datetime.date.today()
 site=ROOT/'site'; docs=site/'documents'; docs.mkdir(parents=True,exist_ok=True)
-D=load_data(); clinics=D['clinics']; source_state=json.loads((ROOT/'data'/'source_state.json').read_text()); queue=json.loads((ROOT/'data'/'review_queue.json').read_text()); history=json.loads((ROOT/'data'/'review_history.json').read_text()); discovery=json.loads((ROOT/'data'/'discovery_queue.json').read_text()); discovery_state=json.loads((ROOT/'data'/'discovery_state.json').read_text())
+D=load_data(); archived=[c for c in D['clinics'] if c.get('operating_status') in ('closed','archived')]; clinics=[c for c in D['clinics'] if c.get('operating_status') not in ('closed','archived')]; source_state=json.loads((ROOT/'data'/'source_state.json').read_text()); queue=json.loads((ROOT/'data'/'review_queue.json').read_text()); history=json.loads((ROOT/'data'/'review_history.json').read_text()); discovery=json.loads((ROOT/'data'/'discovery_queue.json').read_text()); discovery_state=json.loads((ROOT/'data'/'discovery_state.json').read_text())
 for c in clinics: c['display_status']=effective_status(c,today)
 ORDER=['accepting','reported','limited','waitlist','not_accepting','needs_review','unknown']
 clinics.sort(key=lambda c:(ORDER.index(c['display_status']),c['community'].lower(),c['name'].lower()))
 counts=collections.Counter(c['display_status'] for c in clinics)
 report={
- 'generated_on':today.isoformat(),'data_as_of':D.get('data_as_of',''),'count':len(clinics),
+ 'generated_on':today.isoformat(),'data_as_of':D.get('data_as_of',''),'count':len(clinics),'archived_count':len(archived),
  'communities':len({c['community'] for c in clinics}), 'status_counts':dict(counts),
  'source_urls_monitored':len(source_state['sources']),'pending_source_reviews':len([r for r in queue['items'] if r.get('review_status')=='pending']),
  'pending_new_clinic_leads':len([r for r in discovery['items'] if r.get('review_status')=='pending']),
@@ -119,7 +119,7 @@ def make_pdf():
             lines=[Paragraph(e(c['community'])+'  |  '+e(c['name']),h2),
                 Paragraph('<b>Office:</b> '+e(c['address'])+'   <b>Type:</b> '+e(c['clinic_type'])+'   <b>Phone:</b> '+e(c.get('phone') or 'Not listed'),small),
                 Paragraph(e(c.get('intake_detail') or 'No current intake details'),body),
-                Paragraph('Research reviewed: '+e(c['last_reviewed'])+'  |  <link href="'+e(c['evidence_url'],quote=True)+'" color="#185B78">Supporting source</link>',small)]
+                Paragraph('Source reviewed: '+e(c['last_reviewed'])+'  |  <link href="'+e(c['evidence_url'],quote=True)+'" color="#185B78">Supporting source</link>',small)]
             story.append(KeepTogether(lines))
     out=docs/'primary-care-directory.pdf'
     pd=SimpleDocTemplate(str(out),pagesize=(612,792),rightMargin=51,leftMargin=51,topMargin=54,bottomMargin=53,title='Regional Primary Care Directory')
@@ -132,7 +132,7 @@ def make_pdf():
 
 site_json={
  'generated_on':today.isoformat(), 'data_as_of':D['data_as_of'], 'center':D['center'], 'community_coords':CITY_COORDS,
- 'counts':dict(counts), 'queue_count':len([r for r in queue['items'] if r.get('review_status')=='pending']), 'discovery_queue_count':len([r for r in discovery['items'] if r.get('review_status')=='pending']), 'monitored_count':len(source_state['sources']), 'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'), 'change_history':history[-15:][::-1], 'clinics':clinics,
+ 'counts':dict(counts), 'archived_count':len(archived), 'queue_count':len([r for r in queue['items'] if r.get('review_status')=='pending']), 'discovery_queue_count':len([r for r in discovery['items'] if r.get('review_status')=='pending']), 'monitored_count':len(source_state['sources']), 'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'), 'change_history':history[-15:][::-1], 'clinics':clinics,
 }
 # Avoid literal closing script tags in inlined source text.
 jsdata=json.dumps(site_json,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')

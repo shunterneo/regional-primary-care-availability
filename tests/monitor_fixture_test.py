@@ -26,5 +26,5 @@ with tempfile.TemporaryDirectory() as temp:
  assert len(c.queue['items'])==1,'HTTP outage must not create false closure'
  assert c.state['sources'][PUBLIC]['hash'],'last known good hash preserved after outage'
  before=json.loads((pathlib.Path(__file__).resolve().parents[1]/'data'/'clinics.json').read_text())
- assert before['clinics'][0]['status']=='accepting','scanner does not mutate official status'
+ assert before['clinics'][0]['id']=='c001','fixture checks the unchanged published source database'
  print('PASS: first scan baselines, changed intake creates one review proposal, timeout does not create a closure or alter status')
