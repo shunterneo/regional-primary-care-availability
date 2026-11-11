@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import sys,collections,datetime
-from common import load_data, STATUSES,CITY_COORDS,km,is_url
+from common import load_data, STATUSES,CARE_MODELS,CITY_COORDS,km,is_url
 D=load_data(); xs=D['clinics']; assert len(xs)>0
 errors=[];ids=set();names=set();center=D['center']
 for r in xs:
@@ -11,6 +11,10 @@ for r in xs:
     if key in names:errors.append(f'duplicate listing {name}')
     names.add(key)
     if r['status'] not in STATUSES or r['status']=='needs_review':errors.append(f'bad stored status {id}')
+    care=r.get('care_model')
+    if care not in CARE_MODELS:errors.append(f'missing or invalid care model {id}')
+    if care in ('walk_in_only','unverified') and r['status'] in ('accepting','reported','limited','waitlist','not_accepting'):
+        errors.append(f'cannot assign attachment intake status to {care} clinic {id}')
     if r.get('operating_status','active') not in ('active','closed','archived','registry_listed'):errors.append(f'bad operating status {id}')
     if r['community'] not in CITY_COORDS:errors.append(f'unknown city coordinates {id}')
     else:

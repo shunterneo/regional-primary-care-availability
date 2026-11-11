@@ -6,7 +6,7 @@ No AI or news output is used. No client data is consumed or published.
 from __future__ import annotations
 import json, datetime as dt
 from common import ROOT
-from auto_evidence import first_party,confirmed
+from auto_evidence import first_party,confirmed,explicit_longitudinal
 
 D=ROOT/'data'; DB=D/'clinics.json'; SRC=D/'source_state.json'; HISTORY=D/'review_history.json'
 
@@ -25,6 +25,11 @@ def apply(database, source_state, history, day):
         if not confirmed(o,day):continue
         decision=o.get('status')
         if decision not in ('accepting','not_accepting','closed'):continue
+        # Walk-in registration is NEVER proof of attachment to a family doctor/NP.
+        # Combined providers need the first-party *statement itself* to specify ongoing care.
+        if decision!='closed':
+            if c.get('care_model') not in ('ongoing','both'):continue
+            if c.get('care_model')=='both' and not explicit_longitudinal(o.get('quote','')):continue
         prior=c.get('status','unknown')
         if decision=='closed':
             # A permanent practice closure archives its *office*, not merely intake.

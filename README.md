@@ -123,3 +123,15 @@ This design avoids the earlier geocoding disclosure, but it is **not a PHIPA cer
 The initial 95-entry dataset is still a research baseline, not a completed CPSO/CNO census. This system cannot guarantee that every new clinic or intake change is detected. A practice may stop accepting patients between daily checks; always verify directly with the clinic before referring someone. No patient address or identifiable health information is processed or transmitted.
 
 To suspend automation for an individual clinic, set `auto_updates_enabled: false` on that clinic's record; manual approved changes remain available. GitHub Pages and the original daily scanning workflow must be operational for this to run. No OpenAI API key is required for deterministic auto-publication.
+
+## Distinguish ongoing primary care from walk-in services
+
+Each record has a `care_model` independent of `status` and `clinic_type`:
+`ongoing` (ongoing family physician or NP care), `both` (ongoing + walk-in), `walk_in_only` (episodic walk-in, NOT patient attachment) or `unverified`.
+
+The site defaults to ongoing care and includes mixed practices with a conspicuous combined-service label; a walk-in-only practice is visible only when a walk-in or all-services filter is selected.
+All green accepting status indicators mean applications for *ongoing care*, not ability to walk into a clinic. Records without verified ongoing care must keep `status=unknown`.
+
+For combined practices, automatic publication of opening/closure of patient attachment requires an explicit family-practice/primary-care statement in the specific clinic's first-party evidence quotation. A generic “we accept new patients” phrase on a combined walk-in website is too ambiguous to auto-publish.
+
+The 95-record baseline has six mixed-service sites classified using available public clinic information and **no identified walk-in-only sites**; this is an audit of existing listings, not a full census of independent walk-in-only clinics. Any newly discovered service must receive a care-model classification before publication; do not infer ongoing care from walk-in hours or appointment availability.

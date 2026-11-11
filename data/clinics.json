@@ -25,7 +25,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.grandriverchc.ca/your-health/new-clients/"
     },
     {
       "id": "c002",
@@ -44,7 +47,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://greenwichmedical.ca/appointment"
     },
     {
       "id": "c003",
@@ -63,7 +69,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "both",
+      "care_model_basis": "Official clinic: separate family-practice registration and walk-in service.",
+      "care_model_source": "https://emeraldcaremax.ca/"
     },
     {
       "id": "c004",
@@ -82,7 +91,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://londonfht.ca/family-physicians/"
     },
     {
       "id": "c005",
@@ -101,7 +113,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/"
     },
     {
       "id": "c006",
@@ -120,7 +135,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thompsonmedical.ca/"
     },
     {
       "id": "c007",
@@ -139,7 +157,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thompsonmedical.ca/"
     },
     {
       "id": "c008",
@@ -158,7 +179,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/"
     },
     {
       "id": "c009",
@@ -177,7 +201,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 39.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.elmdalehealth.com/"
     },
     {
       "id": "c010",
@@ -196,7 +223,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 39.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thompsonmedical.ca/walk-in-clinic/"
     },
     {
       "id": "c011",
@@ -215,7 +245,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 0.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://oxfordoht.ca/tillsonburg-unattached-care-clinic/"
     },
     {
       "id": "c012",
@@ -234,7 +267,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.cityofwoodstock.ca/news/posts/new-family-physician-opens-oxfordia-medical-centre-in-woodstock/"
     },
     {
       "id": "c013",
@@ -253,7 +289,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/"
     },
     {
       "id": "c014",
@@ -272,7 +311,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://trustycare.ca/team/dr-claire-louise-young-md/"
     },
     {
       "id": "c015",
@@ -291,7 +333,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 51.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.langs.org/"
     },
     {
       "id": "c016",
@@ -310,7 +355,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.avenuemedical.ca"
     },
     {
       "id": "c017",
@@ -329,7 +377,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://bonavistamedicalcentrebrantford.com"
     },
     {
       "id": "c018",
@@ -348,7 +399,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/"
     },
     {
       "id": "c019",
@@ -367,7 +421,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://valleyviewbrantford.ca"
     },
     {
       "id": "c020",
@@ -386,7 +443,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://valleyviewbrantford.ca"
     },
     {
       "id": "c021",
@@ -405,7 +465,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.coronationfamilyphysicians.ca/"
     },
     {
       "id": "c022",
@@ -424,7 +487,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.doctors4cambridge.com/contact.htm"
     },
     {
       "id": "c023",
@@ -443,7 +509,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.langs.org/"
     },
     {
       "id": "c024",
@@ -462,7 +531,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.doctors4cambridge.com/contact.htm"
     },
     {
       "id": "c025",
@@ -481,7 +553,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.doctors4cambridge.com/contact.htm"
     },
     {
       "id": "c026",
@@ -500,7 +575,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "both",
+      "care_model_basis": "Official clinic: family-practice enrolment is distinct from walk-in bookings.",
+      "care_model_source": "https://standrewsclinic.ca/"
     },
     {
       "id": "c027",
@@ -519,7 +597,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "both",
+      "care_model_basis": "Official clinic: separate family-practice registration and walk-in visits.",
+      "care_model_source": "https://townlineclinic.com/booking/"
     },
     {
       "id": "c028",
@@ -538,7 +619,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://activecaremedicalcentre.com/201-clinic"
     },
     {
       "id": "c029",
@@ -557,7 +641,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://colbornemedicare.ca/"
     },
     {
       "id": "c030",
@@ -576,7 +663,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.ldam.ca/find-a-doctor"
     },
     {
       "id": "c031",
@@ -595,7 +685,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.ldam.ca/find-a-doctor"
     },
     {
       "id": "c032",
@@ -614,7 +707,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://hamiltonmedclinic.com/"
     },
     {
       "id": "c033",
@@ -633,7 +729,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
     },
     {
       "id": "c034",
@@ -652,7 +751,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.saffronhealth.ca/"
     },
     {
       "id": "c035",
@@ -671,7 +773,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.ldam.ca/find-a-doctor"
     },
     {
       "id": "c036",
@@ -690,7 +795,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://vivamedicalclinic.ca/"
     },
     {
       "id": "c037",
@@ -709,7 +817,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.wonderlandsouthmedicalcentre.ca"
     },
     {
       "id": "c038",
@@ -728,7 +839,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 23.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.ocnplc.ca/"
     },
     {
       "id": "c039",
@@ -747,7 +861,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://lihc.on.ca/programs-services/primary-care/"
     },
     {
       "id": "c040",
@@ -766,7 +883,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://lihc.on.ca/programs-services/primary-care/"
     },
     {
       "id": "c041",
@@ -785,7 +905,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/"
     },
     {
       "id": "c042",
@@ -804,7 +927,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 72.8,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://wrnplc.ca/contact-us/"
     },
     {
       "id": "c043",
@@ -823,7 +949,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.gmcfht.ca/"
     },
     {
       "id": "c044",
@@ -842,7 +971,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://wrnplc.ca/contact-us/"
     },
     {
       "id": "c045",
@@ -861,7 +993,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 67.8,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.newvisionhealth.ca/need-a-family-doctor"
     },
     {
       "id": "c046",
@@ -880,7 +1015,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 67.8,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://wrnplc.ca/contact-us/"
     },
     {
       "id": "c047",
@@ -899,7 +1037,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.ldam.ca/find-a-doctor"
     },
     {
       "id": "c048",
@@ -918,7 +1059,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 0.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://oxchc.ca/"
     },
     {
       "id": "c049",
@@ -937,7 +1081,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://primemedical.ca/"
     },
     {
       "id": "c050",
@@ -956,7 +1103,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://oxchc.ca/"
     },
     {
       "id": "c051",
@@ -975,7 +1125,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 73.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c052",
@@ -994,7 +1147,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 23.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=75971"
     },
     {
       "id": "c053",
@@ -1013,7 +1169,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 23.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=116967"
     },
     {
       "id": "c054",
@@ -1032,7 +1191,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 23.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.eefht.ca/about-us/the-team/"
     },
     {
       "id": "c055",
@@ -1051,7 +1213,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "both",
+      "care_model_basis": "Official clinic: family medicine and walk-in care both advertised.",
+      "care_model_source": "https://cambridgegatewaymedical.com/walk-in-practice/"
     },
     {
       "id": "c056",
@@ -1070,7 +1235,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "both",
+      "care_model_basis": "Official clinic: family practice and walk-in care both advertised.",
+      "care_model_source": "https://hopetonmedical.com/"
     },
     {
       "id": "c057",
@@ -1089,7 +1257,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.doctors4cambridge.com/"
     },
     {
       "id": "c058",
@@ -1108,7 +1279,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 18.3,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "both",
+      "care_model_basis": "Existing source describes shared family-health-team offices and separate episodic walk-in at the same hub; provider enrolment must be verified separately.",
+      "care_model_source": "https://dchc.ca/in-our-centre/"
     },
     {
       "id": "c059",
@@ -1127,7 +1301,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 57.9,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/"
     },
     {
       "id": "c060",
@@ -1146,7 +1323,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 23.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://alexfp.ca/"
     },
     {
       "id": "c061",
@@ -1165,7 +1345,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 67.8,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.kw4oht.com/members"
     },
     {
       "id": "c062",
@@ -1184,7 +1367,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c063",
@@ -1203,7 +1389,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c064",
@@ -1222,7 +1411,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.southwesthealthline.ca/"
     },
     {
       "id": "c065",
@@ -1241,7 +1433,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://londonfht.ca/family-physicians/"
     },
     {
       "id": "c066",
@@ -1260,7 +1455,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c067",
@@ -1279,7 +1477,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c068",
@@ -1298,7 +1499,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c069",
@@ -1317,7 +1521,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c070",
@@ -1336,7 +1543,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c071",
@@ -1355,7 +1565,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c072",
@@ -1374,7 +1587,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 62.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c073",
@@ -1393,7 +1609,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 17.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=86657"
     },
     {
       "id": "c074",
@@ -1412,7 +1631,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 17.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.norwich.ca/our-community/medical-centre"
     },
     {
       "id": "c075",
@@ -1431,7 +1653,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 34.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://norfolkfht.ca/port-rowan-medical-clinic/"
     },
     {
       "id": "c076",
@@ -1450,7 +1675,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 33.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://norfolkfht.ca/contact/"
     },
     {
       "id": "c077",
@@ -1469,7 +1697,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 39.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c078",
@@ -1488,7 +1719,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 39.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://talbothealth.ca/"
     },
     {
       "id": "c079",
@@ -1507,7 +1741,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 39.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c080",
@@ -1526,7 +1763,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 39.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c081",
@@ -1545,7 +1785,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 13.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.southwesthealthline.ca/displayservice.aspx?id=152136"
     },
     {
       "id": "c082",
@@ -1564,7 +1807,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 59.9,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://starfht.ca/clinics_offices/avon-family-medicine-centre/"
     },
     {
       "id": "c083",
@@ -1583,7 +1829,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 59.9,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://starfht.ca/clinics_offices/oloane-medical-clinic/"
     },
     {
       "id": "c084",
@@ -1602,7 +1851,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 59.9,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.stratfordfht.ca/"
     },
     {
       "id": "c085",
@@ -1621,7 +1873,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 73.8,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c086",
@@ -1640,7 +1895,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 73.8,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c087",
@@ -1659,7 +1917,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 73.8,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/"
     },
     {
       "id": "c088",
@@ -1678,7 +1939,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 51.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://starfht.ca/clinics_offices/tavistock-community-health-inc/"
     },
     {
       "id": "c089",
@@ -1697,7 +1961,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 0.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://southwesthealthline.ca/displayService.aspx?id=187735"
     },
     {
       "id": "c090",
@@ -1716,7 +1983,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 0.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://southwesthealthline.ca/displayService.aspx?id=177439"
     },
     {
       "id": "c091",
@@ -1735,7 +2005,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 0.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=83281"
     },
     {
       "id": "c092",
@@ -1754,7 +2027,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 35.9,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://wfhc.ca/medical/"
     },
     {
       "id": "c093",
@@ -1773,7 +2049,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 68.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.newvisionhealth.ca/clinic-hours"
     },
     {
       "id": "c094",
@@ -1792,7 +2071,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://www.daviesfamilymed.com/general-8"
     },
     {
       "id": "c095",
@@ -1811,7 +2093,10 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build."
+      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=69085"
     }
   ]
 }

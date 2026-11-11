@@ -83,7 +83,7 @@ def process(features, db, history, state, extra, day):
         active[ident]={'hash':fingerprint,'days':dates[-3:],'row':row}
         if len(dates)<2 or existing_clinic(row,db['clinics']):continue
         c={'id':ident,'name':row['name'],'community':row['community'],'address':row['address'],
-           'clinic_type':row['clinic_type'],'status':'unknown','operating_status':'registry_listed',
+           'clinic_type':row['clinic_type'],'care_model':'ongoing','care_model_basis':'Ontario Ministry of Health primary-care program classification; walk-in services not determined.','care_model_source':ROOT_URL,'status':'unknown','operating_status':'registry_listed',
            'intake_detail':'Listed in Ontario Ministry of Health registry; current operation and new-patient intake require confirmation.',
            'phone':'','providers':'','evidence_url':ROOT_URL,'clinic_url':ROOT_URL,
            'source_published':'','last_reviewed':day,

@@ -2,6 +2,16 @@ from __future__ import annotations
 import json, pathlib, datetime, math, re
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 DATA=ROOT/'data'/'clinics.json'
+CARE_MODELS={
+ 'ongoing':'Ongoing family doctor / NP care',
+ 'both':'Family practice + walk-in',
+ 'walk_in_only':'Walk-in only (not patient attachment)',
+ 'unverified':'Care model not verified',
+}
+
+def ongoing_eligible(clinic):
+    return clinic.get('care_model') in ('ongoing','both')
+
 STATUSES={
  'accepting':('Applications advertised','accepting'),
  'reported':('Reported by regional source','reported'),

@@ -11,7 +11,7 @@ from collections import Counter
 
 # Explicit, self-referential clinic assertions. Narrow by design: uncertain
 # announcements remain in the human review queue.
-WHO = r"(?:we\s+(?:are|\'re)|our\s+(?:clinic|practice|office)\s+(?:is|are)|this\s+(?:clinic|practice|office)\s+(?:is|are))"
+WHO = r"(?:we\s+(?:are|\'re)|our\s+(?:(?:family|primary\s+care)\s+)?(?:clinic|practice|office)\s+(?:is|are)|this\s+(?:(?:family|primary\s+care)\s+)?(?:clinic|practice|office)\s+(?:is|are))"
 ACCEPT = re.compile(r"\b"+WHO+r"\s+(?:currently\s+|now\s+)?(?:accepting|taking|enrolling|registering|welcoming)\s+(?:applications\s+from\s+)?new\s+(?:family\s+medicine\s+)?(?:patients?|clients?)\b",re.I)
 CLOSED = re.compile(r"\b"+WHO+r"\s+(?:(?:currently|now)\s+)?(?:not\s+|no\s+longer\s+|unable\s+to\s+|isn['’]t\s+|aren['’]t\s+)(?:accepting|taking|enrolling|registering|welcoming)\s+new\s+(?:patients?|clients?)\b",re.I)
 # Broader negative grammar: "We are no longer accepting new patients".
@@ -60,6 +60,12 @@ def decisive_statement(excerpt):
     # Avoid publishing a snippet of generic how-to or FAQ wording.
     if len(found)>2:return None
     return {'status':found[0][0],'quote':found[0][1][:320]}
+
+def explicit_longitudinal(quote):
+    """Require family/NP ongoing care in the SAME claim; walk-in booking never suffices."""
+    if not quote:return False
+    if re.search(r'\b(?:walk[- ]?in|same[- ]?day|urgent)\s+(?:patients?|visits?|appointments?)\b',quote,re.I):return False
+    return bool(re.search(r'\b(?:family\s+(?:practice|physician|doctor|medicine|patients?)|primary\s+care|ongoing\s+care|long[- ]term\s+care|roster(?:ed|ing)?|enrol(?:led|lment|ment)?)\b',quote,re.I))
 
 def observe(prev, candidate, now):
     """Two observations on distinct days, within 4 days of each other."""

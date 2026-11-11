@@ -2,7 +2,7 @@
 """Build privacy-preserving static site, DOCX directory, PDF directory from a single JSON database."""
 from __future__ import annotations
 import datetime, json, pathlib, html, sys, collections, os
-from common import ROOT, STATUSES, CITY_COORDS, load_data, effective_status
+from common import ROOT, STATUSES, CARE_MODELS, CITY_COORDS, load_data, effective_status, ongoing_eligible
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -28,6 +28,7 @@ counts=collections.Counter(c['display_status'] for c in clinics)
 report={
  'generated_on':today.isoformat(),'data_as_of':D.get('data_as_of',''),'count':len(clinics),'archived_count':len(archived),
  'communities':len({c['community'] for c in clinics}), 'status_counts':dict(counts),
+ 'care_model_counts':dict(collections.Counter(c['care_model'] for c in clinics)),
  'source_urls_monitored':len(source_state['sources']),'pending_source_reviews':len([r for r in queue['items'] if r.get('review_status')=='pending']),
  'pending_new_clinic_leads':len([r for r in discovery['items'] if r.get('review_status')=='pending']),
  'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'),
@@ -59,29 +60,40 @@ def make_docx():
     p.style='Subtitle'
     doc.add_paragraph('Generated '+today.strftime('%B %-d, %Y')+'  |  Last human research audit: '+D['data_as_of']+'  |  '+str(len(clinics))+' clinic/service listings across '+str(report['communities'])+' communities')
     doc.add_paragraph('IMPORTANT: Intake status is based on public information, not live telephone confirmation. An application does not guarantee attachment. Green means an intake process was advertised in the dated source, not a guaranteed opening. Records become “Needs reconfirmation” when their review date expires.').italic=True
-    doc.add_paragraph('Clinics are shown by published office address; map positions are community-centre estimates. No patient home-address search, client data, or patient information is collected.')
+    doc.add_paragraph('Care classification is separate from intake status. A walk-in appointment does not mean a physician or NP is accepting new patients for ongoing care. Combined clinics appear in ongoing-care listings with an explicit walk-in label. Map markers remain community-level estimates.')
     p=doc.add_paragraph('Directory key: ')
     for st in ORDER:
         if counts[st]:
             x=p.add_run(f'{STATUSES[st][0]}: {counts[st]}  |  ');x.bold=(st=='accepting')
-    for st in ORDER:
-        records=[c for c in clinics if c['display_status']==st]
-        if not records:continue
-        doc.add_heading(f'{STATUSES[st][0]}  ({len(records)})',level=1)
-        if st=='reported':doc.add_paragraph('These are leads from regional lists and require direct confirmation before referral.')
-        if st=='needs_review':doc.add_paragraph('These records aged out of their verification window. They must not be described as currently accepting or closed without new evidence.')
-        if st=='unknown':doc.add_paragraph('No current, reliable intake statement recorded; unknown is not equivalent to closed.')
-        for c in records:
-            p=doc.add_paragraph(style='Heading 2');p.paragraph_format.keep_with_next=True;p.add_run(f'{c["community"]}  |  {c["name"]}')
-            t=doc.add_table(rows=0,cols=2);t.autofit=False;t.columns[0].width=Inches(1.00);t.columns[1].width=Inches(5.9)
-            for label,value in [('Office',c['address']),('Type',c['clinic_type']),('Phone',c.get('phone','') or 'Not listed'),('Intake note',c.get('intake_detail','') or 'No current details'),('Reviewed',c['last_reviewed']+' (research snapshot)')]:
-                row=t.add_row();row.cells[0].text=label;row.cells[1].text=value
-                row.cells[0].paragraphs[0].runs[0].bold=True
-                for cell in row.cells:
-                    cell.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
-                    for cp in cell.paragraphs:cp.paragraph_format.space_after=Pt(1);cp.paragraph_format.space_before=Pt(1)
-            p=doc.add_paragraph();p.paragraph_format.space_after=Pt(8)
-            if c.get('evidence_url'):add_link(p,'Open supporting evidence',c['evidence_url'])
+    care_sections=[
+        ('ONGOING FAMILY DOCTOR / NURSE PRACTITIONER CARE',lambda c:ongoing_eligible(c),True),
+        ('WALK-IN ONLY — NOT FAMILY-DOCTOR ATTACHMENT',lambda c:c['care_model']=='walk_in_only',False),
+        ('SERVICE TYPE REQUIRES VERIFICATION',lambda c:c['care_model']=='unverified',False),
+    ]
+    for heading,selected,group_status in care_sections:
+        subset=[c for c in clinics if selected(c)]
+        if not subset:continue
+        doc.add_heading(heading+'  ('+str(len(subset))+')',level=1)
+        if not group_status:doc.add_paragraph('These listings are not confirmed opportunities for continuing family physician or NP attachment.')
+        statuses=ORDER if group_status else ['unknown']
+        for st in statuses:
+            records=[c for c in subset if c['display_status']==st] if group_status else subset
+            if not records:continue
+            if group_status:doc.add_heading(f'{STATUSES[st][0]}  ({len(records)})',level=2)
+            if st=='reported' and group_status:doc.add_paragraph('Regional leads need direct confirmation of ongoing-care attachment.')
+            if st=='needs_review' and group_status:doc.add_paragraph('Older information requires reconfirmation; it does not establish an open or closed patient roster.')
+            for c in records:
+                p=doc.add_paragraph();p.paragraph_format.keep_with_next=True
+                rr=p.add_run(f'{c["community"]}  |  {c["name"]}');rr.bold=True
+                t=doc.add_table(rows=0,cols=2);t.autofit=False;t.columns[0].width=Inches(1.00);t.columns[1].width=Inches(5.9)
+                for label,value in [('Office',c['address']),('Service model',CARE_MODELS[c['care_model']]),('Provider',c['clinic_type']),('Phone',c.get('phone','') or 'Not listed'),('Intake note',c.get('intake_detail','') or 'No current details'),('Reviewed',c['last_reviewed']+' (research snapshot)')]:
+                    row=t.add_row();row.cells[0].text=label;row.cells[1].text=value
+                    row.cells[0].paragraphs[0].runs[0].bold=True
+                    for cell in row.cells:
+                        cell.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
+                        for cp in cell.paragraphs:cp.paragraph_format.space_after=Pt(1);cp.paragraph_format.space_before=Pt(1)
+                p=doc.add_paragraph();p.paragraph_format.space_after=Pt(7)
+                if c.get('evidence_url'):add_link(p,'Open supporting evidence',c['evidence_url'])
     out=docs/'primary-care-directory.docx';doc.save(out);return out
 
 # PDF uses scalable textual directory and clickable source links.
@@ -109,18 +121,25 @@ def make_pdf():
     small=ParagraphStyle('Small',fontName=regular_name,fontSize=8.3,leading=11,textColor=muted,spaceAfter=3)
     story=[Paragraph('Primary care availability',title),Paragraph(f'75 km around Tillsonburg  |  Generated {today.isoformat()}  |  {len(clinics)} listings, {report["communities"]} communities',body),
         Paragraph('<b>Research directory, not live enrolment confirmation.</b> Intake advertisements do not guarantee attachment. Records past their verification window are marked “Needs reconfirmation”. Map positions are approximate community centres, not exact offices.',body)]
-    for st in ORDER:
-        records=[c for c in clinics if c['display_status']==st]
-        if not records:continue
-        story.append(Paragraph(f'{STATUSES[st][0]} ({len(records)})',h1))
-        if st=='reported':story.append(Paragraph('Regional listings require confirmation with the practice before referral.',small))
-        for c in records:
-            e=html.escape
-            lines=[Paragraph(e(c['community'])+'  |  '+e(c['name']),h2),
-                Paragraph('<b>Office:</b> '+e(c['address'])+'   <b>Type:</b> '+e(c['clinic_type'])+'   <b>Phone:</b> '+e(c.get('phone') or 'Not listed'),small),
-                Paragraph(e(c.get('intake_detail') or 'No current intake details'),body),
-                Paragraph('Source reviewed: '+e(c['last_reviewed'])+'  |  <link href="'+e(c['evidence_url'],quote=True)+'" color="#185B78">Supporting source</link>',small)]
-            story.append(KeepTogether(lines))
+    sections=[('ONGOING FAMILY DOCTOR / NURSE PRACTITIONER CARE',lambda c:ongoing_eligible(c),True),
+              ('WALK-IN ONLY — NO ATTACHMENT IMPLIED',lambda c:c['care_model']=='walk_in_only',False),
+              ('SERVICE TYPE UNVERIFIED',lambda c:c['care_model']=='unverified',False)]
+    story.append(Paragraph('A walk-in appointment is not registration with a family doctor. Mixed-service clinics are explicitly labeled; intake statuses relate to ongoing care only.',body))
+    for title_text,select,group_status in sections:
+        subset=[c for c in clinics if select(c)]
+        if not subset:continue
+        story.append(Paragraph(html.escape(title_text)+' ('+str(len(subset))+')',h1))
+        for st in ORDER if group_status else ['unknown']:
+            records=[c for c in subset if c['display_status']==st] if group_status else subset
+            if not records:continue
+            if group_status:story.append(Paragraph(html.escape(STATUSES[st][0])+' ('+str(len(records))+')',h2))
+            for c in records:
+                e=html.escape
+                lines=[Paragraph(e(c['community'])+'  |  '+e(c['name']),h2),
+                    Paragraph('<b>Office:</b> '+e(c['address'])+'   <b>Care:</b> '+e(CARE_MODELS[c['care_model']])+'   <b>Type:</b> '+e(c['clinic_type'])+'   <b>Phone:</b> '+e(c.get('phone') or 'Not listed'),small),
+                    Paragraph(e(c.get('intake_detail') or 'No current intake details'),body)]
+                if c.get('evidence_url'):lines.append(Paragraph('Source reviewed: '+e(c['last_reviewed'])+'  |  <link href="'+e(c['evidence_url'],quote=True)+'" color="#185B78">Supporting source</link>',small))
+                story.append(KeepTogether(lines))
     out=docs/'primary-care-directory.pdf'
     pd=SimpleDocTemplate(str(out),pagesize=(612,792),rightMargin=51,leftMargin=51,topMargin=54,bottomMargin=53,title='Regional Primary Care Directory')
     def footer(canvas,doc):
@@ -132,7 +151,7 @@ def make_pdf():
 
 site_json={
  'generated_on':today.isoformat(), 'data_as_of':D['data_as_of'], 'center':D['center'], 'community_coords':CITY_COORDS,
- 'counts':dict(counts), 'archived_count':len(archived), 'queue_count':len([r for r in queue['items'] if r.get('review_status')=='pending']), 'discovery_queue_count':len([r for r in discovery['items'] if r.get('review_status')=='pending']), 'monitored_count':len(source_state['sources']), 'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'), 'change_history':history[-15:][::-1], 'clinics':clinics,
+ 'counts':dict(counts), 'care_model_counts':report['care_model_counts'], 'archived_count':len(archived), 'queue_count':len([r for r in queue['items'] if r.get('review_status')=='pending']), 'discovery_queue_count':len([r for r in discovery['items'] if r.get('review_status')=='pending']), 'monitored_count':len(source_state['sources']), 'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'), 'change_history':history[-15:][::-1], 'clinics':clinics,
 }
 # Avoid literal closing script tags in inlined source text.
 jsdata=json.dumps(site_json,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
