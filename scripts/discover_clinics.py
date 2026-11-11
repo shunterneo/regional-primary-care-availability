@@ -15,7 +15,7 @@ from common import ROOT
 DATA=ROOT/'data'; CONF=DATA/'search_queries.json'; QUEUE=DATA/'discovery_queue.json'; STATE=DATA/'discovery_state.json'
 USER_AGENT='RegionalPrimaryCareDiscovery/2.0 (public news only; no patient data)'
 HEALTH=re.compile(r'\b(?:family\s+(?:doctor|physician|medicine|practice)|primary\s+care|nurse\s+practitioner|medical\s+(?:clinic|centre|center)|health\s+centre|patient\s+attachment|new\s+patients?)\b',re.I)
-ACTION=re.compile(r'\b(?:accept(?:ing)?|new|open(?:ing|ed)?|intake|enrol|register|attach|roster|wait\s?list|recruit|launch|expand)\b',re.I)
+ACTION=re.compile(r'\b(?:accept(?:ing)?|new|open(?:ing|ed)?|intake|enrol|register|attach|roster|wait\s?list|recruit|launch|expand|clos(?:e|ed|ing|ure)|retir(?:e|ed|ement)|relocat(?:e|ed|ion)|merg(?:e|ed|er)|new\s+(?:office|location|physician|doctor))\b',re.I)
 
 def build_feed(query):
     return 'https://news.google.com/rss/search?'+urlencode({'q':query+' when:7d','hl':'en-CA','gl':'CA','ceid':'CA:en'})
@@ -44,7 +44,7 @@ def run():
     conf=json.loads(CONF.read_text());state=json.loads(STATE.read_text());queue=json.loads(QUEUE.read_text())
     now=dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     queries=conf['queries'];take=min(conf.get('queries_per_run',12),len(queries))
-    day=dt.date.today().toordinal();start=(day*take)%len(queries)
+    start=int(state.get('next_query_index',0))%len(queries)
     chosen=[queries[(start+i)%len(queries)] for i in range(take)]
     errors=[];found=0;queued=0;duplicates=0
     existing_ids={x['id'] for x in queue['items']}
@@ -70,6 +70,7 @@ def run():
     # Limit history growth without forgetting recently detected duplicates.
     cutoff=(dt.datetime.now(dt.timezone.utc)-dt.timedelta(days=180)).isoformat(timespec='seconds')
     state['seen']={k:v for k,v in state['seen'].items() if v>=cutoff}
+    state['next_query_index']=(start+take)%len(queries)
     state['last_run']=now
     state['last_summary']={'queries_attempted':len(chosen),'queries_failed':len(errors),'feed_items_seen':found,'new_leads_queued':queued,'duplicates_skipped':duplicates,'errors':errors[:5]}
     STATE.write_text(json.dumps(state,indent=2,ensure_ascii=False)+'\n')

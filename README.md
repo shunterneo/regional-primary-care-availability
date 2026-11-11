@@ -5,10 +5,10 @@
 ## Current state and honest boundaries
 
 - **Built and locally tested:** A standalone interactive clinic overview, one verified-status JSON database, generated DOCX/PDF directories, automated official-source change detection, broader news-based clinic discovery, optional AI review assistance, a review-notification workflow, and a manual approval form that republishes approved changes.
-- **Not yet deployed:** These scheduled jobs cannot run daily until this folder is uploaded into a **new personal GitHub repository** and GitHub Pages is enabled. The available GitHub connector cannot create a new repository. Do not upload to a workplace repository or an unrelated personal project.
+- **Hosting:** The independent project is published from the personal GitHub repository `shunterneo/regional-primary-care-availability`; check GitHub Actions for the latest successful scheduled run. Publishing an updated package or changing files does not itself confirm a successful deployment.
 - **Current data:** 95 clinic/service listings from the **November 11, 2026 research baseline**. The directory is not a completed CPSO/CNO audit. Intake claims are historical public-source research, not real-time availability guarantees.
 - **Geography:** Existing records are grouped at *community-centre map markers*, not verified street-level clinic pins. New clinic records must use a verified public clinic coordinate to check the 75 km radius. Never supply patient addresses.
-- **Automatic updates:** The map and documents *automatically rebuild and deploy* when the database has an **explicitly reviewed, approved** status change. Automated search results are **review leads only**. This conservative policy prevents a changed/blocked website from being labelled an intake closure.
+- **Automatic updates:** Clinic-specific, unambiguous first-party intake/closure notices can publish after two independent daily checks. Third-party directories, news reports, and CPSO/CNO registration are **review leads only**, never automatic accepting/closed claims. Refer to `DISCOVERY_OPERATIONS.md` for the source-by-source policy.
 - **Optional API:** AI-assisted public-text triage is disabled until a separately billed `OPENAI_API_KEY` is added as a personal-repository secret. Daily public-source checks and no-key RSS discovery still operate without it. ChatGPT subscription and ChatGPT automations do **not** automatically modify this repository.
 
 ## Key project components
@@ -22,6 +22,9 @@
 | `data/review_history.json` | History of approved new clinics and status changes |
 | `data/review_queue.json` | Public clinic source-page changes needing review |
 | `data/discovery_queue.json` | Previously unseen *possible* clinic/intake news leads; not verified |
+| `data/directory_queue.json`, `data/directory_state.json` | Candidate and change detection from curated regional physician lists |
+| `data/registry_audit_queue.json` | Rotating CPSO/CNO human verification tasks; no bulk registry scraping |
+| `DISCOVERY_OPERATIONS.md` | Independent discovery source matrix and evidence safeguards |
 | `data/source_state.json`, `data/discovery_state.json` | Monitor checkpoints and source fetch health |
 | `data/triage_state.json` | Optional AI suggestions, never automatically published |
 | `.github/workflows/daily-site.yml` | Schedule: daily at 8:17 a.m. America/Toronto, plus manual runs |
@@ -44,7 +47,7 @@
 
 3. In the repository, **Settings → Pages → Build and deployment → GitHub Actions**. Under **Settings → Actions**, enable Actions and allow GitHub Actions to write to the repository; the workflow declares required permissions. Enable **Issues** if you want automatic consolidated review notifications.
 4. **Actions → Check public intake sources and publish vetted directory → Run workflow.** Verify a successful Pages deployment, then open the Pages URL. The Word/PDF links on the website are stable even after updates.
-5. The scheduled workflow subsequently checks existing clinic source pages and rotates through public Google News RSS searches for clinic/intake discoveries. It records new leads, runs tests, rebuilds the site and documents, and optionally creates **one GitHub Issue per run** with newly queued items for verification. If GitHub Issues is disabled, leads still remain in the JSON queues.
+5. The scheduled workflow subsequently checks known clinic pages, curated regional physician directories, the Ontario public clinic registry, and rotating public news/municipal sources. It records new leads, runs tests, rebuilds the site and documents, and optionally creates **one GitHub Issue per run** with newly queued items for verification. If GitHub Issues is disabled, leads still remain in the JSON queues.
 6. **Optional AI**: to enable bounded AI review of public excerpts, add `OPENAI_API_KEY` as an **Actions repository secret** in this *personal* repository. The default model is `gpt-5.4` and at most six items are sent per daily run. This incurs API charges. No clinic statuses are ever changed by AI output. Do not place the key in files or commit history.
 
 If a workflow cannot run because the repository's permissions or Pages settings prevent it, review the failed Actions job rather than assuming the directory is current. Scheduled GitHub workflows can be delayed or disabled after inactivity; periodically verify the latest successful run. The public website's `Generated` date is not proof of a successful intake confirmation.
@@ -91,6 +94,7 @@ python scripts/validate.py
 python scripts/build.py
 python tests/monitor_fixture_test.py
 python tests/discovery_fixture_test.py
+python tests/directory_discovery_fixture_test.py
 python tests/approval_fixture_test.py
 node tests/site_js_smoke.cjs
 ```

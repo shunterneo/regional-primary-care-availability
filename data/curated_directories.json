@@ -1,0 +1,44 @@
+[
+  {
+    "id": "london_association",
+    "name": "London & District Academy of Medicine — accepting physicians",
+    "url": "https://www.ldam.ca/find-a-doctor",
+    "mode": "people",
+    "kind": "physician_intake_directory"
+  },
+  {
+    "id": "brant_hospital",
+    "name": "Brant Community Healthcare System — finding a doctor",
+    "url": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+    "mode": "people",
+    "kind": "physician_intake_directory"
+  },
+  {
+    "id": "cambridge_recruitment",
+    "name": "Doctors4Cambridge — recruitment and accepting directory",
+    "url": "https://www.doctors4cambridge.com/contact.htm",
+    "mode": "table",
+    "kind": "physician_intake_directory"
+  },
+  {
+    "id": "sw_healthline",
+    "name": "Southwest Healthline — family medical centres",
+    "url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=London",
+    "mode": "cards",
+    "kind": "practice_directory"
+  },
+  {
+    "id": "woodstock_news",
+    "name": "City of Woodstock — physician recruitment announcements",
+    "url": "https://www.cityofwoodstock.ca/news/",
+    "mode": "news",
+    "kind": "municipal_announcements"
+  },
+  {
+    "id": "oxford_oht",
+    "name": "Oxford OHT — primary care resources for unattached patients",
+    "url": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+    "mode": "page",
+    "kind": "local_care_resource"
+  }
+]

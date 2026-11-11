@@ -41,6 +41,8 @@ jobs:
         run: |
           python scripts/check_sources.py
           python scripts/discover_clinics.py
+          python scripts/directory_discovery.py
+          python scripts/registry_audit.py
           python scripts/official_registry.py
           python scripts/auto_publish.py
       - name: Optional AI triage of PUBLIC leads (never edits intake statuses)
@@ -58,6 +60,7 @@ jobs:
         run: |
           python tests/monitor_fixture_test.py
           python tests/discovery_fixture_test.py
+          python tests/directory_discovery_fixture_test.py
           python tests/auto_publication_test.py
           node tests/site_js_smoke.cjs
       - name: Create one GitHub review issue for NEW findings, if any
@@ -84,6 +87,8 @@ jobs:
           git add data/clinics.json data/review_history.json data/extra_communities.json \
             data/official_registry_state.json data/source_state.json data/review_queue.json \
             data/discovery_state.json data/discovery_queue.json \
+            data/directory_state.json data/directory_queue.json \
+            data/registry_audit_state.json data/registry_audit_queue.json \
             data/triage_state.json data/notification_state.json
           if ! git diff --cached --quiet; then
             git commit -m 'Record verified public-source changes and research leads'

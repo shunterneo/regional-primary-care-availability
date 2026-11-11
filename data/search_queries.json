@@ -2,7 +2,7 @@
   "version": 1,
   "feed_provider": "Google News RSS",
   "disclaimer": "Public news-feed discovery is incomplete; results are leads requiring review and radius/clinic verification.",
-  "queries_per_run": 12,
+  "queries_per_run": 16,
   "queries": [
     "Tillsonburg family doctor clinic new patients Ontario",
     "Oxford County Ontario family physician nurse practitioner accepting patients",
@@ -19,6 +19,21 @@
     "Strathroy Middlesex new family physician accepting patients",
     "Port Burwell Vienna Delhi Ontario family doctor new clinic",
     "Paris Burford Ontario family doctor accepting new patients",
-    "southwestern Ontario new family medicine clinic physician recruitment"
+    "southwestern Ontario new family medicine clinic physician recruitment",
+    "site:cityofwoodstock.ca/news family physician new medical practice",
+    "site:cityofwoodstock.ca/news new family doctor primary care clinic",
+    "site:bchsys.org accepting new family physicians Brantford",
+    "site:brantford.ca family physician clinic opened",
+    "site:ldam.ca family doctors accepting new patients London",
+    "site:doctors4cambridge.com new physicians family clinic",
+    "site:oxfordoht.ca new primary care nurse practitioner clinic Oxford County",
+    "site:stthomas.ca family physician recruited new clinic",
+    "site:thamesvalleyfht.ca new nurse practitioner patient attachment",
+    "site:grandriverchc.ca new primary care intake Brantford",
+    "site:swhealthline.ca family medical centre new London",
+    "site:oxfordcounty.ca family physician opening",
+    "site:cityofwoodstock.ca family doctor retiring practice closure",
+    "London Woodstock Brantford physician retiring closing family practice",
+    "Waterloo Region new primary care physician office accepting families"
   ]
 }
