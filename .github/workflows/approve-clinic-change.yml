@@ -1,0 +1,79 @@
+name: Apply a reviewed clinic intake change
+on:
+  workflow_dispatch:
+    inputs:
+      clinic_id:
+        description: 'Existing clinic ID (find in data/clinics.json), e.g. c001'
+        required: true
+        type: string
+      status:
+        description: 'Verified clinic-specific intake status'
+        required: true
+        type: choice
+        options:
+          - accepting
+          - reported
+          - limited
+          - waitlist
+          - not_accepting
+          - unknown
+      source_url:
+        description: 'Official HTTPS source showing this status'
+        required: true
+        type: string
+      intake_detail:
+        description: 'Exact intake eligibility/application information; NO patient information'
+        required: true
+        type: string
+      reviewer_note:
+        description: 'What you verified, date and any conflicting evidence'
+        required: true
+        type: string
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: public-primary-care-site
+  cancel-in-progress: false
+jobs:
+  approve-build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Apply explicit review only (no patient or staff data)
+        env:
+          APPROVAL_CLINIC_ID: ${{ inputs.clinic_id }}
+          APPROVAL_STATUS: ${{ inputs.status }}
+          APPROVAL_SOURCE_URL: ${{ inputs.source_url }}
+          APPROVAL_INTAKE_DETAIL: ${{ inputs.intake_detail }}
+          APPROVAL_REVIEWER_NOTE: ${{ inputs.reviewer_note }}
+        run: python scripts/approve_from_env.py
+      - name: Validate and rebuild map and documents
+        run: |
+          python scripts/validate.py
+          python scripts/build.py
+          python tests/discovery_fixture_test.py
+          node tests/site_js_smoke.cjs
+      - name: Commit approved change and history
+        run: |
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git add data/clinics.json data/review_history.json
+          git commit -m 'Publish a manually reviewed primary-care intake update'
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

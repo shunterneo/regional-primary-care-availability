@@ -1,0 +1,19 @@
+{
+  "generated_on": "2026-11-11",
+  "data_as_of": "2026-11-11",
+  "count": 95,
+  "communities": 24,
+  "status_counts": {
+    "accepting": 14,
+    "reported": 23,
+    "limited": 4,
+    "waitlist": 6,
+    "not_accepting": 3,
+    "unknown": 45
+  },
+  "source_urls_monitored": 0,
+  "pending_source_reviews": 0,
+  "pending_new_clinic_leads": 0,
+  "last_source_scan": null,
+  "last_discovery_scan": null
+}

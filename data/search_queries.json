@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "feed_provider": "Google News RSS",
+  "disclaimer": "Public news-feed discovery is incomplete; results are leads requiring review and radius/clinic verification.",
+  "queries_per_run": 12,
+  "queries": [
+    "Tillsonburg family doctor clinic new patients Ontario",
+    "Oxford County Ontario family physician nurse practitioner accepting patients",
+    "Woodstock Ingersoll new family doctor accepting patients",
+    "Norwich Courtland Aylmer Ontario medical clinic new patient",
+    "St Thomas Elgin County family physician new patients",
+    "London Ontario family practice accepting new patients",
+    "London Ontario nurse practitioner clinic attachment enrollment",
+    "Brantford Brant County family doctor accepting new patients",
+    "Cambridge Ontario family practice patient registration",
+    "Kitchener Waterloo Ontario nurse practitioner family doctor roster",
+    "Simcoe Norfolk County family doctor accepting patients",
+    "Stratford Ontario family medicine clinic new patients",
+    "Strathroy Middlesex new family physician accepting patients",
+    "Port Burwell Vienna Delhi Ontario family doctor new clinic",
+    "Paris Burford Ontario family doctor accepting new patients",
+    "southwestern Ontario new family medicine clinic physician recruitment"
+  ]
+}
