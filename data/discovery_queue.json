@@ -97,6 +97,20 @@
       "reviewed_on": "2026-11-12",
       "original_source": "https://thamesvalleyfht.ca/2026/11/11/nurse-practitioner-week-2026/",
       "reviewer_note": "Primary source reviewed. Two future clinics in London and Lambeth are being planned; no street addresses or opening dates given. Retain future-location lead; existing regional application pathway already listed. Do not publish planned sites as operating."
+    },
+    {
+      "id": "e8bc06968d802950",
+      "detected_at": "2026-11-12T20:51:42+00:00",
+      "title": "N.S. family doctor waitlist decreases by more than 3,000 - CTV News",
+      "news_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX1R3elUxQVh3X0JIUEhQODU5dkNtQldqUU5lejNMdl9hZnFpSHNYMFQ5VjBXcldVcmRwdEYxRWhZMTVZeUhWRzVCUkpPQ3ctNDNyT0xnenQyYXRnUm9QaTFtZGRhcm53WjdXNzNmbEhLZm52VU9JRzlpQmIzZ3YzdjdfbkxxNXk3MUUxaTlHSjlvSGk1RENUdXFuQ09IOHIzMFFVV05kWENnZw?oc=5",
+      "published": "Thu, 12 Nov 2026 14:35:29 GMT",
+      "matched_query": "Cambridge Ontario family practice patient registration",
+      "source_type": "news_search_feed",
+      "proposed_action": "investigate clinic or intake",
+      "within_75km": "not verified",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
     }
   ]
 }
