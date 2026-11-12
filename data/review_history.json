@@ -5,9 +5,9 @@
     "clinic_name": "Langs North Dumfries Community Health Centre",
     "old_status": "reported",
     "new_status": "accepting",
-    "type": "independent_public_source_audit",
     "source": "https://www.langs.org/new-patients",
-    "reviewer_note": "Langs accepts new North Dumfries clients through Health Care Connect matching; matching and enrolment are not guaranteed."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Langs directly says accepting in North Dumfries; applicants register via Health Care Connect and await matching."
   },
   {
     "date": "2026-11-11",
@@ -15,9 +15,9 @@
     "clinic_name": "Avenue Medical Centre",
     "old_status": "reported",
     "new_status": "unknown",
-    "type": "independent_public_source_audit",
     "source": "https://www.avenuemedical.ca/index.aspx?PageName=Notices",
-    "reviewer_note": "Conflicting clinic notices: one says Dr Vidhi Desai is open to unattached local patients; another states no physicians taking new patients and waitlist closed. Direct confirmation required."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Same clinic notices include Dr Vidhi Desai being open to unattached local patients and separate wording saying no doctors taking new patients or waitlist requests."
   },
   {
     "date": "2026-11-11",
@@ -25,9 +25,9 @@
     "clinic_name": "Valleyview Medical Centre — Colborne",
     "old_status": "reported",
     "new_status": "accepting",
-    "type": "independent_public_source_audit",
     "source": "https://valleyviewmedical.ca/",
-    "reviewer_note": "Valleyview official website advertises new family-practice registration, including Brantford Colborne location; acceptance not guaranteed."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Valleyview clinic website says family-practice registration is open with location selection; Colborne site listed."
   },
   {
     "date": "2026-11-11",
@@ -35,9 +35,9 @@
     "clinic_name": "Valleyview Medical Centre — Lynden",
     "old_status": "reported",
     "new_status": "accepting",
-    "type": "independent_public_source_audit",
     "source": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
-    "reviewer_note": "Valleyview official Lynden location advertises new-patient registration and Dr Omisore; roster capacity subject to clinic review."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Valleyview Lynden site has new-patient registration path and identifies Dr Omisore; application reviewed by clinic."
   },
   {
     "date": "2026-11-11",
@@ -45,9 +45,9 @@
     "clinic_name": "Coronation Family Physicians — Dr. Fares Hayek",
     "old_status": "reported",
     "new_status": "waitlist",
-    "type": "independent_public_source_audit",
     "source": "https://www.coronationfamilyphysicians.ca/",
-    "reviewer_note": "Coronation's own website offers new-patient waiting-list applications, not guaranteed immediate physician attachment."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Own practice website directs applicants to Add me to your New Patient Waiting List; Dr Hayek is listed among clinicians."
   },
   {
     "date": "2026-11-11",
@@ -55,9 +55,9 @@
     "clinic_name": "Langs Community Health Centre — Cambridge",
     "old_status": "reported",
     "new_status": "accepting",
-    "type": "independent_public_source_audit",
     "source": "https://www.langs.org/new-patients",
-    "reviewer_note": "Langs confirms accepting Cambridge clients through the Health Care Connect matching pathway, not guaranteed immediate attachment."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Langs official site says Cambridge residents may register via Health Care Connect; eligibility/matching required."
   },
   {
     "date": "2026-11-11",
@@ -65,9 +65,9 @@
     "clinic_name": "St. Andrews Walk-in & Medical Clinic",
     "old_status": "reported",
     "new_status": "accepting",
-    "type": "independent_public_source_audit",
     "source": "https://standrewsclinic.ca/booking/",
-    "reviewer_note": "St Andrews clinic has a family practice registration pathway with meet-and-greet for Dr Edward Ladipo, separate from walk-in registration."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Official St Andrews site offers family-practice registration with meet-and-greet; walk-in booking distinct; physician spelled Dr Edward Ladipo."
   },
   {
     "date": "2026-11-11",
@@ -75,9 +75,9 @@
     "clinic_name": "Townline Walk-in & Family Medical Clinic",
     "old_status": "reported",
     "new_status": "accepting",
-    "type": "independent_public_source_audit",
     "source": "https://townlineclinic.com/",
-    "reviewer_note": "Townline clinic advertises family practice registration for Dr Mehreen Saif and Dr Muhammad Waqar Faisal, separate from walk-in services."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Official Townline site accepts family-practice registration for Dr Mehreen Saif and Dr Muhammad Waqar Faisal, distinct from walk-in."
   },
   {
     "date": "2026-11-11",
@@ -85,9 +85,9 @@
     "clinic_name": "Active Care Medical Centre — Dr. Ankit Sachdeva",
     "old_status": "reported",
     "new_status": "accepting",
-    "type": "independent_public_source_audit",
     "source": "https://activecaremedicalcentre.com/201-clinic/",
-    "reviewer_note": "Active Care official clinic page explicitly lists Dr Ankit Sachdeva, Dr Saumya Dargar and Dr H Nasir as accepting applications."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Clinic own website explicitly identifies Dr Ankit Sachdeva, Dr Saumya Dargar and Dr H Nasir accepting and links application forms."
   },
   {
     "date": "2026-11-11",
@@ -95,9 +95,9 @@
     "clinic_name": "Hamilton Medical Clinic (London)",
     "old_status": "reported",
     "new_status": "unknown",
-    "type": "independent_public_source_audit",
     "source": "https://hamiltonmedclinic.com/",
-    "reviewer_note": "Hamilton Medical Clinic official notice says Dr Adeniran is NO LONGER accepting new patients. No verified opening for another family physician. Do not refer as accepting."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Clinic official site explicitly states Dr Adeniran no longer accepting new patients; contradicts LDA referral list."
   },
   {
     "date": "2026-11-11",
@@ -105,9 +105,9 @@
     "clinic_name": "Old South FHO — Dr. Spence & Dr. Goosheh",
     "old_status": "reported",
     "new_status": "accepting",
-    "type": "independent_public_source_audit",
     "source": "https://www.oldsouthfho.ca/new-patients",
-    "reviewer_note": "Old South FHO's own New Patients page explicitly lists Dr Shizar Goosheh and Dr Jeff Spence as accepting applications."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Old South FHO own New Patients page explicitly names Dr Shizar Goosheh and Dr Jeff Spence as accepting."
   },
   {
     "date": "2026-11-11",
@@ -115,9 +115,9 @@
     "clinic_name": "Saffron Medical Centre",
     "old_status": "reported",
     "new_status": "unknown",
-    "type": "independent_public_source_audit",
     "source": "https://www.saffronhealth.ca/services/family-medical-centre/",
-    "reviewer_note": "General clinic marketing mentions welcoming patients but does not independently identify a currently accepting family physician or confirmed roster."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Saffron site promotes welcoming new patients in general marketing copy but does not identify a specific current accepting family physician or a confirmed roster."
   },
   {
     "date": "2026-11-11",
@@ -125,9 +125,9 @@
     "clinic_name": "Viva Medical Clinic",
     "old_status": "reported",
     "new_status": "accepting",
-    "type": "independent_public_source_audit",
     "source": "https://vivamedicalclinic.ca/",
-    "reviewer_note": "Viva Medical Clinic's own website explicitly identifies Dr Osita Ohaeto as currently accepting new patients."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Viva clinic own site explicitly identifies Dr Osita Ohaeto as currently accepting and provides a registration route."
   },
   {
     "date": "2026-11-11",
@@ -135,9 +135,9 @@
     "clinic_name": "Wonderland South Medical Centre",
     "old_status": "reported",
     "new_status": "accepting",
-    "type": "independent_public_source_audit",
     "source": "https://www.wonderlandsouthmedicalcentre.ca/",
-    "reviewer_note": "Wonderland South Medical Centre's own website has a new-patient application for Dr Kay Arogundade."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Wonderland South site names Dr Kay Arogundade and provides new-patient application instructions."
   },
   {
     "date": "2026-11-11",
@@ -145,9 +145,9 @@
     "clinic_name": "Thames Valley FHT — Queens Avenue Health & Homelessness",
     "old_status": "limited",
     "new_status": "unknown",
-    "type": "independent_public_source_audit",
     "source": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
-    "reviewer_note": "Queens Avenue Health & Homelessness program provides restricted low-barrier care and voluntary attachment, but no current publicly advertised intake opening was verified."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "Queens Avenue Health and Homelessness site describes low-barrier primary care and voluntary attachment, not explicitly open new-patient registration today."
   },
   {
     "date": "2026-11-11",
@@ -155,8 +155,58 @@
     "clinic_name": "Old South FHO — Dr. Zarmeen Qamar",
     "old_status": "waitlist",
     "new_status": "unknown",
-    "type": "independent_public_source_audit",
     "source": "https://www.ldam.ca/find-a-doctor",
-    "reviewer_note": "London medical association says Dr Zarmeen Qamar's waitlist starts in January 2027; not an open waitlist on November 11, 2026."
+    "type": "independent_public_source_audit",
+    "reviewer_note": "London medical association says Dr Zarmeen Qamar waitlist starts January 2027; it is November 2026 and intake is not yet currently open."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c008",
+    "clinic_name": "Thames Valley FHT — Springbank NP Clinic",
+    "old_status": "accepting",
+    "new_status": "reported",
+    "type": "strict_evidence_baseline_policy",
+    "source": "https://thamesvalleyfht.ca/become-a-patient/",
+    "reviewer_note": "Original intake statement did not establish current location-specific attachment; downgraded to reported lead."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c012",
+    "clinic_name": "Oxfordia Medical Centre — Dr. Hamza Aman",
+    "old_status": "accepting",
+    "new_status": "reported",
+    "type": "strict_evidence_baseline_policy",
+    "source": "https://www.cityofwoodstock.ca/news/posts/new-family-physician-opens-oxfordia-medical-centre-in-woodstock/",
+    "reviewer_note": "Original intake statement did not establish current location-specific attachment; downgraded to reported lead."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c013",
+    "clinic_name": "Thames Valley Family Health Team — Woodstock",
+    "old_status": "accepting",
+    "new_status": "reported",
+    "type": "strict_evidence_baseline_policy",
+    "source": "https://www.ocnplc.ca/patient-information/new-patients/",
+    "reviewer_note": "Original intake statement did not establish current location-specific attachment; downgraded to reported lead."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c015",
+    "clinic_name": "Langs North Dumfries Community Health Centre",
+    "old_status": "accepting",
+    "new_status": "limited",
+    "type": "strict_evidence_baseline_policy",
+    "source": "https://www.langs.org/new-patients",
+    "reviewer_note": "Clinic offers a matching/registration pathway, not a direct open family-practice roster; moved to limited."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c023",
+    "clinic_name": "Langs Community Health Centre — Cambridge",
+    "old_status": "accepting",
+    "new_status": "limited",
+    "type": "strict_evidence_baseline_policy",
+    "source": "https://www.langs.org/new-patients",
+    "reviewer_note": "Clinic offers a matching/registration pathway, not a direct open family-practice roster; moved to limited."
   }
 ]

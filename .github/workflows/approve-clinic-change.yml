@@ -25,6 +25,18 @@ on:
         description: 'Exact intake eligibility/application information; NO patient information'
         required: true
         type: string
+      verification_scope:
+        description: 'For ACCEPTING: exact site or named clinician; otherwise choose unverified'
+        required: true
+        type: choice
+        options:
+          - unverified
+          - location
+          - named_clinician
+      evidence_quote:
+        description: 'For ACCEPTING: exact first-party notice mentioning ongoing family/NP care; not walk-in'
+        required: false
+        type: string
       reviewer_note:
         description: 'What you verified, date and any conflicting evidence'
         required: true
@@ -57,6 +69,8 @@ jobs:
           APPROVAL_SOURCE_URL: ${{ inputs.source_url }}
           APPROVAL_INTAKE_DETAIL: ${{ inputs.intake_detail }}
           APPROVAL_REVIEWER_NOTE: ${{ inputs.reviewer_note }}
+          APPROVAL_EVIDENCE_QUOTE: ${{ inputs.evidence_quote }}
+          APPROVAL_VERIFICATION_SCOPE: ${{ inputs.verification_scope }}
         run: python scripts/approve_from_env.py
       - name: Validate and rebuild map and documents
         run: |

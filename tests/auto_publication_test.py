@@ -26,9 +26,9 @@ assert first_party(clinic,clinic['evidence_url'],['c900'])
 assert not first_party(clinic,clinic['evidence_url'],['c900','c901'])
 assert not first_party(clinic,clinic['evidence_url'],['c900'],'https://another-site.ca')
 assert not first_party({**clinic,'clinic_url':'https://211ontario.ca/'},clinic['evidence_url'],['c900'])
-first=observe({},decisive_statement('We are now accepting new patients.'),'2026-11-10T13:00:00+00:00')
+first=observe({},decisive_statement('Our family practice is now accepting new patients.'),'2026-11-10T13:00:00+00:00')
 assert not confirmed(first,'2026-11-10')
-second=observe(first,decisive_statement('We are now accepting new patients.'),'2026-11-11T13:00:00+00:00')
+second=observe(first,decisive_statement('Our family practice is now accepting new patients.'),'2026-11-11T13:00:00+00:00')
 assert confirmed(second,'2026-11-11')
 assert not confirmed(second,'2026-11-15')
 assert not confirmed(observe(second,decisive_statement('We are not accepting new patients.'),'2026-11-12T13:00:00+00:00'),'2026-11-12')
@@ -36,12 +36,13 @@ source={'sources':{clinic['evidence_url']:{'official_first_party':True,'auto_obs
 record={'clinics':[copy.deepcopy(clinic)],'data_as_of':'2026-11-09'}
 history=[]
 changes,_=apply(record,source,history,'2026-11-11')
-assert len(changes)==1 and record['clinics'][0]['status']=='accepting' and history[-1]['type']=='automated_official_confirmation'
+assert len(changes)==1 and record['clinics'][0]['status']=='accepting' and record['clinics'][0]['intake_verification']['tier']=='clinic_first_party' and history[-1]['type']=='automated_official_confirmation'
 assert not apply(record,source,history,'2026-11-11')[0]
 assert len(history)==1
 # Combined walk-in/ongoing provider cannot be auto-advertised on an ambiguous generic intake claim.
 combo={**clinic,'care_model':'both','id':'c901'}
-combo_source={'sources':{clinic['evidence_url']:{'official_first_party':True,'auto_observation':second,'last_error':None}}}
+combo_observation={**second,'quote':'We are now accepting new patients.'}
+combo_source={'sources':{clinic['evidence_url']:{'official_first_party':True,'auto_observation':combo_observation,'last_error':None}}}
 combo_record={'clinics':[copy.deepcopy(combo)],'data_as_of':'2026-11-09'}
 assert not apply(combo_record,combo_source,[],'2026-11-11')[0]
 combo_source['sources'][clinic['evidence_url']]['auto_observation']={**second,'quote':'Our family practice is now accepting new patients'}

@@ -29,7 +29,8 @@ def apply(database, source_state, history, day):
         # Combined providers need the first-party *statement itself* to specify ongoing care.
         if decision!='closed':
             if c.get('care_model') not in ('ongoing','both'):continue
-            if c.get('care_model')=='both' and not explicit_longitudinal(o.get('quote','')):continue
+            # Even at an MD/NP clinic, a generic "new patients" notice may refer to walk-ins.
+            if not explicit_longitudinal(o.get('quote','')):continue
         prior=c.get('status','unknown')
         if decision=='closed':
             # A permanent practice closure archives its *office*, not merely intake.
@@ -42,6 +43,9 @@ def apply(database, source_state, history, day):
         elif prior != decision:
             c['status']=decision
             c['last_reviewed']=day
+            c['intake_verification']={'tier':'clinic_first_party','scope':'location','reviewed_on':day,
+                'source_url':url,'method':'two_day_official_monitor','finding':o.get('quote','')[:320],
+                'telephone_confirmed':False,'enrolment_guaranteed':False}
             c['intake_detail']=('Official clinic page explicitly states: '+o['quote'])[:400]
             c['review_basis']='Automatic: stable unambiguous first-party statement checked on separate days; subject to clinic confirmation.'
             action=decision
@@ -51,6 +55,12 @@ def apply(database, source_state, history, day):
             except (ValueError,KeyError):age=999
             if age>=7:
                 c['last_reviewed']=day
+                v=c.get('intake_verification') or {}
+                if v.get('tier')=='clinic_first_party' and v.get('source_url')==url:
+                    v['reviewed_on']=day
+                    v['finding']=o.get('quote','')[:320]
+                    v['method']='two_day_official_monitor'
+                    c['intake_verification']=v
                 c['review_basis']='Automatic weekly recheck of same first-party intake claim.'
                 refreshes+=1
             continue

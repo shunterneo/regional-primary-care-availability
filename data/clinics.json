@@ -25,10 +25,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.grandriverchc.ca/your-health/new-clients/"
+      "care_model_source": "https://www.grandriverchc.ca/your-health/new-clients/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.grandriverchc.ca/your-health/new-clients/",
+        "finding": "Own site explicitly accepts new client forms for unattached patients; attachment not guaranteed.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c002",
@@ -47,10 +57,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://greenwichmedical.ca/appointment"
+      "care_model_source": "https://greenwichmedical.ca/appointment",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://greenwichmedical.ca/appointment",
+        "finding": "Own appointment page explicitly advertises joining its family practice, distinct from walk-in intake. Site contains conflicting telephone details.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c003",
@@ -69,10 +89,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "both",
       "care_model_basis": "Official clinic: separate family-practice registration and walk-in service.",
-      "care_model_source": "https://emeraldcaremax.ca/"
+      "care_model_source": "https://emeraldcaremax.ca/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://emeraldcaremax.ca/registration/",
+        "finding": "Own registration page separately describes family-practice and walk-in forms.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c004",
@@ -91,10 +121,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://londonfht.ca/family-physicians/"
+      "care_model_source": "https://londonfht.ca/family-physicians/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
+        "finding": "Official team intake page names Beaverbrook; selected physicians/NPs only, not all clinicians.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c005",
@@ -113,10 +153,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/"
+      "care_model_source": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
+        "finding": "Official team intake page names Stoney Creek; selected physicians/NPs only.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c006",
@@ -135,10 +185,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
-      "care_model": "ongoing",
-      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thompsonmedical.ca/"
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "care_model": "both",
+      "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
+      "care_model_source": "https://thompsonmedical.ca/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://thompsonmedical.ca/new-patients/",
+        "finding": "TMC+ website says now accepting and provides location-selectable application.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c007",
@@ -157,10 +217,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
-      "care_model": "ongoing",
-      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thompsonmedical.ca/"
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "care_model": "both",
+      "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
+      "care_model_source": "https://thompsonmedical.ca/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://thompsonmedical.ca/new-patients/",
+        "finding": "TMC+ website advertises location-selectable new-patient application.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c008",
@@ -168,7 +238,7 @@
       "community": "London",
       "address": "460 Springbank Drive, Suite 209",
       "clinic_type": "NP",
-      "status": "accepting",
+      "status": "reported",
       "intake_detail": "Thames Valley FHT publicly accepting NP clinic patients across region. Site is an NP clinic; current site-specific capacity should be confirmed.",
       "phone": "519-473-0530 ext. 2263",
       "providers": "",
@@ -182,7 +252,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
+      "intake_verification": {
+        "tier": "program_general",
+        "scope": "program",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/become-a-patient/",
+        "finding": "TVFHT confirms nurse-practitioner clinic applications regionally; Springbank clinic exists, but site-specific capacity is not stated.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c009",
@@ -199,12 +279,22 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.elmdalehealth.com/"
+      "care_model_source": "https://www.elmdalehealth.com/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.elmdalehealth.com/",
+        "finding": "Building website advertises online family physician registration for Elgin County; notice undated, distinct from TMC+.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c010",
@@ -221,12 +311,22 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
-      "care_model": "ongoing",
-      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thompsonmedical.ca/walk-in-clinic/"
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "care_model": "both",
+      "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
+      "care_model_source": "https://thompsonmedical.ca/walk-in-clinic/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://thompsonmedical.ca/new-patients/",
+        "finding": "TMC+ site lists St Thomas as one of the location choices on its new-patient process.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c011",
@@ -239,16 +339,26 @@
       "phone": "519-926-6752",
       "providers": "Nurse-practitioner team; individual names not confirmed at this site",
       "evidence_url": "https://www.ocnplc.ca/patient-information/new-patients/",
-      "clinic_url": "https://oxfordoht.ca/tillsonburg-unattached-care-clinic/",
+      "clinic_url": "https://www.ocnplc.ca/patient-information/new-patients/",
       "source_published": "2026-08-25",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 0,
+      "community_distance_km": 0.0,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://oxfordoht.ca/tillsonburg-unattached-care-clinic/"
+      "care_model_source": "https://oxfordoht.ca/tillsonburg-unattached-care-clinic/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.ocnplc.ca/patient-information/new-patients/",
+        "finding": "Oxford NPLC official page states registration open; residents of Woodstock excluded/prioritized elsewhere.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c012",
@@ -256,7 +366,7 @@
       "community": "Woodstock",
       "address": "600 Princess Street, Suite 300",
       "clinic_type": "MD",
-      "status": "accepting",
+      "status": "reported",
       "intake_detail": "City of Woodstock directs new patients to Oxfordia website registration; confirm current availability before relying on an appointment.",
       "phone": "519-340-8186",
       "providers": "Dr. Hamza Aman",
@@ -270,7 +380,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.cityofwoodstock.ca/news/posts/new-family-physician-opens-oxfordia-medical-centre-in-woodstock/"
+      "care_model_source": "https://www.cityofwoodstock.ca/news/posts/new-family-physician-opens-oxfordia-medical-centre-in-woodstock/",
+      "intake_verification": {
+        "tier": "authoritative_secondary",
+        "scope": "program",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.cityofwoodstock.ca/news/posts/new-family-physician-opens-oxfordia-medical-centre-in-woodstock/",
+        "finding": "Woodstock City Oct 1 announcement directs prospective Dr Aman patients to Oxfordia new patient registration; Nov 10 local news reiterates accepting. Website not independently text-readable.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c013",
@@ -278,11 +398,11 @@
       "community": "Woodstock",
       "address": "959 Dundas Street East, Suite 204",
       "clinic_type": "FHT",
-      "status": "accepting",
+      "status": "reported",
       "intake_detail": "Accepting for nurse practitioner attachment, not necessarily an individual family doctor. Woodstock location specifically referenced by Oxford NPLC.",
       "phone": "519-537-6701",
       "providers": "Family health team serving multiple physicians. Individual physicians may practise elsewhere.",
-      "evidence_url": "https://thamesvalleyfht.ca/become-a-patient/",
+      "evidence_url": "https://www.ocnplc.ca/patient-information/new-patients/",
       "clinic_url": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
       "source_published": "2026-11-11",
       "last_reviewed": "2026-11-11",
@@ -292,7 +412,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "intake_verification": {
+        "tier": "program_general",
+        "scope": "program",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.ocnplc.ca/patient-information/new-patients/",
+        "finding": "Oxford NPLC expressly names TVFHT Woodstock at 959 Dundas St for NP attachment, plus TVFHT program intake page.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c014",
@@ -311,10 +441,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://trustycare.ca/team/dr-claire-louise-young-md/"
+      "care_model_source": "https://trustycare.ca/team/dr-claire-louise-young-md/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://trustycare.ca/registration/",
+        "finding": "Own clinic website provides new family practice registration form; a clinician describes limited openings.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c015",
@@ -322,8 +462,8 @@
       "community": "Ayr",
       "address": "2938 Greenfield Road",
       "clinic_type": "CHC",
-      "status": "accepting",
-      "intake_detail": "Langs accepts new North Dumfries clients through Health Care Connect matching; matching and enrolment are not guaranteed.",
+      "status": "limited",
+      "intake_detail": "Langs directly says accepting in North Dumfries; applicants register via Health Care Connect and await matching.",
       "phone": "519-653-1470 ext. 343",
       "providers": "",
       "evidence_url": "https://www.langs.org/new-patients",
@@ -336,7 +476,17 @@
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.langs.org/"
+      "care_model_source": "https://www.langs.org/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "matching_program",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.langs.org/new-patients",
+        "finding": "Langs directly says accepting in North Dumfries; applicants register via Health Care Connect and await matching.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c016",
@@ -345,7 +495,7 @@
       "address": "221 Brant Avenue",
       "clinic_type": "MD",
       "status": "unknown",
-      "intake_detail": "Conflicting clinic notices: one says Dr Vidhi Desai is open to unattached local patients; another states no physicians taking new patients and waitlist closed. Direct confirmation required.",
+      "intake_detail": "Same clinic notices include Dr Vidhi Desai being open to unattached local patients and separate wording saying no doctors taking new patients or waitlist requests.",
       "phone": "519-753-8666",
       "providers": "Dr Vidhi Desai",
       "evidence_url": "https://www.avenuemedical.ca/index.aspx?PageName=Notices",
@@ -359,7 +509,17 @@
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.avenuemedical.ca",
-      "auto_updates_enabled": false
+      "auto_updates_enabled": false,
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.avenuemedical.ca/index.aspx?PageName=Notices",
+        "finding": "Same clinic notices include Dr Vidhi Desai being open to unattached local patients and separate wording saying no doctors taking new patients or waitlist requests.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c017",
@@ -381,7 +541,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://bonavistamedicalcentrebrantford.com"
+      "care_model_source": "https://bonavistamedicalcentrebrantford.com",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+        "finding": "Brant hospital lists Drs Shaikh/Mutasher as accepting; Bonavista official site describes services but does not independently confirm new-patient enrolment.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c018",
@@ -403,7 +573,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/"
+      "care_model_source": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+        "finding": "Brant hospital lists Dr Clara Obanor; CPSO verifies practice location, not new intake. No clinic-specific current intake notice found.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c019",
@@ -412,20 +592,30 @@
       "address": "603 Colborne Street East",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Valleyview official website advertises new family-practice registration, including Brantford Colborne location; acceptance not guaranteed.",
+      "intake_detail": "Valleyview clinic website says family-practice registration is open with location selection; Colborne site listed.",
       "phone": "519-929-9819",
       "providers": "Dr Kolawole Gbolagade",
       "evidence_url": "https://valleyviewmedical.ca/",
-      "clinic_url": "https://valleyviewbrantford.ca",
+      "clinic_url": "https://valleyviewmedical.ca/locations/brantford-colborne",
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
-      "care_model": "ongoing",
-      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://valleyviewbrantford.ca"
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "care_model": "both",
+      "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
+      "care_model_source": "https://valleyviewbrantford.ca",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://valleyviewmedical.ca/",
+        "finding": "Valleyview clinic website says family-practice registration is open with location selection; Colborne site listed.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c020",
@@ -434,20 +624,30 @@
       "address": "175 Lynden Road, Unit A5-A",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Valleyview official Lynden location advertises new-patient registration and Dr Omisore; roster capacity subject to clinic review.",
+      "intake_detail": "Valleyview Lynden site has new-patient registration path and identifies Dr Omisore; application reviewed by clinic.",
       "phone": "519-398-7477",
       "providers": "Dr Tunde Samuel Omisore",
       "evidence_url": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
-      "clinic_url": "https://valleyviewbrantford.ca",
+      "clinic_url": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
-      "care_model": "ongoing",
-      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://valleyviewbrantford.ca"
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "care_model": "both",
+      "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
+      "care_model_source": "https://valleyviewbrantford.ca",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
+        "finding": "Valleyview Lynden site has new-patient registration path and identifies Dr Omisore; application reviewed by clinic.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c021",
@@ -456,7 +656,7 @@
       "address": "182 Pinebush Road",
       "clinic_type": "MD",
       "status": "waitlist",
-      "intake_detail": "Coronation's own website offers new-patient waiting-list applications, not guaranteed immediate physician attachment.",
+      "intake_detail": "Own practice website directs applicants to Add me to your New Patient Waiting List; Dr Hayek is listed among clinicians.",
       "phone": "",
       "providers": "Dr Fares Hayek",
       "evidence_url": "https://www.coronationfamilyphysicians.ca/",
@@ -470,7 +670,16 @@
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.coronationfamilyphysicians.ca/",
-      "auto_updates_enabled": false
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.coronationfamilyphysicians.ca/",
+        "finding": "Own practice website directs applicants to Add me to your New Patient Waiting List; Dr Hayek is listed among clinicians.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c022",
@@ -492,7 +701,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.doctors4cambridge.com/contact.htm"
+      "care_model_source": "https://www.doctors4cambridge.com/contact.htm",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.doctors4cambridge.com/contact.htm",
+        "finding": "Doctors4Cambridge lists Dr Sherif Mikhail and instructs prospective patients to phone; no directly verified current clinic announcement.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c023",
@@ -500,8 +719,8 @@
       "community": "Cambridge",
       "address": "1145 Concession Road",
       "clinic_type": "CHC",
-      "status": "accepting",
-      "intake_detail": "Langs confirms accepting Cambridge clients through the Health Care Connect matching pathway, not guaranteed immediate attachment.",
+      "status": "limited",
+      "intake_detail": "Langs official site says Cambridge residents may register via Health Care Connect; eligibility/matching required.",
       "phone": "519-653-1470 ext. 343",
       "providers": "",
       "evidence_url": "https://www.langs.org/new-patients",
@@ -514,7 +733,17 @@
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.langs.org/"
+      "care_model_source": "https://www.langs.org/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "matching_program",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.langs.org/new-patients",
+        "finding": "Langs official site says Cambridge residents may register via Health Care Connect; eligibility/matching required.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c024",
@@ -536,7 +765,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.doctors4cambridge.com/contact.htm"
+      "care_model_source": "https://www.doctors4cambridge.com/contact.htm",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.doctors4cambridge.com/contact.htm",
+        "finding": "Doctors4Cambridge offers email registration with Dr Bhatia; Saginaw own site confirms contact details but no current intake claim.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c025",
@@ -558,7 +797,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.doctors4cambridge.com/contact.htm"
+      "care_model_source": "https://www.doctors4cambridge.com/contact.htm",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.doctors4cambridge.com/contact.htm",
+        "finding": "Doctors4Cambridge lists Dr Hisham Ghali as accepting; no direct practice registration announcement verified.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c026",
@@ -567,7 +816,7 @@
       "address": "190 St Andrews Street, Unit B2",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "St Andrews clinic has a family practice registration pathway with meet-and-greet for Dr Edward Ladipo, separate from walk-in registration.",
+      "intake_detail": "Official St Andrews site offers family-practice registration with meet-and-greet; walk-in booking distinct; physician spelled Dr Edward Ladipo.",
       "phone": "226-667-5777",
       "providers": "",
       "evidence_url": "https://standrewsclinic.ca/booking/",
@@ -577,10 +826,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "both",
       "care_model_basis": "Official clinic: family-practice enrolment is distinct from walk-in bookings.",
-      "care_model_source": "https://standrewsclinic.ca/"
+      "care_model_source": "https://standrewsclinic.ca/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://standrewsclinic.ca/booking/",
+        "finding": "Official St Andrews site offers family-practice registration with meet-and-greet; walk-in booking distinct; physician spelled Dr Edward Ladipo.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c027",
@@ -589,7 +848,7 @@
       "address": "940 Jamieson Parkway",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Townline clinic advertises family practice registration for Dr Mehreen Saif and Dr Muhammad Waqar Faisal, separate from walk-in services.",
+      "intake_detail": "Official Townline site accepts family-practice registration for Dr Mehreen Saif and Dr Muhammad Waqar Faisal, distinct from walk-in.",
       "phone": "519-260-8100",
       "providers": "Dr Mehreen Saif; Dr Waqar Faisal",
       "evidence_url": "https://townlineclinic.com/",
@@ -599,10 +858,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "both",
       "care_model_basis": "Official clinic: separate family-practice registration and walk-in visits.",
-      "care_model_source": "https://townlineclinic.com/booking/"
+      "care_model_source": "https://townlineclinic.com/booking/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://townlineclinic.com/",
+        "finding": "Official Townline site accepts family-practice registration for Dr Mehreen Saif and Dr Muhammad Waqar Faisal, distinct from walk-in.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c028",
@@ -611,7 +880,7 @@
       "address": "London (street address requires confirmation)",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Active Care official clinic page explicitly lists Dr Ankit Sachdeva, Dr Saumya Dargar and Dr H Nasir as accepting applications.",
+      "intake_detail": "Clinic own website explicitly identifies Dr Ankit Sachdeva, Dr Saumya Dargar and Dr H Nasir accepting and links application forms.",
       "phone": "519-433-2996",
       "providers": "Dr Ankit Sachdeva",
       "evidence_url": "https://activecaremedicalcentre.com/201-clinic/",
@@ -621,10 +890,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://activecaremedicalcentre.com/201-clinic"
+      "care_model_source": "https://activecaremedicalcentre.com/201-clinic",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://activecaremedicalcentre.com/201-clinic/",
+        "finding": "Clinic own website explicitly identifies Dr Ankit Sachdeva, Dr Saumya Dargar and Dr H Nasir accepting and links application forms.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c029",
@@ -646,7 +925,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://colbornemedicare.ca/"
+      "care_model_source": "https://colbornemedicare.ca/",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.ldam.ca/find-a-doctor",
+        "finding": "London District medical association lists Dr Rabiya Niaz; the clinic website did not load for independent intake verification.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c030",
@@ -668,7 +957,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.ldam.ca/find-a-doctor"
+      "care_model_source": "https://www.ldam.ca/find-a-doctor",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.ldam.ca/find-a-doctor",
+        "finding": "London medical association lists Dr Festus Anochie. Radiant Family Physicians own site verifies practice but not new-patient intake.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c031",
@@ -690,7 +989,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.ldam.ca/find-a-doctor"
+      "care_model_source": "https://www.ldam.ca/find-a-doctor",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.ldam.ca/find-a-doctor",
+        "finding": "London medical association lists Dundas Medical Clinic and a registration link; no clinic-owned confirmation was verified.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c032",
@@ -699,7 +1008,7 @@
       "address": "204 Hamilton Road",
       "clinic_type": "MD",
       "status": "unknown",
-      "intake_detail": "Hamilton Medical Clinic official notice says Dr Adeniran is NO LONGER accepting new patients. No verified opening for another family physician. Do not refer as accepting.",
+      "intake_detail": "Clinic official site explicitly states Dr Adeniran no longer accepting new patients; contradicts LDA referral list.",
       "phone": "905-595-9126",
       "providers": "",
       "evidence_url": "https://hamiltonmedclinic.com/",
@@ -713,7 +1022,17 @@
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://hamiltonmedclinic.com/",
-      "auto_updates_enabled": false
+      "auto_updates_enabled": false,
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://hamiltonmedclinic.com/",
+        "finding": "Clinic official site explicitly states Dr Adeniran no longer accepting new patients; contradicts LDA referral list.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c033",
@@ -722,20 +1041,30 @@
       "address": "460 Springbank Drive, Suite 309",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Old South FHO's own New Patients page explicitly lists Dr Shizar Goosheh and Dr Jeff Spence as accepting applications.",
+      "intake_detail": "Old South FHO own New Patients page explicitly names Dr Shizar Goosheh and Dr Jeff Spence as accepting.",
       "phone": "519-858-0013",
       "providers": "Dr Jeff Spence; Dr Shizar Goosheh",
       "evidence_url": "https://www.oldsouthfho.ca/new-patients",
-      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_url": "https://www.oldsouthfho.ca/new-patients",
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.oldsouthfho.ca/new-patients",
+        "finding": "Old South FHO own New Patients page explicitly names Dr Shizar Goosheh and Dr Jeff Spence as accepting.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c034",
@@ -744,7 +1073,7 @@
       "address": "11 Base Line Road East, Unit 1",
       "clinic_type": "MD",
       "status": "unknown",
-      "intake_detail": "General clinic marketing mentions welcoming patients but does not independently identify a currently accepting family physician or confirmed roster.",
+      "intake_detail": "Saffron site promotes welcoming new patients in general marketing copy but does not identify a specific current accepting family physician or a confirmed roster.",
       "phone": "519-204-0361",
       "providers": "",
       "evidence_url": "https://www.saffronhealth.ca/services/family-medical-centre/",
@@ -758,7 +1087,17 @@
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.saffronhealth.ca/",
-      "auto_updates_enabled": false
+      "auto_updates_enabled": false,
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.saffronhealth.ca/services/family-medical-centre/",
+        "finding": "Saffron site promotes welcoming new patients in general marketing copy but does not identify a specific current accepting family physician or a confirmed roster.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c035",
@@ -780,7 +1119,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.ldam.ca/find-a-doctor"
+      "care_model_source": "https://www.ldam.ca/find-a-doctor",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.ldam.ca/find-a-doctor",
+        "finding": "London medical association lists Serenity; historical recruiter posting mentions intake but no current first-party acceptance notice.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c036",
@@ -789,7 +1138,7 @@
       "address": "149 Oxford Street East",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Viva Medical Clinic's own website explicitly identifies Dr Osita Ohaeto as currently accepting new patients.",
+      "intake_detail": "Viva clinic own site explicitly identifies Dr Osita Ohaeto as currently accepting and provides a registration route.",
       "phone": "226-667-8488",
       "providers": "",
       "evidence_url": "https://vivamedicalclinic.ca/",
@@ -799,10 +1148,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://vivamedicalclinic.ca/"
+      "care_model_source": "https://vivamedicalclinic.ca/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://vivamedicalclinic.ca/",
+        "finding": "Viva clinic own site explicitly identifies Dr Osita Ohaeto as currently accepting and provides a registration route.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c037",
@@ -811,7 +1170,7 @@
       "address": "1051 Wonderland Road South",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Wonderland South Medical Centre's own website has a new-patient application for Dr Kay Arogundade.",
+      "intake_detail": "Wonderland South site names Dr Kay Arogundade and provides new-patient application instructions.",
       "phone": "519-472-2060",
       "providers": "Dr Arogundade",
       "evidence_url": "https://www.wonderlandsouthmedicalcentre.ca/",
@@ -821,10 +1180,20 @@
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
+      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.wonderlandsouthmedicalcentre.ca"
+      "care_model_source": "https://www.wonderlandsouthmedicalcentre.ca",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.wonderlandsouthmedicalcentre.ca/",
+        "finding": "Wonderland South site names Dr Kay Arogundade and provides new-patient application instructions.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c038",
@@ -841,12 +1210,22 @@
       "source_published": "2026-08-26",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 23,
+      "community_distance_km": 23.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.ocnplc.ca/"
+      "care_model_source": "https://www.ocnplc.ca/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.ocnplc.ca/patient-information/new-patients/",
+        "finding": "Oxford NPLC official page says applications open with limited capacity in Ingersoll as of Aug 26.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c039",
@@ -868,7 +1247,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://lihc.on.ca/programs-services/primary-care/"
+      "care_model_source": "https://lihc.on.ca/programs-services/primary-care/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://lihc.on.ca/programs-services/primary-care/",
+        "finding": "London InterCommunity CHC explicitly says primary-care referrals open, with criteria for unattached London residents facing barriers.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c040",
@@ -890,7 +1279,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://lihc.on.ca/programs-services/primary-care/"
+      "care_model_source": "https://lihc.on.ca/programs-services/primary-care/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://lihc.on.ca/programs-services/primary-care/",
+        "finding": "Same London InterCommunity CHC program provides care at multiple sites; intake program open with restrictions, site capacity not separately established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c041",
@@ -899,7 +1298,7 @@
       "address": "602 Queens Avenue",
       "clinic_type": "NP",
       "status": "unknown",
-      "intake_detail": "Queens Avenue Health & Homelessness program provides restricted low-barrier care and voluntary attachment, but no current publicly advertised intake opening was verified.",
+      "intake_detail": "Queens Avenue Health and Homelessness site describes low-barrier primary care and voluntary attachment, not explicitly open new-patient registration today.",
       "phone": "",
       "providers": "",
       "evidence_url": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
@@ -913,7 +1312,17 @@
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
-      "auto_updates_enabled": false
+      "auto_updates_enabled": false,
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
+        "finding": "Queens Avenue Health and Homelessness site describes low-barrier primary care and voluntary attachment, not explicitly open new-patient registration today.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c042",
@@ -935,7 +1344,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://wrnplc.ca/contact-us/"
+      "care_model_source": "https://wrnplc.ca/contact-us/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://wrnplc.ca/patient-information/",
+        "finding": "Waterloo Region NP-led clinic has a 2026 intake form; current queue length and Breslau-specific status not confirmed.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c043",
@@ -957,7 +1376,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.gmcfht.ca/"
+      "care_model_source": "https://www.gmcfht.ca/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.gmcfht.ca/wait-list/",
+        "finding": "Grandview clinic directly accepts family physician wait-list requests and warns attachment is not guaranteed.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c044",
@@ -979,7 +1408,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://wrnplc.ca/contact-us/"
+      "care_model_source": "https://wrnplc.ca/contact-us/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://wrnplc.ca/patient-information/",
+        "finding": "Waterloo Region NP-led clinic 2026 form open; historic 10–12-month estimate is not currently validated for Cambridge.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c045",
@@ -1001,7 +1440,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.newvisionhealth.ca/need-a-family-doctor"
+      "care_model_source": "https://www.newvisionhealth.ca/need-a-family-doctor",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.newvisionhealth.ca/need-a-family-doctor",
+        "finding": "New Vision own indexed page says accepting names for new patient waitlist; webpage returned 403 to direct fetch but indexed clinic excerpt was available.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c046",
@@ -1023,7 +1472,17 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://wrnplc.ca/contact-us/"
+      "care_model_source": "https://wrnplc.ca/contact-us/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://wrnplc.ca/patient-information/",
+        "finding": "Waterloo Region NP-led clinic 2026 form open; current Pioneer Park wait length/site capacity unconfirmed.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c047",
@@ -1032,7 +1491,7 @@
       "address": "460 Springbank Drive",
       "clinic_type": "MD",
       "status": "unknown",
-      "intake_detail": "London medical association says Dr Zarmeen Qamar's waitlist starts in January 2027; not an open waitlist on November 11, 2026.",
+      "intake_detail": "London medical association says Dr Zarmeen Qamar waitlist starts January 2027; it is November 2026 and intake is not yet currently open.",
       "phone": "",
       "providers": "Dr Zarmeen Qamar",
       "evidence_url": "https://www.ldam.ca/find-a-doctor",
@@ -1046,7 +1505,17 @@
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.ldam.ca/find-a-doctor",
-      "auto_updates_enabled": false
+      "auto_updates_enabled": false,
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.ldam.ca/find-a-doctor",
+        "finding": "London medical association says Dr Zarmeen Qamar waitlist starts January 2027; it is November 2026 and intake is not yet currently open.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
     },
     {
       "id": "c048",
@@ -1063,12 +1532,20 @@
       "source_published": "2026-08-28",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 0,
+      "community_distance_km": 0.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://oxchc.ca/"
+      "care_model_source": "https://oxchc.ca/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "https://211ontario.ca/service/95081079/oxford-county-community-health-centre-oxford-county-community-health-centre/%26alt%3D1/",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c049",
@@ -1090,7 +1567,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://primemedical.ca/"
+      "care_model_source": "https://primemedical.ca/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "https://primemedical.ca/",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c050",
@@ -1112,7 +1597,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://oxchc.ca/"
+      "care_model_source": "https://oxchc.ca/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "https://211ontario.ca/service/95081080/oxford-county-community-health-centre-oxford-county-community-health-centre/",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c051",
@@ -1129,12 +1622,20 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 73,
+      "community_distance_km": 73.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c052",
@@ -1156,7 +1657,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=75971"
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=75971",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c053",
@@ -1178,7 +1687,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=116967"
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=116967",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c054",
@@ -1200,7 +1717,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.eefht.ca/about-us/the-team/"
+      "care_model_source": "https://www.eefht.ca/about-us/the-team/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c055",
@@ -1222,7 +1747,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "both",
       "care_model_basis": "Official clinic: family medicine and walk-in care both advertised.",
-      "care_model_source": "https://cambridgegatewaymedical.com/walk-in-practice/"
+      "care_model_source": "https://cambridgegatewaymedical.com/walk-in-practice/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c056",
@@ -1244,7 +1777,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "both",
       "care_model_basis": "Official clinic: family practice and walk-in care both advertised.",
-      "care_model_source": "https://hopetonmedical.com/"
+      "care_model_source": "https://hopetonmedical.com/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c057",
@@ -1266,7 +1807,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.doctors4cambridge.com/"
+      "care_model_source": "https://www.doctors4cambridge.com/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c058",
@@ -1288,7 +1837,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "both",
       "care_model_basis": "Existing source describes shared family-health-team offices and separate episodic walk-in at the same hub; provider enrolment must be verified separately.",
-      "care_model_source": "https://dchc.ca/in-our-centre/"
+      "care_model_source": "https://dchc.ca/in-our-centre/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c059",
@@ -1310,7 +1867,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c060",
@@ -1327,12 +1892,20 @@
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 23,
+      "community_distance_km": 23.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://alexfp.ca/"
+      "care_model_source": "https://alexfp.ca/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c061",
@@ -1354,7 +1927,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.kw4oht.com/members"
+      "care_model_source": "https://www.kw4oht.com/members",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c062",
@@ -1376,7 +1957,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c063",
@@ -1398,7 +1987,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c064",
@@ -1420,7 +2017,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.southwesthealthline.ca/"
+      "care_model_source": "https://www.southwesthealthline.ca/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c065",
@@ -1442,7 +2047,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://londonfht.ca/family-physicians/"
+      "care_model_source": "https://londonfht.ca/family-physicians/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c066",
@@ -1464,7 +2077,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c067",
@@ -1486,7 +2107,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c068",
@@ -1508,7 +2137,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c069",
@@ -1530,7 +2167,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c070",
@@ -1552,7 +2197,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c071",
@@ -1574,7 +2227,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c072",
@@ -1591,12 +2252,20 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 62,
+      "community_distance_km": 62.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c073",
@@ -1618,7 +2287,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=86657"
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c074",
@@ -1640,7 +2317,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.norwich.ca/our-community/medical-centre"
+      "care_model_source": "https://www.norwich.ca/our-community/medical-centre",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c075",
@@ -1662,7 +2347,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://norfolkfht.ca/port-rowan-medical-clinic/"
+      "care_model_source": "https://norfolkfht.ca/port-rowan-medical-clinic/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c076",
@@ -1684,7 +2377,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://norfolkfht.ca/contact/"
+      "care_model_source": "https://norfolkfht.ca/contact/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c077",
@@ -1701,12 +2402,20 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c078",
@@ -1723,12 +2432,20 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://talbothealth.ca/"
+      "care_model_source": "https://talbothealth.ca/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c079",
@@ -1745,12 +2462,20 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c080",
@@ -1767,12 +2492,20 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c081",
@@ -1794,7 +2527,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.southwesthealthline.ca/displayservice.aspx?id=152136"
+      "care_model_source": "https://www.southwesthealthline.ca/displayservice.aspx?id=152136",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c082",
@@ -1816,7 +2557,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://starfht.ca/clinics_offices/avon-family-medicine-centre/"
+      "care_model_source": "https://starfht.ca/clinics_offices/avon-family-medicine-centre/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c083",
@@ -1838,7 +2587,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://starfht.ca/clinics_offices/oloane-medical-clinic/"
+      "care_model_source": "https://starfht.ca/clinics_offices/oloane-medical-clinic/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c084",
@@ -1860,7 +2617,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.stratfordfht.ca/"
+      "care_model_source": "https://www.stratfordfht.ca/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c085",
@@ -1882,7 +2647,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c086",
@@ -1904,7 +2677,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c087",
@@ -1926,7 +2707,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://thamesvalleyfht.ca/locations/"
+      "care_model_source": "https://thamesvalleyfht.ca/locations/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c088",
@@ -1948,7 +2737,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://starfht.ca/clinics_offices/tavistock-community-health-inc/"
+      "care_model_source": "https://starfht.ca/clinics_offices/tavistock-community-health-inc/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c089",
@@ -1965,12 +2762,20 @@
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 0,
+      "community_distance_km": 0.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://southwesthealthline.ca/displayService.aspx?id=187735"
+      "care_model_source": "https://southwesthealthline.ca/displayService.aspx?id=187735",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c090",
@@ -1987,12 +2792,20 @@
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 0,
+      "community_distance_km": 0.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://southwesthealthline.ca/displayService.aspx?id=177439"
+      "care_model_source": "https://southwesthealthline.ca/displayService.aspx?id=177439",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c091",
@@ -2009,12 +2822,20 @@
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 0,
+      "community_distance_km": 0.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=83281"
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=83281",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c092",
@@ -2036,7 +2857,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://wfhc.ca/medical/"
+      "care_model_source": "https://wfhc.ca/medical/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c093",
@@ -2058,7 +2887,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.newvisionhealth.ca/clinic-hours"
+      "care_model_source": "https://www.newvisionhealth.ca/clinic-hours",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c094",
@@ -2080,7 +2917,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://www.daviesfamilymed.com/general-8"
+      "care_model_source": "https://www.daviesfamilymed.com/general-8",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     },
     {
       "id": "c095",
@@ -2102,7 +2947,15 @@
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
-      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=69085"
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=69085",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually audited current intake statement; status is a research lead."
+      }
     }
   ]
 }

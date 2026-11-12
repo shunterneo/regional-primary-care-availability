@@ -3,6 +3,7 @@
 from __future__ import annotations
 import datetime, json, pathlib, html, sys, collections, os
 from common import ROOT, STATUSES, CARE_MODELS, CITY_COORDS, load_data, effective_status, ongoing_eligible
+from evidence_policy import verification_display
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -21,13 +22,16 @@ from reportlab.pdfbase import pdfmetrics
 today=datetime.date.today()
 site=ROOT/'site'; docs=site/'documents'; docs.mkdir(parents=True,exist_ok=True)
 D=load_data(); archived=[c for c in D['clinics'] if c.get('operating_status') in ('closed','archived')]; clinics=[c for c in D['clinics'] if c.get('operating_status') not in ('closed','archived')]; source_state=json.loads((ROOT/'data'/'source_state.json').read_text()); queue=json.loads((ROOT/'data'/'review_queue.json').read_text()); history=json.loads((ROOT/'data'/'review_history.json').read_text()); discovery=json.loads((ROOT/'data'/'discovery_queue.json').read_text()); discovery_state=json.loads((ROOT/'data'/'discovery_state.json').read_text())
-for c in clinics: c['display_status']=effective_status(c,today)
+for c in clinics:
+    c['display_status']=effective_status(c,today)
+    c['evidence_label']=verification_display(c)
+    c['public_evidence_reviewed']=((c.get('intake_verification') or {}).get('reviewed_on') or 'Not independently verified')
 ORDER=['accepting','reported','limited','waitlist','not_accepting','needs_review','unknown']
 clinics.sort(key=lambda c:(ORDER.index(c['display_status']),c['community'].lower(),c['name'].lower()))
 counts=collections.Counter(c['display_status'] for c in clinics)
 report={
  'generated_on':today.isoformat(),'data_as_of':D.get('data_as_of',''),'count':len(clinics),'archived_count':len(archived),
- 'communities':len({c['community'] for c in clinics}), 'status_counts':dict(counts),
+ 'communities':len({c['community'] for c in clinics}), 'verified_green_count':counts.get('accepting',0), 'status_counts':dict(counts),'evidence_policy':'clinic-specific public source; maximum 21 days; no phone/roster confirmation',
  'care_model_counts':dict(collections.Counter(c['care_model'] for c in clinics)),
  'source_urls_monitored':len(source_state['sources']),'pending_source_reviews':len([r for r in queue['items'] if r.get('review_status')=='pending']),
  'pending_new_clinic_leads':len([r for r in discovery['items'] if r.get('review_status')=='pending']),
@@ -58,8 +62,8 @@ def make_docx():
     doc.add_heading('Primary care availability',0)
     p=doc.add_paragraph('Tillsonburg-centred region  •  75 km straight-line radius  •  Research starting set')
     p.style='Subtitle'
-    doc.add_paragraph('Generated '+today.strftime('%B %-d, %Y')+'  |  Last human research audit: '+D['data_as_of']+'  |  '+str(len(clinics))+' clinic/service listings across '+str(report['communities'])+' communities')
-    doc.add_paragraph('IMPORTANT: Intake status is based on public information, not live telephone confirmation. An application does not guarantee attachment. Green means an intake process was advertised in the dated source, not a guaranteed opening. Records become “Needs reconfirmation” when their review date expires.').italic=True
+    doc.add_paragraph('Generated '+today.strftime('%B %-d, %Y')+'  |  Baseline source audit as of: '+D['data_as_of']+'  |  '+str(len(clinics))+' clinic/service listings across '+str(report['communities'])+' communities')
+    doc.add_paragraph('IMPORTANT: Intake status is based on public information, not live telephone confirmation. An application does not guarantee attachment. Green requires a recent clinic-specific public intake notice (never just a directory or program-wide lead); it does not guarantee a roster space. Records become “Needs reconfirmation” when their review date expires.').italic=True
     doc.add_paragraph('Care classification is separate from intake status. A walk-in appointment does not mean a physician or NP is accepting new patients for ongoing care. Combined clinics appear in ongoing-care listings with an explicit walk-in label. Map markers remain community-level estimates.')
     p=doc.add_paragraph('Directory key: ')
     for st in ORDER:
@@ -86,7 +90,7 @@ def make_docx():
                 p=doc.add_paragraph();p.paragraph_format.keep_with_next=True
                 rr=p.add_run(f'{c["community"]}  |  {c["name"]}');rr.bold=True
                 t=doc.add_table(rows=0,cols=2);t.autofit=False;t.columns[0].width=Inches(1.00);t.columns[1].width=Inches(5.9)
-                for label,value in [('Office',c['address']),('Service model',CARE_MODELS[c['care_model']]),('Provider',c['clinic_type']),('Phone',c.get('phone','') or 'Not listed'),('Intake note',c.get('intake_detail','') or 'No current details'),('Reviewed',c['last_reviewed']+' (research snapshot)')]:
+                for label,value in [('Office',c['address']),('Service model',CARE_MODELS[c['care_model']]),('Provider',c['clinic_type']),('Phone',c.get('phone','') or 'Not listed'),('Intake note',c.get('intake_detail','') or 'No current details'),('Evidence level',c['evidence_label']),('Intake evidence checked',c['public_evidence_reviewed']+' (public only; not confirmed by telephone)'),('Record last edited',c['last_reviewed'])]:
                     row=t.add_row();row.cells[0].text=label;row.cells[1].text=value
                     row.cells[0].paragraphs[0].runs[0].bold=True
                     for cell in row.cells:
@@ -120,7 +124,7 @@ def make_pdf():
     body=ParagraphStyle('Body',fontName=regular_name,fontSize=9,leading=12.5,textColor=dark,spaceAfter=6)
     small=ParagraphStyle('Small',fontName=regular_name,fontSize=8.3,leading=11,textColor=muted,spaceAfter=3)
     story=[Paragraph('Primary care availability',title),Paragraph(f'75 km around Tillsonburg  |  Generated {today.isoformat()}  |  {len(clinics)} listings, {report["communities"]} communities',body),
-        Paragraph('<b>Research directory, not live enrolment confirmation.</b> Intake advertisements do not guarantee attachment. Records past their verification window are marked “Needs reconfirmation”. Map positions are approximate community centres, not exact offices.',body)]
+        Paragraph('<b>Research directory, not live enrolment confirmation.</b> Intake advertisements do not guarantee attachment. The green category requires a dated clinic-specific public notice; unverified and stale intake claims are downgraded automatically. Map positions are approximate community centres, not exact offices.',body)]
     sections=[('ONGOING FAMILY DOCTOR / NURSE PRACTITIONER CARE',lambda c:ongoing_eligible(c),True),
               ('WALK-IN ONLY — NO ATTACHMENT IMPLIED',lambda c:c['care_model']=='walk_in_only',False),
               ('SERVICE TYPE UNVERIFIED',lambda c:c['care_model']=='unverified',False)]
@@ -137,7 +141,8 @@ def make_pdf():
                 e=html.escape
                 lines=[Paragraph(e(c['community'])+'  |  '+e(c['name']),h2),
                     Paragraph('<b>Office:</b> '+e(c['address'])+'   <b>Care:</b> '+e(CARE_MODELS[c['care_model']])+'   <b>Type:</b> '+e(c['clinic_type'])+'   <b>Phone:</b> '+e(c.get('phone') or 'Not listed'),small),
-                    Paragraph(e(c.get('intake_detail') or 'No current intake details'),body)]
+                    Paragraph(e(c.get('intake_detail') or 'No current intake details'),body),
+                    Paragraph('<b>Evidence level:</b> '+e(c['evidence_label'])+'   <b>Evidence checked:</b> '+e(c['public_evidence_reviewed'])+' (public only; not telephone verified)',small)]
                 if c.get('evidence_url'):lines.append(Paragraph('Source reviewed: '+e(c['last_reviewed'])+'  |  <link href="'+e(c['evidence_url'],quote=True)+'" color="#185B78">Supporting source</link>',small))
                 story.append(KeepTogether(lines))
     out=docs/'primary-care-directory.pdf'

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import sys,collections,datetime
+from evidence_policy import qualified_public_intake
 from common import load_data, STATUSES,CARE_MODELS,CITY_COORDS,km,is_url
 D=load_data(); xs=D['clinics']; assert len(xs)>0
 errors=[];ids=set();names=set();center=D['center']
@@ -11,6 +12,14 @@ for r in xs:
     if key in names:errors.append(f'duplicate listing {name}')
     names.add(key)
     if r['status'] not in STATUSES or r['status']=='needs_review':errors.append(f'bad stored status {id}')
+    if r['status']=='accepting':
+        v=r.get('intake_verification') or {}
+        try:
+            audit_day=datetime.date.fromisoformat(v['reviewed_on'])
+            if not qualified_public_intake(r,audit_day): errors.append(f'unsupported green application status {id}')
+        except (TypeError,ValueError,KeyError): errors.append(f'green status lacks dated evidence {id}')
+    if r.get('care_model')=='walk_in_only' and r.get('status')=='accepting':
+        errors.append(f'walk-in-only site cannot be accepting attachment {id}')
     care=r.get('care_model')
     if care not in CARE_MODELS:errors.append(f'missing or invalid care model {id}')
     if care in ('walk_in_only','unverified') and r['status'] in ('accepting','reported','limited','waitlist','not_accepting'):

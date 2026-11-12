@@ -139,3 +139,20 @@ All green accepting status indicators mean applications for *ongoing care*, not 
 For combined practices, automatic publication of opening/closure of patient attachment requires an explicit family-practice/primary-care statement in the specific clinic's first-party evidence quotation. A generic “we accept new patients” phrase on a combined walk-in website is too ambiguous to auto-publish.
 
 The 95-record baseline has six mixed-service sites classified using available public clinic information and **no identified walk-in-only sites**; this is an audit of existing listings, not a full census of independent walk-in-only clinics. Any newly discovered service must receive a care-model classification before publication; do not infer ongoing care from walk-in hours or appointment availability.
+
+
+## Strict public-intake evidence policy (November 11, 2026)
+
+**An advertised application form is not a confirmed available roster space.** The green "Applications advertised" label now requires:
+
+1. An independently reviewed **clinic-owned** notice (not an external physician directory, news item, or generic team-wide announcement).
+2. An explicit location-specific or named clinician/NP ongoing-care registration pathway. Walk-in registration never qualifies.
+3. Evidence URL and clinic URL with matching hosts, a recorded evidence finding, review method, and date.
+4. The clinic-specific public evidence must be **21 days old or newer**; otherwise the public site downgrades its *display* to **Needs reconfirmation**, without implying intake closed.
+5. New automatic green changes require an unambiguous explicit ongoing family/NP care statement on the original clinic page on **two different days**. Conflicting statements, unresponsive pages, and regional-only claims are sent for review.
+
+The `data/clinics.json` records now include `intake_verification` with `tier`, `scope`, `reviewed_on`, `method`, `source_url`, `finding`, `telephone_confirmed`, and `enrolment_guaranteed`. The policy lives in `scripts/evidence_policy.py`, is validated in `scripts/validate.py`, and used by the website, Word, and PDF generator. GitHub Actions runs `tests/evidence_policy_test.py` on each deployment.
+
+The historical public-source audit (November 11, 2026) was used to classify 47 intake/waitlist leads. **No clinic was telephoned.** In a conservative cleanup, 3 general-program/municipal announcements are now leads rather than green; 2 Health Care Connect matching pathways were moved to limited intake. The effective green count after migration is **19 clinic-specific advertised application locations**, not 19 verified new patient spots. Nine previously listed third-party leads remain amber; more current external announcements can affect these counts. The evidence audit will not be silently re-stamped when the website is rebuilt.
+
+Manual intake approvals now require an exact clinic-published statement for ongoing care, an explicit location or named-clinician scope, and a clinic-owned HTTPS source. The approval form rejects a bare 'accepting' label when those controls aren't met. Staff/client addresses must never be entered. Provider capacity must still be confirmed directly before a referral is made.

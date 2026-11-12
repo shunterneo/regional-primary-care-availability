@@ -35,6 +35,10 @@ def load_data():
     return json.loads(DATA.read_text(encoding='utf8'))
 
 def effective_status(clinic, today):
+    from evidence_policy import display_intake_status
+    return display_intake_status(clinic, today)
+
+def legacy_effective_status(clinic, today):
     status=clinic['status']
     if status=='unknown': return status
     # A stale enrolment statement is a prompt to reconfirm, not proof of closure.
