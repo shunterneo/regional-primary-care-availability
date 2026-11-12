@@ -1,0 +1,791 @@
+{
+  "reviewed_on": "2026-11-12",
+  "snapshot_last_run": "2026-11-12",
+  "scope": "All 40 records retained in the existing in-radius government snapshot reconciled; not all Ontario practices. A repeat fresh endpoint request timed out; no new retrieval claimed.",
+  "rows": [
+    {
+      "id": "moh-321787270",
+      "name": "Central Community Health Centre (St. Thomas)",
+      "community": "St Thomas",
+      "address": "359 Talbot Street",
+      "clinic_type": "CHC",
+      "latitude": 42.779298,
+      "longitude": -81.198127,
+      "distance": 39.9,
+      "registry_id": "321787270",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c109",
+      "current_address": "359 Talbot Street",
+      "current_community": "St. Thomas",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://centralchc.com/contact/",
+        "https://centralchc.com/"
+      ]
+    },
+    {
+      "id": "moh-321787550",
+      "name": "Haldimand Family Health Team",
+      "community": "Caledonia",
+      "address": "245 Argyle Street South",
+      "clinic_type": "FHT",
+      "latitude": 43.065719,
+      "longitude": -79.958746,
+      "distance": 66.0,
+      "registry_id": "321787550",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c205",
+      "current_address": "245 Argyle Street South",
+      "current_community": "Caledonia",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.hnhbhealthline.ca/displayService.aspx?id=183823",
+        "https://haldimandfht.ca/"
+      ]
+    },
+    {
+      "id": "moh-321787315",
+      "name": "Langs Farm Village Association (3 Doors Down)",
+      "community": "Cambridge",
+      "address": "1273 Concession Road",
+      "clinic_type": "CHC",
+      "latitude": 43.395626,
+      "longitude": -80.344108,
+      "distance": 66.5,
+      "registry_id": "321787315",
+      "disposition": "program_or_administrative_site_not_general_attachment",
+      "finding": "Women’s health/wellness programming; general attachment intake already represented at Langs main site.",
+      "sources": [
+        "https://www.langs.org/womens-health"
+      ]
+    },
+    {
+      "id": "moh-321787701",
+      "name": "Six Nations of The Grand River Family Health Team",
+      "community": "Ohsweken",
+      "address": "1745 Chiefswood Road",
+      "clinic_type": "FHT",
+      "latitude": 43.070411,
+      "longitude": -80.117395,
+      "distance": 54.3,
+      "registry_id": "321787701",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c111",
+      "current_address": "1745 Chiefswood Road",
+      "current_community": "Ohsweken",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.snhs.ca/family-and-community-care/primary-care-family-health-team/",
+        "https://www.snhs.ca/family-and-community-care/primary-care-family-health-team/"
+      ]
+    },
+    {
+      "id": "moh-321787715",
+      "name": "Star Family Health Team- Avon Family Medicine Centre",
+      "community": "Stratford",
+      "address": "511 Huron Street",
+      "clinic_type": "FHT",
+      "latitude": 43.379186,
+      "longitude": -81.002031,
+      "distance": 61.5,
+      "registry_id": "321787715",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c082",
+      "current_address": "511 Huron Street",
+      "current_community": "Stratford",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://starfht.ca/our-locations/",
+        "https://starfht.ca/clinics_offices/avon-family-medicine-centre/"
+      ]
+    },
+    {
+      "id": "moh-321787130",
+      "name": "Waterloo Region Nurse Practitioner-Led Clinic (Breslau)",
+      "community": "Breslau",
+      "address": "10 Townsend Drive",
+      "clinic_type": "NP",
+      "latitude": 43.486299,
+      "longitude": -80.415049,
+      "distance": 73.4,
+      "registry_id": "321787130",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c042",
+      "current_address": "10 Townsend Drive, Unit 10",
+      "current_community": "Breslau",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://wrnplc.ca/contact-us/",
+        "https://wrnplc.ca/patient-information/"
+      ]
+    },
+    {
+      "id": "moh-321787636",
+      "name": "Norfolk Family Health Team",
+      "community": "Delhi",
+      "address": "105 Main Street",
+      "clinic_type": "FHT",
+      "latitude": 42.856163,
+      "longitude": -80.49695,
+      "distance": 18.4,
+      "registry_id": "321787636",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c058",
+      "current_address": "105 Main Street",
+      "current_community": "Delhi",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://dchc.ca/contact/",
+        "https://norfolkfht.ca/find-a-doctor/"
+      ]
+    },
+    {
+      "id": "moh-321788817",
+      "name": "Health Zone Nurse Practitioner-Led Clinic",
+      "community": "London",
+      "address": "230 Victoria Street",
+      "clinic_type": "NP",
+      "latitude": 43.00447,
+      "longitude": -81.256931,
+      "distance": 46.2,
+      "registry_id": "321788817",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c064",
+      "current_address": "230 Victoria Street, Suite 230",
+      "current_community": "London",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://healthzonenplc.com/contact",
+        "https://healthzonenplc.com/contact-us/new-patient-wait-list"
+      ]
+    },
+    {
+      "id": "moh-321787637",
+      "name": "Norfolk Family Health Team",
+      "community": "Simcoe",
+      "address": "185 Robinson Street",
+      "clinic_type": "FHT",
+      "latitude": 42.836132,
+      "longitude": -80.310696,
+      "distance": 33.8,
+      "registry_id": "321787637",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c076",
+      "current_address": "185 Robinson Street, Suite 101",
+      "current_community": "Simcoe",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://norfolkfht.ca/contact/",
+        "https://norfolkfht.ca/find-a-doctor/"
+      ]
+    },
+    {
+      "id": "moh-321787595",
+      "name": "London Family Health Team",
+      "community": "London",
+      "address": "770 Swenige Drive",
+      "clinic_type": "FHT",
+      "latitude": 43.049188,
+      "longitude": -81.253068,
+      "distance": 47.7,
+      "registry_id": "321787595",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c005",
+      "current_address": "770 South Wenige Drive, Unit 1",
+      "current_community": "London",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://londonfht.ca/our-locations/",
+        "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/"
+      ]
+    },
+    {
+      "id": "moh-321787320",
+      "name": "London Intercommunity Health Centre (Argyle Clinic)",
+      "community": "London",
+      "address": "1700 Dundas Street",
+      "clinic_type": "CHC",
+      "latitude": 43.002054,
+      "longitude": -81.186822,
+      "distance": 40.7,
+      "registry_id": "321787320",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c096",
+      "current_address": "1700 Dundas Street, Unit 1",
+      "current_community": "London",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://lihc.on.ca/locations-and-hours-of-services/",
+        "https://lihc.on.ca/locations-and-hours-of-services/"
+      ]
+    },
+    {
+      "id": "moh-321787716",
+      "name": "Star Family Health Team- Tavistock Community Health Inc.",
+      "community": "Tavistock",
+      "address": "80 Maria Street",
+      "clinic_type": "FHT",
+      "latitude": 43.317279,
+      "longitude": -80.834864,
+      "distance": 51.1,
+      "registry_id": "321787716",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c088",
+      "current_address": "80 Maria Street",
+      "current_community": "Tavistock",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://starfht.ca/our-locations/",
+        "https://starfht.ca/clinics_offices/tavistock-community-health-inc/"
+      ]
+    },
+    {
+      "id": "moh-321787714",
+      "name": "Star Family Health Team",
+      "community": "Stratford",
+      "address": "700 OLoane Avenue",
+      "clinic_type": "FHT",
+      "latitude": 43.382185,
+      "longitude": -81.003987,
+      "distance": 61.8,
+      "registry_id": "321787714",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c083",
+      "current_address": "700 O’Loane Avenue",
+      "current_community": "Stratford",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://starfht.ca/our-locations/",
+        "https://starfht.ca/clinics_offices/oloane-medical-clinic/"
+      ]
+    },
+    {
+      "id": "moh-321787639",
+      "name": "Norfolk Family Health Team",
+      "community": "Paris",
+      "address": "25 Curtis Avenue North",
+      "clinic_type": "FHT",
+      "latitude": 43.190817,
+      "longitude": -80.370471,
+      "distance": 46.1,
+      "registry_id": "321787639",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c106",
+      "current_address": "25 Curtis Avenue North, Suite 201",
+      "current_community": "Paris",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.pccfht.ca/contacts/",
+        "https://www.pccfht.ca/contacts/"
+      ],
+      "finding": "Government labels Paris address Norfolk FHT; clinic-owned current site identifies PrimaCare. Same site as government 321787674."
+    },
+    {
+      "id": "moh-321787316",
+      "name": "Langs Farm Village Association (Grow Community Centre)",
+      "community": "Cambridge",
+      "address": "1 Groh Avenue",
+      "clinic_type": "CHC",
+      "latitude": 43.419458,
+      "longitude": -80.327188,
+      "distance": 69.5,
+      "registry_id": "321787316",
+      "disposition": "program_or_administrative_site_not_general_attachment",
+      "finding": "Community activities/resources; no separate general physician/NP attachment office established.",
+      "sources": [
+        "https://www.langs.org/grow-community-centre"
+      ]
+    },
+    {
+      "id": "moh-321787593",
+      "name": "London Family Health Team",
+      "community": "London",
+      "address": "1261 Beaverbrook Avenue",
+      "clinic_type": "FHT",
+      "latitude": 42.99152,
+      "longitude": -81.294141,
+      "distance": 48.6,
+      "registry_id": "321787593",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c004",
+      "current_address": "1261 Beaverbrook Avenue, Unit 1",
+      "current_community": "London",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://londonfht.ca/our-locations/",
+        "https://londonfht.ca/frequently-asked-questions/"
+      ]
+    },
+    {
+      "id": "moh-321787627",
+      "name": "New Vision Family Health Team",
+      "community": "Kitchener",
+      "address": "421 Greenbrook Drive",
+      "clinic_type": "FHT",
+      "latitude": 43.42499,
+      "longitude": -80.510846,
+      "distance": 64.6,
+      "registry_id": "321787627",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c045",
+      "current_address": "421 Greenbrook Drive, Unit 23B",
+      "current_community": "Kitchener",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.newvisionhealth.ca/clinic-hours",
+        "https://www.newvisionhealth.ca/need-a-family-doctor"
+      ]
+    },
+    {
+      "id": "moh-321787733",
+      "name": "Thames Valley Family Health Team - Woodstock",
+      "community": "Woodstock",
+      "address": "959 Dundas Street East",
+      "clinic_type": "FHT",
+      "latitude": 43.134833,
+      "longitude": -80.732611,
+      "distance": 30.0,
+      "registry_id": "321787733",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c013",
+      "current_address": "959 Dundas Street East, Suite 204",
+      "current_community": "Woodstock",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+        "https://thamesvalleyfht.ca/become-a-patient/"
+      ]
+    },
+    {
+      "id": "moh-321787549",
+      "name": "Haldimand Family Health Team",
+      "community": "Hagersville",
+      "address": "75 Parkview Road",
+      "clinic_type": "FHT",
+      "latitude": 42.958685,
+      "longitude": -80.044058,
+      "distance": 56.2,
+      "registry_id": "321787549",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c112",
+      "current_address": "75 Parkview Road",
+      "current_community": "Hagersville",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://haldimandfht.ca/affiliated-physicians/",
+        "https://haldimandfht.ca/"
+      ]
+    },
+    {
+      "id": "moh-321787336",
+      "name": "Oxford County CHC (Woodstock And Area Communities Health Centre)",
+      "community": "Woodstock",
+      "address": "35 Metcalf Street",
+      "clinic_type": "CHC",
+      "latitude": 43.128887,
+      "longitude": -80.756421,
+      "distance": 29.4,
+      "registry_id": "321787336",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c050",
+      "current_address": "35 Metcalf Street",
+      "current_community": "Woodstock",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://oxchc.ca/",
+        "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf"
+      ]
+    },
+    {
+      "id": "moh-321787638",
+      "name": "Norfolk Family Health Team",
+      "community": "Port Rowan",
+      "address": "1009 Bay Street",
+      "clinic_type": "FHT",
+      "latitude": 42.623397,
+      "longitude": -80.45043,
+      "distance": 34.9,
+      "registry_id": "321787638",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c075",
+      "current_address": "1009 Bay Street",
+      "current_community": "Port Rowan",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://norfolkfht.ca/port-rowan-medical-clinic/",
+        "https://norfolkfht.ca/find-a-doctor/"
+      ]
+    },
+    {
+      "id": "moh-321787318",
+      "name": "Langs Farm Village Association (North Dumfries CHC)",
+      "community": "Ayr",
+      "address": "2958 Greenfield Road",
+      "clinic_type": "CHC",
+      "latitude": 43.301993,
+      "longitude": -80.462383,
+      "distance": 53.0,
+      "registry_id": "321787318",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c015",
+      "current_address": "2958 Greenfield Road",
+      "current_community": "Ayr",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.langs.org/locations-hours",
+        "https://www.langs.org/new-patients"
+      ]
+    },
+    {
+      "id": "moh-321787748",
+      "name": "Two Rivers Family Health Team Inc.",
+      "community": "Cambridge",
+      "address": "350 Conestoga Boulevard",
+      "clinic_type": "FHT",
+      "latitude": 43.390471,
+      "longitude": -80.313995,
+      "distance": 67.2,
+      "registry_id": "321787748",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c100",
+      "current_address": "350 Conestoga Boulevard, Unit B12",
+      "current_community": "Cambridge",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://tworiversfht.ca/contact/contact-us/",
+        "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/"
+      ]
+    },
+    {
+      "id": "moh-321787319",
+      "name": "Langs Farm Village Association (Regional Coordination Centre)",
+      "community": "Cambridge",
+      "address": "6-150 Pinebush Road",
+      "clinic_type": "CHC",
+      "latitude": 43.410895,
+      "longitude": -80.31415,
+      "distance": 69.1,
+      "registry_id": "321787319",
+      "disposition": "program_or_administrative_site_not_general_attachment",
+      "finding": "Coordination/referral program rather than independent family-practice attachment.",
+      "sources": [
+        "https://www.langs.org/regional-coordination-centre"
+      ]
+    },
+    {
+      "id": "moh-321787403",
+      "name": "Woolwich Community Health Centre (Wellesley Township Community Health Centre)",
+      "community": "Wellesley",
+      "address": "1401 QueenSouth Bush Road",
+      "clinic_type": "CHC",
+      "latitude": 43.485378,
+      "longitude": -80.776858,
+      "distance": 69.1,
+      "registry_id": "321787403",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c120",
+      "current_address": "1401 Queen’s Bush Road",
+      "current_community": "Wellesley",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://wchc.on.ca/",
+        "https://wchc.on.ca/registered-client-services/accepting-new-patients/"
+      ]
+    },
+    {
+      "id": "moh-321787129",
+      "name": "Waterloo Region Nurse Practitioner-Led Clinic (Kitchener)",
+      "community": "Kitchener",
+      "address": "123 Pioneer Drive",
+      "clinic_type": "NP",
+      "latitude": 43.394287,
+      "longitude": -80.432088,
+      "distance": 63.4,
+      "registry_id": "321787129",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c046",
+      "current_address": "123 Pioneer Drive, Unit 204",
+      "current_community": "Kitchener",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://wrnplc.ca/contact-us/",
+        "https://wrnplc.ca/patient-information/"
+      ]
+    },
+    {
+      "id": "moh-321787731",
+      "name": "Thames Valley Family Health Team",
+      "community": "London",
+      "address": "1385 North Routledge Park",
+      "clinic_type": "FHT",
+      "latitude": 43.001374,
+      "longitude": -81.335382,
+      "distance": 52.1,
+      "registry_id": "321787731",
+      "disposition": "program_or_administrative_site_not_general_attachment",
+      "finding": "Organization explicitly says administrative office is not a medical clinic.",
+      "sources": [
+        "https://thamesvalleyfht.ca/locations/central-office/"
+      ]
+    },
+    {
+      "id": "moh-321787628",
+      "name": "New Vision Family Health Team - Dr. Balraj Singh's Clinic",
+      "community": "Waterloo",
+      "address": "430 The Boardwalk",
+      "clinic_type": "FHT",
+      "latitude": 43.440351,
+      "longitude": -80.564956,
+      "distance": 65.2,
+      "registry_id": "321787628",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c093",
+      "current_address": "430 The Boardwalk, Suite 308",
+      "current_community": "Waterloo",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.newvisionhealth.ca/clinic-hours",
+        "https://www.newvisionhealth.ca/need-a-family-doctor"
+      ]
+    },
+    {
+      "id": "moh-321787321",
+      "name": "London Intercommunity Health Centre (Huron Clinic)",
+      "community": "London",
+      "address": "1355 Huron Street",
+      "clinic_type": "CHC",
+      "latitude": 43.019239,
+      "longitude": -81.213178,
+      "distance": 43.4,
+      "registry_id": "321787321",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c040",
+      "current_address": "1355 Huron Street, Unit 7",
+      "current_community": "London",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://lihc.on.ca/locations-and-hours-of-services/",
+        "https://lihc.on.ca/programs-services/primary-care/"
+      ]
+    },
+    {
+      "id": "moh-321787557",
+      "name": "Happy Valley Family Health Team",
+      "community": "St Marys",
+      "address": "268 Maiden Lane",
+      "clinic_type": "FHT",
+      "latitude": 43.259369,
+      "longitude": -81.152039,
+      "distance": 56.0,
+      "registry_id": "321787557",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c110",
+      "current_address": "268 Maiden Lane",
+      "current_community": "St. Marys",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://happyvalleyfht.ca/",
+        "https://happyvalleyfht.ca/about-us/"
+      ]
+    },
+    {
+      "id": "moh-321787322",
+      "name": "London Intercommunity Health Centre (Old East Village & Health Outreach Clinic)",
+      "community": "London",
+      "address": "659 Dundas Street East",
+      "clinic_type": "CHC",
+      "latitude": 42.989177,
+      "longitude": -81.229634,
+      "distance": 43.5,
+      "registry_id": "321787322",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c039",
+      "current_address": "659 Dundas Street",
+      "current_community": "London",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://lihc.on.ca/locations-and-hours-of-services/",
+        "https://lihc.on.ca/programs-services/primary-care/"
+      ]
+    },
+    {
+      "id": "moh-321787675",
+      "name": "Primacare Community Family Health Team - St. George Location",
+      "community": "St George",
+      "address": "2 Sunnyside Drive",
+      "clinic_type": "FHT",
+      "latitude": 43.246706,
+      "longitude": -80.25347,
+      "distance": 57.0,
+      "registry_id": "321787675",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c108",
+      "current_address": "2 Sunnyside Drive",
+      "current_community": "St. George",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.pccfht.ca/contacts/",
+        "https://stgeorgemedical.ca/"
+      ]
+    },
+    {
+      "id": "moh-321787485",
+      "name": "Centre For Family Medicine Family Health Team",
+      "community": "Kitchener",
+      "address": "250 Laurelwood Drive",
+      "clinic_type": "FHT",
+      "latitude": 43.476721,
+      "longitude": -80.570314,
+      "distance": 69.1,
+      "registry_id": "321787485",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c103",
+      "current_address": "250 Laurelwood Drive, Suite 4111",
+      "current_community": "Waterloo",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://family-medicine.ca/university-gates/",
+        "https://family-medicine.ca/patient-resources/frequently-asked-questions/"
+      ],
+      "finding": "Government municipality Kitchener is wrong; clinic-owned page says Waterloo. Already represented as c103, not a missing office."
+    },
+    {
+      "id": "moh-321787732",
+      "name": "Thames Valley Family Health Team - Strathroy",
+      "community": "Strathroy",
+      "address": "351 Frances Street",
+      "clinic_type": "FHT",
+      "latitude": 42.949004,
+      "longitude": -81.612044,
+      "distance": 73.0,
+      "registry_id": "321787732",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c086",
+      "current_address": "351 Frances Street",
+      "current_community": "Strathroy",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://thamesvalleyfht.ca/locations/",
+        "https://thamesvalleyfht.ca/locations/strathroy-caradoc-family-health-organization/"
+      ]
+    },
+    {
+      "id": "moh-321788827",
+      "name": "Waterloo Region Nurse Practitioner-Led Clinic (Cambridge)",
+      "community": "Cambridge",
+      "address": "13 Water Street North",
+      "clinic_type": "NP",
+      "latitude": 43.359578,
+      "longitude": -80.315079,
+      "distance": 64.1,
+      "registry_id": "321788827",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c044",
+      "current_address": "73 Water Street North, Unit 202",
+      "current_community": "Cambridge",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://wrnplc.ca/contact-us/",
+        "https://wrnplc.ca/patient-information/",
+        "https://wrnplc.ca/"
+      ],
+      "finding": "Old 13 Water Street site superseded by clinic-announced move to 73 Water Street North Unit 202."
+    },
+    {
+      "id": "moh-321787674",
+      "name": "Primacare Community Family Health Team",
+      "community": "Paris",
+      "address": "25 Curtis Street North",
+      "clinic_type": "FHT",
+      "latitude": 43.191882,
+      "longitude": -80.370815,
+      "distance": 46.2,
+      "registry_id": "321787674",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c106",
+      "current_address": "25 Curtis Avenue North, Suite 201",
+      "current_community": "Paris",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.pccfht.ca/contacts/",
+        "https://www.pccfht.ca/contacts/"
+      ]
+    },
+    {
+      "id": "moh-321787523",
+      "name": "East Elgin Family Health Team",
+      "community": "Aylmer",
+      "address": "424 Talbot Street West",
+      "clinic_type": "FHT",
+      "latitude": 42.771823,
+      "longitude": -80.994721,
+      "distance": 24.5,
+      "registry_id": "321787523",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c054",
+      "current_address": "424 Talbot Street West, Suite 1",
+      "current_community": "Aylmer",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.eefht.ca/locations-and-hours/",
+        "https://www.eefht.ca/about-us/the-team/"
+      ]
+    },
+    {
+      "id": "moh-321787301",
+      "name": "Grand River Community Health Centre",
+      "community": "Brantford",
+      "address": "363 Colborne Street",
+      "clinic_type": "CHC",
+      "latitude": 43.138829,
+      "longitude": -80.255729,
+      "distance": 48.7,
+      "registry_id": "321787301",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c001",
+      "current_address": "363 Colborne Street",
+      "current_community": "Brantford",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.grandriverchc.ca/who-we-are/directory/",
+        "https://www.grandriverchc.ca/your-health/new-clients/"
+      ]
+    },
+    {
+      "id": "moh-321788815",
+      "name": "Ingersoll Nurse Practitioner-Led Clinic",
+      "community": "Ingersoll",
+      "address": "19 King Street East",
+      "clinic_type": "NP",
+      "latitude": 43.038109,
+      "longitude": -80.881634,
+      "distance": 23.1,
+      "registry_id": "321788815",
+      "disposition": "represented_in_directory",
+      "clinic_id": "c038",
+      "current_address": "19 King Street East",
+      "current_community": "Ingersoll",
+      "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
+      "sources": [
+        "https://www.ocnplc.ca/patient-information/new-patients/",
+        "https://www.ocnplc.ca/patient-information/new-patients/"
+      ]
+    },
+    {
+      "id": "moh-321787394",
+      "name": "West Elgin Community Health Centre (East Elgin Diabetes Education Program)",
+      "community": "Aylmer",
+      "address": "424 Talbot Street West Unit L9",
+      "clinic_type": "CHC",
+      "latitude": 42.772888,
+      "longitude": -80.994664,
+      "distance": 24.4,
+      "registry_id": "321787394",
+      "disposition": "program_or_administrative_site_not_general_attachment",
+      "finding": "Diabetes education service, not a separate general primary-care attachment office.",
+      "sources": [
+        "https://wechc.on.ca/programs-and-services/diabetes-education"
+      ]
+    }
+  ]
+}

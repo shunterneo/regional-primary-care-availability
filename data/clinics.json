@@ -338,14 +338,14 @@
       "community": "London",
       "address": "460 Springbank Drive, Suite 209",
       "clinic_type": "NP",
-      "status": "reported",
-      "intake_detail": "Thames Valley FHT publicly accepting NP clinic patients across region. Site is an NP clinic; current site-specific capacity should be confirmed.",
+      "status": "limited",
+      "intake_detail": "TVFHT explicitly advertises new-patient applications for its NP clinics across London, Middlesex, Elgin and Oxford. Eligible: no family doctor/NP, or an existing provider outside the area with a request for local care. Contact the Attachment Team at 519-473-0530 ext. 2197 or use its contact-request form. The program is accepting applications; the team determines site placement and capacity. This does not open every affiliated physician roster.",
       "phone": "519-473-0530 ext. 2263",
       "providers": "",
       "evidence_url": "https://thamesvalleyfht.ca/become-a-patient/",
       "clinic_url": "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
       "source_published": "",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-12",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
@@ -355,11 +355,11 @@
       "care_model_source": "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
       "intake_verification": {
         "tier": "program_general",
-        "scope": "program",
-        "reviewed_on": "2026-11-11",
+        "scope": "organization",
+        "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
         "source_url": "https://thamesvalleyfht.ca/become-a-patient/",
-        "finding": "TVFHT confirms nurse-practitioner clinic applications regionally; Springbank clinic exists, but site-specific capacity is not stated.",
+        "finding": "TVFHT explicitly advertises new-patient applications for its NP clinics across London, Middlesex, Elgin and Oxford. Eligible: no family doctor/NP, or an existing provider outside the area with a request for local care. Contact the Attachment Team at 519-473-0530 ext. 2197 or use its contact-request form. The program is accepting applications; the team determines site placement and capacity. This does not open every affiliated physician roster.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -377,12 +377,10 @@
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
         "reviewed_on": "2026-11-12",
-        "finding": "TVFHT own page accepts ongoing NP applications across four regions; branch pages confirm locations but not each office capacity. Oxford NPLC independently directs Woodstock residents to 959 Dundas NP attachment.",
+        "finding": "TVFHT explicitly advertises new-patient applications for its NP clinics across London, Middlesex, Elgin and Oxford. Eligible: no family doctor/NP, or an existing provider outside the area with a request for local care. Contact the Attachment Team at 519-473-0530 ext. 2197 or use its contact-request form. The program is accepting applications; the team determines site placement and capacity. This does not open every affiliated physician roster.",
         "sources": [
           "https://thamesvalleyfht.ca/become-a-patient/",
-          "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
-          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
-          "https://www.ocnplc.ca/2026/08/25/new-patient-application/"
+          "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/"
         ]
       }
     },
@@ -578,14 +576,14 @@
       "community": "Woodstock",
       "address": "959 Dundas Street East, Suite 204",
       "clinic_type": "FHT",
-      "status": "reported",
-      "intake_detail": "Thames Valley FHT runs an NP attachment intake program across Oxford, London, Middlesex and Elgin. Oxford NPLC directs Woodstock residents to this program at 959 Dundas Street East. The program application is open; this specific office’s available roster capacity is NOT independently confirmed.",
+      "status": "limited",
+      "intake_detail": "TVFHT explicitly advertises new-patient applications for its NP clinics across London, Middlesex, Elgin and Oxford. Eligible: no family doctor/NP, or an existing provider outside the area with a request for local care. Contact the Attachment Team at 519-473-0530 ext. 2197 or use its contact-request form. The program is accepting applications; the team determines site placement and capacity. This does not open every affiliated physician roster.",
       "phone": "519-473-0530 ext. 2197",
       "providers": "Family health team serving multiple physicians. Individual physicians may practise elsewhere.",
       "evidence_url": "https://thamesvalleyfht.ca/become-a-patient/",
       "clinic_url": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
       "source_published": "2026-11-11",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-12",
       "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 30.2,
       "notes": "Woodstock FHT office: 519-537-6701. NP attachment team (applications): 519-473-0530 ext. 2197.",
@@ -595,11 +593,11 @@
       "care_model_source": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
       "intake_verification": {
         "tier": "program_general",
-        "scope": "program",
-        "reviewed_on": "2026-11-11",
+        "scope": "organization",
+        "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
         "source_url": "https://thamesvalleyfht.ca/become-a-patient/",
-        "finding": "Oxford NPLC expressly names TVFHT Woodstock at 959 Dundas St for NP attachment, plus TVFHT program intake page.",
+        "finding": "TVFHT explicitly advertises new-patient applications for its NP clinics across London, Middlesex, Elgin and Oxford. Eligible: no family doctor/NP, or an existing provider outside the area with a request for local care. Contact the Attachment Team at 519-473-0530 ext. 2197 or use its contact-request form. The program is accepting applications; the team determines site placement and capacity. This does not open every affiliated physician roster.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -615,12 +613,10 @@
       "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
       "online_review": {
         "reviewed_on": "2026-11-12",
-        "finding": "TVFHT own page accepts ongoing NP applications across four regions; branch pages confirm locations but not each office capacity. Oxford NPLC independently directs Woodstock residents to 959 Dundas NP attachment.",
+        "finding": "TVFHT explicitly advertises new-patient applications for its NP clinics across London, Middlesex, Elgin and Oxford. Eligible: no family doctor/NP, or an existing provider outside the area with a request for local care. Contact the Attachment Team at 519-473-0530 ext. 2197 or use its contact-request form. The program is accepting applications; the team determines site placement and capacity. This does not open every affiliated physician roster.",
         "sources": [
           "https://thamesvalleyfht.ca/become-a-patient/",
-          "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
-          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
-          "https://www.ocnplc.ca/2026/08/25/new-patient-application/"
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/"
         ]
       }
     },
@@ -3638,7 +3634,7 @@
       "address": "230 First Avenue, Suite 109",
       "clinic_type": "FHT",
       "status": "unknown",
-      "intake_detail": "Clinic advertises appointments for people without a provider, including non-TVFHT patients. Call 519-473-0530 ext. 2258. Access to an appointment does not establish ongoing roster attachment.",
+      "intake_detail": "Clinic advertises appointments for people without a provider, including non-TVFHT patients. Call 519-473-0530 ext. 2258. Access to an appointment does not establish ongoing roster attachment. TVFHT also advertises a separate ongoing NP attachment pathway across Elgin and surrounding regions; call the Attachment Team at 519-473-0530 ext. 2197 or see https://thamesvalleyfht.ca/become-a-patient/. This regional invitation does not independently confirm placement at this office.",
       "phone": "519-473-0530 ext. 2258",
       "providers": "",
       "evidence_url": "https://thamesvalleyfht.ca/locations/elgin-community-health-hub/",
@@ -4838,7 +4834,15 @@
       "longitude": -80.5709414,
       "coordinate_source": "https://www.openstreetmap.org/way/502224327",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Government record mislabels the municipality Kitchener. Clinic-owned location confirms Waterloo, 250 Laurelwood Drive Suite 4111. Organization FAQ says no locations currently accepting new patients. Existing record retained.",
+        "sources": [
+          "https://family-medicine.ca/university-gates/",
+          "https://family-medicine.ca/patient-resources/frequently-asked-questions/"
+        ]
+      }
     },
     {
       "id": "c104",
@@ -4947,7 +4951,7 @@
       "intake_reviewed_by_phone": false,
       "status": "unknown",
       "evidence_url": "https://www.pccfht.ca/contacts/",
-      "intake_detail": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment.",
+      "intake_detail": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment. Separate Primary Care Access Clinic offers pre-booked non-emergency care for unattached people who live or work in Brantford, Brant or Norfolk; call 519-442-9834. This does not establish permanent enrolment in the family practice.",
       "last_reviewed": "2026-11-12",
       "review_basis": "Individual public-source review; no telephone confirmation or guaranteed attachment.",
       "auto_updates_enabled": false,
@@ -4968,10 +4972,10 @@
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
         "reviewed_on": "2026-11-12",
-        "finding": "Official physician contact/team pages and name searches reviewed; current site-specific attachment capacity not stated. The access clinic is a distinct service.",
+        "finding": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment. Separate Primary Care Access Clinic offers pre-booked non-emergency care for unattached people who live or work in Brantford, Brant or Norfolk; call 519-442-9834. This does not establish permanent enrolment in the family practice.",
         "sources": [
-          "https://www.pccfht.ca/contacts/",
-          "https://www.pccfht.ca/primacare-health-team/"
+          "https://www.pccfht.ca/primary-care-access-clinic/",
+          "https://www.pccfht.ca/contacts/"
         ]
       },
       "uncertainty_reason": "no_current_statement",
@@ -8638,14 +8642,14 @@
       "phone": "519-667-7081",
       "providers": "Dr. Arshia Nabeel and clinic team",
       "clinic_type": "MD",
-      "status": "reported",
+      "status": "accepting",
       "care_model": "ongoing",
-      "intake_detail": "Search-indexed clinic pages advertise new-patient family practice, but direct page retrieval returned only a JavaScript shell. Treat this as an unconfirmed online lead and call the clinic before relying on availability. CPSO corroborates Dr. Nabeel and the address.",
+      "intake_detail": "Clinic website advertises new patients and invites a first appointment for ongoing family practice. Call 519-667-7081 or use the clinic appointment-request page. A request does not guarantee enrolment or an immediate appointment.",
       "clinic_url": "https://polarihealth.com/family-practice/",
       "evidence_url": "https://polarihealth.com/family-practice/",
       "source_published": "",
       "last_reviewed": "2026-11-12",
-      "notes": "",
+      "notes": "Live rendered website reviewed; no telephone confirmation.",
       "review_basis": "Public-source office and intake review; no telephone confirmation.",
       "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
       "care_model_source": "https://polarihealth.com/family-practice/",
@@ -8656,24 +8660,22 @@
       "auto_updates_enabled": false,
       "location_quality": "Approximate community point; not an address-matched clinic coordinate.",
       "intake_verification": {
-        "tier": "conflicting_or_unconfirmed",
+        "tier": "clinic_first_party",
         "scope": "location",
         "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
         "source_url": "https://polarihealth.com/family-practice/",
-        "finding": "Search-indexed clinic pages advertise new-patient family practice, but direct page retrieval returned only a JavaScript shell. Treat this as an unconfirmed online lead and call the clinic before relying on availability. CPSO corroborates Dr. Nabeel and the address.",
+        "finding": "Clinic website advertises new patients and invites a first appointment for ongoing family practice. Call 519-667-7081 or use the clinic appointment-request page. A request does not guarantee enrolment or an immediate appointment.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
       "community_distance_km": 44.6,
       "online_review": {
         "reviewed_on": "2026-11-12",
-        "finding": "Search-indexed clinic pages advertise new-patient family practice, but direct page retrieval returned only a JavaScript shell. Treat this as an unconfirmed online lead and call the clinic before relying on availability. CPSO corroborates Dr. Nabeel and the address.",
+        "finding": "Rendered family-practice and booking pages read in browser. New-patient invitation, ongoing family care, office address and telephone confirmed. Previous text-only retrieval exposed a JavaScript shell and had insufficiently verified this lead. No form submitted.",
         "sources": [
           "https://polarihealth.com/family-practice/",
-          "https://www.polarihealth.com/contact",
-          "https://register.cpso.on.ca/physician-info/?cpsonum=111770",
-          "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
+          "https://polarihealth.com/book"
         ]
       }
     },
@@ -9708,6 +9710,189 @@
       },
       "uncertainty_reason": "no_current_statement",
       "uncertainty_label": "No current office-specific intake established"
+    },
+    {
+      "id": "c205",
+      "name": "Haldimand FHT — Caledonia",
+      "community": "Caledonia",
+      "address": "245 Argyle Street South",
+      "phone": "365-206-0303",
+      "providers": "",
+      "clinic_type": "FHT",
+      "status": "limited",
+      "care_model": "ongoing",
+      "clinic_url": "https://haldimandfht.ca/",
+      "evidence_url": "https://haldimandfht.ca/",
+      "intake_detail": "NP applications advertised for residents of Haldimand, Mississaugas of the Credit or Six Nations who do not have a family doctor. Caledonia is an application contact for the same team pathway listed at Hagersville; placement at this specific site is not guaranteed.",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "Public online review; no telephone confirmation or guaranteed enrolment.",
+      "review_basis": "Clinic-owned public pages reviewed individually.",
+      "care_model_basis": "Clinic describes family primary care and follow-up services.",
+      "care_model_source": "https://haldimandfht.ca/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.hnhbhealthline.ca/displayService.aspx?id=183823",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Published office address; not entrance or suite-coordinate confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Approximate community point; not an address-matched clinic coordinate.",
+      "intake_verification": {
+        "tier": "program_general",
+        "scope": "organization",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://haldimandfht.ca/",
+        "finding": "NP applications advertised for residents of Haldimand, Mississaugas of the Credit or Six Nations who do not have a family doctor. Caledonia is an application contact for the same team pathway listed at Hagersville; placement at this specific site is not guaranteed.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "NP applications advertised for residents of Haldimand, Mississaugas of the Credit or Six Nations who do not have a family doctor. Caledonia is an application contact for the same team pathway listed at Hagersville; placement at this specific site is not guaranteed.",
+        "sources": [
+          "https://haldimandfht.ca/",
+          "https://www.hnhbhealthline.ca/displayService.aspx?id=183823"
+        ]
+      }
+    },
+    {
+      "id": "c206",
+      "name": "Haldimand Medical Clinic — team family practice",
+      "community": "Caledonia",
+      "address": "250 Argyle Street North, Unit 2",
+      "phone": "289-210-7090",
+      "providers": "",
+      "clinic_type": "MD",
+      "status": "waitlist",
+      "care_model": "ongoing",
+      "clinic_url": "https://healthycaledonia.ca/",
+      "evidence_url": "https://healthycaledonia.ca/enrol",
+      "intake_detail": "Clinic invites new-patient waitlist forms for each family member with a valid Ontario health card. It prioritizes based on need and publishes a 6–12 month estimate; this is not a guaranteed current wait. This team has a separate intake route from Dr. Ogbunando at the same street address.",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "Contact page gives 289-210-7090; other page headers retain 289-757-2287. Use current contact-page number. Do not infer openings for every physician sharing the building.",
+      "review_basis": "Clinic-owned public pages reviewed individually.",
+      "care_model_basis": "Clinic describes family primary care and follow-up services.",
+      "care_model_source": "https://healthycaledonia.ca/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://healthycaledonia.ca/contact",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Published office address; not entrance or suite-coordinate confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Approximate community point; not an address-matched clinic coordinate.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://healthycaledonia.ca/enrol",
+        "finding": "Clinic invites new-patient waitlist forms for each family member with a valid Ontario health card. It prioritizes based on need and publishes a 6–12 month estimate; this is not a guaranteed current wait. This team has a separate intake route from Dr. Ogbunando at the same street address.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Clinic invites new-patient waitlist forms for each family member with a valid Ontario health card. It prioritizes based on need and publishes a 6–12 month estimate; this is not a guaranteed current wait. This team has a separate intake route from Dr. Ogbunando at the same street address.",
+        "sources": [
+          "https://healthycaledonia.ca/enrol",
+          "https://healthycaledonia.ca/about",
+          "https://healthycaledonia.ca/contact"
+        ]
+      }
+    },
+    {
+      "id": "c207",
+      "name": "Hint of Health — private fee-for-service NP",
+      "community": "St. Thomas",
+      "address": "613 Talbot Street, Unit 106",
+      "phone": "548-538-2288",
+      "providers": "",
+      "clinic_type": "NP",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "clinic_url": "https://hintofhealthinc.ca/",
+      "evidence_url": "https://hintofhealthinc.ca/fees",
+      "intake_detail": "Private fee-for-service primary care: clinic advertises initial and follow-up appointments, plus separate episodic visits. Published fees are $135 initial and $70 follow-up, subject to change. Ongoing new-patient attachment capacity is not explicitly confirmed; ask the clinic about scope, availability and costs. This is not an OHIP-funded NPLC opening.",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "Private NP fees apply; the existence of a booking page is not proof of ongoing attachment availability.",
+      "review_basis": "Clinic-owned public pages reviewed individually.",
+      "care_model_basis": "Clinic describes family primary care and follow-up services.",
+      "care_model_source": "https://hintofhealthinc.ca/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://hintofhealthinc.ca/about-us",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Published office address; not entrance or suite-coordinate confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Approximate community point; not an address-matched clinic coordinate.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://hintofhealthinc.ca/fees",
+        "finding": "Private fee-for-service primary care: clinic advertises initial and follow-up appointments, plus separate episodic visits. Published fees are $135 initial and $70 follow-up, subject to change. Ongoing new-patient attachment capacity is not explicitly confirmed; ask the clinic about scope, availability and costs. This is not an OHIP-funded NPLC opening.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Private fee-for-service primary care: clinic advertises initial and follow-up appointments, plus separate episodic visits. Published fees are $135 initial and $70 follow-up, subject to change. Ongoing new-patient attachment capacity is not explicitly confirmed; ask the clinic about scope, availability and costs. This is not an OHIP-funded NPLC opening.",
+        "sources": [
+          "https://hintofhealthinc.ca/",
+          "https://hintofhealthinc.ca/fees",
+          "https://hintofhealthinc.ca/about-us"
+        ]
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
+    },
+    {
+      "id": "c208",
+      "name": "Highbury Medical Clinic — Dr. Saadiyah Rao",
+      "community": "London",
+      "address": "1345 Huron Street, Unit 4",
+      "phone": "519-473-2464",
+      "providers": "Dr. Saadiyah Rao",
+      "clinic_type": "MD",
+      "status": "accepting",
+      "care_model": "both",
+      "intake_detail": "Dr. Saadiyah Rao advertises new-patient family-practice intake. Complete the linked patient intake form and deliver it in person to Highbury Medical Clinic. Walk-in service is separate; submitting a form does not guarantee enrolment.",
+      "clinic_url": "https://kamvamedical.ca/highbury-medical-clinic/",
+      "evidence_url": "https://kamvamedical.ca/highbury-medical-clinic/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "Clinic page and linked intake PDF reviewed. CPSO 149339 corroborates physician, street address and clinic phone; postal code differs, so no postal code asserted in listing.",
+      "review_basis": "Public-source office and intake review; no telephone confirmation.",
+      "care_model_basis": "Clinic explicitly distinguishes walk-in care from Dr. Rao’s ongoing family practice.",
+      "care_model_source": "https://kamvamedical.ca/highbury-medical-clinic/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://kamvamedical.ca/wp-content/uploads/2026/10/dr-saadiyah-rao-patient-intake-form-2026-10-25-revised.pdf",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Approximate community point; not an address-matched clinic coordinate.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://kamvamedical.ca/highbury-medical-clinic/",
+        "finding": "Dr. Saadiyah Rao advertises new-patient family-practice intake. Complete the linked patient intake form and deliver it in person to Highbury Medical Clinic. Walk-in service is separate; submitting a form does not guarantee enrolment.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Dr. Saadiyah Rao advertises new-patient family-practice intake. Complete the linked patient intake form and deliver it in person to Highbury Medical Clinic. Walk-in service is separate; submitting a form does not guarantee enrolment.",
+        "sources": [
+          "https://kamvamedical.ca/highbury-medical-clinic/",
+          "https://kamvamedical.ca/wp-content/uploads/2026/10/dr-saadiyah-rao-patient-intake-form-2026-10-25-revised.pdf",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=149339"
+        ]
+      },
+      "phone_note": "Clinic main line; Dr. Rao office number on linked intake form: 226-667-0627."
     }
   ]
 }

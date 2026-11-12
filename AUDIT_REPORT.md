@@ -84,3 +84,7 @@ The current automated structural audit reports **97 records, 94 with traceable p
 ## Live-source follow-up, November 12
 
 The current directory has 204 records. See [the latest review](audits/thorough-review-2026-11-12/live-review.md) for corrections and unresolved coverage. A complete practitioner-register census has not been finished.
+
+### Further coverage and intake corrections — 2026-11-12
+
+See [coverage checkpoint](audits/coverage-2026-11-12/README.md) for Polari rendered-page confirmation, clarified TVFHT NP applications, four added records, all 40 retained government rows reconciled, and Tillsonburg’s 52-row all-type search. Directory now contains 208 records. Regional practitioner census remains incomplete; CNO human-verification block and remaining secondary-location checks are documented rather than counted as verified.

@@ -1,0 +1,173 @@
+{
+  "reviewed_on": "2026-11-12",
+  "source": "https://register.cpso.on.ca/Advanced-Search01/",
+  "query": {
+    "city": "Tillsonburg",
+    "doctor_type": "Any",
+    "language": null,
+    "active_or_inactive_within_two_years": true
+  },
+  "pages_retrieved": 6,
+  "results": 52,
+  "all_results_active": true,
+  "office_groups": [
+    {
+      "address": "200 Broadway Street, Tillsonburg",
+      "existing_record": "c090",
+      "cpso_ids": [
+        "144630",
+        "94062",
+        "62098",
+        "109080",
+        "86444",
+        "33423",
+        "288851",
+        "58191",
+        "94045",
+        "72578"
+      ],
+      "disposition": "Existing office; some doctors have no listed specialty and must not be omitted by a Family Doctor-only search. Registry inclusion does not establish intake or independent-practice status."
+    },
+    {
+      "address": "594 Broadway Street, Tillsonburg",
+      "existing_record": "c089",
+      "cpso_ids": [
+        "30772",
+        "60491",
+        "113929",
+        "149291",
+        "57109"
+      ],
+      "disposition": "Existing office; individual roster availability unconfirmed."
+    },
+    {
+      "address": "81 Fox Alley, Tillsonburg",
+      "existing_record": "c091",
+      "cpso_ids": [
+        "83281"
+      ],
+      "disposition": "Existing office; individual roster availability unconfirmed."
+    },
+    {
+      "address": "167 Rolph Street, Tillsonburg",
+      "cpso_ids": [
+        "141092",
+        "116994",
+        "77855",
+        "83774",
+        "95164",
+        "141515",
+        "149260"
+      ],
+      "disposition": "Hospital primary address. Additional locations of relevant primary-care candidates reviewed; no separate missing general attachment office established."
+    },
+    {
+      "address": "25 Maple Lane, PeopleCare Tillsonburg",
+      "cpso_ids": [
+        "59950"
+      ],
+      "disposition": "Long-term-care primary address, not a public family-practice application route."
+    }
+  ],
+  "specialist_or_emergency_medicine_only_rows": [
+    "88196",
+    "95359",
+    "67857",
+    "53970",
+    "60924",
+    "97083",
+    "114110",
+    "107131",
+    "139275",
+    "68783",
+    "84547",
+    "112836",
+    "52670",
+    "124047",
+    "97476",
+    "85923",
+    "95788",
+    "149728",
+    "102949",
+    "105820"
+  ],
+  "specialist_disposition": "Not general family-practice discovery candidates from the listed specialties. This does not assert their other services are unavailable.",
+  "enumeration_complete": true,
+  "additional_location_reconciliation_complete": true,
+  "intake_confirmed": false,
+  "additional_locations_reviewed": [
+    {
+      "cpso_id": "81782",
+      "name": "Ghassan Abushawish",
+      "primary": "310 Juliana Drive, Woodstock",
+      "additional_locations": 2,
+      "finding": "Additional locations are Tillsonburg hospital at 167 Rolph and duplicate Woodstock hospital address.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=81782"
+    },
+    {
+      "cpso_id": "116848",
+      "name": "Samuel Makram Agaibi",
+      "primary": "3001 Hospital Gate, Oakville",
+      "additional_locations": 2,
+      "finding": "Additional locations are Lindsay hospital and Tillsonburg hospital.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=116848"
+    },
+    {
+      "cpso_id": "103130",
+      "name": "Elizabeth Victoria Yue-Yin Allen",
+      "primary": "Alexandra Medical Centre, 29 Noxon Street, Ingersoll",
+      "additional_locations": 2,
+      "finding": "Additional locations are Strathroy hospital and 167 Rolph; primary office already represented by c152.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=103130"
+    },
+    {
+      "cpso_id": "87374",
+      "name": "Robert Satyamurti Butchey",
+      "primary": "140 Oxford Street East, Suite 200, London",
+      "additional_locations": 1,
+      "finding": "Additional location is Tillsonburg hospital; London primary office already c149.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=87374"
+    },
+    {
+      "cpso_id": "119795",
+      "name": "Loay Khalid Haseeb Haddad",
+      "primary": "Alexandra Hospital, 29 Noxon Street, Ingersoll",
+      "additional_locations": 1,
+      "finding": "Additional location is Tillsonburg hospital emergency department.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=119795"
+    },
+    {
+      "cpso_id": "84914",
+      "name": "Carroll Diann Harder",
+      "primary": "St. Thomas-Elgin General Hospital, 189 Elm Street",
+      "additional_locations": 1,
+      "finding": "Additional location is Tillsonburg hospital.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=84914"
+    },
+    {
+      "cpso_id": "97308",
+      "name": "Saeed Ahmed Malik",
+      "primary": "NeuPath Centre for Pain and Spine, 1200 Markham Road, Toronto",
+      "additional_locations": 4,
+      "finding": "Other locations are pain clinics in Mississauga, Oshawa and Toronto, plus Tillsonburg emergency department.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=97308"
+    },
+    {
+      "cpso_id": "93627",
+      "name": "Bart Mysliwiec",
+      "primary": "Woodstock General Hospital, 310 Juliana Drive",
+      "additional_locations": 1,
+      "finding": "Additional location is Tillsonburg hospital.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=93627"
+    }
+  ],
+  "other_additional_location_checks": {
+    "116994": "Duplicate 167 Rolph hospital.",
+    "141515": "St. Thomas, Strathroy and Tillsonburg hospitals.",
+    "149260": "Ingersoll and Strathroy hospitals.",
+    "30772": "167 Rolph hospital and 73 Bidwell long-term care.",
+    "113929": "167 Rolph hospital and Maple Manor Nursing Home, 73 Bidwell.",
+    "86444": "167 Rolph hospital."
+  },
+  "conclusion": "52 query rows enumerated. Community family-practice offices match existing records. No additional Tillsonburg general attachment office established from this query. Not proof of intake availability or a regional census."
+}

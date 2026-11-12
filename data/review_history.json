@@ -2784,5 +2784,75 @@
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
     "type": "live_register_addition",
     "reviewer_note": "Live CPSO practice address now matches the university Family Plus listing. Older indexed CPSO text showing 19 Elgin Street is superseded for this physician. Family-practice office and public telephone confirmed in the live physician register. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c182",
+    "clinic_name": "Polari Health — Family Practice",
+    "old_status": "reported",
+    "new_status": "accepting",
+    "source": "https://polarihealth.com/family-practice/",
+    "type": "individual_public_source_audit",
+    "reviewer_note": "Clinic website advertises new patients and invites a first appointment for ongoing family practice. Call 519-667-7081 or use the clinic appointment-request page. A request does not guarantee enrolment or an immediate appointment."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c008",
+    "clinic_name": "Thames Valley FHT — Springbank NP Clinic",
+    "old_status": "reported",
+    "new_status": "limited",
+    "source": "https://thamesvalleyfht.ca/become-a-patient/",
+    "type": "individual_public_source_audit",
+    "reviewer_note": "TVFHT explicitly advertises new-patient applications for its NP clinics across London, Middlesex, Elgin and Oxford. Eligible: no family doctor/NP, or an existing provider outside the area with a request for local care. Contact the Attachment Team at 519-473-0530 ext. 2197 or use its contact-request form. The program is accepting applications; the team determines site placement and capacity. This does not open every affiliated physician roster."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c013",
+    "clinic_name": "Thames Valley Family Health Team — Woodstock",
+    "old_status": "reported",
+    "new_status": "limited",
+    "source": "https://thamesvalleyfht.ca/become-a-patient/",
+    "type": "individual_public_source_audit",
+    "reviewer_note": "TVFHT explicitly advertises new-patient applications for its NP clinics across London, Middlesex, Elgin and Oxford. Eligible: no family doctor/NP, or an existing provider outside the area with a request for local care. Contact the Attachment Team at 519-473-0530 ext. 2197 or use its contact-request form. The program is accepting applications; the team determines site placement and capacity. This does not open every affiliated physician roster."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c205",
+    "clinic_name": "Haldimand FHT — Caledonia",
+    "old_status": null,
+    "new_status": "limited",
+    "source": "https://haldimandfht.ca/",
+    "type": "individual_public_source_audit",
+    "reviewer_note": "NP applications advertised for residents of Haldimand, Mississaugas of the Credit or Six Nations who do not have a family doctor. Caledonia is an application contact for the same team pathway listed at Hagersville; placement at this specific site is not guaranteed."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c206",
+    "clinic_name": "Haldimand Medical Clinic — team family practice",
+    "old_status": null,
+    "new_status": "waitlist",
+    "source": "https://healthycaledonia.ca/enrol",
+    "type": "individual_public_source_audit",
+    "reviewer_note": "Clinic invites new-patient waitlist forms for each family member with a valid Ontario health card. It prioritizes based on need and publishes a 6–12 month estimate; this is not a guaranteed current wait. This team has a separate intake route from Dr. Ogbunando at the same street address."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c207",
+    "clinic_name": "Hint of Health — private fee-for-service NP",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://hintofhealthinc.ca/fees",
+    "type": "individual_public_source_audit",
+    "reviewer_note": "Private fee-for-service primary care: clinic advertises initial and follow-up appointments, plus separate episodic visits. Published fees are $135 initial and $70 follow-up, subject to change. Ongoing new-patient attachment capacity is not explicitly confirmed; ask the clinic about scope, availability and costs. This is not an OHIP-funded NPLC opening."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c208",
+    "clinic_name": "Highbury Medical Clinic — Dr. Saadiyah Rao",
+    "old_status": null,
+    "new_status": "accepting",
+    "source": "https://kamvamedical.ca/highbury-medical-clinic/",
+    "type": "individual_public_source_audit",
+    "reviewer_note": "Dr. Saadiyah Rao advertises new-patient family-practice intake. Complete the linked patient intake form and deliver it in person to Highbury Medical Clinic. Walk-in service is separate; submitting a form does not guarantee enrolment."
   }
 ]

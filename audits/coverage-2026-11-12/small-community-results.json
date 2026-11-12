@@ -1,0 +1,112 @@
+{
+  "reviewed_on": "2026-11-12",
+  "source": "https://register.cpso.on.ca/Advanced-Search01/",
+  "query": "Any doctor type; no language filter; active and inactive within two years",
+  "cities": {
+    "Norwich": {
+      "all_rows": [
+        "120674",
+        "86657",
+        "99524",
+        "87920",
+        "288833",
+        "159345",
+        "69155"
+      ],
+      "existing_offices": {
+        "c074": [
+          "120674",
+          "99524",
+          "87920",
+          "288833",
+          "69155"
+        ],
+        "c073": [
+          "86657"
+        ]
+      },
+      "excluded": {
+        "159345": "Norwich England vascular surgery address, not Norwich Ontario"
+      },
+      "additional_locations_pending": [
+        "120674"
+      ]
+    },
+    "Aylmer": {
+      "all_rows": [
+        "144148",
+        "102350",
+        "131404",
+        "121004",
+        "116967",
+        "98754",
+        "93694",
+        "75971"
+      ],
+      "existing_primary_offices": {
+        "c054": [
+          "144148",
+          "102350",
+          "121004",
+          "98754",
+          "93694"
+        ],
+        "c053": [
+          "116967"
+        ],
+        "c052": [
+          "75971"
+        ],
+        "c169": [
+          "131404"
+        ]
+      },
+      "additional_locations_pending": [
+        "102350",
+        "131404",
+        "75971"
+      ]
+    },
+    "Delhi": {
+      "all_rows": [
+        "97662",
+        "92180",
+        "141183",
+        "62102",
+        "121409",
+        "133436",
+        "104679",
+        "122005",
+        "84759"
+      ],
+      "existing_primary_offices": {
+        "c058": [
+          "97662",
+          "92180",
+          "104679"
+        ],
+        "c076": [
+          "62102",
+          "121409",
+          "122005",
+          "84759"
+        ]
+      },
+      "additional_location_checked": {
+        "141183": "105 Main Street Delhi Community Health Centre, c058"
+      },
+      "excluded": {
+        "133436": "Delhi India address, not Delhi Ontario"
+      },
+      "additional_locations_pending": [
+        "97662",
+        "92180",
+        "62102",
+        "121409",
+        "122005",
+        "84759"
+      ]
+    }
+  },
+  "regional_census_complete": false
+}
