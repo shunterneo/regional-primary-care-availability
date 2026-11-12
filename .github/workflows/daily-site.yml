@@ -37,7 +37,7 @@ jobs:
       - name: Install project dependencies
         run: python -m pip install -r requirements.txt
       - name: Check official clinic sources and discover possible new leads
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[full-audit]')
         run: |
           python scripts/check_sources.py
           python scripts/discover_clinics.py
@@ -83,7 +83,7 @@ jobs:
             fi
           fi
       - name: Save monitored evidence and confidently auto-published changes
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[full-audit]')
         run: |
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git config user.name 'github-actions[bot]'
