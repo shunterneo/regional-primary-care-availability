@@ -473,19 +473,6 @@
     "finding": "London InterCommunity Health Centre lists its Argyle site as offering primary care. Site-specific availability or eligibility for attachment not independently confirmed. Do not advertise as an open patient roster."
   },
   {
-    "clinic_id": "c099",
-    "name": "Forbes Park Medical Centre",
-    "phone": "519-658-4615",
-    "website": "https://www.forbesparkmedical.com/new-patients",
-    "questions": [
-      "What current clinic-published application or waitlist notice establishes intake for this office?",
-      "Which conflicting published notice applies to this location/provider?"
-    ],
-    "status": "public_evidence_unresolved",
-    "last_public_review": "2026-11-12",
-    "finding": "Clinic says no physicians are accepting. Regional directory still suggests collecting an application; the clinic statement is used pending clarification."
-  },
-  {
     "clinic_id": "c106",
     "name": "PrimaCare Community FHT — Paris",
     "phone": "519-442-9834",

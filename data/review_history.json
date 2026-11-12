@@ -2024,5 +2024,155 @@
     "new_status": "accepting",
     "source": "https://www.dralexadeyemi.ca/",
     "reviewer_note": "Own practice site invites applications for ongoing family medicine; spaces limited and office confirmation required."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c001",
+    "clinic_name": "Grand River Community Health Centre",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://www.grandriverchc.ca/your-health/new-clients/",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c015",
+    "clinic_name": "Langs North Dumfries Community Health Centre",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://www.langs.org/new-patients",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c023",
+    "clinic_name": "Langs Community Health Centre — Cambridge",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://www.langs.org/new-patients",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c039",
+    "clinic_name": "London InterCommunity Health Centre — Dundas",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://lihc.on.ca/programs-services/primary-care/",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c040",
+    "clinic_name": "London InterCommunity Health Centre — Huron",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://lihc.on.ca/programs-services/primary-care/",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c048",
+    "clinic_name": "Oxford County Community Health Centre — Tillsonburg",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c050",
+    "clinic_name": "Oxford County Community Health Centre — Woodstock",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c096",
+    "clinic_name": "London InterCommunity Health Centre — Argyle",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://lihc.on.ca/locations-and-hours-of-services/",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c099",
+    "clinic_name": "Forbes Park Medical Centre",
+    "old_status": "not_accepting",
+    "new_status": "not_accepting",
+    "source": "https://www.forbesparkmedical.com/new-patients",
+    "type": "source_conflict_resolved",
+    "reviewer_note": "Explicit clinic-owned new-patient notice rechecked online November 12, 2026. Regional directory discrepancy resolved in favour of the clinic notice; no telephone contact."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c109",
+    "clinic_name": "Central Community Health Centre",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://centralchc.com/",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c117",
+    "clinic_name": "SOAHAC — London",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://www.soahac.on.ca/locations/london",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c118",
+    "clinic_name": "SOAHAC — Chippewa of the Thames",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c119",
+    "clinic_name": "SOAHAC — Waterloo Wellington",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://www.soahac.on.ca/locations/waterloo-wellington",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c120",
+    "clinic_name": "Woolwich Community Health Centre — Wellesley",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c121",
+    "clinic_name": "Woolwich Community Health Centre — New Hamburg",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
+    "type": "access_context_clarified",
+    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
   }
 ]

@@ -45,7 +45,7 @@ function render(){
  const pills=E('div','pills');pills.append(E('span','pill '+c.display_status,label[c.display_status]));pills.append(E('span','typepill',`${c.community} · ${c.clinic_type}`));pills.append(E('span','carepill '+c.care_model,careLabel[c.care_model]||'Care model unconfirmed'));card.append(pills);
  const details=E('div','details',c.address+(c.phone?' · '+c.phone:'')+' · Public-source review: '+c.public_evidence_reviewed);card.append(details);
  card.append(E('p','details','Evidence level: '+c.evidence_label));
- if(c.intake_detail)card.append(E('p','intakenote',c.intake_detail));
+ if(c.intake_detail)for(const line of c.intake_detail.split('\n'))card.append(E('p','intakenote',line));
  card.append(E('p','details',Number.isFinite(c.latitude)&&Number.isFinite(c.longitude)?'Map: '+c.coordinate_quality:'Map: approximate community location; clinic point not matched.'));
  if(c.phone_note)card.append(E('p','details',c.phone_note));
  if(c.clinic_address_verified===false)card.append(E('p','details','Address needs confirmation before travel.'));
