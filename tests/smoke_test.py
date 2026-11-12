@@ -1,7 +1,10 @@
+import os
 import sys,pathlib,re,json,threading,http.server,functools
 from playwright.sync_api import sync_playwright
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 site=ROOT/'site'/'index.html'
+ARTIFACTS=ROOT/'test-results'
+ARTIFACTS.mkdir(exist_ok=True)
 s=site.read_text()
 assert 'connect-src \'none\'' in s
 assert 'No patient-address search' in s
@@ -18,7 +21,7 @@ server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,d
 threading.Thread(target=server.serve_forever,daemon=True).start()
 url=site.as_uri()
 with sync_playwright() as p:
- browser=p.chromium.launch(headless=True,executable_path='/usr/bin/chromium',args=['--no-sandbox','--disable-dev-shm-usage'])
+ browser=p.chromium.launch(headless=True,executable_path=os.environ.get('PLAYWRIGHT_CHROMIUM_EXECUTABLE') or None,args=['--no-sandbox','--disable-dev-shm-usage'])
  page=browser.new_page(viewport={'width':1365,'height':900},device_scale_factor=1)
  blocked=[]; errors=[]
  page.on('request',lambda req:blocked.append(req.url) if req.url.startswith('http') and '127.0.0.1' not in req.url else None)
@@ -36,12 +39,12 @@ with sync_playwright() as p:
  assert 'No patient-address search' in page.locator('.notice').inner_text()
  assert not errors,errors
  assert not blocked,blocked
- page.select_option('#town','all');page.screenshot(path='/mnt/data/Primary_Care_Availability_Hub_Preview.png',full_page=True)
+ page.select_option('#town','all');page.screenshot(path=str(ARTIFACTS/'desktop.png'),full_page=True)
  print('PASS: dynamic clinic dataset, filters, Oxfordia name search, map markers, no HTTP requests, no JS errors')
  mob=browser.new_page(viewport={'width':390,'height':844},device_scale_factor=1)
  mob.goto(url);mob.wait_for_selector('.item');print('MOBILE',mob.locator('.item').count())
  assert mob.locator('.item').count()==N
  assert mob.evaluate('document.documentElement.scrollWidth <= window.innerWidth+3'),'horizontal page overflow'
- mob.screenshot(path='/mnt/data/Primary_Care_Availability_Hub_Mobile_Preview.png',full_page=False)
+ mob.screenshot(path=str(ARTIFACTS/'mobile.png'),full_page=False)
  browser.close()
 server.shutdown()

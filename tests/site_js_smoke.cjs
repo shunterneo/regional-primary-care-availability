@@ -14,8 +14,8 @@ class Node{
 }
 const ids={};for(const m of html.matchAll(/\bid="([^"]+)"/g))ids[m[1]]=new Node(m[1]);
 ids['clinic-data'].textContent=dataMatch[1];
-const document={getElementById(id){assert(ids[id],`missing id: ${id}`);return ids[id]},createElement(tag){return new Node(tag)},createElementNS(ns,tag){return new Node(tag)}};
-const context={document,console,Math,Set,JSON,Intl,TextEncoder};
+const document={handlers:{},addEventListener(k,callback){this.handlers[k]=callback},getElementById(id){assert(ids[id],`missing id: ${id}`);return ids[id]},createElement(tag){return new Node(tag)},createElementNS(ns,tag){return new Node(tag)}};
+const timers=[];const context={document,console,Math,Set,JSON,Intl,TextEncoder,setInterval(fn){timers.push(fn)}};
 vm.runInNewContext(scriptMatch[1].replace('})();','globalThis.features={openEditor,reviewEdit,pdfBytes,docxBytes,csvBytes,exportRows,selectedClinics};})();'),context, {timeout:3000,filename:'site-inline.js'});
 assert.equal(ids.mTotal.textContent,N);assert.equal(ids.mIntake.textContent,numFor('accepting'));assert.equal(ids.mLeads.textContent,numFor('reported'));
 assert.equal(ids.results.children.length,countOngoing());assert.equal(ids.map.children.filter(x=>x.tag==='g').length,TOWNS);
@@ -47,3 +47,26 @@ assert(f.csvBytes([researched]).includes(researched.online_review.finding.replac
 assert(f.pdfBytes([researched]).includes('Online research:'),'PDF preserves research context');
 assert(new TextDecoder().decode(f.docxBytes([researched])).includes('Online research:'),'Word preserves research context');
 console.log('PASS: research disclosures and CSV/PDF/Word research provenance');
+
+// A continuously visible tab must downgrade without reload or focus changes.
+const expired=f.exportRows().find(c=>c.display_status==='accepting');assert(expired);
+expired.display_expires_on='2000-01-01';timers[0]();
+assert.equal(expired.display_status,'needs_review');
+assert.equal(ids.mIntake.textContent,numFor('accepting')-1);
+assert(f.csvBytes([expired]).includes('Needs reconfirmation'));
+assert(f.pdfBytes([expired]).includes('Needs reconfirmation'));
+assert(new TextDecoder().decode(f.docxBytes([expired])).includes('Needs reconfirmation'));
+// Direct export functions defend against expiry between selection and saving.
+for(const encode of [f.csvBytes,f.pdfBytes,f.docxBytes]){
+ const stale={...expired,display_status:'accepting'};encode([stale]);assert.equal(stale.display_status,'needs_review');
+}
+console.log('PASS: visible-tab timer and actual CSV/PDF/DOCX expiry guards');
+
+// Exporting before the timer must also refresh visible cards/map, not swallow the change.
+ids.reset.handlers.click();ids.downloadScope.value='all';
+const raced=f.exportRows().find(c=>c.display_status==='accepting');assert(raced);
+raced.display_expires_on='2000-01-01';f.exportRows();timers[0]();
+const racedCard=ids.results.children.find(card=>card.innerText.includes(raced.name));
+assert(racedCard&&racedCard.innerText.includes('Needs reconfirmation'));
+assert(!racedCard.children.find(n=>n.className==='pills').children.some(n=>n.className==='pill accepting'));
+console.log('PASS: export-first expiry also refreshes visible cards before timer');

@@ -1,0 +1,39 @@
+name: Source monitor heartbeat (no publication)
+on:
+  schedule:
+    - cron: '47 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: source-monitor-heartbeat
+  cancel-in-progress: false
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check source health, not merely deployment health
+        id: health
+        continue-on-error: true
+        run: python scripts/monitor_health.py > /tmp/source-health.json
+      - name: Maintain one actionable monitor-health issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEALTH_OUTCOME: ${{ steps.health.outcome }}
+        run: |
+          title='Source monitoring needs attention'
+          number=$(gh issue list --state open --search "$title in:title" --json number,title --jq '.[] | select(.title=="Source monitoring needs attention") | .number' | head -1)
+          if [ "$HEALTH_OUTCOME" = failure ]; then
+            { echo 'Source monitoring is incomplete. A successful site deployment is not a successful source check.'; echo; cat /tmp/source-health.json; } > /tmp/source-health-body.txt
+            if [ -n "$number" ]; then gh issue edit "$number" --body-file /tmp/source-health-body.txt; else gh issue create --title "$title" --body-file /tmp/source-health-body.txt; fi
+          elif [ -n "$number" ]; then
+            gh issue close "$number" --comment 'Current evidence URLs have been scanned without latest-attempt errors, and the source heartbeat is within 36 hours. This is monitoring health, not clinical/intake verification.'
+          fi
+      - name: Fail the health check visibly when monitoring is incomplete
+        if: steps.health.outcome == 'failure'
+        run: exit 1

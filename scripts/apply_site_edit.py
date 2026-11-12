@@ -20,6 +20,8 @@ def apply_edit(db,proposal,confirmation,actor='maintainer'):
     source=proposal.get('source_url','');note=proposal.get('review_note','')
     if not is_url(source) or len(note.strip())<16:raise ValueError('Provide an HTTPS evidence source and meaningful review note')
     new=copy.deepcopy(old);new.update(changes)
+    # Preserve intake's own clock when unrelated fields are corrected.
+    new.setdefault('intake_reviewed_on',(old.get('intake_verification') or {}).get('reviewed_on') or old.get('last_reviewed'))
     if new['status'] not in STATUSES or new['status']=='needs_review':raise ValueError('Invalid intake status')
     if new['care_model'] not in CARE_MODELS or new['community'] not in CITY_COORDS:raise ValueError('Unsupported care model or community')
     if len(new['name'].strip())<3 or not new['address'].strip():raise ValueError('Name and address required')
@@ -33,6 +35,7 @@ def apply_edit(db,proposal,confirmation,actor='maintainer'):
         new.update(clinic_address_verified=True,address_verification_source=source,address_verified_on=today,location_quality='Address reviewed by maintainer; map uses approximate community until coordinates checked')
     intake_changed=any(k in changes for k in ('status','care_model','intake_detail','clinic_url','name','providers'))
     if intake_changed:
+        new['intake_reviewed_on']=today
         scope=proposal.get('verification_scope','unverified');quote=proposal.get('evidence_quote','').strip()
         if new['status']=='accepting':
             decision=decisive_statement(quote)
