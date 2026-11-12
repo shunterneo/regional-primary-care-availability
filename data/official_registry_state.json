@@ -70,7 +70,7 @@
       }
     },
     "moh-321787715": {
-      "hash": "185f9210d0f83ab486962c445e71a65e3b82ca85ec0a7030c513debb91023cf8",
+      "hash": "fc5f97942fa9dd5ca0d3a793122b29a209ce9ce16d91127010b220e71b8b27a2",
       "days": [
         "2026-11-12"
       ],
@@ -82,7 +82,7 @@
         "clinic_type": "FHT",
         "latitude": 43.379186,
         "longitude": -81.002031,
-        "distance": 61.5,
+        "distance": 61.4,
         "registry_id": "321787715"
       }
     },
@@ -121,7 +121,7 @@
       }
     },
     "moh-321788817": {
-      "hash": "adc7ded908b2c8e3e62f1cafece78c2153a040fa11b0439ea56a0b5366fe6e1e",
+      "hash": "ef31c190b3597ae40cdc96e7176e7e25b451c37252444e123d6020be534e733c",
       "days": [
         "2026-11-12"
       ],
@@ -133,7 +133,7 @@
         "clinic_type": "NP",
         "latitude": 43.00447,
         "longitude": -81.256931,
-        "distance": 46.2,
+        "distance": 46.1,
         "registry_id": "321788817"
       }
     },
@@ -274,7 +274,7 @@
       }
     },
     "moh-321787627": {
-      "hash": "02a8bce53bcd2195fac5cca56866cbde9238566c870f3310437e2dd7e29eb515",
+      "hash": "c7f391ec50b23b6dd9694c4f4fd10c6e83f0f20ecf13b55ed8af086b54b119c4",
       "days": [
         "2026-11-12"
       ],
@@ -286,7 +286,7 @@
         "clinic_type": "FHT",
         "latitude": 43.42499,
         "longitude": -80.510846,
-        "distance": 64.6,
+        "distance": 64.5,
         "registry_id": "321787627"
       }
     },
@@ -359,7 +359,7 @@
       }
     },
     "moh-321787318": {
-      "hash": "bbfb6f17326ba7891adf59e2b8136008f9b4673df01ad76a97c685d1e2f570c3",
+      "hash": "c3e78966f197108bd50636a734f46e605b3a620f4c0896b5486f7c4535d40fe9",
       "days": [
         "2026-11-12"
       ],
@@ -371,12 +371,12 @@
         "clinic_type": "CHC",
         "latitude": 43.301993,
         "longitude": -80.462383,
-        "distance": 53.0,
+        "distance": 52.9,
         "registry_id": "321787318"
       }
     },
     "moh-321787748": {
-      "hash": "409858da7f2b5733adc66e6499fdc70586319c1c6f763fe2e50905a2654a699d",
+      "hash": "9595e06d71fa0809935fc9aa00e75b25dd882804b1c5a6114f3482fd85853d45",
       "days": [
         "2026-11-12"
       ],
@@ -388,7 +388,7 @@
         "clinic_type": "FHT",
         "latitude": 43.390471,
         "longitude": -80.313995,
-        "distance": 67.2,
+        "distance": 67.1,
         "registry_id": "321787748"
       }
     },
@@ -631,7 +631,7 @@
       }
     },
     "moh-321787301": {
-      "hash": "e45c26f721656c20c153b760d351de05c4f3f8b89eb686b081dc9ac17b818b46",
+      "hash": "5cf6611be21eef2b228d87470bb9683430cb75201f12eb48f520a64b6f0ea25c",
       "days": [
         "2026-11-12"
       ],
@@ -643,7 +643,7 @@
         "clinic_type": "CHC",
         "latitude": 43.138829,
         "longitude": -80.255729,
-        "distance": 48.7,
+        "distance": 48.6,
         "registry_id": "321787301"
       }
     },
