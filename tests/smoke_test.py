@@ -38,6 +38,8 @@ with sync_playwright() as p:
  assert page.locator('#care').input_value()=='ongoing'
  page.select_option('#care','all');assert page.locator('.item').count()==N
  page.select_option('#town','Tillsonburg');assert page.locator('.item').count()==5
+ assert page.locator('.town-group').count()==1, 'Town filter must also filter map'
+ page.select_option('#town','all')
  assert page.locator('.town-group').count()==len({c['community'] for c in records})
  assert not page.locator('input[placeholder*="address"]').count()
  assert 'No patient-address search' in page.locator('.notice').inner_text()
