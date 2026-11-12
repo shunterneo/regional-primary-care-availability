@@ -4,19 +4,32 @@
 
 ## Scope and conclusions
 
-This audit checked the structure, source links, evidence classification, and publicly listed addresses of the current **96 clinic / service locations**. It did **not** conduct phone calls with practices, exhaustively compare every Ontario physician and nurse practitioner registration, or confirm that advertised application forms translate into current roster spaces. The public map still uses town-centre pins and cannot be used as a precise clinic-location or driving-distance map.
+This audit checked the structure, source links, evidence classification, and publicly listed addresses of the current **97 clinic / service records**. It did **not** conduct phone calls with practices, exhaustively compare every Ontario physician and nurse practitioner registration, or confirm that advertised application forms translate into current roster spaces. The public map still uses town-centre pins and cannot be used as a precise clinic-location or driving-distance map.
 
 | Published intake classification | Office / service records |
 |---|---:|
 | Clinic-published application pathway (not guaranteed attachment) | 14 |
 | Regional / third-party intake report, contact clinic to confirm | 14 |
 | Restricted / limited intake | 5 |
-| Waitlist | 6 |
+| Waitlist | 7 |
 | Explicitly not accepting per cited public evidence | 4 |
 | Unknown, conflicting, or unsupported current intake | 53 |
-| **Total** | **96** |
+| **Total** | **97** |
 
-**Quality follow-up:** 70/96 records have at least one follow-up flag (overlap permitted); 67/96 have a recorded independently checked public office address source; **29 still require more source-level address reconfirmation**. **Three** records have no usable office phone. The fact that a record has an address source is **not** a guarantee that its street-level geocoding or provider roster is independently verified.
+**Quality follow-up:** 70/97 records have at least one follow-up flag (overlap permitted); 94/97 have a recorded independently checked public office address source; **3 still need reconciliation**. **Three** records have no usable office phone. The fact that a record has an address source is **not** a guarantee that its street-level geocoding or provider roster is independently verified.
+
+
+## Independent address follow-up — November 11, 2026
+
+The 29 records previously lacking recorded public-source verification have now been individually researched. **26 acquired traceable public address evidence**, mostly clinic-owned websites, CPSO physician records, health-system sites, municipal listings and the London medical association. Three retain explicit unresolved verification flags rather than being treated as confirmed. The clinic inventory increased from 96 to **97** because the two physicians at 600 Princess Street were split into separate records with their own suites and phone numbers.
+
+- **Oxfordia Medical Centre (Woodstock):** City of Woodstock confirms Dr. Hamza Aman's practice and online registration announcement, but the clinic-owned website could not be inspected for its specific Suite 300 address. The suite remains unverified.
+- **Dr. Rabiya Niaz / Colborne Medicare (London):** London's medical association lists 358 Oxford Street East; CPSO primary practice information lists 510 Southdale Road East. The patient-contact address remains unresolved pending direct clinic clarification.
+- **Dr. Zarmeen Qamar (London):** The medical association describes a future January 2027 Old South FHO waitlist at 460 Springbank Drive; the CPSO register still lists a different current primary office. November 2026 location-specific practice and intake remain unconfirmed.
+- **Princess Street practices (Woodstock):** Dr. Jennifer Bonnett is at Suite 203, 519-421-7252, and Dr. Shameena Tamachi is at Suite 201A, 519-602-4111, per their distinct CPSO records; they now have separate records.
+- **Norwich Medical Centre:** Its municipal website describes an open patient waitlist, prioritized for township residents. This is now marked **waitlist**, not immediate acceptance.
+
+The current automated structural audit reports **97 records, 94 with traceable public address-source checks, three unresolved address flags, 70 records with at least one follow-up flag, and no critical structural errors**. Most of the remaining flags concern incomplete or inconclusive **patient intake information** and do not indicate an incorrect street address. This is public-source research, **not telephone verification or street-level map geocoding**. The exact site and phone assignment for other records can still change.
 
 ## Corrections and new discovery in this pass
 
@@ -45,7 +58,7 @@ This audit checked the structure, source links, evidence classification, and pub
 
 ## Important unfinished work — do not describe as fully verified
 
-- **29 clinic addresses** lack sufficient recorded independent public-source verification. Even the other 65 do not yet have individually verified building coordinates or routing information.
+- **Three clinic address/physician-location claims** remain unresolved (Oxfordia's Suite 300, Dr. Niaz's conflicting practice location, and Dr. Qamar's future Old South location). Even the other 94 do not yet have individually verified building coordinates or routing information.
 - **Three office contact numbers** remain absent. Other published phone numbers may connect to a regional FHT coordinator rather than the patient's specific physician.
 - **14 regional intake reports** still lack unambiguous clinic-specific current enrolment confirmation; 53 records have unknown/conflicting intake.
 - **Physician-by-physician and nurse-practitioner-by-nurse-practitioner census** against CPSO/CNO is not complete, so additional practices may exist.

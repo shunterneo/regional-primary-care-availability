@@ -33,4 +33,14 @@ assert C['c036']['phone']=='226-289-7231'
 assert C['c033']['status']!='accepting' or qualified_public_intake(C['c033'],T)
 # Clinic link must not be a secondary municipal article when a real clinic site is known.
 assert C['c012']['clinic_url']=='https://oxfordiamedical.com/'
+# Address-audit regression: distinct offices, unresolved physician-location discrepancies.
+assert C['c095']['address']=='600 Princess Street, Suite 203'
+assert C['c095']['phone']=='519-421-7252'
+assert C['c095']['providers']=='Dr. Jennifer Bonnett'
+assert C['c097']['address']=='600 Princess Street, Suite 201A'
+assert C['c097']['phone']=='519-602-4111'
+assert C['c097']['providers']=='Dr. Shameena Tamachi'
+assert C['c074']['status']=='waitlist'
+assert all(not C[cid].get('clinic_address_verified') for cid in ('c012','c029','c047'))
+assert all(C[cid].get('clinic_address_verified') and C[cid].get('address_verification_source') for cid in ('c016','c052','c061','c074','c084','c095','c097'))
 print('PASS: structural audit, dynamically gated applications, cross-org mislink blocked, and specific office corrections')
