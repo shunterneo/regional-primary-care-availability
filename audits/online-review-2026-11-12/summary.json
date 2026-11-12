@@ -1,0 +1,204 @@
+{
+  "reviewed_on": "2026-11-12",
+  "original_inventory": 133,
+  "resulting_inventory": 151,
+  "new_offices": [
+    {
+      "id": "c134",
+      "name": "Dr. Michelle Andersen-Kay — Family Medicine",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=71229",
+      "status": "unknown"
+    },
+    {
+      "id": "c135",
+      "name": "Dr. Jeffrey Nichols — Family Medicine",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=56952",
+      "status": "unknown"
+    },
+    {
+      "id": "c136",
+      "name": "Drs. Domenicone & Kocsis — Family Medicine",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=62101",
+      "status": "unknown"
+    },
+    {
+      "id": "c137",
+      "name": "Dr. Donna Onishenko — Family Medicine",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=62100",
+      "status": "unknown"
+    },
+    {
+      "id": "c138",
+      "name": "McKinney Medical Centre — Dr. Brock Tompkins",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=70097",
+      "status": "unknown"
+    },
+    {
+      "id": "c139",
+      "name": "Dr. Pauline Zhang — Family Medicine",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=114431",
+      "status": "unknown"
+    },
+    {
+      "id": "c140",
+      "name": "Fanshawe Family Medical Centre — Dr. Dina AlKhatib",
+      "source": "https://drdinaalkhatib.com/",
+      "status": "unknown"
+    },
+    {
+      "id": "c141",
+      "name": "Advanced Western Medical Clinic — Dr. Muhammad Amin",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=96373",
+      "status": "unknown"
+    },
+    {
+      "id": "c142",
+      "name": "Thames River FHO — Dr. Claudia Niesner",
+      "source": "https://www.thamesriverfho.ca/doctors",
+      "status": "unknown"
+    },
+    {
+      "id": "c143",
+      "name": "Thames River FHO — Dr. Victoria Soo",
+      "source": "https://www.thamesriverfho.ca/doctors",
+      "status": "unknown"
+    },
+    {
+      "id": "c144",
+      "name": "Thames River FHO — Dr. Joel Hommel",
+      "source": "https://www.thamesriverfho.ca/doctors",
+      "status": "unknown"
+    },
+    {
+      "id": "c145",
+      "name": "Dr. Alexander Adeyemi — Family Medicine",
+      "source": "https://www.dralexadeyemi.ca/",
+      "status": "accepting"
+    },
+    {
+      "id": "c146",
+      "name": "Southwest FHO — Knights Hill",
+      "source": "https://www.southwestfho.com/",
+      "status": "unknown"
+    },
+    {
+      "id": "c147",
+      "name": "Forest City FHO — Dr. Doosuur Malu",
+      "source": "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
+      "status": "unknown"
+    },
+    {
+      "id": "c148",
+      "name": "Richmond Medicare — Dr. Elena Matusa",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=97631",
+      "status": "unknown"
+    },
+    {
+      "id": "c149",
+      "name": "Richmond Medical — Dr. Robert Butchey",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=87374",
+      "status": "unknown"
+    },
+    {
+      "id": "c150",
+      "name": "Komoka Medical Clinic",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=109486",
+      "status": "unknown"
+    },
+    {
+      "id": "c151",
+      "name": "Lucan Medical Centre",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=109391",
+      "status": "unknown"
+    }
+  ],
+  "changed_existing_records": [
+    "c012",
+    "c029",
+    "c032",
+    "c033",
+    "c041",
+    "c047",
+    "c093",
+    "c109"
+  ],
+  "source_retrieval": {
+    "urls": 90,
+    "http_success": 88,
+    "warning": "HTTP success is not evidence review or intake confirmation. Blank/JS pages were handled separately."
+  },
+  "status_counts": {
+    "accepting": 22,
+    "unknown": 71,
+    "reported": 16,
+    "limited": 11,
+    "waitlist": 17,
+    "not_accepting": 14
+  },
+  "address_disputes_resolved": [
+    "c012",
+    "c029",
+    "c047"
+  ],
+  "retained_intake_conflicts": [
+    "c004",
+    "c005",
+    "c048",
+    "c050",
+    "c055",
+    "c099"
+  ],
+  "register_coverage": {
+    "CPSO": "Woodstock Family Doctor search: all 7 result pages examined (69 results). This filter is not a census of uncertified general practitioners or all additional practice addresses. Other towns checked by targeted names and practice directories, not a complete municipality-by-municipality register census.",
+    "CNO": "Find a Nurse reached, but verification gate prevented searches. No nurse-register completeness claim."
+  },
+  "directory_crosschecks": [
+    "London & District Academy of Medicine opening list",
+    "Doctors4Cambridge opening list",
+    "Brant Community Healthcare System opening list",
+    "Thames Valley FHT location and physician rosters",
+    "Thames River FHO physician roster",
+    "Western Schulich practice-profile index",
+    "Southwest Healthline office/service records"
+  ],
+  "exclusions": [
+    {
+      "name": "Clinic 461 / Dr. Donald Fuller",
+      "reason": "Register-listed family medicine, but regional service record describes addiction treatment; not established as general longitudinal primary-care attachment.",
+      "source": "https://www.southwesthealthline.ca/displayService.aspx?id=176933"
+    },
+    {
+      "name": "Dr. Jessica Hunter-Orange",
+      "reason": "Focused dermatology practice, not established as comprehensive primary-care intake.",
+      "source": "https://dcmf.ca/dcmf-recognition-award-2022-dr-jessica-hunter-orange/"
+    },
+    {
+      "name": "Beth Currie / Wind Rose",
+      "reason": "Midwifery listing; not an ongoing general family-doctor/NP practice.",
+      "source": "https://windrosemidwifery.ca/london-ont-midwives/"
+    }
+  ],
+  "unresolved_discovery_leads": [
+    {
+      "name": "Dr. Irene Cohen / Whitehills",
+      "reason": "Teaching index lists practice, but current register has no practice address. Not published as a current office.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=57913"
+    },
+    {
+      "name": "Dr. Gordon Schacter / Medpoint",
+      "reason": "Register gives 1295 Riverbend Road Suite 200; comprehensive attachment versus executive/specialized service needs clarification.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=66426"
+    },
+    {
+      "name": "Dr. Dorota Marczuk / Blue Zone",
+      "reason": "Register and teaching index support family medicine, but current visible service references focus on dermatology/aesthetics; ongoing general attachment not established.",
+      "source": "https://register.cpso.on.ca/physician-info/?cpsonum=85714"
+    },
+    {
+      "name": "460 Hespeler Medical Centre",
+      "source": "https://460hespelermedicalcentre.ca/",
+      "reason": "Site footer lists 460 Hespeler Unit 103 but body repeats Two Rivers 350 Conestoga B12 address/phone and affiliation. Waitlist advertised, office identity not independently reconciled."
+    }
+  ],
+  "completeness_claim": "Expanded systematic cross-check, not an exhaustive 75-km practitioner census. Remaining intake uncertainty is explicitly retained."
+}

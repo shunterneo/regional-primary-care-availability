@@ -1808,5 +1808,221 @@
     "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
     "type": "reported_intake_correction",
     "reviewer_note": "Directory-owner report of current applications and limited intake, received 2026-11-12; independently cross-checked against OCCHC’s 2025–26 QIP. No clinic telephone confirmation or current public opening notice."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c032",
+    "old_status": "reported",
+    "new_status": "not_accepting",
+    "source": "https://hamiltonmedclinic.com/",
+    "reviewer_note": "Clinic notice says Dr. Adeniran is no longer accepting new patients and continues caring for his patients and former Dr. Ukpong patients. This named-physician notice supersedes the regional opening report; capacity of any other clinician is not established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c033",
+    "old_status": "reported",
+    "new_status": "accepting",
+    "source": "https://www.oldsouthfho.ca/new-patients",
+    "reviewer_note": "Old South FHO explicitly lists Drs. Shizar Goosheh and Jeff Spence as accepting new patients. Contact their office for registration; acceptance is not guaranteed."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c047",
+    "old_status": "unknown",
+    "new_status": "waitlist",
+    "source": "https://www.oldsouthfho.ca/doctor-profile-1-5-1",
+    "reviewer_note": "Dr. Qamar’s own practice profile invites waitlist requests now by email to drqamar.oldsouth@gmail.com. The practice opens January 2027; this is not immediate clinical availability."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c029",
+    "old_status": "reported",
+    "new_status": "accepting",
+    "source": "https://colbornemedicare.ca/",
+    "reviewer_note": "Clinic’s own site names Dr. Rabiya Niaz among its physicians and explicitly invites new-patient registration forms, to be dropped off or mailed to the clinic. This is a clinic application route, not guaranteed placement with a particular doctor."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c012",
+    "old_status": "reported",
+    "new_status": "accepting",
+    "source": "https://oxfordiamedical.com/",
+    "reviewer_note": "Oxfordia’s own website names Dr. Hamza Aman and invites new patients to book a registration visit through its linked Ocean booking service. Registration does not guarantee attachment."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c109",
+    "old_status": "unknown",
+    "new_status": "accepting",
+    "source": "https://centralchc.com/",
+    "reviewer_note": "Clinic homepage explicitly announces that it is accepting clients and links a live Central Community Health Centre Primary Care Services Intake Form. Serves St. Thomas, Central Elgin and Southwold Township; submitting the form does not guarantee enrolment."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c041",
+    "old_status": "unknown",
+    "new_status": "limited",
+    "source": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
+    "reviewer_note": "Health & Homelessness team accepts provider referrals and self-referrals using both its 2026 application and referral forms. For people experiencing homelessness; low-barrier care and voluntary attachment. Application does not guarantee placement."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c093",
+    "old_status": "unknown",
+    "new_status": "waitlist",
+    "source": "https://www.newvisionhealth.ca/need-a-family-doctor",
+    "reviewer_note": "New Vision FHT accepts names for its program-wide new-patient waitlist. The notice does not promise placement at the Boardwalk office or immediate attachment."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c134",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=71229",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c135",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=56952",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c136",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=62101",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c137",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=62100",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c138",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=70097",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c139",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=114431",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c140",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://drdinaalkhatib.com/",
+    "reviewer_note": "Clinic or FHO-owned page identifies this family-medicine office; no current new-patient intake notice established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c141",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=96373",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c142",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.thamesriverfho.ca/doctors",
+    "reviewer_note": "Clinic or FHO-owned page identifies this family-medicine office; no current new-patient intake notice established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c143",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.thamesriverfho.ca/doctors",
+    "reviewer_note": "Clinic or FHO-owned page identifies this family-medicine office; no current new-patient intake notice established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c144",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.thamesriverfho.ca/doctors",
+    "reviewer_note": "Clinic or FHO-owned page identifies this family-medicine office; no current new-patient intake notice established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c145",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.dralexadeyemi.ca/",
+    "reviewer_note": "Clinic or FHO-owned page identifies this family-medicine office; no current new-patient intake notice established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c146",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.southwestfho.com/",
+    "reviewer_note": "Clinic or FHO-owned page identifies this family-medicine office; no current new-patient intake notice established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c147",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
+    "reviewer_note": "Clinic or FHO-owned page identifies this family-medicine office; no current new-patient intake notice established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c148",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=97631",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c149",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=87374",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c150",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=109486",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c151",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=109391",
+    "reviewer_note": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c145",
+    "old_status": "unknown",
+    "new_status": "accepting",
+    "source": "https://www.dralexadeyemi.ca/",
+    "reviewer_note": "Own practice site invites applications for ongoing family medicine; spaces limited and office confirmation required."
   }
 ]
