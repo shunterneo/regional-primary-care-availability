@@ -40,8 +40,10 @@ def review(c,day):
         issues.append('Archived practice: exclude from active referral list')
     if not c.get('phone'):
         issues.append('No office telephone number in current record')
-    if not c.get('clinic_address_verified'):
-        issues.append('Street office location lacks prior source-verification flag')
+    if not c.get('clinic_address_verified') or not c.get('address_verification_source'):
+        issues.append('Street office location lacks traceable source verification')
+    if c.get('intake_conflict'):
+        issues.append('Conflicting first-party intake notices: clinic response required')
     if tier in ('third_party','program_general','authoritative_secondary'):
         issues.append('Intake requires clinic-specific reconfirmation')
     if tier in ('unverified','conflicting_or_unconfirmed'):
@@ -52,7 +54,10 @@ def review(c,day):
       'display_intake':display_intake_status(c,day),
       'evidence_tier':tier, 'source':evidence or website,'clinic_url':website,
       'source_checked':v.get('reviewed_on') or 'Not individually reviewed',
-      'telephone_verified':'No','address_prior_source_supported':'Yes' if c.get('clinic_address_verified') else 'No',
+      'telephone_verified':'No','address_prior_source_supported':'Yes' if c.get('clinic_address_verified') and c.get('address_verification_source') else 'No',
+      'address_verification_source':c.get('address_verification_source',''),
+      'address_verified_on':c.get('address_verified_on',''),
+      'contact_note':c.get('phone_note',''),
       'issues':issues,
     }
 
@@ -77,7 +82,7 @@ def write_files():
     summary,records=create_report()
     folder=ROOT/'site'/'documents';folder.mkdir(parents=True,exist_ok=True)
     p=folder/'quality-audit.csv'
-    columns=['clinic_id','community','clinic','address','care_model','stored_intake','display_intake','evidence_tier','source','clinic_url','source_checked','telephone_verified','address_prior_source_supported','review_flags']
+    columns=['clinic_id','community','clinic','address','care_model','stored_intake','display_intake','evidence_tier','source','clinic_url','source_checked','telephone_verified','address_prior_source_supported','address_verification_source','address_verified_on','contact_note','review_flags']
     with p.open('w',encoding='utf-8-sig',newline='') as file:
         writer=csv.DictWriter(file,fieldnames=columns);writer.writeheader()
         for rec in records:

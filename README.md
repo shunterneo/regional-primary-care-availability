@@ -5,7 +5,7 @@
 
 ## November 11 source-integrity audit and limitations
 
-The automated audit reviews **all 95 current records for consistency and source attribution**, and generates `site/documents/quality-audit.csv` so that unresolved items are visible. It is **not** a claim that every office was checked by telephone, or that every recorded address and clinician roster is current. The initial audited baseline has **16 clinic-published application opportunities**, **15 regional reports**, **5 limited**, **6 waitlist**, **3 explicitly not accepting**, and **50 unknown**. Many of the 95 records have at least one follow-up flag, frequently because no direct intake statement or recent independently verified office information is available.
+The automated audit reviews **all 96 current records for consistency and source attribution**, and generates `site/documents/quality-audit.csv` so that unresolved items are visible. It is **not** a claim that every office was checked by telephone, or that every recorded address and clinician roster is current. The initial audited baseline has **14 clinic-published application pathways**, **14 regional reports**, **5 limited**, **6 waitlist**, **3 explicitly not accepting**, and **54 unknown**. 73 of the 96 records have at least one follow-up flag, frequently because no direct intake statement or recent independently verified office information is available.
 
 Hard gates on every GitHub build now reject a first-party/program link pointing to a different organization's site, reject source/evidence mismatches, require a source-checked civic address for green status, and prevent unverified walk-in intake from being classified as ongoing primary-care attachment. The user-facing site labels regional sources as such instead of deceptively calling them clinic intake evidence. If a webpage is inaccessible, status is not changed to closed; uncertainty remains visible.
 
@@ -16,7 +16,7 @@ The optional automated publishing workflow cannot guarantee future site accuracy
 
 - **Built and locally tested:** A standalone interactive clinic overview, one verified-status JSON database, generated DOCX/PDF directories, automated official-source change detection, broader news-based clinic discovery, optional AI review assistance, a review-notification workflow, and a manual approval form that republishes approved changes.
 - **Hosting:** The independent project is published from the personal GitHub repository `shunterneo/regional-primary-care-availability`; check GitHub Actions for the latest successful scheduled run. Publishing an updated package or changing files does not itself confirm a successful deployment.
-- **Current data:** 95 clinic/service listings from the **November 11, 2026 research baseline**. The directory is not a completed CPSO/CNO audit. Intake claims are historical public-source research, not real-time availability guarantees.
+- **Current data:** 96 clinic/service listings from the **November 11, 2026 research baseline**. The directory is not a completed CPSO/CNO audit. Intake claims are historical public-source research, not real-time availability guarantees.
 - **Geography:** Existing records are grouped at *community-centre map markers*, not verified street-level clinic pins. New clinic records must use a verified public clinic coordinate to check the 75 km radius. Never supply patient addresses.
 - **Automatic updates:** Clinic-specific, unambiguous first-party intake/closure notices can publish after two independent daily checks. Third-party directories, news reports, and CPSO/CNO registration are **review leads only**, never automatic accepting/closed claims. Refer to `DISCOVERY_OPERATIONS.md` for the source-by-source policy.
 - **Optional API:** AI-assisted public-text triage is disabled until a separately billed `OPENAI_API_KEY` is added as a personal-repository secret. Daily public-source checks and no-key RSS discovery still operate without it. ChatGPT subscription and ChatGPT automations do **not** automatically modify this repository.
@@ -119,9 +119,9 @@ This design avoids the earlier geocoding disclosure, but it is **not a PHIPA cer
 
 ## Known limitations and next QA priorities
 
-- No live deployment yet, so GitHub Actions network/permissions/Pages have **not** been end-to-end verified.
+- The website has successfully deployed using GitHub Actions, but each scheduled research source still needs live reliability monitoring.
 - RSS news monitoring is a discovery supplement, **not** a systematic CPSO/CNO provider census or a guarantee of finding every intake opening.
-- The original 95 records have not all been independently reverified. Street-level clinic pin locations and any boundary-edge practices need an exact-address audit before the map can be treated as spatially complete.
+- The 96 records have not all been independently reverified. Street-level clinic pin locations and any boundary-edge practices need an exact-address audit before the map can be treated as spatially complete.
 - Patient acceptance can close between checks. Never promise that registration or attachment is guaranteed; clinic contact is the final confirmation.
 - No unrestricted AI auto-publishing: intake changes require **explicit evidence and review**, to avoid accidental inaccurate referrals.
 
@@ -134,7 +134,7 @@ This design avoids the earlier geocoding disclosure, but it is **not a PHIPA cer
 3. **New government-listed primary-care sites:** `official_registry.py` reads Ontario Ministry of Health's official [MOHSERLO layer](https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26) (Open Government Licence – Ontario) for FHT, CHC and NP-led program locations, checking civic address and exact public site coordinates against the 75 km circle. Two different-day observations are required and existing sites are deduplicated. An additional site is shown as **government registry listed, intake unknown and operating status unconfirmed**—a government listing is *not* proof of an active clinic, a family doctor's roster or an accepting application. Other independent practices still depend on RSS discovery and manual verification.
 4. **Safe publication:** The workflow commits automatic changes to `clinics.json` and the audit log, validates data, and builds/deploys the static map plus Word/PDF from the same records. Failures to reach sources do not automatically alter published statuses. Old positive intake claims still age into **Needs reconfirmation** unless a strong first-party confirmation is recorded.
 
-The initial 95-entry dataset is still a research baseline, not a completed CPSO/CNO census. This system cannot guarantee that every new clinic or intake change is detected. A practice may stop accepting patients between daily checks; always verify directly with the clinic before referring someone. No patient address or identifiable health information is processed or transmitted.
+The current 96-entry dataset is still a research baseline, not a completed CPSO/CNO census. This system cannot guarantee that every new clinic or intake change is detected. A practice may stop accepting patients between daily checks; always verify directly with the clinic before referring someone. No patient address or identifiable health information is processed or transmitted.
 
 To suspend automation for an individual clinic, set `auto_updates_enabled: false` on that clinic's record; manual approved changes remain available. GitHub Pages and the original daily scanning workflow must be operational for this to run. No OpenAI API key is required for deterministic auto-publication.
 
@@ -148,7 +148,7 @@ All green accepting status indicators mean applications for *ongoing care*, not 
 
 For combined practices, automatic publication of opening/closure of patient attachment requires an explicit family-practice/primary-care statement in the specific clinic's first-party evidence quotation. A generic “we accept new patients” phrase on a combined walk-in website is too ambiguous to auto-publish.
 
-The 95-record baseline has six mixed-service sites classified using available public clinic information and **no identified walk-in-only sites**; this is an audit of existing listings, not a full census of independent walk-in-only clinics. Any newly discovered service must receive a care-model classification before publication; do not infer ongoing care from walk-in hours or appointment availability.
+The 96-record dataset has six mixed-service sites classified using available public clinic information and **no identified walk-in-only sites**; this is an audit of existing listings, not a full census of independent walk-in-only clinics. Any newly discovered service must receive a care-model classification before publication; do not infer ongoing care from walk-in hours or appointment availability.
 
 
 ## Strict public-intake evidence policy (November 11, 2026)
@@ -163,6 +163,6 @@ The 95-record baseline has six mixed-service sites classified using available pu
 
 The `data/clinics.json` records now include `intake_verification` with `tier`, `scope`, `reviewed_on`, `method`, `source_url`, `finding`, `telephone_confirmed`, and `enrolment_guaranteed`. The policy lives in `scripts/evidence_policy.py`, is validated in `scripts/validate.py`, and used by the website, Word, and PDF generator. GitHub Actions runs `tests/evidence_policy_test.py` on each deployment.
 
-The historical public-source audit (November 11, 2026) was used to classify 47 intake/waitlist leads. **No clinic was telephoned.** In a conservative cleanup, 3 general-program/municipal announcements are now leads rather than green; 2 Health Care Connect matching pathways were moved to limited intake. The effective green count after migration is **19 clinic-specific advertised application locations**, not 19 verified new patient spots. Nine previously listed third-party leads remain amber; more current external announcements can affect these counts. The evidence audit will not be silently re-stamped when the website is rebuilt.
+The historical public-source audit (November 11, 2026) was used to classify 47 intake/waitlist leads. **No clinic was telephoned.** In a conservative cleanup, 3 general-program/municipal announcements are now leads rather than green; 2 Health Care Connect matching pathways were moved to limited intake. The current green count is **14 clinic-specific advertised application pathways**, not 14 verified new patient spots; other first-party notices conflict or identify only program-wide registration. Nine previously listed third-party leads remain amber; more current external announcements can affect these counts. The evidence audit will not be silently re-stamped when the website is rebuilt.
 
 Manual intake approvals now require an exact clinic-published statement for ongoing care, an explicit location or named-clinician scope, and a clinic-owned HTTPS source. The approval form rejects a bare 'accepting' label when those controls aren't met. Staff/client addresses must never be entered. Provider capacity must still be confirmed directly before a referral is made.

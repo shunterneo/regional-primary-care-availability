@@ -21,6 +21,8 @@ def host(url):
 def qualified_public_intake(clinic, today):
     """True only for recent location/physician-specific first-party ongoing-care notices."""
     v=clinic.get('intake_verification') or {}
+    if clinic.get('intake_conflict'):
+        return False
     if clinic.get('status')!='accepting' or clinic.get('care_model') not in ('ongoing','both'):
         return False
     if clinic.get('operating_status') in ('closed','archived'):

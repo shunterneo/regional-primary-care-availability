@@ -22,7 +22,7 @@
       "clinic_url": "https://www.grandriverchc.ca/your-health/new-clients/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 48.1,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -41,7 +41,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.grandriverchc.ca/who-we-are/directory/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c002",
@@ -57,7 +60,7 @@
       "clinic_url": "https://greenwichmedical.ca/appointment",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 48.1,
       "notes": "The clinic’s official appointment page shows more than one contact number (519-751-8843 and 519-267-5030). Main contact needs telephone confirmation; 519-751-8843 shown here is the header/footer number.",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -76,7 +79,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://greenwichmedical.ca/appointment",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c003",
@@ -92,7 +98,7 @@
       "clinic_url": "https://emeraldcaremax.ca/registration/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -111,7 +117,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://emeraldcaremax.ca/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c004",
@@ -119,34 +128,39 @@
       "community": "London",
       "address": "1261 Beaverbrook Avenue, Unit 1",
       "clinic_type": "FHT",
-      "status": "accepting",
-      "intake_detail": "Aug 26, 2026 official intake for selected physicians/NPs; Dr Behzad Hassani identified on physician page. Not all doctors accepting.",
+      "status": "unknown",
+      "intake_detail": "CONFLICT: LFHT August 26, 2026 intake announcement lists this site, but the LFHT Locations page says the team is NOT accepting new patients. Please contact the team before making a referral. No currently confirmed roster opening.",
       "phone": "519-673-3900",
       "providers": "Some physicians and NPs; Dr Behzad Hassani",
       "evidence_url": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
       "clinic_url": "https://londonfht.ca/family-physicians/",
       "source_published": "2026-08-26",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
-      "notes": "",
-      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "notes": "Conflict sources: https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/ and https://londonfht.ca/our-locations/.",
+      "review_basis": "Unresolved contradiction in two official LFHT webpages independently checked 2026-11-11; do not mark green.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://londonfht.ca/family-physicians/",
       "intake_verification": {
-        "tier": "clinic_first_party",
-        "scope": "location",
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "conflicting_first_party_pages",
         "reviewed_on": "2026-11-11",
         "method": "public_webpage_review",
-        "source_url": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
-        "finding": "Official team intake page names Beaverbrook; selected physicians/NPs only, not all clinicians.",
+        "source_url": "https://londonfht.ca/our-locations/",
+        "finding": "August intake announcement conflicts with the live LFHT Locations page: not accepting new patients. Unable to resolve without a direct clinic response.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://londonfht.ca/our-locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "intake_conflict": true,
+      "auto_updates_enabled": false
     },
     {
       "id": "c005",
@@ -154,34 +168,39 @@
       "community": "London",
       "address": "770 South Wenige Drive, Unit 1",
       "clinic_type": "FHT",
-      "status": "accepting",
-      "intake_detail": "Official Aug 26 intake form for selected physicians/NPs, placement depends on capacity.",
+      "status": "unknown",
+      "intake_detail": "CONFLICT: LFHT August 26, 2026 intake announcement lists this site, but the LFHT Locations page says the team is NOT accepting new patients. Please contact the team before making a referral. No currently confirmed roster opening.",
       "phone": "519-679-1717",
       "providers": "",
       "evidence_url": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
       "clinic_url": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
       "source_published": "2026-08-26",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
-      "notes": "",
-      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "notes": "Conflict sources: https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/ and https://londonfht.ca/our-locations/.",
+      "review_basis": "Unresolved contradiction in two official LFHT webpages independently checked 2026-11-11; do not mark green.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
       "intake_verification": {
-        "tier": "clinic_first_party",
-        "scope": "location",
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "conflicting_first_party_pages",
         "reviewed_on": "2026-11-11",
         "method": "public_webpage_review",
-        "source_url": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
-        "finding": "Official team intake page names Stoney Creek; selected physicians/NPs only.",
+        "source_url": "https://londonfht.ca/our-locations/",
+        "finding": "August intake announcement conflicts with the live LFHT Locations page: not accepting new patients. Unable to resolve without a direct clinic response.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://londonfht.ca/our-locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "intake_conflict": true,
+      "auto_updates_enabled": false
     },
     {
       "id": "c006",
@@ -197,7 +216,7 @@
       "clinic_url": "https://thompsonmedical.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -216,7 +235,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thompsonmedical.ca/contact/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c007",
@@ -232,7 +254,7 @@
       "clinic_url": "https://thompsonmedical.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -251,7 +273,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thompsonmedical.ca/contact/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c008",
@@ -267,7 +292,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -286,43 +311,50 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "NP clinic site phone; separate attachment intake team: 519-473-0530 ext. 2197"
     },
     {
       "id": "c009",
-      "name": "Elmdale Health Centre — Building registration notice",
+      "name": "Elmdale Health Centre — building-wide physician registration lead",
       "community": "St. Thomas",
       "address": "25 Elm Street",
       "clinic_type": "MD",
-      "status": "reported",
-      "intake_detail": "Elmdale Health Centre advertises online family physician registration for unattached Elgin County residents, but does not identify the accepting physician or office. Registration is separate from TMC+ and is not guaranteed attachment.",
+      "status": "unknown",
+      "intake_detail": "The building website offers an online family physician registration notice for unattached Elgin County residents; it does not name the physician or guarantee attachment. Not a confirmed independent clinic office; do not count as a specific accepting practice.",
       "phone": "",
       "providers": "",
       "evidence_url": "https://www.elmdalehealth.com/",
       "clinic_url": "https://www.elmdalehealth.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Multi-tenant building notice only, not clinician-specific intake; needs direct practice confirmation.",
-      "care_model": "ongoing",
+      "care_model": "unverified",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.elmdalehealth.com/",
       "intake_verification": {
-        "tier": "program_general",
-        "scope": "program",
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "building_wide_lead",
         "reviewed_on": "2026-11-11",
         "method": "public_webpage_review",
         "source_url": "https://www.elmdalehealth.com/",
-        "finding": "Elmdale Health Centre is a multi-tenant building advertising a family-physician registration link without identifying the registering physician or suite.",
+        "finding": "Official building directory advertises a registration link but identifies no specific physician; should not appear as a confirmed clinic intake.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
       "auto_updates_enabled": false,
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.elmdalehealth.com/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c010",
@@ -338,7 +370,7 @@
       "clinic_url": "https://thompsonmedical.ca/walk-in-clinic/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -357,7 +389,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thompsonmedical.ca/contact/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c011",
@@ -373,7 +408,7 @@
       "clinic_url": "https://www.ocnplc.ca/patient-information/new-patients/",
       "source_published": "2026-08-25",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 0.0,
       "notes": "",
       "review_basis": "Oxford OHT September 8 transition notice reconciled with OCNPLC regional intake and upcoming permanent site notice.",
@@ -393,7 +428,10 @@
       "auto_updates_enabled": false,
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://oxfordoht.ca/tillsonburg-unattached-care-clinic/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c012",
@@ -409,7 +447,7 @@
       "clinic_url": "https://oxfordiamedical.com/",
       "source_published": "2026-10-01",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address retained from earlier research; primary source not reverified during this audit. Map marker at community centre.",
       "community_distance_km": 30.2,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -428,7 +466,7 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": false
     },
     {
       "id": "c013",
@@ -444,7 +482,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
       "source_published": "2026-11-11",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 30.2,
       "notes": "Woodstock FHT office: 519-537-6701. NP attachment team (applications): 519-473-0530 ext. 2197.",
       "review_basis": "Cross-organizational referral independently traced to Thames Valley FHT’s own registration page. This is a regional NP program, not proof that Woodstock family physicians are accepting.",
@@ -463,7 +501,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c014",
@@ -479,7 +520,7 @@
       "clinic_url": "https://trustycare.ca/team/dr-claire-louise-young-md/",
       "source_published": "2026-09",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 30.2,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -498,23 +539,26 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://trustycare.ca/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c015",
       "name": "Langs North Dumfries Community Health Centre",
       "community": "Ayr",
-      "address": "2938 Greenfield Road",
+      "address": "2958 Greenfield Road",
       "clinic_type": "CHC",
       "status": "limited",
       "intake_detail": "Langs directly says accepting in North Dumfries; applicants register via Health Care Connect and await matching.",
-      "phone": "519-653-1470 ext. 343",
+      "phone": "519-632-1229",
       "providers": "",
       "evidence_url": "https://www.langs.org/new-patients",
       "clinic_url": "https://www.langs.org/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 51.6,
       "notes": "",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
@@ -533,7 +577,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.langs.org/locations-hours",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "North Dumfries CHC main phone; old secondary directory incorrectly gave 2938 Greenfield Road and generic Langs number."
     },
     {
       "id": "c016",
@@ -585,7 +633,7 @@
       "clinic_url": "https://bonavistamedicalcentrebrantford.com",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 48.1,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -604,13 +652,16 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://bonavistamedicalcentrebrantford.com/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c018",
       "name": "Dr. Clara Obanor — King George Road",
       "community": "Brantford",
-      "address": "250 King George Road",
+      "address": "250 King George Road, Unit 2",
       "clinic_type": "MD",
       "status": "reported",
       "intake_detail": "Listed by Brant Community Healthcare System among accepting practices.",
@@ -620,7 +671,7 @@
       "clinic_url": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 48.1,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -639,7 +690,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=155642",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c019",
@@ -655,7 +709,7 @@
       "clinic_url": "https://valleyviewmedical.ca/locations/brantford-colborne",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 48.1,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -674,7 +728,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://valleyviewmedical.ca/locations/brantford-colborne",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c020",
@@ -690,7 +747,7 @@
       "clinic_url": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 48.1,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -709,7 +766,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c021",
@@ -744,23 +804,24 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": false,
+      "phone_note": "Do not infer number from unrelated clinic in shared building."
     },
     {
       "id": "c022",
       "name": "Dr. Sherif Mikhail — Conestoga",
       "community": "Cambridge",
-      "address": "350 Conestoga Boulevard, Unit B7A",
+      "address": "350 Conestoga Boulevard, Unit B7-A",
       "clinic_type": "MD",
       "status": "reported",
       "intake_detail": "Listed by Doctors 4 Cambridge; call to inquire.",
       "phone": "519-740-1700",
       "providers": "Dr Sherif Mikhail",
       "evidence_url": "https://www.doctors4cambridge.com/contact.htm",
-      "clinic_url": "https://www.doctors4cambridge.com/contact.htm",
+      "clinic_url": "https://www.sherifmikhail.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -779,7 +840,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.sherifmikhail.ca/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c023",
@@ -795,7 +859,7 @@
       "clinic_url": "https://www.langs.org/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
@@ -814,23 +878,26 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.langs.org/locations-hours",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c024",
       "name": "Saginaw Medical Centre — Dr. Sunil Bhatia",
       "community": "Cambridge",
-      "address": "525 Saginaw Parkway",
+      "address": "525 Saginaw Parkway, Unit A2",
       "clinic_type": "MD",
       "status": "reported",
       "intake_detail": "Doctors 4 Cambridge provides a patient-registration-form path, recheck availability.",
-      "phone": "",
+      "phone": "226-666-0345",
       "providers": "Dr Sunil Bhatia",
       "evidence_url": "https://www.doctors4cambridge.com/contact.htm",
-      "clinic_url": "https://www.doctors4cambridge.com/contact.htm",
+      "clinic_url": "https://www.saginawmedicalcentre.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -849,7 +916,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.saginawmedicalcentre.com/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "Clinic website contact number. Its generic patient-information page separately mentions 519-624-2220 and a pharmacy email; that discrepancy is not evidence of new intake."
     },
     {
       "id": "c025",
@@ -865,7 +936,7 @@
       "clinic_url": "https://www.doctors4cambridge.com/contact.htm",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -884,7 +955,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=139617",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c026",
@@ -900,7 +974,7 @@
       "clinic_url": "https://standrewsclinic.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -919,7 +993,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://standrewsclinic.ca/contact-us/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c027",
@@ -935,7 +1012,7 @@
       "clinic_url": "https://townlineclinic.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -954,7 +1031,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://townlineclinic.com/contact-us/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c028",
@@ -989,7 +1069,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://activecaremedicalcentre.com/201-clinic/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c029",
@@ -1040,7 +1123,7 @@
       "clinic_url": "https://www.ldam.ca/find-a-doctor",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1059,7 +1142,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=145987",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c031",
@@ -1146,7 +1232,7 @@
       "clinic_url": "https://www.oldsouthfho.ca/new-patients",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Authoritative directory report, not independently verified first-party clinic registration.",
@@ -1166,7 +1252,10 @@
       "auto_updates_enabled": false,
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c034",
@@ -1218,7 +1307,7 @@
       "clinic_url": "https://www.ldam.ca/find-a-doctor",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1237,7 +1326,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=158817",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c036",
@@ -1253,7 +1345,7 @@
       "clinic_url": "https://vivamedicalclinic.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -1272,7 +1364,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://vivamedicalclinic.ca/contact/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c037",
@@ -1288,7 +1383,7 @@
       "clinic_url": "https://www.wonderlandsouthmedicalcentre.ca",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -1307,7 +1402,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.wonderlandsouthmedicalcentre.ca/contact-us",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c038",
@@ -1323,7 +1421,7 @@
       "clinic_url": "https://www.ocnplc.ca/",
       "source_published": "2026-08-26",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 23.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1342,7 +1440,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.ocnplc.ca/patient-information/new-patients/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c039",
@@ -1358,7 +1459,7 @@
       "clinic_url": "https://lihc.on.ca/programs-services/primary-care/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1377,7 +1478,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://lihc.on.ca/locations-and-hours-of-services/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c040",
@@ -1387,13 +1491,13 @@
       "clinic_type": "CHC",
       "status": "limited",
       "intake_detail": "Official intake for unattached with barriers; program takes forms at both Dundas and Huron.",
-      "phone": "519-660-0874 ext. 3244",
+      "phone": "519-659-6399",
       "providers": "",
       "evidence_url": "https://lihc.on.ca/programs-services/primary-care/",
       "clinic_url": "https://lihc.on.ca/programs-services/primary-care/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1412,7 +1516,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://lihc.on.ca/locations-and-hours-of-services/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "Huron site main phone; earlier 519-660-0874 is the Dundas site."
     },
     {
       "id": "c041",
@@ -1430,7 +1538,7 @@
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
-      "notes": "",
+      "notes": "Health & Homelessness primary-care program with eligibility restrictions. No universal intake confirmation.",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
@@ -1464,7 +1572,7 @@
       "clinic_url": "https://wrnplc.ca/contact-us/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 72.8,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1483,7 +1591,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://wrnplc.ca/contact-us/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c043",
@@ -1499,7 +1610,7 @@
       "clinic_url": "https://www.gmcfht.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1518,7 +1629,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.gmcfht.ca/contact/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c044",
@@ -1534,7 +1648,7 @@
       "clinic_url": "https://wrnplc.ca/contact-us/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1553,7 +1667,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://wrnplc.ca/contact-us/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c045",
@@ -1564,14 +1681,14 @@
       "status": "waitlist",
       "intake_detail": "Official new patient waitlist form available; this is waitlist, not immediate attachment.",
       "phone": "519-578-3510",
-      "providers": "",
+      "providers": "Dr. Adam Agate; Dr. Tracy Bausmer; Dr. Morgan Brown; Dr. Karen Cameron; Dr. Steven Chan; Dr. Yidersal Gebeyehu; Dr. Sarah Gimbel; Dr. Martin Kane; Dr. Shvan Korsheed; Dr. Sarah MacDonald; Dr. Cecelia McLachlan; Dr. Albert Mensah; Dr. Rose Noble; Dr. Thomas O’Brien; Dr. Meredith Pope; Dr. Chase Reaume; Dr. Joanna Zorzitto",
       "evidence_url": "https://www.newvisionhealth.ca/need-a-family-doctor",
       "clinic_url": "https://www.newvisionhealth.ca/need-a-family-doctor",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 67.8,
-      "notes": "",
+      "notes": "Team website lists 17 family physicians at Greenbrook; this roster is not evidence any individual physician is accepting new patients.",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
@@ -1588,7 +1705,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.newvisionhealth.ca/clinic-hours",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "provider_list_source": "https://www.newvisionhealth.ca/about-our-team"
     },
     {
       "id": "c046",
@@ -1604,7 +1725,7 @@
       "clinic_url": "https://wrnplc.ca/contact-us/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 67.8,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1623,7 +1744,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://wrnplc.ca/contact-us/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c047",
@@ -1675,7 +1799,7 @@
       "clinic_url": "https://oxchc.ca/",
       "source_published": "2026-08-28",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 0.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1692,7 +1816,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://oxchc.ca/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c049",
@@ -1741,7 +1868,7 @@
       "clinic_url": "https://oxchc.ca/",
       "source_published": "2026-08-28",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 30.2,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1758,7 +1885,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": true
+      "clinic_address_verified": true,
+      "address_verification_source": "https://oxchc.ca/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c051",
@@ -1774,7 +1904,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 73.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1791,7 +1921,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c052",
@@ -1873,7 +2006,7 @@
       "clinic_url": "https://www.eefht.ca/about-us/the-team/",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 23.1,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1890,7 +2023,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.eefht.ca/locations-and-hours/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c055",
@@ -2038,7 +2174,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 57.9,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2055,7 +2191,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c060",
@@ -2131,13 +2270,13 @@
       "clinic_type": "MD",
       "status": "unknown",
       "intake_detail": "Thames Valley FHT affiliated physician group.",
-      "phone": "",
+      "phone": "519-472-9670 ext. 71263",
       "providers": "",
       "evidence_url": "",
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2154,7 +2293,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "Family Health Team appointment contact, not direct confirmation of family physician intake."
     },
     {
       "id": "c063",
@@ -2164,13 +2307,13 @@
       "clinic_type": "MD",
       "status": "unknown",
       "intake_detail": "Thames Valley FHT affiliated physician team.",
-      "phone": "",
+      "phone": "519-434-2944 ext. 2212",
       "providers": "",
       "evidence_url": "",
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2187,7 +2330,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "Family Health Team inquiries; do not assume this reaches the particular physician."
     },
     {
       "id": "c064",
@@ -2236,7 +2383,7 @@
       "clinic_url": "https://londonfht.ca/family-physicians/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2253,7 +2400,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://londonfht.ca/our-locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
     },
     {
       "id": "c066",
@@ -2269,7 +2419,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2286,7 +2436,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c067",
@@ -2296,13 +2449,13 @@
       "clinic_type": "FHT",
       "status": "unknown",
       "intake_detail": "Listed on Thames Valley FHT office sites.",
-      "phone": "",
+      "phone": "519-878-8621",
       "providers": "",
       "evidence_url": "",
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2319,7 +2472,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "Prisma site phone/text as displayed by Thames Valley FHT."
     },
     {
       "id": "c068",
@@ -2335,7 +2492,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2352,7 +2509,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c069",
@@ -2362,13 +2522,13 @@
       "clinic_type": "MD",
       "status": "unknown",
       "intake_detail": "Thames Valley FHT affiliated family practice.",
-      "phone": "",
+      "phone": "519-685-8500 ext. 71263",
       "providers": "",
       "evidence_url": "",
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2385,7 +2545,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "Family Health Team appointments only; not individual physician enrolment phone."
     },
     {
       "id": "c070",
@@ -2395,13 +2559,13 @@
       "clinic_type": "MD",
       "status": "unknown",
       "intake_detail": "Thames Valley FHT affiliated physician location.",
-      "phone": "",
+      "phone": "519-641-6712 ext. 3654",
       "providers": "",
       "evidence_url": "",
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2418,7 +2582,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "Family Health Team inquiries; not direct physician enrolment."
     },
     {
       "id": "c071",
@@ -2428,13 +2596,13 @@
       "clinic_type": "MD",
       "status": "unknown",
       "intake_detail": "Thames Valley FHT affiliated physician location.",
-      "phone": "",
+      "phone": "226-272-0272",
       "providers": "",
       "evidence_url": "",
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2451,7 +2619,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "Family Health Team inquiries; not direct physician enrolment."
     },
     {
       "id": "c072",
@@ -2467,7 +2639,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 62.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2484,7 +2656,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c073",
@@ -2632,7 +2807,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2649,7 +2824,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c078",
@@ -2698,7 +2876,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2715,7 +2893,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "phone_note": "Elgin Community Health Hub FHT inquiries."
     },
     {
       "id": "c080",
@@ -2731,7 +2913,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2748,7 +2930,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c081",
@@ -2764,7 +2949,7 @@
       "clinic_url": "https://www.southwesthealthline.ca/displayservice.aspx?id=152136",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 13.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2781,7 +2966,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.eefht.ca/locations-and-hours/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c082",
@@ -2797,7 +2985,7 @@
       "clinic_url": "https://starfht.ca/clinics_offices/avon-family-medicine-centre/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 59.9,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2814,7 +3002,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://starfht.ca/our-locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c083",
@@ -2830,7 +3021,7 @@
       "clinic_url": "https://starfht.ca/clinics_offices/oloane-medical-clinic/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 59.9,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2847,7 +3038,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://starfht.ca/our-locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c084",
@@ -2896,7 +3090,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 73.8,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2913,7 +3107,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c086",
@@ -2929,7 +3126,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 73.8,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2946,7 +3143,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c087",
@@ -2962,7 +3162,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 73.8,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2979,7 +3179,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c088",
@@ -2995,7 +3198,7 @@
       "clinic_url": "https://starfht.ca/clinics_offices/tavistock-community-health-inc/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 51.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -3012,7 +3215,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://starfht.ca/our-locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
     },
     {
       "id": "c089",
@@ -3155,12 +3361,12 @@
       "status": "unknown",
       "intake_detail": "Existing practice for Dr Balraj Singh patients; Greenbrook waitlist is not automatically applicable to this site.",
       "phone": "519-742-0107",
-      "providers": "",
+      "providers": "Dr. Balraj Singh",
       "evidence_url": "",
       "clinic_url": "https://www.newvisionhealth.ca/clinic-hours",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 68.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -3177,7 +3383,11 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.newvisionhealth.ca/clinic-hours",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "provider_list_source": "https://www.newvisionhealth.ca/about-our-team"
     },
     {
       "id": "c094",
@@ -3244,6 +3454,45 @@
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
       "clinic_address_verified": false
+    },
+    {
+      "id": "c096",
+      "name": "London InterCommunity Health Centre — Argyle",
+      "community": "London",
+      "address": "1700 Dundas Street, Unit 1",
+      "clinic_type": "CHC",
+      "status": "unknown",
+      "intake_detail": "London InterCommunity Health Centre lists its Argyle site as offering primary care. Site-specific availability or eligibility for attachment not independently confirmed. Do not advertise as an open patient roster.",
+      "phone": "519-660-5853",
+      "providers": "",
+      "evidence_url": "https://lihc.on.ca/locations-and-hours-of-services/",
+      "clinic_url": "https://lihc.on.ca/locations-and-hours-of-services/",
+      "source_published": "",
+      "last_reviewed": "2026-11-11",
+      "location_quality": "Community-centre map marker; office street address independently confirmed; no clinic point coordinates",
+      "community_distance_km": null,
+      "notes": "Public clinic address only; excludes client information. Some LIHC programs serve particular patient groups.",
+      "review_basis": "New primary care program site independently confirmed on official LIHC locations page; patient intake unknown.",
+      "care_model": "ongoing",
+      "care_model_basis": "Official LIHC locations page says each of its three health centres offers primary care.",
+      "care_model_source": "https://lihc.on.ca/locations-and-hours-of-services/",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "site_intake_unknown",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://lihc.on.ca/locations-and-hours-of-services/",
+        "finding": "Confirmed as clinic location; no current intake statement",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "audit_scope": "public_source_only",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true,
+      "address_verification_source": "https://lihc.on.ca/locations-and-hours-of-services/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Official primary-care site listing, not enrollment confirmation",
+      "auto_updates_enabled": false
     }
   ]
 }

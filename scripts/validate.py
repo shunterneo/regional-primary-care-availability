@@ -12,6 +12,8 @@ for r in xs:
     if key in names:errors.append(f'duplicate listing {name}')
     names.add(key)
     if r['status'] not in STATUSES or r['status']=='needs_review':errors.append(f'bad stored status {id}')
+    if r.get('intake_conflict') and r['status']=='accepting':errors.append(f'conflicting intake notice cannot be green {id}')
+    if r.get('clinic_address_verified') and not r.get('address_verification_source'):errors.append(f'address marked verified without source URL {id}')
     if r['status']=='accepting':
         if not r.get('clinic_address_verified') or not __import__('re').search(r'\b\d{1,6}\b',r.get('address','')):errors.append(f'green record lacks previously checked office address {id}')
         v=r.get('intake_verification') or {}

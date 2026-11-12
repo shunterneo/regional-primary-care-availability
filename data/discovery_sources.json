@@ -1,6 +1,22 @@
 [
-  {"name":"London Family Health Team provider intake","url":"https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/"},
-  {"name":"Oxford NP-led clinic new patients","url":"https://www.ocnplc.ca/patient-information/new-patients/"},
-  {"name":"Thames Valley FHT become a patient","url":"https://thamesvalleyfht.ca/become-a-patient/"},
-  {"name":"Brantford Grand River CHC intake","url":"https://www.grandriverchc.ca/your-health/new-clients/"}
+  {
+    "name": "London Family Health Team provider intake",
+    "url": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/"
+  },
+  {
+    "name": "Oxford NP-led clinic new patients",
+    "url": "https://www.ocnplc.ca/patient-information/new-patients/"
+  },
+  {
+    "name": "Thames Valley FHT become a patient",
+    "url": "https://thamesvalleyfht.ca/become-a-patient/"
+  },
+  {
+    "name": "Brantford Grand River CHC intake",
+    "url": "https://www.grandriverchc.ca/your-health/new-clients/"
+  },
+  {
+    "name": "London FHT general location-page intake status (check against Aug 26 announcement)",
+    "url": "https://londonfht.ca/our-locations/"
+  }
 ]

@@ -16,7 +16,7 @@ def apply(database, source_state, history, day):
     for c in database['clinics']:
         owners.setdefault(c.get('evidence_url',''),[]).append(c['id'])
     for c in database['clinics']:
-        if c.get('operating_status') in ('closed','archived') or c.get('auto_updates_enabled') is False:continue
+        if c.get('operating_status') in ('closed','archived') or c.get('auto_updates_enabled') is False or c.get('intake_conflict'):continue
         url=c.get('evidence_url','')
         rec=source_state.get('sources',{}).get(url,{})
         o=rec.get('auto_observation') or {}

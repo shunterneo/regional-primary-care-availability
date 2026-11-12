@@ -352,5 +352,383 @@
     "changed_fields": [
       "intake_detail"
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c008",
+    "clinic_name": "Thames Valley FHT — Springbank NP Clinic",
+    "type": "address_or_contact_verified",
+    "old_status": "reported",
+    "new_status": "reported",
+    "source": "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "phone": "519-473-0530 ext. 2263",
+      "phone_note": null
+    },
+    "after": {
+      "phone": "519-473-0530 ext. 2263",
+      "phone_note": "NP clinic site phone; separate attachment intake team: 519-473-0530 ext. 2197"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c015",
+    "clinic_name": "Langs North Dumfries Community Health Centre",
+    "type": "address_or_contact_verified",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://www.langs.org/locations-hours",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "address": "2938 Greenfield Road",
+      "phone": "519-653-1470 ext. 343",
+      "phone_note": null
+    },
+    "after": {
+      "address": "2958 Greenfield Road",
+      "phone": "519-632-1229",
+      "phone_note": "North Dumfries CHC main phone; old secondary directory incorrectly gave 2938 Greenfield Road and generic Langs number."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c018",
+    "clinic_name": "Dr. Clara Obanor — King George Road",
+    "type": "address_or_contact_verified",
+    "old_status": "reported",
+    "new_status": "reported",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=155642",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "address": "250 King George Road",
+      "phone": "548-567-9999"
+    },
+    "after": {
+      "address": "250 King George Road, Unit 2",
+      "phone": "548-567-9999"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c022",
+    "clinic_name": "Dr. Sherif Mikhail — Conestoga",
+    "type": "address_or_contact_verified",
+    "old_status": "reported",
+    "new_status": "reported",
+    "source": "https://www.sherifmikhail.ca/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "address": "350 Conestoga Boulevard, Unit B7A",
+      "clinic_url": "https://www.doctors4cambridge.com/contact.htm"
+    },
+    "after": {
+      "address": "350 Conestoga Boulevard, Unit B7-A",
+      "clinic_url": "https://www.sherifmikhail.ca/"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c024",
+    "clinic_name": "Saginaw Medical Centre — Dr. Sunil Bhatia",
+    "type": "address_or_contact_verified",
+    "old_status": "reported",
+    "new_status": "reported",
+    "source": "https://www.saginawmedicalcentre.com/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "address": "525 Saginaw Parkway",
+      "phone": "",
+      "clinic_url": "https://www.doctors4cambridge.com/contact.htm",
+      "phone_note": null
+    },
+    "after": {
+      "address": "525 Saginaw Parkway, Unit A2",
+      "phone": "226-666-0345",
+      "clinic_url": "https://www.saginawmedicalcentre.com/",
+      "phone_note": "Clinic website contact number. Its generic patient-information page separately mentions 519-624-2220 and a pharmacy email; that discrepancy is not evidence of new intake."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c030",
+    "clinic_name": "Dr. Festus Anochie family medicine",
+    "type": "address_or_contact_verified",
+    "old_status": "reported",
+    "new_status": "reported",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=145987",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "address": "440 Boler Road, Suite 200"
+    },
+    "after": {
+      "address": "440 Boler Road, Suite 200"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c040",
+    "clinic_name": "London InterCommunity Health Centre — Huron",
+    "type": "address_or_contact_verified",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://lihc.on.ca/locations-and-hours-of-services/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "phone": "519-660-0874 ext. 3244",
+      "phone_note": null
+    },
+    "after": {
+      "phone": "519-659-6399",
+      "phone_note": "Huron site main phone; earlier 519-660-0874 is the Dundas site."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c062",
+    "clinic_name": "Byron Family Medical Centre",
+    "type": "address_or_contact_verified",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "phone": "",
+      "phone_note": null
+    },
+    "after": {
+      "phone": "519-472-9670 ext. 71263",
+      "phone_note": "Family Health Team appointment contact, not direct confirmation of family physician intake."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c063",
+    "clinic_name": "Forest City FHO — Central Avenue",
+    "type": "address_or_contact_verified",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "phone": "",
+      "phone_note": null
+    },
+    "after": {
+      "phone": "519-434-2944 ext. 2212",
+      "phone_note": "Family Health Team inquiries; do not assume this reaches the particular physician."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c067",
+    "clinic_name": "Prisma Health Care Collaborative",
+    "type": "address_or_contact_verified",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "phone": "",
+      "phone_note": null
+    },
+    "after": {
+      "phone": "519-878-8621",
+      "phone_note": "Prisma site phone/text as displayed by Thames Valley FHT."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c069",
+    "clinic_name": "Victoria Family Medical Centre",
+    "type": "address_or_contact_verified",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "phone": "",
+      "phone_note": null
+    },
+    "after": {
+      "phone": "519-685-8500 ext. 71263",
+      "phone_note": "Family Health Team appointments only; not individual physician enrolment phone."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c070",
+    "clinic_name": "West London Family Health Centre",
+    "type": "address_or_contact_verified",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "phone": "",
+      "phone_note": null
+    },
+    "after": {
+      "phone": "519-641-6712 ext. 3654",
+      "phone_note": "Family Health Team inquiries; not direct physician enrolment."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c071",
+    "clinic_name": "Westmount Family Physicians",
+    "type": "address_or_contact_verified",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "phone": "",
+      "phone_note": null
+    },
+    "after": {
+      "phone": "226-272-0272",
+      "phone_note": "Family Health Team inquiries; not direct physician enrolment."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c079",
+    "clinic_name": "Thames Valley FHT — Elgin Community Health Hub",
+    "type": "address_or_contact_verified",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "phone": "519-473-0530 ext. 2258",
+      "phone_note": null
+    },
+    "after": {
+      "phone": "519-473-0530 ext. 2258",
+      "phone_note": "Elgin Community Health Hub FHT inquiries."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c041",
+    "clinic_name": "Thames Valley FHT — Queens Avenue Health & Homelessness",
+    "type": "address_or_contact_verified",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "address": "602 Queens Avenue",
+      "notes": ""
+    },
+    "after": {
+      "address": "602 Queens Avenue",
+      "notes": "Health & Homelessness primary-care program with eligibility restrictions. No universal intake confirmation."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c021",
+    "clinic_name": "Coronation Family Physicians — Dr. Fares Hayek",
+    "type": "address_or_contact_verified",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://www.coronationfamilyphysicians.ca/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "phone_note": null
+    },
+    "after": {
+      "phone_note": "Do not infer number from unrelated clinic in shared building."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c045",
+    "clinic_name": "New Vision Family Health Team — Greenbrook",
+    "type": "address_or_contact_verified",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://www.newvisionhealth.ca/clinic-hours",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "providers": "",
+      "provider_list_source": null,
+      "notes": ""
+    },
+    "after": {
+      "providers": "Dr. Adam Agate; Dr. Tracy Bausmer; Dr. Morgan Brown; Dr. Karen Cameron; Dr. Steven Chan; Dr. Yidersal Gebeyehu; Dr. Sarah Gimbel; Dr. Martin Kane; Dr. Shvan Korsheed; Dr. Sarah MacDonald; Dr. Cecelia McLachlan; Dr. Albert Mensah; Dr. Rose Noble; Dr. Thomas O’Brien; Dr. Meredith Pope; Dr. Chase Reaume; Dr. Joanna Zorzitto",
+      "provider_list_source": "https://www.newvisionhealth.ca/about-our-team",
+      "notes": "Team website lists 17 family physicians at Greenbrook; this roster is not evidence any individual physician is accepting new patients."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c093",
+    "clinic_name": "New Vision FHT — Boardwalk",
+    "type": "address_or_contact_verified",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://www.newvisionhealth.ca/clinic-hours",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "providers": "",
+      "provider_list_source": null
+    },
+    "after": {
+      "providers": "Dr. Balraj Singh",
+      "provider_list_source": "https://www.newvisionhealth.ca/about-our-team"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c009",
+    "clinic_name": "Elmdale Health Centre — building-wide physician registration lead",
+    "type": "address_or_contact_verified",
+    "old_status": "reported",
+    "new_status": "reported",
+    "source": "https://www.elmdalehealth.com/",
+    "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
+    "before": {
+      "name": "Elmdale Health Centre — Building registration notice",
+      "care_model": "ongoing",
+      "intake_detail": "Elmdale Health Centre advertises online family physician registration for unattached Elgin County residents, but does not identify the accepting physician or office. Registration is separate from TMC+ and is not guaranteed attachment."
+    },
+    "after": {
+      "name": "Elmdale Health Centre — building-wide physician registration lead",
+      "care_model": "unverified",
+      "intake_detail": "The building website offers an online family physician registration notice for unattached Elgin County residents; it does not name the physician or guarantee attachment. Not a confirmed independent clinic office; do not count as a specific accepting practice."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c096",
+    "clinic_name": "London InterCommunity Health Centre — Argyle",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "type": "verified_public_site_discovery",
+    "source": "https://lihc.on.ca/locations-and-hours-of-services/",
+    "reviewer_note": "New distinct CHC primary care location; acceptance unconfirmed."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c004",
+    "clinic_name": "London Family Health Team — Beaverbrook",
+    "old_status": "accepting",
+    "new_status": "unknown",
+    "type": "conflicting_first_party_intake_evidence",
+    "source": "https://londonfht.ca/our-locations/",
+    "reviewer_note": "Official locations page contradicts August intake announcement; disabled automatic status promotion until resolved."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c005",
+    "clinic_name": "London Family Health Team — Stoney Creek",
+    "old_status": "accepting",
+    "new_status": "unknown",
+    "type": "conflicting_first_party_intake_evidence",
+    "source": "https://londonfht.ca/our-locations/",
+    "reviewer_note": "Official locations page contradicts August intake announcement; disabled automatic status promotion until resolved."
   }
 ]

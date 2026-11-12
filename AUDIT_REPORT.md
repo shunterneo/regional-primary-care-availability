@@ -1,46 +1,50 @@
-# Primary Care Availability Hub — quality audit
+# Regional Primary Care Availability Hub — targeted integrity audit
 
-**Audit dated:** November 11, 2026 (America/Toronto)
+**Assessment date:** November 11, 2026 · **Centre:** 96 Tillson Avenue, Tillsonburg · **Area:** 75 km straight-line radius.
 
-## Scope and honesty of findings
+## Scope and conclusions
 
-All **95 records** in the published database were checked programmatically for schema validity, source/organization attribution, green-status eligibility, care-model versus walk-in distinction, civic address completeness, duplicate record keys and mismatched evidence URLs. Targeted public-web checks independently inspected key intake and practice pages, especially records that were advertised as open or used another organization as evidence. **This is not a 95-clinic telephone audit or a complete CPSO/CNO physician census.**
+This audit checked the structure, source links, evidence classification, and publicly listed addresses of the current **96 clinic / service locations**. It did **not** conduct phone calls with practices, exhaustively compare every Ontario physician and nurse practitioner registration, or confirm that advertised application forms translate into current roster spaces. The public map still uses town-centre pins and cannot be used as a precise clinic-location or driving-distance map.
 
-Baseline display classifications after corrections:
-
-| Category | Records |
+| Published intake classification | Office / service records |
 |---|---:|
-| Clinic-published application pathways (not guaranteed enrolment) | 16 |
-| Regional/secondary reported opportunities | 15 |
-| Restricted/limited intake | 5 |
+| Clinic-published application pathway (not guaranteed attachment) | 14 |
+| Regional / third-party intake report, contact clinic to confirm | 14 |
+| Restricted / limited intake | 5 |
 | Waitlist | 6 |
-| Explicitly not accepting (public reports) | 3 |
-| No established intake status | 50 |
-| **Total** | **95** |
+| Explicitly not accepting per cited public evidence | 3 |
+| Unknown, conflicting, or unsupported current intake | 54 |
+| **Total** | **96** |
 
-**79 records contain at least one follow-up flag**, which includes expected categories such as no direct intake evidence, missing telephone number, or office location needing independent reconfirmation. A flag is **not** proof of an incorrect address or closed practice. The underlying file `site/documents/quality-audit.csv` lists every record and the specific flags. The follow-up count can change whenever records or data quality improve.
+**Quality follow-up:** 73/96 records have at least one follow-up flag (overlap permitted); 65/96 have a recorded independently checked public office address source; **31 still require more source-level address reconfirmation**. **Seven** records have no usable office phone. The fact that a record has an address source is **not** a guarantee that its street-level geocoding or provider roster is independently verified.
 
-## Corrections made
+## Corrections and new discovery in this pass
 
-- **Woodstock Thames Valley FHT:** Fixed the wrong "Intake evidence" link to Oxford County NPLC. Direct registration now uses Thames Valley FHT's own attachment-team page and intake phone **519-473-0530 ext. 2197**. The source is a **regional NP-attachment pathway**, not verification of an available family physician roster at the Woodstock building.
-- **Oxfordia (Woodstock):** The clinic website now points to **oxfordiamedical.com**. The City of Woodstock physician-recruitment announcement remains clearly identified as secondary evidence, not the clinic's own intake verification.
-- **Active Care Medical Centre (London):** Replaced the placeholder street location with the clinic-published **1807 Wonderland Road North, Suite 201**; named the specifically accepting physicians.
-- **Viva Medical Clinic (London):** Corrected the telephone listing for **Dr. Osita Ohaeto to 226-289-7231**, rather than using another physician's phone number from the same centre.
-- **Elmdale Health Centre (St. Thomas):** Downgraded the building-wide registration notice. A multi-tenant building form does not identify a specific physician's available roster space.
-- **Oxford County NPLC — Tillsonburg:** Distinguished regional NP applications from immediate, location-specific assignment. The permanent Tillsonburg Unit 14 location is described as opening in early 2027, while existing temporary services continue at Unit 12. This remains a referral/application lead, not a verified new patient space at a specific site.
-- **Old South FHO (London):** Downgraded the intake claim because the original clinic registration page could not be independently retrieved. London's medical association provides a directory lead for Drs Spence and Goosheh; clinic confirmation remains outstanding.
-- **Valleyview Medical Centre, Brantford:** Replaced generic homepage evidence with the correct **Colborne** and **Lynden** clinic-specific family-practice registration paths, separate from walk-in booking.
-- **Greenwich Medical Centre:** Flagged the clinic's inconsistent telephone numbers rather than selecting one as definitively confirmed.
+1. **Langs North Dumfries CHC, Ayr:** Corrected former 2938 Greenfield Road to official **2958 Greenfield Road** and updated phone to **519-632-1229**. Source: https://www.langs.org/locations-hours.
+2. **London Family Health Team — Beaverbrook and Stoney Creek:** Official 2026-08-26 intake announcement conflicts with the organization's general locations page indicating no new patients. Both records set to **unknown/conflicting**, and automatic promotion disabled until verified directly. Sources: https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/ and https://londonfht.ca/our-locations/.
+3. **London InterCommunity Health Centre — Argyle:** Added a missing third primary-care site at **1700 Dundas Street Unit 1, London; 519-660-5853**. Intake unknown until site-specific confirmation. Source: https://lihc.on.ca/locations-and-hours-of-services/.
+4. **London InterCommunity Health Centre — Huron:** Corrected site phone to **519-659-6399**, separate from the Dundas site contact. Source: https://lihc.on.ca/locations-and-hours-of-services/.
+5. **Saginaw Medical Centre, Cambridge:** Corrected listing to **525 Saginaw Parkway, Unit A2, 226-666-0345**. This is office verification, **not** proof that Dr. Bhatia currently accepts new patients. Source: https://www.saginawmedicalcentre.com/about.
+6. **Dr. Clara Obanor, Brantford:** Corrected practice unit to **250 King George Road, Unit 2** and contact from public CPSO record; this does not confirm intake. Source: https://register.cpso.on.ca/physician-info/?cpsonum=155642.
+7. **Dr. Sherif Mikhail, Cambridge:** Corrected suite format to **350 Conestoga Boulevard, Unit B7-A**, with clinic-owned contact link. Source: https://www.sherifmikhail.ca/.
+8. **Dr. Festus Anochie, London:** Corrected suite detail to **440 Boler Road, Suite 200** from public CPSO registration. Source: https://register.cpso.on.ca/physician-info/?cpsonum=145987.
+9. **Thames Valley FHT sites:** Independently cross-checked numerous public office addresses against https://thamesvalleyfht.ca/locations/ and corrected several FHT *program* contact numbers; those numbers do not automatically reach a family's doctor or indicate an open roster.
+10. **Elmdale building-wide registration:** Reclassified the entry as an **unverified care model** and intake **unknown** because a multi-tenant building registration notice cannot identify a confirmed ongoing family-medicine practice.
 
-## Permanent safeguards added
+## QA safeguards added
 
-1. Every build validates the clinic's **claimed first-party evidence domain against its own website**, including program-wide referrals. The exact error the user found now **fails validation** instead of displaying an apparently valid intake link.
-2. Green requires a **recent, clinic-specific published ongoing-care application notice**, a properly recorded source and a checked physical street address. A generic booking button is not enough.
-3. Program-level intake, directory-only reports, waitlists, unknown status, walk-in care, and office closures are kept distinct. No error or missing page automatically means "not accepting" or "closed".
-4. Public evidence review dates, record-edit dates and source URLs are distinct. All records remain explicitly **not telephone verified** unless an actual documented verification process exists.
-5. The user-facing website provides a **downloadable 95-record QA CSV**, not just a green badge, and the Word/PDF directory regenerates from the same data.
-6. The daily workflow runs new structural-audit regression tests. A cross-organization evidence link or unsupported green classification blocks deployment.
+- `scripts/validate.py` now blocks green accepting statuses that carry unresolved first-party conflicts or that claim an independently verified street address without a supporting source URL.
+- `scripts/evidence_policy.py` no longer qualifies accepting status while an unresolved conflict flag exists.
+- `scripts/auto_publish.py` skips conflicting cases and respects a manual override preventing automatic status promotion.
+- `scripts/audit_inventory.py` emits distinct address source/checked-date/phone-note columns and flags unresolved first-party contradictions.
+- Regression tests check the Langs address, Saginaw and LIHC phone numbers, both London FHT conflicts, and the missing Argyle site; previously fixed cross-organization evidence links remain covered by tests.
+- The data and generated Word/PDF/map outputs contain **public clinic information only**, never client addresses.
 
-## Remaining work
+## Important unfinished work — do not describe as fully verified
 
-The structural QA is complete, but 79 records have follow-up flags. A systematic physician-by-physician CPSO/CNO audit, direct phone confirmation when feasible, and address-level geographic checking remain outstanding. The public map displays approximate *community-centre* markers rather than verified building pins. Ongoing online monitoring is a supplement, not a substitute for contacting clinics before making referrals.
+- **31 clinic addresses** lack sufficient recorded independent public-source verification. Even the other 65 do not yet have individually verified building coordinates or routing information.
+- **Seven office contact numbers** remain absent. Other published phone numbers may connect to a regional FHT coordinator rather than the patient's specific physician.
+- **14 regional intake reports** still lack unambiguous clinic-specific current enrolment confirmation; 54 records have unknown/conflicting intake.
+- **Physician-by-physician and nurse-practitioner-by-nurse-practitioner census** against CPSO/CNO is not complete, so additional practices may exist.
+- **Automated scheduled research quality** needs real-run evidence, separate from successful page deployments or simulated tests. A successful build does not prove external sites were searched successfully.
+- Site-level acceptance and patient attachment are **not** established by online registration forms. Call a clinic directly before giving a definitive referral.

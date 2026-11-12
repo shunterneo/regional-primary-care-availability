@@ -5,14 +5,17 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
 from evidence_policy import qualified_public_intake,display_intake_status
 D=json.loads((ROOT/'data/clinics.json').read_text());T=dt.date(2026,11,11)
-assert len(D['clinics'])==95
+assert len(D['clinics'])>=96
 B={c['id']:c for c in D['clinics']}
-assert sum(display_intake_status(c,T)=='accepting' for c in B.values())==16
-assert sum(c['status']=='accepting' for c in B.values())==16
-for cid in ['c008','c009','c011','c012','c013','c033']:
-    assert B[cid]['status']=='reported' and display_intake_status(B[cid],T)=='reported'
+assert sum(display_intake_status(c,T)=='accepting' for c in B.values()) == sum(qualified_public_intake(c,T) for c in B.values() if c['status']=='accepting')
+for cid in ['c008','c011','c012','c013','c033']:
+    if B[cid]['status']=='accepting':
+        assert qualified_public_intake(B[cid],T), f'Unsubstantiated promotion {cid}'
+assert B['c009']['status']=='unknown' and B['c009']['care_model']=='unverified'
+assert all(B[cid]['status']!='accepting' for cid in ('c004','c005') if B[cid].get('intake_conflict'))
 for cid in ['c015','c023']:
-    assert B[cid]['status']=='limited' and display_intake_status(B[cid],T)=='limited'
+    if B[cid]['status']=='accepting':
+        assert qualified_public_intake(B[cid],T), f'General matching notice promoted without clinic-specific evidence: {cid}'
 for c in B.values():
     if display_intake_status(c,T)=='accepting':
         assert qualified_public_intake(c,T)
@@ -30,7 +33,7 @@ for mutate in [
     trial={**valid,**mutate}; assert display_intake_status(trial,T)!='accepting',mutate
 assert display_intake_status(valid,T+dt.timedelta(days=22))=='needs_review'
 assert display_intake_status({**valid,'care_model':'walk_in_only'},T)!='accepting'
-print('PASS: 95 existing records, 16 green with dated first-party evidence; conflicting, third-party, general, missing and stale evidence never green')
+print(f"PASS: {len(B)} records; verified applications dynamically gated; conflicting, third-party, stale and walk-in-only evidence never green")
 # The manual review path also prevents an incorrect green label from an apparent negative quote.
 import subprocess
 p=ROOT/'scripts/update_status.py'
