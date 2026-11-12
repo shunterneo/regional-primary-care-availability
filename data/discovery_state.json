@@ -1,1 +1,20 @@
-{"version": 1, "seen": {}, "last_run": null, "last_summary": {}}
+{
+  "version": 1,
+  "seen": {
+    "cdccbb906971de29": "2026-11-12T03:43:34+00:00",
+    "c00ff506389baf8f": "2026-11-12T03:43:34+00:00",
+    "95dc5665bb0c3b8d": "2026-11-12T03:43:34+00:00",
+    "6fef75f721fc185b": "2026-11-12T03:43:34+00:00",
+    "e6f8713478814445": "2026-11-12T03:43:34+00:00"
+  },
+  "last_run": "2026-11-12T03:43:34+00:00",
+  "last_summary": {
+    "queries_attempted": 16,
+    "queries_failed": 0,
+    "feed_items_seen": 21,
+    "new_leads_queued": 5,
+    "duplicates_skipped": 0,
+    "errors": []
+  },
+  "next_query_index": 16
+}

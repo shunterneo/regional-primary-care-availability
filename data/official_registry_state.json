@@ -1,1 +1,689 @@
-{"last_run": null, "seen": {}, "last_summary": {}}
+{
+  "last_run": "2026-11-12",
+  "seen": {
+    "moh-321787270": {
+      "hash": "62423a8db8fa475b788229c11c00fd8952305dceb7d0a025b7d72309db57db96",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787270",
+        "name": "Central Community Health Centre (St. Thomas)",
+        "community": "St Thomas",
+        "address": "359 Talbot Street",
+        "clinic_type": "CHC",
+        "latitude": 42.779298,
+        "longitude": -81.198127,
+        "distance": 39.9,
+        "registry_id": "321787270"
+      }
+    },
+    "moh-321787550": {
+      "hash": "f7164562fc72865210e75ffee2c93c9814c71668ef652ae8dcfe6fe1a49498ae",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787550",
+        "name": "Haldimand Family Health Team",
+        "community": "Caledonia",
+        "address": "245 Argyle Street South",
+        "clinic_type": "FHT",
+        "latitude": 43.065719,
+        "longitude": -79.958746,
+        "distance": 66.0,
+        "registry_id": "321787550"
+      }
+    },
+    "moh-321787315": {
+      "hash": "fa68b2dbac83c43e1d4000a6947e75fdfbfd9718a2e06d6c0cd628c11c616032",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787315",
+        "name": "Langs Farm Village Association (3 Doors Down)",
+        "community": "Cambridge",
+        "address": "1273 Concession Road",
+        "clinic_type": "CHC",
+        "latitude": 43.395626,
+        "longitude": -80.344108,
+        "distance": 66.5,
+        "registry_id": "321787315"
+      }
+    },
+    "moh-321787701": {
+      "hash": "5af4a4b901b5094043d1a20e3bdf31728978cd03e58977f4899ae1e738e138f0",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787701",
+        "name": "Six Nations of The Grand River Family Health Team",
+        "community": "Ohsweken",
+        "address": "1745 Chiefswood Road",
+        "clinic_type": "FHT",
+        "latitude": 43.070411,
+        "longitude": -80.117395,
+        "distance": 54.3,
+        "registry_id": "321787701"
+      }
+    },
+    "moh-321787715": {
+      "hash": "185f9210d0f83ab486962c445e71a65e3b82ca85ec0a7030c513debb91023cf8",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787715",
+        "name": "Star Family Health Team- Avon Family Medicine Centre",
+        "community": "Stratford",
+        "address": "511 Huron Street",
+        "clinic_type": "FHT",
+        "latitude": 43.379186,
+        "longitude": -81.002031,
+        "distance": 61.5,
+        "registry_id": "321787715"
+      }
+    },
+    "moh-321787130": {
+      "hash": "ea211724ead6f2babb5e1989a634eced72b6bd9230ffb1d74b7b5e8db5361914",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787130",
+        "name": "Waterloo Region Nurse Practitioner-Led Clinic (Breslau)",
+        "community": "Breslau",
+        "address": "10 Townsend Drive",
+        "clinic_type": "NP",
+        "latitude": 43.486299,
+        "longitude": -80.415049,
+        "distance": 73.4,
+        "registry_id": "321787130"
+      }
+    },
+    "moh-321787636": {
+      "hash": "ff0a185e74e083cf4c0d98dcabd4e3d5ed0cf2b7d492def46514aefbce2b7893",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787636",
+        "name": "Norfolk Family Health Team",
+        "community": "Delhi",
+        "address": "105 Main Street",
+        "clinic_type": "FHT",
+        "latitude": 42.856163,
+        "longitude": -80.49695,
+        "distance": 18.4,
+        "registry_id": "321787636"
+      }
+    },
+    "moh-321788817": {
+      "hash": "adc7ded908b2c8e3e62f1cafece78c2153a040fa11b0439ea56a0b5366fe6e1e",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321788817",
+        "name": "Health Zone Nurse Practitioner-Led Clinic",
+        "community": "London",
+        "address": "230 Victoria Street",
+        "clinic_type": "NP",
+        "latitude": 43.00447,
+        "longitude": -81.256931,
+        "distance": 46.2,
+        "registry_id": "321788817"
+      }
+    },
+    "moh-321787637": {
+      "hash": "96a0ecea9822ce5753bb112ca3bec03045c11fd460631408895fb8f751837f38",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787637",
+        "name": "Norfolk Family Health Team",
+        "community": "Simcoe",
+        "address": "185 Robinson Street",
+        "clinic_type": "FHT",
+        "latitude": 42.836132,
+        "longitude": -80.310696,
+        "distance": 33.8,
+        "registry_id": "321787637"
+      }
+    },
+    "moh-321787595": {
+      "hash": "a0d022d4dcb314129be5bb253e26a9ea964f832b3f9fc8f50ba7ce621674963a",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787595",
+        "name": "London Family Health Team",
+        "community": "London",
+        "address": "770 Swenige Drive",
+        "clinic_type": "FHT",
+        "latitude": 43.049188,
+        "longitude": -81.253068,
+        "distance": 47.7,
+        "registry_id": "321787595"
+      }
+    },
+    "moh-321787320": {
+      "hash": "26e3d3a3cd394843023bcfa0f4aef9aeec5c6c7323b9c45174e6ab5d06f5c313",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787320",
+        "name": "London Intercommunity Health Centre (Argyle Clinic)",
+        "community": "London",
+        "address": "1700 Dundas Street",
+        "clinic_type": "CHC",
+        "latitude": 43.002054,
+        "longitude": -81.186822,
+        "distance": 40.7,
+        "registry_id": "321787320"
+      }
+    },
+    "moh-321787716": {
+      "hash": "c528fbd47bcec307d1680c7f719a9e55f637b5d09678f8ebb39e06e98eed4de0",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787716",
+        "name": "Star Family Health Team- Tavistock Community Health Inc.",
+        "community": "Tavistock",
+        "address": "80 Maria Street",
+        "clinic_type": "FHT",
+        "latitude": 43.317279,
+        "longitude": -80.834864,
+        "distance": 51.1,
+        "registry_id": "321787716"
+      }
+    },
+    "moh-321787714": {
+      "hash": "ffaa241f3e70656a6a507315bdb7925f697853fb3605323ccb8f0b6c50b0a879",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787714",
+        "name": "Star Family Health Team",
+        "community": "Stratford",
+        "address": "700 OLoane Avenue",
+        "clinic_type": "FHT",
+        "latitude": 43.382185,
+        "longitude": -81.003987,
+        "distance": 61.8,
+        "registry_id": "321787714"
+      }
+    },
+    "moh-321787639": {
+      "hash": "0651e5fa5d5b96542240b0f1a7aa87cdd513370e63f6829920e1e5fc060c618b",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787639",
+        "name": "Norfolk Family Health Team",
+        "community": "Paris",
+        "address": "25 Curtis Avenue North",
+        "clinic_type": "FHT",
+        "latitude": 43.190817,
+        "longitude": -80.370471,
+        "distance": 46.1,
+        "registry_id": "321787639"
+      }
+    },
+    "moh-321787316": {
+      "hash": "ef73820a82635b3de9e01a20173b3fbc60143bbced4a972556c75595935484e1",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787316",
+        "name": "Langs Farm Village Association (Grow Community Centre)",
+        "community": "Cambridge",
+        "address": "1 Groh Avenue",
+        "clinic_type": "CHC",
+        "latitude": 43.419458,
+        "longitude": -80.327188,
+        "distance": 69.5,
+        "registry_id": "321787316"
+      }
+    },
+    "moh-321787593": {
+      "hash": "e79c2acd229769ebf63b7e322592a46a206d90c1b15a683f077e978cf3cea4e0",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787593",
+        "name": "London Family Health Team",
+        "community": "London",
+        "address": "1261 Beaverbrook Avenue",
+        "clinic_type": "FHT",
+        "latitude": 42.99152,
+        "longitude": -81.294141,
+        "distance": 48.6,
+        "registry_id": "321787593"
+      }
+    },
+    "moh-321787627": {
+      "hash": "02a8bce53bcd2195fac5cca56866cbde9238566c870f3310437e2dd7e29eb515",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787627",
+        "name": "New Vision Family Health Team",
+        "community": "Kitchener",
+        "address": "421 Greenbrook Drive",
+        "clinic_type": "FHT",
+        "latitude": 43.42499,
+        "longitude": -80.510846,
+        "distance": 64.6,
+        "registry_id": "321787627"
+      }
+    },
+    "moh-321787733": {
+      "hash": "b8c2032d293bb45ebc92df5907295ffba740544b8a81b82c97649e5146902ec6",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787733",
+        "name": "Thames Valley Family Health Team - Woodstock",
+        "community": "Woodstock",
+        "address": "959 Dundas Street East",
+        "clinic_type": "FHT",
+        "latitude": 43.134833,
+        "longitude": -80.732611,
+        "distance": 30.0,
+        "registry_id": "321787733"
+      }
+    },
+    "moh-321787549": {
+      "hash": "3c40e607456708891f0c22618384079f0837eef60a380065572005e048666929",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787549",
+        "name": "Haldimand Family Health Team",
+        "community": "Hagersville",
+        "address": "75 Parkview Road",
+        "clinic_type": "FHT",
+        "latitude": 42.958685,
+        "longitude": -80.044058,
+        "distance": 56.2,
+        "registry_id": "321787549"
+      }
+    },
+    "moh-321787336": {
+      "hash": "e733f6503e1216c84e28158327c30f105f565315e2a26060a5b504b03db35f75",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787336",
+        "name": "Oxford County CHC (Woodstock And Area Communities Health Centre)",
+        "community": "Woodstock",
+        "address": "35 Metcalf Street",
+        "clinic_type": "CHC",
+        "latitude": 43.128887,
+        "longitude": -80.756421,
+        "distance": 29.4,
+        "registry_id": "321787336"
+      }
+    },
+    "moh-321787638": {
+      "hash": "ffc2465efd10222538dd4a434d5fd15807d96693f26670c47a6625e9ce2bd9fd",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787638",
+        "name": "Norfolk Family Health Team",
+        "community": "Port Rowan",
+        "address": "1009 Bay Street",
+        "clinic_type": "FHT",
+        "latitude": 42.623397,
+        "longitude": -80.45043,
+        "distance": 34.9,
+        "registry_id": "321787638"
+      }
+    },
+    "moh-321787318": {
+      "hash": "bbfb6f17326ba7891adf59e2b8136008f9b4673df01ad76a97c685d1e2f570c3",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787318",
+        "name": "Langs Farm Village Association (North Dumfries CHC)",
+        "community": "Ayr",
+        "address": "2958 Greenfield Road",
+        "clinic_type": "CHC",
+        "latitude": 43.301993,
+        "longitude": -80.462383,
+        "distance": 53.0,
+        "registry_id": "321787318"
+      }
+    },
+    "moh-321787748": {
+      "hash": "409858da7f2b5733adc66e6499fdc70586319c1c6f763fe2e50905a2654a699d",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787748",
+        "name": "Two Rivers Family Health Team Inc.",
+        "community": "Cambridge",
+        "address": "350 Conestoga Boulevard",
+        "clinic_type": "FHT",
+        "latitude": 43.390471,
+        "longitude": -80.313995,
+        "distance": 67.2,
+        "registry_id": "321787748"
+      }
+    },
+    "moh-321787319": {
+      "hash": "c89d64eb1f575ff1b6599a42a29fb71098c6055124ea5d38fdac5c0a2d540fa0",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787319",
+        "name": "Langs Farm Village Association (Regional Coordination Centre)",
+        "community": "Cambridge",
+        "address": "6-150 Pinebush Road",
+        "clinic_type": "CHC",
+        "latitude": 43.410895,
+        "longitude": -80.31415,
+        "distance": 69.1,
+        "registry_id": "321787319"
+      }
+    },
+    "moh-321787403": {
+      "hash": "7eb056d3c7f4acb45ef308b21b0a570bd3cf6d928e2cc083e94984eb7d9e7c78",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787403",
+        "name": "Woolwich Community Health Centre (Wellesley Township Community Health Centre)",
+        "community": "Wellesley",
+        "address": "1401 QueenSouth Bush Road",
+        "clinic_type": "CHC",
+        "latitude": 43.485378,
+        "longitude": -80.776858,
+        "distance": 69.1,
+        "registry_id": "321787403"
+      }
+    },
+    "moh-321787129": {
+      "hash": "2c6b1091788a766d896e4a6fb607c1929b0cea7637e6f05ab996087536a73c4a",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787129",
+        "name": "Waterloo Region Nurse Practitioner-Led Clinic (Kitchener)",
+        "community": "Kitchener",
+        "address": "123 Pioneer Drive",
+        "clinic_type": "NP",
+        "latitude": 43.394287,
+        "longitude": -80.432088,
+        "distance": 63.4,
+        "registry_id": "321787129"
+      }
+    },
+    "moh-321787731": {
+      "hash": "d43b8d86011b4b3c246e1b2876ef3872647c9b3b3e6a4fe0a8192287369672c8",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787731",
+        "name": "Thames Valley Family Health Team",
+        "community": "London",
+        "address": "1385 North Routledge Park",
+        "clinic_type": "FHT",
+        "latitude": 43.001374,
+        "longitude": -81.335382,
+        "distance": 52.1,
+        "registry_id": "321787731"
+      }
+    },
+    "moh-321787628": {
+      "hash": "5f0f9de2af82fe20bfbeed7f9689986a7e43187336b50f435799b14a5023e0c8",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787628",
+        "name": "New Vision Family Health Team - Dr. Balraj Singh's Clinic",
+        "community": "Waterloo",
+        "address": "430 The Boardwalk",
+        "clinic_type": "FHT",
+        "latitude": 43.440351,
+        "longitude": -80.564956,
+        "distance": 65.2,
+        "registry_id": "321787628"
+      }
+    },
+    "moh-321787321": {
+      "hash": "beba28747381e36c310dd3ea2cd119560095d055d714b5b7af76a8d9fbc1029b",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787321",
+        "name": "London Intercommunity Health Centre (Huron Clinic)",
+        "community": "London",
+        "address": "1355 Huron Street",
+        "clinic_type": "CHC",
+        "latitude": 43.019239,
+        "longitude": -81.213178,
+        "distance": 43.4,
+        "registry_id": "321787321"
+      }
+    },
+    "moh-321787557": {
+      "hash": "778091a2257d2df063fae17c3824b06d4646e75c921c9978c163dcf5779370c8",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787557",
+        "name": "Happy Valley Family Health Team",
+        "community": "St Marys",
+        "address": "268 Maiden Lane",
+        "clinic_type": "FHT",
+        "latitude": 43.259369,
+        "longitude": -81.152039,
+        "distance": 56.0,
+        "registry_id": "321787557"
+      }
+    },
+    "moh-321787322": {
+      "hash": "ca2de28a3c28f2d3274b4d505d8120f25a377ef61db2e60749c80183c08b00d4",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787322",
+        "name": "London Intercommunity Health Centre (Old East Village & Health Outreach Clinic)",
+        "community": "London",
+        "address": "659 Dundas Street East",
+        "clinic_type": "CHC",
+        "latitude": 42.989177,
+        "longitude": -81.229634,
+        "distance": 43.5,
+        "registry_id": "321787322"
+      }
+    },
+    "moh-321787675": {
+      "hash": "1e6bafbda803de7faefd2c41541a81e2ccb952918c56ce0dcd4672e2fa0413b7",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787675",
+        "name": "Primacare Community Family Health Team - St. George Location",
+        "community": "St George",
+        "address": "2 Sunnyside Drive",
+        "clinic_type": "FHT",
+        "latitude": 43.246706,
+        "longitude": -80.25347,
+        "distance": 57.0,
+        "registry_id": "321787675"
+      }
+    },
+    "moh-321787485": {
+      "hash": "6d7697f04f98d3e321a0aa136435f778db538321c7a7615fae5dbd333f4733d2",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787485",
+        "name": "Centre For Family Medicine Family Health Team",
+        "community": "Kitchener",
+        "address": "250 Laurelwood Drive",
+        "clinic_type": "FHT",
+        "latitude": 43.476721,
+        "longitude": -80.570314,
+        "distance": 69.1,
+        "registry_id": "321787485"
+      }
+    },
+    "moh-321787732": {
+      "hash": "99d77ca7ee11d912599fc992d6f47dc0c00f2a710903d3772831410fa719b526",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787732",
+        "name": "Thames Valley Family Health Team - Strathroy",
+        "community": "Strathroy",
+        "address": "351 Frances Street",
+        "clinic_type": "FHT",
+        "latitude": 42.949004,
+        "longitude": -81.612044,
+        "distance": 73.0,
+        "registry_id": "321787732"
+      }
+    },
+    "moh-321788827": {
+      "hash": "069e132f89ee675bed92dd08fad0e589c142bd8450fba185ee205f64ed6b0572",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321788827",
+        "name": "Waterloo Region Nurse Practitioner-Led Clinic (Cambridge)",
+        "community": "Cambridge",
+        "address": "13 Water Street North",
+        "clinic_type": "NP",
+        "latitude": 43.359578,
+        "longitude": -80.315079,
+        "distance": 64.1,
+        "registry_id": "321788827"
+      }
+    },
+    "moh-321787674": {
+      "hash": "6ba1737877d260dbbc151abd73a066c741909eb87e11c3a1200dcbc1eff90ca2",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787674",
+        "name": "Primacare Community Family Health Team",
+        "community": "Paris",
+        "address": "25 Curtis Street North",
+        "clinic_type": "FHT",
+        "latitude": 43.191882,
+        "longitude": -80.370815,
+        "distance": 46.2,
+        "registry_id": "321787674"
+      }
+    },
+    "moh-321787523": {
+      "hash": "3f7d414a2d99d35186315e3c72f49132c82272cd5f1e4f890e671b89f9511909",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787523",
+        "name": "East Elgin Family Health Team",
+        "community": "Aylmer",
+        "address": "424 Talbot Street West",
+        "clinic_type": "FHT",
+        "latitude": 42.771823,
+        "longitude": -80.994721,
+        "distance": 24.5,
+        "registry_id": "321787523"
+      }
+    },
+    "moh-321787301": {
+      "hash": "e45c26f721656c20c153b760d351de05c4f3f8b89eb686b081dc9ac17b818b46",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787301",
+        "name": "Grand River Community Health Centre",
+        "community": "Brantford",
+        "address": "363 Colborne Street",
+        "clinic_type": "CHC",
+        "latitude": 43.138829,
+        "longitude": -80.255729,
+        "distance": 48.7,
+        "registry_id": "321787301"
+      }
+    },
+    "moh-321788815": {
+      "hash": "384e06dd94551bd2a943035e5a03b3a5ecd8c36c161107690f83aacb406a0b4e",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321788815",
+        "name": "Ingersoll Nurse Practitioner-Led Clinic",
+        "community": "Ingersoll",
+        "address": "19 King Street East",
+        "clinic_type": "NP",
+        "latitude": 43.038109,
+        "longitude": -80.881634,
+        "distance": 23.1,
+        "registry_id": "321788815"
+      }
+    },
+    "moh-321787394": {
+      "hash": "08c979342373163ff005c782fc1fcb988959a58231a0b69401a38828c7e8781b",
+      "days": [
+        "2026-11-12"
+      ],
+      "row": {
+        "id": "moh-321787394",
+        "name": "West Elgin Community Health Centre (East Elgin Diabetes Education Program)",
+        "community": "Aylmer",
+        "address": "424 Talbot Street West Unit L9",
+        "clinic_type": "CHC",
+        "latitude": 42.772888,
+        "longitude": -80.994664,
+        "distance": 24.4,
+        "registry_id": "321787394"
+      }
+    }
+  },
+  "last_summary": {
+    "government_records_in_region": 40,
+    "published_registry_leads": 0
+  }
+}

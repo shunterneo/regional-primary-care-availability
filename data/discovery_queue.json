@@ -1,1 +1,75 @@
-{"version": 1, "items": []}
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "cdccbb906971de29",
+      "detected_at": "2026-11-12T03:43:34+00:00",
+      "title": "New Andover Medical Centre opens designed for future healthcare needs - Islington Council News",
+      "news_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWTBmQm13Mm9RbFBqWVhTNGlGUTlQRjM2aFNnVFlPcVpQQnBrcEoxeXJOMjNUZHljTVE4WkU5Mk5JTXMtVlU0TlpNMzE1Z1EweGtjYURoLWpZMHlJbGNiaENNaWdWbHptdzUwRWpNZ3cwUEc1WWdwS1NmUHU3SFVZRkszUnRRTzNFcjlIV0ZIZDh3UlhsUzdFWWt3bHlweTF0b1pIaQ?oc=5",
+      "published": "Mon, 09 Nov 2026 12:55:40 GMT",
+      "matched_query": "London Ontario family practice accepting new patients",
+      "source_type": "news_search_feed",
+      "proposed_action": "investigate clinic or intake",
+      "within_75km": "not verified",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+    },
+    {
+      "id": "c00ff506389baf8f",
+      "detected_at": "2026-11-12T03:43:34+00:00",
+      "title": "Chatham-Kent doctors, nurse practitioners accepting new patients - Chatham Daily News",
+      "news_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLW1rRzBBTnFWdzlhc29KQk04aGliQU5FSkpDRTlNNDNzcWh6Z0ZteUJReUNmYXZVNDNqYnFaQVdjOGo4VlFfRW14X3RxYVZYRl9lVUZmU21LOUp1WmRTbUlQMDRud25kUWdTZ08tXzFuT29QSm0ySWdXSmZra2hvVU1sclJnVGNUWU8wNzM1VDlEMVdsZHNIS1FLZGlkWHRmS1FN?oc=5",
+      "published": "Mon, 09 Nov 2026 15:42:52 GMT",
+      "matched_query": "Kitchener Waterloo Ontario nurse practitioner family doctor roster",
+      "source_type": "news_search_feed",
+      "proposed_action": "investigate clinic or intake",
+      "within_75km": "not verified",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+    },
+    {
+      "id": "95dc5665bb0c3b8d",
+      "detected_at": "2026-11-12T03:43:34+00:00",
+      "title": "Every New Nurse Practitioner Needs a Teacher: What the Hiring Boom Means for Clinicians Who Could Mentor - The Ritz Herald",
+      "news_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTi1BT2RNNnEtejV4dUkxTXhORkk0ZlpYSnNSMGZQZTR1ZnhMQktRYnFteGhfVzFoUTBTRHRZbzJYMENZdkFhMzBhbFFWOEU5aTFCeTlwODJ3VDItREMyNUxYNFNLLTBZZ3JMX1l4TG1zTDFSVTR3a1Q4NU5wODVuLW9wZjNNV1p3S3lEVnVtNGV3QlBRY0tFRS03eU56SGZyVkFNV0FWcS03SUM2Y1g5ODhXU21QYVBiN2x1alBfOFc5ems2Q2c?oc=5",
+      "published": "Wed, 11 Nov 2026 18:35:40 GMT",
+      "matched_query": "Kitchener Waterloo Ontario nurse practitioner family doctor roster",
+      "source_type": "news_search_feed",
+      "proposed_action": "investigate clinic or intake",
+      "within_75km": "not verified",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+    },
+    {
+      "id": "6fef75f721fc185b",
+      "detected_at": "2026-11-12T03:43:34+00:00",
+      "title": "Ramara Township celebrated the opening of a new medical clinic - CTV News",
+      "news_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ1ZhcEJPVGlWZE9IZi1QRTRldEhsVHVmV0tPRU9USkpYQVhuamZzcXlpOXZOV2FlRFYwWk5wR2Npel9pbFcwanpiV25KMllCWjVpOU9LZ0ZnRnNCdE8xLUlwWjh1QXRTOWpSdFhMUDBUdWI5SDU1S1VfZGtVOThUalhIT0ltdm5ONDh1MktWQU8tbG92X0hlWTQ1aGtiQ0poWFZ3?oc=5",
+      "published": "Fri, 06 Nov 2026 21:04:37 GMT",
+      "matched_query": "southwestern Ontario new family medicine clinic physician recruitment",
+      "source_type": "news_search_feed",
+      "proposed_action": "investigate clinic or intake",
+      "within_75km": "not verified",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+    },
+    {
+      "id": "e6f8713478814445",
+      "detected_at": "2026-11-12T03:43:34+00:00",
+      "title": "New Fort Erie family physician practice promises patient-centred care - Niagara This Week",
+      "news_link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaktxVFVlbWs0aU1RSmo3YmVPbTloY3ItbVJXNGV4QV9JQ3djWTNKbTByUkxDTzNEWGNsUmFMOFFwWmF3aUpvYXpBZ0ZjUldzOWVlX2pYdjVzY2ZJcXliMDF6VUQ5UmNyNU5ONV9XR1JJUlVsQTlhUk03QS1zZ2FnTkE3a2ZPX2hydmNsUWh1Yk9FZGIyUzJFRWxxVGlxUk5BRmtoeXpQcHF5aWxLRXdrZmg0Sm1HLURkejJJeWxfR1RhTElaejU1cnNZa05SNG9mb1R4aHFObk4xdnNqdlB4QlFnOWE?oc=5",
+      "published": "Sat, 07 Nov 2026 10:30:00 GMT",
+      "matched_query": "southwestern Ontario new family medicine clinic physician recruitment",
+      "source_type": "news_search_feed",
+      "proposed_action": "investigate clinic or intake",
+      "within_75km": "not verified",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+    }
+  ]
+}

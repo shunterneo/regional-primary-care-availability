@@ -1,6 +1,308 @@
 {
   "version": 1,
-  "sources": {},
-  "last_run": null,
-  "last_summary": {}
+  "sources": {
+    "london_association": {
+      "entries": {
+        "geraldokafor": {
+          "key": "geraldokafor",
+          "title": "Dr. Gerald Okafor",
+          "excerpt": "Dr. Gerald Okafor . Baseline Medical Clinic, 25 Baseline Rd W., London ON N6J 1V1. Visit or call 226-663-4647 to register.",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "zarmeenqamar": {
+          "key": "zarmeenqamar",
+          "title": "Dr. Zarmeen Qamar",
+          "excerpt": "Dr. Zarmeen Qamar . 460 Springbank Drive, London ON N6K 0A8. email: drqamar.oldsouth@gmail.com or visit www.oldsouthfho.ca . Join the waitlist, starting January 2027. Please include full name, best callback number, and email address.",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "jeffspenceandshizargoosheh": {
+          "key": "jeffspenceandshizargoosheh",
+          "title": "Dr. Jeff Spence and Dr. Shizar Goosheh",
+          "excerpt": "Dr. Jeff Spence and Dr. Shizar Goosheh , with experienced Nurse Practitioners. 309-460 Springbank Dr, London ON N6K 0A8. Please contact office@oldsouthfho.com or call 519-858-0013",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "rabiyaniaz": {
+          "key": "rabiyaniaz",
+          "title": "Dr. Rabiya Niaz",
+          "excerpt": "Dr. Rabiya Niaz . 358 Oxford Street East, London ON N6A 1V7. 519-438-0002‍ ‍ https://colbornemedicare.ca",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "ankitsachdeva": {
+          "key": "ankitsachdeva",
+          "title": "Dr. Ankit Sachdeva",
+          "excerpt": "Dr. Ankit Sachdeva . https://activecaremedicalcentre.com/201-clinic , 519-433-2996",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "arogundade": {
+          "key": "arogundade",
+          "title": "Dr. Arogundade",
+          "excerpt": "Dr. Arogundade , Wonderland South Medical Centre, 1051 Wonderland Rd South London, ON N6K 3X4, (519) 472 2060 To apply, visit https://www.wonderlandsouthmedicalcentre.ca",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "festusanochie": {
+          "key": "festusanochie",
+          "title": "Dr. Festus Anochie",
+          "excerpt": "Dr. Festus Anochie , 200-440 Boler Road, London Ontario N6K 4L2 Phone: 519-471-2929",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "viva": {
+          "key": "viva",
+          "title": "Viva Medical Clinic",
+          "excerpt": "Viva Medical Clinic , 149 Oxford Street East Phone (226) 667-8488 https://vivamedicalclinic.ca",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "hamilton": {
+          "key": "hamilton",
+          "title": "Hamilton Medical Clinic",
+          "excerpt": "Hamilton Medical Clinic , 204 Hamilton Road, London, ON N5Z 1R1 (905) 595-9126 https://hamiltonmedclinic.com",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "dundas": {
+          "key": "dundas",
+          "title": "Dundas Medical Clinic",
+          "excerpt": "Dundas Medical Clinic , 1560 Dundast St, Unit 5, London ON, N5W 3C1 548-866-0167 Register Here",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "serenity": {
+          "key": "serenity",
+          "title": "Serenity Medical Centre",
+          "excerpt": "Serenity Medical Centre , 272 Oxford St W, London ON N6H 1S9 548-866-0248 (inquire at pharmacy). New physician starting November 1, 2026.",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "saffron": {
+          "key": "saffron",
+          "title": "Saffron Medical Centre",
+          "excerpt": "Saffron Medical Centre , 1-11 Base Line Road East, London Ontario N6C 5Z8, 519-204-0361, https://www.saffronhealth.ca/",
+          "link": "https://www.ldam.ca/find-a-doctor",
+          "scope": "provider directory; status must be rechecked"
+        }
+      },
+      "last_attempt": "2026-11-12",
+      "last_success": "2026-11-12",
+      "last_error": null,
+      "entry_count": 12,
+      "fingerprint": "11999b76287525eb3f7e2d3f5feef4a71932668e696b12122bf4903dc1f1b3aa"
+    },
+    "brant_hospital": {
+      "entries": {
+        "claraobanor": {
+          "key": "claraobanor",
+          "title": "Dr. Clara Obanor",
+          "excerpt": "Dr. Clara Obanor",
+          "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "saminashaikh": {
+          "key": "saminashaikh",
+          "title": "Dr. Samina Shaikh",
+          "excerpt": "Dr. Samina Shaikh",
+          "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "farahmutasher": {
+          "key": "farahmutasher",
+          "title": "Dr. Farah Mutasher",
+          "excerpt": "Dr. Farah Mutasher",
+          "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "vidhidesai": {
+          "key": "vidhidesai",
+          "title": "Dr. Vidhi Desai",
+          "excerpt": "Dr. Vidhi Desai",
+          "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "tundesamuelomisore": {
+          "key": "tundesamuelomisore",
+          "title": "Dr. Tunde Samuel Omisore",
+          "excerpt": "Dr. Tunde Samuel Omisore",
+          "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+          "scope": "provider directory; status must be rechecked"
+        },
+        "kolawolegbolagade": {
+          "key": "kolawolegbolagade",
+          "title": "Dr. Kolawole Gbolagade",
+          "excerpt": "Dr. Kolawole Gbolagade",
+          "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+          "scope": "provider directory; status must be rechecked"
+        }
+      },
+      "last_attempt": "2026-11-12",
+      "last_success": "2026-11-12",
+      "last_error": null,
+      "entry_count": 6,
+      "fingerprint": "2a9d926eb119f19b9a9f347579b2828b8e3540025addafcaf65dee5762cb3483"
+    },
+    "cambridge_recruitment": {
+      "entries": {
+        "grandviewfhtwelcomestwonewphysiciansamanchumbermzhenyancaof": {
+          "key": "grandviewfhtwelcomestwonewphysiciansamanchumbermzhenyancaof",
+          "title": "Grandview Medical Centre FHT, welcomes two new physicians Dr. Aman Chumber (m) Dr. Zhen Yan Cao (f)",
+          "excerpt": "Grandview Medical Centre FHT, welcomes two new physicians Dr. Aman Chumber (m) Dr. Zhen Yan Cao (f) · 167 Hespeler Road. · Please click on this link and sign up today!! www.gmcfht.ca/wait-list/ ·",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "langscommunityforresidentsofcambridge": {
+          "key": "langscommunityforresidentsofcambridge",
+          "title": "Langs Community Health Centre (for residents of Cambridge)",
+          "excerpt": "Langs Community Health Centre (for residents of Cambridge) · 1145 Concession Road · · Please call 519-653-1470 Ext. 343 to register",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "langsnorthdumfriescommunityforresidentsofnorthdumfries": {
+          "key": "langsnorthdumfriescommunityforresidentsofnorthdumfries",
+          "title": "Langs North Dumfries Community Health Centre (for residents of North Dumfries)",
+          "excerpt": "Langs North Dumfries Community Health Centre (for residents of North Dumfries) · 2938 Greenfield Road, Ayr · · Please call 519-653-1470 Ext. 343 to register",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "hishamghali": {
+          "key": "hishamghali",
+          "title": "Dr. Hisham Ghali",
+          "excerpt": "Dr. Hisham Ghali · Shepherd Medical Centre, 512 Coronation Blvd. · · (519) 623-7878",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "sunilbhatia": {
+          "key": "sunilbhatia",
+          "title": "Dr. Sunil Bhatia",
+          "excerpt": "Dr. Sunil Bhatia · Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge · Please email [email protected] to request a Patient Registration Form ·",
+          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#affccec8c6c1ced8c2cacbc6cccec3ccc3c6c1c6ccefc8c2cec6c381ccc0c28f",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "townlinewalkin": {
+          "key": "townlinewalkin",
+          "title": "Townline Walk-in & Medical Clinic",
+          "excerpt": "Townline Walk-in & Medical Clinic · 940 Jamieson Pkwy · Register to become a patient with Dr. Mehreen Saif, Dr. Waqar Faisal who will begin their practice in Aug. 2025. www.townlineclinic.com ·",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "standrewswalkin": {
+          "key": "standrewswalkin",
+          "title": "St. Andrews Walk-in & Medical Clinic",
+          "excerpt": "St. Andrews Walk-in & Medical Clinic · 190 St. Andrews St. Unit B2 · Register to become a patient with Dr. Edward Lapido who will begin to practice in Sept. 2025. www.standrewsclinic.ca ·",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "fareshayekcoronationphysicians": {
+          "key": "fareshayekcoronationphysicians",
+          "title": "Dr. Fares Hayek Coronation Family Physicians",
+          "excerpt": "Dr. Fares Hayek Coronation Family Physicians · 182 Pinebush Road · www.coronationfamilyphysicians.ca ·",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "sherifmikhail": {
+          "key": "sherifmikhail",
+          "title": "Dr. Sherif Mikhail",
+          "excerpt": "Dr. Sherif Mikhail · 350 Conestoga Blvd. Unit B7A · · Please call to register (519) 740-1700",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "uzmasohailemeraldcaremaxwalkinand": {
+          "key": "uzmasohailemeraldcaremaxwalkinand",
+          "title": "Dr. Uzma Sohail Emerald Caremax Walk-in Clinic and Family Practice",
+          "excerpt": "Dr. Uzma Sohail Emerald Caremax Walk-in Clinic and Family Practice · 140 Hespeler Road · www. emeraldcaremax.ca/registration/ · (519) 267-5030",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "waterlooregionnursepractitionerled": {
+          "key": "waterlooregionnursepractitionerled",
+          "title": "Waterloo Region Nurse Practitioner Led Clinic",
+          "excerpt": "Waterloo Region Nurse Practitioner Led Clinic · 13 Water St. N. Cambridge 123 Pioneer Dr., Kitchener 10-10 Townsend Dr., Breslau · www. wrnplc.ca/patient-information ·",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "martinschuster": {
+          "key": "martinschuster",
+          "title": "Dr. Martin Schuster",
+          "excerpt": "Dr. Martin Schuster · 11 George St. S. Unit #1 , Cambridge · · (519) 740-6437",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "forbespark": {
+          "key": "forbespark",
+          "title": "Forbes Park Medical Centre",
+          "excerpt": "Forbes Park Medical Centre · 26 Forbes Street · · Please visit clinic to pick up application",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "isabellacallaghan": {
+          "key": "isabellacallaghan",
+          "title": "Dr. Isabella Callaghan",
+          "excerpt": "Dr. Isabella Callaghan · Two Rivers FHT – Hespeler Clinic 350 Conestoga Blvd. Unit 12 · www.tworiversfht.ca · To register please call 519-629-4615",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "walkin": {
+          "key": "walkin",
+          "title": "Walk In Clinic",
+          "excerpt": "Walk In Clinic · Address · Telephone · Hours",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "binhvan": {
+          "key": "binhvan",
+          "title": "Dr. Binh Van",
+          "excerpt": "Dr. Binh Van · 600 Hespeler Road, Unit 20B · (519) 267-0216 · Call for hours",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        },
+        "avalon": {
+          "key": "avalon",
+          "title": "Avalon Medical Clinic",
+          "excerpt": "Avalon Medical Clinic · 85 Dundas Street · (519) 624-8716 · Mon. to Fri. 10 a.m. to 4 p.m. Sat. 10 a.m. to 3 p.m.",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
+          "scope": "directory entry; verify original clinic intake"
+        }
+      },
+      "last_attempt": "2026-11-12",
+      "last_success": "2026-11-12",
+      "last_error": null,
+      "entry_count": 17,
+      "fingerprint": "fdbab6ccd34285e85b8681f430f973ae3f34981a19d2b66e1e22ac944c17cf29"
+    },
+    "sw_healthline": {
+      "last_attempt": "2026-11-12",
+      "last_error": "unavailable; preserved previous results"
+    },
+    "woodstock_news": {
+      "last_attempt": "2026-11-12",
+      "last_error": "no extractable entries; preserved previous results"
+    },
+    "oxford_oht": {
+      "last_attempt": "2026-11-12",
+      "last_error": "unavailable; preserved previous results"
+    }
+  },
+  "last_run": "2026-11-12",
+  "last_summary": {
+    "sources": 6,
+    "success": 3,
+    "failed": 3,
+    "baselines": 3,
+    "new_directory_leads": 13,
+    "listing_removals_to_review": 0,
+    "errors": [
+      {
+        "source": "sw_healthline",
+        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&regio"
+      },
+      {
+        "source": "oxford_oht",
+        "error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor"
+      }
+    ]
+  }
 }
