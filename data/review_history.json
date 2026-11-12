@@ -730,5 +730,45 @@
     "type": "conflicting_first_party_intake_evidence",
     "source": "https://londonfht.ca/our-locations/",
     "reviewer_note": "Official locations page contradicts August intake announcement; disabled automatic status promotion until resolved."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c078",
+    "clinic_name": "Talbot Family Health",
+    "old_status": "unknown",
+    "new_status": "not_accepting",
+    "type": "explicit_clinic_intake_notice",
+    "source": "https://talbothealth.ca/",
+    "reviewer_note": "Clinic-owned website explicitly says it is not accepting new patients; office still operates."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c010",
+    "clinic_name": "TMC+ — St. Thomas",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "type": "verified_public_contact",
+    "source": "https://thompsonmedical.ca/contact/",
+    "reviewer_note": "Clinic/team-owned contact information independently verified, without inferring physician availability."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c021",
+    "clinic_name": "Coronation Family Physicians — Dr. Fares Hayek",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "type": "verified_public_contact",
+    "source": "https://www.coronationfamilyphysicians.ca/",
+    "reviewer_note": "Clinic/team-owned contact information independently verified, without inferring physician availability."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c065",
+    "clinic_name": "London FHT — Medway",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "verified_public_contact",
+    "source": "https://londonfht.ca/our-locations/",
+    "reviewer_note": "Clinic/team-owned contact information independently verified, without inferring physician availability."
   }
 ]
