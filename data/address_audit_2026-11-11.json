@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-11",
+  "reviewed_unverified_address_records": 29,
+  "publicly_source_verified": 26,
+  "unresolved": [
+    "c012",
+    "c029",
+    "c047"
+  ],
+  "split_practices": [
+    "c095",
+    "c097"
+  ],
+  "notes": "Address verification confirms public office information, not intake, geocoded pins, or phone contact with staff."
+}

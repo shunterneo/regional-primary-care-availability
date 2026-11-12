@@ -448,9 +448,9 @@
       "clinic_url": "https://oxfordiamedical.com/",
       "source_published": "2026-10-01",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address retained from earlier research; primary source not reverified during this audit. Map marker at community centre.",
+      "location_quality": "Address requires direct clinic confirmation; map uses town-level marker",
       "community_distance_km": 30.2,
-      "notes": "",
+      "notes": "Municipal announcement confirms Dr Aman has established Oxfordia clinic, but the original clinic website was inaccessible for a clinic-owned suite-level address check. Secondary sources indicate 600 Princess St Suite 300. Keep address source unverified pending clinic confirmation.",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
@@ -467,7 +467,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": false,
+      "address_verification_source": "",
+      "address_verified_on": "",
+      "address_verification_scope": "Unresolved source discrepancy"
     },
     {
       "id": "c013",
@@ -598,7 +601,7 @@
       "clinic_url": "https://www.avenuemedical.ca",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 48.1,
       "notes": "",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
@@ -618,7 +621,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Brant Community Healthcare System physician listing confirms the clinic street and office telephone."
     },
     {
       "id": "c017",
@@ -1092,9 +1098,9 @@
       "clinic_url": "https://colbornemedicare.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Address requires direct clinic confirmation; map uses town-level marker",
       "community_distance_km": 44.6,
-      "notes": "",
+      "notes": "London medical association lists Dr Rabiya Niaz at 358 Oxford St E, but CPSO register lists primary business location at 510 Southdale Rd E. Do not treat provider-specific office address as independently reconciled.",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
@@ -1111,7 +1117,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": false,
+      "address_verification_source": "",
+      "address_verified_on": "",
+      "address_verification_scope": "Unresolved source discrepancy"
     },
     {
       "id": "c030",
@@ -1165,7 +1174,7 @@
       "clinic_url": "https://www.ldam.ca/find-a-doctor",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1184,7 +1193,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.ldam.ca/find-a-doctor",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "London & District Academy of Medicine current accepting-doctor directory lists 1560 Dundas Street, Unit 5, telephone 548-866-0167; clinic-owned address not separately confirmed."
     },
     {
       "id": "c032",
@@ -1200,7 +1212,7 @@
       "clinic_url": "https://hamiltonmedclinic.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
@@ -1220,7 +1232,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://hamiltonmedclinic.com/contact-us/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Clinic-owned contact page explicitly shows 204 Hamilton Road and office telephone."
     },
     {
       "id": "c033",
@@ -1275,7 +1290,7 @@
       "clinic_url": "https://www.saffronhealth.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
@@ -1295,7 +1310,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.saffronhealth.ca/contact/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Clinic-owned contact page explicitly shows 11 Base Line Road East, Unit 1, and office telephone."
     },
     {
       "id": "c035",
@@ -1540,7 +1558,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "Health & Homelessness primary-care program with eligibility restrictions. No universal intake confirmation.",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
@@ -1560,7 +1578,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Thames Valley FHT official sites page lists 602 Queens Avenue; no clinic-specific telephone published."
     },
     {
       "id": "c042",
@@ -1767,9 +1788,9 @@
       "clinic_url": "https://www.ldam.ca/find-a-doctor",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Address requires direct clinic confirmation; map uses town-level marker",
       "community_distance_km": 44.6,
-      "notes": "",
+      "notes": "London medical association names a future Old South FHO waitlist at 460 Springbank Drive for Dr Zarmeen Qamar, whereas CPSO lists 800 Commissioners Rd E as her current primary business location. Intake starts Jan 2027 per directory. Do not treat November 2026 Old South practice address as independently confirmed.",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
@@ -1787,7 +1808,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": false,
+      "address_verification_source": "",
+      "address_verified_on": "",
+      "address_verification_scope": "Unresolved source discrepancy"
     },
     {
       "id": "c048",
@@ -1839,7 +1863,7 @@
       "clinic_url": "https://primemedical.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1856,7 +1880,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://primemedical.ca/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Dr. Ferlisi official family-practice website confirms 527 Adelaide Street and office telephone."
     },
     {
       "id": "c050",
@@ -1944,7 +1971,7 @@
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=75971",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 23.1,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1961,7 +1988,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=75971",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "CPSO register independently confirms Dr. Vivoda's primary business address and telephone."
     },
     {
       "id": "c053",
@@ -1977,7 +2007,7 @@
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=116967",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 23.1,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1994,7 +2024,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=116967",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "CPSO register independently confirms Dr. Rioux's unit number, primary business address and telephone."
     },
     {
       "id": "c054",
@@ -2043,16 +2076,16 @@
       "phone": "226-533-1111",
       "providers": "",
       "evidence_url": "",
-      "clinic_url": "https://www.doctors4cambridge.com/",
+      "clinic_url": "https://cambridgegatewaymedical.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "both",
       "care_model_basis": "Official clinic: family medicine and walk-in care both advertised.",
-      "care_model_source": "https://cambridgegatewaymedical.com/walk-in-practice/",
+      "care_model_source": "https://cambridgegatewaymedical.com/",
       "intake_verification": {
         "tier": "unverified",
         "scope": "unknown",
@@ -2063,7 +2096,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://cambridgegatewaymedical.com/contact-us/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Clinic-owned contact page confirms Unit 102, 460 Hespeler Road and telephone; intake has NOT been independently verified by telephone."
     },
     {
       "id": "c056",
@@ -2076,10 +2112,10 @@
       "phone": "519-267-0500",
       "providers": "",
       "evidence_url": "",
-      "clinic_url": "https://www.doctors4cambridge.com/contact.htm",
+      "clinic_url": "https://hopetonmedical.com/contact",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2096,7 +2132,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://hopetonmedical.com/contact",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Clinic-owned contact page confirms 50 Hopeton Street and telephone; CPSO corroborates public physician office."
     },
     {
       "id": "c057",
@@ -2112,7 +2151,7 @@
       "clinic_url": "https://www.doctors4cambridge.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2129,7 +2168,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=91809",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "CPSO register for Dr. Gurmeet Sidhu confirms 1718 King Street East and 519-219-8999; intake not verified."
     },
     {
       "id": "c058",
@@ -2145,7 +2187,7 @@
       "clinic_url": "https://dchc.ca/in-our-centre/",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 18.3,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2162,7 +2204,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://dchc.ca/contact/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Delhi Community Health Centre own contact page confirms 105 Main Street and Big Creek practice telephone option."
     },
     {
       "id": "c059",
@@ -2214,7 +2259,7 @@
       "clinic_url": "https://alexfp.ca/",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 23,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2231,7 +2276,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://alexfp.ca/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Alexandra Family Physicians own site confirms 2nd floor, Alexandra Hospital, 29 Noxon Street, and 519-425-9000."
     },
     {
       "id": "c061",
@@ -2244,10 +2292,10 @@
       "phone": "519-578-2100",
       "providers": "",
       "evidence_url": "",
-      "clinic_url": "https://www.kw4oht.com/members",
+      "clinic_url": "https://family-medicine.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 67.8,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2264,7 +2312,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.kw4oht.com/members",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "KW4 Ontario Health Team lists the Centre for Family Medicine at 25 Joseph Street and 519-578-2100; supported by Centre for Family Medicine publications."
     },
     {
       "id": "c062",
@@ -2351,10 +2402,10 @@
       "phone": "226-777-1988",
       "providers": "",
       "evidence_url": "",
-      "clinic_url": "https://www.southwesthealthline.ca/",
+      "clinic_url": "https://healthzonenplc.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2371,7 +2422,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://healthzonenplc.com/contact",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Health Zone NPLC own contact page confirms 230 Victoria Street, Suite 230, and 226-777-1988."
     },
     {
       "id": "c065",
@@ -2680,7 +2734,7 @@
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 17.1,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2697,7 +2751,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "CPSO register confirms Dr. Michael Hofer's primary business address at 11 Stover Street North."
     },
     {
       "id": "c074",
@@ -2705,32 +2762,37 @@
       "community": "Norwich",
       "address": "32 South Court Street East",
       "clinic_type": "MD",
-      "status": "unknown",
-      "intake_detail": "Township of Norwich identifies four family physicians. Other onsite disciplines not counted as family doctors.",
+      "status": "waitlist",
+      "intake_detail": "Township of Norwich maintains an open family-physician patient waitlist; Norwich Township residents receive priority when a practice takes patients. This is not a current physician roster opening.",
       "phone": "519-863-2338",
       "providers": "Lisa Wendling; Jennifer Jeffries; Karaminder Gajebasia; Christina Mokone",
-      "evidence_url": "",
+      "evidence_url": "https://www.norwich.ca/our-community/medical-centre",
       "clinic_url": "https://www.norwich.ca/our-community/medical-centre",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 17.1,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "Township of Norwich's official current medical-centre website reviewed independently for a patient waitlist, not immediate physician attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.norwich.ca/our-community/medical-centre",
       "intake_verification": {
-        "tier": "unverified",
-        "scope": "unknown",
-        "reviewed_on": null,
-        "method": "none",
-        "source_url": "",
-        "finding": "No individually audited current intake statement; status is a research lead."
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.norwich.ca/our-community/medical-centre",
+        "finding": "The Township of Norwich says its physician patient waitlist is open to all interested individuals; township residents receive priority. No immediate patient attachment promised.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.norwich.ca/our-community/medical-centre",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Township of Norwich confirms 32 South Court Street East and 519-863-2338, including an open patient waitlist."
     },
     {
       "id": "c075",
@@ -2746,7 +2808,7 @@
       "clinic_url": "https://norfolkfht.ca/port-rowan-medical-clinic/",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 34.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2763,7 +2825,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://norfolkfht.ca/port-rowan-medical-clinic/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Norfolk FHT clinic-specific page confirms 1009 Bay Street, Port Rowan."
     },
     {
       "id": "c076",
@@ -2779,7 +2844,7 @@
       "clinic_url": "https://norfolkfht.ca/contact/",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 33.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -2796,7 +2861,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://norfolkfht.ca/contact/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Norfolk Family Health Team own contact page confirms Simcoe Suite 101 at 185 Robinson Street and phone."
     },
     {
       "id": "c077",
@@ -3064,10 +3132,10 @@
       "phone": "519-271-7172",
       "providers": "",
       "evidence_url": "",
-      "clinic_url": "https://www.stratfordfht.ca/",
+      "clinic_url": "https://sfht.on.ca/contact-us/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 59.9,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -3084,7 +3152,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://sfht.on.ca/contact-us/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Stratford FHT clinic-owned contact page confirms second floor at 444 Douro Street and telephone."
     },
     {
       "id": "c085",
@@ -3244,7 +3315,7 @@
       "clinic_url": "https://southwesthealthline.ca/displayService.aspx?id=187735",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -3261,7 +3332,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.tillsonburg.ca/living-here/work-in-tillsonburg/healthcare-careers/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Town of Tillsonburg healthcare directory confirms 594 Broadway Unit 4 and 519-842-3636."
     },
     {
       "id": "c090",
@@ -3274,10 +3348,10 @@
       "phone": "519-842-4231",
       "providers": "Bikash Chowdhury; L Dalby; D Dockx; T Hainer; T Lamb; B Roth; Jasdeep Sohal; Diane Zawarynski; Kevin Dueck",
       "evidence_url": "",
-      "clinic_url": "https://southwesthealthline.ca/displayService.aspx?id=177439",
+      "clinic_url": "https://tillsonburgmedicalcentre.ca/",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -3294,7 +3368,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://tillsonburgmedicalcentre.ca/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Tillsonburg Medical Centre's official page confirms 200 Broadway and 519-842-4231."
     },
     {
       "id": "c091",
@@ -3310,7 +3387,7 @@
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=83281",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -3327,7 +3404,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=83281",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "CPSO register confirms Dr. Ruth Caperchione's primary business office at 81 Fox Alley."
     },
     {
       "id": "c092",
@@ -3343,7 +3423,7 @@
       "clinic_url": "https://wfhc.ca/medical/",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 35.9,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -3360,7 +3440,10 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://wfhc.ca/medical/",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Waterford Family Health Center's official medical page confirms 23 Main Street South, telephone and clinicians."
     },
     {
       "id": "c093",
@@ -3413,7 +3496,7 @@
       "clinic_url": "https://www.daviesfamilymed.com/general-8",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -3430,26 +3513,29 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.daviesfamilymed.com/contact-us",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "Dr. Sarah Davies' own office contact page confirms 645 Finkle Street Suite 1200 and telephone."
     },
     {
       "id": "c095",
-      "name": "Princess Street family medicine offices",
+      "name": "Dr. Jennifer Bonnett — Family Medicine",
       "community": "Woodstock",
-      "address": "600 Princess Street",
+      "address": "600 Princess Street, Suite 203",
       "clinic_type": "MD",
       "status": "unknown",
-      "intake_detail": "Shared medical building with distinct practices and telephone numbers. Dr Bonnett 519-421-7252; Dr Tamachi 519-602-4111. Other family physicians at building may not yet be identified.",
+      "intake_detail": "Independent family-practice office in Suite 203; ongoing new-patient intake not confirmed. 519-421-7252 is this office's phone, not a shared building number.",
       "phone": "519-421-7252",
-      "providers": "Jennifer Bonnett (Suite 203); Shameena Tamachi (Suite 201A)",
+      "providers": "Dr. Jennifer Bonnett",
       "evidence_url": "",
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=69085",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
       "community_distance_km": 30.2,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "CPSO record confirms Dr. Bonnett's individual office, separate from Dr. Shameena Tamachi in Suite 201A. Intake not confirmed.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=69085",
@@ -3463,7 +3549,46 @@
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
-      "clinic_address_verified": false
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=69085",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "CPSO confirms Dr. Jennifer Bonnett's Suite 203 at 600 Princess Street with telephone 519-421-7252."
+    },
+    {
+      "id": "c097",
+      "name": "Dr. Shameena Tamachi — Family Medicine",
+      "community": "Woodstock",
+      "address": "600 Princess Street, Suite 201A",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "intake_detail": "Independent family physician office in Suite 201A; new-patient intake not confirmed. Separate contact details from other Princess Street practices.",
+      "phone": "519-602-4111",
+      "providers": "Dr. Shameena Tamachi",
+      "evidence_url": "",
+      "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=115111",
+      "source_published": "2026-11-06",
+      "last_reviewed": "2026-11-11",
+      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "community_distance_km": 30.2,
+      "notes": "",
+      "review_basis": "CPSO physician register independently confirms a different office and phone from Bonnett. Do not infer accepting patients.",
+      "care_model": "ongoing",
+      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=115111",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unknown",
+        "reviewed_on": null,
+        "method": "none",
+        "source_url": "",
+        "finding": "No individually verified new-patient intake statement."
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=115111",
+      "address_verified_on": "2026-11-11",
+      "address_verification_scope": "CPSO confirms Dr. Tamachi's individual Suite 201A and 519-602-4111; not shared with Bonnett Suite 203."
     },
     {
       "id": "c096",

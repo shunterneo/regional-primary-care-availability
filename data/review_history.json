@@ -770,5 +770,35 @@
     "type": "verified_public_contact",
     "source": "https://londonfht.ca/our-locations/",
     "reviewer_note": "Clinic/team-owned contact information independently verified, without inferring physician availability."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c095",
+    "clinic_name": "Dr. Jennifer Bonnett — Family Medicine",
+    "old_status": "combined two physician offices in one record",
+    "new_status": "separate individual practice record",
+    "type": "address_contact_correction",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=69085",
+    "reviewer_note": "Corrected suite and phone attribution; separate doctor offices must not share contact information."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c097",
+    "clinic_name": "Dr. Shameena Tamachi — Family Medicine",
+    "old_status": "not independently represented",
+    "new_status": "listed individually, intake unknown",
+    "type": "provider_discovery",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=115111",
+    "reviewer_note": "CPSO confirms separate suite 201A and telephone; no patient intake assumed."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c074",
+    "clinic_name": "Dr. Russell M. Hall Family Health Centre",
+    "old_status": "unknown",
+    "new_status": "waitlist",
+    "type": "public_source_review",
+    "source": "https://www.norwich.ca/our-community/medical-centre",
+    "reviewer_note": "Norwich Township official site advertises patient waitlist, not immediate attachment."
   }
 ]
