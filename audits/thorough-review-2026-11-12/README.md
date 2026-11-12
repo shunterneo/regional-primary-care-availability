@@ -36,3 +36,7 @@ No calls, emails, patient submissions or guarantees of enrolment were made.
 ## Expanded individual-profile review
 
 The later detailed review is documented in [expanded-review.md](expanded-review.md). Current inventory: **203 records**. This supersedes the earlier 167-record count, not the historical findings. The 342-profile screening is broader than the earlier 287-name candidate file, but neither is a complete CPSO/CNO census.
+
+## Latest live-source follow-up
+
+See [live-review.md](live-review.md) for the 204-record follow-up, corrected live-register identities, newly confirmed Griffin waitlist, and explicit remaining census limitations. Earlier totals in this folder describe their respective audit snapshots.

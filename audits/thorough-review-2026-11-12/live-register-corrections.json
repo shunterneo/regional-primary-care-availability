@@ -1,0 +1,107 @@
+{
+  "reviewed_on": "2026-11-12",
+  "method": "Visible live CPSO pages and clinic website, compared against older indexed results. No patient submissions or telephone contact.",
+  "corrections": [
+    {
+      "id": "c159",
+      "name": "Old South FHO — Dr. Jonathon Griffin",
+      "address": "460 Springbank Drive, Suite 302",
+      "phone": "519-681-8860",
+      "status": "waitlist",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Clinic website read through both web retrieval and live browser November 12, 2026; current visible waitlist invitation supersedes older indexed closure wording.",
+        "sources": [
+          "https://www.drjonathongriffin.ca/"
+        ]
+      }
+    },
+    {
+      "id": "c187",
+      "name": "St. Thomas Family Care Centre — Dr. Rick Goodhew",
+      "address": "1063 Talbot Street, Unit 50",
+      "phone": "519-631-8460",
+      "status": "unknown",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Earlier version named Dr. Vaughan and used 519-637-2424 based on an older indexed register record. Live CPSO now places Vaughan at PeopleCare Tillsonburg, not this office. Goodhew’s live register record independently confirms this St. Thomas office and his separate telephone. No clinic-specific current intake notice established.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=66522",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=59950"
+        ]
+      }
+    },
+    {
+      "id": "c204",
+      "name": "Family Plus Medical Center — Dr. Ikechukwu Walter Ibeme",
+      "address": "107 Edward Street, Unit 103",
+      "phone": "226-289-1430",
+      "status": "unknown",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Live CPSO practice address now matches the university Family Plus listing. Older indexed CPSO text showing 19 Elgin Street is superseded for this physician. Family-practice office and public telephone confirmed in the live physician register. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
+          "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg"
+        ]
+      }
+    },
+    {
+      "id": "c090",
+      "name": "Tillsonburg Medical Centre",
+      "address": "200 Broadway Street",
+      "phone": "519-842-4231",
+      "status": "unknown",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Clinic-owned website now loads and confirms 200 Broadway Street and 519-842-4231. It says the full website is under development and directs callers to the office; it does not state current new-patient intake.",
+        "sources": [
+          "https://tillsonburgmedicalcentre.ca/"
+        ]
+      }
+    },
+    {
+      "id": "c098",
+      "name": "Dr. Martin Schuster — Family Practice",
+      "address": "11 George Street South, Unit 1",
+      "phone": "519-740-6437",
+      "status": "reported",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official home and contact pages recovered through indexed search; no intake claim. Clinic says Unit 1; CPSO primary address says Unit 2. Street/building match, suite remains disputed. Live CPSO checked November 12: the suite discrepancy remains; it was not merely stale search-index text.",
+        "sources": [
+          "https://www.drmartinschuster.com/",
+          "https://www.drmartinschuster.com/contact",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=62520"
+        ]
+      }
+    },
+    {
+      "id": "c154",
+      "name": "Old South FHO — Dr. Parvin Akter",
+      "address": "460 Springbank Drive, Suite 203B",
+      "phone": "519-657-0550",
+      "status": "unknown",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Suite discrepancy: FHT lists 203B, CPSO primary business location lists 206A; confirm before visiting. Live CPSO checked November 12: the suite discrepancy remains; it was not merely stale search-index text.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=98516"
+        ]
+      }
+    }
+  ],
+  "excluded_historical": [
+    {
+      "name": "Crystal Ann Marko",
+      "cpso": "98329",
+      "resigned_on": "2018-06-01"
+    },
+    {
+      "name": "Leslie Ruth Damude",
+      "cpso": "33503",
+      "resigned_on": "2020-09-03"
+    }
+  ]
+}

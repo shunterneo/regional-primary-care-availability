@@ -242,7 +242,9 @@
           "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
           "https://londonfht.ca/frequently-asked-questions/"
         ]
-      }
+      },
+      "uncertainty_reason": "conflicting_statements",
+      "uncertainty_label": "Conflicting intake statements"
     },
     {
       "id": "c006",
@@ -439,7 +441,9 @@
         "reviewed_on": "2026-11-12",
         "field": "phone",
         "finding": "Registration is explicitly online-only; no dedicated intake phone published. A building tenant’s number is not a building-wide registration number."
-      }
+      },
+      "uncertainty_reason": "scope_unclear",
+      "uncertainty_label": "Application or program scope unclear"
     },
     {
       "id": "c010",
@@ -2331,7 +2335,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c052",
@@ -2381,7 +2387,9 @@
         "sources": [
           "https://register.cpso.on.ca/physician-info/?cpsonum=75971"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c053",
@@ -2426,7 +2434,9 @@
         "sources": [
           "https://pub-elgincounty.escribemeetings.com/filestream.ashx?DocumentId=165"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c054",
@@ -2477,7 +2487,9 @@
           "https://www.eefht.ca/",
           "https://www.stegh.on.ca/hospital-services/emergency-department/alternate-options-for-care/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c055",
@@ -2623,7 +2635,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=91809",
           "https://kingstmedicalcenter.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c058",
@@ -2673,7 +2687,9 @@
         "sources": [
           "https://dchc.ca/public-walk-in-clinic/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c059",
@@ -2719,7 +2735,9 @@
           "https://mcfmc.ca/",
           "https://www.southwesthealthline.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c060",
@@ -2770,7 +2788,9 @@
           "https://alexfp.ca/",
           "https://www.alexandramedicalcentre.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c061",
@@ -2911,7 +2931,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/forest-city-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c064",
@@ -3042,7 +3064,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c067",
@@ -3137,7 +3161,9 @@
           "https://www.sjhc.london.on.ca/family-medicine",
           "https://www.sjhc.london.on.ca/areas-of-care/family-medical-and-dental-centre"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c069",
@@ -3190,7 +3216,9 @@
           "https://www.sjhc.london.on.ca/family-medicine",
           "https://www.sjhc.london.on.ca/areas-of-care/family-medical-and-dental-centre"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c070",
@@ -3363,7 +3391,9 @@
         "sources": [
           "https://register.cpso.on.ca/physician-info/?cpsonum=86657"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c074",
@@ -3455,7 +3485,9 @@
         "sources": [
           "https://www.norfolkfht.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c076",
@@ -3505,7 +3537,9 @@
         "sources": [
           "https://www.norfolkfht.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c077",
@@ -3550,7 +3584,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c078",
@@ -3640,7 +3676,9 @@
           "https://thamesvalleyfht.ca/annual-report-2025/our-partners-2025/elgin-community-health-hub/",
           "https://thamesvalleyfht.ca/elgin-ipct/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c080",
@@ -3685,7 +3723,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c081",
@@ -3733,7 +3773,9 @@
           "https://www.eefht.ca/",
           "https://www.stegh.on.ca/hospital-services/emergency-department/alternate-options-for-care/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c082",
@@ -3783,7 +3825,9 @@
           "https://starfht.ca/",
           "https://starfht.ca/onlinebooking/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c083",
@@ -3833,7 +3877,9 @@
           "https://starfht.ca/",
           "https://starfht.ca/onlinebooking/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c084",
@@ -3879,7 +3925,9 @@
           "https://sfht.on.ca/contact-us/",
           "https://211ontario.ca/service/71108681/stratford-family-health-team-stratford-family-health-team/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c085",
@@ -3929,7 +3977,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c086",
@@ -3978,7 +4028,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c087",
@@ -4023,7 +4075,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c088",
@@ -4073,7 +4127,9 @@
           "https://starfht.ca/",
           "https://starfht.ca/onlinebooking/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c089",
@@ -4120,7 +4176,9 @@
           "https://www.tillsonburgmedicalcentre.com/",
           "https://www.tillsonburg.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "source_inaccessible",
+      "uncertainty_label": "Intake source could not be inspected"
     },
     {
       "id": "c090",
@@ -4135,7 +4193,7 @@
       "evidence_url": "https://tillsonburgmedicalcentre.ca/",
       "clinic_url": "https://tillsonburgmedicalcentre.ca/",
       "source_published": "2026-11-06",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-12",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 0,
       "notes": "",
@@ -4157,7 +4215,7 @@
       "intake_reviewed_by_phone": false,
       "clinic_address_verified": true,
       "address_verification_source": "https://tillsonburgmedicalcentre.ca/",
-      "address_verified_on": "2026-11-11",
+      "address_verified_on": "2026-11-12",
       "address_verification_scope": "Tillsonburg Medical Centre's official page confirms 200 Broadway and 519-842-4231.",
       "latitude": 42.8631085,
       "longitude": -80.730127,
@@ -4166,13 +4224,13 @@
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
         "reviewed_on": "2026-11-12",
-        "finding": "Named-site lookup and municipal practice directory identify the office. Clinic website could not be retrieved in this pass; current new-patient intake remains unconfirmed. This is an access limitation, not evidence of closure.",
+        "finding": "Clinic-owned website now loads and confirms 200 Broadway Street and 519-842-4231. It says the full website is under development and directs callers to the office; it does not state current new-patient intake.",
         "sources": [
-          "https://www.tillsonburgfamilyphysicians.com/",
-          "https://www.tillsonburgmedicalcentre.com/",
-          "https://www.tillsonburg.ca/"
+          "https://tillsonburgmedicalcentre.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c091",
@@ -4217,7 +4275,9 @@
         "sources": [
           "https://register.cpso.on.ca/physician-info/?cpsonum=83281"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c092",
@@ -4402,7 +4462,9 @@
           "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
           "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c097",
@@ -4453,7 +4515,9 @@
           "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
           "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c096",
@@ -4504,7 +4568,9 @@
           "https://lihc.on.ca/programs-services/primary-care/",
           "https://lihc.on.ca/programs-services/systems-navigation-intake-coordination/"
         ]
-      }
+      },
+      "uncertainty_reason": "scope_unclear",
+      "uncertainty_label": "Application or program scope unclear"
     },
     {
       "id": "c098",
@@ -4551,7 +4617,7 @@
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
         "reviewed_on": "2026-11-12",
-        "finding": "Official home and contact pages recovered through indexed search; no intake claim. Clinic says Unit 1; CPSO primary address says Unit 2. Street/building match, suite remains disputed.",
+        "finding": "Official home and contact pages recovered through indexed search; no intake claim. Clinic says Unit 1; CPSO primary address says Unit 2. Street/building match, suite remains disputed. Live CPSO checked November 12: the suite discrepancy remains; it was not merely stale search-index text.",
         "sources": [
           "https://www.drmartinschuster.com/",
           "https://www.drmartinschuster.com/contact",
@@ -4907,7 +4973,9 @@
           "https://www.pccfht.ca/contacts/",
           "https://www.pccfht.ca/primacare-health-team/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c107",
@@ -4959,7 +5027,9 @@
           "https://www.pccfht.ca/contacts/",
           "https://www.pccfht.ca/primacare-health-team/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c108",
@@ -5276,7 +5346,9 @@
         "sources": [
           "https://haldimandfht.ca/affiliated-physicians/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c115",
@@ -5327,7 +5399,9 @@
         "sources": [
           "https://haldimandfht.ca/affiliated-physicians/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c116",
@@ -5373,7 +5447,9 @@
         "sources": [
           "https://haldimandfht.ca/affiliated-physicians/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c117",
@@ -5426,7 +5502,9 @@
           "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
           "https://www.soahac.on.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "scope_unclear",
+      "uncertainty_label": "Application or program scope unclear"
     },
     {
       "id": "c118",
@@ -5474,7 +5552,9 @@
           "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
           "https://www.soahac.on.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "scope_unclear",
+      "uncertainty_label": "Application or program scope unclear"
     },
     {
       "id": "c119",
@@ -5657,7 +5737,9 @@
         "sources": [
           "https://www.nvfp.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c123",
@@ -5802,7 +5884,9 @@
         "sources": [
           "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c126",
@@ -5852,7 +5936,9 @@
         "sources": [
           "https://dovershoresfamilypractice.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c127",
@@ -5898,7 +5984,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
           "https://register.cpso.on.ca/physician-info/?cpsonum=103833"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c128",
@@ -5944,7 +6032,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
           "https://register.cpso.on.ca/physician-info/?cpsonum=103833"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c129",
@@ -5994,7 +6084,9 @@
         "sources": [
           "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c130",
@@ -6045,7 +6137,9 @@
           "https://www.thamesriverfho.ca/doctors",
           "https://www.thamesriverfho.ca/faq"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c131",
@@ -6091,7 +6185,9 @@
           "https://www.thamesriverfho.ca/doctors",
           "https://www.thamesriverfho.ca/faq"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c132",
@@ -6141,7 +6237,9 @@
         "sources": [
           "https://synergycentre.ca/services/family-medicine"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c133",
@@ -6196,7 +6294,9 @@
         "reviewed_on": "2026-11-12",
         "field": "phone",
         "finding": "Host identifies independent family medical services. Commercial directories report 519-449-2468, but a clinic-owned/register confirmation was not established; the rehabilitation reception number is not substituted."
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c134",
@@ -6243,7 +6343,9 @@
           "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
           "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c135",
@@ -6290,7 +6392,9 @@
           "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
           "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c136",
@@ -6337,7 +6441,9 @@
           "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
           "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c137",
@@ -6384,7 +6490,9 @@
           "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
           "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c138",
@@ -6430,7 +6538,9 @@
         "sources": [
           "https://www.health-local.com/biz/walk-in-clinic/woodstock/ontario/mckinney-walk-in-clinic/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c139",
@@ -6477,7 +6587,9 @@
           "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
           "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c140",
@@ -6523,7 +6635,9 @@
         "sources": [
           "https://drdinaalkhatib.com/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c141",
@@ -6569,7 +6683,9 @@
         "sources": [
           "https://register.cpso.on.ca/physician-info/?cpsonum=96373"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c142",
@@ -6616,7 +6732,9 @@
           "https://www.thamesriverfho.ca/doctors",
           "https://www.thamesriverfho.ca/faq"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c143",
@@ -6662,7 +6780,9 @@
         "sources": [
           "https://wellclinics.ca/ontario/london/london-whmc/"
         ]
-      }
+      },
+      "uncertainty_reason": "scope_unclear",
+      "uncertainty_label": "Application or program scope unclear"
     },
     {
       "id": "c144",
@@ -6709,7 +6829,9 @@
           "https://www.thamesriverfho.ca/doctors",
           "https://www.thamesriverfho.ca/faq"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c145",
@@ -6795,7 +6917,9 @@
           "https://www.southwestfho.com/",
           "https://www.southwestfho.com/about"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c147",
@@ -6842,7 +6966,9 @@
           "https://southwesthealthline.ca/displayService.aspx?id=132247",
           "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c148",
@@ -6888,7 +7014,9 @@
         "sources": [
           "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c149",
@@ -6934,7 +7062,9 @@
         "sources": [
           "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c150",
@@ -6980,7 +7110,9 @@
         "sources": [
           "https://www.komokamedicalclinic.com/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c151",
@@ -7028,7 +7160,9 @@
           "https://www.facebook.com/1631372993793597/",
           "https://register.cpso.on.ca/physician-info/?cpsonum=109391"
         ]
-      }
+      },
+      "uncertainty_reason": "source_inaccessible",
+      "uncertainty_label": "Intake source could not be inspected"
     },
     {
       "id": "c152",
@@ -7077,7 +7211,9 @@
         "sources": [
           "https://www.alexandramedicalcentre.ca/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c153",
@@ -7126,7 +7262,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c154",
@@ -7171,12 +7309,14 @@
       "community_distance_km": 44.6,
       "online_review": {
         "reviewed_on": "2026-11-12",
-        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Suite discrepancy: FHT lists 203B, CPSO primary business location lists 206A; confirm before visiting.",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Suite discrepancy: FHT lists 203B, CPSO primary business location lists 206A; confirm before visiting. Live CPSO checked November 12: the suite discrepancy remains; it was not merely stale search-index text.",
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
           "https://register.cpso.on.ca/physician-info/?cpsonum=98516"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c155",
@@ -7225,7 +7365,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c156",
@@ -7274,7 +7416,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c157",
@@ -7323,7 +7467,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c158",
@@ -7372,7 +7518,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c159",
@@ -7382,15 +7530,15 @@
       "phone": "519-681-8860",
       "providers": "Dr. Jonathon Griffin",
       "clinic_type": "MD",
-      "status": "unknown",
+      "status": "waitlist",
       "care_model": "ongoing",
-      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Search index contains a no-new-patients/full-waitlist statement, but it was absent from the retrieved page. Current closure not independently resolved.",
+      "intake_detail": "Dr. Jonathon Griffin’s current clinic website invites patients to join his waitlist. Contact the office at 519-681-8860 to request a place. A waitlist place does not guarantee enrolment or a start date.",
       "clinic_url": "https://www.drjonathongriffin.ca/",
-      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://www.drjonathongriffin.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-12",
       "notes": "",
-      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "review_basis": "Clinic website read through both web retrieval and live browser November 12, 2026; current visible waitlist invitation supersedes older indexed closure wording.",
       "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
       "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
       "clinic_address_verified": true,
@@ -7400,12 +7548,12 @@
       "auto_updates_enabled": false,
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "intake_verification": {
-        "tier": "conflicting_or_unconfirmed",
-        "scope": "location",
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
         "reviewed_on": "2026-11-12",
-        "method": "public_webpage_review",
-        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
-        "finding": "Practice verified, intake not established.",
+        "method": "live_clinic_webpage_review",
+        "source_url": "https://www.drjonathongriffin.ca/",
+        "finding": "Dr. Jonathon Griffin’s current clinic website invites patients to join his waitlist. Contact the office at 519-681-8860 to request a place. A waitlist place does not guarantee enrolment or a start date.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -7417,9 +7565,8 @@
       "community_distance_km": 44.6,
       "online_review": {
         "reviewed_on": "2026-11-12",
-        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Search index contains a no-new-patients/full-waitlist statement, but it was absent from the retrieved page. Current closure not independently resolved.",
+        "finding": "Clinic website read through both web retrieval and live browser November 12, 2026; current visible waitlist invitation supersedes older indexed closure wording.",
         "sources": [
-          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
           "https://www.drjonathongriffin.ca/"
         ]
       }
@@ -7471,7 +7618,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c161",
@@ -7520,7 +7669,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c162",
@@ -7569,7 +7720,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c163",
@@ -7618,7 +7771,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c164",
@@ -7667,7 +7822,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c165",
@@ -7716,7 +7873,9 @@
         "sources": [
           "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c166",
@@ -7760,7 +7919,9 @@
         "sources": [
           "https://register.cpso.on.ca/physician-info/?cpsonum=85714"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c167",
@@ -7804,7 +7965,9 @@
         "sources": [
           "https://register.cpso.on.ca/physician-info/?cpsonum=117791"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c168",
@@ -7849,7 +8012,9 @@
           "https://londoneastmedical.ca/",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c169",
@@ -7986,7 +8151,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=86465",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/ug"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c172",
@@ -8031,7 +8198,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=66438",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c173",
@@ -8077,7 +8246,9 @@
           "https://medservice.ca/2022Site/index.php/contact-us/",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/ug"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c174",
@@ -8123,7 +8294,9 @@
           "https://www.findhealthclinics.org/CA/London/2767967143429150/Lambeth-Station-Medical-Centre",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c175",
@@ -8168,7 +8341,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=122944",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c176",
@@ -8215,7 +8390,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=116164",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c177",
@@ -8261,7 +8438,9 @@
           "https://www.centralfamilymedicine.ca/",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c178",
@@ -8306,7 +8485,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=82957",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c179",
@@ -8351,7 +8532,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=104186",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c180",
@@ -8396,7 +8579,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=55458",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/ug"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c181",
@@ -8441,7 +8626,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=133177",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/ug"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c182",
@@ -8534,7 +8721,9 @@
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg",
           "https://register.cpso.on.ca/physician-info/?cpsonum=95624"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c184",
@@ -8579,7 +8768,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=116919",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c185",
@@ -8624,7 +8815,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=110929",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c186",
@@ -8669,29 +8862,31 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=94506",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c187",
-      "name": "St. Thomas Family Care Centre — Dr. Vaughan",
+      "name": "St. Thomas Family Care Centre — Dr. Rick Goodhew",
       "community": "St. Thomas",
       "address": "1063 Talbot Street, Unit 50",
-      "phone": "519-637-2424",
-      "providers": "Dr. Derek Vaughan",
+      "phone": "519-631-8460",
+      "providers": "Dr. Rick Goodhew",
       "clinic_type": "MD",
       "status": "unknown",
       "care_model": "ongoing",
       "intake_detail": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found.",
-      "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=59950",
-      "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=59950",
+      "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=66522",
+      "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=66522",
       "source_published": "",
       "last_reviewed": "2026-11-12",
-      "notes": "",
-      "review_basis": "Public-source office and intake review; no telephone confirmation.",
+      "notes": "Earlier version named Dr. Vaughan and used 519-637-2424 based on an older indexed register record. Live CPSO now places Vaughan at PeopleCare Tillsonburg, not this office. Goodhew’s live register record independently confirms this St. Thomas office and his separate telephone.",
+      "review_basis": "Live physician-register identity and address review; not intake confirmation.",
       "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
-      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=59950",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=66522",
       "clinic_address_verified": true,
-      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=59950",
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=66522",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
       "auto_updates_enabled": false,
@@ -8701,7 +8896,7 @@
         "scope": "location",
         "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
-        "source_url": "https://register.cpso.on.ca/physician-info/?cpsonum=59950",
+        "source_url": "https://register.cpso.on.ca/physician-info/?cpsonum=66522",
         "finding": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
@@ -8709,12 +8904,14 @@
       "community_distance_km": 39.0,
       "online_review": {
         "reviewed_on": "2026-11-12",
-        "finding": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found.",
+        "finding": "Earlier version named Dr. Vaughan and used 519-637-2424 based on an older indexed register record. Live CPSO now places Vaughan at PeopleCare Tillsonburg, not this office. Goodhew’s live register record independently confirms this St. Thomas office and his separate telephone. No clinic-specific current intake notice established.",
         "sources": [
-          "https://register.cpso.on.ca/physician-info/?cpsonum=59950",
-          "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/ug"
+          "https://register.cpso.on.ca/physician-info/?cpsonum=66522",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=59950"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c188",
@@ -8759,7 +8956,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=116164",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c189",
@@ -8804,7 +9003,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=95304",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c190",
@@ -8850,7 +9051,9 @@
           "https://elmdalehealth.com/",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "scope_unclear",
+      "uncertainty_label": "Application or program scope unclear"
     },
     {
       "id": "c191",
@@ -8895,7 +9098,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=103033",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/33/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c192",
@@ -8940,7 +9145,9 @@
           "https://register.cpso.on.ca/physician-info/?cpsonum=98770",
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c193",
@@ -8986,7 +9193,9 @@
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg",
           "https://register.cpso.on.ca/physician-info/?cpsonum=55881"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c194",
@@ -9032,7 +9241,9 @@
           "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/ug",
           "https://register.cpso.on.ca/physician-info/?cpsonum=62079"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c195",
@@ -9168,7 +9379,9 @@
         "sources": [
           "https://register.cpso.on.ca/physician-info/?cpsonum=58164"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c198",
@@ -9212,7 +9425,9 @@
         "sources": [
           "https://register.cpso.on.ca/physician-info/?cpsonum=105391"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c199",
@@ -9258,7 +9473,9 @@
           "https://wharnox.medicalsolutionclinic.com/contact/",
           "https://register.cpso.on.ca/physician-info/?cpsonum=122926"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c200",
@@ -9303,7 +9520,9 @@
           "https://wharncliffe.medicalsolutionclinic.com/new-patients/",
           "https://wharncliffe.medicalsolutionclinic.com/"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c201",
@@ -9349,7 +9568,9 @@
           "https://anthonydavies.net/about-us/",
           "https://register.cpso.on.ca/physician-info/?cpsonum=101524"
         ]
-      }
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     },
     {
       "id": "c202",
@@ -9440,6 +9661,53 @@
           "https://www.fanshawec.ca/students/support/health-wellness/services"
         ]
       }
+    },
+    {
+      "id": "c204",
+      "name": "Family Plus Medical Center — Dr. Ikechukwu Walter Ibeme",
+      "community": "St. Thomas",
+      "address": "107 Edward Street, Unit 103",
+      "phone": "226-289-1430",
+      "providers": "Dr. Ikechukwu Walter Ibeme",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Family-practice office and public telephone confirmed in the live physician register. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
+      "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "Live CPSO practice address now matches the university Family Plus listing. Older indexed CPSO text showing 19 Elgin Street is superseded for this physician.",
+      "review_basis": "Live physician-register and university practice-profile reconciliation; no telephone or intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Approximate community point; not an address-matched clinic coordinate.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
+        "finding": "Family-practice office and public telephone confirmed in the live physician register. No current clinic-specific new-patient application or waitlist statement established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "community_distance_km": 39.0,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Live CPSO practice address now matches the university Family Plus listing. Older indexed CPSO text showing 19 Elgin Street is superseded for this physician. Family-practice office and public telephone confirmed in the live physician register. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
+          "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg"
+        ]
+      },
+      "uncertainty_reason": "no_current_statement",
+      "uncertainty_label": "No current office-specific intake established"
     }
   ]
 }

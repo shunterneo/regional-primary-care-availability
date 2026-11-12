@@ -80,3 +80,7 @@ The current automated structural audit reports **97 records, 94 with traceable p
 - **Physician-by-physician and nurse-practitioner-by-nurse-practitioner census** against CPSO/CNO is not complete, so additional practices may exist.
 - **Automated scheduled research quality** needs real-run evidence, separate from successful page deployments or simulated tests. A successful build does not prove external sites were searched successfully.
 - Site-level acceptance and patient attachment are **not** established by online registration forms. Call a clinic directly before giving a definitive referral.
+
+## Live-source follow-up, November 12
+
+The current directory has 204 records. See [the latest review](audits/thorough-review-2026-11-12/live-review.md) for corrections and unresolved coverage. A complete practitioner-register census has not been finished.

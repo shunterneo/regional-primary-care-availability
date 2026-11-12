@@ -382,7 +382,7 @@
     ],
     "status": "public_evidence_unresolved",
     "last_public_review": "2026-11-12",
-    "finding": "Clinic website is under development and directs inquiries to 519-842-4231. No current intake statement is published."
+    "finding": "Clinic-owned website now loads and confirms 200 Broadway Street and 519-842-4231. It says the full website is under development and directs callers to the office; it does not state current new-patient intake."
   },
   {
     "clinic_id": "c091",
@@ -929,12 +929,10 @@
     "name": "Old South FHO — Dr. Jonathon Griffin",
     "phone": "519-681-8860",
     "website": "https://www.drjonathongriffin.ca/",
-    "questions": [
-      "What current clinic-published statement establishes application or waitlist availability?"
-    ],
-    "status": "public_evidence_unresolved",
+    "questions": [],
+    "status": "resolved_public_evidence",
     "last_public_review": "2026-11-12",
-    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Search index contains a no-new-patients/full-waitlist statement, but it was absent from the retrieved page. Current closure not independently resolved."
+    "finding": "Dr. Jonathon Griffin’s current clinic website invites patients to join his waitlist. Contact the office at 519-681-8860 to request a place. A waitlist place does not guarantee enrolment or a start date."
   },
   {
     "clinic_id": "c160",
@@ -1238,15 +1236,15 @@
   },
   {
     "clinic_id": "c187",
-    "name": "St. Thomas Family Care Centre — Dr. Vaughan",
-    "phone": "519-637-2424",
+    "name": "St. Thomas Family Care Centre — Dr. Rick Goodhew",
+    "phone": "519-631-8460",
     "website": "https://register.cpso.on.ca/physician-info/?cpsonum=59950",
     "questions": [
       "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
     ],
     "status": "public_evidence_unresolved",
     "last_public_review": "2026-11-12",
-    "finding": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+    "finding": "Earlier version named Dr. Vaughan and used 519-637-2424 based on an older indexed register record. Live CPSO now places Vaughan at PeopleCare Tillsonburg, not this office. Goodhew’s live register record independently confirms this St. Thomas office and his separate telephone. No clinic-specific current intake notice established."
   },
   {
     "clinic_id": "c188",

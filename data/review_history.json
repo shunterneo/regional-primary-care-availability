@@ -2754,5 +2754,35 @@
     "source": "https://www.fowlerkennedy.com/services/fanshawe-college-students/",
     "type": "detailed_practice_reconciliation",
     "reviewer_note": "Registered Fanshawe students can access general and ongoing primary care by appointment. Same-day urgent appointments depend on availability. This student service is distinct from community sport-medicine referrals and does not establish unrestricted family-practice enrolment."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c159",
+    "clinic_name": "Old South FHO — Dr. Jonathon Griffin",
+    "old_status": "unknown",
+    "new_status": "waitlist",
+    "source": "https://www.drjonathongriffin.ca/",
+    "type": "live_intake_correction",
+    "reviewer_note": "Clinic website read through both web retrieval and live browser November 12, 2026; current visible waitlist invitation supersedes older indexed closure wording."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c187",
+    "clinic_name": "St. Thomas Family Care Centre — Dr. Rick Goodhew",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=66522",
+    "type": "live_register_identity_correction",
+    "reviewer_note": "Earlier version named Dr. Vaughan and used 519-637-2424 based on an older indexed register record. Live CPSO now places Vaughan at PeopleCare Tillsonburg, not this office. Goodhew’s live register record independently confirms this St. Thomas office and his separate telephone. No clinic-specific current intake notice established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c204",
+    "clinic_name": "Family Plus Medical Center — Dr. Ikechukwu Walter Ibeme",
+    "old_status": "not_listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
+    "type": "live_register_addition",
+    "reviewer_note": "Live CPSO practice address now matches the university Family Plus listing. Older indexed CPSO text showing 19 Elgin Street is superseded for this physician. Family-practice office and public telephone confirmed in the live physician register. No current clinic-specific new-patient application or waitlist statement established."
   }
 ]

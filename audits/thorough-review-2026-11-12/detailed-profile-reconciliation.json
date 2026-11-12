@@ -1549,12 +1549,13 @@
       "source": "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg",
       "matches": [],
       "match_basis": "",
-      "disposition": "unresolved_identity_or_office_scope",
+      "disposition": "historical_inactive_registration",
       "reviewed_on": "2026-11-12",
       "sources": [
-        "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
+        "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg",
+        "https://register.cpso.on.ca/physician-info/?cpsonum=33503"
       ],
-      "finding": "Public-source screening did not establish a unique current general-practice office or resolve the relationship to existing records. Not promoted to confirmed coverage."
+      "finding": "Live CPSO record 33503 shows inactive, resigned from membership on 2020-09-03; no current practice address. Excluded from active-practice additions."
     },
     {
       "name": "Salim Sunderji",
@@ -3369,7 +3370,7 @@
       "sources": [
         "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
       ],
-      "finding": "Public-source screening did not establish a unique current general-practice office or resolve the relationship to existing records. Not promoted to confirmed coverage."
+      "finding": "Public-source screening did not establish a unique current general-practice office or resolve the relationship to existing records. Not promoted to confirmed coverage. All-status, all-doctor-type CPSO search for first name Coralee returned no matches. This does not independently establish a professional identity; remains excluded pending authoritative identification."
     },
     {
       "name": "Lucan Medical Centre (Tarun Nanda)",
@@ -5138,12 +5139,13 @@
       "source": "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg",
       "matches": [],
       "match_basis": "",
-      "disposition": "unresolved_identity_or_office_scope",
+      "disposition": "historical_inactive_registration",
       "reviewed_on": "2026-11-12",
       "sources": [
-        "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
+        "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg",
+        "https://register.cpso.on.ca/physician-info/?cpsonum=98329"
       ],
-      "finding": "Public-source screening did not establish a unique current general-practice office or resolve the relationship to existing records. Not promoted to confirmed coverage."
+      "finding": "Live CPSO record 98329 shows inactive, resigned from membership on 2018-06-01; no current practice address. Excluded from active-practice additions."
     },
     {
       "name": "Stephanie Stocco",
@@ -5249,9 +5251,12 @@
       "disposition": "unresolved_identity_or_office_scope",
       "reviewed_on": "2026-11-12",
       "sources": [
-        "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
+        "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg",
+        "https://masonvilleclinic.com/about-us/",
+        "https://masonvilleclinic.com/",
+        "https://register.cpso.on.ca/physician-info/?cpsonum=80479"
       ],
-      "finding": "Public-source screening did not establish a unique current general-practice office or resolve the relationship to existing records. Not promoted to confirmed coverage."
+      "finding": "Clinic-owned Masonville website names Shailendra Ziradkar at 1673 Richmond Street and advertises walk-in care. Register search index still lists South London Urgent Care at 595 Bradley plus 641 Commissioners. Current relationship to the old urgent-care office and ongoing attachment scope remain unresolved; no duplicate general-practice entry added."
     },
     {
       "name": "Sharon Koivu",
@@ -5508,12 +5513,14 @@
       "source": "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg",
       "matches": [],
       "match_basis": "",
-      "disposition": "unresolved_identity_or_office_scope",
+      "disposition": "specialized_or_non_attachment_profile",
       "reviewed_on": "2026-11-12",
       "sources": [
-        "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg"
+        "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/pg",
+        "https://www.schulich.uwo.ca/familymedicine/postgraduate/enhanced_skills_programs/category_1_and_category_2_programs.html",
+        "https://register.cpso.on.ca/physician-info/?cpsonum=131732"
       ],
-      "finding": "Public-source screening did not establish a unique current general-practice office or resolve the relationship to existing records. Not promoted to confirmed coverage."
+      "finding": "Western identifies the physician as Addiction Medicine program director; CPSO lists a hospital address. No separate general attachment office established."
     },
     {
       "name": "Andrew Sharpe",
@@ -5767,16 +5774,18 @@
       "community_distance": 38.8,
       "profile_id": "profile4647",
       "source": "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg",
-      "matches": [],
+      "matches": [
+        "c204"
+      ],
       "match_basis": "",
-      "disposition": "unresolved_conflicting_practice_addresses",
+      "disposition": "office_reconciled",
       "reviewed_on": "2026-11-12",
       "sources": [
         "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg",
         "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
         "https://ca.linkedin.com/jobs/view/clinical-assistant-at-family-plus-medical-center-4454932646"
       ],
-      "finding": "University lists Family Plus at 107 Edward Street, Unit 103; CPSO lists 19 Elgin Street. Employer recruitment confirms activity but not which address patients should use. No listing published until location is resolved."
+      "finding": "Live CPSO now lists 107 Edward Street Unit 103 and 226-289-1430, resolving the older indexed Elgin Street address. Added c204 with unknown intake."
     },
     {
       "name": "Primepoint Clinic (Zulu Okoligwe)",

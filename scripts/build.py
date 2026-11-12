@@ -99,7 +99,7 @@ def make_docx():
                 p=doc.add_paragraph();p.paragraph_format.keep_with_next=True
                 rr=p.add_run(f'{c["community"]}  |  {c["name"]}');rr.bold=True
                 t=doc.add_table(rows=0,cols=2);t.autofit=False;t.columns[0].width=Inches(1.00);t.columns[1].width=Inches(5.9)
-                for label,value in [('Office',c['address']),('Service model',CARE_MODELS[c['care_model']]),('Provider',c['clinic_type']),('Phone',c.get('phone','') or 'Not listed'),('Intake note',c.get('intake_detail','') or 'No current details'),('Evidence level',c['evidence_label']),('Intake evidence checked',c['public_evidence_reviewed']+' (public only; not confirmed by telephone)'),('Record last edited',c['last_reviewed']),('Online research',c.get('online_review_text','')),('Research sources',c.get('online_review_sources',''))]:
+                for label,value in [('Office',c['address']),('Service model',CARE_MODELS[c['care_model']]),('Provider',c['clinic_type']),('Phone',c.get('phone','') or 'Not listed'),('Intake note',c.get('intake_detail','') or 'No current details'),('Uncertainty reason',c.get('uncertainty_label','')),('Evidence level',c['evidence_label']),('Intake evidence checked',c['public_evidence_reviewed']+' (public only; not confirmed by telephone)'),('Record last edited',c['last_reviewed']),('Online research',c.get('online_review_text','')),('Research sources',c.get('online_review_sources',''))]:
                     row=t.add_row();row.cells[0].text=label;row.cells[1].text=value
                     row.cells[0].paragraphs[0].runs[0].bold=True
                     for cell in row.cells:
@@ -153,6 +153,8 @@ def make_pdf():
                     Paragraph('<b>Office:</b> '+e(c['address'])+'   <b>Care:</b> '+e(CARE_MODELS[c['care_model']])+'   <b>Type:</b> '+e(c['clinic_type'])+'   <b>Phone:</b> '+e(c.get('phone') or 'Not listed'),small),
                     Paragraph(e(c.get('intake_detail') or 'No current intake details'),body),
                     Paragraph('<b>Evidence level:</b> '+e(c['evidence_label'])+'   <b>Evidence checked:</b> '+e(c['public_evidence_reviewed'])+' (public only; not telephone verified)',small)]
+                if c.get('uncertainty_label'):
+                    lines.append(Paragraph('<b>Unconfirmed because:</b> '+e(c['uncertainty_label']),small))
                 if c.get('online_review_text'):
                     lines.append(Paragraph('<b>Online research:</b> '+e(c['online_review_text']),small))
                     for u in (c.get('online_review') or {}).get('sources',[]):
