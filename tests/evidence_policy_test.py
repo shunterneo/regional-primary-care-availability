@@ -7,9 +7,9 @@ from evidence_policy import qualified_public_intake,display_intake_status
 D=json.loads((ROOT/'data/clinics.json').read_text());T=dt.date(2026,11,11)
 assert len(D['clinics'])==95
 B={c['id']:c for c in D['clinics']}
-assert sum(display_intake_status(c,T)=='accepting' for c in B.values())==19
-assert sum(c['status']=='accepting' for c in B.values())==19
-for cid in ['c008','c012','c013']:
+assert sum(display_intake_status(c,T)=='accepting' for c in B.values())==16
+assert sum(c['status']=='accepting' for c in B.values())==16
+for cid in ['c008','c009','c011','c012','c013','c033']:
     assert B[cid]['status']=='reported' and display_intake_status(B[cid],T)=='reported'
 for cid in ['c015','c023']:
     assert B[cid]['status']=='limited' and display_intake_status(B[cid],T)=='limited'
@@ -30,7 +30,7 @@ for mutate in [
     trial={**valid,**mutate}; assert display_intake_status(trial,T)!='accepting',mutate
 assert display_intake_status(valid,T+dt.timedelta(days=22))=='needs_review'
 assert display_intake_status({**valid,'care_model':'walk_in_only'},T)!='accepting'
-print('PASS: 95 existing records, 19 green with dated first-party evidence; conflicting, third-party, general, missing and stale evidence never green')
+print('PASS: 95 existing records, 16 green with dated first-party evidence; conflicting, third-party, general, missing and stale evidence never green')
 # The manual review path also prevents an incorrect green label from an apparent negative quote.
 import subprocess
 p=ROOT/'scripts/update_status.py'

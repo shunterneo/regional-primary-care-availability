@@ -38,7 +38,10 @@
         "finding": "Own site explicitly accepts new client forms for unattached patients; attachment not guaranteed.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c002",
@@ -56,7 +59,7 @@
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
       "community_distance_km": 48.1,
-      "notes": "",
+      "notes": "The clinic’s official appointment page shows more than one contact number (519-751-8843 and 519-267-5030). Main contact needs telephone confirmation; 519-751-8843 shown here is the header/footer number.",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
@@ -70,7 +73,10 @@
         "finding": "Own appointment page explicitly advertises joining its family practice, distinct from walk-in intake. Site contains conflicting telephone details.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c003",
@@ -102,7 +108,10 @@
         "finding": "Own registration page separately describes family-practice and walk-in forms.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c004",
@@ -134,7 +143,10 @@
         "finding": "Official team intake page names Beaverbrook; selected physicians/NPs only, not all clinicians.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c005",
@@ -166,7 +178,10 @@
         "finding": "Official team intake page names Stoney Creek; selected physicians/NPs only.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c006",
@@ -198,7 +213,10 @@
         "finding": "TMC+ website says now accepting and provides location-selectable application.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c007",
@@ -230,7 +248,10 @@
         "finding": "TMC+ website advertises location-selectable new-patient application.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c008",
@@ -262,16 +283,19 @@
         "finding": "TVFHT confirms nurse-practitioner clinic applications regionally; Springbank clinic exists, but site-specific capacity is not stated.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c009",
-      "name": "Elmdale Health Centre — Family Physician Registration",
+      "name": "Elmdale Health Centre — Building registration notice",
       "community": "St. Thomas",
       "address": "25 Elm Street",
       "clinic_type": "MD",
-      "status": "accepting",
-      "intake_detail": "Elgin County residents without a family physician may register online; registration is not guaranteed attachment. Separate intake from TMC+.",
+      "status": "reported",
+      "intake_detail": "Elmdale Health Centre advertises online family physician registration for unattached Elgin County residents, but does not identify the accepting physician or office. Registration is separate from TMC+ and is not guaranteed attachment.",
       "phone": "",
       "providers": "",
       "evidence_url": "https://www.elmdalehealth.com/",
@@ -279,22 +303,26 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
-      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "review_basis": "Multi-tenant building notice only, not clinician-specific intake; needs direct practice confirmation.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.elmdalehealth.com/",
       "intake_verification": {
-        "tier": "clinic_first_party",
-        "scope": "location",
+        "tier": "program_general",
+        "scope": "program",
         "reviewed_on": "2026-11-11",
         "method": "public_webpage_review",
         "source_url": "https://www.elmdalehealth.com/",
-        "finding": "Building website advertises online family physician registration for Elgin County; notice undated, distinct from TMC+.",
+        "finding": "Elmdale Health Centre is a multi-tenant building advertising a family-physician registration link without identifying the registering physician or suite.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "auto_updates_enabled": false,
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c010",
@@ -311,7 +339,7 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "both",
@@ -326,7 +354,10 @@
         "finding": "TMC+ site lists St Thomas as one of the location choices on its new-patient process.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c011",
@@ -334,8 +365,8 @@
       "community": "Tillsonburg",
       "address": "671 Broadway Street, Unit 12",
       "clinic_type": "NP",
-      "status": "accepting",
-      "intake_detail": "New-patient NP application open; eligibility and capacity apply, attachment not guaranteed. Woodstock residents directed to TVFHT. Current temporary Unit 12; prospective Unit 14 listed as opening early 2027.",
+      "status": "reported",
+      "intake_detail": "Oxford County NPLC is accepting new-patient applications regionally. Tillsonburg patients continue to use the temporary Unit 12 site while permanent Unit 14 is listed to open early 2027. The regional application does not confirm a vacant roster specifically at Tillsonburg; Ingersoll capacity is separately described as limited.",
       "phone": "519-926-6752",
       "providers": "Nurse-practitioner team; individual names not confirmed at this site",
       "evidence_url": "https://www.ocnplc.ca/patient-information/new-patients/",
@@ -343,22 +374,26 @@
       "source_published": "2026-08-25",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 0,
+      "community_distance_km": 0.0,
       "notes": "",
-      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "review_basis": "Oxford OHT September 8 transition notice reconciled with OCNPLC regional intake and upcoming permanent site notice.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://oxfordoht.ca/tillsonburg-unattached-care-clinic/",
       "intake_verification": {
-        "tier": "clinic_first_party",
-        "scope": "location",
+        "tier": "program_general",
+        "scope": "program",
         "reviewed_on": "2026-11-11",
         "method": "public_webpage_review",
         "source_url": "https://www.ocnplc.ca/patient-information/new-patients/",
-        "finding": "Oxford NPLC official page states registration open; residents of Woodstock excluded/prioritized elsewhere.",
+        "finding": "Oxford NPLC regional application open; permanent Tillsonburg site is listed as opening early 2027, with temporary care at Unit 12.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "auto_updates_enabled": false,
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c012",
@@ -367,11 +402,11 @@
       "address": "600 Princess Street, Suite 300",
       "clinic_type": "MD",
       "status": "reported",
-      "intake_detail": "City of Woodstock directs new patients to Oxfordia website registration; confirm current availability before relying on an appointment.",
+      "intake_detail": "City of Woodstock announced Dr. Hamza Aman opening a family practice and directs applicants to Oxfordia Medical Centre’s own New Patient Registration option. Current availability and actual form submission need direct confirmation.",
       "phone": "519-340-8186",
       "providers": "Dr. Hamza Aman",
       "evidence_url": "https://www.cityofwoodstock.ca/news/posts/new-family-physician-opens-oxfordia-medical-centre-in-woodstock/",
-      "clinic_url": "https://www.cityofwoodstock.ca/news/posts/new-family-physician-opens-oxfordia-medical-centre-in-woodstock/",
+      "clinic_url": "https://oxfordiamedical.com/",
       "source_published": "2026-10-01",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
@@ -390,7 +425,10 @@
         "finding": "Woodstock City Oct 1 announcement directs prospective Dr Aman patients to Oxfordia new patient registration; Nov 10 local news reiterates accepting. Website not independently text-readable.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c013",
@@ -399,8 +437,8 @@
       "address": "959 Dundas Street East, Suite 204",
       "clinic_type": "FHT",
       "status": "reported",
-      "intake_detail": "Thames Valley FHT provides the actual primary-care attachment application and phone line for this program. Oxford County NPLC refers Woodstock residents to this Thames Valley FHT service at 959 Dundas Street East. Registration concerns nurse practitioner attachment; no individual family physician accepting status is implied.",
-      "phone": "519-537-6701",
+      "intake_detail": "Thames Valley FHT runs an NP attachment intake program across Oxford, London, Middlesex and Elgin. Oxford NPLC directs Woodstock residents to this program at 959 Dundas Street East. The program application is open; this specific office’s available roster capacity is NOT independently confirmed.",
+      "phone": "519-473-0530 ext. 2197",
       "providers": "Family health team serving multiple physicians. Individual physicians may practise elsewhere.",
       "evidence_url": "https://thamesvalleyfht.ca/become-a-patient/",
       "clinic_url": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
@@ -408,8 +446,8 @@
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
       "community_distance_km": 30.2,
-      "notes": "",
-      "review_basis": "Referral to Woodstock from Oxford County NPLC independently cross-checked against Thames Valley FHT's official Become a Patient registration page on 2026-11-11. Program-wide intake is not site-specific roster confirmation; not telephone verified.",
+      "notes": "Woodstock FHT office: 519-537-6701. NP attachment team (applications): 519-473-0530 ext. 2197.",
+      "review_basis": "Cross-organizational referral independently traced to Thames Valley FHT’s own registration page. This is a regional NP program, not proof that Woodstock family physicians are accepting.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
@@ -418,11 +456,14 @@
         "scope": "program",
         "reviewed_on": "2026-11-11",
         "method": "public_webpage_review",
-        "source_url": "https://www.ocnplc.ca/patient-information/new-patients/",
+        "source_url": "https://thamesvalleyfht.ca/become-a-patient/",
         "finding": "Oxford NPLC expressly names TVFHT Woodstock at 959 Dundas St for NP attachment, plus TVFHT program intake page.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c014",
@@ -454,7 +495,10 @@
         "finding": "Own clinic website provides new family practice registration form; a clinician describes limited openings.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c015",
@@ -486,7 +530,10 @@
         "finding": "Langs directly says accepting in North Dumfries; applicants register via Health Care Connect and await matching.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c016",
@@ -519,7 +566,10 @@
         "finding": "Same clinic notices include Dr Vidhi Desai being open to unattached local patients and separate wording saying no doctors taking new patients or waitlist requests.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c017",
@@ -551,7 +601,10 @@
         "finding": "Brant hospital lists Drs Shaikh/Mutasher as accepting; Bonavista official site describes services but does not independently confirm new-patient enrolment.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c018",
@@ -583,7 +636,10 @@
         "finding": "Brant hospital lists Dr Clara Obanor; CPSO verifies practice location, not new intake. No clinic-specific current intake notice found.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c019",
@@ -592,10 +648,10 @@
       "address": "603 Colborne Street East",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Valleyview clinic website says family-practice registration is open with location selection; Colborne site listed.",
+      "intake_detail": "Valleyview’s Colborne location explicitly offers a family practice registration request, separate from same-day walk-in care. Dr. Kolawole Gbolagade is named at this site; enrolment requires clinic review.",
       "phone": "519-929-9819",
       "providers": "Dr Kolawole Gbolagade",
-      "evidence_url": "https://valleyviewmedical.ca/",
+      "evidence_url": "https://valleyviewmedical.ca/locations/brantford-colborne",
       "clinic_url": "https://valleyviewmedical.ca/locations/brantford-colborne",
       "source_published": "",
       "last_reviewed": "2026-11-11",
@@ -611,11 +667,14 @@
         "scope": "location",
         "reviewed_on": "2026-11-11",
         "method": "public_webpage_review",
-        "source_url": "https://valleyviewmedical.ca/",
+        "source_url": "https://valleyviewmedical.ca/locations/brantford-colborne",
         "finding": "Valleyview clinic website says family-practice registration is open with location selection; Colborne site listed.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c020",
@@ -624,7 +683,7 @@
       "address": "175 Lynden Road, Unit A5-A",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Valleyview Lynden site has new-patient registration path and identifies Dr Omisore; application reviewed by clinic.",
+      "intake_detail": "Valleyview’s Lynden Road location explicitly offers a family practice registration request, separate from walk-in care. Dr. Tunde Samuel Omisore is listed at the site; enrolment requires clinic review.",
       "phone": "519-398-7477",
       "providers": "Dr Tunde Samuel Omisore",
       "evidence_url": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
@@ -647,7 +706,10 @@
         "finding": "Valleyview Lynden site has new-patient registration path and identifies Dr Omisore; application reviewed by clinic.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c021",
@@ -679,7 +741,10 @@
         "finding": "Own practice website directs applicants to Add me to your New Patient Waiting List; Dr Hayek is listed among clinicians.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c022",
@@ -711,7 +776,10 @@
         "finding": "Doctors4Cambridge lists Dr Sherif Mikhail and instructs prospective patients to phone; no directly verified current clinic announcement.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c023",
@@ -743,7 +811,10 @@
         "finding": "Langs official site says Cambridge residents may register via Health Care Connect; eligibility/matching required.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c024",
@@ -775,7 +846,10 @@
         "finding": "Doctors4Cambridge offers email registration with Dr Bhatia; Saginaw own site confirms contact details but no current intake claim.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c025",
@@ -807,7 +881,10 @@
         "finding": "Doctors4Cambridge lists Dr Hisham Ghali as accepting; no direct practice registration announcement verified.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c026",
@@ -839,7 +916,10 @@
         "finding": "Official St Andrews site offers family-practice registration with meet-and-greet; walk-in booking distinct; physician spelled Dr Edward Ladipo.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c027",
@@ -871,25 +951,28 @@
         "finding": "Official Townline site accepts family-practice registration for Dr Mehreen Saif and Dr Muhammad Waqar Faisal, distinct from walk-in.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c028",
       "name": "Active Care Medical Centre — Dr. Ankit Sachdeva",
       "community": "London",
-      "address": "London (street address requires confirmation)",
+      "address": "1807 Wonderland Road North, Suite 201",
       "clinic_type": "MD",
       "status": "accepting",
       "intake_detail": "Clinic own website explicitly identifies Dr Ankit Sachdeva, Dr Saumya Dargar and Dr H Nasir accepting and links application forms.",
       "phone": "519-433-2996",
-      "providers": "Dr Ankit Sachdeva",
+      "providers": "Dr. Ankit Sachdeva; Dr. Saumya Dargar; Dr. H. Nasir",
       "evidence_url": "https://activecaremedicalcentre.com/201-clinic/",
       "clinic_url": "https://activecaremedicalcentre.com/201-clinic",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "street address verified from clinic official webpage; clinic marker still community-level",
       "community_distance_km": 44.6,
-      "notes": "",
+      "notes": "This is the 201 Family Medicine and Endocrinology office; other specialties at the same building are not the advertised intake.",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
@@ -903,7 +986,10 @@
         "finding": "Clinic own website explicitly identifies Dr Ankit Sachdeva, Dr Saumya Dargar and Dr H Nasir accepting and links application forms.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c029",
@@ -935,7 +1021,10 @@
         "finding": "London District medical association lists Dr Rabiya Niaz; the clinic website did not load for independent intake verification.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c030",
@@ -967,7 +1056,10 @@
         "finding": "London medical association lists Dr Festus Anochie. Radiant Family Physicians own site verifies practice but not new-patient intake.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c031",
@@ -999,7 +1091,10 @@
         "finding": "London medical association lists Dundas Medical Clinic and a registration link; no clinic-owned confirmation was verified.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c032",
@@ -1032,7 +1127,10 @@
         "finding": "Clinic official site explicitly states Dr Adeniran no longer accepting new patients; contradicts LDA referral list.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c033",
@@ -1040,31 +1138,35 @@
       "community": "London",
       "address": "460 Springbank Drive, Suite 309",
       "clinic_type": "MD",
-      "status": "accepting",
-      "intake_detail": "Old South FHO own New Patients page explicitly names Dr Shizar Goosheh and Dr Jeff Spence as accepting.",
+      "status": "reported",
+      "intake_detail": "London & District Academy of Medicine lists Dr. Jeff Spence and Dr. Shizar Goosheh with NPs as potential intake opportunities. Clinic-specific application pathway could not be independently verified online; call 519-858-0013.",
       "phone": "519-858-0013",
       "providers": "Dr Jeff Spence; Dr Shizar Goosheh",
-      "evidence_url": "https://www.oldsouthfho.ca/new-patients",
+      "evidence_url": "https://www.ldam.ca/find-a-doctor",
       "clinic_url": "https://www.oldsouthfho.ca/new-patients",
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "review_basis": "Authoritative directory report, not independently verified first-party clinic registration.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
       "intake_verification": {
-        "tier": "clinic_first_party",
+        "tier": "third_party",
         "scope": "named_clinician",
         "reviewed_on": "2026-11-11",
         "method": "public_webpage_review",
-        "source_url": "https://www.oldsouthfho.ca/new-patients",
-        "finding": "Old South FHO own New Patients page explicitly names Dr Shizar Goosheh and Dr Jeff Spence as accepting.",
+        "source_url": "https://www.ldam.ca/find-a-doctor",
+        "finding": "London and District Academy of Medicine lists Drs Spence and Goosheh; clinic-owned new-patient page could not be independently retrieved.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "auto_updates_enabled": false,
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c034",
@@ -1097,7 +1199,10 @@
         "finding": "Saffron site promotes welcoming new patients in general marketing copy but does not identify a specific current accepting family physician or a confirmed roster.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c035",
@@ -1129,7 +1234,10 @@
         "finding": "London medical association lists Serenity; historical recruiter posting mentions intake but no current first-party acceptance notice.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c036",
@@ -1138,9 +1246,9 @@
       "address": "149 Oxford Street East",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Viva clinic own site explicitly identifies Dr Osita Ohaeto as currently accepting and provides a registration route.",
-      "phone": "226-667-8488",
-      "providers": "",
+      "intake_detail": "Official Viva Medical Clinic page says Dr. Osita Ohaeto is accepting new family practice patients; call 226-289-7231 or follow the clinic’s registration form.",
+      "phone": "226-289-7231",
+      "providers": "Dr. Osita Ohaeto",
       "evidence_url": "https://vivamedicalclinic.ca/",
       "clinic_url": "https://vivamedicalclinic.ca/",
       "source_published": "",
@@ -1161,7 +1269,10 @@
         "finding": "Viva clinic own site explicitly identifies Dr Osita Ohaeto as currently accepting and provides a registration route.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c037",
@@ -1193,7 +1304,10 @@
         "finding": "Wonderland South site names Dr Kay Arogundade and provides new-patient application instructions.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c038",
@@ -1210,7 +1324,7 @@
       "source_published": "2026-08-26",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 23,
+      "community_distance_km": 23.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -1225,7 +1339,10 @@
         "finding": "Oxford NPLC official page says applications open with limited capacity in Ingersoll as of Aug 26.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c039",
@@ -1257,7 +1374,10 @@
         "finding": "London InterCommunity CHC explicitly says primary-care referrals open, with criteria for unattached London residents facing barriers.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c040",
@@ -1289,7 +1409,10 @@
         "finding": "Same London InterCommunity CHC program provides care at multiple sites; intake program open with restrictions, site capacity not separately established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c041",
@@ -1322,7 +1445,10 @@
         "finding": "Queens Avenue Health and Homelessness site describes low-barrier primary care and voluntary attachment, not explicitly open new-patient registration today.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c042",
@@ -1354,7 +1480,10 @@
         "finding": "Waterloo Region NP-led clinic has a 2026 intake form; current queue length and Breslau-specific status not confirmed.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c043",
@@ -1386,7 +1515,10 @@
         "finding": "Grandview clinic directly accepts family physician wait-list requests and warns attachment is not guaranteed.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c044",
@@ -1418,7 +1550,10 @@
         "finding": "Waterloo Region NP-led clinic 2026 form open; historic 10–12-month estimate is not currently validated for Cambridge.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c045",
@@ -1450,7 +1585,10 @@
         "finding": "New Vision own indexed page says accepting names for new patient waitlist; webpage returned 403 to direct fetch but indexed clinic excerpt was available.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c046",
@@ -1482,7 +1620,10 @@
         "finding": "Waterloo Region NP-led clinic 2026 form open; current Pioneer Park wait length/site capacity unconfirmed.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c047",
@@ -1515,7 +1656,10 @@
         "finding": "London medical association says Dr Zarmeen Qamar waitlist starts January 2027; it is November 2026 and intake is not yet currently open.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c048",
@@ -1532,7 +1676,7 @@
       "source_published": "2026-08-28",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 0,
+      "community_distance_km": 0.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -1545,7 +1689,10 @@
         "method": "none",
         "source_url": "https://211ontario.ca/service/95081079/oxford-county-community-health-centre-oxford-county-community-health-centre/%26alt%3D1/",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c049",
@@ -1575,7 +1722,10 @@
         "method": "none",
         "source_url": "https://primemedical.ca/",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c050",
@@ -1605,7 +1755,10 @@
         "method": "none",
         "source_url": "https://211ontario.ca/service/95081080/oxford-county-community-health-centre-oxford-county-community-health-centre/",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": true
     },
     {
       "id": "c051",
@@ -1622,7 +1775,7 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 73,
+      "community_distance_km": 73.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -1635,7 +1788,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c052",
@@ -1665,7 +1821,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c053",
@@ -1695,7 +1854,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c054",
@@ -1725,7 +1887,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c055",
@@ -1755,7 +1920,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c056",
@@ -1785,7 +1953,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c057",
@@ -1815,7 +1986,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c058",
@@ -1845,7 +2019,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c059",
@@ -1875,7 +2052,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c060",
@@ -1892,7 +2072,7 @@
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 23,
+      "community_distance_km": 23.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -1905,7 +2085,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c061",
@@ -1935,7 +2118,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c062",
@@ -1965,7 +2151,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c063",
@@ -1995,7 +2184,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c064",
@@ -2025,7 +2217,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c065",
@@ -2055,7 +2250,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c066",
@@ -2085,7 +2283,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c067",
@@ -2115,7 +2316,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c068",
@@ -2145,7 +2349,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c069",
@@ -2175,7 +2382,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c070",
@@ -2205,7 +2415,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c071",
@@ -2235,7 +2448,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c072",
@@ -2252,7 +2468,7 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 62,
+      "community_distance_km": 62.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -2265,7 +2481,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c073",
@@ -2295,7 +2514,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c074",
@@ -2325,7 +2547,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c075",
@@ -2355,7 +2580,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c076",
@@ -2385,7 +2613,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c077",
@@ -2402,7 +2633,7 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -2415,7 +2646,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c078",
@@ -2432,7 +2666,7 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -2445,7 +2679,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c079",
@@ -2462,7 +2699,7 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -2475,7 +2712,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c080",
@@ -2492,7 +2732,7 @@
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 39,
+      "community_distance_km": 39.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -2505,7 +2745,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c081",
@@ -2535,7 +2778,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c082",
@@ -2565,7 +2811,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c083",
@@ -2595,7 +2844,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c084",
@@ -2625,7 +2877,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c085",
@@ -2655,7 +2910,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c086",
@@ -2685,7 +2943,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c087",
@@ -2715,7 +2976,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c088",
@@ -2745,7 +3009,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c089",
@@ -2762,7 +3029,7 @@
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 0,
+      "community_distance_km": 0.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -2775,7 +3042,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c090",
@@ -2792,7 +3062,7 @@
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 0,
+      "community_distance_km": 0.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -2805,7 +3075,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c091",
@@ -2822,7 +3095,7 @@
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
       "location_quality": "community-centre estimate",
-      "community_distance_km": 0,
+      "community_distance_km": 0.0,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
@@ -2835,7 +3108,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c092",
@@ -2865,7 +3141,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c093",
@@ -2895,7 +3174,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c094",
@@ -2925,7 +3207,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     },
     {
       "id": "c095",
@@ -2955,7 +3240,10 @@
         "method": "none",
         "source_url": "",
         "finding": "No individually audited current intake statement; status is a research lead."
-      }
+      },
+      "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
+      "intake_reviewed_by_phone": false,
+      "clinic_address_verified": false
     }
   ]
 }

@@ -208,5 +208,149 @@
     "type": "strict_evidence_baseline_policy",
     "source": "https://www.langs.org/new-patients",
     "reviewer_note": "Clinic offers a matching/registration pathway, not a direct open family-practice roster; moved to limited."
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c013",
+    "clinic_name": "Thames Valley Family Health Team — Woodstock",
+    "type": "systemic_quality_audit",
+    "old_status": "reported",
+    "new_status": "reported",
+    "source": "https://thamesvalleyfht.ca/become-a-patient/",
+    "reviewer_note": "Oxford NPLC only refers to Thames Valley FHT; the clinic entry must link directly to Thames Valley FHT and give its attachment-team number.",
+    "changed_fields": [
+      "evidence_url",
+      "phone",
+      "intake_detail",
+      "notes",
+      "review_basis"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c012",
+    "clinic_name": "Oxfordia Medical Centre — Dr. Hamza Aman",
+    "type": "systemic_quality_audit",
+    "old_status": "reported",
+    "new_status": "reported",
+    "source": "https://www.cityofwoodstock.ca/news/posts/new-family-physician-opens-oxfordia-medical-centre-in-woodstock/",
+    "reviewer_note": "The City of Woodstock links directly to the Oxfordia website; use that for clinic website and the city for the dated physician-specific report.",
+    "changed_fields": [
+      "clinic_url",
+      "intake_detail"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c028",
+    "clinic_name": "Active Care Medical Centre — Dr. Ankit Sachdeva",
+    "type": "systemic_quality_audit",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://activecaremedicalcentre.com/201-clinic/",
+    "reviewer_note": "Official practice page confirms exact address of clinic where Dr. Sachdeva is accepting patients.",
+    "changed_fields": [
+      "address",
+      "notes",
+      "providers",
+      "location_quality"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c036",
+    "clinic_name": "Viva Medical Clinic",
+    "type": "systemic_quality_audit",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://vivamedicalclinic.ca/",
+    "reviewer_note": "The clinic’s direct webpage lists a separate phone number for Dr. Osita Ohaeto.",
+    "changed_fields": [
+      "phone",
+      "providers",
+      "intake_detail"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c009",
+    "clinic_name": "Elmdale Health Centre — Building registration notice",
+    "type": "systemic_quality_audit",
+    "old_status": "accepting",
+    "new_status": "reported",
+    "source": "https://www.elmdalehealth.com/",
+    "reviewer_note": "The ElmdaleHealth website advertises a registration form for the building, but it is not a named doctor’s verified open roster.",
+    "changed_fields": [
+      "name",
+      "status",
+      "intake_verification",
+      "auto_updates_enabled",
+      "intake_detail",
+      "review_basis"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c011",
+    "clinic_name": "Oxford County Nurse Practitioner-Led Clinic — Tillsonburg",
+    "type": "systemic_quality_audit",
+    "old_status": "accepting",
+    "new_status": "limited",
+    "source": "https://www.ocnplc.ca/patient-information/new-patients/",
+    "reviewer_note": "Regional application is open but the NPLC official site labels the new Tillsonburg location as opening early 2027; no guarantee intake leads to immediate placement at Tillsonburg.",
+    "changed_fields": [
+      "status",
+      "intake_verification",
+      "auto_updates_enabled",
+      "intake_detail",
+      "clinic_url",
+      "review_basis"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c033",
+    "clinic_name": "Old South FHO — Dr. Spence & Dr. Goosheh",
+    "type": "systemic_quality_audit",
+    "old_status": "accepting",
+    "new_status": "reported",
+    "source": "https://www.ldam.ca/find-a-doctor",
+    "reviewer_note": "Clinic-specific page could not be independently opened. Local medical association lists named physicians; retain them as a lead, not a green clinic-verified opening.",
+    "changed_fields": [
+      "status",
+      "intake_verification",
+      "auto_updates_enabled",
+      "evidence_url",
+      "intake_detail",
+      "review_basis"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c019",
+    "clinic_name": "Valleyview Medical Centre — Colborne",
+    "type": "systemic_quality_audit",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://valleyviewmedical.ca/locations/brantford-colborne",
+    "reviewer_note": "Clinic’s own Colborne location has dedicated new-patient registration information.",
+    "changed_fields": [
+      "evidence_url",
+      "clinic_url",
+      "intake_detail"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "clinic_id": "c020",
+    "clinic_name": "Valleyview Medical Centre — Lynden",
+    "type": "systemic_quality_audit",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
+    "reviewer_note": "Clinic’s own Lynden location has dedicated new-patient registration information.",
+    "changed_fields": [
+      "intake_detail"
+    ]
   }
 ]

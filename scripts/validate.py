@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import sys,collections,datetime
-from evidence_policy import qualified_public_intake
+from evidence_policy import qualified_public_intake,host
 from common import load_data, STATUSES,CARE_MODELS,CITY_COORDS,km,is_url
 D=load_data(); xs=D['clinics']; assert len(xs)>0
 errors=[];ids=set();names=set();center=D['center']
@@ -13,6 +13,7 @@ for r in xs:
     names.add(key)
     if r['status'] not in STATUSES or r['status']=='needs_review':errors.append(f'bad stored status {id}')
     if r['status']=='accepting':
+        if not r.get('clinic_address_verified') or not __import__('re').search(r'\b\d{1,6}\b',r.get('address','')):errors.append(f'green record lacks previously checked office address {id}')
         v=r.get('intake_verification') or {}
         try:
             audit_day=datetime.date.fromisoformat(v['reviewed_on'])
@@ -29,6 +30,10 @@ for r in xs:
     else:
         dist=km(center['latitude'],center['longitude'],*CITY_COORDS[r['community']])
         if dist>75.01: errors.append(f'community outside boundary {id} ({dist:.1f} km)')
+    v=r.get('intake_verification') or {}
+    if v.get('tier') in ('clinic_first_party','program_general'):
+        if host(r.get('evidence_url')) != host(r.get('clinic_url')) or v.get('source_url') != r.get('evidence_url'):
+            errors.append(f'clinic/program evidence must belong to its organization {id}')
     if 'latitude' in r or 'longitude' in r:
         try:
             d=km(center['latitude'],center['longitude'],float(r['latitude']),float(r['longitude']))

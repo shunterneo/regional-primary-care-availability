@@ -2,8 +2,10 @@
 """Build privacy-preserving static site, DOCX directory, PDF directory from a single JSON database."""
 from __future__ import annotations
 import datetime, json, pathlib, html, sys, collections, os
+from zoneinfo import ZoneInfo
 from common import ROOT, STATUSES, CARE_MODELS, CITY_COORDS, load_data, effective_status, ongoing_eligible
 from evidence_policy import verification_display
+from audit_inventory import write_files
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -19,7 +21,8 @@ from reportlab.lib.units import inch
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
 
-today=datetime.date.today()
+today=datetime.datetime.now(ZoneInfo('America/Toronto')).date()
+quality_summary=write_files()
 site=ROOT/'site'; docs=site/'documents'; docs.mkdir(parents=True,exist_ok=True)
 D=load_data(); archived=[c for c in D['clinics'] if c.get('operating_status') in ('closed','archived')]; clinics=[c for c in D['clinics'] if c.get('operating_status') not in ('closed','archived')]; source_state=json.loads((ROOT/'data'/'source_state.json').read_text()); queue=json.loads((ROOT/'data'/'review_queue.json').read_text()); history=json.loads((ROOT/'data'/'review_history.json').read_text()); discovery=json.loads((ROOT/'data'/'discovery_queue.json').read_text()); discovery_state=json.loads((ROOT/'data'/'discovery_state.json').read_text())
 for c in clinics:
@@ -30,7 +33,7 @@ ORDER=['accepting','reported','limited','waitlist','not_accepting','needs_review
 clinics.sort(key=lambda c:(ORDER.index(c['display_status']),c['community'].lower(),c['name'].lower()))
 counts=collections.Counter(c['display_status'] for c in clinics)
 report={
- 'generated_on':today.isoformat(),'data_as_of':D.get('data_as_of',''),'count':len(clinics),'archived_count':len(archived),
+ 'generated_on':today.isoformat(),'data_as_of':D.get('data_as_of',''), 'audit_summary':quality_summary,'count':len(clinics),'archived_count':len(archived),
  'communities':len({c['community'] for c in clinics}), 'verified_green_count':counts.get('accepting',0), 'status_counts':dict(counts),'evidence_policy':'clinic-specific public source; maximum 21 days; no phone/roster confirmation',
  'care_model_counts':dict(collections.Counter(c['care_model'] for c in clinics)),
  'source_urls_monitored':len(source_state['sources']),'pending_source_reviews':len([r for r in queue['items'] if r.get('review_status')=='pending']),
@@ -64,6 +67,7 @@ def make_docx():
     p.style='Subtitle'
     doc.add_paragraph('Generated '+today.strftime('%B %-d, %Y')+'  |  Baseline source audit as of: '+D['data_as_of']+'  |  '+str(len(clinics))+' clinic/service listings across '+str(report['communities'])+' communities')
     doc.add_paragraph('IMPORTANT: Intake status is based on public information, not live telephone confirmation. An application does not guarantee attachment. Green requires a recent clinic-specific public intake notice (never just a directory or program-wide lead); it does not guarantee a roster space. Records become “Needs reconfirmation” when their review date expires.').italic=True
+    doc.add_paragraph(f'Quality audit: {quality_summary["records_examined"]} clinic/service records were checked for structural and source-integrity issues; {quality_summary["records_with_review_flags"]} have follow-up flags (including missing clinical intake evidence or office contact information). This does NOT mean all clinics were independently verified. See the downloadable audit CSV for the record-level review.').italic=True
     doc.add_paragraph('Care classification is separate from intake status. A walk-in appointment does not mean a physician or NP is accepting new patients for ongoing care. Combined clinics appear in ongoing-care listings with an explicit walk-in label. Map markers remain community-level estimates.')
     p=doc.add_paragraph('Directory key: ')
     for st in ORDER:
@@ -129,6 +133,7 @@ def make_pdf():
               ('WALK-IN ONLY — NO ATTACHMENT IMPLIED',lambda c:c['care_model']=='walk_in_only',False),
               ('SERVICE TYPE UNVERIFIED',lambda c:c['care_model']=='unverified',False)]
     story.append(Paragraph('A walk-in appointment is not registration with a family doctor. Mixed-service clinics are explicitly labeled; intake statuses relate to ongoing care only.',body))
+    story.append(Paragraph(f'Quality review: {quality_summary["records_examined"]} records structurally audited; {quality_summary["records_with_review_flags"]} have follow-up flags, often because intake or address has not been individually reconfirmed. Not a census or live telephone-confirmed availability.',body))
     for title_text,select,group_status in sections:
         subset=[c for c in clinics if select(c)]
         if not subset:continue
@@ -143,7 +148,7 @@ def make_pdf():
                     Paragraph('<b>Office:</b> '+e(c['address'])+'   <b>Care:</b> '+e(CARE_MODELS[c['care_model']])+'   <b>Type:</b> '+e(c['clinic_type'])+'   <b>Phone:</b> '+e(c.get('phone') or 'Not listed'),small),
                     Paragraph(e(c.get('intake_detail') or 'No current intake details'),body),
                     Paragraph('<b>Evidence level:</b> '+e(c['evidence_label'])+'   <b>Evidence checked:</b> '+e(c['public_evidence_reviewed'])+' (public only; not telephone verified)',small)]
-                if c.get('evidence_url'):lines.append(Paragraph('Source reviewed: '+e(c['last_reviewed'])+'  |  <link href="'+e(c['evidence_url'],quote=True)+'" color="#185B78">Supporting source</link>',small))
+                if c.get('evidence_url'):lines.append(Paragraph('Record last edited: '+e(c['last_reviewed'])+'  |  <link href="'+e(c['evidence_url'],quote=True)+'" color="#185B78">Supporting source</link>',small))
                 story.append(KeepTogether(lines))
     out=docs/'primary-care-directory.pdf'
     pd=SimpleDocTemplate(str(out),pagesize=(612,792),rightMargin=51,leftMargin=51,topMargin=54,bottomMargin=53,title='Regional Primary Care Directory')

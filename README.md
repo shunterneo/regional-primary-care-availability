@@ -2,6 +2,16 @@
 
 **An independent, public-information-only map and staff directory for family physician and nurse practitioner practices within 75 km (straight-line) of 96 Tillson Avenue, Tillsonburg, Ontario.** No employer account, work device, private client address, or identifiable patient information is required.
 
+
+## November 11 source-integrity audit and limitations
+
+The automated audit reviews **all 95 current records for consistency and source attribution**, and generates `site/documents/quality-audit.csv` so that unresolved items are visible. It is **not** a claim that every office was checked by telephone, or that every recorded address and clinician roster is current. The initial audited baseline has **16 clinic-published application opportunities**, **15 regional reports**, **5 limited**, **6 waitlist**, **3 explicitly not accepting**, and **50 unknown**. Many of the 95 records have at least one follow-up flag, frequently because no direct intake statement or recent independently verified office information is available.
+
+Hard gates on every GitHub build now reject a first-party/program link pointing to a different organization's site, reject source/evidence mismatches, require a source-checked civic address for green status, and prevent unverified walk-in intake from being classified as ongoing primary-care attachment. The user-facing site labels regional sources as such instead of deceptively calling them clinic intake evidence. If a webpage is inaccessible, status is not changed to closed; uncertainty remains visible.
+
+The optional automated publishing workflow cannot guarantee future site accuracy. Confirm with clinics before advising someone that a roster space exists. See `AUDIT_REPORT.md` for specific corrected cases.
+
+
 ## Current state and honest boundaries
 
 - **Built and locally tested:** A standalone interactive clinic overview, one verified-status JSON database, generated DOCX/PDF directories, automated official-source change detection, broader news-based clinic discovery, optional AI review assistance, a review-notification workflow, and a manual approval form that republishes approved changes.

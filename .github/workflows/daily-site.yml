@@ -63,6 +63,7 @@ jobs:
           python tests/directory_discovery_fixture_test.py
           python tests/auto_publication_test.py
           python tests/evidence_policy_test.py
+          python tests/inventory_integrity_test.py
           python tests/approval_fixture_test.py
           node tests/site_js_smoke.cjs
       - name: Create one GitHub review issue for NEW findings, if any
