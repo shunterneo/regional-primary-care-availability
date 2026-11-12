@@ -1,3 +1,13 @@
+## Follow-through update — November 11, 2026 (supersedes counts below)
+
+The remaining **47** records without dated individual intake reviews now have source-linked outcomes; **10 intake categories changed**. See [the full record-by-record review](audits/intake-follow-through-2026-11-11.md). All **97** entries now carry a public-review outcome, including unknown or inconclusive outcomes; this does **not** make all 97 verified openings.
+
+Current display counts: **15 applications advertised, 18 regional reports, 6 limited intake, 9 waitlists, 7 not accepting, 42 unknown**. Structural follow-up flags: **62** records; critical failures: **0**. There remain **three unresolved address claims** and **four missing direct office phone numbers**. The extra missing phone is the Centre for Family Medicine Joseph Street entry: its previously displayed number belongs to Andrew Street and was removed.
+
+Public-source review of the previously unreviewed records is complete. Telephone confirmation, a comprehensive provider census, and exact building coordinates remain incomplete. Do not describe this directory as fully verified or exhaustive.
+
+---
+
 # Regional Primary Care Availability Hub — targeted integrity audit
 
 **Assessment date:** November 11, 2026 · **Centre:** 96 Tillson Avenue, Tillsonburg · **Area:** 75 km straight-line radius.
