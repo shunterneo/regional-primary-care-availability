@@ -1,3 +1,5 @@
+> Superseded in part by [continued audit and site editing/export update](continued-audit-and-site-update-2026-11-12.md). The report below describes the earlier 122-record pass.
+
 # Completion audit — 12 November 2026 UTC
 
 ## Result
@@ -57,7 +59,7 @@ Current categories: 15 applications advertised, 20 regional reports, 8 limited i
 | c118 | SOAHAC — Chippewa of the Thames (Muncey) | unknown | [Evidence](https://www.soahac.on.ca/locations/chippewa-of-the-thames) |
 | c119 | SOAHAC — Waterloo Wellington (Cambridge) | limited | [Evidence](https://www.soahac.on.ca/locations/waterloo-wellington) |
 | c120 | Woolwich Community Health Centre — Wellesley (Wellesley) | waitlist | [Evidence](https://wchc.on.ca/registered-client-services/accepting-new-patients/) |
-| c122 | Woolwich Community Health Centre — New Hamburg (New Hamburg) | waitlist | [Evidence](https://wchc.on.ca/registered-client-services/accepting-new-patients/) |
+| c121 | Woolwich Community Health Centre — New Hamburg (New Hamburg) | waitlist | [Evidence](https://wchc.on.ca/registered-client-services/accepting-new-patients/) |
 | c122 | Nith Valley Family Practice (New Hamburg) | unknown | [Evidence](https://www.nvfp.ca/) |
 
 ## Remaining external dependencies

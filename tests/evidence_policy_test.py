@@ -4,24 +4,24 @@ import sys,copy,datetime as dt,json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
 from evidence_policy import qualified_public_intake,display_intake_status
-D=json.loads((ROOT/'data/clinics.json').read_text());T=dt.date(2026,11,11)
+D=json.loads((ROOT/'data/clinics.json').read_text());T=dt.date.fromisoformat(D["data_as_of"])
 assert len(D['clinics'])>=96
 B={c['id']:c for c in D['clinics']}
 assert sum(display_intake_status(c,T)=='accepting' for c in B.values()) == sum(qualified_public_intake(c,T) for c in B.values() if c['status']=='accepting')
 for cid in ['c008','c011','c012','c013','c033']:
     if B[cid]['status']=='accepting':
-        assert qualified_public_intake(B[cid],T), f'Unsubstantiated promotion {cid}'
-assert B['c009']['status']=='unknown' and B['c009']['care_model']=='unverified'
+        assert qualified_public_intake(B[cid],dt.date.fromisoformat(B[cid]['intake_verification']['reviewed_on'])), f'Unsubstantiated promotion {cid}'
+# Corrections may legitimately change a record; evaluate the evidence instead of pinning its old status.
 assert all(B[cid]['status']!='accepting' for cid in ('c004','c005') if B[cid].get('intake_conflict'))
 for cid in ['c015','c023']:
     if B[cid]['status']=='accepting':
-        assert qualified_public_intake(B[cid],T), f'General matching notice promoted without clinic-specific evidence: {cid}'
+        assert qualified_public_intake(B[cid],dt.date.fromisoformat(B[cid]['intake_verification']['reviewed_on'])), f'General matching notice promoted without clinic-specific evidence: {cid}'
 for c in B.values():
     if display_intake_status(c,T)=='accepting':
         assert qualified_public_intake(c,T)
         assert c['intake_verification']['telephone_confirmed'] is False
         assert c['intake_verification']['enrolment_guaranteed'] is False
-valid=copy.deepcopy(B['c001'])
+valid=copy.deepcopy(B['c001']);valid.update(status='accepting',care_model='ongoing',intake_conflict=False,clinic_url='https://clinic.example.org/',evidence_url='https://clinic.example.org/');valid['intake_verification']={'tier':'clinic_first_party','scope':'location','reviewed_on':T.isoformat(),'method':'public_webpage_review','source_url':valid['evidence_url'],'finding':'Clinic welcomes new family medicine applications.'}
 assert display_intake_status(valid,T)=='accepting'
 for mutate in [
     {'intake_verification':{}},

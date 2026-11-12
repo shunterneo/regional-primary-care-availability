@@ -1780,5 +1780,13 @@
     "source": "https://www.lhsc.on.ca/patients-visitors/victoria-family-medical-centre",
     "type": "contact_correction",
     "reviewer_note": "Direct Victoria Family Medical Centre number published by LHSC; the previously listed hospital extension was for Family Health Team appointments only."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c011",
+    "old_status": "reported",
+    "new_status": "accepting",
+    "reason": "User flagged omission; live clinic-linked Ocean form explicitly says Tillsonburg site only.",
+    "source_url": "https://ocean.cognisantmd.com/intake/IntakePortal.html?eReqRef=d5e47774-8987-4e5a-b069-f8bbf23fd9d9"
   }
 ]

@@ -14,6 +14,15 @@ on:
     - cron: '17 8 * * *'
       timezone: America/Toronto
   workflow_dispatch:
+    inputs:
+      clinic_edit:
+        description: 'Paste the reviewed edit code from the site (leave empty for research only)'
+        required: false
+        type: string
+      confirmation:
+        description: 'To save an edit, type PUBLISH followed by its clinic ID (e.g. PUBLISH c011)'
+        required: false
+        type: string
 permissions:
   contents: write
   pages: write
@@ -36,8 +45,14 @@ jobs:
           cache: pip
       - name: Install project dependencies
         run: python -m pip install -r requirements.txt
+      - name: Apply explicitly confirmed site edit
+        if: github.event_name == 'workflow_dispatch' && inputs.clinic_edit != ''
+        env:
+          CLINIC_EDIT: ${{ inputs.clinic_edit }}
+          EDIT_CONFIRMATION: ${{ inputs.confirmation }}
+        run: python scripts/apply_site_edit.py
       - name: Check official clinic sources and discover possible new leads
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[full-audit]')
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.clinic_edit == '') || contains(github.event.head_commit.message, '[full-audit]')
         run: |
           python scripts/check_sources.py
           python scripts/discover_clinics.py
@@ -46,7 +61,7 @@ jobs:
           python scripts/official_registry.py
           python scripts/auto_publish.py
       - name: Optional AI triage of PUBLIC leads (never edits intake statuses)
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.clinic_edit == '')
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-5.4
@@ -65,9 +80,10 @@ jobs:
           python tests/evidence_policy_test.py
           python tests/inventory_integrity_test.py
           python tests/approval_fixture_test.py
+          python tests/site_edit_test.py
           node tests/site_js_smoke.cjs
       - name: Create one GitHub review issue for NEW findings, if any
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.clinic_edit == '')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

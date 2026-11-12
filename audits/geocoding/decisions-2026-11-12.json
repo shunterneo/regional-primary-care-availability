@@ -1,0 +1,813 @@
+[
+  {
+    "id": "c002",
+    "query": "207 Greenwich Street, Brantford, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 217055105,
+    "matched_address": "207, Greenwich Street, Brantford, Southwestern Ontario, Ontario, N3S 3N2, Canada"
+  },
+  {
+    "id": "c003",
+    "query": "140 Hespeler Road, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 401040361,
+    "matched_address": "140, Hespeler Road, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 3G9, Canada"
+  },
+  {
+    "id": "c006",
+    "query": "990 Gainsborough Road, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 187870192,
+    "matched_address": "990, Gainsborough Road, London, Southwestern Ontario, Ontario, N6H 5L5, Canada"
+  },
+  {
+    "id": "c007",
+    "query": "130 Thompson Road, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 190958508,
+    "matched_address": "130, Thompson Road, London, Southwestern Ontario, Ontario, N5Z 2Z3, Canada"
+  },
+  {
+    "id": "c008",
+    "query": "460 Springbank Drive, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 1993164397,
+    "matched_address": "460, Springbank Drive, London, Southwestern Ontario, Ontario, N6J 1G8, Canada"
+  },
+  {
+    "id": "c009",
+    "query": "25 Elm Street, St. Thomas, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 196174893,
+    "matched_address": "Elmdale Health Centre, 25, Elm Street, St. Thomas, Southwestern Ontario, Ontario, N5R 3B9, Canada"
+  },
+  {
+    "id": "c010",
+    "query": "25 Elm Street, St. Thomas, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 196174893,
+    "matched_address": "Elmdale Health Centre, 25, Elm Street, St. Thomas, Southwestern Ontario, Ontario, N5R 3B9, Canada"
+  },
+  {
+    "id": "c014",
+    "query": "925 Dundas Street, Woodstock, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 279556329,
+    "matched_address": "925, Dundas Street, Woodstock, Oxford County, Southwestern Ontario, Ontario, N4S 0A5, Canada"
+  },
+  {
+    "id": "c016",
+    "query": "221 Brant Avenue, Brantford, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2263695278,
+    "matched_address": "221, Brant Avenue, Brantford, Southwestern Ontario, Ontario, N3T 3H9, Canada"
+  },
+  {
+    "id": "c017",
+    "query": "265 King George Road, Brantford, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2259099378,
+    "matched_address": "265, King George Road, Tranquility, Brantford, Southwestern Ontario, Ontario, N3R 6Y1, Canada"
+  },
+  {
+    "id": "c018",
+    "query": "250 King George Road, Brantford, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2259098073,
+    "matched_address": "250, King George Road, Tranquility, Brantford, Southwestern Ontario, Ontario, N3R 6Y1, Canada"
+  },
+  {
+    "id": "c020",
+    "query": "175 Lynden Road, Brantford, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2266399348,
+    "matched_address": "175, Lynden Road, Brantford, Southwestern Ontario, Ontario, N3T 5W4, Canada"
+  },
+  {
+    "id": "c021",
+    "query": "182 Pinebush Road, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 139636280,
+    "matched_address": "182, Pinebush Road, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 7H8, Canada"
+  },
+  {
+    "id": "c023",
+    "query": "1145 Concession Road, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 401082297,
+    "matched_address": "1145, Concession Road, Preston, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3H 4L6, Canada"
+  },
+  {
+    "id": "c024",
+    "query": "525 Saginaw Parkway, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 401040084,
+    "matched_address": "525, Saginaw Parkway, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1T 1W9, Canada"
+  },
+  {
+    "id": "c025",
+    "query": "512 Coronation Boulevard, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 4035137020,
+    "matched_address": "512, Coronation Boulevard, Galt, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 8L4, Canada"
+  },
+  {
+    "id": "c026",
+    "query": "190 St Andrews Street, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 254448166,
+    "matched_address": "190, St. Andrews Street, Galt, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1S 3H1, Canada"
+  },
+  {
+    "id": "c027",
+    "query": "940 Jamieson Parkway, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 12813327132,
+    "matched_address": "Townline Walk-in & Medical Clinic, 940, Jamieson Parkway, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3C 4N6, Canada"
+  },
+  {
+    "id": "c030",
+    "query": "440 Boler Road, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 1983653080,
+    "matched_address": "440, Boler Road, London, Southwestern Ontario, Ontario, N6K 3R6, Canada"
+  },
+  {
+    "id": "c032",
+    "query": "204 Hamilton Road, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2016930355,
+    "matched_address": "204, Hamilton Road, London, Southwestern Ontario, Ontario, N5Z 4M9, Canada"
+  },
+  {
+    "id": "c033",
+    "query": "460 Springbank Drive, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 1993164397,
+    "matched_address": "460, Springbank Drive, London, Southwestern Ontario, Ontario, N6J 1G8, Canada"
+  },
+  {
+    "id": "c034",
+    "query": "11 Base Line Road East, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 1993162209,
+    "matched_address": "11, Base Line Road East, Cleardale, London, Southwestern Ontario, Ontario, N6J 2M8, Canada"
+  },
+  {
+    "id": "c035",
+    "query": "272 Oxford Street West, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 1989050069,
+    "matched_address": "272, Oxford Street West, London, Southwestern Ontario, Ontario, N6H 1S9, Canada"
+  },
+  {
+    "id": "c036",
+    "query": "149 Oxford Street East, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 188285568,
+    "matched_address": "149, Oxford Street East, London, Southwestern Ontario, Ontario, N6A 3H1, Canada"
+  },
+  {
+    "id": "c037",
+    "query": "1051 Wonderland Road South, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 1993162158,
+    "matched_address": "1051, Wonderland Road South, London, Southwestern Ontario, Ontario, N6J 4G7, Canada"
+  },
+  {
+    "id": "c039",
+    "query": "659 Dundas Street, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 5372894221,
+    "matched_address": "London InterCommunity Health Centre, 659, Dundas Street, London, Southwestern Ontario, Ontario, N5W 2Y8, Canada"
+  },
+  {
+    "id": "c041",
+    "query": "602 Queens Avenue, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2016934927,
+    "matched_address": "602, Queens Avenue, London, Southwestern Ontario, Ontario, N6B 1Y8, Canada"
+  },
+  {
+    "id": "c043",
+    "query": "167 Hespeler Road, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 401040100,
+    "matched_address": "167, Hespeler Road, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 3G9, Canada"
+  },
+  {
+    "id": "c048",
+    "query": "96 Tillson Avenue, Tillsonburg, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 564144865,
+    "matched_address": "The Livingston Centre, 96, Tillson Avenue, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 3A1, Canada"
+  },
+  {
+    "id": "c051",
+    "query": "147 Main Street, Ailsa Craig, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 5583423925,
+    "matched_address": "147, Ailsa Craig Main Street, Ailsa Craig, North Middlesex, Middlesex County, Southwestern Ontario, Ontario, N0M 1A0, Canada"
+  },
+  {
+    "id": "c052",
+    "query": "113 John Street South, Aylmer, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 473613031,
+    "matched_address": "113, John Street South, Aylmer, Elgin County, Southwestern Ontario, Ontario, N5H 2C3, Canada"
+  },
+  {
+    "id": "c055",
+    "query": "460 Hespeler Road, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 4035136814,
+    "matched_address": "460, Hespeler Road, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 7H7, Canada"
+  },
+  {
+    "id": "c056",
+    "query": "50 Hopeton Street, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 1334328094,
+    "matched_address": "50, Hopeton Street, Grand River, Galt, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 5R5, Canada"
+  },
+  {
+    "id": "c057",
+    "query": "1718 King Street East, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 4035554429,
+    "matched_address": "1718, King Street East, Preston, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3H 3R6, Canada"
+  },
+  {
+    "id": "c060",
+    "query": "29 Noxon Street, Ingersoll, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 781407458,
+    "matched_address": "Alexandra Hospital, 29, Noxon Street, Ingersoll, Oxford County, Southwestern Ontario, Ontario, N5C 3V6, Canada"
+  },
+  {
+    "id": "c061",
+    "query": "16 Andrew Street, Kitchener, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 839405173,
+    "matched_address": "16, Andrew Street, K-W Hospital, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2G 1C9, Canada"
+  },
+  {
+    "id": "c062",
+    "query": "1228 Commissioners Road West, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 187738618,
+    "matched_address": "1228, Commissioners Road West, London, Southwestern Ontario, Ontario, N6K 2K1, Canada"
+  },
+  {
+    "id": "c063",
+    "query": "450 Central Avenue, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 140785762,
+    "matched_address": "450, Central Avenue, London, Southwestern Ontario, Ontario, N6B 2B3, Canada"
+  },
+  {
+    "id": "c066",
+    "query": "312 Oxford Street West, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 188285392,
+    "matched_address": "312, Oxford Street West, London, Southwestern Ontario, Ontario, N6H 4N6, Canada"
+  },
+  {
+    "id": "c067",
+    "query": "320 Adelaide Street South, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2015444813,
+    "matched_address": "320, Adelaide Street South, London, Southwestern Ontario, Ontario, N5Z 3H9, Canada"
+  },
+  {
+    "id": "c068",
+    "query": "346 Platt's Lane, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 188286913,
+    "matched_address": "346, Platt's Lane, London, Southwestern Ontario, Ontario, N6G 1B4, Canada"
+  },
+  {
+    "id": "c069",
+    "query": "60 Chesley Avenue, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 191113221,
+    "matched_address": "60, Chesley Avenue, London, Southwestern Ontario, Ontario, N5Z 1N1, Canada"
+  },
+  {
+    "id": "c073",
+    "query": "11 Stover Street North, Norwich, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 201197498,
+    "matched_address": "11, Stover Street North, Norwich, Oxford County, Southwestern Ontario, Ontario, N0J 1P0, Canada"
+  },
+  {
+    "id": "c074",
+    "query": "32 South Court Street East, Norwich, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2111448778,
+    "matched_address": "32, South Court Street East, Norwich, Oxford County, Southwestern Ontario, Ontario, N0J 1P0, Canada"
+  },
+  {
+    "id": "c078",
+    "query": "294 Talbot Street, St. Thomas, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 778995341,
+    "matched_address": "294, Talbot Street, Downtown St. Thomas, St. Thomas, Southwestern Ontario, Ontario, N5R 3P1, Canada"
+  },
+  {
+    "id": "c085",
+    "query": "74 Front Street East, Strathroy, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 183514151,
+    "matched_address": "74, Front Street East, Strathroy, Strathroy-Caradoc, Middlesex County, Southwestern Ontario, Ontario, N7G 1P6, Canada"
+  },
+  {
+    "id": "c090",
+    "query": "200 Broadway Street, Tillsonburg, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2111696263,
+    "matched_address": "200, Broadway Street, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 3P9, Canada"
+  },
+  {
+    "id": "c092",
+    "query": "23 Main Street South, Waterford, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 204073902,
+    "matched_address": "23, Main Street South, Waterford, Norfolk County, Southwestern Ontario, Ontario, N0E 1Y0, Canada"
+  },
+  {
+    "id": "c095",
+    "query": "600 Princess Street, Woodstock, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2323818552,
+    "matched_address": "600, Princess Street, Woodstock, Oxford County, Southwestern Ontario, Ontario, N4S 7Y3, Canada"
+  },
+  {
+    "id": "c097",
+    "query": "600 Princess Street, Woodstock, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2323818552,
+    "matched_address": "600, Princess Street, Woodstock, Oxford County, Southwestern Ontario, Ontario, N4S 7Y3, Canada"
+  },
+  {
+    "id": "c098",
+    "query": "11 George Street South, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 401097963,
+    "matched_address": "11, George Street South, Galt, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1S 2K6, Canada"
+  },
+  {
+    "id": "c099",
+    "query": "26 Forbes Street, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 180347923,
+    "matched_address": "26, Forbes Street, Hespeler, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3C 2A8, Canada"
+  },
+  {
+    "id": "c103",
+    "query": "250 Laurelwood Drive, Waterloo, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 502224327,
+    "matched_address": "The Village at University Gates, 250, Laurelwood Drive, Waterloo, Region of Waterloo, Southwestern Ontario, Ontario, N2J 0E2, Canada"
+  },
+  {
+    "id": "c104",
+    "query": "435 The Boardwalk, Waterloo, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 835426819,
+    "matched_address": "Medical Centre 2, 435, The Boardwalk, Waterloo, Region of Waterloo, Southwestern Ontario, Ontario, N2T 0C2, Canada"
+  },
+  {
+    "id": "c106",
+    "query": "25 Curtis Avenue North, Paris, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 215853544,
+    "matched_address": "25, Curtis Avenue North, Paris, Brant County, Southwestern Ontario, Ontario, N3L 3H3, Canada"
+  },
+  {
+    "id": "c107",
+    "query": "45 Stanley Street, Ayr, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 1588987234,
+    "matched_address": "45, Stanley Street, Ayr, North Dumfries, Region of Waterloo, Southwestern Ontario, Ontario, N0B 1E0, Canada"
+  },
+  {
+    "id": "c108",
+    "query": "2 Sunnyside Drive, St. George, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2253236696,
+    "matched_address": "2, Sunnyside Drive, St George, Brant County, Southwestern Ontario, Ontario, N0E 1N0, Canada"
+  },
+  {
+    "id": "c109",
+    "query": "359 Talbot Street, St. Thomas, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 772949465,
+    "matched_address": "Central Community Health Centre, 359, Talbot Street, Downtown St. Thomas, St. Thomas, Southwestern Ontario, Ontario, N5R 3P1, Canada"
+  },
+  {
+    "id": "c110",
+    "query": "268 Maiden Lane, St. Marys, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 5583476994,
+    "matched_address": "268, Maiden Lane, St. Marys, Southwestern Ontario, Ontario, N4X 1A1, Canada"
+  },
+  {
+    "id": "c111",
+    "query": "1745 Chiefswood Road, Ohsweken, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 218153205,
+    "matched_address": "1745, Chiefswood Road, Ohsweken /  Oshw\u00e9:ken, Southwestern Ontario, Ontario, N3W 2B2, Canada"
+  },
+  {
+    "id": "c113",
+    "query": "250 Argyle Street North, Caledonia, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 836851104,
+    "matched_address": "250, Argyle Street North, Caledonia, Haldimand County, Southwestern Ontario, Ontario, N3W 1K9, Canada"
+  },
+  {
+    "id": "c115",
+    "query": "55 Argyle Street North, Caledonia, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 688543026,
+    "matched_address": "55, Argyle Street North, Caledonia, Haldimand County, Southwestern Ontario, Ontario, N3W 1B9, Canada"
+  },
+  {
+    "id": "c117",
+    "query": "493 Dundas Street, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 191111976,
+    "matched_address": "493, Dundas Street, London, Southwestern Ontario, Ontario, N6B 1Y3, Canada"
+  },
+  {
+    "id": "c119",
+    "query": "745 Coronation Boulevard, Cambridge, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 663880906,
+    "matched_address": "745, Coronation Boulevard, Preston, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 0B6, Canada"
+  },
+  {
+    "id": "c120",
+    "query": "1401 Queen's Bush Road, Wellesley, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 12087905827,
+    "matched_address": "Bill Gies Recreation Centre, 1401, Queen's Bush Road, Wellesley, Region of Waterloo, Southwestern Ontario, Ontario, N0B 2T0, Canada"
+  },
+  {
+    "id": "c121",
+    "query": "163 Peel Street, New Hamburg, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 401006131,
+    "matched_address": "163, Peel Street, New Hamburg, Wilmot, Region of Waterloo, Southwestern Ontario, Ontario, N3A 1E3, Canada"
+  },
+  {
+    "id": "c005",
+    "query": "770 South Wenige Drive, London, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c011",
+    "query": "671 Broadway Street, Tillsonburg, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "Multiple address candidates more than 150 m apart"
+  },
+  {
+    "id": "c012",
+    "outcome": "withheld",
+    "reason": "Office address unresolved"
+  },
+  {
+    "id": "c019",
+    "query": "603 Colborne Street East, Brantford, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c022",
+    "query": "350 Conestoga Boulevard, Cambridge, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c028",
+    "query": "1807 Wonderland Road North, London, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c029",
+    "outcome": "withheld",
+    "reason": "Office address unresolved"
+  },
+  {
+    "id": "c031",
+    "query": "1560 Dundas Street, London, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c047",
+    "outcome": "withheld",
+    "reason": "Office address unresolved"
+  },
+  {
+    "id": "c049",
+    "query": "527 Adelaide Street, Woodstock, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c053",
+    "query": "418 Talbot Street West, Aylmer, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c059",
+    "query": "36 Heritage Drive, Ilderton, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c065",
+    "query": "1205 Oxford Street West, London, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c070",
+    "query": "785 Wonderland Road South, London, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "Multiple address candidates more than 150 m apart"
+  },
+  {
+    "id": "c071",
+    "query": "785 Wonderland Road South, London, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "Multiple address candidates more than 150 m apart"
+  },
+  {
+    "id": "c072",
+    "query": "22262 Mill Road, Mount Brydges, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c077",
+    "query": "417 Wellington Street, St. Thomas, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c079",
+    "query": "230 First Avenue, St. Thomas, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c080",
+    "query": "460 Wellington Street, St. Thomas, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c081",
+    "query": "9254 Plank Road, Straffordville, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c084",
+    "query": "444 Douro Street, Stratford, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c087",
+    "query": "278 Metcalfe Street West, Strathroy, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c089",
+    "query": "594 Broadway Street, Tillsonburg, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c091",
+    "query": "81 Fox Alley, Tillsonburg, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c094",
+    "query": "645 Finkle Street, Woodstock, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c100",
+    "query": "350 Conestoga Boulevard, Cambridge, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c101",
+    "query": "350 Conestoga Boulevard, Cambridge, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c102",
+    "query": "10 B Victoria Street South, Kitchener, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c105",
+    "query": "3710A Nafziger Road, Wellesley, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c112",
+    "query": "75 Parkview Road, Hagersville, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "Multiple address candidates more than 150 m apart"
+  },
+  {
+    "id": "c114",
+    "query": "34 Richard William Drive, Caledonia, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c116",
+    "query": "3773 6th Line, Ohsweken, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c118",
+    "query": "77 Anishinaabeg Drive, Muncey, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c122",
+    "query": "10 Waterloo Street, New Hamburg, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c123",
+    "query": "25 Base Line Road West, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 1993163269,
+    "matched_address": "25, Base Line Road West, London, Southwestern Ontario, Ontario, N6J 1V1, Canada"
+  },
+  {
+    "id": "c124",
+    "query": "1144 Courtland Avenue East, Kitchener, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 11033634501,
+    "matched_address": "1144, Courtland Avenue East, Vanier, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2C 2H5, Canada"
+  },
+  {
+    "id": "c125",
+    "query": "414 Main Street, Port Dover, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 67468439,
+    "matched_address": "414, Main Street, Port Dover, Norfolk County, Southwestern Ontario, Ontario, N0A 1N0, Canada"
+  },
+  {
+    "id": "c126",
+    "query": "410 Main Street, Port Dover, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 67468439,
+    "matched_address": "410, Main Street, Port Dover, Norfolk County, Southwestern Ontario, Ontario, N0A 1N0, Canada"
+  },
+  {
+    "id": "c127",
+    "query": "285 Bridge Street, Port Stanley, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c128",
+    "query": "285 Bridge Street, Port Stanley, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c129",
+    "query": "4327 Hamilton Road, Dorchester, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "node",
+    "osm_id": 2029270638,
+    "matched_address": "4327, Hamilton Road, Dorchester, Thames Centre, Middlesex County, Southwestern Ontario, Ontario, N0L 1G3, Canada"
+  },
+  {
+    "id": "c130",
+    "query": "4036 Catherine Street, Dorchester, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 191616602,
+    "matched_address": "4036, Catherine Street, Dorchester, Thames Centre, Middlesex County, Southwestern Ontario, Ontario, N0L 1G0, Canada"
+  },
+  {
+    "id": "c131",
+    "query": "21816 Fairview Road, Thorndale, Ontario, Canada",
+    "outcome": "withheld",
+    "reason": "No matching house number, street and community"
+  },
+  {
+    "id": "c132",
+    "query": "1635 Hyde Park Road, London, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 161562021,
+    "matched_address": "1635, Hyde Park Road, London, Southwestern Ontario, Ontario, N6H 5L5, Canada"
+  },
+  {
+    "id": "c133",
+    "query": "3 Maple Avenue North, Burford, Ontario, Canada",
+    "outcome": "matched",
+    "osm_type": "way",
+    "osm_id": 214858819,
+    "matched_address": "3, Maple Avenue North, Burford, Brant County, Southwestern Ontario, Ontario, N0E 1A0, Canada"
+  }
+]

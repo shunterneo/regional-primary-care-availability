@@ -24,6 +24,7 @@ from reportlab.pdfbase import pdfmetrics
 today=datetime.datetime.now(datetime.timezone.utc).date()
 quality_summary=write_files()
 site=ROOT/'site'; docs=site/'documents'; docs.mkdir(parents=True,exist_ok=True)
+(docs/'font-license.txt').write_text((ROOT/'scripts/fonts/LICENSE.txt').read_text())
 D=load_data(); archived=[c for c in D['clinics'] if c.get('operating_status') in ('closed','archived')]; clinics=[c for c in D['clinics'] if c.get('operating_status') not in ('closed','archived')]; source_state=json.loads((ROOT/'data'/'source_state.json').read_text()); queue=json.loads((ROOT/'data'/'review_queue.json').read_text()); history=json.loads((ROOT/'data'/'review_history.json').read_text()); discovery=json.loads((ROOT/'data'/'discovery_queue.json').read_text()); discovery_state=json.loads((ROOT/'data'/'discovery_state.json').read_text())
 for c in clinics:
     c['display_status']=effective_status(c,today)
@@ -69,7 +70,7 @@ def make_docx():
     doc.add_paragraph('Generated '+today.strftime('%B %-d, %Y')+'  |  Baseline source audit as of: '+D['data_as_of']+'  |  '+str(len(clinics))+' clinic/service listings across '+str(report['communities'])+' communities')
     doc.add_paragraph('IMPORTANT: Intake status is based on public information, not live telephone confirmation. An application does not guarantee attachment. Green requires a recent clinic-specific public intake notice (never just a directory or program-wide lead); it does not guarantee a roster space. Records become “Needs reconfirmation” when their review date expires.').italic=True
     doc.add_paragraph(f'Quality audit: {quality_summary["records_examined"]} clinic/service records were checked for structural and source-integrity issues; {quality_summary["records_with_review_flags"]} have follow-up flags (including missing clinical intake evidence or office contact information). This does NOT mean all clinics were independently verified. See the downloadable audit CSV for the record-level review.').italic=True
-    doc.add_paragraph('Care classification is separate from intake status. A walk-in appointment does not mean a physician or NP is accepting new patients for ongoing care. Combined clinics appear in ongoing-care listings with an explicit walk-in label. Map markers remain community-level estimates.')
+    doc.add_paragraph('Care classification is separate from intake status. A walk-in appointment does not mean a physician or NP is accepting new patients for ongoing care. Combined clinics appear in ongoing-care listings with an explicit walk-in label. The website offers community and clinic-location views. Sourced building/planning points are distinguished from approximate community locations; neither identifies entrances or suites.')
     p=doc.add_paragraph('Directory key: ')
     for st in ORDER:
         if counts[st]:
@@ -168,6 +169,8 @@ site_json={
 # Avoid literal closing script tags in inlined source text.
 jsdata=json.dumps(site_json,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
 template=(ROOT/'scripts'/'site_template.html').read_text(encoding='utf8')
+template=template.replace('// PDF_FONT_JS','const PDF_FONT='+ (ROOT/'scripts/fonts/pdf-font.json').read_text().strip()+';')
+template=template.replace('// FEATURES_JS',(ROOT/'scripts/site_features.js').read_text())
 html_text=template.replace('<!--INLINE_DATA-->',f'<script id="clinic-data" type="application/json">{jsdata}</script>')
 (site/'index.html').write_text(html_text,encoding='utf-8')
 print(f'Site: {site / "index.html"} ({len(clinics)} clinics, {len(counts)} statuses)')

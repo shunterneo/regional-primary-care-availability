@@ -1,0 +1,5417 @@
+{
+  "207 Greenwich Street, Brantford, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 57025742,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 217055105,
+        "lat": "43.1358962",
+        "lon": "-80.2588693",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "207, Greenwich Street, Brantford, Southwestern Ontario, Ontario, N3S 3N2, Canada",
+        "address": {
+          "house_number": "207",
+          "road": "Greenwich Street",
+          "city": "Brantford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3S 3N2",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1358462",
+          "43.1359462",
+          "-80.2589193",
+          "-80.2588193"
+        ]
+      }
+    ]
+  },
+  "140 Hespeler Road, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 45784134,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 401040361,
+        "lat": "43.3789397",
+        "lon": "-80.3193588",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "140, Hespeler Road, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 3G9, Canada",
+        "address": {
+          "house_number": "140",
+          "road": "Hespeler Road",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 3G9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3788897",
+          "43.3789897",
+          "-80.3194088",
+          "-80.3193088"
+        ]
+      }
+    ]
+  },
+  "770 South Wenige Drive, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368993830,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 252342726,
+        "lat": "43.0453375",
+        "lon": "-81.2470006",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "tertiary",
+        "name": "South Wenige Drive",
+        "display_name": "South Wenige Drive, London, Southwestern Ontario, Ontario, N5X 4B1, Canada",
+        "address": {
+          "road": "South Wenige Drive",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5X 4B1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0448030",
+          "43.0511748",
+          "-81.2530943",
+          "-81.2427026"
+        ]
+      },
+      {
+        "place_id": 367947659,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1467498772,
+        "lat": "43.0514107",
+        "lon": "-81.2437651",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "tertiary",
+        "name": "South Wenige Drive",
+        "display_name": "South Wenige Drive, London, Southwestern Ontario, Ontario, N5X 4M5, Canada",
+        "address": {
+          "road": "South Wenige Drive",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5X 4M5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0511748",
+          "43.0516482",
+          "-81.2438878",
+          "-81.2436392"
+        ]
+      }
+    ]
+  },
+  "990 Gainsborough Road, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47700151,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 187870192,
+        "lat": "42.9994347",
+        "lon": "-81.3292998",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "990, Gainsborough Road, London, Southwestern Ontario, Ontario, N6H 5L5, Canada",
+        "address": {
+          "house_number": "990",
+          "road": "Gainsborough Road",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6H 5L5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9993847",
+          "42.9994847",
+          "-81.3293498",
+          "-81.3292498"
+        ]
+      }
+    ]
+  },
+  "130 Thompson Road, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47812418,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 190958508,
+        "lat": "42.9673167",
+        "lon": "-81.2254201",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "130, Thompson Road, London, Southwestern Ontario, Ontario, N5Z 2Z3, Canada",
+        "address": {
+          "house_number": "130",
+          "road": "Thompson Road",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5Z 2Z3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9672667",
+          "42.9673667",
+          "-81.2254701",
+          "-81.2253701"
+        ]
+      }
+    ]
+  },
+  "460 Springbank Drive, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 370558954,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1993164397,
+        "lat": "42.9671305",
+        "lon": "-81.2855056",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "460, Springbank Drive, London, Southwestern Ontario, Ontario, N6J 1G8, Canada",
+        "address": {
+          "house_number": "460",
+          "road": "Springbank Drive",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6J 1G8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9670805",
+          "42.9671805",
+          "-81.2855556",
+          "-81.2854556"
+        ]
+      }
+    ]
+  },
+  "25 Elm Street, St. Thomas, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 370438173,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 196174893,
+        "lat": "42.7642748",
+        "lon": "-81.1964396",
+        "category": "amenity",
+        "type": "clinic",
+        "place_rank": 30,
+        "importance": 5.476997024486179e-05,
+        "addresstype": "amenity",
+        "name": "Elmdale Health Centre",
+        "display_name": "Elmdale Health Centre, 25, Elm Street, St. Thomas, Southwestern Ontario, Ontario, N5R 3B9, Canada",
+        "address": {
+          "amenity": "Elmdale Health Centre",
+          "house_number": "25",
+          "road": "Elm Street",
+          "city": "St. Thomas",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5R 3B9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7639409",
+          "42.7644500",
+          "-81.1966518",
+          "-81.1961843"
+        ]
+      }
+    ]
+  },
+  "671 Broadway Street, Tillsonburg, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47981473,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 201043374,
+        "lat": "42.8788753",
+        "lon": "-80.7471179",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "671, Broadway Street, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 5S7, Canada",
+        "address": {
+          "house_number": "671",
+          "road": "Broadway Street",
+          "town": "Tillsonburg",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4G 5S7",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8788253",
+          "42.8789253",
+          "-80.7471679",
+          "-80.7470679"
+        ]
+      },
+      {
+        "place_id": 47980366,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 200863587,
+        "lat": "42.8829160",
+        "lon": "-80.7513690",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "671, Broadway Street, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 3S9, Canada",
+        "address": {
+          "house_number": "671",
+          "road": "Broadway Street",
+          "town": "Tillsonburg",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4G 3S9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8828660",
+          "42.8829660",
+          "-80.7514190",
+          "-80.7513190"
+        ]
+      }
+    ]
+  },
+  "925 Dundas Street, Woodstock, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368313726,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 279556329,
+        "lat": "43.1338569",
+        "lon": "-80.7337207",
+        "category": "building",
+        "type": "retail",
+        "place_rank": 30,
+        "importance": 5.158083466845224e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "925, Dundas Street, Woodstock, Oxford County, Southwestern Ontario, Ontario, N4S 0A5, Canada",
+        "address": {
+          "house_number": "925",
+          "road": "Dundas Street",
+          "city": "Woodstock",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4S 0A5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1336499",
+          "43.1340505",
+          "-80.7342277",
+          "-80.7335051"
+        ]
+      }
+    ]
+  },
+  "221 Brant Avenue, Brantford, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 367348614,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2263695278,
+        "lat": "43.1469950",
+        "lon": "-80.2761277",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 5.811779964899699e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "221, Brant Avenue, Brantford, Southwestern Ontario, Ontario, N3T 3H9, Canada",
+        "address": {
+          "house_number": "221",
+          "road": "Brant Avenue",
+          "city": "Brantford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3T 3H9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1469450",
+          "43.1470450",
+          "-80.2761777",
+          "-80.2760777"
+        ]
+      },
+      {
+        "place_id": 369914017,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 7132002069,
+        "lat": "43.1469464",
+        "lon": "-80.2760046",
+        "category": "amenity",
+        "type": "clinic",
+        "place_rank": 30,
+        "importance": 5.811779964899699e-05,
+        "addresstype": "amenity",
+        "name": "Avenue Medical Centre",
+        "display_name": "Avenue Medical Centre, 221, Brant Avenue, Brantford, Southwestern Ontario, Ontario, N3T 3J3, Canada",
+        "address": {
+          "amenity": "Avenue Medical Centre",
+          "house_number": "221",
+          "road": "Brant Avenue",
+          "city": "Brantford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3T 3J3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1468964",
+          "43.1469964",
+          "-80.2760546",
+          "-80.2759546"
+        ]
+      }
+    ]
+  },
+  "265 King George Road, Brantford, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 366355155,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2259099378,
+        "lat": "43.1772847",
+        "lon": "-80.2797007",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 5.811779964899699e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "265, King George Road, Tranquility, Brantford, Southwestern Ontario, Ontario, N3R 6Y1, Canada",
+        "address": {
+          "house_number": "265",
+          "road": "King George Road",
+          "neighbourhood": "Tranquility",
+          "city": "Brantford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3R 6Y1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1772347",
+          "43.1773347",
+          "-80.2797507",
+          "-80.2796507"
+        ]
+      },
+      {
+        "place_id": 370595959,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 7490691964,
+        "lat": "43.1764090",
+        "lon": "-80.2804541",
+        "category": "amenity",
+        "type": "restaurant",
+        "place_rank": 30,
+        "importance": 5.811779964899699e-05,
+        "addresstype": "amenity",
+        "name": "Stacked Pancake & Breakfast House",
+        "display_name": "Stacked Pancake & Breakfast House, 265, King George Road, Tranquility, Brantford, Southwestern Ontario, Ontario, N3R 5L5, Canada",
+        "address": {
+          "amenity": "Stacked Pancake & Breakfast House",
+          "house_number": "265",
+          "road": "King George Road",
+          "neighbourhood": "Tranquility",
+          "city": "Brantford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3R 5L5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1763590",
+          "43.1764590",
+          "-80.2805041",
+          "-80.2804041"
+        ]
+      }
+    ]
+  },
+  "250 King George Road, Brantford, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368119387,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2259098073,
+        "lat": "43.1775192",
+        "lon": "-80.2794214",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 5.811779964899699e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "250, King George Road, Tranquility, Brantford, Southwestern Ontario, Ontario, N3R 6Y1, Canada",
+        "address": {
+          "house_number": "250",
+          "road": "King George Road",
+          "neighbourhood": "Tranquility",
+          "city": "Brantford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3R 6Y1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1774692",
+          "43.1775692",
+          "-80.2794714",
+          "-80.2793714"
+        ]
+      }
+    ]
+  },
+  "603 Colborne Street East, Brantford, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 367336555,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 442986476,
+        "lat": "43.1420184",
+        "lon": "-80.2345274",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05339145113298234,
+        "addresstype": "secondary",
+        "name": "Colborne Street East",
+        "display_name": "Colborne Street East, Brantford, Southwestern Ontario, Ontario, N3S 3R5, Canada",
+        "address": {
+          "road": "Colborne Street East",
+          "city": "Brantford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3S 3R5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1419714",
+          "43.1420653",
+          "-80.2346855",
+          "-80.2343693"
+        ]
+      }
+    ]
+  },
+  "175 Lynden Road, Brantford, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368271717,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2266399348,
+        "lat": "43.1748396",
+        "lon": "-80.2340513",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 5.811779964899699e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "175, Lynden Road, Brantford, Southwestern Ontario, Ontario, N3T 5W4, Canada",
+        "address": {
+          "house_number": "175",
+          "road": "Lynden Road",
+          "city": "Brantford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3T 5W4",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1747896",
+          "43.1748896",
+          "-80.2341013",
+          "-80.2340013"
+        ]
+      }
+    ]
+  },
+  "182 Pinebush Road, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368003592,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 139636280,
+        "lat": "43.4116196",
+        "lon": "-80.3118052",
+        "category": "building",
+        "type": "industrial",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "182, Pinebush Road, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 7H8, Canada",
+        "address": {
+          "house_number": "182",
+          "road": "Pinebush Road",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 7H8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4114269",
+          "43.4118123",
+          "-80.3120101",
+          "-80.3116004"
+        ]
+      }
+    ]
+  },
+  "350 Conestoga Boulevard, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368893634,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 54058001,
+        "lat": "43.3909240",
+        "lon": "-80.3143829",
+        "category": "amenity",
+        "type": "dentist",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "amenity",
+        "name": "Wilk & Wilk",
+        "display_name": "Wilk & Wilk, 350, Conestoga Boulevard, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 7L7, Canada",
+        "address": {
+          "amenity": "Wilk & Wilk",
+          "house_number": "350",
+          "road": "Conestoga Boulevard",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 7L7",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3907924",
+          "43.3910414",
+          "-80.3145531",
+          "-80.3142084"
+        ]
+      },
+      {
+        "place_id": 367308128,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 681798222,
+        "lat": "43.3897341",
+        "lon": "-80.3140078",
+        "category": "amenity",
+        "type": "dentist",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "amenity",
+        "name": "Coronation Dental Specialty Group",
+        "display_name": "Coronation Dental Specialty Group, 350, Conestoga Boulevard, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 7L7, Canada",
+        "address": {
+          "amenity": "Coronation Dental Specialty Group",
+          "house_number": "350",
+          "road": "Conestoga Boulevard",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 7L7",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3896841",
+          "43.3897841",
+          "-80.3140578",
+          "-80.3139578"
+        ]
+      },
+      {
+        "place_id": 368456799,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 11053955924,
+        "lat": "43.3899041",
+        "lon": "-80.3137525",
+        "category": "amenity",
+        "type": "clinic",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "amenity",
+        "name": "Cambridge Eye Care",
+        "display_name": "Cambridge Eye Care, 350, Conestoga Boulevard, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 7L7, Canada",
+        "address": {
+          "amenity": "Cambridge Eye Care",
+          "house_number": "350",
+          "road": "Conestoga Boulevard",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 7L7",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3898541",
+          "43.3899541",
+          "-80.3138025",
+          "-80.3137025"
+        ]
+      }
+    ]
+  },
+  "1145 Concession Road, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 45794474,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 401082297,
+        "lat": "43.3960716",
+        "lon": "-80.3445456",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "1145, Concession Road, Preston, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3H 4L6, Canada",
+        "address": {
+          "house_number": "1145",
+          "road": "Concession Road",
+          "suburb": "Preston",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3H 4L6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3960216",
+          "43.3961216",
+          "-80.3445956",
+          "-80.3444956"
+        ]
+      }
+    ]
+  },
+  "525 Saginaw Parkway, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 45829895,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 401040084,
+        "lat": "43.3898537",
+        "lon": "-80.2839427",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "525, Saginaw Parkway, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1T 1W9, Canada",
+        "address": {
+          "house_number": "525",
+          "road": "Saginaw Parkway",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1T 1W9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3898037",
+          "43.3899037",
+          "-80.2839927",
+          "-80.2838927"
+        ]
+      }
+    ]
+  },
+  "512 Coronation Boulevard, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368439267,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4035137020,
+        "lat": "43.3732400",
+        "lon": "-80.3187740",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "512, Coronation Boulevard, Galt, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 8L4, Canada",
+        "address": {
+          "house_number": "512",
+          "road": "Coronation Boulevard",
+          "suburb": "Galt",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 8L4",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3731900",
+          "43.3732900",
+          "-80.3188240",
+          "-80.3187240"
+        ]
+      }
+    ]
+  },
+  "190 St Andrews Street, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368897399,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 254448166,
+        "lat": "43.3501295",
+        "lon": "-80.3260195",
+        "category": "building",
+        "type": "retail",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "190, St. Andrews Street, Galt, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1S 3H1, Canada",
+        "address": {
+          "house_number": "190",
+          "road": "St. Andrews Street",
+          "suburb": "Galt",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1S 3H1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3500286",
+          "43.3502991",
+          "-80.3262399",
+          "-80.3257796"
+        ]
+      }
+    ]
+  },
+  "940 Jamieson Parkway, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 366319554,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4488862272,
+        "lat": "43.4240503",
+        "lon": "-80.2849743",
+        "category": "shop",
+        "type": "pet",
+        "place_rank": 30,
+        "importance": 3.9558251316045126e-05,
+        "addresstype": "shop",
+        "name": "Global Pet Foods",
+        "display_name": "Global Pet Foods, 940, Jamieson Parkway, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3C 4N6, Canada",
+        "address": {
+          "shop": "Global Pet Foods",
+          "house_number": "940",
+          "road": "Jamieson Parkway",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3C 4N6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4240003",
+          "43.4241003",
+          "-80.2850243",
+          "-80.2849243"
+        ]
+      },
+      {
+        "place_id": 369334684,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 12813327132,
+        "lat": "43.4237982",
+        "lon": "-80.2848779",
+        "category": "amenity",
+        "type": "clinic",
+        "place_rank": 30,
+        "importance": 3.9558251316045126e-05,
+        "addresstype": "amenity",
+        "name": "Townline Walk-in & Medical Clinic",
+        "display_name": "Townline Walk-in & Medical Clinic, 940, Jamieson Parkway, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3C 4N6, Canada",
+        "address": {
+          "amenity": "Townline Walk-in & Medical Clinic",
+          "house_number": "940",
+          "road": "Jamieson Parkway",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3C 4N6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4237482",
+          "43.4238482",
+          "-80.2849279",
+          "-80.2848279"
+        ]
+      },
+      {
+        "place_id": 369365196,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 12813327133,
+        "lat": "43.4237352",
+        "lon": "-80.2848537",
+        "category": "amenity",
+        "type": "pharmacy",
+        "place_rank": 30,
+        "importance": 3.9558251316045126e-05,
+        "addresstype": "amenity",
+        "name": "I.D.A. Townline Pharmacy",
+        "display_name": "I.D.A. Townline Pharmacy, 940, Jamieson Parkway, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3C 4N6, Canada",
+        "address": {
+          "amenity": "I.D.A. Townline Pharmacy",
+          "house_number": "940",
+          "road": "Jamieson Parkway",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3C 4N6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4236852",
+          "43.4237852",
+          "-80.2849037",
+          "-80.2848037"
+        ]
+      }
+    ]
+  },
+  "1807 Wonderland Road North, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 365166634,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 474843228,
+        "lat": "42.9847903",
+        "lon": "-81.2930300",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "primary",
+        "name": "Wonderland Road North",
+        "display_name": "Wonderland Road North, London, Southwestern Ontario, Ontario, N6H 4K9, Canada",
+        "address": {
+          "road": "Wonderland Road North",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6H 4K9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9839116",
+          "42.9856656",
+          "-81.2934810",
+          "-81.2925857"
+        ]
+      },
+      {
+        "place_id": 430277574,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1565869533,
+        "lat": "42.9814382",
+        "lon": "-81.2913965",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "primary",
+        "name": "Wonderland Road North",
+        "display_name": "Wonderland Road North, London, Southwestern Ontario, Ontario, N6H 4V6, Canada",
+        "address": {
+          "road": "Wonderland Road North",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6H 4V6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9811144",
+          "42.9817620",
+          "-81.2915068",
+          "-81.2912864"
+        ]
+      },
+      {
+        "place_id": 430277575,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1565869534,
+        "lat": "42.9841267",
+        "lon": "-81.2928578",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "primary",
+        "name": "Wonderland Road North",
+        "display_name": "Wonderland Road North, London, Southwestern Ontario, Ontario, N6H 0H9, Canada",
+        "address": {
+          "road": "Wonderland Road North",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6H 0H9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9838677",
+          "42.9843863",
+          "-81.2929768",
+          "-81.2927376"
+        ]
+      }
+    ]
+  },
+  "440 Boler Road, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369858777,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1983653080,
+        "lat": "42.9529596",
+        "lon": "-81.3309364",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "440, Boler Road, London, Southwestern Ontario, Ontario, N6K 3R6, Canada",
+        "address": {
+          "house_number": "440",
+          "road": "Boler Road",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6K 3R6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9529096",
+          "42.9530096",
+          "-81.3309864",
+          "-81.3308864"
+        ]
+      }
+    ]
+  },
+  "1560 Dundas Street, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369053815,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 27771927,
+        "lat": "42.9824139",
+        "lon": "-81.2543955",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "secondary",
+        "name": "Dundas Street",
+        "display_name": "Dundas Street, London, Southwestern Ontario, Ontario, N6A 1A5, Canada",
+        "address": {
+          "road": "Dundas Street",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6A 1A5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9823021",
+          "42.9825272",
+          "-81.2548164",
+          "-81.2539751"
+        ]
+      },
+      {
+        "place_id": 369151793,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 31293816,
+        "lat": "42.9971416",
+        "lon": "-81.2027684",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "secondary",
+        "name": "Dundas Street",
+        "display_name": "Dundas Street, London, Southwestern Ontario, Ontario, N5W 3B7, Canada",
+        "address": {
+          "road": "Dundas Street",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5W 3B7",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9968367",
+          "42.9974412",
+          "-81.2038443",
+          "-81.2016911"
+        ]
+      },
+      {
+        "place_id": 421369985,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1532362049,
+        "lat": "43.0020213",
+        "lon": "-81.1855120",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "secondary",
+        "name": "Dundas Street",
+        "display_name": "Dundas Street, Pottersburg, London, Southwestern Ontario, Ontario, N5W 3E1, Canada",
+        "address": {
+          "road": "Dundas Street",
+          "neighbourhood": "Pottersburg",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5W 3E1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0019316",
+          "43.0021110",
+          "-81.1858302",
+          "-81.1851937"
+        ]
+      }
+    ]
+  },
+  "204 Hamilton Road, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 370228558,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2016930355,
+        "lat": "42.9820772",
+        "lon": "-81.2284010",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "204, Hamilton Road, London, Southwestern Ontario, Ontario, N5Z 4M9, Canada",
+        "address": {
+          "house_number": "204",
+          "road": "Hamilton Road",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5Z 4M9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9820272",
+          "42.9821272",
+          "-81.2284510",
+          "-81.2283510"
+        ]
+      }
+    ]
+  },
+  "11 Base Line Road East, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368901147,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 6985817893,
+        "lat": "42.9586810",
+        "lon": "-81.2596224",
+        "category": "shop",
+        "type": "beauty",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "shop",
+        "name": "Fuurin Nails Lounge",
+        "display_name": "Fuurin Nails Lounge, 11, Base Line Road East, Cleardale, London, Southwestern Ontario, Ontario, N6J 2M8, Canada",
+        "address": {
+          "shop": "Fuurin Nails Lounge",
+          "house_number": "11",
+          "road": "Base Line Road East",
+          "neighbourhood": "Cleardale",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6J 2M8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9586310",
+          "42.9587310",
+          "-81.2596724",
+          "-81.2595724"
+        ]
+      },
+      {
+        "place_id": 370644459,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 6985774044,
+        "lat": "42.9585443",
+        "lon": "-81.2595954",
+        "category": "shop",
+        "type": "hairdresser",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "shop",
+        "name": "First Choice Hair",
+        "display_name": "First Choice Hair, 11, Base Line Road East, Cleardale, London, Southwestern Ontario, Ontario, N6J 2M8, Canada",
+        "address": {
+          "shop": "First Choice Hair",
+          "house_number": "11",
+          "road": "Base Line Road East",
+          "neighbourhood": "Cleardale",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6J 2M8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9584943",
+          "42.9585943",
+          "-81.2596454",
+          "-81.2595454"
+        ]
+      },
+      {
+        "place_id": 370644649,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1993162209,
+        "lat": "42.9592751",
+        "lon": "-81.2595914",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "11, Base Line Road East, Cleardale, London, Southwestern Ontario, Ontario, N6J 2M8, Canada",
+        "address": {
+          "house_number": "11",
+          "road": "Base Line Road East",
+          "neighbourhood": "Cleardale",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6J 2M8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9592251",
+          "42.9593251",
+          "-81.2596414",
+          "-81.2595414"
+        ]
+      }
+    ]
+  },
+  "272 Oxford Street West, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368836318,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1989050069,
+        "lat": "42.9888657",
+        "lon": "-81.2750056",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "272, Oxford Street West, London, Southwestern Ontario, Ontario, N6H 1S9, Canada",
+        "address": {
+          "house_number": "272",
+          "road": "Oxford Street West",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6H 1S9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9888157",
+          "42.9889157",
+          "-81.2750556",
+          "-81.2749556"
+        ]
+      }
+    ]
+  },
+  "149 Oxford Street East, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47602362,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 188285568,
+        "lat": "42.9944777",
+        "lon": "-81.2560885",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "149, Oxford Street East, London, Southwestern Ontario, Ontario, N6A 3H1, Canada",
+        "address": {
+          "house_number": "149",
+          "road": "Oxford Street East",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6A 3H1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9944277",
+          "42.9945277",
+          "-81.2561385",
+          "-81.2560385"
+        ]
+      }
+    ]
+  },
+  "1051 Wonderland Road South, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369147676,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1993162158,
+        "lat": "42.9402385",
+        "lon": "-81.2819223",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "1051, Wonderland Road South, London, Southwestern Ontario, Ontario, N6J 4G7, Canada",
+        "address": {
+          "house_number": "1051",
+          "road": "Wonderland Road South",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6J 4G7",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9401885",
+          "42.9402885",
+          "-81.2819723",
+          "-81.2818723"
+        ]
+      }
+    ]
+  },
+  "659 Dundas Street, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369538801,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5372894221,
+        "lat": "42.9892469",
+        "lon": "-81.2296784",
+        "category": "amenity",
+        "type": "doctors",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "amenity",
+        "name": "London InterCommunity Health Centre",
+        "display_name": "London InterCommunity Health Centre, 659, Dundas Street, London, Southwestern Ontario, Ontario, N5W 2Y8, Canada",
+        "address": {
+          "amenity": "London InterCommunity Health Centre",
+          "house_number": "659",
+          "road": "Dundas Street",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5W 2Y8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9891969",
+          "42.9892969",
+          "-81.2297284",
+          "-81.2296284"
+        ]
+      }
+    ]
+  },
+  "602 Queens Avenue, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369732440,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2016934927,
+        "lat": "42.9901362",
+        "lon": "-81.2324505",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "602, Queens Avenue, London, Southwestern Ontario, Ontario, N6B 1Y8, Canada",
+        "address": {
+          "house_number": "602",
+          "road": "Queens Avenue",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6B 1Y8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9900862",
+          "42.9901862",
+          "-81.2325005",
+          "-81.2324005"
+        ]
+      },
+      {
+        "place_id": 428263595,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 14178574435,
+        "lat": "42.9903822",
+        "lon": "-81.2326668",
+        "category": "amenity",
+        "type": "social_facility",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "amenity",
+        "name": "St. Joseph's Hospitality Centre",
+        "display_name": "St. Joseph's Hospitality Centre, 602, Queens Avenue, London, Southwestern Ontario, Ontario, N6B 1Y8, Canada",
+        "address": {
+          "amenity": "St. Joseph's Hospitality Centre",
+          "house_number": "602",
+          "road": "Queens Avenue",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6B 1Y8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9903322",
+          "42.9904322",
+          "-81.2327168",
+          "-81.2326168"
+        ]
+      },
+      {
+        "place_id": 428263596,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 14178574436,
+        "lat": "42.9905265",
+        "lon": "-81.2327300",
+        "category": "amenity",
+        "type": "social_facility",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "amenity",
+        "name": "London Cares",
+        "display_name": "London Cares, 602, Queens Avenue, London, Southwestern Ontario, Ontario, N6B 1Y8, Canada",
+        "address": {
+          "amenity": "London Cares",
+          "house_number": "602",
+          "road": "Queens Avenue",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6B 1Y8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9904765",
+          "42.9905765",
+          "-81.2327800",
+          "-81.2326800"
+        ]
+      }
+    ]
+  },
+  "167 Hespeler Road, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 49706329,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 401040100,
+        "lat": "43.3814031",
+        "lon": "-80.3196870",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "167, Hespeler Road, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 3G9, Canada",
+        "address": {
+          "house_number": "167",
+          "road": "Hespeler Road",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 3G9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3813531",
+          "43.3814531",
+          "-80.3197371",
+          "-80.3196370"
+        ]
+      }
+    ]
+  },
+  "96 Tillson Avenue, Tillsonburg, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368955307,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 564144865,
+        "lat": "42.8655171",
+        "lon": "-80.7228000",
+        "category": "building",
+        "type": "public",
+        "place_rank": 30,
+        "importance": 4.283741512164519e-05,
+        "addresstype": "building",
+        "name": "The Livingston Centre",
+        "display_name": "The Livingston Centre, 96, Tillson Avenue, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 3A1, Canada",
+        "address": {
+          "building": "The Livingston Centre",
+          "house_number": "96",
+          "road": "Tillson Avenue",
+          "town": "Tillsonburg",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4G 3A1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8650831",
+          "42.8660417",
+          "-80.7231329",
+          "-80.7221421"
+        ]
+      },
+      {
+        "place_id": 368882918,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2111699094,
+        "lat": "42.8659054",
+        "lon": "-80.7233747",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 4.283741512164519e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "96, Tillson Avenue, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 3A1, Canada",
+        "address": {
+          "house_number": "96",
+          "road": "Tillson Avenue",
+          "town": "Tillsonburg",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4G 3A1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8658554",
+          "42.8659554",
+          "-80.7234247",
+          "-80.7233247"
+        ]
+      },
+      {
+        "place_id": 370693248,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5436197199,
+        "lat": "42.8658789",
+        "lon": "-80.7227100",
+        "category": "office",
+        "type": "government",
+        "place_rank": 30,
+        "importance": 4.283741512164519e-05,
+        "addresstype": "office",
+        "name": "Service Canada",
+        "display_name": "Service Canada, 96, Tillson Avenue, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 3A1, Canada",
+        "address": {
+          "office": "Service Canada",
+          "house_number": "96",
+          "road": "Tillson Avenue",
+          "town": "Tillsonburg",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4G 3A1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8658289",
+          "42.8659289",
+          "-80.7227600",
+          "-80.7226600"
+        ]
+      }
+    ]
+  },
+  "527 Adelaide Street, Woodstock, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369937947,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 35506466,
+        "lat": "43.1310527",
+        "lon": "-80.7559835",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533849141680018,
+        "addresstype": "residential",
+        "name": "Adelaide Street",
+        "display_name": "Adelaide Street, Woodstock, Oxford County, Southwestern Ontario, Ontario, N4S 7Y3, Canada",
+        "address": {
+          "road": "Adelaide Street",
+          "city": "Woodstock",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4S 7Y3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1308967",
+          "43.1312088",
+          "-80.7570550",
+          "-80.7549120"
+        ]
+      },
+      {
+        "place_id": 365792077,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 35516823,
+        "lat": "43.1322348",
+        "lon": "-80.7481201",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533849141680018,
+        "addresstype": "residential",
+        "name": "Adelaide Street",
+        "display_name": "Adelaide Street, Woodstock, Oxford County, Southwestern Ontario, Ontario, N4S 6Y9, Canada",
+        "address": {
+          "road": "Adelaide Street",
+          "city": "Woodstock",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4S 6Y9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1321286",
+          "43.1323320",
+          "-80.7488879",
+          "-80.7473512"
+        ]
+      }
+    ]
+  },
+  "147 Main Street, Ailsa Craig, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 367243516,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5583423925,
+        "lat": "43.1474357",
+        "lon": "-81.5366594",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 3.750133516437045e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "147, Ailsa Craig Main Street, Ailsa Craig, North Middlesex, Middlesex County, Southwestern Ontario, Ontario, N0M 1A0, Canada",
+        "address": {
+          "house_number": "147",
+          "road": "Ailsa Craig Main Street",
+          "village": "Ailsa Craig",
+          "city": "North Middlesex",
+          "county": "Middlesex County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0M 1A0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1473857",
+          "43.1474857",
+          "-81.5367094",
+          "-81.5366094"
+        ]
+      },
+      {
+        "place_id": 368730520,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 40047665,
+        "lat": "43.1471917",
+        "lon": "-81.5344309",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.053370834668497714,
+        "addresstype": "secondary",
+        "name": "Main Street",
+        "display_name": "Main Street, Ailsa Craig, North Middlesex, Middlesex County, Southwestern Ontario, Ontario, N0M 1A0, Canada",
+        "address": {
+          "road": "Main Street",
+          "village": "Ailsa Craig",
+          "city": "North Middlesex",
+          "county": "Middlesex County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0M 1A0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1470779",
+          "43.1473055",
+          "-81.5351267",
+          "-81.5337351"
+        ]
+      }
+    ]
+  },
+  "113 John Street South, Aylmer, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 374481841,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 473613031,
+        "lat": "42.7713170",
+        "lon": "-80.9826753",
+        "category": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 4.274738689245468e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "113, John Street South, Aylmer, Elgin County, Southwestern Ontario, Ontario, N5H 2C3, Canada",
+        "address": {
+          "house_number": "113",
+          "road": "John Street South",
+          "town": "Aylmer",
+          "county": "Elgin County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5H 2C3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7712495",
+          "42.7713696",
+          "-80.9827692",
+          "-80.9825814"
+        ]
+      }
+    ]
+  },
+  "418 Talbot Street West, Aylmer, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368671528,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 257163791,
+        "lat": "42.7730594",
+        "lon": "-80.9865315",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.053376080720225795,
+        "addresstype": "primary",
+        "name": "Talbot Street West",
+        "display_name": "Talbot Street West, Aylmer, Elgin County, Southwestern Ontario, Ontario, N5H 1J8, Canada",
+        "address": {
+          "road": "Talbot Street West",
+          "town": "Aylmer",
+          "county": "Elgin County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5H 1J8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7730071",
+          "42.7731252",
+          "-80.9901186",
+          "-80.9829441"
+        ]
+      },
+      {
+        "place_id": 369145463,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1285819024,
+        "lat": "42.7731625",
+        "lon": "-80.9927930",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.053376080720225795,
+        "addresstype": "primary",
+        "name": "Talbot Street West",
+        "display_name": "Talbot Street West, Aylmer, Elgin County, Southwestern Ontario, Ontario, N5H 1K6, Canada",
+        "address": {
+          "road": "Talbot Street West",
+          "town": "Aylmer",
+          "county": "Elgin County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5H 1K6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7731252",
+          "42.7732019",
+          "-80.9954673",
+          "-80.9901186"
+        ]
+      },
+      {
+        "place_id": 369062861,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 333362655,
+        "lat": "42.7732187",
+        "lon": "-80.9967112",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.053376080720225795,
+        "addresstype": "primary",
+        "name": "Talbot Street West",
+        "display_name": "Talbot Street West, Aylmer, Elgin County, Southwestern Ontario, Ontario, N5H 2T8, Canada",
+        "address": {
+          "road": "Talbot Street West",
+          "town": "Aylmer",
+          "county": "Elgin County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5H 2T8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7732019",
+          "42.7732306",
+          "-80.9979551",
+          "-80.9954673"
+        ]
+      }
+    ]
+  },
+  "460 Hespeler Road, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368608479,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4035136814,
+        "lat": "43.3968840",
+        "lon": "-80.3246690",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "460, Hespeler Road, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 7H7, Canada",
+        "address": {
+          "house_number": "460",
+          "road": "Hespeler Road",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 7H7",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3968340",
+          "43.3969340",
+          "-80.3247190",
+          "-80.3246190"
+        ]
+      }
+    ]
+  },
+  "50 Hopeton Street, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368822899,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1334328094,
+        "lat": "43.3707515",
+        "lon": "-80.3152407",
+        "category": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "50, Hopeton Street, Grand River, Galt, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 5R5, Canada",
+        "address": {
+          "house_number": "50",
+          "road": "Hopeton Street",
+          "neighbourhood": "Grand River",
+          "suburb": "Galt",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 5R5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3706323",
+          "43.3708680",
+          "-80.3153824",
+          "-80.3149102"
+        ]
+      }
+    ]
+  },
+  "1718 King Street East, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 367791290,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4035554429,
+        "lat": "43.3883720",
+        "lon": "-80.3438470",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "1718, King Street East, Preston, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3H 3R6, Canada",
+        "address": {
+          "house_number": "1718",
+          "road": "King Street East",
+          "suburb": "Preston",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3H 3R6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3883220",
+          "43.3884220",
+          "-80.3438970",
+          "-80.3437970"
+        ]
+      }
+    ]
+  },
+  "36 Heritage Drive, Ilderton, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368342277,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 35504331,
+        "lat": "43.0746599",
+        "lon": "-81.3752007",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "residential",
+        "name": "Heritage Drive",
+        "display_name": "Heritage Drive, Ilderton, Middlesex Centre, Middlesex County, Southwestern Ontario, Ontario, N0M 2A0, Canada",
+        "address": {
+          "road": "Heritage Drive",
+          "village": "Ilderton",
+          "city": "Middlesex Centre",
+          "county": "Middlesex County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0M 2A0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0742119",
+          "43.0762247",
+          "-81.3778203",
+          "-81.3732448"
+        ]
+      }
+    ]
+  },
+  "29 Noxon Street, Ingersoll, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 370952670,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 781407458,
+        "lat": "43.0317196",
+        "lon": "-80.8759392",
+        "category": "amenity",
+        "type": "hospital",
+        "place_rank": 30,
+        "importance": 4.452811474779915e-05,
+        "addresstype": "amenity",
+        "name": "Alexandra Hospital",
+        "display_name": "Alexandra Hospital, 29, Noxon Street, Ingersoll, Oxford County, Southwestern Ontario, Ontario, N5C 3V6, Canada",
+        "address": {
+          "amenity": "Alexandra Hospital",
+          "house_number": "29",
+          "road": "Noxon Street",
+          "town": "Ingersoll",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5C 3V6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0310510",
+          "43.0333449",
+          "-80.8772600",
+          "-80.8742344"
+        ]
+      },
+      {
+        "place_id": 368939780,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 218397543,
+        "lat": "43.0321529",
+        "lon": "-80.8754486",
+        "category": "building",
+        "type": "hospital",
+        "place_rank": 30,
+        "importance": 4.452811474779915e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "29, Noxon Street, Ingersoll, Oxford County, Southwestern Ontario, Ontario, N5C 3V6, Canada",
+        "address": {
+          "house_number": "29",
+          "road": "Noxon Street",
+          "town": "Ingersoll",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5C 3V6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0317810",
+          "43.0324400",
+          "-80.8760264",
+          "-80.8750594"
+        ]
+      }
+    ]
+  },
+  "16 Andrew Street, Kitchener, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368159397,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 839405173,
+        "lat": "43.4561598",
+        "lon": "-80.5057751",
+        "category": "building",
+        "type": "office",
+        "place_rank": 30,
+        "importance": 6.159075303268509e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "16, Andrew Street, K-W Hospital, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2G 1C9, Canada",
+        "address": {
+          "house_number": "16",
+          "road": "Andrew Street",
+          "suburb": "K-W Hospital",
+          "city": "Kitchener",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2G 1C9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4559357",
+          "43.4563183",
+          "-80.5060383",
+          "-80.5055118"
+        ]
+      },
+      {
+        "place_id": 368314288,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4035501238,
+        "lat": "43.4561130",
+        "lon": "-80.5057945",
+        "category": "amenity",
+        "type": "clinic",
+        "place_rank": 30,
+        "importance": 6.159075303268509e-05,
+        "addresstype": "amenity",
+        "name": "Andrew Street Family Health Centre",
+        "display_name": "Andrew Street Family Health Centre, 16, Andrew Street, K-W Hospital, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2G 1C9, Canada",
+        "address": {
+          "amenity": "Andrew Street Family Health Centre",
+          "house_number": "16",
+          "road": "Andrew Street",
+          "suburb": "K-W Hospital",
+          "city": "Kitchener",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2G 1C9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4560630",
+          "43.4561630",
+          "-80.5058445",
+          "-80.5057445"
+        ]
+      }
+    ]
+  },
+  "1228 Commissioners Road West, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47691531,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 187738618,
+        "lat": "42.9589308",
+        "lon": "-81.3305057",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "1228, Commissioners Road West, London, Southwestern Ontario, Ontario, N6K 2K1, Canada",
+        "address": {
+          "house_number": "1228",
+          "road": "Commissioners Road West",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6K 2K1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9588807",
+          "42.9589808",
+          "-81.3305557",
+          "-81.3304557"
+        ]
+      }
+    ]
+  },
+  "450 Central Avenue, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 367669198,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 140785762,
+        "lat": "42.9934533",
+        "lon": "-81.2411338",
+        "category": "building",
+        "type": "apartments",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "450, Central Avenue, London, Southwestern Ontario, Ontario, N6B 2B3, Canada",
+        "address": {
+          "house_number": "450",
+          "road": "Central Avenue",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6B 2B3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9932734",
+          "42.9936327",
+          "-81.2413138",
+          "-81.2409531"
+        ]
+      }
+    ]
+  },
+  "1205 Oxford Street West, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368780549,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 122596633,
+        "lat": "42.9765318",
+        "lon": "-81.3228662",
+        "category": "shop",
+        "type": "supermarket",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "shop",
+        "name": "Real Canadian Superstore",
+        "display_name": "Real Canadian Superstore, 1205, Oxford Street West, London, Southwestern Ontario, Ontario, N6H 1V9, Canada",
+        "address": {
+          "shop": "Real Canadian Superstore",
+          "house_number": "1205",
+          "road": "Oxford Street West",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6H 1V9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9759204",
+          "42.9770689",
+          "-81.3236847",
+          "-81.3220476"
+        ]
+      },
+      {
+        "place_id": 368167056,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 10959506805,
+        "lat": "42.9761201",
+        "lon": "-81.3227548",
+        "category": "amenity",
+        "type": "toilets",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "amenity",
+        "name": "",
+        "display_name": "1205, Oxford Street West, London, Southwestern Ontario, Ontario, N6H 1V9, Canada",
+        "address": {
+          "house_number": "1205",
+          "road": "Oxford Street West",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6H 1V9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9760701",
+          "42.9761701",
+          "-81.3228048",
+          "-81.3227048"
+        ]
+      }
+    ]
+  },
+  "312 Oxford Street West, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 59100462,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 188285392,
+        "lat": "42.9877154",
+        "lon": "-81.2790180",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "312, Oxford Street West, London, Southwestern Ontario, Ontario, N6H 4N6, Canada",
+        "address": {
+          "house_number": "312",
+          "road": "Oxford Street West",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6H 4N6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9876654",
+          "42.9877654",
+          "-81.2790680",
+          "-81.2789680"
+        ]
+      }
+    ]
+  },
+  "320 Adelaide Street South, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 370646800,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2015444813,
+        "lat": "42.9594290",
+        "lon": "-81.2156151",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "320, Adelaide Street South, London, Southwestern Ontario, Ontario, N5Z 3H9, Canada",
+        "address": {
+          "house_number": "320",
+          "road": "Adelaide Street South",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5Z 3H9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9593790",
+          "42.9594790",
+          "-81.2156651",
+          "-81.2155651"
+        ]
+      }
+    ]
+  },
+  "346 Platt's Lane, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47600184,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 188286913,
+        "lat": "42.9943572",
+        "lon": "-81.2743209",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "346, Platt's Lane, London, Southwestern Ontario, Ontario, N6G 1B4, Canada",
+        "address": {
+          "house_number": "346",
+          "road": "Platt's Lane",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6G 1B4",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9943072",
+          "42.9944072",
+          "-81.2743709",
+          "-81.2742709"
+        ]
+      }
+    ]
+  },
+  "60 Chesley Avenue, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47718872,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 191113221,
+        "lat": "42.9807359",
+        "lon": "-81.2167823",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "60, Chesley Avenue, London, Southwestern Ontario, Ontario, N5Z 1N1, Canada",
+        "address": {
+          "house_number": "60",
+          "road": "Chesley Avenue",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5Z 1N1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9806859",
+          "42.9807859",
+          "-81.2168323",
+          "-81.2167323"
+        ]
+      }
+    ]
+  },
+  "785 Wonderland Road South, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368211714,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 122862196,
+        "lat": "42.9482637",
+        "lon": "-81.2912996",
+        "category": "shop",
+        "type": "mall",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "shop",
+        "name": "Westmount Shopping Center",
+        "display_name": "Westmount Shopping Center, 785, Wonderland Road South, Westmount, London, Southwestern Ontario, Ontario, N6K 1M6, Canada",
+        "address": {
+          "shop": "Westmount Shopping Center",
+          "house_number": "785",
+          "road": "Wonderland Road South",
+          "neighbourhood": "Westmount",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6K 1M6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9471659",
+          "42.9493316",
+          "-81.2942390",
+          "-81.2904516"
+        ]
+      },
+      {
+        "place_id": 369089701,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 6670615253,
+        "lat": "42.9478186",
+        "lon": "-81.2922336",
+        "category": "shop",
+        "type": "mobile_phone",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "shop",
+        "name": "Bell",
+        "display_name": "Bell, 785, Wonderland Road South, Westmount, London, Southwestern Ontario, Ontario, N6K 1M6, Canada",
+        "address": {
+          "shop": "Bell",
+          "house_number": "785",
+          "road": "Wonderland Road South",
+          "neighbourhood": "Westmount",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6K 1M6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9477686",
+          "42.9478686",
+          "-81.2922836",
+          "-81.2921836"
+        ]
+      },
+      {
+        "place_id": 416209301,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13755229080,
+        "lat": "42.9480354",
+        "lon": "-81.2938200",
+        "category": "tourism",
+        "type": "zoo",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "tourism",
+        "name": "Reptilia London",
+        "display_name": "Reptilia London, 785, Wonderland Road South, Westmount, London, Southwestern Ontario, Ontario, N6K 3C2, Canada",
+        "address": {
+          "tourism": "Reptilia London",
+          "house_number": "785",
+          "road": "Wonderland Road South",
+          "neighbourhood": "Westmount",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6K 3C2",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9479854",
+          "42.9480854",
+          "-81.2938700",
+          "-81.2937700"
+        ]
+      }
+    ]
+  },
+  "22262 Mill Road, Mount Brydges, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369644670,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 27361813,
+        "lat": "42.8942278",
+        "lon": "-81.4678780",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053375671778438966,
+        "addresstype": "unclassified",
+        "name": "Mill Road",
+        "display_name": "Mill Road, Mount Brydges, Strathroy-Caradoc, Middlesex County, Southwestern Ontario, Ontario, N0L 1W0, Canada",
+        "address": {
+          "road": "Mill Road",
+          "village": "Mount Brydges",
+          "city": "Strathroy-Caradoc",
+          "county": "Middlesex County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0L 1W0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8895283",
+          "42.8988475",
+          "-81.4730698",
+          "-81.4625598"
+        ]
+      },
+      {
+        "place_id": 368858347,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 31260163,
+        "lat": "42.9062660",
+        "lon": "-81.4720999",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.053375671778438966,
+        "addresstype": "tertiary",
+        "name": "Mill Road",
+        "display_name": "Mill Road, Mount Brydges, Strathroy-Caradoc, Middlesex County, Southwestern Ontario, Ontario, N0L 1W0, Canada",
+        "address": {
+          "road": "Mill Road",
+          "village": "Mount Brydges",
+          "city": "Strathroy-Caradoc",
+          "county": "Middlesex County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0L 1W0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9032644",
+          "42.9093389",
+          "-81.4728419",
+          "-81.4719152"
+        ]
+      }
+    ]
+  },
+  "11 Stover Street North, Norwich, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47992326,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 201197498,
+        "lat": "42.9882296",
+        "lon": "-80.5977989",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "11, Stover Street North, Norwich, Oxford County, Southwestern Ontario, Ontario, N0J 1P0, Canada",
+        "address": {
+          "house_number": "11",
+          "road": "Stover Street North",
+          "town": "Norwich",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0J 1P0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9881796",
+          "42.9882796",
+          "-80.5978489",
+          "-80.5977489"
+        ]
+      }
+    ]
+  },
+  "32 South Court Street East, Norwich, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369018322,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2111448778,
+        "lat": "42.9909915",
+        "lon": "-80.5935014",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 4.02784771495692e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "32, South Court Street East, Norwich, Oxford County, Southwestern Ontario, Ontario, N0J 1P0, Canada",
+        "address": {
+          "house_number": "32",
+          "road": "South Court Street East",
+          "town": "Norwich",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0J 1P0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9909415",
+          "42.9910415",
+          "-80.5935514",
+          "-80.5934514"
+        ]
+      }
+    ]
+  },
+  "417 Wellington Street, St. Thomas, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369160172,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 458295236,
+        "lat": "42.7762194",
+        "lon": "-81.1589022",
+        "category": "amenity",
+        "type": "cinema",
+        "place_rank": 30,
+        "importance": 5.476997024486179e-05,
+        "addresstype": "amenity",
+        "name": "Galaxy Cinemas St. Thomas",
+        "display_name": "Galaxy Cinemas St. Thomas, 417, Wellington Street, St. Thomas, Southwestern Ontario, Ontario, N5R 5J5, Canada",
+        "address": {
+          "amenity": "Galaxy Cinemas St. Thomas",
+          "house_number": "417",
+          "road": "Wellington Street",
+          "city": "St. Thomas",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5R 5J5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7760319",
+          "42.7765813",
+          "-81.1590927",
+          "-81.1585832"
+        ]
+      },
+      {
+        "place_id": 369123430,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 7976733572,
+        "lat": "42.7760373",
+        "lon": "-81.1606196",
+        "category": "shop",
+        "type": "sports",
+        "place_rank": 30,
+        "importance": 5.476997024486179e-05,
+        "addresstype": "shop",
+        "name": "Danglers Edge Sports",
+        "display_name": "Danglers Edge Sports, 417, Wellington Street, St. Thomas, Southwestern Ontario, Ontario, N5R 5T8, Canada",
+        "address": {
+          "shop": "Danglers Edge Sports",
+          "house_number": "417",
+          "road": "Wellington Street",
+          "city": "St. Thomas",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5R 5T8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7759873",
+          "42.7760873",
+          "-81.1606696",
+          "-81.1605696"
+        ]
+      }
+    ]
+  },
+  "294 Talbot Street, St. Thomas, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369861878,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 778995341,
+        "lat": "42.7787458",
+        "lon": "-81.2000827",
+        "category": "building",
+        "type": "apartments",
+        "place_rank": 30,
+        "importance": 5.476997024486179e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "294, Talbot Street, Downtown St. Thomas, St. Thomas, Southwestern Ontario, Ontario, N5R 3P1, Canada",
+        "address": {
+          "house_number": "294",
+          "road": "Talbot Street",
+          "retail": "Downtown St. Thomas",
+          "city": "St. Thomas",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5R 3P1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7786512",
+          "42.7787923",
+          "-81.2003748",
+          "-81.1997924"
+        ]
+      }
+    ]
+  },
+  "230 First Avenue, St. Thomas, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368818697,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4580258600,
+        "lat": "42.7628375",
+        "lon": "-81.1758925",
+        "category": "shop",
+        "type": "optician",
+        "place_rank": 30,
+        "importance": 5.476997024486179e-05,
+        "addresstype": "shop",
+        "name": "FYI Doctors",
+        "display_name": "FYI Doctors, 230, First Avenue, St. Thomas, Southwestern Ontario, Ontario, N5R 4P5, Canada",
+        "address": {
+          "shop": "FYI Doctors",
+          "house_number": "230",
+          "road": "First Avenue",
+          "city": "St. Thomas",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5R 4P5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7627875",
+          "42.7628875",
+          "-81.1759425",
+          "-81.1758425"
+        ]
+      }
+    ]
+  },
+  "460 Wellington Street, St. Thomas, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368871928,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 833538989,
+        "lat": "42.7742455",
+        "lon": "-81.1576140",
+        "category": "amenity",
+        "type": "doctors",
+        "place_rank": 30,
+        "importance": 5.476997024486179e-05,
+        "addresstype": "amenity",
+        "name": "",
+        "display_name": "460, Wellington Street, St. Thomas, Southwestern Ontario, Ontario, N5R 5J5, Canada",
+        "address": {
+          "house_number": "460",
+          "road": "Wellington Street",
+          "city": "St. Thomas",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5R 5J5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7741120",
+          "42.7743790",
+          "-81.1577800",
+          "-81.1574480"
+        ]
+      }
+    ]
+  },
+  "9254 Plank Road, Straffordville, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": []
+  },
+  "444 Douro Street, Stratford, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368226312,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 41471899,
+        "lat": "43.3673843",
+        "lon": "-80.9767309",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.053390645456626196,
+        "addresstype": "tertiary",
+        "name": "Douro Street",
+        "display_name": "Douro Street, Stratford, Southwestern Ontario, Ontario, N5A 3P2, Canada",
+        "address": {
+          "road": "Douro Street",
+          "city": "Stratford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5A 3P2",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3673306",
+          "43.3674743",
+          "-80.9799244",
+          "-80.9735367"
+        ]
+      },
+      {
+        "place_id": 367586455,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 41471133,
+        "lat": "43.3669124",
+        "lon": "-80.9528330",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.053390645456626196,
+        "addresstype": "tertiary",
+        "name": "Douro Street",
+        "display_name": "Douro Street, Stratford, Southwestern Ontario, Ontario, N5A 7Y2, Canada",
+        "address": {
+          "road": "Douro Street",
+          "city": "Stratford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5A 7Y2",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3668619",
+          "43.3669600",
+          "-80.9551210",
+          "-80.9505451"
+        ]
+      },
+      {
+        "place_id": 368964900,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 41471247,
+        "lat": "43.3670589",
+        "lon": "-80.9603188",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.053390645456626196,
+        "addresstype": "tertiary",
+        "name": "Douro Street",
+        "display_name": "Douro Street, Stratford, Southwestern Ontario, Ontario, N5A 0A3, Canada",
+        "address": {
+          "road": "Douro Street",
+          "city": "Stratford",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5A 0A3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3670121",
+          "43.3671117",
+          "-80.9623192",
+          "-80.9583183"
+        ]
+      }
+    ]
+  },
+  "74 Front Street East, Strathroy, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 58992372,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 183514151,
+        "lat": "42.9597362",
+        "lon": "-81.6215834",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "74, Front Street East, Strathroy, Strathroy-Caradoc, Middlesex County, Southwestern Ontario, Ontario, N7G 1P6, Canada",
+        "address": {
+          "house_number": "74",
+          "road": "Front Street East",
+          "town": "Strathroy",
+          "city": "Strathroy-Caradoc",
+          "county": "Middlesex County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N7G 1P6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9596862",
+          "42.9597862",
+          "-81.6216334",
+          "-81.6215334"
+        ]
+      }
+    ]
+  },
+  "278 Metcalfe Street West, Strathroy, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": []
+  },
+  "594 Broadway Street, Tillsonburg, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 371105159,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 424451059,
+        "lat": "42.8777305",
+        "lon": "-80.7454587",
+        "category": "amenity",
+        "type": "fuel",
+        "place_rank": 30,
+        "importance": 4.283741512164519e-05,
+        "addresstype": "amenity",
+        "name": "Shell",
+        "display_name": "Shell, 594, Broadway Street, Glenridge, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 5K9, Canada",
+        "address": {
+          "amenity": "Shell",
+          "house_number": "594",
+          "road": "Broadway Street",
+          "neighbourhood": "Glenridge",
+          "town": "Tillsonburg",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4G 5K9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8776738",
+          "42.8777872",
+          "-80.7455340",
+          "-80.7453835"
+        ]
+      }
+    ]
+  },
+  "200 Broadway Street, Tillsonburg, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369712929,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2111696263,
+        "lat": "42.8631085",
+        "lon": "-80.7301270",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 4.283741512164519e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "200, Broadway Street, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 3P9, Canada",
+        "address": {
+          "house_number": "200",
+          "road": "Broadway Street",
+          "town": "Tillsonburg",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4G 3P9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8630585",
+          "42.8631585",
+          "-80.7301770",
+          "-80.7300770"
+        ]
+      }
+    ]
+  },
+  "81 Fox Alley, Tillsonburg, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369780406,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 24217742,
+        "lat": "42.8603000",
+        "lon": "-80.7285381",
+        "category": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04004283741512168,
+        "addresstype": "road",
+        "name": "Fox Alley",
+        "display_name": "Fox Alley, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 3P9, Canada",
+        "address": {
+          "road": "Fox Alley",
+          "town": "Tillsonburg",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4G 3P9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8590011",
+          "42.8615880",
+          "-80.7298958",
+          "-80.7271910"
+        ]
+      },
+      {
+        "place_id": 369793193,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 24217740,
+        "lat": "42.8646364",
+        "lon": "-80.7330531",
+        "category": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04004283741512168,
+        "addresstype": "road",
+        "name": "Fox Alley",
+        "display_name": "Fox Alley, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 3Y9, Canada",
+        "address": {
+          "road": "Fox Alley",
+          "town": "Tillsonburg",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4G 3Y9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8635126",
+          "42.8657515",
+          "-80.7342307",
+          "-80.7318838"
+        ]
+      },
+      {
+        "place_id": 369916923,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 39377320,
+        "lat": "42.8585534",
+        "lon": "-80.7267244",
+        "category": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04004283741512168,
+        "addresstype": "road",
+        "name": "Fox Alley",
+        "display_name": "Fox Alley, Tillsonburg, Oxford County, Southwestern Ontario, Ontario, N4G 3P6, Canada",
+        "address": {
+          "road": "Fox Alley",
+          "town": "Tillsonburg",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4G 3P6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.8581057",
+          "42.8590011",
+          "-80.7271910",
+          "-80.7262578"
+        ]
+      }
+    ]
+  },
+  "23 Main Street South, Waterford, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47977157,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 204073902,
+        "lat": "42.9347364",
+        "lon": "-80.2906374",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "23, Main Street South, Waterford, Norfolk County, Southwestern Ontario, Ontario, N0E 1Y0, Canada",
+        "address": {
+          "house_number": "23",
+          "road": "Main Street South",
+          "town": "Waterford",
+          "county": "Norfolk County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0E 1Y0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9346864",
+          "42.9347864",
+          "-80.2906874",
+          "-80.2905874"
+        ]
+      }
+    ]
+  },
+  "645 Finkle Street, Woodstock, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 367829524,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 440391931,
+        "lat": "43.1222065",
+        "lon": "-80.7552577",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533849141680018,
+        "addresstype": "residential",
+        "name": "Finkle Street",
+        "display_name": "Finkle Street, Woodstock, Oxford County, Southwestern Ontario, Ontario, N4S 3E3, Canada",
+        "address": {
+          "road": "Finkle Street",
+          "city": "Woodstock",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4S 3E3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1212187",
+          "43.1231973",
+          "-80.7555992",
+          "-80.7549074"
+        ]
+      },
+      {
+        "place_id": 367911960,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1188374178,
+        "lat": "43.1144568",
+        "lon": "-80.7526957",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533849141680018,
+        "addresstype": "residential",
+        "name": "Finkle Street",
+        "display_name": "Finkle Street, Sumac Ridge, Woodstock, Oxford County, Southwestern Ontario, Ontario, N4V 0B6, Canada",
+        "address": {
+          "road": "Finkle Street",
+          "neighbourhood": "Sumac Ridge",
+          "city": "Woodstock",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4V 0B6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1135522",
+          "43.1153501",
+          "-80.7529930",
+          "-80.7526557"
+        ]
+      },
+      {
+        "place_id": 367762937,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 113978964,
+        "lat": "43.1282496",
+        "lon": "-80.7573741",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.0533849141680018,
+        "addresstype": "residential",
+        "name": "Finkle Street",
+        "display_name": "Finkle Street, Woodstock, Oxford County, Southwestern Ontario, Ontario, N4S 1C4, Canada",
+        "address": {
+          "road": "Finkle Street",
+          "city": "Woodstock",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4S 1C4",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1276060",
+          "43.1288929",
+          "-80.7575952",
+          "-80.7571536"
+        ]
+      }
+    ]
+  },
+  "600 Princess Street, Woodstock, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368106741,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2323818552,
+        "lat": "43.1323900",
+        "lon": "-80.7519140",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 5.158083466845224e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "600, Princess Street, Woodstock, Oxford County, Southwestern Ontario, Ontario, N4S 7Y3, Canada",
+        "address": {
+          "house_number": "600",
+          "road": "Princess Street",
+          "city": "Woodstock",
+          "county": "Oxford County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4S 7Y3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1323400",
+          "43.1324400",
+          "-80.7519640",
+          "-80.7518640"
+        ]
+      }
+    ]
+  },
+  "11 George Street South, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 56870994,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 401097963,
+        "lat": "43.3578607",
+        "lon": "-80.3185694",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "11, George Street South, Galt, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1S 2K6, Canada",
+        "address": {
+          "house_number": "11",
+          "road": "George Street South",
+          "suburb": "Galt",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1S 2K6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3578107",
+          "43.3579107",
+          "-80.3186194",
+          "-80.3185194"
+        ]
+      }
+    ]
+  },
+  "26 Forbes Street, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 41828239,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 180347923,
+        "lat": "43.4299761",
+        "lon": "-80.3072157",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "26, Forbes Street, Hespeler, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3C 2A8, Canada",
+        "address": {
+          "house_number": "26",
+          "road": "Forbes Street",
+          "suburb": "Hespeler",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3C 2A8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4299261",
+          "43.4300261",
+          "-80.3072657",
+          "-80.3071657"
+        ]
+      }
+    ]
+  },
+  "10 B Victoria Street South, Kitchener, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 367402699,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 452495630,
+        "lat": "43.4298322",
+        "lon": "-80.5495952",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05339492408636603,
+        "addresstype": "secondary",
+        "name": "Victoria Street South",
+        "display_name": "Victoria Street South, Highland West, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2N 3N1, Canada",
+        "address": {
+          "road": "Victoria Street South",
+          "suburb": "Highland West",
+          "city": "Kitchener",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2N 3N1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4296341",
+          "43.4300362",
+          "-80.5502056",
+          "-80.5489869"
+        ]
+      },
+      {
+        "place_id": 367396301,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 499498486,
+        "lat": "43.4325553",
+        "lon": "-80.5418797",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05339492408636603,
+        "addresstype": "secondary",
+        "name": "Victoria Street South",
+        "display_name": "Victoria Street South, Highland West, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2N 3A6, Canada",
+        "address": {
+          "road": "Victoria Street South",
+          "suburb": "Highland West",
+          "city": "Kitchener",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2N 3A6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4320737",
+          "43.4330236",
+          "-80.5432494",
+          "-80.5405054"
+        ]
+      },
+      {
+        "place_id": 365826828,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 452495632,
+        "lat": "43.4293205",
+        "lon": "-80.5511389",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05339492408636603,
+        "addresstype": "secondary",
+        "name": "Victoria Street South",
+        "display_name": "Victoria Street South, Highland West, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2N 3P8, Canada",
+        "address": {
+          "road": "Victoria Street South",
+          "suburb": "Highland West",
+          "city": "Kitchener",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2N 3P8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4290101",
+          "43.4296341",
+          "-80.5520732",
+          "-80.5502056"
+        ]
+      }
+    ]
+  },
+  "250 Laurelwood Drive, Waterloo, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369631263,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 502224327,
+        "lat": "43.4769286",
+        "lon": "-80.5709414",
+        "category": "amenity",
+        "type": "social_facility",
+        "place_rank": 30,
+        "importance": 5.82276646066532e-05,
+        "addresstype": "amenity",
+        "name": "The Village at University Gates",
+        "display_name": "The Village at University Gates, 250, Laurelwood Drive, Waterloo, Region of Waterloo, Southwestern Ontario, Ontario, N2J 0E2, Canada",
+        "address": {
+          "amenity": "The Village at University Gates",
+          "house_number": "250",
+          "road": "Laurelwood Drive",
+          "city": "Waterloo",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2J 0E2",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4765453",
+          "43.4773167",
+          "-80.5712346",
+          "-80.5699128"
+        ]
+      }
+    ]
+  },
+  "435 The Boardwalk, Waterloo, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368436385,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 835426819,
+        "lat": "43.4399269",
+        "lon": "-80.5661290",
+        "category": "amenity",
+        "type": "clinic",
+        "place_rank": 30,
+        "importance": 6.159075303268509e-05,
+        "addresstype": "amenity",
+        "name": "Medical Centre 2",
+        "display_name": "Medical Centre 2, 435, The Boardwalk, Waterloo, Region of Waterloo, Southwestern Ontario, Ontario, N2T 0C2, Canada",
+        "address": {
+          "amenity": "Medical Centre 2",
+          "house_number": "435",
+          "road": "The Boardwalk",
+          "retail": "The Boardwalk",
+          "city": "Waterloo",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2T 0C2",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4396400",
+          "43.4401970",
+          "-80.5665848",
+          "-80.5656956"
+        ]
+      },
+      {
+        "place_id": 368949011,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 11436144890,
+        "lat": "43.4400319",
+        "lon": "-80.5662920",
+        "category": "amenity",
+        "type": "clinic",
+        "place_rank": 30,
+        "importance": 5.82276646066532e-05,
+        "addresstype": "amenity",
+        "name": "Generation Fertility Waterloo",
+        "display_name": "Generation Fertility Waterloo, 435, The Boardwalk, Waterloo, Region of Waterloo, Southwestern Ontario, Ontario, N2T 0C2, Canada",
+        "address": {
+          "amenity": "Generation Fertility Waterloo",
+          "house_number": "435",
+          "road": "The Boardwalk",
+          "retail": "The Boardwalk",
+          "city": "Waterloo",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2T 0C2",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4399819",
+          "43.4400819",
+          "-80.5663420",
+          "-80.5662420"
+        ]
+      }
+    ]
+  },
+  "3710A Nafziger Road, Wellesley, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369395218,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 41266175,
+        "lat": "43.4737518",
+        "lon": "-80.7647145",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.053373140306706306,
+        "addresstype": "secondary",
+        "name": "Nafziger Road",
+        "display_name": "Nafziger Road, Wellesley, Region of Waterloo, Southwestern Ontario, Ontario, N0B 2T0, Canada",
+        "address": {
+          "road": "Nafziger Road",
+          "village": "Wellesley",
+          "city": "Wellesley",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0B 2T0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4700660",
+          "43.4774592",
+          "-80.7653212",
+          "-80.7644633"
+        ]
+      },
+      {
+        "place_id": 368935999,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 35524418,
+        "lat": "43.4818323",
+        "lon": "-80.7638676",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.053373140306706306,
+        "addresstype": "residential",
+        "name": "Nafziger Road",
+        "display_name": "Nafziger Road, Wellesley, Region of Waterloo, Southwestern Ontario, Ontario, N0B 2T0, Canada",
+        "address": {
+          "road": "Nafziger Road",
+          "village": "Wellesley",
+          "city": "Wellesley",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0B 2T0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4802769",
+          "43.4833874",
+          "-80.7640800",
+          "-80.7636530"
+        ]
+      },
+      {
+        "place_id": 369838698,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 27522587,
+        "lat": "43.4779225",
+        "lon": "-80.7644247",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.053373140306706306,
+        "addresstype": "tertiary",
+        "name": "Nafziger Road",
+        "display_name": "Nafziger Road, Wellesley, Region of Waterloo, Southwestern Ontario, Ontario, N0B 2T0, Canada",
+        "address": {
+          "road": "Nafziger Road",
+          "village": "Wellesley",
+          "city": "Wellesley",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0B 2T0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4774592",
+          "43.4783869",
+          "-80.7645087",
+          "-80.7643429"
+        ]
+      }
+    ]
+  },
+  "25 Curtis Avenue North, Paris, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 45941141,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 215853544,
+        "lat": "43.1924475",
+        "lon": "-80.3716403",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "25, Curtis Avenue North, Paris, Brant County, Southwestern Ontario, Ontario, N3L 3H3, Canada",
+        "address": {
+          "house_number": "25",
+          "road": "Curtis Avenue North",
+          "town": "Paris",
+          "county": "Brant County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3L 3H3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1923975",
+          "43.1924975",
+          "-80.3716903",
+          "-80.3715903"
+        ]
+      }
+    ]
+  },
+  "45 Stanley Street, Ayr, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369298416,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1588987234,
+        "lat": "43.2851360",
+        "lon": "-80.4512680",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 3.786907759208083e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "45, Stanley Street, Ayr, North Dumfries, Region of Waterloo, Southwestern Ontario, Ontario, N0B 1E0, Canada",
+        "address": {
+          "house_number": "45",
+          "road": "Stanley Street",
+          "village": "Ayr",
+          "city": "North Dumfries",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0B 1E0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.2850860",
+          "43.2851860",
+          "-80.4513180",
+          "-80.4512180"
+        ]
+      }
+    ]
+  },
+  "2 Sunnyside Drive, St. George, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 367724820,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2253236696,
+        "lat": "43.2486375",
+        "lon": "-80.2528351",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 5.358434424348848e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "2, Sunnyside Drive, St George, Brant County, Southwestern Ontario, Ontario, N0E 1N0, Canada",
+        "address": {
+          "house_number": "2",
+          "road": "Sunnyside Drive",
+          "village": "St George",
+          "county": "Brant County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0E 1N0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.2485875",
+          "43.2486875",
+          "-80.2528851",
+          "-80.2527851"
+        ]
+      }
+    ]
+  },
+  "359 Talbot Street, St. Thomas, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 370439769,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 772949465,
+        "lat": "42.7792359",
+        "lon": "-81.1982287",
+        "category": "amenity",
+        "type": "clinic",
+        "place_rank": 30,
+        "importance": 5.476997024486179e-05,
+        "addresstype": "amenity",
+        "name": "Central Community Health Centre",
+        "display_name": "Central Community Health Centre, 359, Talbot Street, Downtown St. Thomas, St. Thomas, Southwestern Ontario, Ontario, N5R 3P1, Canada",
+        "address": {
+          "amenity": "Central Community Health Centre",
+          "house_number": "359",
+          "road": "Talbot Street",
+          "retail": "Downtown St. Thomas",
+          "city": "St. Thomas",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5R 3P1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7791317",
+          "42.7794381",
+          "-81.1983215",
+          "-81.1981312"
+        ]
+      }
+    ]
+  },
+  "268 Maiden Lane, St. Marys, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368450522,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5583476994,
+        "lat": "43.2598558",
+        "lon": "-81.1519814",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 4.0000762951049326e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "268, Maiden Lane, St. Marys, Southwestern Ontario, Ontario, N4X 1A1, Canada",
+        "address": {
+          "house_number": "268",
+          "road": "Maiden Lane",
+          "town": "St. Marys",
+          "county": "St. Marys",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N4X 1A1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.2598058",
+          "43.2599058",
+          "-81.1520314",
+          "-81.1519314"
+        ]
+      }
+    ]
+  },
+  "1745 Chiefswood Road, Ohsweken, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 45817190,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 218153205,
+        "lat": "43.0712868",
+        "lon": "-80.1165668",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "1745, Chiefswood Road, Ohsweken /  Oshw\u00e9:ken, Southwestern Ontario, Ontario, N3W 2B2, Canada",
+        "address": {
+          "house_number": "1745",
+          "road": "Chiefswood Road",
+          "village": "Ohsweken /  Oshw\u00e9:ken",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3W 2B2",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0712368",
+          "43.0713368",
+          "-80.1166168",
+          "-80.1165168"
+        ]
+      }
+    ]
+  },
+  "75 Parkview Road, Hagersville, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369532226,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 384865184,
+        "lat": "42.9585091",
+        "lon": "-80.0445164",
+        "category": "amenity",
+        "type": "hospital",
+        "place_rank": 30,
+        "importance": 4.0000762951049326e-05,
+        "addresstype": "amenity",
+        "name": "West Haldimand General Hospital",
+        "display_name": "West Haldimand General Hospital, 75, Parkview Road, Hagersville, Haldimand County, Southwestern Ontario, Ontario, N0A 1H0, Canada",
+        "address": {
+          "amenity": "West Haldimand General Hospital",
+          "house_number": "75",
+          "road": "Parkview Road",
+          "town": "Hagersville",
+          "county": "Haldimand County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0A 1H0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9574795",
+          "42.9594575",
+          "-80.0471182",
+          "-80.0418156"
+        ]
+      },
+      {
+        "place_id": 368420964,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 687835466,
+        "lat": "42.9587024",
+        "lon": "-80.0442213",
+        "category": "building",
+        "type": "hospital",
+        "place_rank": 30,
+        "importance": 4.0000762951049326e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "75, Parkview Road, Hagersville, Haldimand County, Southwestern Ontario, Ontario, N0A 1H0, Canada",
+        "address": {
+          "house_number": "75",
+          "road": "Parkview Road",
+          "town": "Hagersville",
+          "county": "Haldimand County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0A 1H0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9582911",
+          "42.9591069",
+          "-80.0450507",
+          "-80.0439965"
+        ]
+      },
+      {
+        "place_id": 369075997,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 814509617,
+        "lat": "42.9582601",
+        "lon": "-80.0418843",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 4.0000762951049326e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "75, Parkview Road, Hagersville, Haldimand County, Southwestern Ontario, Ontario, N0A 1H0, Canada",
+        "address": {
+          "house_number": "75",
+          "road": "Parkview Road",
+          "town": "Hagersville",
+          "county": "Haldimand County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0A 1H0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9582101",
+          "42.9583101",
+          "-80.0419343",
+          "-80.0418343"
+        ]
+      }
+    ]
+  },
+  "250 Argyle Street North, Caledonia, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 350584730,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 836851104,
+        "lat": "43.0796473",
+        "lon": "-79.9489812",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 4.19020370793777e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "250, Argyle Street North, Caledonia, Haldimand County, Southwestern Ontario, Ontario, N3W 1K9, Canada",
+        "address": {
+          "house_number": "250",
+          "road": "Argyle Street North",
+          "town": "Caledonia",
+          "county": "Haldimand County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3W 1K9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0795973",
+          "43.0796973",
+          "-79.9490312",
+          "-79.9489312"
+        ]
+      }
+    ]
+  },
+  "34 Richard William Drive, Caledonia, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 353644354,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1135168037,
+        "lat": "43.0756850",
+        "lon": "-79.9253219",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05337523537041272,
+        "addresstype": "residential",
+        "name": "Richard William Drive",
+        "display_name": "Richard William Drive, Caledonia, Haldimand County, Southwestern Ontario, Ontario, N3W 0H5, Canada",
+        "address": {
+          "road": "Richard William Drive",
+          "town": "Caledonia",
+          "county": "Haldimand County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3W 0H5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0738646",
+          "43.0775051",
+          "-79.9261104",
+          "-79.9245312"
+        ]
+      },
+      {
+        "place_id": 349881037,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 908498428,
+        "lat": "43.0732011",
+        "lon": "-79.9264108",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05337523537041272,
+        "addresstype": "residential",
+        "name": "Richard William Drive",
+        "display_name": "Richard William Drive, Caledonia, Haldimand County, Southwestern Ontario, Ontario, N3W 2N7, Canada",
+        "address": {
+          "road": "Richard William Drive",
+          "town": "Caledonia",
+          "county": "Haldimand County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3W 2N7",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0725334",
+          "43.0738646",
+          "-79.9266509",
+          "-79.9261104"
+        ]
+      }
+    ]
+  },
+  "55 Argyle Street North, Caledonia, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 351881560,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 688543026,
+        "lat": "43.0745718",
+        "lon": "-79.9517833",
+        "category": "building",
+        "type": "retail",
+        "place_rank": 30,
+        "importance": 4.19020370793777e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "55, Argyle Street North, Caledonia, Haldimand County, Southwestern Ontario, Ontario, N3W 1B9, Canada",
+        "address": {
+          "house_number": "55",
+          "road": "Argyle Street North",
+          "town": "Caledonia",
+          "county": "Haldimand County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3W 1B9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0744370",
+          "43.0747017",
+          "-79.9520156",
+          "-79.9515723"
+        ]
+      }
+    ]
+  },
+  "3773 6th Line, Ohsweken, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": []
+  },
+  "493 Dundas Street, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47834748,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 191111976,
+        "lat": "42.9874235",
+        "lon": "-81.2360697",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "493, Dundas Street, London, Southwestern Ontario, Ontario, N6B 1Y3, Canada",
+        "address": {
+          "house_number": "493",
+          "road": "Dundas Street",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6B 1Y3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9873735",
+          "42.9874735",
+          "-81.2361197",
+          "-81.2360197"
+        ]
+      }
+    ]
+  },
+  "77 Anishinaabeg Drive, Muncey, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": []
+  },
+  "745 Coronation Boulevard, Cambridge, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 367819380,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 663880906,
+        "lat": "43.3815766",
+        "lon": "-80.3306390",
+        "category": "building",
+        "type": "retail",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "745, Coronation Boulevard, Preston, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 0B6, Canada",
+        "address": {
+          "house_number": "745",
+          "road": "Coronation Boulevard",
+          "suburb": "Preston",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 0B6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3813163",
+          "43.3818206",
+          "-80.3310035",
+          "-80.3302468"
+        ]
+      },
+      {
+        "place_id": 367765534,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 11248512632,
+        "lat": "43.3815128",
+        "lon": "-80.3305307",
+        "category": "amenity",
+        "type": "clinic",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "amenity",
+        "name": "Southwest Ontario Aboriginal Health Access Centre",
+        "display_name": "Southwest Ontario Aboriginal Health Access Centre, 745, Coronation Boulevard, Preston, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 7R1, Canada",
+        "address": {
+          "amenity": "Southwest Ontario Aboriginal Health Access Centre",
+          "house_number": "745",
+          "road": "Coronation Boulevard",
+          "suburb": "Preston",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 7R1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3814628",
+          "43.3815628",
+          "-80.3305807",
+          "-80.3304807"
+        ]
+      },
+      {
+        "place_id": 367813040,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13327574508,
+        "lat": "43.3814571",
+        "lon": "-80.3304362",
+        "category": "amenity",
+        "type": "clinic",
+        "place_rank": 30,
+        "importance": 5.482642862587957e-05,
+        "addresstype": "amenity",
+        "name": "Altum Health",
+        "display_name": "Altum Health, 745, Coronation Boulevard, Preston, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N1R 0B6, Canada",
+        "address": {
+          "amenity": "Altum Health",
+          "house_number": "745",
+          "road": "Coronation Boulevard",
+          "suburb": "Preston",
+          "city": "Cambridge",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N1R 0B6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3814071",
+          "43.3815071",
+          "-80.3304862",
+          "-80.3303862"
+        ]
+      }
+    ]
+  },
+  "1401 Queen's Bush Road, Wellesley, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368212889,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 12087905827,
+        "lat": "43.4792064",
+        "lon": "-80.7779637",
+        "category": "leisure",
+        "type": "sports_centre",
+        "place_rank": 30,
+        "importance": 3.9806973372961285e-05,
+        "addresstype": "leisure",
+        "name": "Bill Gies Recreation Centre",
+        "display_name": "Bill Gies Recreation Centre, 1401, Queen's Bush Road, Wellesley, Region of Waterloo, Southwestern Ontario, Ontario, N0B 2T0, Canada",
+        "address": {
+          "leisure": "Bill Gies Recreation Centre",
+          "house_number": "1401",
+          "road": "Queen's Bush Road",
+          "village": "Wellesley",
+          "city": "Wellesley",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0B 2T0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4791564",
+          "43.4792564",
+          "-80.7780137",
+          "-80.7779137"
+        ]
+      }
+    ]
+  },
+  "163 Peel Street, New Hamburg, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 57283995,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 401006131,
+        "lat": "43.3774362",
+        "lon": "-80.7084321",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "163, Peel Street, New Hamburg, Wilmot, Region of Waterloo, Southwestern Ontario, Ontario, N3A 1E3, Canada",
+        "address": {
+          "house_number": "163",
+          "road": "Peel Street",
+          "town": "New Hamburg",
+          "city": "Wilmot",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3A 1E3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3773862",
+          "43.3774862",
+          "-80.7084821",
+          "-80.7083821"
+        ]
+      }
+    ]
+  },
+  "10 Waterloo Street, New Hamburg, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368520206,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 35521798,
+        "lat": "43.3933632",
+        "lon": "-80.7080959",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05337219119554433,
+        "addresstype": "secondary",
+        "name": "Waterloo Street",
+        "display_name": "Waterloo Street, Luxemburg, New Hamburg, Wilmot, Region of Waterloo, Southwestern Ontario, Ontario, N3A 1S9, Canada",
+        "address": {
+          "road": "Waterloo Street",
+          "hamlet": "Luxemburg",
+          "town": "New Hamburg",
+          "city": "Wilmot",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3A 1S9",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3912105",
+          "43.3952049",
+          "-80.7092639",
+          "-80.7065102"
+        ]
+      },
+      {
+        "place_id": 367590645,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 35508292,
+        "lat": "43.3796294",
+        "lon": "-80.7153688",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05337219119554433,
+        "addresstype": "secondary",
+        "name": "Waterloo Street",
+        "display_name": "Waterloo Street, New Hamburg, Wilmot, Region of Waterloo, Southwestern Ontario, Ontario, N3A 1P1, Canada",
+        "address": {
+          "road": "Waterloo Street",
+          "town": "New Hamburg",
+          "city": "Wilmot",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3A 1P1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3776285",
+          "43.3821099",
+          "-80.7154596",
+          "-80.7136559"
+        ]
+      },
+      {
+        "place_id": 368264673,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 480745677,
+        "lat": "43.3985280",
+        "lon": "-80.7020778",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05337219119554433,
+        "addresstype": "secondary",
+        "name": "Waterloo Street",
+        "display_name": "Waterloo Street, Luxemburg, New Hamburg, Wilmot, Region of Waterloo, Southwestern Ontario, Ontario, N3A 3K8, Canada",
+        "address": {
+          "road": "Waterloo Street",
+          "hamlet": "Luxemburg",
+          "town": "New Hamburg",
+          "city": "Wilmot",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N3A 3K8",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.3952049",
+          "43.3996095",
+          "-80.7065102",
+          "-80.6965972"
+        ]
+      }
+    ]
+  },
+  "25 Base Line Road West, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368148951,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1993163269,
+        "lat": "42.9590659",
+        "lon": "-81.2625172",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 6.659266041042218e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "25, Base Line Road West, London, Southwestern Ontario, Ontario, N6J 1V1, Canada",
+        "address": {
+          "house_number": "25",
+          "road": "Base Line Road West",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6J 1V1",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9590159",
+          "42.9591159",
+          "-81.2625672",
+          "-81.2624672"
+        ]
+      }
+    ]
+  },
+  "1144 Courtland Avenue East, Kitchener, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 367863082,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 11033634501,
+        "lat": "43.4222873",
+        "lon": "-80.4603567",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 6.159075303268509e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "1144, Courtland Avenue East, Vanier, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2C 2H5, Canada",
+        "address": {
+          "house_number": "1144",
+          "road": "Courtland Avenue East",
+          "suburb": "Vanier",
+          "city": "Kitchener",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2C 2H5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4222373",
+          "43.4223373",
+          "-80.4604067",
+          "-80.4603067"
+        ]
+      },
+      {
+        "place_id": 367863194,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2685112554,
+        "lat": "43.4224454",
+        "lon": "-80.4601622",
+        "category": "shop",
+        "type": "second_hand",
+        "place_rank": 30,
+        "importance": 6.159075303268509e-05,
+        "addresstype": "shop",
+        "name": "Talize",
+        "display_name": "Talize, 1144, Courtland Avenue East, Vanier, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2C 2H5, Canada",
+        "address": {
+          "shop": "Talize",
+          "house_number": "1144",
+          "road": "Courtland Avenue East",
+          "suburb": "Vanier",
+          "city": "Kitchener",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2C 2H5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4223954",
+          "43.4224954",
+          "-80.4602122",
+          "-80.4601122"
+        ]
+      },
+      {
+        "place_id": 367993829,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2685112568,
+        "lat": "43.4222460",
+        "lon": "-80.4605888",
+        "category": "amenity",
+        "type": "pharmacy",
+        "place_rank": 30,
+        "importance": 6.159075303268509e-05,
+        "addresstype": "amenity",
+        "name": "Pharmasave",
+        "display_name": "Pharmasave, 1144, Courtland Avenue East, Vanier, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2C 2H5, Canada",
+        "address": {
+          "amenity": "Pharmasave",
+          "house_number": "1144",
+          "road": "Courtland Avenue East",
+          "suburb": "Vanier",
+          "city": "Kitchener",
+          "county": "Region of Waterloo",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N2C 2H5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.4221960",
+          "43.4222960",
+          "-80.4606388",
+          "-80.4605388"
+        ]
+      }
+    ]
+  },
+  "414 Main Street, Port Dover, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47994375,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 67468439,
+        "lat": "42.7878033",
+        "lon": "-80.2047385",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "414, Main Street, Port Dover, Norfolk County, Southwestern Ontario, Ontario, N0A 1N0, Canada",
+        "address": {
+          "house_number": "414",
+          "road": "Main Street",
+          "town": "Port Dover",
+          "county": "Norfolk County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0A 1N0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7877533",
+          "42.7878533",
+          "-80.2047885",
+          "-80.2046885"
+        ]
+      }
+    ]
+  },
+  "410 Main Street, Port Dover, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 48120100,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 67468439,
+        "lat": "42.7877656",
+        "lon": "-80.2046855",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "410, Main Street, Port Dover, Norfolk County, Southwestern Ontario, Ontario, N0A 1N0, Canada",
+        "address": {
+          "house_number": "410",
+          "road": "Main Street",
+          "town": "Port Dover",
+          "county": "Norfolk County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0A 1N0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.7877156",
+          "42.7878156",
+          "-80.2047355",
+          "-80.2046355"
+        ]
+      }
+    ]
+  },
+  "285 Bridge Street, Port Stanley, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 368347005,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 126454105,
+        "lat": "42.6643350",
+        "lon": "-81.2151886",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05337620126649878,
+        "addresstype": "secondary",
+        "name": "Bridge Street",
+        "display_name": "Bridge Street, Grimmonds Beach, Port Stanley, Central Elgin, Elgin County, Southwestern Ontario, Ontario, N5L 1C5, Canada",
+        "address": {
+          "road": "Bridge Street",
+          "neighbourhood": "Grimmonds Beach",
+          "town": "Port Stanley",
+          "city": "Central Elgin",
+          "county": "Elgin County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5L 1C5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.6641853",
+          "42.6646400",
+          "-81.2156913",
+          "-81.2147455"
+        ]
+      },
+      {
+        "place_id": 366582210,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 126454237,
+        "lat": "42.6655080",
+        "lon": "-81.2134940",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05337620126649878,
+        "addresstype": "secondary",
+        "name": "Bridge Street",
+        "display_name": "Bridge Street, Port Stanley Fitness Centre, Port Stanley, Central Elgin, Elgin County, Southwestern Ontario, Ontario, N5L 1C3, Canada",
+        "address": {
+          "road": "Bridge Street",
+          "residential": "Port Stanley Fitness Centre",
+          "town": "Port Stanley",
+          "city": "Central Elgin",
+          "county": "Elgin County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5L 1C3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.6653177",
+          "42.6656734",
+          "-81.2137799",
+          "-81.2131934"
+        ]
+      },
+      {
+        "place_id": 368178767,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 126454153,
+        "lat": "42.6657656",
+        "lon": "-81.2128170",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05337620126649878,
+        "addresstype": "secondary",
+        "name": "Bridge Street",
+        "display_name": "Bridge Street, Port Stanley Fitness Centre, Port Stanley, Central Elgin, Elgin County, Southwestern Ontario, Ontario, N5L 1C2, Canada",
+        "address": {
+          "road": "Bridge Street",
+          "residential": "Port Stanley Fitness Centre",
+          "town": "Port Stanley",
+          "city": "Central Elgin",
+          "county": "Elgin County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5L 1C2",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.6656734",
+          "42.6658357",
+          "-81.2131934",
+          "-81.2124353"
+        ]
+      }
+    ]
+  },
+  "4327 Hamilton Road, Dorchester, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 369100078,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2029270638,
+        "lat": "42.9857040",
+        "lon": "-81.0494183",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 4.0000762951049326e-05,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "4327, Hamilton Road, Dorchester, Thames Centre, Middlesex County, Southwestern Ontario, Ontario, N0L 1G3, Canada",
+        "address": {
+          "house_number": "4327",
+          "road": "Hamilton Road",
+          "town": "Dorchester",
+          "village": "Thames Centre",
+          "county": "Middlesex County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0L 1G3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9856540",
+          "42.9857540",
+          "-81.0494683",
+          "-81.0493683"
+        ]
+      }
+    ]
+  },
+  "4036 Catherine Street, Dorchester, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 47870072,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 191616602,
+        "lat": "42.9892103",
+        "lon": "-81.0682484",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "4036, Catherine Street, Dorchester, Thames Centre, Middlesex County, Southwestern Ontario, Ontario, N0L 1G0, Canada",
+        "address": {
+          "house_number": "4036",
+          "road": "Catherine Street",
+          "town": "Dorchester",
+          "village": "Thames Centre",
+          "county": "Middlesex County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0L 1G0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "42.9891603",
+          "42.9892603",
+          "-81.0682984",
+          "-81.0681984"
+        ]
+      }
+    ]
+  },
+  "21816 Fairview Road, Thorndale, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 365863084,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 28678040,
+        "lat": "43.0608606",
+        "lon": "-81.1175048",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "tertiary",
+        "name": "Fairview Road",
+        "display_name": "Fairview Road, Thames Centre, Middlesex County, Southwestern Ontario, Ontario, N5V 5C6, Canada",
+        "address": {
+          "road": "Fairview Road",
+          "village": "Thames Centre",
+          "county": "Middlesex County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N5V 5C6",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0531553",
+          "43.0685964",
+          "-81.1213685",
+          "-81.1135808"
+        ]
+      },
+      {
+        "place_id": 365863494,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 936154503,
+        "lat": "43.0739944",
+        "lon": "-81.1241337",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.05339992599374377,
+        "addresstype": "tertiary",
+        "name": "Fairview Road",
+        "display_name": "Fairview Road, Thames Centre, Middlesex County, Southwestern Ontario, Ontario, N0M 2P0, Canada",
+        "address": {
+          "road": "Fairview Road",
+          "village": "Thames Centre",
+          "county": "Middlesex County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0M 2P0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0686829",
+          "43.0793059",
+          "-81.1268487",
+          "-81.1214188"
+        ]
+      }
+    ]
+  },
+  "1635 Hyde Park Road, London, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 46395456,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 161562021,
+        "lat": "43.0004967",
+        "lon": "-81.3326937",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "1635, Hyde Park Road, London, Southwestern Ontario, Ontario, N6H 5L5, Canada",
+        "address": {
+          "house_number": "1635",
+          "road": "Hyde Park Road",
+          "city": "London",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N6H 5L5",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.0004467",
+          "43.0005467",
+          "-81.3327437",
+          "-81.3326437"
+        ]
+      }
+    ]
+  },
+  "3 Maple Avenue North, Burford, Ontario, Canada": {
+    "retrieved_on": "2026-11-12",
+    "results": [
+      {
+        "place_id": 45849089,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 214858819,
+        "lat": "43.1038638",
+        "lon": "-80.4294988",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "3, Maple Avenue North, Burford, Brant County, Southwestern Ontario, Ontario, N0E 1A0, Canada",
+        "address": {
+          "house_number": "3",
+          "road": "Maple Avenue North",
+          "village": "Burford",
+          "county": "Brant County",
+          "state_district": "Southwestern Ontario",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "N0E 1A0",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "boundingbox": [
+          "43.1038138",
+          "43.1039138",
+          "-80.4295488",
+          "-80.4294488"
+        ]
+      }
+    ]
+  }
+}

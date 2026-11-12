@@ -9,7 +9,7 @@
       "Which of the conflicting published intake statements is current?"
     ],
     "status": "requires_external_confirmation",
-    "last_public_review": "2026-11-11"
+    "last_public_review": "2026-11-12"
   },
   {
     "clinic_id": "c005",
@@ -30,7 +30,7 @@
     "website": "https://www.elmdalehealth.com/",
     "questions": [
       "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
-      "Is there a public direct intake/office number, or is the published online route the only contact?"
+      "Is there a public direct intake/office number?"
     ],
     "status": "requires_external_confirmation",
     "last_public_review": "2026-11-11"
@@ -58,13 +58,24 @@
     "last_public_review": "2026-11-11"
   },
   {
+    "clinic_id": "c038",
+    "name": "Oxford County Nurse Practitioner-Led Clinic — Ingersoll",
+    "phone": "519-926-6752",
+    "website": "https://www.ocnplc.ca/",
+    "questions": [
+      "Which application route is available for Ingersoll? The linked online form identifies Tillsonburg only."
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
     "clinic_id": "c041",
     "name": "Thames Valley FHT — Queens Avenue Health & Homelessness",
     "phone": "",
     "website": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
     "questions": [
       "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
-      "Is there a public direct intake/office number, or is the published online route the only contact?"
+      "Is there a public direct intake/office number?"
     ],
     "status": "requires_external_confirmation",
     "last_public_review": "2026-11-11"
@@ -77,7 +88,7 @@
     "questions": [
       "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
       "What is the correct street address and suite for this named practice?",
-      "Is there a public direct intake/office number, or is the published online route the only contact?"
+      "Is there a public direct intake/office number?"
     ],
     "status": "requires_external_confirmation",
     "last_public_review": "2026-11-11"
@@ -235,7 +246,7 @@
       "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
     ],
     "status": "requires_external_confirmation",
-    "last_public_review": "2026-11-11"
+    "last_public_review": "2026-11-12"
   },
   {
     "clinic_id": "c070",
@@ -584,7 +595,7 @@
     "phone": "",
     "website": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
     "questions": [
-      "Is there a public direct intake/office number, or is the published online route the only contact?"
+      "Is there a public direct intake/office number?"
     ],
     "status": "requires_external_confirmation",
     "last_public_review": "2026-11-12"
@@ -595,7 +606,107 @@
     "phone": "519-662-1551",
     "website": "https://www.nvfp.ca/",
     "questions": [
-      "Does this office currently accept applications for ongoing family physician care? What route and eligibility apply?"
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c125",
+    "name": "Port Dover Family Health",
+    "phone": "519-583-2225",
+    "website": "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c126",
+    "name": "Dover Shores Family Practice",
+    "phone": "519-583-0892",
+    "website": "https://dovershoresfamilypractice.ca/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c127",
+    "name": "C.A. Bell Medical Centre — Dr. Kristin Richter",
+    "phone": "519-782-4195",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c128",
+    "name": "C.A. Bell Medical Centre — Dr. Brendan Boyd",
+    "phone": "519-782-3667",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=103833",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c129",
+    "name": "Dorchester Medical Centre",
+    "phone": "519-202-7391",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=96271",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c130",
+    "name": "Thames River FHO — Dr. Alex Bohdanowicz",
+    "phone": "519-268-7301",
+    "website": "https://www.thamesriverfho.ca/doctors",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c131",
+    "name": "Thames River FHO — Thorndale",
+    "phone": "519-461-0776",
+    "website": "https://www.thamesriverfho.ca/doctors",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c132",
+    "name": "Synergy Centre — Family Medicine",
+    "phone": "519-266-3600",
+    "website": "https://synergycentre.ca/about-us/about-us",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c133",
+    "name": "Burford Medical Centre — Dr. Joanne Ozog-Bartlett",
+    "phone": "",
+    "website": "https://cobblestonemedicineandrehab.com/our-staff-burford/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
+      "Is there a public direct intake/office number?"
     ],
     "status": "requires_external_confirmation",
     "last_public_review": "2026-11-12"

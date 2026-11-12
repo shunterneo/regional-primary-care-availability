@@ -2,9 +2,11 @@
   "schema_version": 1,
   "center": {
     "name": "96 Tillson Avenue, Tillsonburg",
-    "latitude": 42.8654,
+    "latitude": 42.8655171,
     "longitude": -80.7228,
-    "radius_km": 75
+    "radius_km": 75,
+    "coordinate_source": "https://www.openstreetmap.org/way/564144865",
+    "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit"
   },
   "data_as_of": "2026-11-12",
   "clinics": [
@@ -64,7 +66,7 @@
       "clinic_url": "https://greenwichmedical.ca/appointment",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 48.1,
       "notes": "The clinic’s official appointment page shows more than one contact number (519-751-8843 and 519-267-5030). Main contact needs telephone confirmation; 519-751-8843 shown here is the header/footer number.",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -86,7 +88,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://greenwichmedical.ca/appointment",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 43.1358962,
+      "longitude": -80.2588693,
+      "coordinate_source": "https://www.openstreetmap.org/way/217055105",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c003",
@@ -102,7 +109,7 @@
       "clinic_url": "https://emeraldcaremax.ca/registration/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -124,7 +131,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://emeraldcaremax.ca/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 43.3789397,
+      "longitude": -80.3193588,
+      "coordinate_source": "https://www.openstreetmap.org/way/401040361",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c004",
@@ -184,7 +196,7 @@
       "clinic_url": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
       "source_published": "2026-08-26",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Sourced government planning point",
       "community_distance_km": 44.6,
       "notes": "Conflict sources: https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/ and https://londonfht.ca/our-locations/.",
       "review_basis": "Unresolved contradiction in two official LFHT webpages independently checked 2026-11-11; do not mark green.",
@@ -208,7 +220,12 @@
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
       "intake_conflict": true,
-      "auto_updates_enabled": false
+      "auto_updates_enabled": false,
+      "latitude": 43.049188,
+      "longitude": -81.253068,
+      "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
+      "coordinate_quality": "Government planning point matched to clinic address; not entrance or suite",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c006",
@@ -224,7 +241,7 @@
       "clinic_url": "https://thompsonmedical.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -246,7 +263,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thompsonmedical.ca/contact/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 42.9994347,
+      "longitude": -81.3292998,
+      "coordinate_source": "https://www.openstreetmap.org/way/187870192",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c007",
@@ -262,7 +284,7 @@
       "clinic_url": "https://thompsonmedical.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -284,7 +306,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thompsonmedical.ca/contact/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 42.9673167,
+      "longitude": -81.2254201,
+      "coordinate_source": "https://www.openstreetmap.org/way/190958508",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c008",
@@ -300,7 +327,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -323,7 +350,12 @@
       "address_verification_source": "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
-      "phone_note": "NP clinic site phone; separate attachment intake team: 519-473-0530 ext. 2197"
+      "phone_note": "NP clinic site phone; separate attachment intake team: 519-473-0530 ext. 2197",
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c009",
@@ -339,7 +371,7 @@
       "clinic_url": "https://www.elmdalehealth.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 39,
       "notes": "",
       "review_basis": "Multi-tenant building notice only, not clinician-specific intake; needs direct practice confirmation.",
@@ -362,7 +394,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://www.elmdalehealth.com/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 42.7642748,
+      "longitude": -81.1964396,
+      "coordinate_source": "https://www.openstreetmap.org/way/196174893",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c010",
@@ -378,7 +415,7 @@
       "clinic_url": "https://thompsonmedical.ca/walk-in-clinic/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 39,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -401,7 +438,12 @@
       "address_verification_source": "https://thompsonmedical.ca/contact/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
-      "phone_note": "TMC+ St Thomas main line; not a confirmation of family physician roster space."
+      "phone_note": "TMC+ St Thomas main line; not a confirmation of family physician roster space.",
+      "latitude": 42.7642748,
+      "longitude": -81.1964396,
+      "coordinate_source": "https://www.openstreetmap.org/way/196174893",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c011",
@@ -409,28 +451,28 @@
       "community": "Tillsonburg",
       "address": "671 Broadway Street, Unit 12",
       "clinic_type": "NP",
-      "status": "reported",
-      "intake_detail": "Oxford County NPLC is accepting new-patient applications regionally. Tillsonburg patients continue to use the temporary Unit 12 site while permanent Unit 14 is listed to open early 2027. The regional application does not confirm a vacant roster specifically at Tillsonburg; Ingersoll capacity is separately described as limited.",
+      "status": "accepting",
+      "intake_detail": "New-patient applications are open for the Tillsonburg site. Apply through the clinic website. The linked intake form explicitly identifies Tillsonburg only and asks about Oxford County residency and an existing primary-care provider. Woodstock residents are directed to TVFHT. Applications are reviewed for eligibility and capacity; submitting does not guarantee enrolment. Care continues at temporary Unit 12 while permanent Unit 14 is listed to open early 2027.",
       "phone": "519-926-6752",
       "providers": "Nurse-practitioner team; individual names not confirmed at this site",
       "evidence_url": "https://www.ocnplc.ca/patient-information/new-patients/",
       "clinic_url": "https://www.ocnplc.ca/patient-information/new-patients/",
       "source_published": "2026-08-25",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-12",
       "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 0,
       "notes": "",
-      "review_basis": "Oxford OHT September 8 transition notice reconciled with OCNPLC regional intake and upcoming permanent site notice.",
+      "review_basis": "Clinic webpage and its live linked Ocean application reviewed; application explicitly identifies Tillsonburg site only.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://oxfordoht.ca/tillsonburg-unattached-care-clinic/",
       "intake_verification": {
-        "tier": "program_general",
-        "scope": "program",
-        "reviewed_on": "2026-11-11",
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
         "source_url": "https://www.ocnplc.ca/patient-information/new-patients/",
-        "finding": "Oxford NPLC regional application open; permanent Tillsonburg site is listed as opening early 2027, with temporary care at Unit 12.",
+        "finding": "The live application linked by the clinic explicitly identifies Tillsonburg site only. Clinic registration page states applications open. Office move timing is separate from intake.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -440,7 +482,9 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://oxfordoht.ca/tillsonburg-unattached-care-clinic/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "application_url": "https://ocean.cognisantmd.com/eRequest/d5e47774-8987-4e5a-b069-f8bbf23fd9d9",
+      "application_scope_source": "https://ocean.cognisantmd.com/intake/IntakePortal.html?eReqRef=d5e47774-8987-4e5a-b069-f8bbf23fd9d9"
     },
     {
       "id": "c012",
@@ -458,7 +502,7 @@
       "last_reviewed": "2026-11-11",
       "location_quality": "Address requires direct clinic confirmation; map uses town-level marker",
       "community_distance_km": 30.2,
-      "notes": "Municipal announcement confirms Dr Aman has established Oxfordia clinic, but the original clinic website was inaccessible for a clinic-owned suite-level address check. Secondary sources indicate 600 Princess St Suite 300. Keep address source unverified pending clinic confirmation. November 10, 2026 Heart FM report independently reiterates Dr. Aman is accepting patients at Oxfordia Medical Centre; the report does not verify Suite 300 or guarantee remaining capacity. https://www.heartfm.ca/news/local-news/new-family-doctor-now-accepting-patients/",
+      "notes": "Live CPSO search identified Hamza Aman, 277205, with Brampton primary business address. This does not corroborate the Woodstock suite; municipality confirms Woodstock practice but suite remains unresolved.",
       "review_basis": "City of Woodstock official announcement and November 10 Heart FM report cross-checked November 11; not telephone-confirmed; Suite 300 remains unverified.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
@@ -478,7 +522,10 @@
       "clinic_address_verified": false,
       "address_verification_source": "",
       "address_verified_on": "",
-      "address_verification_scope": "Unresolved source discrepancy"
+      "address_verification_scope": "Unresolved source discrepancy",
+      "additional_sources": [
+        "https://register.cpso.on.ca/physician-info/?cpsonum=277205"
+      ]
     },
     {
       "id": "c013",
@@ -536,7 +583,7 @@
       "clinic_url": "https://trustycare.ca/team/dr-claire-louise-young-md/",
       "source_published": "2026-09",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 30.2,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -558,7 +605,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://trustycare.ca/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 43.1338569,
+      "longitude": -80.7337207,
+      "coordinate_source": "https://www.openstreetmap.org/way/279556329",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c015",
@@ -617,7 +669,7 @@
       "clinic_url": "https://www.avenuemedical.ca",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 48.1,
       "notes": "",
       "review_basis": "Independent check of live regional healthcare/medical association public directory; regional report only, not clinic-confirmed intake.",
@@ -640,7 +692,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Brant Community Healthcare System physician listing confirms the clinic street and office telephone."
+      "address_verification_scope": "Brant Community Healthcare System physician listing confirms the clinic street and office telephone.",
+      "latitude": 43.146995,
+      "longitude": -80.2761277,
+      "coordinate_source": "https://www.openstreetmap.org/node/2263695278",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c017",
@@ -656,7 +713,7 @@
       "clinic_url": "https://bonavistamedicalcentrebrantford.com",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 48.1,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -678,7 +735,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://bonavistamedicalcentrebrantford.com/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 43.1772847,
+      "longitude": -80.2797007,
+      "coordinate_source": "https://www.openstreetmap.org/node/2259099378",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c018",
@@ -694,7 +756,7 @@
       "clinic_url": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 48.1,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -716,7 +778,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=155642",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 43.1775192,
+      "longitude": -80.2794214,
+      "coordinate_source": "https://www.openstreetmap.org/node/2259098073",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c019",
@@ -770,7 +837,7 @@
       "clinic_url": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 48.1,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -792,7 +859,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 43.1748396,
+      "longitude": -80.2340513,
+      "coordinate_source": "https://www.openstreetmap.org/node/2266399348",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c021",
@@ -808,7 +880,7 @@
       "clinic_url": "https://www.coronationfamilyphysicians.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address sourced to clinic; map marker at community centre.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
@@ -831,7 +903,12 @@
       "phone_note": "Official clinic phone; the practice's current application pathway is a waitlist, not guaranteed immediate attachment.",
       "address_verification_source": "https://www.coronationfamilyphysicians.ca/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Exact unit/phone from primary clinic webpage; no intake guarantee"
+      "address_verification_scope": "Exact unit/phone from primary clinic webpage; no intake guarantee",
+      "latitude": 43.4116196,
+      "longitude": -80.3118052,
+      "coordinate_source": "https://www.openstreetmap.org/way/139636280",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c022",
@@ -885,7 +962,7 @@
       "clinic_url": "https://www.langs.org/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
@@ -907,7 +984,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://www.langs.org/locations-hours",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 43.3960716,
+      "longitude": -80.3445456,
+      "coordinate_source": "https://www.openstreetmap.org/way/401082297",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c024",
@@ -923,7 +1005,7 @@
       "clinic_url": "https://www.saginawmedicalcentre.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -946,7 +1028,12 @@
       "address_verification_source": "https://www.saginawmedicalcentre.com/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
-      "phone_note": "Clinic website contact number. Its generic patient-information page separately mentions 519-624-2220 and a pharmacy email; that discrepancy is not evidence of new intake."
+      "phone_note": "Clinic website contact number. Its generic patient-information page separately mentions 519-624-2220 and a pharmacy email; that discrepancy is not evidence of new intake.",
+      "latitude": 43.3898537,
+      "longitude": -80.2839427,
+      "coordinate_source": "https://www.openstreetmap.org/way/401040084",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c025",
@@ -962,7 +1049,7 @@
       "clinic_url": "https://www.doctors4cambridge.com/contact.htm",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -984,7 +1071,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=139617",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 43.37324,
+      "longitude": -80.318774,
+      "coordinate_source": "https://www.openstreetmap.org/node/4035137020",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c026",
@@ -1000,7 +1092,7 @@
       "clinic_url": "https://standrewsclinic.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -1022,7 +1114,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://standrewsclinic.ca/contact-us/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 43.3501295,
+      "longitude": -80.3260195,
+      "coordinate_source": "https://www.openstreetmap.org/way/254448166",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c027",
@@ -1038,7 +1135,7 @@
       "clinic_url": "https://townlineclinic.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -1060,7 +1157,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://townlineclinic.com/contact-us/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 43.4237982,
+      "longitude": -80.2848779,
+      "coordinate_source": "https://www.openstreetmap.org/node/12813327132",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c028",
@@ -1152,7 +1254,7 @@
       "clinic_url": "https://www.ldam.ca/find-a-doctor",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1174,7 +1276,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=145987",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 42.9529596,
+      "longitude": -81.3309364,
+      "coordinate_source": "https://www.openstreetmap.org/node/1983653080",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c031",
@@ -1228,7 +1335,7 @@
       "clinic_url": "https://hamiltonmedclinic.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Independent check of live regional healthcare/medical association public directory; regional report only, not clinic-confirmed intake.",
@@ -1251,7 +1358,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://hamiltonmedclinic.com/contact-us/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Clinic-owned contact page explicitly shows 204 Hamilton Road and office telephone."
+      "address_verification_scope": "Clinic-owned contact page explicitly shows 204 Hamilton Road and office telephone.",
+      "latitude": 42.9820772,
+      "longitude": -81.228401,
+      "coordinate_source": "https://www.openstreetmap.org/node/2016930355",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c033",
@@ -1267,7 +1379,7 @@
       "clinic_url": "https://www.oldsouthfho.ca/new-patients",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Authoritative directory report, not independently verified first-party clinic registration.",
@@ -1290,7 +1402,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c034",
@@ -1306,7 +1423,7 @@
       "clinic_url": "https://www.saffronhealth.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Independent check of live regional healthcare/medical association public directory; regional report only, not clinic-confirmed intake.",
@@ -1329,7 +1446,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://www.saffronhealth.ca/contact/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Clinic-owned contact page explicitly shows 11 Base Line Road East, Unit 1, and office telephone."
+      "address_verification_scope": "Clinic-owned contact page explicitly shows 11 Base Line Road East, Unit 1, and office telephone.",
+      "latitude": 42.9592751,
+      "longitude": -81.2595914,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993162209",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c035",
@@ -1345,7 +1467,7 @@
       "clinic_url": "https://www.ldam.ca/find-a-doctor",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1367,7 +1489,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=158817",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 42.9888657,
+      "longitude": -81.2750056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1989050069",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c036",
@@ -1383,7 +1510,7 @@
       "clinic_url": "https://vivamedicalclinic.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -1405,7 +1532,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://vivamedicalclinic.ca/contact/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 42.9944777,
+      "longitude": -81.2560885,
+      "coordinate_source": "https://www.openstreetmap.org/way/188285568",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c037",
@@ -1421,7 +1553,7 @@
       "clinic_url": "https://www.wonderlandsouthmedicalcentre.ca",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
@@ -1443,7 +1575,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://www.wonderlandsouthmedicalcentre.ca/contact-us",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification"
+      "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
+      "latitude": 42.9402385,
+      "longitude": -81.2819223,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993162158",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c038",
@@ -1452,13 +1589,13 @@
       "address": "19 King Street East",
       "clinic_type": "NP",
       "status": "limited",
-      "intake_detail": "Same intake form remains open, but Ingersoll is explicitly described as having limited capacity (Aug 26, 2026); call first.",
+      "intake_detail": "The clinic webpage describes limited Ingersoll capacity, but its linked online application says Tillsonburg site only. Call 519-926-6752 to ask about Ingersoll eligibility and its application route; do not assume the Tillsonburg form registers you here.",
       "phone": "519-926-6752",
       "providers": "Nurse practitioner-led team; roster not audited",
       "evidence_url": "https://www.ocnplc.ca/patient-information/new-patients/",
       "clinic_url": "https://www.ocnplc.ca/",
       "source_published": "2026-08-26",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-12",
       "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 23,
       "notes": "",
@@ -1469,10 +1606,10 @@
       "intake_verification": {
         "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-11",
+        "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
         "source_url": "https://www.ocnplc.ca/patient-information/new-patients/",
-        "finding": "Oxford NPLC official page says applications open with limited capacity in Ingersoll as of Aug 26.",
+        "finding": "Clinic webpage says limited capacity in Ingersoll; linked form is Tillsonburg-only. Ingersoll applicants should call.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -1485,7 +1622,8 @@
       "latitude": 43.038109,
       "longitude": -80.881634,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "auto_updates_enabled": false
     },
     {
       "id": "c039",
@@ -1501,7 +1639,7 @@
       "clinic_url": "https://lihc.on.ca/programs-services/primary-care/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1523,7 +1661,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://lihc.on.ca/locations-and-hours-of-services/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 42.9892469,
+      "longitude": -81.2296784,
+      "coordinate_source": "https://www.openstreetmap.org/node/5372894221",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c040",
@@ -1582,7 +1725,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "Health & Homelessness primary-care program with eligibility restrictions. No universal intake confirmation.",
       "review_basis": "Independently reviewed original public source or authoritative announcement on 2026-11-11; not telephone-verified; an application is not guaranteed enrolment.",
@@ -1605,7 +1748,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Thames Valley FHT official sites page lists 602 Queens Avenue; no clinic-specific telephone published."
+      "address_verification_scope": "Thames Valley FHT official sites page lists 602 Queens Avenue; no clinic-specific telephone published.",
+      "latitude": 42.9901362,
+      "longitude": -81.2324505,
+      "coordinate_source": "https://www.openstreetmap.org/node/2016934927",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c042",
@@ -1663,7 +1811,7 @@
       "clinic_url": "https://www.gmcfht.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
@@ -1685,7 +1833,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://www.gmcfht.ca/contact/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 43.3814031,
+      "longitude": -80.319687,
+      "coordinate_source": "https://www.openstreetmap.org/way/401040100",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c044",
@@ -1867,7 +2020,7 @@
       "clinic_url": "https://oxchc.ca/",
       "source_published": "2025-07-11",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 0,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -1890,7 +2043,12 @@
       "address_verification_source": "https://oxchc.ca/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
-      "auto_updates_enabled": false
+      "auto_updates_enabled": false,
+      "latitude": 42.8655171,
+      "longitude": -80.7228,
+      "coordinate_source": "https://www.openstreetmap.org/way/564144865",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c049",
@@ -1986,7 +2144,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/strathroy-family-health-organization-ailsa-craig-site/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 73,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2008,7 +2166,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 43.1474357,
+      "longitude": -81.5366594,
+      "coordinate_source": "https://www.openstreetmap.org/node/5583423925",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c052",
@@ -2024,7 +2187,7 @@
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=75971",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 23.1,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2046,7 +2209,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=75971",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "CPSO register independently confirms Dr. Vivoda's primary business address and telephone."
+      "address_verification_scope": "CPSO register independently confirms Dr. Vivoda's primary business address and telephone.",
+      "latitude": 42.771317,
+      "longitude": -80.9826753,
+      "coordinate_source": "https://www.openstreetmap.org/way/473613031",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c053",
@@ -2142,7 +2310,7 @@
       "clinic_url": "https://cambridgegatewaymedical.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "Application-page identity discrepancy: https://cambridgegatewaymedical.com/patient-registration/ displays GC Medical, 100 Plains Rd W, Burlington, (905) 639-1858. Cambridge homepage lists 460 Hespeler Road and 226-533-1111.",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2166,7 +2334,12 @@
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Clinic-owned contact page confirms Unit 102, 460 Hespeler Road and telephone; intake has NOT been independently verified by telephone.",
       "intake_conflict": true,
-      "auto_updates_enabled": false
+      "auto_updates_enabled": false,
+      "latitude": 43.396884,
+      "longitude": -80.324669,
+      "coordinate_source": "https://www.openstreetmap.org/node/4035136814",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c056",
@@ -2182,7 +2355,7 @@
       "clinic_url": "https://hopetonmedical.com/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2204,7 +2377,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://hopetonmedical.com/contact",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Clinic-owned contact page confirms 50 Hopeton Street and telephone; CPSO corroborates public physician office."
+      "address_verification_scope": "Clinic-owned contact page confirms 50 Hopeton Street and telephone; CPSO corroborates public physician office.",
+      "latitude": 43.3707515,
+      "longitude": -80.3152407,
+      "coordinate_source": "https://www.openstreetmap.org/way/1334328094",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c057",
@@ -2220,7 +2398,7 @@
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=91809",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2242,7 +2420,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=91809",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "CPSO register for Dr. Gurmeet Sidhu confirms 1718 King Street East and 519-219-8999; intake not verified."
+      "address_verification_scope": "CPSO register for Dr. Gurmeet Sidhu confirms 1718 King Street East and 519-219-8999; intake not verified.",
+      "latitude": 43.388372,
+      "longitude": -80.343847,
+      "coordinate_source": "https://www.openstreetmap.org/node/4035554429",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c058",
@@ -2339,7 +2522,7 @@
       "clinic_url": "https://alexfp.ca/",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 23,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2361,7 +2544,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://alexfp.ca/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Alexandra Family Physicians own site confirms 2nd floor, Alexandra Hospital, 29 Noxon Street, and 519-425-9000."
+      "address_verification_scope": "Alexandra Family Physicians own site confirms 2nd floor, Alexandra Hospital, 29 Noxon Street, and 519-425-9000.",
+      "latitude": 43.0317196,
+      "longitude": -80.8759392,
+      "coordinate_source": "https://www.openstreetmap.org/way/781407458",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c061",
@@ -2377,7 +2565,7 @@
       "clinic_url": "https://family-medicine.ca/andrew-street/",
       "source_published": "",
       "last_reviewed": "2026-11-12",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 67.8,
       "notes": "Relocation announced at https://family-medicine.ca/joseph-street-relocation/. Do not direct patients to the former Joseph Street office.",
       "review_basis": "Individual public-source review; no telephone confirmation or guaranteed attachment.",
@@ -2402,7 +2590,12 @@
       "address_verification_scope": "KW4 Ontario Health Team lists the Centre for Family Medicine at 25 Joseph Street and 519-578-2100; supported by Centre for Family Medicine publications.",
       "phone_note": "Andrew Street site main number, confirmed on the current organization website.",
       "auto_updates_enabled": false,
-      "relocation_source": "https://family-medicine.ca/joseph-street-relocation/"
+      "relocation_source": "https://family-medicine.ca/joseph-street-relocation/",
+      "latitude": 43.4561598,
+      "longitude": -80.5057751,
+      "coordinate_source": "https://www.openstreetmap.org/way/839405173",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c062",
@@ -2418,7 +2611,7 @@
       "clinic_url": "https://www.bfmc.ca/home",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2441,7 +2634,12 @@
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
-      "phone_note": "Direct clinic contact from https://www.bfmc.ca/contact-us/ (previous extension was for FHT appointments)."
+      "phone_note": "Direct clinic contact from https://www.bfmc.ca/contact-us/ (previous extension was for FHT appointments).",
+      "latitude": 42.9589308,
+      "longitude": -81.3305057,
+      "coordinate_source": "https://www.openstreetmap.org/way/187738618",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c063",
@@ -2457,7 +2655,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/forest-city-family-health-organization/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2480,7 +2678,12 @@
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
-      "phone_note": "Family Health Team inquiries; do not assume this reaches the particular physician."
+      "phone_note": "Family Health Team inquiries; do not assume this reaches the particular physician.",
+      "latitude": 42.9934533,
+      "longitude": -81.2411338,
+      "coordinate_source": "https://www.openstreetmap.org/way/140785762",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c064",
@@ -2577,7 +2780,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/chelsey-park-medical-centre/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2599,7 +2802,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 42.9877154,
+      "longitude": -81.279018,
+      "coordinate_source": "https://www.openstreetmap.org/way/188285392",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c067",
@@ -2615,7 +2823,7 @@
       "clinic_url": "https://www.prismahcc.ca/growfamilyhealth/register",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "Referral is required for each family member. See https://www.prismahcc.ca/forproviders and https://www.prismahcc.ca/growfamilyhealth/register .",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2638,7 +2846,12 @@
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
-      "phone_note": "Prisma site phone/text as displayed by Thames Valley FHT."
+      "phone_note": "Prisma site phone/text as displayed by Thames Valley FHT.",
+      "latitude": 42.959429,
+      "longitude": -81.2156151,
+      "coordinate_source": "https://www.openstreetmap.org/node/2015444813",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c068",
@@ -2654,7 +2867,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/oxford-st-josephs-family-health-organization/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2676,7 +2889,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 42.9943572,
+      "longitude": -81.2743209,
+      "coordinate_source": "https://www.openstreetmap.org/way/188286913",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c069",
@@ -2692,7 +2910,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/victoria-family-health-centre-london-health-sciences-centre/",
       "source_published": "",
       "last_reviewed": "2026-11-12",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2716,7 +2934,12 @@
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
       "phone_note": "Direct Victoria Family Medical Centre number published by LHSC; the previously listed hospital extension was for Family Health Team appointments only.",
-      "phone_verification_source": "https://www.lhsc.on.ca/patients-visitors/victoria-family-medical-centre"
+      "phone_verification_source": "https://www.lhsc.on.ca/patients-visitors/victoria-family-medical-centre",
+      "latitude": 42.9807359,
+      "longitude": -81.2167823,
+      "coordinate_source": "https://www.openstreetmap.org/way/191113221",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c070",
@@ -2849,7 +3072,7 @@
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 17.1,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -2871,7 +3094,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "CPSO register confirms Dr. Michael Hofer's primary business address at 11 Stover Street North."
+      "address_verification_scope": "CPSO register confirms Dr. Michael Hofer's primary business address at 11 Stover Street North.",
+      "latitude": 42.9882296,
+      "longitude": -80.5977989,
+      "coordinate_source": "https://www.openstreetmap.org/way/201197498",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c074",
@@ -2887,7 +3115,7 @@
       "clinic_url": "https://www.norwich.ca/our-community/medical-centre",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 17.1,
       "notes": "",
       "review_basis": "Township of Norwich's official current medical-centre website reviewed independently for a patient waitlist, not immediate physician attachment.",
@@ -2909,7 +3137,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://www.norwich.ca/our-community/medical-centre",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Township of Norwich confirms 32 South Court Street East and 519-863-2338, including an open patient waitlist."
+      "address_verification_scope": "Township of Norwich confirms 32 South Court Street East and 519-863-2338, including an open patient waitlist.",
+      "latitude": 42.9909915,
+      "longitude": -80.5935014,
+      "coordinate_source": "https://www.openstreetmap.org/node/2111448778",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c075",
@@ -3048,7 +3281,7 @@
       "clinic_url": "https://talbothealth.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 39,
       "notes": "",
       "review_basis": "Current official clinic website checked 2026-11-11; explicit intake closure, not clinic closure.",
@@ -3070,7 +3303,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://talbothealth.ca/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Primary office address from clinic source"
+      "address_verification_scope": "Primary office address from clinic source",
+      "latitude": 42.7787458,
+      "longitude": -81.2000827,
+      "coordinate_source": "https://www.openstreetmap.org/way/778995341",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c079",
@@ -3324,7 +3562,7 @@
       "clinic_url": "https://thamesvalleyfht.ca/locations/strathroy-medical-clinic/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address source checked; map pin still community-centre approximate.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 73.8,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -3346,7 +3584,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "latitude": 42.9597362,
+      "longitude": -81.6215834,
+      "coordinate_source": "https://www.openstreetmap.org/way/183514151",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c086",
@@ -3522,7 +3765,7 @@
       "clinic_url": "https://tillsonburgmedicalcentre.ca/",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 0,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -3544,7 +3787,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://tillsonburgmedicalcentre.ca/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Tillsonburg Medical Centre's official page confirms 200 Broadway and 519-842-4231."
+      "address_verification_scope": "Tillsonburg Medical Centre's official page confirms 200 Broadway and 519-842-4231.",
+      "latitude": 42.8631085,
+      "longitude": -80.730127,
+      "coordinate_source": "https://www.openstreetmap.org/node/2111696263",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c091",
@@ -3598,7 +3846,7 @@
       "clinic_url": "https://wfhc.ca/medical/",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 35.9,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -3620,7 +3868,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://wfhc.ca/medical/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Waterford Family Health Center's official medical page confirms 23 Main Street South, telephone and clinicians."
+      "address_verification_scope": "Waterford Family Health Center's official medical page confirms 23 Main Street South, telephone and clinicians.",
+      "latitude": 42.9347364,
+      "longitude": -80.2906374,
+      "coordinate_source": "https://www.openstreetmap.org/way/204073902",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c093",
@@ -3718,7 +3971,7 @@
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=69085",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 30.2,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -3740,7 +3993,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=69085",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "CPSO confirms Dr. Jennifer Bonnett's Suite 203 at 600 Princess Street with telephone 519-421-7252."
+      "address_verification_scope": "CPSO confirms Dr. Jennifer Bonnett's Suite 203 at 600 Princess Street with telephone 519-421-7252.",
+      "latitude": 43.13239,
+      "longitude": -80.751914,
+      "coordinate_source": "https://www.openstreetmap.org/node/2323818552",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c097",
@@ -3756,7 +4014,7 @@
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=115111",
       "source_published": "2026-11-06",
       "last_reviewed": "2026-11-11",
-      "location_quality": "Street address independently compared with current public source; map marker remains community-centre estimate",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 30.2,
       "notes": "",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
@@ -3778,7 +4036,12 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=115111",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "CPSO confirms Dr. Tamachi's individual Suite 201A and 519-602-4111; not shared with Bonnett Suite 203."
+      "address_verification_scope": "CPSO confirms Dr. Tamachi's individual Suite 201A and 519-602-4111; not shared with Bonnett Suite 203.",
+      "latitude": 43.13239,
+      "longitude": -80.751914,
+      "coordinate_source": "https://www.openstreetmap.org/node/2323818552",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c096",
@@ -3841,7 +4104,7 @@
       "address_verification_source": "https://www.drmartinschuster.com/contact",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -3860,7 +4123,12 @@
         "finding": "Regional directory reports intake. Clinic confirms its family practice address and phone but does not publish an acceptance statement. Call to confirm.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.3578607,
+      "longitude": -80.3185694,
+      "coordinate_source": "https://www.openstreetmap.org/way/401097963",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c099",
@@ -3880,7 +4148,7 @@
       "address_verification_source": "https://cndoht.com/members-directory/locationDetails.cfm?ww_locationID=5D6287EC-0DDF-4CD9-BE6F-CD3FE21E4C9D",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -3900,7 +4168,12 @@
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
-      "intake_conflict": true
+      "intake_conflict": true,
+      "latitude": 43.4299761,
+      "longitude": -80.3072157,
+      "coordinate_source": "https://www.openstreetmap.org/way/180347923",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c100",
@@ -3920,7 +4193,7 @@
       "address_verification_source": "https://tworiversfht.ca/contact/contact-us/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Sourced government planning point",
       "community_distance_km": 64.4,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -3939,7 +4212,12 @@
         "finding": "Team-wide waitlist for people without a family physician; location/provider assignment is not guaranteed. Dr. Callaghan’s roster form is only for people already contacted by the office.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.390471,
+      "longitude": -80.313995,
+      "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
+      "coordinate_quality": "Government planning point matched to clinic address; not entrance or suite",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c101",
@@ -3959,7 +4237,7 @@
       "address_verification_source": "https://tworiversfht.ca/contact/contact-us/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Sourced government planning point",
       "community_distance_km": 64.4,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -3978,7 +4256,12 @@
         "finding": "Team-wide waitlist for people without a family physician; location/provider assignment is not guaranteed. Dr. Callaghan’s roster form is only for people already contacted by the office.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.390471,
+      "longitude": -80.313995,
+      "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
+      "coordinate_quality": "Government planning point matched to clinic address; not entrance or suite",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c102",
@@ -4037,7 +4320,7 @@
       "address_verification_source": "https://family-medicine.ca/university-gates/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 68.6,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4056,7 +4339,12 @@
         "finding": "Organization FAQ says no locations are accepting new family-doctor patients. This does not close specialized referral programs.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.4769286,
+      "longitude": -80.5709414,
+      "coordinate_source": "https://www.openstreetmap.org/way/502224327",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c104",
@@ -4076,7 +4364,7 @@
       "address_verification_source": "https://family-medicine.ca/the-boardwalk/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 68.6,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4095,7 +4383,12 @@
         "finding": "Organization FAQ says no locations are accepting new family-doctor patients. This does not close specialized referral programs.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.4399269,
+      "longitude": -80.566129,
+      "coordinate_source": "https://www.openstreetmap.org/way/835426819",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c105",
@@ -4154,7 +4447,7 @@
       "address_verification_source": "https://www.pccfht.ca/contacts/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 45.7,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4173,7 +4466,12 @@
         "finding": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.1924475,
+      "longitude": -80.3716403,
+      "coordinate_source": "https://www.openstreetmap.org/way/215853544",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c107",
@@ -4193,7 +4491,7 @@
       "address_verification_source": "https://www.pccfht.ca/contacts/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 51.6,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4212,7 +4510,12 @@
         "finding": "Affiliated family physician office confirmed; current new-patient capacity is not published.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.285136,
+      "longitude": -80.451268,
+      "coordinate_source": "https://www.openstreetmap.org/node/1588987234",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c108",
@@ -4232,7 +4535,7 @@
       "address_verification_source": "https://www.pccfht.ca/contacts/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 57.0,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4251,7 +4554,12 @@
         "finding": "Dr. Alex Quinlan and Dr. Alastair Hutton are no longer taking patients immediately; the clinic invites calls to join their waitlists.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.2486375,
+      "longitude": -80.2528351,
+      "coordinate_source": "https://www.openstreetmap.org/node/2253236696",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c109",
@@ -4271,7 +4579,7 @@
       "address_verification_source": "https://centralchc.com/contact/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 39.0,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4290,7 +4598,12 @@
         "finding": "Serves St. Thomas, Central Elgin and Southwold. Call about enrolment; the website describes the process but does not state current roster capacity. Not a walk-in clinic.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 42.7792359,
+      "longitude": -81.1982287,
+      "coordinate_source": "https://www.openstreetmap.org/way/772949465",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c110",
@@ -4310,7 +4623,7 @@
       "address_verification_source": "https://happyvalleyfht.ca/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 56.0,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4329,7 +4642,12 @@
         "finding": "Clinic FAQ says it is not actively accepting new patients. Homepage directs unattached people to Huron Perth and Area OHT resources.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.2598558,
+      "longitude": -81.1519814,
+      "coordinate_source": "https://www.openstreetmap.org/node/5583476994",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c111",
@@ -4349,7 +4667,7 @@
       "address_verification_source": "https://www.snhs.ca/family-and-community-care/primary-care-family-health-team/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 54.3,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4368,7 +4686,12 @@
         "finding": "Submit the team intake form to join its waitlist. Clinical need and time waiting affect priority; confirm eligibility for Six Nations services. No immediate attachment guaranteed.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.0712868,
+      "longitude": -80.1165668,
+      "coordinate_source": "https://www.openstreetmap.org/way/218153205",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c112",
@@ -4388,7 +4711,7 @@
       "address_verification_source": "https://haldimandfht.ca/affiliated-physicians/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Sourced government planning point",
       "community_distance_km": 56.2,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4407,7 +4730,12 @@
         "finding": "NP intake advertised for unattached residents of Haldimand, Mississaugas of the Credit or Six Nations. Call the team to confirm placement and site.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 42.958685,
+      "longitude": -80.044058,
+      "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
+      "coordinate_quality": "Government planning point matched to clinic address; not entrance or suite",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c113",
@@ -4427,7 +4755,7 @@
       "address_verification_source": "https://haldimandfht.ca/affiliated-physicians/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 66.0,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4446,7 +4774,12 @@
         "finding": "Affiliated FHT directory identifies Dr. Ogbunando as accepting. Call the named physician’s office; the claim does not cover every doctor at Argyle.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.0796473,
+      "longitude": -79.9489812,
+      "coordinate_source": "https://www.openstreetmap.org/node/836851104",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c114",
@@ -4505,7 +4838,7 @@
       "address_verification_source": "https://haldimandfht.ca/affiliated-physicians/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 66.0,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4524,7 +4857,12 @@
         "finding": "Affiliated family practice confirmed; no current intake statement found.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.0745718,
+      "longitude": -79.9517833,
+      "coordinate_source": "https://www.openstreetmap.org/way/688543026",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c116",
@@ -4583,7 +4921,7 @@
       "address_verification_source": "https://www.soahac.on.ca/locations/london",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4602,7 +4940,12 @@
         "finding": "Indigenous primary care service; contact the clinic about eligibility and intake. Current new-patient capacity for this location is not stated; the banner for Cambridge, Owen Sound and Newbury does not establish intake here.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 42.9874235,
+      "longitude": -81.2360697,
+      "coordinate_source": "https://www.openstreetmap.org/way/191111976",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c118",
@@ -4661,7 +5004,7 @@
       "address_verification_source": "https://www.soahac.on.ca/locations/waterloo-wellington",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4680,7 +5023,12 @@
         "finding": "Indigenous primary care service; contact the clinic about eligibility and intake. Organization explicitly advertises new clients in Cambridge; confirm primary-care placement.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.3815766,
+      "longitude": -80.330639,
+      "coordinate_source": "https://www.openstreetmap.org/way/663880906",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c120",
@@ -4700,7 +5048,7 @@
       "address_verification_source": "https://wchc.on.ca/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 69.1,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4719,7 +5067,12 @@
         "finding": "Organization accepts roster applications and prioritizes its queue by need. Site assignment is not confirmed. Apply once; the clinic asks applicants not to call for application updates.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.4792064,
+      "longitude": -80.7779637,
+      "coordinate_source": "https://www.openstreetmap.org/node/12087905827",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c121",
@@ -4739,7 +5092,7 @@
       "address_verification_source": "https://wchc.on.ca/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
-      "location_quality": "Street address source checked; map pin remains an approximate community point.",
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 57.1,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
@@ -4758,7 +5111,12 @@
         "finding": "Organization accepts roster applications and prioritizes its queue by need. Site assignment is not confirmed. Apply once; the clinic asks applicants not to call for application updates.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
-      }
+      },
+      "latitude": 43.3774362,
+      "longitude": -80.7084321,
+      "coordinate_source": "https://www.openstreetmap.org/way/401006131",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c122",
@@ -4798,6 +5156,465 @@
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       }
+    },
+    {
+      "id": "c123",
+      "name": "Baseline Medical Clinic — Dr. Gerald Okafor",
+      "community": "London",
+      "address": "25 Base Line Road West",
+      "phone": "226-663-4647",
+      "clinic_type": "Family physician",
+      "providers": "Dr. Gerald Obiora Okafor",
+      "status": "reported",
+      "care_model": "ongoing",
+      "evidence_url": "https://www.ldam.ca/find-a-doctor",
+      "clinic_url": "",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "LDAM lists Dr. Gerald Okafor as accepting new patients and directs applicants to visit or call 226-663-4647. CPSO 278541 confirms the physician and this practice address. Regional report, not direct clinic capacity confirmation.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=278541",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://www.ldam.ca/find-a-doctor",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "notes": "",
+      "intake_verification": {
+        "tier": "authoritative_secondary",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://www.ldam.ca/find-a-doctor",
+        "finding": "LDAM lists Dr. Gerald Okafor as accepting new patients and directs applicants to visit or call 226-663-4647. CPSO 278541 confirms the physician and this practice address. Regional report, not direct clinic capacity confirmation.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "phone_note": "Registration number is from LDAM; CPSO retains a different international contact number.",
+      "latitude": 42.9590659,
+      "longitude": -81.2625172,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993163269",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
+    },
+    {
+      "id": "c124",
+      "name": "Courtland Medical Clinic",
+      "community": "Kitchener",
+      "address": "1144 Courtland Avenue East",
+      "phone": "519-286-1665",
+      "clinic_type": "Family physician",
+      "providers": "Dr. Osaruonamen Augustine Ogboghodo; Dr. Jude Uba",
+      "status": "accepting",
+      "care_model": "both",
+      "evidence_url": "https://courtlandclinic.com/",
+      "clinic_url": "https://courtlandclinic.com/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "Clinic advertises new-patient applications for the two named physicians. Family medicine and walk-in services are both offered; confirm ongoing registration when booking. This is Courtland Avenue in Kitchener, not the village of Courtland.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://courtlandclinic.com/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://courtlandclinic.com/",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "notes": "",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://courtlandclinic.com/",
+        "finding": "Clinic advertises new-patient applications for the two named physicians. Family medicine and walk-in services are both offered; confirm ongoing registration when booking. This is Courtland Avenue in Kitchener, not the village of Courtland.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 43.4222873,
+      "longitude": -80.4603567,
+      "coordinate_source": "https://www.openstreetmap.org/node/11033634501",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
+    },
+    {
+      "id": "c125",
+      "name": "Port Dover Family Health",
+      "community": "Port Dover",
+      "address": "414 Main Street, Unit 2",
+      "phone": "519-583-2225",
+      "clinic_type": "Family physician",
+      "providers": "Dr. Lisa-Marie Austen; Dr. Malo; Dr. Pabani",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "evidence_url": "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/",
+      "clinic_url": "",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "211 lists this registered-patient family practice as not accepting, but provides no current dated clinic notice. Current intake requires confirmation.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=111139",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "notes": "",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/",
+        "finding": "211 lists this registered-patient family practice as not accepting, but provides no current dated clinic notice. Current intake requires confirmation.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.7878033,
+      "longitude": -80.2047385,
+      "coordinate_source": "https://www.openstreetmap.org/way/67468439",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
+    },
+    {
+      "id": "c126",
+      "name": "Dover Shores Family Practice",
+      "community": "Port Dover",
+      "address": "410 Main Street",
+      "phone": "519-583-0892",
+      "clinic_type": "Family physician",
+      "providers": "",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "evidence_url": "https://dovershoresfamilypractice.ca/",
+      "clinic_url": "https://dovershoresfamilypractice.ca/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "Current new-patient intake is not stated in the reviewed source. Contact the practice to ask about ongoing care.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://dovershoresfamilypractice.ca/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://dovershoresfamilypractice.ca/",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "notes": "",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://dovershoresfamilypractice.ca/",
+        "finding": "Named family practice identified, with no current intake statement.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.7877656,
+      "longitude": -80.2046855,
+      "coordinate_source": "https://www.openstreetmap.org/way/67468439",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
+    },
+    {
+      "id": "c127",
+      "name": "C.A. Bell Medical Centre — Dr. Kristin Richter",
+      "community": "Port Stanley",
+      "address": "285 Bridge Street",
+      "phone": "519-782-4195",
+      "clinic_type": "Family physician",
+      "providers": "Dr. Kristin Richter",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
+      "clinic_url": "",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "Current new-patient intake is not stated in the reviewed source. Contact the practice to ask about ongoing care.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address source checked; map initially approximate",
+      "notes": "",
+      "intake_verification": {
+        "tier": "authoritative_secondary",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
+        "finding": "Named family practice identified, with no current intake statement.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
+    },
+    {
+      "id": "c128",
+      "name": "C.A. Bell Medical Centre — Dr. Brendan Boyd",
+      "community": "Port Stanley",
+      "address": "285 Bridge Street",
+      "phone": "519-782-3667",
+      "clinic_type": "Family physician",
+      "providers": "Dr. Brendan Boyd",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=103833",
+      "clinic_url": "",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "Current new-patient intake is not stated in the reviewed source. Contact the practice to ask about ongoing care.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=103833",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=103833",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address source checked; map initially approximate",
+      "notes": "",
+      "intake_verification": {
+        "tier": "authoritative_secondary",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://register.cpso.on.ca/physician-info/?cpsonum=103833",
+        "finding": "Named family practice identified, with no current intake statement.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
+    },
+    {
+      "id": "c129",
+      "name": "Dorchester Medical Centre",
+      "community": "Dorchester",
+      "address": "4327 Hamilton Road, Unit 2",
+      "phone": "519-202-7391",
+      "clinic_type": "Family physician",
+      "providers": "Dr. Nasreen Hossain; Dr. Sardar Ahmad",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=96271",
+      "clinic_url": "",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "Current new-patient intake is not stated in the reviewed source. Contact the practice to ask about ongoing care.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=96271",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=96271",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "notes": "",
+      "intake_verification": {
+        "tier": "authoritative_secondary",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://register.cpso.on.ca/physician-info/?cpsonum=96271",
+        "finding": "Named family practice identified, with no current intake statement.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.985704,
+      "longitude": -81.0494183,
+      "coordinate_source": "https://www.openstreetmap.org/node/2029270638",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
+    },
+    {
+      "id": "c130",
+      "name": "Thames River FHO — Dr. Alex Bohdanowicz",
+      "community": "Dorchester",
+      "address": "4036 Catherine Street",
+      "phone": "519-268-7301",
+      "clinic_type": "Family physician",
+      "providers": "Dr. Alex Bohdanowicz",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "evidence_url": "https://www.thamesriverfho.ca/doctors",
+      "clinic_url": "https://www.thamesriverfho.ca/doctors",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "Current new-patient intake is not stated in the reviewed source. Contact the practice to ask about ongoing care.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.thamesriverfho.ca/doctors",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://www.thamesriverfho.ca/doctors",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "notes": "",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://www.thamesriverfho.ca/doctors",
+        "finding": "Named family practice identified, with no current intake statement.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9892103,
+      "longitude": -81.0682484,
+      "coordinate_source": "https://www.openstreetmap.org/way/191616602",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
+    },
+    {
+      "id": "c131",
+      "name": "Thames River FHO — Thorndale",
+      "community": "Thorndale",
+      "address": "21816 Fairview Road",
+      "phone": "519-461-0776",
+      "clinic_type": "Family physician",
+      "providers": "Dr. Henry Chapeskie; Dr. Tina Lam",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "evidence_url": "https://www.thamesriverfho.ca/doctors",
+      "clinic_url": "https://www.thamesriverfho.ca/doctors",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "Current new-patient intake is not stated in the reviewed source. Contact the practice to ask about ongoing care.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.thamesriverfho.ca/doctors",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://www.thamesriverfho.ca/doctors",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address source checked; map initially approximate",
+      "notes": "",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://www.thamesriverfho.ca/doctors",
+        "finding": "Named family practice identified, with no current intake statement.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
+    },
+    {
+      "id": "c132",
+      "name": "Synergy Centre — Family Medicine",
+      "community": "London",
+      "address": "1635 Hyde Park Road, Unit 101",
+      "phone": "519-266-3600",
+      "clinic_type": "Family physician",
+      "providers": "Dr. Maria Tetelbaum",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "evidence_url": "https://synergycentre.ca/about-us/about-us",
+      "clinic_url": "https://synergycentre.ca/about-us/about-us",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "Family medicine is provided to rostered patients. The website’s new-patient invitation is for dentistry and does not establish open family-medicine intake.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://synergycentre.ca/about-us/about-us",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://synergycentre.ca/about-us/about-us",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "notes": "",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://synergycentre.ca/about-us/about-us",
+        "finding": "Family medicine is provided to rostered patients. The website’s new-patient invitation is for dentistry and does not establish open family-medicine intake.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 43.0004967,
+      "longitude": -81.3326937,
+      "coordinate_source": "https://www.openstreetmap.org/way/161562021",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
+    },
+    {
+      "id": "c133",
+      "name": "Burford Medical Centre — Dr. Joanne Ozog-Bartlett",
+      "community": "Burford",
+      "address": "3 Maple Avenue North",
+      "phone": "",
+      "clinic_type": "Family physician",
+      "providers": "Dr. Joanne Ozog-Bartlett",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "evidence_url": "https://cobblestonemedicineandrehab.com/our-staff-burford/",
+      "clinic_url": "https://cobblestonemedicineandrehab.com/our-staff-burford/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "intake_detail": "The host centre identifies this independently operated family physician. Family-medicine intake and direct office phone require confirmation; the rehab booking service is not a physician registration route.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://cobblestonemedicineandrehab.com/our-staff-burford/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Named clinic or regulator public office address",
+      "care_model_source": "https://cobblestonemedicineandrehab.com/our-staff-burford/",
+      "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
+      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "audit_scope": "Public source review; not exhaustive practitioner census",
+      "intake_reviewed_by_phone": false,
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "notes": "",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://cobblestonemedicineandrehab.com/our-staff-burford/",
+        "finding": "The host centre identifies this independently operated family physician. Family-medicine intake and direct office phone require confirmation; the rehab booking service is not a physician registration route.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 43.1038638,
+      "longitude": -80.4294988,
+      "coordinate_source": "https://www.openstreetmap.org/way/214858819",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12"
     }
   ]
 }
