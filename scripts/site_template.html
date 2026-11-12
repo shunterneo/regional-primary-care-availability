@@ -46,6 +46,7 @@ function render(){
  const details=E('div','details',c.address+(c.phone?' · '+c.phone:'')+' · Public-source review: '+c.public_evidence_reviewed);card.append(details);
  card.append(E('p','details','Evidence level: '+c.evidence_label));
  if(c.intake_detail)for(const line of c.intake_detail.split('\n'))card.append(E('p','intakenote',line));
+ if(c.online_review_text){const r=E('details','research');r.append(E('summary','','Online research · '+c.online_review.reviewed_on),E('p','details',c.online_review.finding));for(const u of c.online_review.sources){if(!u.startsWith('https://'))continue;const a=E('a','',u);a.href=u;a.target='_blank';a.rel='noreferrer noopener';r.append(a,E('br'))}card.append(r)}
  card.append(E('p','details',Number.isFinite(c.latitude)&&Number.isFinite(c.longitude)?'Map: '+c.coordinate_quality:'Map: approximate community location; clinic point not matched.'));
  if(c.phone_note)card.append(E('p','details',c.phone_note));
  if(c.clinic_address_verified===false)card.append(E('p','details','Address needs confirmation before travel.'));

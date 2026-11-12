@@ -1,0 +1,1028 @@
+{
+  "c004": {
+    "clinic_id": "c004",
+    "name": "London Family Health Team — Beaverbrook",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://londonfht.ca/frequently-asked-questions/",
+      "https://londonfht.ca/wp-content/uploads/2026/08/Dr-B-Hassani-Patient-Intake-Form-2026-Copy.pdf"
+    ],
+    "finding": "The named-provider FAQ and August 2026 application explicitly identify Dr. Behzad Hassani and NP Mahsa Haghighi. This specific exception supports applications to their practice, not every Beaverbrook physician. General location wording is less specific. Form and FAQ differ on suite/floor; confirm reception.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c005": {
+    "clinic_id": "c005",
+    "name": "London Family Health Team — Stoney Creek",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
+      "https://londonfht.ca/frequently-asked-questions/"
+    ],
+    "finding": "August 26 announcement names Stoney Creek as participating, but general locations/FAQ wording remains inconsistent. Individual clinician capacity and current placement at this branch remain unresolved.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c008": {
+    "clinic_id": "c008",
+    "name": "Thames Valley FHT — Springbank NP Clinic",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/become-a-patient/",
+      "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
+      "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "https://www.ocnplc.ca/2026/08/25/new-patient-application/"
+    ],
+    "finding": "TVFHT own page accepts ongoing NP applications across four regions; branch pages confirm locations but not each office capacity. Oxford NPLC independently directs Woodstock residents to 959 Dundas NP attachment.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c009": {
+    "clinic_id": "c009",
+    "name": "Elmdale Health Centre — building-wide physician registration lead",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.elmdalehealth.com/",
+      "https://docs.google.com/forms/d/e/1FAIpQLScE26mW_eBPBVAEl8xY1t2sPs3pPlJdHx3GN4sEr2MlXXZpBw/viewform"
+    ],
+    "finding": "Followed the building website to its active registration form. It accepts expressions of interest from people without an Elgin County family physician; no named practice or guaranteed placement. Remains a building-wide lead rather than a verified accepting office.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c013": {
+    "clinic_id": "c013",
+    "name": "Thames Valley Family Health Team — Woodstock",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/become-a-patient/",
+      "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
+      "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "https://www.ocnplc.ca/2026/08/25/new-patient-application/"
+    ],
+    "finding": "TVFHT own page accepts ongoing NP applications across four regions; branch pages confirm locations but not each office capacity. Oxford NPLC independently directs Woodstock residents to 959 Dundas NP attachment.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c016": {
+    "clinic_id": "c016",
+    "name": "Avenue Medical Centre",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.avenuemedical.ca/index.aspx?PageName=Notices",
+      "https://www.avenuemedical.ca/userfiles/AMC_Wait_List_2026.pdf"
+    ],
+    "finding": "Live browser resolves outdated search extracts: Dr. Vidhi Desai is accepting local unattached applicants through the clinic waitlist; online appointment booking is for existing patients, not an intake prohibition.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c017": {
+    "clinic_id": "c017",
+    "name": "Bonavista Medical Centre",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://bonavistamedicalcentrebrantford.com/",
+      "https://bonavistamedicalcentrebrantford.com/contact.php",
+      "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/"
+    ],
+    "finding": "Own website offers enrolment/intake downloads but no explicit current roster availability; BCHS names Shaikh and Mutasher. Own homepage explicitly says walk-in service has ended.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c018": {
+    "clinic_id": "c018",
+    "name": "Dr. Clara Obanor — King George Road",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+      "https://register.cpso.on.ca/physician-info/?cpsonum=155642"
+    ],
+    "finding": "Name/location search found BCHS intake report and CPSO practice match; no independent clinic-owned intake page found.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c022": {
+    "clinic_id": "c022",
+    "name": "Dr. Sherif Mikhail — Conestoga",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.sherifmikhail.ca/",
+      "https://www.doctors4cambridge.com/contact.htm"
+    ],
+    "finding": "Official clinic page recovered through indexed search: address and phone, no current intake invitation located. Regional accepting claim remains secondary.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c024": {
+    "clinic_id": "c024",
+    "name": "Saginaw Medical Centre — Dr. Sunil Bhatia",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.saginawmedicalcentre.com/home",
+      "https://www.saginawmedicalcentre.com/_files/ugd/ffa3dd_cb576c286938472f96b8a43118a3a0e5.pdf"
+    ],
+    "finding": "Clinic homepage links a new-patient family-practice intake form with submission instructions and meet-and-greet requirement. This is an application route, not guaranteed placement with Dr. Bhatia.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c025": {
+    "clinic_id": "c025",
+    "name": "Shepherd Medical Centre — Dr. Hisham Ghali",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.doctors4cambridge.com/contact.htm",
+      "https://www.doctorlist.ca/im-searching-for-a-healthcare-provider/"
+    ],
+    "finding": "Name/clinic search found regional intake listings including pharmacy form instructions; no clinic-owned website located.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c030": {
+    "clinic_id": "c030",
+    "name": "Dr. Festus Anochie family medicine",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.radiantfamilyphysicians.ca/our-physicians",
+      "https://www.ldam.ca/find-a-doctor"
+    ],
+    "finding": "Radiant own physician biography confirms Festus Anochie; no intake announcement found. LDAM remains source for availability.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c031": {
+    "clinic_id": "c031",
+    "name": "Dundas Medical Clinic",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.ldam.ca/find-a-doctor",
+      "https://docs.google.com/forms/d/e/1FAIpQLSf1p8Hrnnowl_ep2Z_2Yq5bB_8jSnNVlwuMrA5acWGifI3vqA/viewform"
+    ],
+    "finding": "Followed LDAM Register Here link to live Dundas-branded family doctor registration form. Form announces August 2026 physician arrival and accepts expressions of interest; clinician unnamed and enrolment not guaranteed. Form provenance is regional-directory link, not an independently established clinic domain.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c034": {
+    "clinic_id": "c034",
+    "name": "Saffron Medical Centre",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.saffronhealth.ca/services/family-medical-centre/"
+    ],
+    "finding": "Own family-medicine service page explicitly invites new-patient registration and phone contact; no named physician or current wait duration.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c035": {
+    "clinic_id": "c035",
+    "name": "Serenity Medical Centre",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.ldam.ca/find-a-doctor",
+      "https://register.cpso.on.ca/physician-info/?cpsonum=158817",
+      "https://register.cpso.on.ca/physician-info/?cpsonum=123242"
+    ],
+    "finding": "LDAM lists a new physician starting November 1, 2026 and pharmacy inquiry route. CPSO finds existing Serenity practitioners, but does not identify which clinician the opening refers to. No clinic-owned opening notice located.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c051": {
+    "clinic_id": "c051",
+    "name": "Thames Valley FHT — Ailsa Craig",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/"
+    ],
+    "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c052": {
+    "clinic_id": "c052",
+    "name": "Dr. Edward Vivoda — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=75971"
+    ],
+    "finding": "Physician-name search finds current register address; no clinic-owned intake page located.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c053": {
+    "clinic_id": "c053",
+    "name": "Dr. Steven Rioux — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://pub-elgincounty.escribemeetings.com/filestream.ashx?DocumentId=165"
+    ],
+    "finding": "Search finds a historical planned March 2023 transfer of an existing roster with hoped-for expansion; this does not establish November 2026 intake.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c054": {
+    "clinic_id": "c054",
+    "name": "East Elgin Family Health Team — Aylmer",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.eefht.ca/services/",
+      "https://www.eefht.ca/",
+      "https://www.stegh.on.ca/hospital-services/emergency-department/alternate-options-for-care/"
+    ],
+    "finding": "Official services describe rostered care and limited prenatal/young-child access. Regional hospital lists Straffordville NP outreach. Neither establishes general ongoing attachment.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c055": {
+    "clinic_id": "c055",
+    "name": "Cambridge Gateway Medical Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://cambridgegatewaymedical.com/",
+      "https://cambridgegatewaymedical.com/patient-registration/"
+    ],
+    "finding": "Clinic homepage and family-practice page explicitly advertise applications at the Cambridge address. Its registration form footer identifies Burlington GC Medical; this is an application-route identity problem. Use the Cambridge telephone to confirm the correct route.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c057": {
+    "clinic_id": "c057",
+    "name": "King Street Medical Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=91809",
+      "https://kingstmedicalcenter.ca/"
+    ],
+    "finding": "Exact city/name search finds Cambridge practice directories; similarly named accepting clinic is in Bowmanville and was excluded. No Cambridge clinic-owned intake notice found.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c058": {
+    "clinic_id": "c058",
+    "name": "Delhi Community Health Centre — Big Creek FHO / Norfolk FHT",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://dchc.ca/public-walk-in-clinic/"
+    ],
+    "finding": "Clinic advertises public acute/urgent walk-in care. This does not establish registration for ongoing family practice.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c059": {
+    "clinic_id": "c059",
+    "name": "Middlesex Centre Family Medicine Clinic",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://mcfmc.ca/",
+      "https://www.southwesthealthline.ca/"
+    ],
+    "finding": "Own clinic website confirms the practice but no current intake route was established. Healthline carries a closure statement; retained as secondary information, not upgraded to clinic-confirmed closure.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c060": {
+    "clinic_id": "c060",
+    "name": "Alexandra Hospital family medicine offices",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://alexfp.ca/",
+      "https://www.alexandramedicalcentre.ca/"
+    ],
+    "finding": "Both Alexandra Family Physicians and Alexandra Medical Centre publish existing-patient/after-hours information. Separate offices share 29 Noxon Street; no current new-patient intake statement established.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c063": {
+    "clinic_id": "c063",
+    "name": "Forest City FHO — Central Avenue",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/"
+    ],
+    "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c066": {
+    "clinic_id": "c066",
+    "name": "Oxford Medical Group",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/"
+    ],
+    "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c068": {
+    "clinic_id": "c068",
+    "name": "St. Joseph’s Family Medical Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.sjhc.london.on.ca/family-medicine",
+      "https://www.sjhc.london.on.ca/areas-of-care/family-medical-and-dental-centre"
+    ],
+    "finding": "Hospital family-medicine information directs unattached patients toward regional resources; no office-specific intake established. Hospital corporate addresses should not replace the clinic location.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c069": {
+    "clinic_id": "c069",
+    "name": "Victoria Family Medical Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.sjhc.london.on.ca/family-medicine",
+      "https://www.sjhc.london.on.ca/areas-of-care/family-medical-and-dental-centre"
+    ],
+    "finding": "Hospital family-medicine information directs unattached patients toward regional resources; no office-specific intake established. Hospital corporate addresses should not replace the clinic location.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c070": {
+    "clinic_id": "c070",
+    "name": "West London Family Health Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.westlondonfhc.com/faqs"
+    ],
+    "finding": "Clinic-owned FAQ explicitly states it is not accepting new patients. After-hours care is for existing patients and walk-ins are not accepted.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c073": {
+    "clinic_id": "c073",
+    "name": "Dr. Michael Hofer — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=86657"
+    ],
+    "finding": "Physician-name search finds register office and patient-review pages, not a current clinic-owned intake statement.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c075": {
+    "clinic_id": "c075",
+    "name": "Norfolk Family Health Team — Port Rowan Medical Clinic",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.norfolkfht.ca/"
+    ],
+    "finding": "Reviewed Norfolk FHT information and its doctor-finding route. Hours and access-clinic services do not establish new ongoing-patient intake at these branches.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c076": {
+    "clinic_id": "c076",
+    "name": "Norfolk Family Health Team — Simcoe",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.norfolkfht.ca/"
+    ],
+    "finding": "Reviewed Norfolk FHT information and its doctor-finding route. Hours and access-clinic services do not establish new ongoing-patient intake at these branches.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c077": {
+    "clinic_id": "c077",
+    "name": "Elmwood Family Health Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/"
+    ],
+    "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c079": {
+    "clinic_id": "c079",
+    "name": "Thames Valley FHT — Elgin Community Health Hub",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/annual-report-2025/our-partners-2025/elgin-community-health-hub/",
+      "https://thamesvalleyfht.ca/elgin-ipct/"
+    ],
+    "finding": "FHT annual report and Elgin IPCT material describe services and attachment work, but do not establish a current clinic-specific application opening. Episodic access must be distinguished from attachment.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c080": {
+    "clinic_id": "c080",
+    "name": "Windemere Family Medical Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/"
+    ],
+    "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c081": {
+    "clinic_id": "c081",
+    "name": "East Elgin Family Health Team — Straffordville",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.eefht.ca/services/",
+      "https://www.eefht.ca/",
+      "https://www.stegh.on.ca/hospital-services/emergency-department/alternate-options-for-care/"
+    ],
+    "finding": "Official services describe rostered care and limited prenatal/young-child access. Regional hospital lists Straffordville NP outreach. Neither establishes general ongoing attachment.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c082": {
+    "clinic_id": "c082",
+    "name": "STAR FHT — Avon Family Medicine Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://starfht.ca/",
+      "https://starfht.ca/onlinebooking/"
+    ],
+    "finding": "STAR directs unattached people to Health Care Connect; booking expressly for existing patients. No office-specific opening found in organization search.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c083": {
+    "clinic_id": "c083",
+    "name": "STAR FHT — O’Loane Medical Clinic",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://starfht.ca/",
+      "https://starfht.ca/onlinebooking/"
+    ],
+    "finding": "STAR directs unattached people to Health Care Connect; booking expressly for existing patients. No office-specific opening found in organization search.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c084": {
+    "clinic_id": "c084",
+    "name": "Stratford Family Health Team",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://sfht.on.ca/contact-us/",
+      "https://211ontario.ca/service/71108681/stratford-family-health-team-stratford-family-health-team/"
+    ],
+    "finding": "Official contact page provides rostered-patient after-hours access; directory sends new applicants to Health Care Connect, not a confirmed local opening.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c085": {
+    "clinic_id": "c085",
+    "name": "Strathroy Medical Clinic",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/"
+    ],
+    "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c086": {
+    "clinic_id": "c086",
+    "name": "Strathroy–Caradoc FHO / TVFHT",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/"
+    ],
+    "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c087": {
+    "clinic_id": "c087",
+    "name": "West Middlesex Health Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/"
+    ],
+    "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c088": {
+    "clinic_id": "c088",
+    "name": "STAR FHT — Tavistock Community Health",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://starfht.ca/",
+      "https://starfht.ca/onlinebooking/"
+    ],
+    "finding": "STAR directs unattached people to Health Care Connect; booking expressly for existing patients. No office-specific opening found in organization search.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c089": {
+    "clinic_id": "c089",
+    "name": "Tillsonburg Family Physicians",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.tillsonburgfamilyphysicians.com/",
+      "https://www.tillsonburgmedicalcentre.com/",
+      "https://www.tillsonburg.ca/"
+    ],
+    "finding": "Named-site lookup and municipal practice directory identify the office. Clinic website could not be retrieved in this pass; current new-patient intake remains unconfirmed. This is an access limitation, not evidence of closure.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c090": {
+    "clinic_id": "c090",
+    "name": "Tillsonburg Medical Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.tillsonburgfamilyphysicians.com/",
+      "https://www.tillsonburgmedicalcentre.com/",
+      "https://www.tillsonburg.ca/"
+    ],
+    "finding": "Named-site lookup and municipal practice directory identify the office. Clinic website could not be retrieved in this pass; current new-patient intake remains unconfirmed. This is an access limitation, not evidence of closure.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c091": {
+    "clinic_id": "c091",
+    "name": "Tillsonburg Medical Clinic",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=83281"
+    ],
+    "finding": "Named physician/register lookup confirms a practice address, not intake. No clinic-owned current application statement established.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c092": {
+    "clinic_id": "c092",
+    "name": "Waterford Family Health Center — Medical",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://wfhc.ca/medical/",
+      "https://wfhc.ca/",
+      "https://norfolkfht.ca/find-a-doctor/"
+    ],
+    "finding": "Medical page lists providers and existing-patient booking, without a new-patient notice. The main website accepting statement is about dentistry. Norfolk FHT remains the medical intake report source.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c095": {
+    "clinic_id": "c095",
+    "name": "Dr. Jennifer Bonnett — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+    ],
+    "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c097": {
+    "clinic_id": "c097",
+    "name": "Dr. Shameena Tamachi — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+    ],
+    "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c096": {
+    "clinic_id": "c096",
+    "name": "London InterCommunity Health Centre — Argyle",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://lihc.on.ca/programs-services/primary-care/",
+      "https://lihc.on.ca/programs-services/systems-navigation-intake-coordination/"
+    ],
+    "finding": "LIHC general primary-care application route identifies Dundas and Huron; Argyle navigation serves Team Care referrals. General forms do not establish ordinary primary-care attachment at Argyle.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c098": {
+    "clinic_id": "c098",
+    "name": "Dr. Martin Schuster — Family Practice",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.drmartinschuster.com/",
+      "https://www.drmartinschuster.com/contact",
+      "https://register.cpso.on.ca/physician-info/?cpsonum=62520"
+    ],
+    "finding": "Official home and contact pages recovered through indexed search; no intake claim. Clinic says Unit 1; CPSO primary address says Unit 2. Street/building match, suite remains disputed.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c106": {
+    "clinic_id": "c106",
+    "name": "PrimaCare Community FHT — Paris",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.pccfht.ca/contacts/",
+      "https://www.pccfht.ca/primacare-health-team/"
+    ],
+    "finding": "Official physician contact/team pages and name searches reviewed; current site-specific attachment capacity not stated. The access clinic is a distinct service.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c107": {
+    "clinic_id": "c107",
+    "name": "PrimaCare — Dr. Alice Wang",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.pccfht.ca/contacts/",
+      "https://www.pccfht.ca/primacare-health-team/"
+    ],
+    "finding": "Official physician contact/team pages and name searches reviewed; current site-specific attachment capacity not stated. The access clinic is a distinct service.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c113": {
+    "clinic_id": "c113",
+    "name": "Argyle Medical Clinic — Dr. Chukwuemeka Ogbunando",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://haldimandfht.ca/affiliated-physicians/"
+    ],
+    "finding": "Affiliated FHT explicitly names Ogbunando as accepting; general Argyle physician list does not imply every physician is open.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c114": {
+    "clinic_id": "c114",
+    "name": "Okechukwu Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://haldimandfht.ca/affiliated-physicians/"
+    ],
+    "finding": "Individual clinic/physician searches and affiliated FHT list confirm practices; no intake flag for these named physicians. Ogbunando intake statement cannot be extended to them.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c115": {
+    "clinic_id": "c115",
+    "name": "Caledonia Family Clinic — Dr. Nicolaas Cloete",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://haldimandfht.ca/affiliated-physicians/"
+    ],
+    "finding": "Individual clinic/physician searches and affiliated FHT list confirm practices; no intake flag for these named physicians. Ogbunando intake statement cannot be extended to them.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c116": {
+    "clinic_id": "c116",
+    "name": "Takach Medicine — Dr. Sarah Takach",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://haldimandfht.ca/affiliated-physicians/"
+    ],
+    "finding": "Individual clinic/physician searches and affiliated FHT list confirm practices; no intake flag for these named physicians. Ogbunando intake statement cannot be extended to them.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c117": {
+    "clinic_id": "c117",
+    "name": "SOAHAC — London",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.soahac.on.ca/locations/london",
+      "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
+      "https://www.soahac.on.ca/"
+    ],
+    "finding": "Reviewed SOAHAC location and new-patient material. Public opening banner identifies other locations; a general intake form does not confirm openings at London or Chippewa. Indigenous eligibility remains relevant.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c118": {
+    "clinic_id": "c118",
+    "name": "SOAHAC — Chippewa of the Thames",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.soahac.on.ca/locations/london",
+      "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
+      "https://www.soahac.on.ca/"
+    ],
+    "finding": "Reviewed SOAHAC location and new-patient material. Public opening banner identifies other locations; a general intake form does not confirm openings at London or Chippewa. Indigenous eligibility remains relevant.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c122": {
+    "clinic_id": "c122",
+    "name": "Nith Valley Family Practice",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.nvfp.ca/"
+    ],
+    "finding": "Official practice site confirms service/contact details, no new-patient invitation located. Generic commercial directory accepting badges were not treated as verification.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c123": {
+    "clinic_id": "c123",
+    "name": "Baseline Medical Clinic — Dr. Gerald Okafor",
+    "starting_status": "reported",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.ldam.ca/find-a-doctor",
+      "https://ontariomedicalgroup.com/"
+    ],
+    "finding": "Search found LDAM accepting report. Ontario Medical Group describes a Baseline clinic but identity/address association with this physician is not established; do not substitute its urgent-care booking link.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c125": {
+    "clinic_id": "c125",
+    "name": "Port Dover Family Health",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/"
+    ],
+    "finding": "Search found 211 registered-patient listing and commercial pages, not a clinic-owned intake announcement.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c126": {
+    "clinic_id": "c126",
+    "name": "Dover Shores Family Practice",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://dovershoresfamilypractice.ca/"
+    ],
+    "finding": "Official site describes family practice and distinct private-pay aesthetics/marine exams; no family-practice intake invitation found.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c127": {
+    "clinic_id": "c127",
+    "name": "C.A. Bell Medical Centre — Dr. Kristin Richter",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
+      "https://register.cpso.on.ca/physician-info/?cpsonum=103833"
+    ],
+    "finding": "Individual physician searches find CPSO office details, no clinic-owned current intake notice.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c128": {
+    "clinic_id": "c128",
+    "name": "C.A. Bell Medical Centre — Dr. Brendan Boyd",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
+      "https://register.cpso.on.ca/physician-info/?cpsonum=103833"
+    ],
+    "finding": "Individual physician searches find CPSO office details, no clinic-owned current intake notice.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c129": {
+    "clinic_id": "c129",
+    "name": "Dorchester Medical Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+    ],
+    "finding": "Clinic-name search finds university practice listing and commercial contact listings, no official intake announcement.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c130": {
+    "clinic_id": "c130",
+    "name": "Thames River FHO — Dr. Alex Bohdanowicz",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.thamesriverfho.ca/doctors",
+      "https://www.thamesriverfho.ca/faq"
+    ],
+    "finding": "Official FHO physician list and FAQ checked. They give current-patient access instructions, not new-patient roster invitations.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c131": {
+    "clinic_id": "c131",
+    "name": "Thames River FHO — Thorndale",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.thamesriverfho.ca/doctors",
+      "https://www.thamesriverfho.ca/faq"
+    ],
+    "finding": "Official FHO physician list and FAQ checked. They give current-patient access instructions, not new-patient roster invitations.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c132": {
+    "clinic_id": "c132",
+    "name": "Synergy Centre — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://synergycentre.ca/services/family-medicine"
+    ],
+    "finding": "Own family-medicine page describes rostered care with Dr. Tetelbaum. Dental new-patient advertising is a different service; no current family-practice intake established.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c133": {
+    "clinic_id": "c133",
+    "name": "Burford Medical Centre — Dr. Joanne Ozog-Bartlett",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://cobblestonemedicineandrehab.com/our-staff-burford/"
+    ],
+    "finding": "Official host centre identifies Ozog-Bartlett family practice as independent; no family-medicine intake statement. Rehab appointment booking is not a physician intake route.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c134": {
+    "clinic_id": "c134",
+    "name": "Dr. Michelle Andersen-Kay — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+    ],
+    "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c135": {
+    "clinic_id": "c135",
+    "name": "Dr. Jeffrey Nichols — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+    ],
+    "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c136": {
+    "clinic_id": "c136",
+    "name": "Drs. Domenicone & Kocsis — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+    ],
+    "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c137": {
+    "clinic_id": "c137",
+    "name": "Dr. Donna Onishenko — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+    ],
+    "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c138": {
+    "clinic_id": "c138",
+    "name": "McKinney Medical Centre — Dr. Brock Tompkins",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.health-local.com/biz/walk-in-clinic/woodstock/ontario/mckinney-walk-in-clinic/"
+    ],
+    "finding": "Provider/clinic search found a HealthLocal description saying Tompkins family practice closed to new patients, but its current authorship/date are not established. Walk-in availability is separate. Keep intake unconfirmed.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c139": {
+    "clinic_id": "c139",
+    "name": "Dr. Pauline Zhang — Family Medicine",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+      "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+    ],
+    "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c140": {
+    "clinic_id": "c140",
+    "name": "Fanshawe Family Medical Centre — Dr. Dina AlKhatib",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://drdinaalkhatib.com/"
+    ],
+    "finding": "Own website explicitly limits booking to Dr. AlKhatib patients. No new-patient intake invitation located.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c141": {
+    "clinic_id": "c141",
+    "name": "Advanced Western Medical Clinic — Dr. Muhammad Amin",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=96373"
+    ],
+    "finding": "Name and clinic search found CPSO current office and secondary directory, not a clinic-owned intake announcement.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c142": {
+    "clinic_id": "c142",
+    "name": "Thames River FHO — Dr. Claudia Niesner",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.thamesriverfho.ca/doctors",
+      "https://www.thamesriverfho.ca/faq"
+    ],
+    "finding": "Official FHO physician list and FAQ checked. They give current-patient access instructions, not new-patient roster invitations.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c143": {
+    "clinic_id": "c143",
+    "name": "Thames River FHO — Dr. Victoria Soo",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.thamesriverfho.ca/doctors",
+      "https://www.thamesriverfho.ca/faq"
+    ],
+    "finding": "Official FHO physician list and FAQ checked. They give current-patient access instructions, not new-patient roster invitations.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c144": {
+    "clinic_id": "c144",
+    "name": "Thames River FHO — Dr. Joel Hommel",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.thamesriverfho.ca/doctors",
+      "https://www.thamesriverfho.ca/faq"
+    ],
+    "finding": "Official FHO physician list and FAQ checked. They give current-patient access instructions, not new-patient roster invitations.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c146": {
+    "clinic_id": "c146",
+    "name": "Southwest FHO — Knights Hill",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.southwestfho.com/",
+      "https://www.southwestfho.com/about"
+    ],
+    "finding": "Own homepage and policies describe current-patient appointments and after-hours care, not new-patient attachment.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c147": {
+    "clinic_id": "c147",
+    "name": "Forest City FHO — Dr. Doosuur Malu",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://southwesthealthline.ca/displayService.aspx?id=132247",
+      "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+    ],
+    "finding": "Name search and Healthline confirm office and registered-patient services, without current new-patient intake.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c148": {
+    "clinic_id": "c148",
+    "name": "Richmond Medicare — Dr. Elena Matusa",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+    ],
+    "finding": "Practice-name searches locate university practice inventory and third-party descriptions, not a current clinic-owned intake page. Existing register evidence supports offices, not capacity.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c149": {
+    "clinic_id": "c149",
+    "name": "Richmond Medical — Dr. Robert Butchey",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+    ],
+    "finding": "Practice-name searches locate university practice inventory and third-party descriptions, not a current clinic-owned intake page. Existing register evidence supports offices, not capacity.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c150": {
+    "clinic_id": "c150",
+    "name": "Komoka Medical Clinic",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.komokamedicalclinic.com/"
+    ],
+    "finding": "Own clinic website provides existing-patient booking and says it is not a walk-in clinic. A booking-platform closure statement was found but current clinic-owned family-practice availability was not established.",
+    "reviewed_on": "2026-11-12"
+  },
+  "c151": {
+    "clinic_id": "c151",
+    "name": "Lucan Medical Centre",
+    "starting_status": "unknown",
+    "review_state": "reviewed",
+    "sources": [
+      "https://www.findhealthclinics.org/CA/Lucan/1631372993793597/Lucan-Medical-Centre",
+      "https://www.facebook.com/1631372993793597/",
+      "https://register.cpso.on.ca/physician-info/?cpsonum=109391"
+    ],
+    "finding": "A social-post mirror dated August 13, 2026 reports Dr. Nanda opened a waitlist with paper forms collected at the office. Original Facebook page could not be retrieved; current waitlist remains a third-party report.",
+    "reviewed_on": "2026-11-12"
+  }
+}

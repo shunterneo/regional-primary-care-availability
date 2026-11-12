@@ -2174,5 +2174,225 @@
     "source": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
     "type": "access_context_clarified",
     "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c016",
+    "clinic_name": "Avenue Medical Centre",
+    "old_status": "reported",
+    "new_status": "waitlist",
+    "source": "https://www.avenuemedical.ca/index.aspx?PageName=Notices",
+    "type": "thorough_intake_review",
+    "reviewer_note": "Dr. Vidhi Desai accepts waitlist applications from local people without a physician. Use the clinic Wait List Application or Health Care Connect; the clinic selects new patients from those lists. Existing-patient online appointment booking is not the registration route."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c034",
+    "clinic_name": "Saffron Medical Centre",
+    "old_status": "reported",
+    "new_status": "accepting",
+    "source": "https://www.saffronhealth.ca/services/family-medical-centre/",
+    "type": "thorough_intake_review",
+    "reviewer_note": "Clinic family-medicine page advertises new-patient registration. Call 519-204-0361 for the intake process and available physician. No wait duration or guaranteed placement is published; rehabilitation booking is a separate service."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c024",
+    "clinic_name": "Saginaw Medical Centre — Dr. Sunil Bhatia",
+    "old_status": "reported",
+    "new_status": "accepting",
+    "source": "https://www.saginawmedicalcentre.com/home",
+    "type": "thorough_intake_review",
+    "reviewer_note": "Clinic homepage advertises a downloadable new-patient family-practice registration form. The form provides submission instructions and requires a meet-and-greet before registration; it does not guarantee enrolment or identify the available physician."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c070",
+    "clinic_name": "West London Family Health Centre",
+    "old_status": "unknown",
+    "new_status": "not_accepting",
+    "source": "https://www.westlondonfhc.com/faqs",
+    "type": "thorough_intake_review",
+    "reviewer_note": "Clinic FAQ explicitly states it is not accepting new patients. After-hours services are for existing patients; no walk-in appointments. Public webpage checked November 12, 2026."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c055",
+    "clinic_name": "Cambridge Gateway Medical Centre",
+    "old_status": "unknown",
+    "new_status": "accepting",
+    "source": "https://cambridgegatewaymedical.com/",
+    "type": "thorough_intake_review",
+    "reviewer_note": "Clinic advertises new family-practice applications at its Cambridge location. Call 226-533-1111 for the correct registration route: the linked online form has a Burlington clinic footer, so its destination is unresolved. Application does not guarantee enrolment."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c004",
+    "clinic_name": "London Family Health Team — Beaverbrook",
+    "old_status": "unknown",
+    "new_status": "accepting",
+    "source": "https://londonfht.ca/frequently-asked-questions/",
+    "type": "thorough_intake_review",
+    "reviewer_note": "Applications are advertised specifically for Dr. Behzad Hassani and NP Mahsa Haghighi, not all Beaverbrook physicians. The August 2026 form is for people without a doctor or NP; application does not guarantee acceptance. Call 519-673-3900 to confirm reception: the FAQ says second floor while the form says Unit 1. Named-provider evidence is more specific than the general locations notice."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c152",
+    "clinic_name": "Alexandra Medical Centre",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.alexandramedicalcentre.ca/",
+    "type": "completeness_addition",
+    "reviewer_note": "Separate family-practice office from Alexandra Family Physicians at the same hospital. Own site lists ongoing care and after-hours appointments for rostered patients; no new-patient intake notice established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c153",
+    "clinic_name": "Old South FHO — Dr. Emmanuel Adejokun",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c154",
+    "clinic_name": "Old South FHO — Dr. Parvin Akter",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c155",
+    "clinic_name": "Old South FHO — Dr. Willoon Cheng",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c156",
+    "clinic_name": "Old South FHO — Dr. Ali Chasm Khavari",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c157",
+    "clinic_name": "Old South FHO — Dr. Cameron Coatsworth",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c158",
+    "clinic_name": "Old South FHO — Dr. Greg Gillis",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c159",
+    "clinic_name": "Old South FHO — Dr. Jonathon Griffin",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c160",
+    "clinic_name": "Old South FHO — Dr. Dan Kreuzer",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c161",
+    "clinic_name": "Old South FHO — Dr. Tariq Nizami",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c162",
+    "clinic_name": "Old South FHO — Dr. Aisha Rashid",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c163",
+    "clinic_name": "Old South FHO — Dr. Daryoush Safdari",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c164",
+    "clinic_name": "Old South FHO — Dr. Devon Shewfelt",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c165",
+    "clinic_name": "Old South FHO — Dr. Kelsey Watson",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "type": "completeness_addition",
+    "reviewer_note": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c166",
+    "clinic_name": "Dr. Dorota Marczuk — Family Practice",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=85714",
+    "type": "completeness_addition",
+    "reviewer_note": "Register identifies 595 Wonderland Road North; older directories list Springbank Drive. University lists family practice and medical aesthetics; aesthetic or walk-in booking does not establish family-practice intake."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c167",
+    "clinic_name": "D.A. Monteith Medical Centre",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=117791",
+    "type": "completeness_addition",
+    "reviewer_note": "University practice directory and physician register identify this family-practice office. No current clinic-owned application statement established. Do not confuse Shedden, Elgin County with Sheddon Medical in Oakville."
   }
 ]

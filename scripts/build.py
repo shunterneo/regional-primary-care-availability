@@ -30,6 +30,9 @@ for c in clinics:
     c['display_status']=effective_status(c,today)
     c['evidence_label']=verification_display(c)
     c['public_evidence_reviewed']=((c.get('intake_verification') or {}).get('reviewed_on') or 'Not independently verified')
+    r=c.get('online_review') or {}
+    c['online_review_text']=(r.get('reviewed_on','')+' — '+r.get('finding','')) if r else ''
+    c['online_review_sources']=' | '.join(r.get('sources',[]))
 ORDER=['accepting','reported','limited','waitlist','not_accepting','needs_review','unknown']
 clinics.sort(key=lambda c:(ORDER.index(c['display_status']),c['community'].lower(),c['name'].lower()))
 counts=collections.Counter(c['display_status'] for c in clinics)
@@ -96,7 +99,7 @@ def make_docx():
                 p=doc.add_paragraph();p.paragraph_format.keep_with_next=True
                 rr=p.add_run(f'{c["community"]}  |  {c["name"]}');rr.bold=True
                 t=doc.add_table(rows=0,cols=2);t.autofit=False;t.columns[0].width=Inches(1.00);t.columns[1].width=Inches(5.9)
-                for label,value in [('Office',c['address']),('Service model',CARE_MODELS[c['care_model']]),('Provider',c['clinic_type']),('Phone',c.get('phone','') or 'Not listed'),('Intake note',c.get('intake_detail','') or 'No current details'),('Evidence level',c['evidence_label']),('Intake evidence checked',c['public_evidence_reviewed']+' (public only; not confirmed by telephone)'),('Record last edited',c['last_reviewed'])]:
+                for label,value in [('Office',c['address']),('Service model',CARE_MODELS[c['care_model']]),('Provider',c['clinic_type']),('Phone',c.get('phone','') or 'Not listed'),('Intake note',c.get('intake_detail','') or 'No current details'),('Evidence level',c['evidence_label']),('Intake evidence checked',c['public_evidence_reviewed']+' (public only; not confirmed by telephone)'),('Record last edited',c['last_reviewed']),('Online research',c.get('online_review_text','')),('Research sources',c.get('online_review_sources',''))]:
                     row=t.add_row();row.cells[0].text=label;row.cells[1].text=value
                     row.cells[0].paragraphs[0].runs[0].bold=True
                     for cell in row.cells:
@@ -150,6 +153,10 @@ def make_pdf():
                     Paragraph('<b>Office:</b> '+e(c['address'])+'   <b>Care:</b> '+e(CARE_MODELS[c['care_model']])+'   <b>Type:</b> '+e(c['clinic_type'])+'   <b>Phone:</b> '+e(c.get('phone') or 'Not listed'),small),
                     Paragraph(e(c.get('intake_detail') or 'No current intake details'),body),
                     Paragraph('<b>Evidence level:</b> '+e(c['evidence_label'])+'   <b>Evidence checked:</b> '+e(c['public_evidence_reviewed'])+' (public only; not telephone verified)',small)]
+                if c.get('online_review_text'):
+                    lines.append(Paragraph('<b>Online research:</b> '+e(c['online_review_text']),small))
+                    for u in (c.get('online_review') or {}).get('sources',[]):
+                        lines.append(Paragraph('<link href="'+e(u,quote=True)+'" color="#185B78">'+e(u)+'</link>',small))
                 if c.get('evidence_url'):lines.append(Paragraph('Record last edited: '+e(c['last_reviewed'])+'  |  <link href="'+e(c['evidence_url'],quote=True)+'" color="#185B78">Supporting source</link>',small))
                 story.append(KeepTogether(lines))
     out=docs/'primary-care-directory.pdf'

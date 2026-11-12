@@ -1,0 +1,2139 @@
+{
+  "reviewed_on": "2026-11-12",
+  "source": "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/",
+  "scope": "University entries in communities currently represented by this directory; NOT a comprehensive geographic or professional-register census. Unmatched names require individual reconciliation.",
+  "counts": {
+    "requires_individual_reconciliation": 212,
+    "possible_existing_match": 33,
+    "specialized_service_review": 17,
+    "existing_practice_directory_match": 23,
+    "excluded_focused_practice": 1,
+    "excluded_retired_general_practice": 1
+  },
+  "entries": [
+    {
+      "community": "Ailsa Craig",
+      "directory_name": "Michael Wagner",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Aylmer",
+      "directory_name": "East Elgin Family Health Team (Michael Fernando)",
+      "candidate_matches": [
+        "c054"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Aylmer",
+      "directory_name": "Michael Toth",
+      "candidate_matches": [
+        "c054"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Dorchester",
+      "directory_name": "Dorchester Medical Centre (Nasreen Hossain)",
+      "candidate_matches": [
+        "c129"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Ilderton",
+      "directory_name": "Middlesex Centre Family Medicine Clinic (Daniel Leger, Darren Van Dam, Jessica Howard, Michael Craig)",
+      "candidate_matches": [
+        "c059"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Ilderton",
+      "directory_name": "Daniela Keren",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Ilderton",
+      "directory_name": "James Mather",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Ilderton",
+      "directory_name": "Sierra Tang",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Ilderton",
+      "directory_name": "Stacie Kling",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Ingersoll",
+      "directory_name": "Elizabeth Allen",
+      "candidate_matches": [
+        "c152"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Ingersoll",
+      "directory_name": "Jill M. Matsuo",
+      "candidate_matches": [
+        "c060"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Ingersoll",
+      "directory_name": "Kimberly Baker",
+      "candidate_matches": [
+        "c152"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Ingersoll",
+      "directory_name": "Mohamed Mahmoud",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Ingersoll",
+      "directory_name": "Sundus Kellow",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Komoka",
+      "directory_name": "Beth Currie",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Komoka",
+      "directory_name": "Catherine Wegrzyn",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Parkwood Rehab Hospitalist (Adam Chubbs-Payne)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Dr. Adam Sirek (Adam Sirek)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Well Health Medical Centre (Alexander Nedeljkovic)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "London Intercommunity Health Centre (Allison Henderson, Clark Baldwin)",
+      "candidate_matches": [
+        "c039"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "Thames Valley Family Health Team - Byron Family Medical Centre (Arianna Tomanec)",
+      "candidate_matches": [
+        "c062"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "Dr. Alexander Adeyemi (Ayodeji Adeyemi)",
+      "candidate_matches": [
+        "c145"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Dr. B Hassani Medicine Professional Corporation (Behzad Hassani)",
+      "candidate_matches": [
+        "c004"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Prisma Health Care Collaborative (Brenna Kaschor, Michelle Lepitre)",
+      "candidate_matches": [
+        "c067"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Old South maternity Care (Caitlin Thompson, Laurence Dales)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Peckan and Spence (Catherine Peckan)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Inmedic Pain Management Clinic (Ceara McNeil, Ganesh Ram)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Old South FHO (Chidi Akanihu)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "London Family Health Team (Cristina Castronovo, Silvia Orsini)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Crystal Marko (Crystal Marko)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "SJFMC (Daniella Mlinarevic)",
+      "candidate_matches": [
+        "c068"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "West London Family Health Clinic (David Dixon, Dawid Martyniak, Gihan Abdel Malek, Stephen Cunningham-Dunlop)",
+      "candidate_matches": [
+        "c070"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "Fanshawe Family Medical (Dina Al Khatib)",
+      "candidate_matches": [
+        "c140"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Dr. Malu's Clinic (DOOSUUR MALU)",
+      "candidate_matches": [
+        "c147"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Family Practice and Medical Aesthetics at Blue Zone Healthcare (Dorota Marczuk)",
+      "candidate_matches": [
+        "c166"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Dr. Jessica Hunter-Orange (Dr Jessica Hunter-Orange)",
+      "candidate_matches": [],
+      "disposition": "excluded_focused_practice",
+      "note": "Family physician with focused dermatology practice; no general attachment established.",
+      "evidence": "https://dcmf.ca/dcmf-recognition-award-2022-dr-jessica-hunter-orange/"
+    },
+    {
+      "community": "London",
+      "directory_name": "UWO Student Health Services (Eanna Clifford)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Richmond Medicare (Elena Matusa)",
+      "candidate_matches": [
+        "c148"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "St. Joseph's Family Medical Centre (Fatima Zeeshan)",
+      "candidate_matches": [
+        "c068"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "Chelsea Park Nursing Home (Gerald Bigham)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Schacter MPC (Gordon Schacter)",
+      "candidate_matches": [],
+      "disposition": "excluded_retired_general_practice",
+      "note": "OHT clinician biography reports retirement from comprehensive practice in July 2024; register business location is not evidence of an open general roster.",
+      "evidence": "https://mloht.ca/wp-content/uploads/2025/06/HP-Newsletter-May-compressed.pdf"
+    },
+    {
+      "community": "London",
+      "directory_name": "Serenity Medical Center (Ifeanyi Onunkwo)",
+      "candidate_matches": [
+        "c035"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "Well Health Medical Centers (Imad El Sadek)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Whitehills Medical Centre, Sherwood Forest Mall (Irene Cohen)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Serenity Medical Practice (Istiphanus Ohakanu)",
+      "candidate_matches": [
+        "c035"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "St Joseph Hospital (Jake Yeoman)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "London RAAM - Rapid Access Addiction Medicine (Janel Gracey)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Parkwood (Jeremy Kwok)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Synergy Centre Dental & Health Care (Joel Hommel, Maria Tetelbaum)",
+      "candidate_matches": [
+        "c132"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Palliative Care Physician (Jordan Berry)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "London Low Risk Obstetrics (Katharine Holland)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Primary Care Diabetes Support Program (Kathleen Thomasson)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Trauma and Violence Specialized Primary Care (Leona Bruijns)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Fowler Kennedy Sport Medicine Clinic (Matthew Ryckman)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Fowler Kennedy Sport Medicine (Meena Saad)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Centre for Pain Management (Mike Peterson)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Advanced Western Medical Clinic (Muhammad Amin)",
+      "candidate_matches": [
+        "c141"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "St Jospeh Family Medical centre (Nousheen Khan Amanullah)",
+      "candidate_matches": [
+        "c068"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "Springbank Medical Centre (Parvin Akter)",
+      "candidate_matches": [
+        "c154"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Parkwood Hospital (Rachelle LaBranche)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Parkwood Institute (Richard Pawliszyn)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Richmond Medical (Robert Butchey)",
+      "candidate_matches": [
+        "c149"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Oxford Medical Centre (Rory Crabbe)",
+      "candidate_matches": [
+        "c066"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "Southwest Family Health Organization (Ruksheen Sam Minocher Homji, Yasmina Balaska)",
+      "candidate_matches": [
+        "c146"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "Dr. Sara Neely - Sport Medicine (Sara Neely)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "South London Urgent Care Clinic (Shailendra Ziradkar)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Western University Workplace Health Clinic (Sonya Malone)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Well Health Medical Clinic (Victoria Soo)",
+      "candidate_matches": [
+        "c069",
+        "c143"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Bryon Family Medicine Centre (Wesam Alerian)",
+      "candidate_matches": [
+        "c062"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "London",
+      "directory_name": "Aatika Imran",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Adam Rocker",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Adebayo Adejokun",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Adedeji Majekodunmi",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Aditi Kane",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Adriana Pietrzak",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Amanda Wiebe",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Andrea H Mok",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Andrea Sereda",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Andrew Sharpe",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Angela Townend",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Anna Johnson",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Archie N Grace",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Arshia Nabeel",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Aurelia Valiulis",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Avaleen Vopicka",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Baraa Achtar",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Bhooma Bhayana",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Brett Hill",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Cael O'Reilly",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Cassandra Lin-Pepe",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Cassandra Stiller-Moldovan",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Catherine Faulds",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Chelsea Botsford",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Cheryl Smits",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Chetanna Nzeadi",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Chevy Priyadamkol",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Chinenye Anaedu",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Chukwudi Koyenikan",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Cody Jackson",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Coralee De",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Corinne Coulter",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Daniel Pepe",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Danielle Mintsoulis",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Darryl Putzer",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "David H Keast",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Deborah Norrie",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Devon Shewfelt",
+      "candidate_matches": [
+        "c164"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Ejike Obute",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Emily Bachmeier",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Faria Rubab",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Festus Anochie",
+      "candidate_matches": [
+        "c030"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Franklin Ossai",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Gregory Donde",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Humaira Nasir",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Hussein Ataie Fashtami",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Ivana Burcul",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "James Stewart",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Janet Zhao",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Jaspal(Paul) Dulay",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Jeffrey Price",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Jenna Dickson",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Jeremy Soo",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Jo-Anne Hammond",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Joanne Kearon",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Jonathon Griffin",
+      "candidate_matches": [
+        "c159"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Judy Graves",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Karolina Altmann",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Katarina Andrejevic",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Kathleen Milne",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Keith A Thompson",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Kenneth Lee",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Kevin Asem",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Kirk Hamilton",
+      "candidate_matches": [
+        "c032"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Krishanthy Shu",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Kyle Tabor",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Kyra Harris-Schulz",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Lauren Kolecki",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Leah Mawhinney",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Leslie R. Damude",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Lexie Grainger",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Lydia Schultz",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Mansur Rahal",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Marie Wegener",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Mario Elia",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Marius Naghiu",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Megan Rigby",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Melad Ideen Marbeen",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Mervat Bakeer",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Michael Tancio",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Mohammed Badawi",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Monika Sharma",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Nadine Cheikh",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Natalie Hertzman",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Nicholas Chandna",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Nisha Arora",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Omer Dost",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Paige Hacking",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Patrick Chang",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Punkuj Chawla",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Rachel Bevan",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Rehab Bakir",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Rene Martin",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Rita Rabheru",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Robbie Singh",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Safiyyah Mahomed",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Salim Sunderji",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Sara Colozza",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Sara Fairweather",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Selamawit Teclegiorgis",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Sharon Koivu",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Shifaz Veettil",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Shilpa Aggarwal",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Shiva Ahanchian",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Soofia Kazi",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Sophie Glanz",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Stephanie Stocco",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Stephen Wegener",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Stephen Woo",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Steven Goldie",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Tania Bhanji",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Tanya Thornton",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Tatiana Jevremovic",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Todd Elogio",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Tomas Jimenez",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Vida Omidvar",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Vranda S Kamath",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Yu Li",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Zarmeen Qamar",
+      "candidate_matches": [
+        "c047"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Zeinab Ziada",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "London",
+      "directory_name": "Zhuxi Gong",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Lucan",
+      "directory_name": "Lucan Medical Centre (Tarun Nanda)",
+      "candidate_matches": [
+        "c151"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "Mount Brydges",
+      "directory_name": "Southwest Middlesex Health Centre (Katelyn Gray, Lauren Wohlgemut, Mitchell Locke)",
+      "candidate_matches": [
+        "c072"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Mount Brydges",
+      "directory_name": "Harry Nielsen",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Mount Brydges",
+      "directory_name": "Jay Taylor",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Mount Brydges",
+      "directory_name": "Lauren Kopechanski",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Port Stanley",
+      "directory_name": "Kristin Richter",
+      "candidate_matches": [
+        "c127"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Shedden",
+      "directory_name": "D.A. Monteith Medical Centre (Rebecca Robinson)",
+      "candidate_matches": [
+        "c167"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Simcoe",
+      "directory_name": "Port Dover Family Health (Rejean Duwyn)",
+      "candidate_matches": [
+        "c125"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "St. Marys",
+      "directory_name": "Happy Valley Family Health Team (Jonathan Schiedel, Michael Trevail)",
+      "candidate_matches": [
+        "c110"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "St. Marys",
+      "directory_name": "Emily Kelly",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Marys",
+      "directory_name": "Kim Gilmour",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Marys",
+      "directory_name": "Laurie Komorowski",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Marys",
+      "directory_name": "Priscilla Yung",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Marys",
+      "directory_name": "Rachael Berta",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Marys",
+      "directory_name": "Sarah Donaldson",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Marys",
+      "directory_name": "Tamara Foster",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Talbot FHO (Anusha Perera)",
+      "candidate_matches": [
+        "c078"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Windermere Family Medical Centre (Christian Paradis)",
+      "candidate_matches": [
+        "c080"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Family Plus Medical Center (Ikechukwu Walter Ibeme)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Elmwood Family Health Centre (Kellie Scott)",
+      "candidate_matches": [
+        "c077"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "St. Thomas-Elgin General Hospital Emergency Department (Lance Miller)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Elmwood Family Health Organization (Scott McIntosh)",
+      "candidate_matches": [
+        "c077"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "PrimePoint Medical Clinic (Wallace Ordiah)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Primepoint Clinic (Zulu Okoligwe)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Alison Wright",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Anthony Ezepue",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Chamberlain Ajogwu",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Colin Bolzon",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Collins Egbujuo",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "David Lum",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Geoffrey Kraemer",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "James Brokenshire",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Jonathan Carter",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Mohammed Ziada",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "St. Thomas",
+      "directory_name": "Ofure Osagie",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Avon Family Medical Centre (Donna Tomlinson, Leanne Peters)",
+      "candidate_matches": [
+        "c082"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Jenny Trout Centre (Douglas Thompson, Matthew Macdonald)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Avon Family Medicine (Ellen Tousaw)",
+      "candidate_matches": [
+        "c082"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "STAR Family Health Organization - O'Loane Clinic (Jacob Matusinec)",
+      "candidate_matches": [
+        "c083"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Stratford General Hospital (Jessica Mammoliti)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Lorne Ave Medical Group (Veronika Kurtz)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Ameet Karaul",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Andrew Prout",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Anne Martin",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Ashley Lee",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Christine Sheeler",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Curtis Irvine",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Danielle Anstett",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Erin Glass",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Erin Heisz",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Heather Sylvester",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Jason Datema",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "John Haddad",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Jonathan Walker",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Juliet Veens",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Matthew Wu",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Nadim Walji",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Paras Satija",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Samantha Reaume",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Stacey Snider",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Stratford",
+      "directory_name": "Taylor Johnson",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "West Middlesex Health Cente (Aditya Devgan, John Marcou, Stephen McDonald)",
+      "candidate_matches": [
+        "c087"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "Strathroy Middlesex General Hospital (Basmah El-Aloul, Elisheva Chernick, Ryan Biehn, Shawn Albers)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "Strathroy Family Health team (Ulanda Singh)",
+      "candidate_matches": [
+        "c086"
+      ],
+      "disposition": "existing_practice_directory_match",
+      "note": "Practice-name match to existing office; individual provider affiliation and availability not thereby verified."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "Andrea Larson",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "Candice Rivest",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "David Lam",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "Faraz Hafezi",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "Karissa Sarkioja",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "Matthew Rowe",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "Oksana Lavasova",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "Ranbir Verraich",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Strathroy",
+      "directory_name": "Tim L MacDonald",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Tavistock",
+      "directory_name": "Tavistock Community Health Inc. (Amanda Brown)",
+      "candidate_matches": [
+        "c088"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Tillsonburg",
+      "directory_name": "Tillsonburg Medical Centre (Tammy Hainer)",
+      "candidate_matches": [
+        "c090"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Tillsonburg",
+      "directory_name": "Bikash Chowdhury",
+      "candidate_matches": [
+        "c090"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Tillsonburg",
+      "directory_name": "Kanna Narayanan",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Tillsonburg",
+      "directory_name": "Samer Haj-Bakri",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Tillsonburg",
+      "directory_name": "Willoon Cheng",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Woodstock Hospital- Emergency Department (Jeremy Gross)",
+      "candidate_matches": [],
+      "disposition": "specialized_service_review",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Dr. Kristy Green MPC (Kristy Green)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Dr. P. Kocsis, Family Physician (Pongrac Kocsis)",
+      "candidate_matches": [
+        "c136"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Woodstock General Hospital; Strathroy Middlesex General Hospital (Sean Caine)",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Aditya Karnik",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Andrew Pylypiak",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Astha Dhingra",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Christopher Foerster",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Ghassan Abushawish",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Ian Hons",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Jennifer Bonnett",
+      "candidate_matches": [
+        "c095"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Kelly Lien",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Michael Vreugdenhil",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Momal Mazhar",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Paul Howatt",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Rachel Orchard",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Sarah Davies",
+      "candidate_matches": [
+        "c094"
+      ],
+      "disposition": "possible_existing_match",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    },
+    {
+      "community": "Woodstock",
+      "directory_name": "Syed Ahmed",
+      "candidate_matches": [],
+      "disposition": "requires_individual_reconciliation",
+      "note": "Name-based candidate matching only; not proof of practice identity, operation, geography or intake."
+    }
+  ]
+}

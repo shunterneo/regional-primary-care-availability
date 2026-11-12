@@ -40,3 +40,10 @@ const ox=DATA.clinics.find(c=>c.id==='c011');f.openEditor(ox);assert(ids.editDia
 assert(f.csvBytes([{name:'=DANGEROUS',display_status:'unknown'}]).includes("'=DANGEROUS"));
 if(process.env.EXPORT_FIXTURE_DIR){fs.mkdirSync(process.env.EXPORT_FIXTURE_DIR,{recursive:true});fs.writeFileSync(process.env.EXPORT_FIXTURE_DIR+'/selected.pdf',f.pdfBytes([ox]));fs.writeFileSync(process.env.EXPORT_FIXTURE_DIR+'/selected.docx',f.docxBytes([ox]));fs.writeFileSync(process.env.EXPORT_FIXTURE_DIR+'/all.pdf',f.pdfBytes(DATA.clinics));}
 console.log('PASS: selected/all exports, CSV injection protection, edit review and typed confirmation; live data unchanged');
+const researched=DATA.clinics.find(c=>c.online_review_text);
+assert(researched,'research finding present');
+assert(ids.results.children.some(card=>card.children.some(n=>n.className==='research')),'research disclosure rendered');
+assert(f.csvBytes([researched]).includes(researched.online_review.finding.replace(/"/g,'""')),'CSV preserves research finding');
+assert(f.pdfBytes([researched]).includes('Online research:'),'PDF preserves research context');
+assert(new TextDecoder().decode(f.docxBytes([researched])).includes('Online research:'),'Word preserves research context');
+console.log('PASS: research disclosures and CSV/PDF/Word research provenance');

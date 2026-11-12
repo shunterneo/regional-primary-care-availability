@@ -1,0 +1,98 @@
+[
+  {
+    "clinic_id": "c152",
+    "name": "Alexandra Medical Centre",
+    "source": "https://www.alexandramedicalcentre.ca/",
+    "finding": "Separate family-practice office from Alexandra Family Physicians at the same hospital. Own site lists ongoing care and after-hours appointments for rostered patients; no new-patient intake notice established."
+  },
+  {
+    "clinic_id": "c153",
+    "name": "Old South FHO \u2014 Dr. Emmanuel Adejokun",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c154",
+    "name": "Old South FHO \u2014 Dr. Parvin Akter",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Suite discrepancy: FHT lists 203B, CPSO primary business location lists 206A; confirm before visiting."
+  },
+  {
+    "clinic_id": "c155",
+    "name": "Old South FHO \u2014 Dr. Willoon Cheng",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c156",
+    "name": "Old South FHO \u2014 Dr. Ali Chasm Khavari",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c157",
+    "name": "Old South FHO \u2014 Dr. Cameron Coatsworth",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c158",
+    "name": "Old South FHO \u2014 Dr. Greg Gillis",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c159",
+    "name": "Old South FHO \u2014 Dr. Jonathon Griffin",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Search index contains a no-new-patients/full-waitlist statement, but it was absent from the retrieved page. Current closure not independently resolved."
+  },
+  {
+    "clinic_id": "c160",
+    "name": "Old South FHO \u2014 Dr. Dan Kreuzer",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c161",
+    "name": "Old South FHO \u2014 Dr. Tariq Nizami",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c162",
+    "name": "Old South FHO \u2014 Dr. Aisha Rashid",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c163",
+    "name": "Old South FHO \u2014 Dr. Daryoush Safdari",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c164",
+    "name": "Old South FHO \u2014 Dr. Devon Shewfelt",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c165",
+    "name": "Old South FHO \u2014 Dr. Kelsey Watson",
+    "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c166",
+    "name": "Dr. Dorota Marczuk \u2014 Family Practice",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=85714",
+    "finding": "Register identifies 595 Wonderland Road North; older directories list Springbank Drive. University lists family practice and medical aesthetics; aesthetic or walk-in booking does not establish family-practice intake."
+  },
+  {
+    "clinic_id": "c167",
+    "name": "D.A. Monteith Medical Centre",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=117791",
+    "finding": "University practice directory and physician register identify this family-practice office. No current clinic-owned application statement established. Do not confuse Shedden, Elgin County with Sheddon Medical in Oakville."
+  }
+]

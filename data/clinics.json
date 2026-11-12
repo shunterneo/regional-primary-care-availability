@@ -145,28 +145,28 @@
       "community": "London",
       "address": "1261 Beaverbrook Avenue, Unit 1",
       "clinic_type": "FHT",
-      "status": "unknown",
-      "intake_detail": "Clinic's August 26, 2026 intake announcement includes Beaverbrook, and its FAQ/physician directory specifically identify Dr. Behzad Hassani and NP Mahsa Haghighi as accepting applications. Other physicians are stated not accepting; clinic's general locations page contradicts the announcement. Confirm current intake directly; submitting form does not guarantee attachment. Dr. Hassani’s named-provider application is returned to his second-floor office; Unit 1 is the team intake/allied-health address. Conflicting site-wide statements remain unresolved.",
+      "status": "accepting",
+      "intake_detail": "Applications are advertised specifically for Dr. Behzad Hassani and NP Mahsa Haghighi, not all Beaverbrook physicians. The August 2026 form is for people without a doctor or NP; application does not guarantee acceptance. Call 519-673-3900 to confirm reception: the FAQ says second floor while the form says Unit 1. Named-provider evidence is more specific than the general locations notice.",
       "phone": "519-673-3900",
-      "providers": "Some physicians and NPs; Dr Behzad Hassani",
-      "evidence_url": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
+      "providers": "Dr. Behzad Hassani; NP Mahsa Haghighi (named intake only)",
+      "evidence_url": "https://londonfht.ca/frequently-asked-questions/",
       "clinic_url": "https://londonfht.ca/family-physicians/",
       "source_published": "2026-08-26",
       "last_reviewed": "2026-11-12",
       "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "Conflict sources: https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/ and https://londonfht.ca/our-locations/. Clinic's own FAQ and physician directory specifically name Dr Behzad Hassani and NP Mahsa Haghighi as accepting applications at Beaverbrook; other LFHT physicians are stated not accepting. General locations page contradicts the August 26 announcement. Do not apply site-wide accepting status.",
-      "review_basis": "Cross-checked August 26 LFHT announcement, clinic FAQ, physician roster and own Dr Hassani/NP Haghighi application PDF on 2026-11-11; conflicting general locations notice remains.",
+      "review_basis": "Clinic-owned intake page and linked registration route reviewed November 12, 2026. No telephone contact; no guaranteed enrolment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://londonfht.ca/family-physicians/",
       "intake_verification": {
-        "tier": "conflicting_or_unconfirmed",
-        "scope": "conflicting_first_party_pages",
-        "reviewed_on": "2026-11-11",
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
-        "source_url": "https://londonfht.ca/our-locations/",
-        "finding": "Clinic's August 26, 2026 intake announcement includes Beaverbrook, and its FAQ/physician directory specifically identify Dr. Behzad Hassani and NP Mahsa Haghighi as accepting applications. Other physicians are stated not accepting; clinic's general locations page contradicts the announcement. Confirm current intake directly; submitting form does not guarantee attachment.",
+        "source_url": "https://londonfht.ca/frequently-asked-questions/",
+        "finding": "Applications are advertised specifically for Dr. Behzad Hassani and NP Mahsa Haghighi, not all Beaverbrook physicians. The August 2026 form is for people without a doctor or NP; application does not guarantee acceptance. Call 519-673-3900 to confirm reception: the FAQ says second floor while the form says Unit 1. Named-provider evidence is more specific than the general locations notice.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -176,12 +176,20 @@
       "address_verification_source": "https://londonfht.ca/our-locations/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
-      "intake_conflict": true,
       "auto_updates_enabled": false,
       "latitude": 42.99152,
       "longitude": -81.294141,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "application_url": "https://londonfht.ca/wp-content/uploads/2026/08/Dr-B-Hassani-Patient-Intake-Form-2026-Copy.pdf",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "The named-provider FAQ and August 2026 application explicitly identify Dr. Behzad Hassani and NP Mahsa Haghighi. This specific exception supports applications to their practice, not every Beaverbrook physician. General location wording is less specific. Form and FAQ differ on suite/floor; confirm reception.",
+        "sources": [
+          "https://londonfht.ca/frequently-asked-questions/",
+          "https://londonfht.ca/wp-content/uploads/2026/08/Dr-B-Hassani-Patient-Intake-Form-2026-Copy.pdf"
+        ]
+      }
     },
     {
       "id": "c005",
@@ -226,7 +234,15 @@
       "longitude": -81.253068,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
       "coordinate_quality": "Government planning point matched to clinic address; not entrance or suite",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "August 26 announcement names Stoney Creek as participating, but general locations/FAQ wording remains inconsistent. Individual clinician capacity and current placement at this branch remain unresolved.",
+        "sources": [
+          "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
+          "https://londonfht.ca/frequently-asked-questions/"
+        ]
+      }
     },
     {
       "id": "c006",
@@ -356,7 +372,17 @@
       "longitude": -81.2855056,
       "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "TVFHT own page accepts ongoing NP applications across four regions; branch pages confirm locations but not each office capacity. Oxford NPLC independently directs Woodstock residents to 959 Dundas NP attachment.",
+        "sources": [
+          "https://thamesvalleyfht.ca/become-a-patient/",
+          "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+          "https://www.ocnplc.ca/2026/08/25/new-patient-application/"
+        ]
+      }
     },
     {
       "id": "c009",
@@ -400,7 +426,15 @@
       "longitude": -81.1964396,
       "coordinate_source": "https://www.openstreetmap.org/way/196174893",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Followed the building website to its active registration form. It accepts expressions of interest from people without an Elgin County family physician; no named practice or guaranteed placement. Remains a building-wide lead rather than a verified accepting office.",
+        "sources": [
+          "https://www.elmdalehealth.com/",
+          "https://docs.google.com/forms/d/e/1FAIpQLScE26mW_eBPBVAEl8xY1t2sPs3pPlJdHx3GN4sEr2MlXXZpBw/viewform"
+        ]
+      }
     },
     {
       "id": "c010",
@@ -569,7 +603,17 @@
       "latitude": 43.134833,
       "longitude": -80.732611,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "TVFHT own page accepts ongoing NP applications across four regions; branch pages confirm locations but not each office capacity. Oxford NPLC independently directs Woodstock residents to 959 Dundas NP attachment.",
+        "sources": [
+          "https://thamesvalleyfht.ca/become-a-patient/",
+          "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/",
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+          "https://www.ocnplc.ca/2026/08/25/new-patient-application/"
+        ]
+      }
     },
     {
       "id": "c014",
@@ -663,29 +707,29 @@
       "community": "Brantford",
       "address": "221 Brant Avenue",
       "clinic_type": "MD",
-      "status": "reported",
-      "intake_detail": "Brant Community Healthcare System currently lists Avenue Medical Centre / Dr. Vidhi Desai among local family doctors and clinics accepting patients; contact office to confirm current capacity.",
+      "status": "waitlist",
+      "intake_detail": "Dr. Vidhi Desai accepts waitlist applications from local people without a physician. Use the clinic Wait List Application or Health Care Connect; the clinic selects new patients from those lists. Existing-patient online appointment booking is not the registration route.",
       "phone": "519-753-8666",
       "providers": "Dr Vidhi Desai",
-      "evidence_url": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+      "evidence_url": "https://www.avenuemedical.ca/index.aspx?PageName=Notices",
       "clinic_url": "https://www.avenuemedical.ca",
       "source_published": "",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-12",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Independent check of live regional healthcare/medical association public directory; regional report only, not clinic-confirmed intake.",
+      "review_basis": "Clinic-owned intake page and linked registration route reviewed November 12, 2026. No telephone contact; no guaranteed enrolment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.avenuemedical.ca",
       "auto_updates_enabled": false,
       "intake_verification": {
-        "tier": "regional_report",
-        "scope": "location",
-        "reviewed_on": "2026-11-11",
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
-        "source_url": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
-        "finding": "Brant Community Healthcare System currently lists Avenue Medical Centre / Dr. Vidhi Desai among local family doctors and clinics accepting patients; contact office to confirm current capacity.",
+        "source_url": "https://www.avenuemedical.ca/index.aspx?PageName=Notices",
+        "finding": "Dr. Vidhi Desai accepts waitlist applications from local people without a physician. Use the clinic Wait List Application or Health Care Connect; the clinic selects new patients from those lists. Existing-patient online appointment booking is not the registration route.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -699,7 +743,16 @@
       "longitude": -80.2761277,
       "coordinate_source": "https://www.openstreetmap.org/node/2263695278",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "application_url": "https://www.avenuemedical.ca/userfiles/AMC_Wait_List_2026.pdf",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Live browser resolves outdated search extracts: Dr. Vidhi Desai is accepting local unattached applicants through the clinic waitlist; online appointment booking is for existing patients, not an intake prohibition.",
+        "sources": [
+          "https://www.avenuemedical.ca/index.aspx?PageName=Notices",
+          "https://www.avenuemedical.ca/userfiles/AMC_Wait_List_2026.pdf"
+        ]
+      }
     },
     {
       "id": "c017",
@@ -720,7 +773,7 @@
       "notes": "",
       "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
       "care_model": "ongoing",
-      "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
+      "care_model_basis": "Clinic website says walk-in service is no longer offered.",
       "care_model_source": "https://bonavistamedicalcentrebrantford.com",
       "intake_verification": {
         "tier": "third_party",
@@ -742,7 +795,16 @@
       "longitude": -80.2797007,
       "coordinate_source": "https://www.openstreetmap.org/node/2259099378",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Own website offers enrolment/intake downloads but no explicit current roster availability; BCHS names Shaikh and Mutasher. Own homepage explicitly says walk-in service has ended.",
+        "sources": [
+          "https://bonavistamedicalcentrebrantford.com/",
+          "https://bonavistamedicalcentrebrantford.com/contact.php",
+          "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/"
+        ]
+      }
     },
     {
       "id": "c018",
@@ -785,7 +847,15 @@
       "longitude": -80.2794214,
       "coordinate_source": "https://www.openstreetmap.org/node/2259098073",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Name/location search found BCHS intake report and CPSO practice match; no independent clinic-owned intake page found.",
+        "sources": [
+          "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=155642"
+        ]
+      }
     },
     {
       "id": "c019",
@@ -948,7 +1018,15 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://www.sherifmikhail.ca/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official clinic page recovered through indexed search: address and phone, no current intake invitation located. Regional accepting claim remains secondary.",
+        "sources": [
+          "https://www.sherifmikhail.ca/",
+          "https://www.doctors4cambridge.com/contact.htm"
+        ]
+      }
     },
     {
       "id": "c023",
@@ -995,32 +1073,32 @@
     },
     {
       "id": "c024",
-      "name": "Saginaw Medical Centre — Dr. Sunil Bhatia",
+      "name": "Saginaw Medical Centre — Family Practice",
       "community": "Cambridge",
       "address": "525 Saginaw Parkway, Unit A2",
       "clinic_type": "MD",
-      "status": "reported",
-      "intake_detail": "Doctors 4 Cambridge provides a patient-registration-form path, recheck availability.",
+      "status": "accepting",
+      "intake_detail": "Clinic homepage advertises a downloadable new-patient family-practice registration form. The form provides submission instructions and requires a meet-and-greet before registration; it does not guarantee enrolment or identify the available physician.",
       "phone": "226-666-0345",
       "providers": "Dr Sunil Bhatia",
-      "evidence_url": "https://www.doctors4cambridge.com/contact.htm",
+      "evidence_url": "https://www.saginawmedicalcentre.com/home",
       "clinic_url": "https://www.saginawmedicalcentre.com/",
       "source_published": "",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-12",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "",
-      "review_basis": "Imported from the 2026-11-11 research audit; not re-confirmed by this automated build.",
+      "review_basis": "Clinic-owned intake page and linked registration route reviewed November 12, 2026. No telephone contact; no guaranteed enrolment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.doctors4cambridge.com/contact.htm",
       "intake_verification": {
-        "tier": "third_party",
-        "scope": "unverified",
-        "reviewed_on": "2026-11-11",
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
-        "source_url": "https://www.doctors4cambridge.com/contact.htm",
-        "finding": "Doctors4Cambridge offers email registration with Dr Bhatia; Saginaw own site confirms contact details but no current intake claim.",
+        "source_url": "https://www.saginawmedicalcentre.com/home",
+        "finding": "Clinic homepage advertises a downloadable new-patient family-practice registration form. The form provides submission instructions and requires a meet-and-greet before registration; it does not guarantee enrolment or identify the available physician.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -1035,7 +1113,16 @@
       "longitude": -80.2839427,
       "coordinate_source": "https://www.openstreetmap.org/way/401040084",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "application_url": "https://www.saginawmedicalcentre.com/_files/ugd/ffa3dd_cb576c286938472f96b8a43118a3a0e5.pdf",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Clinic homepage links a new-patient family-practice intake form with submission instructions and meet-and-greet requirement. This is an application route, not guaranteed placement with Dr. Bhatia. Clinic-wide form does not guarantee placement with Dr. Bhatia.",
+        "sources": [
+          "https://www.saginawmedicalcentre.com/home",
+          "https://www.saginawmedicalcentre.com/_files/ugd/ffa3dd_cb576c286938472f96b8a43118a3a0e5.pdf"
+        ]
+      }
     },
     {
       "id": "c025",
@@ -1078,7 +1165,15 @@
       "longitude": -80.318774,
       "coordinate_source": "https://www.openstreetmap.org/node/4035137020",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Name/clinic search found regional intake listings including pharmacy form instructions; no clinic-owned website located.",
+        "sources": [
+          "https://www.doctors4cambridge.com/contact.htm",
+          "https://www.doctorlist.ca/im-searching-for-a-healthcare-provider/"
+        ]
+      }
     },
     {
       "id": "c026",
@@ -1254,7 +1349,7 @@
       "phone": "519-471-2929",
       "providers": "Dr Festus Anochie",
       "evidence_url": "https://www.ldam.ca/find-a-doctor",
-      "clinic_url": "https://www.ldam.ca/find-a-doctor",
+      "clinic_url": "https://www.radiantfamilyphysicians.ca/our-physicians",
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
@@ -1284,7 +1379,15 @@
       "longitude": -81.3309364,
       "coordinate_source": "https://www.openstreetmap.org/node/1983653080",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Radiant own physician biography confirms Festus Anochie; no intake announcement found. LDAM remains source for availability.",
+        "sources": [
+          "https://www.radiantfamilyphysicians.ca/our-physicians",
+          "https://www.ldam.ca/find-a-doctor"
+        ]
+      }
     },
     {
       "id": "c031",
@@ -1293,7 +1396,7 @@
       "address": "1560 Dundas Street, Unit 5",
       "clinic_type": "MD",
       "status": "reported",
-      "intake_detail": "Listed by London medical association with registration link; reconfirm before referral.",
+      "intake_detail": "Listed by London medical association with registration link; reconfirm before referral. The LDAM-linked clinic-branded form invites registration for a physician starting August 2026. Form reviewed; independent clinic-domain ownership/current placement not established.",
       "phone": "548-866-0167",
       "providers": "",
       "evidence_url": "https://www.ldam.ca/find-a-doctor",
@@ -1322,7 +1425,16 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://www.ldam.ca/find-a-doctor",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "London & District Academy of Medicine current accepting-doctor directory lists 1560 Dundas Street, Unit 5, telephone 548-866-0167; clinic-owned address not separately confirmed."
+      "address_verification_scope": "London & District Academy of Medicine current accepting-doctor directory lists 1560 Dundas Street, Unit 5, telephone 548-866-0167; clinic-owned address not separately confirmed.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Followed LDAM Register Here link to live Dundas-branded family doctor registration form. Form announces August 2026 physician arrival and accepts expressions of interest; clinician unnamed and enrolment not guaranteed. Form provenance is regional-directory link, not an independently established clinic domain.",
+        "sources": [
+          "https://www.ldam.ca/find-a-doctor",
+          "https://docs.google.com/forms/d/e/1FAIpQLSf1p8Hrnnowl_ep2Z_2Yq5bB_8jSnNVlwuMrA5acWGifI3vqA/viewform"
+        ]
+      },
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSf1p8Hrnnowl_ep2Z_2Yq5bB_8jSnNVlwuMrA5acWGifI3vqA/viewform"
     },
     {
       "id": "c032",
@@ -1418,29 +1530,29 @@
       "community": "London",
       "address": "11 Base Line Road East, Unit 1",
       "clinic_type": "MD",
-      "status": "reported",
-      "intake_detail": "London & District Academy of Medicine currently lists Saffron Medical Centre among offices that may be accepting patients; confirm directly.",
+      "status": "accepting",
+      "intake_detail": "Clinic family-medicine page advertises new-patient registration. Call 519-204-0361 for the intake process and available physician. No wait duration or guaranteed placement is published; rehabilitation booking is a separate service.",
       "phone": "519-204-0361",
       "providers": "",
-      "evidence_url": "https://www.ldam.ca/find-a-doctor",
+      "evidence_url": "https://www.saffronhealth.ca/services/family-medical-centre/",
       "clinic_url": "https://www.saffronhealth.ca/",
       "source_published": "",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-12",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Independent check of live regional healthcare/medical association public directory; regional report only, not clinic-confirmed intake.",
+      "review_basis": "Clinic-owned intake page and linked registration route reviewed November 12, 2026. No telephone contact; no guaranteed enrolment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.saffronhealth.ca/",
       "auto_updates_enabled": false,
       "intake_verification": {
-        "tier": "regional_report",
+        "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-11",
+        "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
-        "source_url": "https://www.ldam.ca/find-a-doctor",
-        "finding": "London & District Academy of Medicine currently lists Saffron Medical Centre among offices that may be accepting patients; confirm directly.",
+        "source_url": "https://www.saffronhealth.ca/services/family-medical-centre/",
+        "finding": "Clinic family-medicine page advertises new-patient registration. Call 519-204-0361 for the intake process and available physician. No wait duration or guaranteed placement is published; rehabilitation booking is a separate service.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -1454,7 +1566,14 @@
       "longitude": -81.2595914,
       "coordinate_source": "https://www.openstreetmap.org/node/1993162209",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Own family-medicine service page explicitly invites new-patient registration and phone contact; no named physician or current wait duration.",
+        "sources": [
+          "https://www.saffronhealth.ca/services/family-medical-centre/"
+        ]
+      }
     },
     {
       "id": "c035",
@@ -1497,7 +1616,16 @@
       "longitude": -81.2750056,
       "coordinate_source": "https://www.openstreetmap.org/node/1989050069",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "LDAM lists a new physician starting November 1, 2026 and pharmacy inquiry route. CPSO finds existing Serenity practitioners, but does not identify which clinician the opening refers to. No clinic-owned opening notice located.",
+        "sources": [
+          "https://www.ldam.ca/find-a-doctor",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=158817",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=123242"
+        ]
+      }
     },
     {
       "id": "c036",
@@ -2181,7 +2309,14 @@
       "longitude": -81.5366594,
       "coordinate_source": "https://www.openstreetmap.org/node/5583423925",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/"
+        ]
+      }
     },
     {
       "id": "c052",
@@ -2224,7 +2359,14 @@
       "longitude": -80.9826753,
       "coordinate_source": "https://www.openstreetmap.org/way/473613031",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Physician-name search finds current register address; no clinic-owned intake page located.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=75971"
+        ]
+      }
     },
     {
       "id": "c053",
@@ -2262,7 +2404,14 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=116967",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "CPSO register independently confirms Dr. Rioux's unit number, primary business address and telephone."
+      "address_verification_scope": "CPSO register independently confirms Dr. Rioux's unit number, primary business address and telephone.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Search finds a historical planned March 2023 transfer of an existing roster with hoped-for expansion; this does not establish November 2026 intake.",
+        "sources": [
+          "https://pub-elgincounty.escribemeetings.com/filestream.ashx?DocumentId=165"
+        ]
+      }
     },
     {
       "id": "c054",
@@ -2304,7 +2453,16 @@
       "latitude": 42.771823,
       "longitude": -80.994721,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official services describe rostered care and limited prenatal/young-child access. Regional hospital lists Straffordville NP outreach. Neither establishes general ongoing attachment.",
+        "sources": [
+          "https://www.eefht.ca/services/",
+          "https://www.eefht.ca/",
+          "https://www.stegh.on.ca/hospital-services/emergency-department/alternate-options-for-care/"
+        ]
+      }
     },
     {
       "id": "c055",
@@ -2312,28 +2470,28 @@
       "community": "Cambridge",
       "address": "460 Hespeler Road, Suite 102",
       "clinic_type": "MD",
-      "status": "unknown",
-      "intake_detail": "Cambridge homepage advertises new-patient registration, but the linked intake page shows GC Medical's Burlington address and phone in its footer. Call 226-533-1111 to confirm the correct application route before submitting information.",
+      "status": "accepting",
+      "intake_detail": "Clinic advertises new family-practice applications at its Cambridge location. Call 226-533-1111 for the correct registration route: the linked online form has a Burlington clinic footer, so its destination is unresolved. Application does not guarantee enrolment.",
       "phone": "226-533-1111",
       "providers": "",
       "evidence_url": "https://cambridgegatewaymedical.com/",
       "clinic_url": "https://cambridgegatewaymedical.com/",
       "source_published": "",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-12",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 64.4,
       "notes": "Application-page identity discrepancy: https://cambridgegatewaymedical.com/patient-registration/ displays GC Medical, 100 Plains Rd W, Burlington, (905) 639-1858. Cambridge homepage lists 460 Hespeler Road and 226-533-1111.",
-      "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
+      "review_basis": "Clinic-owned intake page and linked registration route reviewed November 12, 2026. No telephone contact; no guaranteed enrolment.",
       "care_model": "both",
       "care_model_basis": "Official clinic: family medicine and walk-in care both advertised.",
       "care_model_source": "https://cambridgegatewaymedical.com/",
       "intake_verification": {
-        "tier": "conflicting_or_unconfirmed",
-        "scope": "conflicting_first_party_pages",
-        "reviewed_on": "2026-11-11",
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
         "source_url": "https://cambridgegatewaymedical.com/",
-        "finding": "Cambridge homepage advertises new-patient registration, but the linked intake page shows GC Medical's Burlington address and phone in its footer. Call 226-533-1111 to confirm the correct application route before submitting information.",
+        "finding": "Clinic advertises new family-practice applications at its Cambridge location. Call 226-533-1111 for the correct registration route: the linked online form has a Burlington clinic footer, so its destination is unresolved. Application does not guarantee enrolment.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -2343,13 +2501,20 @@
       "address_verification_source": "https://cambridgegatewaymedical.com/contact-us/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Clinic-owned contact page confirms Unit 102, 460 Hespeler Road and telephone; intake has NOT been independently verified by telephone.",
-      "intake_conflict": true,
       "auto_updates_enabled": false,
       "latitude": 43.396884,
       "longitude": -80.324669,
       "coordinate_source": "https://www.openstreetmap.org/node/4035136814",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Clinic homepage and family-practice page explicitly advertise applications at the Cambridge address. Its registration form footer identifies Burlington GC Medical; this is an application-route identity problem. Use the Cambridge telephone to confirm the correct route.",
+        "sources": [
+          "https://cambridgegatewaymedical.com/",
+          "https://cambridgegatewaymedical.com/patient-registration/"
+        ]
+      }
     },
     {
       "id": "c056",
@@ -2435,7 +2600,15 @@
       "longitude": -80.343847,
       "coordinate_source": "https://www.openstreetmap.org/node/4035554429",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Exact city/name search finds Cambridge practice directories; similarly named accepting clinic is in Bowmanville and was excluded. No Cambridge clinic-owned intake notice found.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=91809",
+          "https://kingstmedicalcenter.ca/"
+        ]
+      }
     },
     {
       "id": "c058",
@@ -2478,7 +2651,14 @@
       "latitude": 42.856163,
       "longitude": -80.49695,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Clinic advertises public acute/urgent walk-in care. This does not establish registration for ongoing family practice.",
+        "sources": [
+          "https://dchc.ca/public-walk-in-clinic/"
+        ]
+      }
     },
     {
       "id": "c059",
@@ -2491,7 +2671,7 @@
       "phone": "519-666-1610",
       "providers": "",
       "evidence_url": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/",
-      "clinic_url": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/",
+      "clinic_url": "https://mcfmc.ca/",
       "source_published": "",
       "last_reviewed": "2026-11-11",
       "location_quality": "Street address source checked; map pin still community-centre approximate.",
@@ -2516,18 +2696,26 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Own clinic website confirms the practice but no current intake route was established. Healthline carries a closure statement; retained as secondary information, not upgraded to clinic-confirmed closure.",
+        "sources": [
+          "https://mcfmc.ca/",
+          "https://www.southwesthealthline.ca/"
+        ]
+      }
     },
     {
       "id": "c060",
-      "name": "Alexandra Hospital family medicine offices",
+      "name": "Alexandra Family Physicians",
       "community": "Ingersoll",
       "address": "29 Noxon Street",
       "clinic_type": "MD",
       "status": "unknown",
       "intake_detail": "Clinic lists its physicians and after-hours appointments for existing patients; no new-patient registration notice found.",
       "phone": "519-425-9000",
-      "providers": "Alexandra Family Physicians: Amy Blake; Carola Collins; Jill Matsuo; Joel Wohlgemut. Alexandra Medical Centre: physician roster not fully audited.",
+      "providers": "Dr. Amy Blake; Dr. Carola Collins; Dr. Jill Matsuo; Dr. Joel Wohlgemut",
       "evidence_url": "https://alexfp.ca/",
       "clinic_url": "https://alexfp.ca/",
       "source_published": "2026-11-06",
@@ -2559,7 +2747,15 @@
       "longitude": -80.8759392,
       "coordinate_source": "https://www.openstreetmap.org/way/781407458",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Both Alexandra Family Physicians and Alexandra Medical Centre publish existing-patient/after-hours information. Separate offices share 29 Noxon Street; no current new-patient intake statement established.",
+        "sources": [
+          "https://alexfp.ca/",
+          "https://www.alexandramedicalcentre.ca/"
+        ]
+      }
     },
     {
       "id": "c061",
@@ -2693,7 +2889,14 @@
       "longitude": -81.2411338,
       "coordinate_source": "https://www.openstreetmap.org/way/140785762",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/"
+        ]
+      }
     },
     {
       "id": "c064",
@@ -2817,7 +3020,14 @@
       "longitude": -81.279018,
       "coordinate_source": "https://www.openstreetmap.org/way/188285392",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/"
+        ]
+      }
     },
     {
       "id": "c067",
@@ -2904,7 +3114,15 @@
       "longitude": -81.2743209,
       "coordinate_source": "https://www.openstreetmap.org/way/188286913",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Hospital family-medicine information directs unattached patients toward regional resources; no office-specific intake established. Hospital corporate addresses should not replace the clinic location.",
+        "sources": [
+          "https://www.sjhc.london.on.ca/family-medicine",
+          "https://www.sjhc.london.on.ca/areas-of-care/family-medical-and-dental-centre"
+        ]
+      }
     },
     {
       "id": "c069",
@@ -2949,7 +3167,15 @@
       "longitude": -81.2167823,
       "coordinate_source": "https://www.openstreetmap.org/way/191113221",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Hospital family-medicine information directs unattached patients toward regional resources; no office-specific intake established. Hospital corporate addresses should not replace the clinic location.",
+        "sources": [
+          "https://www.sjhc.london.on.ca/family-medicine",
+          "https://www.sjhc.london.on.ca/areas-of-care/family-medical-and-dental-centre"
+        ]
+      }
     },
     {
       "id": "c070",
@@ -2957,28 +3183,28 @@
       "community": "London",
       "address": "785 Wonderland Road South, Suite 200",
       "clinic_type": "MD",
-      "status": "unknown",
-      "intake_detail": "Office page reviewed; no site-specific new-patient intake statement found. Contact the office to confirm.",
+      "status": "not_accepting",
+      "intake_detail": "Clinic FAQ explicitly states it is not accepting new patients. After-hours services are for existing patients; no walk-in appointments. Public webpage checked November 12, 2026.",
       "phone": "519-641-6712 ext. 3654",
       "providers": "",
-      "evidence_url": "https://thamesvalleyfht.ca/locations/west-london-family-health-centre/",
-      "clinic_url": "https://thamesvalleyfht.ca/locations/west-london-family-health-centre/",
+      "evidence_url": "https://www.westlondonfhc.com/faqs",
+      "clinic_url": "https://www.westlondonfhc.com/",
       "source_published": "",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-12",
       "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
+      "review_basis": "Clinic-owned intake page and linked registration route reviewed November 12, 2026. No telephone contact; no guaranteed enrolment.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://thamesvalleyfht.ca/locations/",
       "intake_verification": {
-        "tier": "conflicting_or_unconfirmed",
+        "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-11",
+        "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
-        "source_url": "https://thamesvalleyfht.ca/locations/west-london-family-health-centre/",
-        "finding": "Office page reviewed; no site-specific new-patient intake statement found. Contact the office to confirm.",
+        "source_url": "https://www.westlondonfhc.com/faqs",
+        "finding": "Clinic FAQ explicitly states it is not accepting new patients. After-hours services are for existing patients; no walk-in appointments. Public webpage checked November 12, 2026.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -2988,7 +3214,14 @@
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
-      "phone_note": "Family Health Team inquiries; not direct physician enrolment."
+      "phone_note": "Family Health Team inquiries; not direct physician enrolment.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Clinic-owned FAQ explicitly states it is not accepting new patients. After-hours care is for existing patients and walk-ins are not accepted.",
+        "sources": [
+          "https://www.westlondonfhc.com/faqs"
+        ]
+      }
     },
     {
       "id": "c071",
@@ -3109,7 +3342,14 @@
       "longitude": -80.5977989,
       "coordinate_source": "https://www.openstreetmap.org/way/201197498",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Physician-name search finds register office and patient-review pages, not a current clinic-owned intake statement.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=86657"
+        ]
+      }
     },
     {
       "id": "c074",
@@ -3194,7 +3434,14 @@
       "latitude": 42.623397,
       "longitude": -80.45043,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Reviewed Norfolk FHT information and its doctor-finding route. Hours and access-clinic services do not establish new ongoing-patient intake at these branches.",
+        "sources": [
+          "https://www.norfolkfht.ca/"
+        ]
+      }
     },
     {
       "id": "c076",
@@ -3237,7 +3484,14 @@
       "latitude": 42.836132,
       "longitude": -80.310696,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Reviewed Norfolk FHT information and its doctor-finding route. Hours and access-clinic services do not establish new ongoing-patient intake at these branches.",
+        "sources": [
+          "https://www.norfolkfht.ca/"
+        ]
+      }
     },
     {
       "id": "c077",
@@ -3275,7 +3529,14 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/"
+        ]
+      }
     },
     {
       "id": "c078",
@@ -3357,7 +3618,15 @@
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
-      "phone_note": "Elgin Community Health Hub FHT inquiries."
+      "phone_note": "Elgin Community Health Hub FHT inquiries.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "FHT annual report and Elgin IPCT material describe services and attachment work, but do not establish a current clinic-specific application opening. Episodic access must be distinguished from attachment.",
+        "sources": [
+          "https://thamesvalleyfht.ca/annual-report-2025/our-partners-2025/elgin-community-health-hub/",
+          "https://thamesvalleyfht.ca/elgin-ipct/"
+        ]
+      }
     },
     {
       "id": "c080",
@@ -3395,7 +3664,14 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/"
+        ]
+      }
     },
     {
       "id": "c081",
@@ -3434,7 +3710,16 @@
       "address_verification_source": "https://www.eefht.ca/locations-and-hours/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
-      "additional_service_source": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/"
+      "additional_service_source": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official services describe rostered care and limited prenatal/young-child access. Regional hospital lists Straffordville NP outreach. Neither establishes general ongoing attachment.",
+        "sources": [
+          "https://www.eefht.ca/services/",
+          "https://www.eefht.ca/",
+          "https://www.stegh.on.ca/hospital-services/emergency-department/alternate-options-for-care/"
+        ]
+      }
     },
     {
       "id": "c082",
@@ -3476,7 +3761,15 @@
       "latitude": 43.379186,
       "longitude": -81.002031,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "STAR directs unattached people to Health Care Connect; booking expressly for existing patients. No office-specific opening found in organization search.",
+        "sources": [
+          "https://starfht.ca/",
+          "https://starfht.ca/onlinebooking/"
+        ]
+      }
     },
     {
       "id": "c083",
@@ -3518,7 +3811,15 @@
       "latitude": 43.382185,
       "longitude": -81.003987,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "STAR directs unattached people to Health Care Connect; booking expressly for existing patients. No office-specific opening found in organization search.",
+        "sources": [
+          "https://starfht.ca/",
+          "https://starfht.ca/onlinebooking/"
+        ]
+      }
     },
     {
       "id": "c084",
@@ -3556,7 +3857,15 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://sfht.on.ca/contact-us/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Stratford FHT clinic-owned contact page confirms second floor at 444 Douro Street and telephone."
+      "address_verification_scope": "Stratford FHT clinic-owned contact page confirms second floor at 444 Douro Street and telephone.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official contact page provides rostered-patient after-hours access; directory sends new applicants to Health Care Connect, not a confirmed local opening.",
+        "sources": [
+          "https://sfht.on.ca/contact-us/",
+          "https://211ontario.ca/service/71108681/stratford-family-health-team-stratford-family-health-team/"
+        ]
+      }
     },
     {
       "id": "c085",
@@ -3599,7 +3908,14 @@
       "longitude": -81.6215834,
       "coordinate_source": "https://www.openstreetmap.org/way/183514151",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/"
+        ]
+      }
     },
     {
       "id": "c086",
@@ -3641,7 +3957,14 @@
       "latitude": 42.949004,
       "longitude": -81.612044,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/"
+        ]
+      }
     },
     {
       "id": "c087",
@@ -3679,7 +4002,14 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Public office address independently cross-checked; intake not inferred"
+      "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Searched the named practice and checked the affiliated FHT location directory. Practice identity/contact information found; no current clinic-specific new-patient intake statement established. A provider listing or existing-patient booking route does not establish availability.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/"
+        ]
+      }
     },
     {
       "id": "c088",
@@ -3721,7 +4051,15 @@
       "latitude": 43.317279,
       "longitude": -80.834864,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "STAR directs unattached people to Health Care Connect; booking expressly for existing patients. No office-specific opening found in organization search.",
+        "sources": [
+          "https://starfht.ca/",
+          "https://starfht.ca/onlinebooking/"
+        ]
+      }
     },
     {
       "id": "c089",
@@ -3759,7 +4097,16 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://www.tillsonburg.ca/living-here/work-in-tillsonburg/healthcare-careers/",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "Town of Tillsonburg healthcare directory confirms 594 Broadway Unit 4 and 519-842-3636."
+      "address_verification_scope": "Town of Tillsonburg healthcare directory confirms 594 Broadway Unit 4 and 519-842-3636.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Named-site lookup and municipal practice directory identify the office. Clinic website could not be retrieved in this pass; current new-patient intake remains unconfirmed. This is an access limitation, not evidence of closure.",
+        "sources": [
+          "https://www.tillsonburgfamilyphysicians.com/",
+          "https://www.tillsonburgmedicalcentre.com/",
+          "https://www.tillsonburg.ca/"
+        ]
+      }
     },
     {
       "id": "c090",
@@ -3802,7 +4149,16 @@
       "longitude": -80.730127,
       "coordinate_source": "https://www.openstreetmap.org/node/2111696263",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Named-site lookup and municipal practice directory identify the office. Clinic website could not be retrieved in this pass; current new-patient intake remains unconfirmed. This is an access limitation, not evidence of closure.",
+        "sources": [
+          "https://www.tillsonburgfamilyphysicians.com/",
+          "https://www.tillsonburgmedicalcentre.com/",
+          "https://www.tillsonburg.ca/"
+        ]
+      }
     },
     {
       "id": "c091",
@@ -3840,7 +4196,14 @@
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=83281",
       "address_verified_on": "2026-11-11",
-      "address_verification_scope": "CPSO register confirms Dr. Ruth Caperchione's primary business office at 81 Fox Alley."
+      "address_verification_scope": "CPSO register confirms Dr. Ruth Caperchione's primary business office at 81 Fox Alley.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Named physician/register lookup confirms a practice address, not intake. No clinic-owned current application statement established.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=83281"
+        ]
+      }
     },
     {
       "id": "c092",
@@ -3883,7 +4246,16 @@
       "longitude": -80.2906374,
       "coordinate_source": "https://www.openstreetmap.org/way/204073902",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Medical page lists providers and existing-patient booking, without a new-patient notice. The main website accepting statement is about dentistry. Norfolk FHT remains the medical intake report source.",
+        "sources": [
+          "https://wfhc.ca/medical/",
+          "https://wfhc.ca/",
+          "https://norfolkfht.ca/find-a-doctor/"
+        ]
+      }
     },
     {
       "id": "c093",
@@ -4008,7 +4380,15 @@
       "longitude": -80.751914,
       "coordinate_source": "https://www.openstreetmap.org/node/2323818552",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+          "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+        ]
+      }
     },
     {
       "id": "c097",
@@ -4051,7 +4431,15 @@
       "longitude": -80.751914,
       "coordinate_source": "https://www.openstreetmap.org/node/2323818552",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+          "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+        ]
+      }
     },
     {
       "id": "c096",
@@ -4094,7 +4482,15 @@
       "latitude": 43.002054,
       "longitude": -81.186822,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
-      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding."
+      "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "LIHC general primary-care application route identifies Dundas and Huron; Argyle navigation serves Team Care referrals. General forms do not establish ordinary primary-care attachment at Argyle.",
+        "sources": [
+          "https://lihc.on.ca/programs-services/primary-care/",
+          "https://lihc.on.ca/programs-services/systems-navigation-intake-coordination/"
+        ]
+      }
     },
     {
       "id": "c098",
@@ -4110,7 +4506,7 @@
       "care_model_source": "https://www.drmartinschuster.com/contact",
       "source_published": "",
       "notes": "",
-      "clinic_address_verified": true,
+      "clinic_address_verified": false,
       "address_verification_source": "https://www.drmartinschuster.com/contact",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published street address; no building-coordinate validation.",
@@ -4120,7 +4516,7 @@
       "intake_reviewed_by_phone": false,
       "status": "reported",
       "evidence_url": "https://www.doctors4cambridge.com/contact.htm",
-      "intake_detail": "Regional directory reports intake. Clinic confirms its family practice address and phone but does not publish an acceptance statement. Call to confirm.",
+      "intake_detail": "Regional directory reports intake. Clinic confirms its family practice address and phone but does not publish an acceptance statement. Call to confirm. Address discrepancy: clinic website lists Unit 1; physician register lists Unit 2. Confirm the suite before travel.",
       "last_reviewed": "2026-11-12",
       "review_basis": "Individual public-source review; no telephone confirmation or guaranteed attachment.",
       "auto_updates_enabled": false,
@@ -4138,7 +4534,16 @@
       "longitude": -80.3185694,
       "coordinate_source": "https://www.openstreetmap.org/way/401097963",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official home and contact pages recovered through indexed search; no intake claim. Clinic says Unit 1; CPSO primary address says Unit 2. Street/building match, suite remains disputed.",
+        "sources": [
+          "https://www.drmartinschuster.com/",
+          "https://www.drmartinschuster.com/contact",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=62520"
+        ]
+      }
     },
     {
       "id": "c099",
@@ -4480,7 +4885,15 @@
       "longitude": -80.3716403,
       "coordinate_source": "https://www.openstreetmap.org/way/215853544",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official physician contact/team pages and name searches reviewed; current site-specific attachment capacity not stated. The access clinic is a distinct service.",
+        "sources": [
+          "https://www.pccfht.ca/contacts/",
+          "https://www.pccfht.ca/primacare-health-team/"
+        ]
+      }
     },
     {
       "id": "c107",
@@ -4524,7 +4937,15 @@
       "longitude": -80.451268,
       "coordinate_source": "https://www.openstreetmap.org/node/1588987234",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official physician contact/team pages and name searches reviewed; current site-specific attachment capacity not stated. The access clinic is a distinct service.",
+        "sources": [
+          "https://www.pccfht.ca/contacts/",
+          "https://www.pccfht.ca/primacare-health-team/"
+        ]
+      }
     },
     {
       "id": "c108",
@@ -4788,7 +5209,14 @@
       "longitude": -79.9489812,
       "coordinate_source": "https://www.openstreetmap.org/node/836851104",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Affiliated FHT explicitly names Ogbunando as accepting; general Argyle physician list does not imply every physician is open.",
+        "sources": [
+          "https://haldimandfht.ca/affiliated-physicians/"
+        ]
+      }
     },
     {
       "id": "c114",
@@ -4827,6 +5255,13 @@
         "finding": "Affiliated family practice confirmed; no current intake statement found.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual clinic/physician searches and affiliated FHT list confirm practices; no intake flag for these named physicians. Ogbunando intake statement cannot be extended to them.",
+        "sources": [
+          "https://haldimandfht.ca/affiliated-physicians/"
+        ]
       }
     },
     {
@@ -4871,7 +5306,14 @@
       "longitude": -79.9517833,
       "coordinate_source": "https://www.openstreetmap.org/way/688543026",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual clinic/physician searches and affiliated FHT list confirm practices; no intake flag for these named physicians. Ogbunando intake statement cannot be extended to them.",
+        "sources": [
+          "https://haldimandfht.ca/affiliated-physicians/"
+        ]
+      }
     },
     {
       "id": "c116",
@@ -4910,6 +5352,13 @@
         "finding": "Affiliated family practice confirmed; no current intake statement found.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual clinic/physician searches and affiliated FHT list confirm practices; no intake flag for these named physicians. Ogbunando intake statement cannot be extended to them.",
+        "sources": [
+          "https://haldimandfht.ca/affiliated-physicians/"
+        ]
       }
     },
     {
@@ -4954,7 +5403,16 @@
       "longitude": -81.2360697,
       "coordinate_source": "https://www.openstreetmap.org/way/191111976",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Reviewed SOAHAC location and new-patient material. Public opening banner identifies other locations; a general intake form does not confirm openings at London or Chippewa. Indigenous eligibility remains relevant.",
+        "sources": [
+          "https://www.soahac.on.ca/locations/london",
+          "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
+          "https://www.soahac.on.ca/"
+        ]
+      }
     },
     {
       "id": "c118",
@@ -4993,6 +5451,15 @@
         "finding": "Indigenous primary care service; contact the clinic about eligibility and intake. Current new-patient capacity for this location is not stated; the banner for Cambridge, Owen Sound and Newbury does not establish intake here.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Reviewed SOAHAC location and new-patient material. Public opening banner identifies other locations; a general intake form does not confirm openings at London or Chippewa. Indigenous eligibility remains relevant.",
+        "sources": [
+          "https://www.soahac.on.ca/locations/london",
+          "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
+          "https://www.soahac.on.ca/"
+        ]
       }
     },
     {
@@ -5164,6 +5631,13 @@
         "finding": "Clinic confirms its ongoing family practice and contact details. No current new-patient intake statement was found; appointment booking is not proof of acceptance.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official practice site confirms service/contact details, no new-patient invitation located. Generic commercial directory accepting badges were not treated as verification.",
+        "sources": [
+          "https://www.nvfp.ca/"
+        ]
       }
     },
     {
@@ -5208,7 +5682,15 @@
       "longitude": -81.2625172,
       "coordinate_source": "https://www.openstreetmap.org/node/1993163269",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Search found LDAM accepting report. Ontario Medical Group describes a Baseline clinic but identity/address association with this physician is not established; do not substitute its urgent-care booking link.",
+        "sources": [
+          "https://www.ldam.ca/find-a-doctor",
+          "https://ontariomedicalgroup.com/"
+        ]
+      }
     },
     {
       "id": "c124",
@@ -5294,7 +5776,14 @@
       "longitude": -80.2047385,
       "coordinate_source": "https://www.openstreetmap.org/way/67468439",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Search found 211 registered-patient listing and commercial pages, not a clinic-owned intake announcement.",
+        "sources": [
+          "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/"
+        ]
+      }
     },
     {
       "id": "c126",
@@ -5337,7 +5826,14 @@
       "longitude": -80.2046855,
       "coordinate_source": "https://www.openstreetmap.org/way/67468439",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official site describes family practice and distinct private-pay aesthetics/marine exams; no family-practice intake invitation found.",
+        "sources": [
+          "https://dovershoresfamilypractice.ca/"
+        ]
+      }
     },
     {
       "id": "c127",
@@ -5375,6 +5871,14 @@
         "finding": "Named family practice identified, with no current intake statement.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual physician searches find CPSO office details, no clinic-owned current intake notice.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=103833"
+        ]
       }
     },
     {
@@ -5413,6 +5917,14 @@
         "finding": "Named family practice identified, with no current intake statement.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual physician searches find CPSO office details, no clinic-owned current intake notice.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=100988",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=103833"
+        ]
       }
     },
     {
@@ -5456,7 +5968,14 @@
       "longitude": -81.0494183,
       "coordinate_source": "https://www.openstreetmap.org/node/2029270638",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Clinic-name search finds university practice listing and commercial contact listings, no official intake announcement.",
+        "sources": [
+          "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+        ]
+      }
     },
     {
       "id": "c130",
@@ -5499,7 +6018,15 @@
       "longitude": -81.0682484,
       "coordinate_source": "https://www.openstreetmap.org/way/191616602",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official FHO physician list and FAQ checked. They give current-patient access instructions, not new-patient roster invitations.",
+        "sources": [
+          "https://www.thamesriverfho.ca/doctors",
+          "https://www.thamesriverfho.ca/faq"
+        ]
+      }
     },
     {
       "id": "c131",
@@ -5537,6 +6064,14 @@
         "finding": "Named family practice identified, with no current intake statement.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official FHO physician list and FAQ checked. They give current-patient access instructions, not new-patient roster invitations.",
+        "sources": [
+          "https://www.thamesriverfho.ca/doctors",
+          "https://www.thamesriverfho.ca/faq"
+        ]
       }
     },
     {
@@ -5580,7 +6115,14 @@
       "longitude": -81.3326937,
       "coordinate_source": "https://www.openstreetmap.org/way/161562021",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Own family-medicine page describes rostered care with Dr. Tetelbaum. Dental new-patient advertising is a different service; no current family-practice intake established.",
+        "sources": [
+          "https://synergycentre.ca/services/family-medicine"
+        ]
+      }
     },
     {
       "id": "c133",
@@ -5623,7 +6165,14 @@
       "longitude": -80.4294988,
       "coordinate_source": "https://www.openstreetmap.org/way/214858819",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official host centre identifies Ozog-Bartlett family practice as independent; no family-medicine intake statement. Rehab appointment booking is not a physician intake route.",
+        "sources": [
+          "https://cobblestonemedicineandrehab.com/our-staff-burford/"
+        ]
+      }
     },
     {
       "id": "c134",
@@ -5662,6 +6211,14 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+          "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+        ]
       }
     },
     {
@@ -5701,6 +6258,14 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+          "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+        ]
       }
     },
     {
@@ -5740,6 +6305,14 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+          "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+        ]
       }
     },
     {
@@ -5779,6 +6352,14 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+          "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+        ]
       }
     },
     {
@@ -5818,6 +6399,13 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Provider/clinic search found a HealthLocal description saying Tompkins family practice closed to new patients, but its current authorship/date are not established. Walk-in availability is separate. Keep intake unconfirmed.",
+        "sources": [
+          "https://www.health-local.com/biz/walk-in-clinic/woodstock/ontario/mckinney-walk-in-clinic/"
+        ]
       }
     },
     {
@@ -5857,6 +6445,14 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+          "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+        ]
       }
     },
     {
@@ -5896,6 +6492,13 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Own website explicitly limits booking to Dr. AlKhatib patients. No new-patient intake invitation located.",
+        "sources": [
+          "https://drdinaalkhatib.com/"
+        ]
       }
     },
     {
@@ -5935,6 +6538,13 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Name and clinic search found CPSO current office and secondary directory, not a clinic-owned intake announcement.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=96373"
+        ]
       }
     },
     {
@@ -5974,6 +6584,14 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official FHO physician list and FAQ checked. They give current-patient access instructions, not new-patient roster invitations.",
+        "sources": [
+          "https://www.thamesriverfho.ca/doctors",
+          "https://www.thamesriverfho.ca/faq"
+        ]
       }
     },
     {
@@ -6013,6 +6631,14 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official FHO physician list and FAQ checked. They give current-patient access instructions, not new-patient roster invitations.",
+        "sources": [
+          "https://www.thamesriverfho.ca/doctors",
+          "https://www.thamesriverfho.ca/faq"
+        ]
       }
     },
     {
@@ -6052,6 +6678,14 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Official FHO physician list and FAQ checked. They give current-patient access instructions, not new-patient roster invitations.",
+        "sources": [
+          "https://www.thamesriverfho.ca/doctors",
+          "https://www.thamesriverfho.ca/faq"
+        ]
       }
     },
     {
@@ -6130,6 +6764,14 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Own homepage and policies describe current-patient appointments and after-hours care, not new-patient attachment.",
+        "sources": [
+          "https://www.southwestfho.com/",
+          "https://www.southwestfho.com/about"
+        ]
       }
     },
     {
@@ -6169,6 +6811,14 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Name search and Healthline confirm office and registered-patient services, without current new-patient intake.",
+        "sources": [
+          "https://southwesthealthline.ca/displayService.aspx?id=132247",
+          "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+        ]
       }
     },
     {
@@ -6208,6 +6858,13 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice-name searches locate university practice inventory and third-party descriptions, not a current clinic-owned intake page. Existing register evidence supports offices, not capacity.",
+        "sources": [
+          "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+        ]
       }
     },
     {
@@ -6247,6 +6904,13 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice-name searches locate university practice inventory and third-party descriptions, not a current clinic-owned intake page. Existing register evidence supports offices, not capacity.",
+        "sources": [
+          "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+        ]
       }
     },
     {
@@ -6261,7 +6925,7 @@
       "care_model": "ongoing",
       "care_model_basis": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO.",
       "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=109486",
-      "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=109486",
+      "clinic_url": "https://www.komokamedicalclinic.com/",
       "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=109486",
       "intake_detail": "Practice identified in the completeness review. Current new-patient applications or waitlist availability not established from reviewed public sources.",
       "source_published": "",
@@ -6286,6 +6950,13 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Own clinic website provides existing-patient booking and says it is not a walk-in clinic. A booking-platform closure statement was found but current clinic-owned family-practice availability was not established.",
+        "sources": [
+          "https://www.komokamedicalclinic.com/"
+        ]
       }
     },
     {
@@ -6302,7 +6973,7 @@
       "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=109391",
       "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=109391",
       "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=109391",
-      "intake_detail": "Practice identified in the completeness review. Current new-patient applications or waitlist availability not established from reviewed public sources.",
+      "intake_detail": "An August 13, 2026 social-post mirror reports a Dr. Nanda waitlist with paper forms at 268 Main Street. Original post/current availability not verified; call 519-227-1163 before visiting. Kept unknown pending stronger evidence.",
       "source_published": "",
       "last_reviewed": "2026-11-12",
       "review_basis": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO.",
@@ -6325,6 +6996,791 @@
         "finding": "Office identified; no current intake claim established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "A social-post mirror dated August 13, 2026 reports Dr. Nanda opened a waitlist with paper forms collected at the office. Original Facebook page could not be retrieved; current waitlist remains a third-party report.",
+        "sources": [
+          "https://www.findhealthclinics.org/CA/Lucan/1631372993793597/Lucan-Medical-Centre",
+          "https://www.facebook.com/1631372993793597/",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=109391"
+        ]
+      }
+    },
+    {
+      "id": "c152",
+      "name": "Alexandra Medical Centre",
+      "community": "Ingersoll",
+      "address": "29 Noxon Street, second floor",
+      "phone": "519-485-9617",
+      "providers": "Dr. Elizabeth Allen; Dr. Kimberly Baker; Dr. Helen Frye",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Separate family-practice office from Alexandra Family Physicians at the same hospital. Own site lists ongoing care and after-hours appointments for rostered patients; no new-patient intake notice established.",
+      "clinic_url": "https://www.alexandramedicalcentre.ca/",
+      "evidence_url": "https://www.alexandramedicalcentre.ca/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://www.alexandramedicalcentre.ca/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.alexandramedicalcentre.ca/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://www.alexandramedicalcentre.ca/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 43.0317196,
+      "longitude": -80.8759392,
+      "coordinate_source": "https://www.openstreetmap.org/way/781407458",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 23,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Separate family-practice office from Alexandra Family Physicians at the same hospital. Own site lists ongoing care and after-hours appointments for rostered patients; no new-patient intake notice established.",
+        "sources": [
+          "https://www.alexandramedicalcentre.ca/"
+        ]
+      }
+    },
+    {
+      "id": "c153",
+      "name": "Old South FHO — Dr. Emmanuel Adejokun",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 302",
+      "phone": "519-672-6443",
+      "providers": "Dr. Emmanuel Adejokun",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c154",
+      "name": "Old South FHO — Dr. Parvin Akter",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 203B",
+      "phone": "519-657-0550",
+      "providers": "Dr. Parvin Akter",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Suite discrepancy: FHT lists 203B, CPSO primary business location lists 206A; confirm before visiting.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": false,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Suite discrepancy: FHT lists 203B, CPSO primary business location lists 206A; confirm before visiting.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=98516"
+        ]
+      }
+    },
+    {
+      "id": "c155",
+      "name": "Old South FHO — Dr. Willoon Cheng",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 305",
+      "phone": "519-963-3782",
+      "providers": "Dr. Willoon Cheng",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c156",
+      "name": "Old South FHO — Dr. Ali Chasm Khavari",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 307",
+      "phone": "519-963-3781",
+      "providers": "Dr. Ali Chasm Khavari",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c157",
+      "name": "Old South FHO — Dr. Cameron Coatsworth",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 310",
+      "phone": "519-672-3509",
+      "providers": "Dr. Cameron Coatsworth",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c158",
+      "name": "Old South FHO — Dr. Greg Gillis",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 301",
+      "phone": "519-438-7026",
+      "providers": "Dr. Greg Gillis",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c159",
+      "name": "Old South FHO — Dr. Jonathon Griffin",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 302",
+      "phone": "519-681-8860",
+      "providers": "Dr. Jonathon Griffin",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Search index contains a no-new-patients/full-waitlist statement, but it was absent from the retrieved page. Current closure not independently resolved.",
+      "clinic_url": "https://www.drjonathongriffin.ca/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Search index contains a no-new-patients/full-waitlist statement, but it was absent from the retrieved page. Current closure not independently resolved.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+          "https://www.drjonathongriffin.ca/"
+        ]
+      }
+    },
+    {
+      "id": "c160",
+      "name": "Old South FHO — Dr. Dan Kreuzer",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 306",
+      "phone": "519-661-0047",
+      "providers": "Dr. Dan Kreuzer",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c161",
+      "name": "Old South FHO — Dr. Tariq Nizami",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 304",
+      "phone": "519-601-4766",
+      "providers": "Dr. Tariq Nizami",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c162",
+      "name": "Old South FHO — Dr. Aisha Rashid",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 314",
+      "phone": "519-672-8364",
+      "providers": "Dr. Aisha Rashid",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c163",
+      "name": "Old South FHO — Dr. Daryoush Safdari",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 306",
+      "phone": "519-858-2727",
+      "providers": "Dr. Daryoush Safdari",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c164",
+      "name": "Old South FHO — Dr. Devon Shewfelt",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 312",
+      "phone": "519-963-3780",
+      "providers": "Dr. Devon Shewfelt",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c165",
+      "name": "Old South FHO — Dr. Kelsey Watson",
+      "community": "London",
+      "address": "460 Springbank Drive, Suite 303",
+      "phone": "519-439-0200",
+      "providers": "Dr. Kelsey Watson",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+      "clinic_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "evidence_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "latitude": 42.9671305,
+      "longitude": -81.2855056,
+      "coordinate_source": "https://www.openstreetmap.org/node/1993164397",
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-12",
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+        ]
+      }
+    },
+    {
+      "id": "c166",
+      "name": "Dr. Dorota Marczuk — Family Practice",
+      "community": "London",
+      "address": "595 Wonderland Road North",
+      "phone": "519-488-1951",
+      "providers": "Dr. Dorota Marczuk",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "Register identifies 595 Wonderland Road North; older directories list Springbank Drive. University lists family practice and medical aesthetics; aesthetic or walk-in booking does not establish family-practice intake.",
+      "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=85714",
+      "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=85714",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=85714",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=85714",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Approximate community point; not an address-matched clinic coordinate.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://register.cpso.on.ca/physician-info/?cpsonum=85714",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "community_distance_km": 44.6,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Register identifies 595 Wonderland Road North; older directories list Springbank Drive. University lists family practice and medical aesthetics; aesthetic or walk-in booking does not establish family-practice intake.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=85714"
+        ]
+      }
+    },
+    {
+      "id": "c167",
+      "name": "D.A. Monteith Medical Centre",
+      "community": "Shedden",
+      "address": "35846 Talbot Line",
+      "phone": "519-764-2245",
+      "providers": "Dr. Rebecca Robinson",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "care_model": "ongoing",
+      "intake_detail": "University practice directory and physician register identify this family-practice office. No current clinic-owned application statement established. Do not confuse Shedden, Elgin County with Sheddon Medical in Oakville.",
+      "clinic_url": "https://register.cpso.on.ca/physician-info/?cpsonum=117791",
+      "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=117791",
+      "source_published": "",
+      "last_reviewed": "2026-11-12",
+      "notes": "",
+      "review_basis": "Public practice identity and address review; not intake confirmation.",
+      "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
+      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=117791",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=117791",
+      "address_verified_on": "2026-11-12",
+      "address_verification_scope": "Public office address, not current intake or suite entrance confirmation.",
+      "auto_updates_enabled": false,
+      "location_quality": "Approximate community point; not an address-matched clinic coordinate.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://register.cpso.on.ca/physician-info/?cpsonum=117791",
+        "finding": "Practice verified, intake not established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "community_distance_km": 52.7,
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "University practice directory and physician register identify this family-practice office. No current clinic-owned application statement established. Do not confuse Shedden, Elgin County with Sheddon Medical in Oakville.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=117791"
+        ]
       }
     }
   ]

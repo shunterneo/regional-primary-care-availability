@@ -5,12 +5,11 @@
     "phone": "519-673-3900",
     "website": "https://londonfht.ca/family-physicians/",
     "questions": [
-      "What current clinic-published application or waitlist notice establishes intake for this office?",
-      "Which conflicting published notice applies to this location/provider?"
+      "Confirm suite/floor for named-provider applications."
     ],
     "status": "public_evidence_unresolved",
     "last_public_review": "2026-11-12",
-    "finding": "Clinic's August 26, 2026 intake announcement includes Beaverbrook, and its FAQ/physician directory specifically identify Dr. Behzad Hassani and NP Mahsa Haghighi as accepting applications. Other physicians are stated not accepting; clinic's general locations page contradicts the announcement. Confirm current intake directly; submitting form does not guarantee attachment. Dr. Hassani’s named-provider application is returned to his second-floor office; Unit 1 is the team intake/allied-health address. Conflicting site-wide statements remain unresolved."
+    "finding": "Applications are advertised specifically for Dr. Behzad Hassani and NP Mahsa Haghighi, not all Beaverbrook physicians. The August 2026 form is for people without a doctor or NP; application does not guarantee acceptance. Call 519-673-3900 to confirm reception: the FAQ says second floor while the form says Unit 1. Named-provider evidence is more specific than the general locations notice."
   },
   {
     "clinic_id": "c005",
@@ -36,32 +35,6 @@
     "status": "public_evidence_unresolved",
     "last_public_review": "2026-11-12",
     "finding": "The building website offers an online family physician registration notice for unattached Elgin County residents; it does not name the physician or guarantee attachment. Not a confirmed independent clinic office; do not count as a specific accepting practice."
-  },
-  {
-    "clinic_id": "c048",
-    "name": "Oxford County Community Health Centre — Tillsonburg",
-    "phone": "519-539-1111",
-    "website": "https://oxchc.ca/",
-    "questions": [
-      "What current clinic-published application or waitlist notice establishes intake for this office?",
-      "Which conflicting published notice applies to this location/provider?"
-    ],
-    "status": "public_evidence_unresolved",
-    "last_public_review": "2026-11-12",
-    "finding": "Applications and some new primary-care intakes reported open, subject to eligibility and capacity. Contact OCCHC primary care at 519-539-1111 for the application/referral route and availability at this location. This is an organization-level report, not a confirmed opening at each site. OCCHC’s April 2025 plan documents selective primary-care referrals and enrolment; it does not establish current capacity. Older 211 closure wording conflicts with the current report. Acceptance is not guaranteed."
-  },
-  {
-    "clinic_id": "c050",
-    "name": "Oxford County Community Health Centre — Woodstock",
-    "phone": "519-539-1111",
-    "website": "https://oxchc.ca/",
-    "questions": [
-      "What current clinic-published application or waitlist notice establishes intake for this office?",
-      "Which conflicting published notice applies to this location/provider?"
-    ],
-    "status": "public_evidence_unresolved",
-    "last_public_review": "2026-11-12",
-    "finding": "Applications and some new primary-care intakes reported open, subject to eligibility and capacity. Contact OCCHC primary care at 519-539-1111 for the application/referral route and availability at this location. This is an organization-level report, not a confirmed opening at each site. OCCHC’s April 2025 plan documents selective primary-care referrals and enrolment; it does not establish current capacity. Older 211 closure wording conflicts with the current report. Acceptance is not guaranteed."
   },
   {
     "clinic_id": "c051",
@@ -117,12 +90,11 @@
     "phone": "226-533-1111",
     "website": "https://cambridgegatewaymedical.com/",
     "questions": [
-      "What current clinic-published application or waitlist notice establishes intake for this office?",
-      "Which conflicting published notice applies to this location/provider?"
+      "Confirm correct Cambridge registration route given Burlington form footer."
     ],
     "status": "public_evidence_unresolved",
     "last_public_review": "2026-11-12",
-    "finding": "Cambridge homepage advertises new-patient registration, but the linked intake page shows GC Medical's Burlington address and phone in its footer. Call 226-533-1111 to confirm the correct application route before submitting information."
+    "finding": "Clinic advertises new family-practice applications at its Cambridge location. Call 226-533-1111 for the correct registration route: the linked online form has a Burlington clinic footer, so its destination is unresolved. Application does not guarantee enrolment."
   },
   {
     "clinic_id": "c057",
@@ -162,7 +134,7 @@
   },
   {
     "clinic_id": "c060",
-    "name": "Alexandra Hospital family medicine offices",
+    "name": "Alexandra Family Physicians",
     "phone": "519-425-9000",
     "website": "https://alexfp.ca/",
     "questions": [
@@ -213,18 +185,6 @@
     "name": "Victoria Family Medical Centre",
     "phone": "519-433-8424",
     "website": "https://thamesvalleyfht.ca/locations/victoria-family-health-centre-london-health-sciences-centre/",
-    "questions": [
-      "What current clinic-published application or waitlist notice establishes intake for this office?"
-    ],
-    "status": "public_evidence_unresolved",
-    "last_public_review": "2026-11-12",
-    "finding": "Office page reviewed; no site-specific new-patient intake statement found. Contact the office to confirm."
-  },
-  {
-    "clinic_id": "c070",
-    "name": "West London Family Health Centre",
-    "phone": "519-641-6712 ext. 3654",
-    "website": "https://thamesvalleyfht.ca/locations/west-london-family-health-centre/",
     "questions": [
       "What current clinic-published application or waitlist notice establishes intake for this office?"
     ],
@@ -470,7 +430,7 @@
     ],
     "status": "public_evidence_unresolved",
     "last_public_review": "2026-11-12",
-    "finding": "London InterCommunity Health Centre lists its Argyle site as offering primary care. Site-specific availability or eligibility for attachment not independently confirmed. Do not advertise as an open patient roster."
+    "finding": "Applications: Program referrals are open, but placement at Argyle is not confirmed. Call the program intake line: 519-660-0874 ext. 3244.\nEligibility / service area: Published criteria: in the past 12 months, no family doctor practising in London and no leaving or dismissal from a family practice; also experiencing access barriers (for example language, complex diagnoses, financial/social challenges or housing instability). Visitor, work and study permits are excluded; Interim Federal Health coverage may qualify.\nPriorities: These are published eligibility conditions; the page does not specify a separate queue priority order.\nWaiting time: No current wait-time estimate verified."
   },
   {
     "clinic_id": "c106",
@@ -542,7 +502,7 @@
     ],
     "status": "public_evidence_unresolved",
     "last_public_review": "2026-11-12",
-    "finding": "Indigenous primary care service; contact the clinic about eligibility and intake. Current new-patient capacity for this location is not stated; the banner for Cambridge, Owen Sound and Newbury does not establish intake here."
+    "finding": "Applications: Indigenous primary care service; contact the clinic about eligibility and intake. Current new-patient capacity for this location is not stated; the banner for Cambridge, Owen Sound and Newbury does not establish intake here.\nEligibility / service area: Indigenous primary care; confirm individual eligibility and location-specific placement with SOAHAC.\nPriorities: A current intake priority order was not established by the reviewed source.\nWaiting time: No current wait-time estimate verified."
   },
   {
     "clinic_id": "c118",
@@ -554,7 +514,7 @@
     ],
     "status": "public_evidence_unresolved",
     "last_public_review": "2026-11-12",
-    "finding": "Indigenous primary care service; contact the clinic about eligibility and intake. Current new-patient capacity for this location is not stated; the banner for Cambridge, Owen Sound and Newbury does not establish intake here."
+    "finding": "Applications: Indigenous primary care service; contact the clinic about eligibility and intake. Current new-patient capacity for this location is not stated; the banner for Cambridge, Owen Sound and Newbury does not establish intake here.\nEligibility / service area: Indigenous primary care; confirm individual eligibility and location-specific placement with SOAHAC.\nPriorities: A current intake priority order was not established by the reviewed source.\nWaiting time: No current wait-time estimate verified."
   },
   {
     "clinic_id": "c122",
@@ -878,6 +838,198 @@
     ],
     "status": "public_evidence_unresolved",
     "last_public_review": "2026-11-12",
-    "finding": "Practice identified in the completeness review. Current new-patient applications or waitlist availability not established from reviewed public sources."
+    "finding": "An August 13, 2026 social-post mirror reports a Dr. Nanda waitlist with paper forms at 268 Main Street. Original post/current availability not verified; call 519-227-1163 before visiting. Kept unknown pending stronger evidence."
+  },
+  {
+    "clinic_id": "c152",
+    "name": "Alexandra Medical Centre",
+    "phone": "519-485-9617",
+    "website": "https://www.alexandramedicalcentre.ca/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Separate family-practice office from Alexandra Family Physicians at the same hospital. Own site lists ongoing care and after-hours appointments for rostered patients; no new-patient intake notice established."
+  },
+  {
+    "clinic_id": "c153",
+    "name": "Old South FHO — Dr. Emmanuel Adejokun",
+    "phone": "519-672-6443",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c154",
+    "name": "Old South FHO — Dr. Parvin Akter",
+    "phone": "519-657-0550",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Suite discrepancy: FHT lists 203B, CPSO primary business location lists 206A; confirm before visiting."
+  },
+  {
+    "clinic_id": "c155",
+    "name": "Old South FHO — Dr. Willoon Cheng",
+    "phone": "519-963-3782",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c156",
+    "name": "Old South FHO — Dr. Ali Chasm Khavari",
+    "phone": "519-963-3781",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c157",
+    "name": "Old South FHO — Dr. Cameron Coatsworth",
+    "phone": "519-672-3509",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c158",
+    "name": "Old South FHO — Dr. Greg Gillis",
+    "phone": "519-438-7026",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c159",
+    "name": "Old South FHO — Dr. Jonathon Griffin",
+    "phone": "519-681-8860",
+    "website": "https://www.drjonathongriffin.ca/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established. Search index contains a no-new-patients/full-waitlist statement, but it was absent from the retrieved page. Current closure not independently resolved."
+  },
+  {
+    "clinic_id": "c160",
+    "name": "Old South FHO — Dr. Dan Kreuzer",
+    "phone": "519-661-0047",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c161",
+    "name": "Old South FHO — Dr. Tariq Nizami",
+    "phone": "519-601-4766",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c162",
+    "name": "Old South FHO — Dr. Aisha Rashid",
+    "phone": "519-672-8364",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c163",
+    "name": "Old South FHO — Dr. Daryoush Safdari",
+    "phone": "519-858-2727",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c164",
+    "name": "Old South FHO — Dr. Devon Shewfelt",
+    "phone": "519-963-3780",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c165",
+    "name": "Old South FHO — Dr. Kelsey Watson",
+    "phone": "519-439-0200",
+    "website": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Practice identified from public clinical sources. No current clinic-specific new-patient application or waitlist statement established."
+  },
+  {
+    "clinic_id": "c166",
+    "name": "Dr. Dorota Marczuk — Family Practice",
+    "phone": "519-488-1951",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=85714",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Register identifies 595 Wonderland Road North; older directories list Springbank Drive. University lists family practice and medical aesthetics; aesthetic or walk-in booking does not establish family-practice intake."
+  },
+  {
+    "clinic_id": "c167",
+    "name": "D.A. Monteith Medical Centre",
+    "phone": "519-764-2245",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=117791",
+    "questions": [
+      "What current clinic-published statement establishes application or waitlist availability?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "University practice directory and physician register identify this family-practice office. No current clinic-owned application statement established. Do not confuse Shedden, Elgin County with Sheddon Medical in Oakville."
   }
 ]
