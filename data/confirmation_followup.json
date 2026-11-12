@@ -99,10 +99,12 @@
     "phone": "519-539-1111",
     "website": "https://oxchc.ca/",
     "questions": [
-      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+      "Are primary-care applications accepted directly, by referral, or both?",
+      "Which sites and eligibility groups currently have intake capacity?",
+      "What is the current application form or referral contact, and should the 211 closure notice be corrected?"
     ],
     "status": "requires_external_confirmation",
-    "last_public_review": "2026-11-11"
+    "last_public_review": "2026-11-12"
   },
   {
     "clinic_id": "c051",
@@ -707,6 +709,19 @@
     "questions": [
       "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
       "Is there a public direct intake/office number?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c050",
+    "name": "Oxford County Community Health Centre — Woodstock",
+    "phone": "519-539-1111",
+    "website": "https://oxchc.ca/",
+    "questions": [
+      "Are primary-care applications accepted directly, by referral, or both?",
+      "Which sites and eligibility groups currently have intake capacity?",
+      "What is the current application form or referral contact, and should the 211 closure notice be corrected?"
     ],
     "status": "requires_external_confirmation",
     "last_public_review": "2026-11-12"

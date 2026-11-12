@@ -1788,5 +1788,25 @@
     "new_status": "accepting",
     "reason": "User flagged omission; live clinic-linked Ocean form explicitly says Tillsonburg site only.",
     "source_url": "https://ocean.cognisantmd.com/intake/IntakePortal.html?eReqRef=d5e47774-8987-4e5a-b069-f8bbf23fd9d9"
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c048",
+    "clinic_name": "Oxford County Community Health Centre — Tillsonburg",
+    "old_status": "unknown",
+    "new_status": "limited",
+    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
+    "type": "reported_intake_correction",
+    "reviewer_note": "Directory-owner report of current applications and limited intake, received 2026-11-12; independently cross-checked against OCCHC’s 2025–26 QIP. No clinic telephone confirmation or current public opening notice."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c050",
+    "clinic_name": "Oxford County Community Health Centre — Woodstock",
+    "old_status": "not_accepting",
+    "new_status": "limited",
+    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
+    "type": "reported_intake_correction",
+    "reviewer_note": "Directory-owner report of current applications and limited intake, received 2026-11-12; independently cross-checked against OCCHC’s 2025–26 QIP. No clinic telephone confirmation or current public opening notice."
   }
 ]

@@ -45,6 +45,23 @@ def qualified_public_intake(clinic, today):
 def display_intake_status(clinic, today):
     """No green from a third-party, program-wide, stale, or missing evidence record."""
     status=clinic.get('status','unknown')
+    if status=='not_accepting':
+        # A negative claim can wrongly turn people away. A directory timestamp
+        # or absence of an application notice is not evidence of closure.
+        v=clinic.get('intake_verification') or {}
+        if (clinic.get('intake_conflict') or
+            v.get('tier') not in ('clinic_first_party','program_general') or
+            not v.get('finding') or not v.get('source_url') or
+            v.get('source_url') != clinic.get('evidence_url') or
+            not host(v.get('source_url')) or
+            host(v.get('source_url')) != host(clinic.get('clinic_url'))):
+            return 'needs_review'
+        try:
+            evidence_age=(today-date.fromisoformat(v['reviewed_on'])).days
+        except (TypeError,ValueError,KeyError):
+            return 'needs_review'
+        if not 0<=evidence_age<=MAX_PUBLIC_EVIDENCE_AGE_DAYS:
+            return 'needs_review'
     if status=='accepting':
         if qualified_public_intake(clinic,today):return 'accepting'
         v=clinic.get('intake_verification') or {}
@@ -66,6 +83,7 @@ def verification_display(clinic):
     if clinic.get('status')=='unknown' and tier in ('clinic_first_party','program_general'):
         return 'Public clinic source reviewed; current intake not confirmed'
     return {
+        'current_report':'Current intake report; public documents provide historical context only; confirm site availability',
         'clinic_first_party':'Clinic-published intake evidence (public-source review only)',
         'program_general':'Program-wide notice; this location not individually confirmed',
         'authoritative_secondary':'Official third-party announcement; clinic confirmation outstanding',

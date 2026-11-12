@@ -33,6 +33,17 @@ for mutate in [
     trial={**valid,**mutate}; assert display_intake_status(trial,T)!='accepting',mutate
 assert display_intake_status(valid,T+dt.timedelta(days=22))=='needs_review'
 assert display_intake_status({**valid,'care_model':'walk_in_only'},T)!='accepting'
+negative=copy.deepcopy(valid)
+negative['status']='not_accepting';negative['last_reviewed']=T.isoformat()
+negative['intake_verification']['finding']='The clinic explicitly says no new primary-care applications.'
+assert display_intake_status(negative,T)=='not_accepting'
+for updates in ({'tier':'third_party'}, {'source_url':'https://directory.example/'}, {'finding':''}, {'reviewed_on':(T-dt.timedelta(days=22)).isoformat()}):
+    trial=copy.deepcopy(negative);trial['intake_verification'].update(updates)
+    assert display_intake_status(trial,T)=='needs_review',updates
+assert display_intake_status({**negative,'intake_conflict':True},T)=='needs_review'
+# Rebuilding or refreshing the record date cannot freshen old closure evidence.
+negative['last_reviewed']=(T+dt.timedelta(days=22)).isoformat()
+assert display_intake_status(negative,T+dt.timedelta(days=22))=='needs_review'
 print(f"PASS: {len(B)} records; verified applications dynamically gated; conflicting, third-party, stale and walk-in-only evidence never green")
 # The manual review path also prevents an incorrect green label from an apparent negative quote.
 import subprocess
