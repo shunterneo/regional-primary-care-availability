@@ -29,6 +29,10 @@ A complete CPSO/CNO census across the entire 75 km area is NOT finished. Individ
 
 No calls, emails, patient submissions or guarantees of enrolment were made.
 
-## Current data
+## Earlier 167-record checkpoint
 
 167 practice/service records; statuses: 26 accepting, 11 limited, 15 not_accepting, 13 reported, 84 unknown, 18 waitlist.
+
+## Expanded individual-profile review
+
+The later detailed review is documented in [expanded-review.md](expanded-review.md). Current inventory: **203 records**. This supersedes the earlier 167-record count, not the historical findings. The 342-profile screening is broader than the earlier 287-name candidate file, but neither is a complete CPSO/CNO census.

@@ -2394,5 +2394,365 @@
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=117791",
     "type": "completeness_addition",
     "reviewer_note": "University practice directory and physician register identify this family-practice office. No current clinic-owned application statement established. Do not confuse Shedden, Elgin County with Sheddon Medical in Oakville."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c168",
+    "clinic_name": "London East Medical Centre",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://londoneastmedical.ca/",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Clinic-owned site confirms the practice and separate physician lines: Jimenez 519-659-1122; Sinclair 519-659-3006; Tam 519-659-1900; Dzongowski 519-659-3747. No current new-patient intake statement found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c169",
+    "clinic_name": "London Lambeth Medical Clinic",
+    "old_status": null,
+    "new_status": "not_accepting",
+    "source": "https://londonlambeth.ca/",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Clinic homepage explicitly says it is not accepting new patients. Displayed phone is for Drs. Elia/Perrier; other physician lines are on the contact page. This is distinct from Lambeth Station Medical Centre."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c170",
+    "clinic_name": "Old South Maternity Care & Family Practice",
+    "old_status": null,
+    "new_status": "not_accepting",
+    "source": "https://www.oldsouthmaternity.ca/clinic-policies.html",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Clinic policy explicitly closes new family-practice intake. Pregnancy referrals remain possible at any stage; maternity care does not imply ongoing family-practice attachment."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c171",
+    "clinic_name": "Core Family Health Centre",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://www.corefamilyhealth.com",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Healthline lists registered-patient appointments only; this does not establish whether applications are closed. CPSO now places Dr. Natalie Lovesey here, superseding the university profile at Nixon. Clinic website could not be retrieved; intake remains unknown."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c172",
+    "clinic_name": "Whitehills Medical Centre",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=66438",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Physician register and university profiles corroborate the Fanshawe Park office. Older listings give 1225 Wonderland Road North. A commercial directory acceptance badge is not clinic confirmation; current intake remains unknown."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c173",
+    "clinic_name": "MedService — Family Health Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://medservice.ca/2022Site/index.php/services/",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Clinic-owned services page describes ongoing care for rostered patients. Its contact page confirms address and phone. No current new-patient application statement found; appointment access is not intake evidence."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c174",
+    "clinic_name": "Lambeth Station Medical Centre",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=114893",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "CPSO places the practice at Bradley Avenue; the university and commercial directories also contain an older Main Street address. A mirrored 2022 closed-intake post is too old to establish current capacity. Intake unknown."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c175",
+    "clinic_name": "Carling Heights — Dr. Ejike Obute",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=122944",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "University family-practice profile and CPSO identify this office. Other physicians have separate phone lines in the same building. No current clinic-owned intake statement found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c176",
+    "clinic_name": "PrimePoint Medical Clinic — Family Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://southwesthealthline.ca/displayService.aspx?id=224103",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Healthline lists family medical care and 226-336-7512. Dr. Ezepue has a separate CPSO-listed line, 519-207-6601. Pain-clinic and pharmacy services at this address are separate; neither appointment booking nor a pharmacy review confirms family-practice intake."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c177",
+    "clinic_name": "Central Family Medicine",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://www.centralfamilymedicine.ca/about",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Clinic-owned site identifies the physician group and contact details. No current application or roster-opening statement found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c178",
+    "clinic_name": "Blackfriars FHO — Dr. Andrea Mok",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=82957",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "University family-practice profile and CPSO agree on Unit 1A. Third-party walk-in descriptions are not proof of walk-in access or accepting a family-practice roster. Intake unknown."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c179",
+    "clinic_name": "Dr. Faria Rubab — Family Medicine",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=104186",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Register confirms the current Commissioners Road office; university describes comprehensive family practice. Aesthetic bookings at the same address are not family-practice intake. No current attachment statement found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c180",
+    "clinic_name": "Dr. Caroline Despard — Family Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=55458",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "CPSO confirms address and 519-667-1888; the university phone differs. Use the register-listed line. Commercial acceptance badges were not treated as clinic confirmation; intake unknown."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c181",
+    "clinic_name": "Wolseley Family Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=133177",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "CPSO and university family-practice descriptions corroborate this location. No current clinic-owned application statement found. A business listing or family-medicine licence does not establish an opening."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c182",
+    "clinic_name": "Polari Health — Family Practice",
+    "old_status": null,
+    "new_status": "reported",
+    "source": "https://polarihealth.com/family-practice/",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Search-indexed clinic pages advertise new-patient family practice, but direct page retrieval returned only a JavaScript shell. Treat this as an unconfirmed online lead and call the clinic before relying on availability. CPSO corroborates Dr. Nabeel and the address."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c183",
+    "clinic_name": "Drs. Stephen & Marie Wegener — Family Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=98111",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "University and CPSO confirm family-practice office details. No current clinic-owned intake statement found. Shared-building practices are not automatically accepting."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c184",
+    "clinic_name": "Argyle Family Medical Clinic — Dr. Koyenikan",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=116919",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "University profile describes longitudinal family practice; CPSO confirms address and phone. Distinct from Argyle Medical Clinic in Caledonia. Intake unknown."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c185",
+    "clinic_name": "Dr. Adam Sirek — Family Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=110929",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "University describes general family practice alongside military/aerospace interests. CPSO corroborates office details. No current clinic-owned new-patient statement found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c186",
+    "clinic_name": "Dr. Elsie Osagie — Family Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=94506",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c187",
+    "clinic_name": "St. Thomas Family Care Centre — Dr. Vaughan",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=59950",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c188",
+    "clinic_name": "Dr. Collins Family Health Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=116164",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "CPSO identifies the family practice and phone 519-633-0038, correcting the different university number. Its separate PrimePoint pain-clinic location does not establish family-practice intake. Recruitment advertising is not a patient-opening announcement."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c189",
+    "clinic_name": "First Avenue Family Medical Centre — Dr. Carter",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=95304",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c190",
+    "clinic_name": "Elmdale — Dr. Colin Bolzon",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=118946",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "CPSO and the building directory confirm this specific office. The separate Elmdale building-wide registration announcement does not name Dr. Bolzon, so it is not assigned to his roster."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c191",
+    "clinic_name": "Dr. Ian Hons — Family Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=103033",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "CPSO places this physician at Finkle Street with a separate phone. The university misspells Finkle and gives a different number. A 2021 opening announcement at Devonshire Avenue is historical, not current intake evidence."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c192",
+    "clinic_name": "Dr. Vida Omidvar — Family Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=98770",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c193",
+    "clinic_name": "Drs. Soofia Kazi & Bhooma Bhayana — Family Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=81324",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c194",
+    "clinic_name": "London Family First / Colborne Family Medical Centre",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=56735",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "CPSO primary business location is Suite 203 at Oxford Street. The university and older corporate-address entries retain 612 Colborne Street. Use the primary register address and confirm before travelling. No current intake statement found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c195",
+    "clinic_name": "St. Joseph’s — Trauma and Violence Specialized Primary Care",
+    "old_status": null,
+    "new_status": "limited",
+    "source": "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Comprehensive ongoing primary care for people affected by trauma. Currently accepts only internal referrals from specified St. Joseph’s programs/services and LHSC emergency departments. External community and self-referrals are not an advertised current pathway."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c196",
+    "clinic_name": "Western University — Employee & Family Health Clinic",
+    "old_status": null,
+    "new_status": "limited",
+    "source": "https://www.uwo.ca/health/employee-clinic/index.html",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Patient applications are offered to eligible Western main-campus employees working more than 24 hours/week with no defined contract end date, and their spouse/children under 25, who have no family physician within 20 km of London. This is ongoing primary care with restricted eligibility; acceptance is not guaranteed."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c197",
+    "clinic_name": "Dr. Keith Thompson — Family Practice",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=58164",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "University and physician register confirm the family-practice office. A commercial acceptance badge is not clinic confirmation; no current first-party intake statement established."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c198",
+    "clinic_name": "Carling Heights — Dr. Franklin Ossai",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=105391",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "CPSO confirms this physician’s office and separate phone line. No current clinic-owned intake statement found; do not infer availability from other physicians sharing the building."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c199",
+    "clinic_name": "Wharnox Medical Centre",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://wharnox.medicalsolutionclinic.com/new-patients/",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Clinic invites new-patient inquiries and asks people to contact the office about availability and requirements. This does not explicitly confirm a roster opening. Dr. Nzeadi’s register address has moved here from Barker Street; his separate line is 519-204-4224."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c200",
+    "clinic_name": "Wharncliffe Medical Solutions Clinic",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://wharncliffe.medicalsolutionclinic.com/new-patients/",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Clinic offers a new-patient registration form and upload route but no explicit current roster-capacity statement was found. Call to establish availability before relying on registration. Distinct from Wharnox Medical Centre."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c201",
+    "clinic_name": "Anthony Davies MD & Juliana Nwachukwu NP",
+    "old_status": null,
+    "new_status": "unknown",
+    "source": "https://anthonydavies.net/contact-us/",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Clinic-owned contact page and CPSO agree on the Waterloo office; older homepage wording refers to Kitchener. The university describes general medical practice. No current family-practice attachment statement found. Website says Wednesday evening walk-in clinics are suspended."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c202",
+    "clinic_name": "Western University — Student Health & Wellness",
+    "old_status": null,
+    "new_status": "limited",
+    "source": "https://www.uwo.ca/health/physical-health/index.html",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Student primary care for registered full-time and part-time Western/affiliated-college students. Call or visit to register before booking. This is student-restricted care, distinct from the employee/family clinic and from unrestricted community attachment."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c203",
+    "clinic_name": "Fanshawe College — Student Health Services",
+    "old_status": null,
+    "new_status": "limited",
+    "source": "https://www.fowlerkennedy.com/services/fanshawe-college-students/",
+    "type": "detailed_practice_reconciliation",
+    "reviewer_note": "Registered Fanshawe students can access general and ongoing primary care by appointment. Same-day urgent appointments depend on availability. This student service is distinct from community sport-medicine referrals and does not establish unrestricted family-practice enrolment."
   }
 ]

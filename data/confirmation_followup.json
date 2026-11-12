@@ -1031,5 +1031,365 @@
     "status": "public_evidence_unresolved",
     "last_public_review": "2026-11-12",
     "finding": "University practice directory and physician register identify this family-practice office. No current clinic-owned application statement established. Do not confuse Shedden, Elgin County with Sheddon Medical in Oakville."
+  },
+  {
+    "clinic_id": "c168",
+    "name": "London East Medical Centre",
+    "phone": "519-659-1122",
+    "website": "https://londoneastmedical.ca/",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Clinic-owned site confirms the practice and separate physician lines: Jimenez 519-659-1122; Sinclair 519-659-3006; Tam 519-659-1900; Dzongowski 519-659-3747. No current new-patient intake statement found."
+  },
+  {
+    "clinic_id": "c171",
+    "name": "Core Family Health Centre",
+    "phone": "519-963-1875",
+    "website": "https://www.corefamilyhealth.com",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Healthline lists registered-patient appointments only; this does not establish whether applications are closed. CPSO now places Dr. Natalie Lovesey here, superseding the university profile at Nixon. Clinic website could not be retrieved; intake remains unknown."
+  },
+  {
+    "clinic_id": "c172",
+    "name": "Whitehills Medical Centre",
+    "phone": "519-472-0040",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=66438",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Physician register and university profiles corroborate the Fanshawe Park office. Older listings give 1225 Wonderland Road North. A commercial directory acceptance badge is not clinic confirmation; current intake remains unknown."
+  },
+  {
+    "clinic_id": "c173",
+    "name": "MedService — Family Health Practice",
+    "phone": "519-433-6137",
+    "website": "https://medservice.ca/2022Site/index.php/services/",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Clinic-owned services page describes ongoing care for rostered patients. Its contact page confirms address and phone. No current new-patient application statement found; appointment access is not intake evidence."
+  },
+  {
+    "clinic_id": "c174",
+    "name": "Lambeth Station Medical Centre",
+    "phone": "519-203-5841",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=114893",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "CPSO places the practice at Bradley Avenue; the university and commercial directories also contain an older Main Street address. A mirrored 2022 closed-intake post is too old to establish current capacity. Intake unknown."
+  },
+  {
+    "clinic_id": "c175",
+    "name": "Carling Heights — Dr. Ejike Obute",
+    "phone": "519-204-7776",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=122944",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "University family-practice profile and CPSO identify this office. Other physicians have separate phone lines in the same building. No current clinic-owned intake statement found."
+  },
+  {
+    "clinic_id": "c176",
+    "name": "PrimePoint Medical Clinic — Family Practice",
+    "phone": "226-336-7512",
+    "website": "https://southwesthealthline.ca/displayService.aspx?id=224103",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Healthline lists family medical care and 226-336-7512. Dr. Ezepue has a separate CPSO-listed line, 519-207-6601. Pain-clinic and pharmacy services at this address are separate; neither appointment booking nor a pharmacy review confirms family-practice intake."
+  },
+  {
+    "clinic_id": "c177",
+    "name": "Central Family Medicine",
+    "phone": "519-601-7577",
+    "website": "https://www.centralfamilymedicine.ca/about",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Clinic-owned site identifies the physician group and contact details. No current application or roster-opening statement found."
+  },
+  {
+    "clinic_id": "c178",
+    "name": "Blackfriars FHO — Dr. Andrea Mok",
+    "phone": "519-472-8253",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=82957",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "University family-practice profile and CPSO agree on Unit 1A. Third-party walk-in descriptions are not proof of walk-in access or accepting a family-practice roster. Intake unknown."
+  },
+  {
+    "clinic_id": "c179",
+    "name": "Dr. Faria Rubab — Family Medicine",
+    "phone": "519-850-3999",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=104186",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Register confirms the current Commissioners Road office; university describes comprehensive family practice. Aesthetic bookings at the same address are not family-practice intake. No current attachment statement found."
+  },
+  {
+    "clinic_id": "c180",
+    "name": "Dr. Caroline Despard — Family Practice",
+    "phone": "519-667-1888",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=55458",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "CPSO confirms address and 519-667-1888; the university phone differs. Use the register-listed line. Commercial acceptance badges were not treated as clinic confirmation; intake unknown."
+  },
+  {
+    "clinic_id": "c181",
+    "name": "Wolseley Family Practice",
+    "phone": "519-673-0159",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=133177",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "CPSO and university family-practice descriptions corroborate this location. No current clinic-owned application statement found. A business listing or family-medicine licence does not establish an opening."
+  },
+  {
+    "clinic_id": "c182",
+    "name": "Polari Health — Family Practice",
+    "phone": "519-667-7081",
+    "website": "https://polarihealth.com/family-practice/",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Search-indexed clinic pages advertise new-patient family practice, but direct page retrieval returned only a JavaScript shell. Treat this as an unconfirmed online lead and call the clinic before relying on availability. CPSO corroborates Dr. Nabeel and the address."
+  },
+  {
+    "clinic_id": "c183",
+    "name": "Drs. Stephen & Marie Wegener — Family Practice",
+    "phone": "226-663-7710",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=98111",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "University and CPSO confirm family-practice office details. No current clinic-owned intake statement found. Shared-building practices are not automatically accepting."
+  },
+  {
+    "clinic_id": "c184",
+    "name": "Argyle Family Medical Clinic — Dr. Koyenikan",
+    "phone": "519-455-5060",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=116919",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "University profile describes longitudinal family practice; CPSO confirms address and phone. Distinct from Argyle Medical Clinic in Caledonia. Intake unknown."
+  },
+  {
+    "clinic_id": "c185",
+    "name": "Dr. Adam Sirek — Family Practice",
+    "phone": "519-660-5199",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=110929",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "University describes general family practice alongside military/aerospace interests. CPSO corroborates office details. No current clinic-owned new-patient statement found."
+  },
+  {
+    "clinic_id": "c186",
+    "name": "Dr. Elsie Osagie — Family Practice",
+    "phone": "519-637-7617",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=94506",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+  },
+  {
+    "clinic_id": "c187",
+    "name": "St. Thomas Family Care Centre — Dr. Vaughan",
+    "phone": "519-637-2424",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=59950",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+  },
+  {
+    "clinic_id": "c188",
+    "name": "Dr. Collins Family Health Practice",
+    "phone": "519-633-0038",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=116164",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "CPSO identifies the family practice and phone 519-633-0038, correcting the different university number. Its separate PrimePoint pain-clinic location does not establish family-practice intake. Recruitment advertising is not a patient-opening announcement."
+  },
+  {
+    "clinic_id": "c189",
+    "name": "First Avenue Family Medical Centre — Dr. Carter",
+    "phone": "519-633-6050",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=95304",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+  },
+  {
+    "clinic_id": "c190",
+    "name": "Elmdale — Dr. Colin Bolzon",
+    "phone": "519-633-7433",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=118946",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "CPSO and the building directory confirm this specific office. The separate Elmdale building-wide registration announcement does not name Dr. Bolzon, so it is not assigned to his roster."
+  },
+  {
+    "clinic_id": "c191",
+    "name": "Dr. Ian Hons — Family Practice",
+    "phone": "519-537-8303",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=103033",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "CPSO places this physician at Finkle Street with a separate phone. The university misspells Finkle and gives a different number. A 2021 opening announcement at Devonshire Avenue is historical, not current intake evidence."
+  },
+  {
+    "clinic_id": "c192",
+    "name": "Dr. Vida Omidvar — Family Practice",
+    "phone": "519-601-2221",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=98770",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+  },
+  {
+    "clinic_id": "c193",
+    "name": "Drs. Soofia Kazi & Bhooma Bhayana — Family Practice",
+    "phone": "519-432-1522",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=81324",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Family-practice identity and public contact details established. No current clinic-owned statement confirming new-patient intake found."
+  },
+  {
+    "clinic_id": "c194",
+    "name": "London Family First / Colborne Family Medical Centre",
+    "phone": "519-673-1962",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=56735",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "CPSO primary business location is Suite 203 at Oxford Street. The university and older corporate-address entries retain 612 Colborne Street. Use the primary register address and confirm before travelling. No current intake statement found."
+  },
+  {
+    "clinic_id": "c197",
+    "name": "Dr. Keith Thompson — Family Practice",
+    "phone": "519-660-1220",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=58164",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "University and physician register confirm the family-practice office. A commercial acceptance badge is not clinic confirmation; no current first-party intake statement established."
+  },
+  {
+    "clinic_id": "c198",
+    "name": "Carling Heights — Dr. Franklin Ossai",
+    "phone": "519-204-2775",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=105391",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "CPSO confirms this physician’s office and separate phone line. No current clinic-owned intake statement found; do not infer availability from other physicians sharing the building."
+  },
+  {
+    "clinic_id": "c199",
+    "name": "Wharnox Medical Centre",
+    "phone": "226-289-7173",
+    "website": "https://wharnox.medicalsolutionclinic.com/new-patients/",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Clinic invites new-patient inquiries and asks people to contact the office about availability and requirements. This does not explicitly confirm a roster opening. Dr. Nzeadi’s register address has moved here from Barker Street; his separate line is 519-204-4224."
+  },
+  {
+    "clinic_id": "c200",
+    "name": "Wharncliffe Medical Solutions Clinic",
+    "phone": "226-289-7228",
+    "website": "https://wharncliffe.medicalsolutionclinic.com/new-patients/",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Clinic offers a new-patient registration form and upload route but no explicit current roster-capacity statement was found. Call to establish availability before relying on registration. Distinct from Wharnox Medical Centre."
+  },
+  {
+    "clinic_id": "c201",
+    "name": "Anthony Davies MD & Juliana Nwachukwu NP",
+    "phone": "519-742-2046",
+    "website": "https://anthonydavies.net/contact-us/",
+    "questions": [
+      "Does this specific family-practice office currently accept new patient applications, and what eligibility or waitlist rules apply?"
+    ],
+    "status": "public_evidence_unresolved",
+    "last_public_review": "2026-11-12",
+    "finding": "Clinic-owned contact page and CPSO agree on the Waterloo office; older homepage wording refers to Kitchener. The university describes general medical practice. No current family-practice attachment statement found. Website says Wednesday evening walk-in clinics are suspended."
   }
 ]
