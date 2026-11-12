@@ -21,7 +21,7 @@
 
 ## Validation
 
-Database validation: 133 records, zero errors. Offline monitor, discovery, directory, auto-publication, evidence, inventory, approval and site-edit tests cover failure handling and publishing safeguards. JavaScript checks exercise filters, both map views, selection/export scope, editor review and confirmation. Generated subset PDF and DOCX were parsed successfully; subset PDF visually inspected after embedding the font. The full custom PDF contains 29 pages. Deployment/browser outcome will be appended after publication.
+Database validation: 133 records, zero errors. Offline monitor, discovery, directory, auto-publication, evidence, inventory, approval and site-edit tests cover failure handling and publishing safeguards. JavaScript checks exercise filters, both map views, selection/export scope, editor review and confirmation. Generated subset PDF and DOCX were parsed successfully; subset PDF visually inspected after embedding the font. The full custom PDF contains 29 pages. Deployment and browser outcomes are recorded below.
 
 ## What remains externally unconfirmed
 
@@ -30,3 +30,9 @@ Database validation: 133 records, zero errors. Offline monitor, discovery, direc
 This pass does **not** establish an exhaustive CPSO/CNO census. Live register searches resolved the named Baseline lead and reviewed Tillsonburg/Dorchester results; they also demonstrate why a family-medicine qualification or hospital business address alone does not prove a community roster. The Tillsonburg search returned 25 records over three pages (default English filter); most additional entries were hospital, emergency or long-term-care locations. Dorchester results included an out-of-country same-name locality, which was excluded. Hamza Aman was found as CPSO 277205, but his listed Brampton address does not resolve the Oxfordia Woodstock suite claim.
 
 Additional Thames River FHO pages contain inconsistent addresses for Niesner/Hommel; these were not promoted without reconciliation. Published clinic capacity cannot be inferred from an absent notice. No clinic was telephoned or emailed. A public-source audit may finish with explicit unknown outcomes; this must not be represented as confirmed live availability at every regional practice.
+
+## Published verification
+
+Commit `2e89e7ce7aafe460071a90b3162bc06c0e7e2795` deployed successfully in [run 43155740494](https://github.com/shunterneo/regional-primary-care-availability/actions/runs/43155740494). All eight Python suites and JavaScript smoke checks passed. The live monitoring pass fetched 77 of 98 source URLs; 21 failed to fetch and therefore were not freshly verified by that run. It queued no source changes. Discovery completed 16 queries with no new leads. These automated results do not replace manual verification or resolve unknown capacity.
+
+Published browser checks confirmed 133 listings, 17 advertised ongoing-care application opportunities, and 20 regional leads. The Tillsonburg NPLC card shows the corrected application status and direct form link. All-record PDF and single-selected-clinic Word and CSV downloads completed. The edit review correctly displayed old/new phone values, kept approval disabled until acknowledgement and the exact clinic ID, and discarded the test draft without changing the real telephone number. No test edit was published. Tillsonburg clinic-map filtering displayed two sourced and three approximate locations, matching its five filtered listings. Desktop layout was visually inspected; no separate mobile-browser test was performed.
