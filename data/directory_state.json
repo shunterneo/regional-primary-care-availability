@@ -179,7 +179,7 @@
           "key": "sunilbhatia",
           "title": "Dr. Sunil Bhatia",
           "excerpt": "Dr. Sunil Bhatia · Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge · Please email [email protected] to request a Patient Registration Form ·",
-          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#affccec8c6c1ced8c2cacbc6cccec3ccc3c6c1c6ccefc8c2cec6c381ccc0c28f",
+          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#c794a6a0aea9a6b0aaa2a3aea4a6aba4abaea9aea487a0aaa6aeabe9a4a8aae7",
           "scope": "directory entry; verify original clinic intake"
         },
         "townlinewalkin": {
@@ -245,13 +245,6 @@
           "link": "https://www.doctors4cambridge.com/contact.htm",
           "scope": "directory entry; verify original clinic intake"
         },
-        "walkin": {
-          "key": "walkin",
-          "title": "Walk In Clinic",
-          "excerpt": "Walk In Clinic · Address · Telephone · Hours",
-          "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
-        },
         "binhvan": {
           "key": "binhvan",
           "title": "Dr. Binh Van",
@@ -270,8 +263,8 @@
       "last_attempt": "2026-11-12",
       "last_success": "2026-11-12",
       "last_error": null,
-      "entry_count": 17,
-      "fingerprint": "fdbab6ccd34285e85b8681f430f973ae3f34981a19d2b66e1e22ac944c17cf29"
+      "entry_count": 16,
+      "fingerprint": "fbeb79bc664a5f4d87df59658a4c0b55166f93d98aed5910435e0095074826da"
     },
     "sw_healthline": {
       "last_attempt": "2026-11-12",
@@ -291,9 +284,9 @@
     "sources": 6,
     "success": 3,
     "failed": 3,
-    "baselines": 3,
-    "new_directory_leads": 13,
-    "listing_removals_to_review": 0,
+    "baselines": 0,
+    "new_directory_leads": 0,
+    "listing_removals_to_review": 1,
     "errors": [
       {
         "source": "sw_healthline",

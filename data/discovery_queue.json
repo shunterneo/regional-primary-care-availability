@@ -80,6 +80,20 @@
       "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility.",
       "reviewed_on": "2026-11-12",
       "reviewer_note": "Headline identifies an out-of-area location (Islington UK, Chatham-Kent, Ramara, Fort Erie) or a general mentoring article, not a supported clinic opening within this directory region."
+    },
+    {
+      "id": "5aa22b6373a77b56",
+      "detected_at": "2026-11-12T03:55:29+00:00",
+      "title": "Opening the Door to Primary Care: Celebrating the Impact of Nurse Practitioners at TVFHT - Thames Valley FHT",
+      "news_link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lZ2ZoQ3JaMmJmM3dBYWJSOXFaMXF4aFk0eW9LWTY5bWRTeHhhRFozYTVXTTNSejJZZzVEdWpoSnhEQWdPWmZ6T3JuSV9lTmtYNjZnaTVDcndRcnlpdlJBVHcwZkhrbmJJQTBOTGhMTFRKcmJLQ0E?oc=5",
+      "published": "Wed, 11 Nov 2026 20:46:14 GMT",
+      "matched_query": "site:thamesvalleyfht.ca new nurse practitioner patient attachment",
+      "source_type": "news_search_feed",
+      "proposed_action": "investigate clinic or intake",
+      "within_75km": "not verified",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
     }
   ]
 }
