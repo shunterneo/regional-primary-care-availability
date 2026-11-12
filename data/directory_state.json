@@ -179,7 +179,7 @@
           "key": "sunilbhatia",
           "title": "Dr. Sunil Bhatia",
           "excerpt": "Dr. Sunil Bhatia · Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge · Please email [email protected] to request a Patient Registration Form ·",
-          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#c794a6a0aea9a6b0aaa2a3aea4a6aba4abaea9aea487a0aaa6aeabe9a4a8aae7",
+          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#0c5f6d6b65626d7b616968656f6d606f606562656f4c6b616d6560226f63612c",
           "scope": "directory entry; verify original clinic intake"
         },
         "townlinewalkin": {
@@ -286,7 +286,7 @@
     "failed": 3,
     "baselines": 0,
     "new_directory_leads": 0,
-    "listing_removals_to_review": 1,
+    "listing_removals_to_review": 0,
     "errors": [
       {
         "source": "sw_healthline",
