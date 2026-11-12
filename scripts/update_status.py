@@ -34,7 +34,7 @@ if a.status=='accepting':
     if len(a.evidence_quote.strip())<24:
         p.error('Verbatim public clinic notice too short')
 old=c['status'];date=datetime.date.today().isoformat()
-c.update(status=a.status,evidence_url=a.source,intake_detail=a.detail.strip(),last_reviewed=date,review_basis=a.reviewer_note.strip())
+c.update(status=a.status,evidence_url=a.source,intake_detail=a.detail.strip(),last_reviewed=date,intake_reviewed_on=date,review_basis=a.reviewer_note.strip())
 c['intake_verification']={
     'tier':'clinic_first_party' if a.status=='accepting' else 'unverified',
     'scope':a.verification_scope if a.status=='accepting' else 'unverified',

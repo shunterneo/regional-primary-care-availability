@@ -41,6 +41,19 @@ def extract(text):
     if not relevant: relevant=[raw[:1200]]
     return '\n'.join(relevant)[:9000]
 
+def usable_page(text):
+    """Detect page shells without mistaking ordinary prose for a challenge."""
+    bs=BeautifulSoup(text,'html.parser')
+    title=' '.join(bs.title.stripped_strings) if bs.title else ''
+    for node in bs(['script','style','noscript','template','svg','head']):node.decompose()
+    plain=' '.join(bs.stripped_strings).strip()
+    if len(plain)<12:return False
+    challenge=r'(?:just a moment[.!…]*|access denied|attention required!?|verify (?:you are|that you are) human|checking your browser)'
+    if re.fullmatch(challenge,title.strip(),re.I):return False
+    shell=r'^(?:just a moment[.!…]*|access denied|verify (?:you are|that you are) human|checking your browser|(?:you need to |please )?enable javascript(?: and cookies)?(?: to (?:run|view|use|continue))?|sign in to continue)'
+    if len(plain)<500 and re.search(shell,plain,re.I):return False
+    return True
+
 def fetch_one(pair):
     url, meta=pair
     try:
@@ -48,6 +61,7 @@ def fetch_one(pair):
         res.raise_for_status()
         if 'html' not in res.headers.get('Content-Type','text/html').lower():raise ValueError('Response is not HTML')
         if len(res.content)>4_000_000:raise ValueError('Page too large')
+        if not usable_page(res.text):raise ValueError('Unusable source: empty, challenge or login page')
         body=extract(res.text)
         if not body.strip():raise ValueError('No matching text')
         return url,{'hash':hashlib.sha256(body.encode()).hexdigest(),'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':decisive_statement(body)}

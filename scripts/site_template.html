@@ -24,19 +24,26 @@
 'use strict';
 (()=>{
 const D=JSON.parse(document.getElementById('clinic-data').textContent), C=D.clinics;
+// FRESHNESS_JS
 const careLabel={ongoing:'Ongoing family doctor / NP',both:'Family practice + walk-in',walk_in_only:'Walk-in only — not attachment',unverified:'Care model not verified'};
 const label={accepting:'Applications advertised',reported:'Regional listing (confirm)',limited:'Limited intake / eligibility',waitlist:'Waitlist',not_accepting:'Not accepting (clinic notice)',needs_review:'Needs reconfirmation',unknown:'Intake not confirmed'};
 const byId=id=>document.getElementById(id); const E=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x};
 let q='',s='all',town='all',care='ongoing',mapMode='towns';
 byId('last').textContent=`Generated ${D.generated_on} · Record data last edited ${D.data_as_of} · Updated records may require telephone confirmation`;
+const health=D.monitoring_health;
+if(!health||!health.healthy||!health.last_source_scan||Date.now()-Date.parse(health.last_source_scan)>36*3600000)byId('last').textContent+=' · Monitoring incomplete: confirm source details before referral';
+function refreshExpiry(){if(expireEvidence(C)){render();if(byId('downloadDialog').open)updateDownload()}}
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshExpiry()});
+setInterval(refreshExpiry,60000);
 const recent=D.change_history||[];
 if(recent.length){const box=byId('changeHistory');for(const v of recent.slice(0,5)){const match=C.find(c=>c.id===v.clinic_id);box.append(E('div','',`${v.date} · ${match?match.name:v.clinic_id}: ${label[v.old_status]||v.old_status} → ${label[v.new_status]||v.new_status}`))}}
 else byId('changeHistory').textContent='No published changes recorded yet. Daily research can publish tightly verified official notices or queue uncertain findings for review.';
-byId('mTotal').textContent=C.length;byId('mIntake').textContent=C.filter(c=>['ongoing','both'].includes(c.care_model)&&c.display_status==='accepting').length;byId('mLeads').textContent=C.filter(c=>['ongoing','both'].includes(c.care_model)&&c.display_status==='reported').length;byId('mReview').textContent=C.filter(c=>c.display_status==='needs_review').length;
+function updateMetrics(){byId('mTotal').textContent=C.length;byId('mIntake').textContent=C.filter(c=>['ongoing','both'].includes(c.care_model)&&c.display_status==='accepting').length;byId('mLeads').textContent=C.filter(c=>['ongoing','both'].includes(c.care_model)&&c.display_status==='reported').length;byId('mReview').textContent=C.filter(c=>c.display_status==='needs_review').length;}
+updateMetrics();
 const uncertaintyCounts={};for(const c of C)if(c.display_status==='unknown'){const reason=c.uncertainty_label||'No current office-specific intake established';uncertaintyCounts[reason]=(uncertaintyCounts[reason]||0)+1}for(const [reason,n] of Object.entries(uncertaintyCounts))byId('uncertaintySummary').append(E('li','',reason+': '+n));
 const towns=[...new Set(C.map(c=>c.community))].sort((a,b)=>a.localeCompare(b)); for(const t of towns){const opt=E('option','',t);opt.value=t;byId('town').append(opt)}
 function matchesCare(c){return care==='all'||(care==='ongoing'&&['ongoing','both'].includes(c.care_model))||(care==='walkin'&&['both','walk_in_only'].includes(c.care_model))||c.care_model===care}
-function filtered(){return C.filter(c=>matchesCare(c)&&(s==='all'||c.display_status===s)&&(town==='all'||c.community===town)&&([c.name,c.community,c.address,c.providers,c.intake_detail].join(' ').toLowerCase().includes(q)))}
+function filtered(){expireEvidence(C);updateMetrics();return C.filter(c=>matchesCare(c)&&(s==='all'||c.display_status===s)&&(town==='all'||c.community===town)&&([c.name,c.community,c.address,c.providers,c.intake_detail].join(' ').toLowerCase().includes(q)))}
 function render(){
  const x=filtered();
  byId('count').textContent=`Showing ${x.length} of ${C.length} listings (care type: ${care==='ongoing'?'ongoing or mixed':care})`;

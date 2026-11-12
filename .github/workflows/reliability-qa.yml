@@ -1,0 +1,50 @@
+name: Nonpublishing reliability and browser QA
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: reliability-qa-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+jobs:
+  offline-and-browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install project and pinned browser dependencies
+        run: |
+          python -m pip install -r requirements.txt playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Validate and build locally without source publication
+        run: |
+          python scripts/validate.py
+          python scripts/build.py
+      - name: Offline functional, privacy and evidence fixtures
+        run: |
+          set -eu
+          for test in tests/*_test.py; do
+            case "$test" in *smoke_test.py|*freshness_browser_test.py) continue;; esac
+            python "$test"
+          done
+          node tests/freshness_test.cjs
+          node tests/site_js_smoke.cjs
+      - name: Real desktop/mobile browser and expiry/download regressions
+        run: |
+          python tests/smoke_test.py
+          python tests/freshness_browser_test.py
+      - name: Retain browser screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reliability-browser-qa
+          path: test-results/
+          if-no-files-found: ignore

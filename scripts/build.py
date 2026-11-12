@@ -4,7 +4,8 @@ from __future__ import annotations
 import datetime, json, pathlib, html, sys, collections, os
 from zoneinfo import ZoneInfo
 from common import ROOT, STATUSES, CARE_MODELS, CITY_COORDS, load_data, effective_status, ongoing_eligible
-from evidence_policy import verification_display
+from evidence_policy import verification_display, display_expiry
+from monitor_health import current as monitoring_health
 from audit_inventory import write_files
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
@@ -28,6 +29,7 @@ site=ROOT/'site'; docs=site/'documents'; docs.mkdir(parents=True,exist_ok=True)
 D=load_data(); archived=[c for c in D['clinics'] if c.get('operating_status') in ('closed','archived')]; clinics=[c for c in D['clinics'] if c.get('operating_status') not in ('closed','archived')]; source_state=json.loads((ROOT/'data'/'source_state.json').read_text()); queue=json.loads((ROOT/'data'/'review_queue.json').read_text()); history=json.loads((ROOT/'data'/'review_history.json').read_text()); discovery=json.loads((ROOT/'data'/'discovery_queue.json').read_text()); discovery_state=json.loads((ROOT/'data'/'discovery_state.json').read_text())
 for c in clinics:
     c['display_status']=effective_status(c,today)
+    c['display_expires_on']=display_expiry(c,today)
     c['evidence_label']=verification_display(c)
     c['public_evidence_reviewed']=((c.get('intake_verification') or {}).get('reviewed_on') or 'Not independently verified')
     r=c.get('online_review') or {}
@@ -37,7 +39,7 @@ ORDER=['accepting','reported','limited','waitlist','not_accepting','needs_review
 clinics.sort(key=lambda c:(ORDER.index(c['display_status']),c['community'].lower(),c['name'].lower()))
 counts=collections.Counter(c['display_status'] for c in clinics)
 report={
- 'generated_on':today.isoformat(),'data_as_of':D.get('data_as_of',''), 'audit_summary':quality_summary,'count':len(clinics),'archived_count':len(archived),
+ 'generated_on':today.isoformat(),'monitoring_health':monitoring_health(),'data_as_of':D.get('data_as_of',''), 'audit_summary':quality_summary,'count':len(clinics),'archived_count':len(archived),
  'communities':len({c['community'] for c in clinics}), 'verified_green_count':counts.get('accepting',0), 'status_counts':dict(counts),'evidence_policy':'clinic-specific public source; maximum 21 days; no phone/roster confirmation',
  'care_model_counts':dict(collections.Counter(c['care_model'] for c in clinics)),
  'source_urls_monitored':len(source_state['sources']),'pending_source_reviews':len([r for r in queue['items'] if r.get('review_status')=='pending']),
@@ -172,13 +174,14 @@ def make_pdf():
 
 site_json={
  'source_scan_summary':source_state.get('last_summary',{}),
- 'generated_on':today.isoformat(), 'data_as_of':D['data_as_of'], 'center':D['center'], 'community_coords':CITY_COORDS,
+ 'generated_on':today.isoformat(), 'monitoring_health':monitoring_health(), 'data_as_of':D['data_as_of'], 'center':D['center'], 'community_coords':CITY_COORDS,
  'counts':dict(counts), 'care_model_counts':report['care_model_counts'], 'archived_count':len(archived), 'queue_count':len([r for r in queue['items'] if r.get('review_status')=='pending']), 'discovery_queue_count':len([r for r in discovery['items'] if r.get('review_status')=='pending']), 'monitored_count':len(source_state['sources']), 'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'), 'change_history':history[-15:][::-1], 'clinics':clinics,
 }
 # Avoid literal closing script tags in inlined source text.
 jsdata=json.dumps(site_json,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
 template=(ROOT/'scripts'/'site_template.html').read_text(encoding='utf8')
 template=template.replace('// PDF_FONT_JS','const PDF_FONT='+ (ROOT/'scripts/fonts/pdf-font.json').read_text().strip()+';')
+template=template.replace('// FRESHNESS_JS',(ROOT/'scripts/freshness.js').read_text())
 template=template.replace('// FEATURES_JS',(ROOT/'scripts/site_features.js').read_text())
 html_text=template.replace('<!--INLINE_DATA-->',f'<script id="clinic-data" type="application/json">{jsdata}</script>')
 (site/'index.html').write_text(html_text,encoding='utf-8')

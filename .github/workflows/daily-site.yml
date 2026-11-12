@@ -73,6 +73,8 @@ jobs:
           python scripts/build.py
       - name: Run offline functional, privacy and evidence tests
         run: |
+          python tests/reliability_test.py
+          node tests/freshness_test.cjs
           python tests/monitor_fixture_test.py
           python tests/discovery_fixture_test.py
           python tests/directory_discovery_fixture_test.py

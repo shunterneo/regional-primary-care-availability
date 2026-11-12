@@ -65,13 +65,15 @@ def display_intake_status(clinic, today):
     if status=='accepting':
         if qualified_public_intake(clinic,today):return 'accepting'
         v=clinic.get('intake_verification') or {}
-        if v.get('tier') in ('third_party','authoritative_secondary','program_general'):
-            return 'reported'
+        if v.get('tier') in ('third_party','authoritative_secondary','program_general') and not clinic.get('intake_conflict'):
+            try:age=(today-date.fromisoformat(intake_review_date(clinic))).days
+            except (TypeError,ValueError):return 'needs_review'
+            return 'reported' if 0<=age<=45 else 'needs_review'
         return 'needs_review'
     if status=='unknown':return 'unknown'
     # Other classifications retain their distinct non-green meaning; stale claims are flagged.
     try:
-        age=(today-date.fromisoformat(clinic['last_reviewed'])).days
+        age=(today-date.fromisoformat(intake_review_date(clinic))).days
     except (TypeError,ValueError,KeyError):return 'needs_review'
     if age<0 or age>(45 if status in ('reported','waitlist') else 30):return 'needs_review'
     return status
@@ -91,3 +93,19 @@ def verification_display(clinic):
         'conflicting_or_unconfirmed':'Conflicting, future or insufficient intake information',
         'unverified':'No current individual intake evidence recorded',
     }.get(tier,'Evidence level not verified')
+
+
+def intake_review_date(clinic):
+    """Intake evidence age must not be reset by an unrelated address/name edit."""
+    v=clinic.get('intake_verification') or {}
+    return v.get('reviewed_on') or clinic.get('intake_reviewed_on') or clinic.get('last_reviewed')
+
+
+def display_expiry(clinic, today):
+    """Exclusive expiry for the current non-unknown display; never upgrades status."""
+    from datetime import timedelta
+    status=display_intake_status(clinic,today)
+    if status in ('unknown','needs_review'):return None
+    days=21 if status in ('accepting','not_accepting') else (45 if status in ('reported','waitlist') else 30)
+    try:return (date.fromisoformat(intake_review_date(clinic))+timedelta(days=days+1)).isoformat()
+    except (TypeError,ValueError):return today.isoformat()
