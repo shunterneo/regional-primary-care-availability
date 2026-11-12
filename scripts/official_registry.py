@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Two-day addition of Ontario Ministry of Health-listed primary-care PROGRAM SITES.
+"""Collect Ontario Ministry of Health-listed program sites for independent review.
 
 Government registry only confirms an official listing, NOT a live accepting roster
-or operational status. Listings are labeled unconfirmed until separately verified.
+or operational status. Publication requires an independent office approval as well
+as two daily observations; many program addresses are not primary-care clinics.
 Data licensed under the Open Government Licence – Ontario.
 """
 from __future__ import annotations
@@ -81,6 +82,10 @@ def process(features, db, history, state, extra, day):
             if diff<0 or diff>5:dates=[]
         if day not in dates: dates.append(day)
         active[ident]={'hash':fingerprint,'days':dates[-3:],'row':row}
+        # A government program may be an administrative, youth or diabetes office.
+        # Repeated observations cannot establish that it offers ongoing primary care.
+        # Retain every lead for review; only an independent office review may publish it.
+        if not state.get('publication_approvals', {}).get(ident):continue
         if len(dates)<2 or existing_clinic(row,db['clinics']):continue
         c={'id':ident,'name':row['name'],'community':row['community'],'address':row['address'],
            'clinic_type':row['clinic_type'],'care_model':'ongoing','care_model_basis':'Ontario Ministry of Health primary-care program classification; walk-in services not determined.','care_model_source':ROOT_URL,'status':'unknown','operating_status':'registry_listed',

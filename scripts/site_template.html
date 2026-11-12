@@ -40,6 +40,8 @@ function render(){
  const details=E('div','details',c.address+(c.phone?' · '+c.phone:'')+' · Public-source review: '+c.public_evidence_reviewed);card.append(details);
  card.append(E('p','details','Evidence level: '+c.evidence_label));
  if(c.intake_detail)card.append(E('p','intakenote',c.intake_detail));
+ if(c.phone_note)card.append(E('p','details',c.phone_note));
+ if(c.clinic_address_verified===false)card.append(E('p','details','Address needs confirmation before travel.'));
  if(c.providers)card.append(E('p','details','Listed clinicians: '+c.providers));
  const sourceLabel=c.evidence_label.startsWith('Clinic-published')?'Clinic registration evidence':c.evidence_label.includes('Program-wide')?'Program / location registration notice':c.evidence_label.includes('Third-party')?'Directory report (not confirmed)':c.display_status==='unknown'?'Clinic listing source':'Source / intake information';
  const links=E('div','itemlinks');for(const pair of [[sourceLabel,c.evidence_url],['Clinic website',c.clinic_url]])if(pair[1]&&pair[1].startsWith('https://')){const a=E('a','',pair[0]);a.href=pair[1];a.rel='noreferrer noopener';a.target='_blank';links.append(a)}card.append(links);out.append(card)
@@ -74,6 +76,7 @@ byId('care').addEventListener('change',e=>{care=e.target.value;render()});
 byId('search').addEventListener('input',e=>{q=e.target.value.trim().toLowerCase();render()});byId('status').addEventListener('change',e=>{s=e.target.value;render()});byId('town').addEventListener('change',e=>{town=e.target.value;render()});
 byId('reset').addEventListener('click',()=>{q='';s='all';town='all';care='ongoing';byId('care').value='ongoing';byId('search').value='';byId('status').value='all';byId('town').value='all';render()});
 byId('footerstatus').textContent=`Ongoing care and walk-in services are classified separately; walk-in registration does NOT mean patient attachment. Database: ${C.length} service listings in ${D.counts.accepting||0} directly advertised intake category; ${D.queue_count} source-change items and ${D.discovery_queue_count||0} new discovery leads awaiting review. Latest source check: ${D.last_source_scan||'not yet run'}. Latest discovery check: ${D.last_discovery_scan||'not yet run'}. Explicit, clinic-specific official statements may be published after two separate daily checks; conflicting or missing pages never trigger closures.`;
+if(D.source_scan_summary)byId('footerstatus').textContent+=` Latest scan retrieved ${D.source_scan_summary.success||0} of ${D.source_scan_summary.urls||0} URLs; ${D.source_scan_summary.failed||0} failed. A failed check is not evidence of closure. Review dates use UTC.`;
 render();
 })();
 </script></body></html>

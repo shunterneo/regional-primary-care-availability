@@ -1,0 +1,592 @@
+[
+  {
+    "clinic_id": "c004",
+    "name": "London Family Health Team — Beaverbrook",
+    "phone": "519-673-3900",
+    "website": "https://londonfht.ca/family-physicians/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
+      "Which of the conflicting published intake statements is current?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c005",
+    "name": "London Family Health Team — Stoney Creek",
+    "phone": "519-679-1717",
+    "website": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
+      "Which of the conflicting published intake statements is current?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c009",
+    "name": "Elmdale Health Centre — building-wide physician registration lead",
+    "phone": "",
+    "website": "https://www.elmdalehealth.com/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
+      "Is there a public direct intake/office number, or is the published online route the only contact?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c012",
+    "name": "Oxfordia Medical Centre — Dr. Hamza Aman",
+    "phone": "519-340-8186",
+    "website": "https://oxfordiamedical.com/",
+    "questions": [
+      "What is the correct street address and suite for this named practice?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c029",
+    "name": "Colborne Medicare — Dr. Rabiya Niaz",
+    "phone": "519-438-0002",
+    "website": "https://colbornemedicare.ca/",
+    "questions": [
+      "What is the correct street address and suite for this named practice?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c041",
+    "name": "Thames Valley FHT — Queens Avenue Health & Homelessness",
+    "phone": "",
+    "website": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
+      "Is there a public direct intake/office number, or is the published online route the only contact?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c047",
+    "name": "Old South FHO — Dr. Zarmeen Qamar",
+    "phone": "",
+    "website": "https://www.ldam.ca/find-a-doctor",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
+      "What is the correct street address and suite for this named practice?",
+      "Is there a public direct intake/office number, or is the published online route the only contact?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c048",
+    "name": "Oxford County Community Health Centre — Tillsonburg",
+    "phone": "519-539-1111",
+    "website": "https://oxchc.ca/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c051",
+    "name": "Thames Valley FHT — Ailsa Craig",
+    "phone": "519-293-3981",
+    "website": "https://thamesvalleyfht.ca/locations/strathroy-family-health-organization-ailsa-craig-site/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c052",
+    "name": "Dr. Edward Vivoda — Family Medicine",
+    "phone": "519-765-1960",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=75971",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c053",
+    "name": "Dr. Steven Rioux — Family Medicine",
+    "phone": "519-773-5336",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=116967",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c054",
+    "name": "East Elgin Family Health Team — Aylmer",
+    "phone": "519-773-3715",
+    "website": "https://www.eefht.ca/about-us/the-team/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c055",
+    "name": "Cambridge Gateway Medical Centre",
+    "phone": "226-533-1111",
+    "website": "https://cambridgegatewaymedical.com/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?",
+      "Which of the conflicting published intake statements is current?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c057",
+    "name": "King Street Medical Centre",
+    "phone": "519-219-8999",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=91809",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c058",
+    "name": "Delhi Community Health Centre — Big Creek FHO / Norfolk FHT",
+    "phone": "226-549-4004",
+    "website": "https://norfolkfht.ca/delhi-medical-clinic/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c059",
+    "name": "Middlesex Centre Family Medicine Clinic",
+    "phone": "519-666-1610",
+    "website": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c060",
+    "name": "Alexandra Hospital family medicine offices",
+    "phone": "519-425-9000",
+    "website": "https://alexfp.ca/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c063",
+    "name": "Forest City FHO — Central Avenue",
+    "phone": "519-434-2944 ext. 2212",
+    "website": "https://thamesvalleyfht.ca/locations/forest-city-family-health-organization/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c066",
+    "name": "Oxford Medical Group",
+    "phone": "519-432-6786",
+    "website": "https://thamesvalleyfht.ca/locations/chelsey-park-medical-centre/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c068",
+    "name": "St. Joseph’s Family Medical Centre",
+    "phone": "519-672-9660",
+    "website": "https://thamesvalleyfht.ca/locations/oxford-st-josephs-family-health-organization/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c069",
+    "name": "Victoria Family Medical Centre",
+    "phone": "519-685-8500 ext. 71263",
+    "website": "https://thamesvalleyfht.ca/locations/victoria-family-health-centre-london-health-sciences-centre/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c070",
+    "name": "West London Family Health Centre",
+    "phone": "519-641-6712 ext. 3654",
+    "website": "https://thamesvalleyfht.ca/locations/west-london-family-health-centre/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c073",
+    "name": "Dr. Michael Hofer — Family Medicine",
+    "phone": "226-325-0108",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c075",
+    "name": "Norfolk Family Health Team — Port Rowan Medical Clinic",
+    "phone": "519-586-3143",
+    "website": "https://norfolkfht.ca/port-rowan-medical-clinic/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c076",
+    "name": "Norfolk Family Health Team — Simcoe",
+    "phone": "519-582-2323",
+    "website": "https://norfolkfht.ca/contact/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c077",
+    "name": "Elmwood Family Health Centre",
+    "phone": "519-631-3223",
+    "website": "https://thamesvalleyfht.ca/locations/elmwood-family-health-organization/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c079",
+    "name": "Thames Valley FHT — Elgin Community Health Hub",
+    "phone": "519-473-0530 ext. 2258",
+    "website": "https://thamesvalleyfht.ca/locations/elgin-community-health-hub/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c080",
+    "name": "Windemere Family Medical Centre",
+    "phone": "519-631-5670",
+    "website": "https://thamesvalleyfht.ca/locations/windemere-family-medical-centre/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c081",
+    "name": "East Elgin Family Health Team — Straffordville",
+    "phone": "519-773-3715",
+    "website": "https://www.eefht.ca/contact-us/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c082",
+    "name": "STAR FHT — Avon Family Medicine Centre",
+    "phone": "519-508-1212",
+    "website": "https://starfht.ca/clinics_offices/avon-family-medicine-centre/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c083",
+    "name": "STAR FHT — O’Loane Medical Clinic",
+    "phone": "519-273-1060",
+    "website": "https://starfht.ca/clinics_offices/oloane-medical-clinic/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c084",
+    "name": "Stratford Family Health Team",
+    "phone": "519-271-7172",
+    "website": "https://sfht.on.ca/contact-us/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c085",
+    "name": "Strathroy Medical Clinic",
+    "phone": "519-245-0430",
+    "website": "https://thamesvalleyfht.ca/locations/strathroy-medical-clinic/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c086",
+    "name": "Strathroy–Caradoc FHO / TVFHT",
+    "phone": "226-726-8440",
+    "website": "https://thamesvalleyfht.ca/locations/strathroy-caradoc-family-health-organization/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c087",
+    "name": "West Middlesex Health Centre",
+    "phone": "519-245-3590",
+    "website": "https://thamesvalleyfht.ca/locations/strathroy-family-health-organization/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c088",
+    "name": "STAR FHT — Tavistock Community Health",
+    "phone": "519-655-2322",
+    "website": "https://starfht.ca/clinics_offices/tavistock-community-health-inc/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c089",
+    "name": "Tillsonburg Family Physicians",
+    "phone": "519-842-3636",
+    "website": "https://tillsonburgfamilyphysicians.ca/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c090",
+    "name": "Tillsonburg Medical Centre",
+    "phone": "519-842-4231",
+    "website": "https://tillsonburgmedicalcentre.ca/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c091",
+    "name": "Tillsonburg Medical Clinic",
+    "phone": "519-842-3682",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=83281",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c093",
+    "name": "New Vision FHT — Boardwalk",
+    "phone": "519-742-0107",
+    "website": "https://www.newvisionhealth.ca/clinic-hours",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c095",
+    "name": "Dr. Jennifer Bonnett — Family Medicine",
+    "phone": "519-421-7252",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=69085",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c097",
+    "name": "Dr. Shameena Tamachi — Family Medicine",
+    "phone": "519-602-4111",
+    "website": "https://register.cpso.on.ca/physician-info/?cpsonum=115111",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c096",
+    "name": "London InterCommunity Health Centre — Argyle",
+    "phone": "519-660-5853",
+    "website": "https://lihc.on.ca/locations-and-hours-of-services/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-11"
+  },
+  {
+    "clinic_id": "c099",
+    "name": "Forbes Park Medical Centre",
+    "phone": "519-658-4615",
+    "website": "https://www.forbesparkmedical.com/new-patients",
+    "questions": [
+      "Which of the conflicting published intake statements is current?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c106",
+    "name": "PrimaCare Community FHT — Paris",
+    "phone": "519-442-9834",
+    "website": "https://www.pccfht.ca/contacts/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c107",
+    "name": "PrimaCare — Dr. Alice Wang",
+    "phone": "519-632-9153",
+    "website": "https://www.pccfht.ca/contacts/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c109",
+    "name": "Central Community Health Centre",
+    "phone": "519-633-7989",
+    "website": "https://centralchc.com/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c114",
+    "name": "Okechukwu Medicine",
+    "phone": "289-651-4444",
+    "website": "https://haldimandfht.ca/affiliated-physicians/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c115",
+    "name": "Caledonia Family Clinic — Dr. Nicolaas Cloete",
+    "phone": "905-765-4061",
+    "website": "https://haldimandfht.ca/affiliated-physicians/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c116",
+    "name": "Takach Medicine — Dr. Sarah Takach",
+    "phone": "905-765-2442",
+    "website": "https://haldimandfht.ca/affiliated-physicians/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c117",
+    "name": "SOAHAC — London",
+    "phone": "519-672-4079",
+    "website": "https://www.soahac.on.ca/locations/london",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c118",
+    "name": "SOAHAC — Chippewa of the Thames",
+    "phone": "519-289-0352",
+    "website": "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c121",
+    "name": "Woolwich Community Health Centre — New Hamburg",
+    "phone": "",
+    "website": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
+    "questions": [
+      "Is there a public direct intake/office number, or is the published online route the only contact?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  }
+]

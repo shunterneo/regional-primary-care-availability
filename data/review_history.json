@@ -1270,5 +1270,495 @@
     "source": "https://www.daviesfamilymed.com/join-the-waitlist",
     "type": "individual_public_source_review",
     "reviewer_note": "Dr. Davies's page explicitly closes the waitlist to new applications because of volume, despite retaining older application instructions and a link."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c001",
+    "clinic_name": "Grand River Community Health Centre",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://www.grandriverchc.ca/your-health/new-clients/",
+    "type": "completion_audit",
+    "reviewer_note": "Official site invites unattached people to submit New Client Intake Form; enrolment not guaranteed."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c004",
+    "clinic_name": "London Family Health Team — Beaverbrook",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
+    "type": "completion_audit",
+    "reviewer_note": "Clinic's August 26, 2026 intake announcement includes Beaverbrook, and its FAQ/physician directory specifically identify Dr. Behzad Hassani and NP Mahsa Haghighi as accepting applications. Other physicians are stated not accepting; clinic's general locations page contradicts the announcement. Confirm current intake directly; submitting form does not guarantee attachment. Dr. Hassani’s named-provider application is returned to his second-floor office; Unit 1 is the team intake/allied-health address. Conflicting site-wide statements remain unresolved."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c013",
+    "clinic_name": "Thames Valley Family Health Team — Woodstock",
+    "old_status": "reported",
+    "new_status": "reported",
+    "source": "https://thamesvalleyfht.ca/become-a-patient/",
+    "type": "completion_audit",
+    "reviewer_note": "Thames Valley FHT runs an NP attachment intake program across Oxford, London, Middlesex and Elgin. Oxford NPLC directs Woodstock residents to this program at 959 Dundas Street East. The program application is open; this specific office’s available roster capacity is NOT independently confirmed."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c015",
+    "clinic_name": "Langs North Dumfries Community Health Centre",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://www.langs.org/new-patients",
+    "type": "completion_audit",
+    "reviewer_note": "Langs directly says accepting in North Dumfries; applicants register via Health Care Connect and await matching."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c038",
+    "clinic_name": "Oxford County Nurse Practitioner-Led Clinic — Ingersoll",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://www.ocnplc.ca/patient-information/new-patients/",
+    "type": "completion_audit",
+    "reviewer_note": "Same intake form remains open, but Ingersoll is explicitly described as having limited capacity (Aug 26, 2026); call first."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c040",
+    "clinic_name": "London InterCommunity Health Centre — Huron",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://lihc.on.ca/programs-services/primary-care/",
+    "type": "completion_audit",
+    "reviewer_note": "Official intake for unattached with barriers; program takes forms at both Dundas and Huron."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c042",
+    "clinic_name": "Waterloo Region NP-Led Clinic — Breslau",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://wrnplc.ca/patient-information/",
+    "type": "completion_audit",
+    "reviewer_note": "2026 form available; extended waitlist notice is older and not recently quantified. Boundary estimate within 75 km."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c044",
+    "clinic_name": "Waterloo Region NP-Led Clinic — Cambridge",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://wrnplc.ca/patient-information/",
+    "type": "completion_audit",
+    "reviewer_note": "2026 form available; latest specific published notice warns extensive waits (10–12 months; May 2025). Cambridge relocated Aug 26, 2026."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c045",
+    "clinic_name": "New Vision Family Health Team — Greenbrook",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://www.newvisionhealth.ca/need-a-family-doctor",
+    "type": "completion_audit",
+    "reviewer_note": "Official new patient waitlist form available; this is waitlist, not immediate attachment."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c046",
+    "clinic_name": "Waterloo Region NP-Led Clinic — Pioneer Park",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://wrnplc.ca/patient-information/",
+    "type": "completion_audit",
+    "reviewer_note": "2026 form available; extended waitlist notice is older and not recently quantified."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c050",
+    "clinic_name": "Oxford County Community Health Centre — Woodstock",
+    "old_status": "not_accepting",
+    "new_status": "not_accepting",
+    "source": "https://211ontario.ca/service/95081080/oxford-county-community-health-centre-oxford-county-community-health-centre/",
+    "type": "completion_audit",
+    "reviewer_note": "211 Woodstock listing, updated August 28, 2026, reports no new primary-care clients. Clinic medical-care page gives no newer intake decision."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c054",
+    "clinic_name": "East Elgin Family Health Team — Aylmer",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://www.eefht.ca/about-us/the-team/",
+    "type": "completion_audit",
+    "reviewer_note": "Clinic team and contact pages reviewed; current new-patient capacity is not published. Call the office to confirm."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c058",
+    "clinic_name": "Delhi Community Health Centre — Big Creek FHO / Norfolk FHT",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://norfolkfht.ca/find-a-doctor/",
+    "type": "completion_audit",
+    "reviewer_note": "Norfolk FHT directs people seeking a provider to Health Care Connect and other organizations. Delhi site page confirms the office, not current roster openings. DCHC page could not be retrieved."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c061",
+    "clinic_name": "Centre for Family Medicine — Andrew Street (formerly Joseph Street)",
+    "old_status": "not_accepting",
+    "new_status": "not_accepting",
+    "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
+    "type": "completion_audit",
+    "reviewer_note": "Joseph Street is closed and its services moved to 16 Andrew Street. Team-wide FAQ says no new family-doctor attachment at any location; specialized services including refugee health have separate eligibility."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c064",
+    "clinic_name": "Health Zone Nurse Practitioner-Led Clinic",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://healthzonenplc.com/contact-us/new-patient-wait-list",
+    "type": "completion_audit",
+    "reviewer_note": "Online waitlist for people in London and surrounding area without a primary-care provider. Assessment may take months and joining does not guarantee attachment; clinic asks applicants not to call for waitlist updates."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c071",
+    "clinic_name": "Westmount Family Physicians",
+    "old_status": "unknown",
+    "new_status": "not_accepting",
+    "source": "https://www.westmountfamilyphysicians.ca/faq",
+    "type": "completion_audit",
+    "reviewer_note": "Clinic FAQ explicitly says it is not currently accepting new patients. Corrects the earlier inconclusive review."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c075",
+    "clinic_name": "Norfolk Family Health Team — Port Rowan Medical Clinic",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://norfolkfht.ca/find-a-doctor/",
+    "type": "completion_audit",
+    "reviewer_note": "Norfolk FHT lists referral resources for finding a provider but does not confirm new-patient roster openings at this site."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c076",
+    "clinic_name": "Norfolk Family Health Team — Simcoe",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://norfolkfht.ca/find-a-doctor/",
+    "type": "completion_audit",
+    "reviewer_note": "Norfolk FHT lists referral resources for finding a provider but does not confirm new-patient roster openings at this site. A separate BBN Primary Care Access Clinic serves unattached people living or working in Brantford, Brant or Norfolk by appointment; this is not proof of roster placement."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c081",
+    "clinic_name": "East Elgin Family Health Team — Straffordville",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://www.eefht.ca/contact-us/",
+    "type": "completion_audit",
+    "reviewer_note": "Official contact page lists Straffordville; no site-specific new-patient intake statement found. Oxford OHT also lists an appointment-based NP outreach service here for unattached residents of Aylmer, Malahide or Bayham; this does not confirm ongoing attachment. Call 519-773-3715."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c082",
+    "clinic_name": "STAR FHT — Avon Family Medicine Centre",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://starfht.ca/clinics_offices/avon-family-medicine-centre/",
+    "type": "completion_audit",
+    "reviewer_note": "Clinic page provides appointment instructions for existing patients. STAR directs people without a doctor to Health Care Connect; no local roster opening confirmed."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c083",
+    "clinic_name": "STAR FHT — O’Loane Medical Clinic",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://starfht.ca/clinics_offices/oloane-medical-clinic/",
+    "type": "completion_audit",
+    "reviewer_note": "Clinic page provides appointment instructions for existing patients. STAR directs people without a doctor to Health Care Connect; no local roster opening confirmed."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c086",
+    "clinic_name": "Strathroy–Caradoc FHO / TVFHT",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://thamesvalleyfht.ca/locations/strathroy-caradoc-family-health-organization/",
+    "type": "completion_audit",
+    "reviewer_note": "Office page reviewed; no site-specific new-patient intake statement found. Contact the office to confirm."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c088",
+    "clinic_name": "STAR FHT — Tavistock Community Health",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://starfht.ca/clinics_offices/tavistock-community-health-inc/",
+    "type": "completion_audit",
+    "reviewer_note": "Clinic page provides appointment instructions for existing patients. STAR directs people without a doctor to Health Care Connect; no local roster opening confirmed."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c093",
+    "clinic_name": "New Vision FHT — Boardwalk",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://www.newvisionhealth.ca/need-a-family-doctor",
+    "type": "completion_audit",
+    "reviewer_note": "New Vision advertises a team waitlist at Greenbrook; Boardwalk page identifies Dr. Balraj Singh's existing practice. Boardwalk-specific intake is not confirmed."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c096",
+    "clinic_name": "London InterCommunity Health Centre — Argyle",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://lihc.on.ca/locations-and-hours-of-services/",
+    "type": "completion_audit",
+    "reviewer_note": "London InterCommunity Health Centre lists its Argyle site as offering primary care. Site-specific availability or eligibility for attachment not independently confirmed. Do not advertise as an open patient roster."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c098",
+    "clinic_name": "Dr. Martin Schuster — Family Practice",
+    "old_status": "not listed",
+    "new_status": "reported",
+    "source": "https://www.doctors4cambridge.com/contact.htm",
+    "type": "completion_audit",
+    "reviewer_note": "Regional directory reports intake. Clinic confirms its family practice address and phone but does not publish an acceptance statement. Call to confirm."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c099",
+    "clinic_name": "Forbes Park Medical Centre",
+    "old_status": "not listed",
+    "new_status": "not_accepting",
+    "source": "https://www.forbesparkmedical.com/new-patients",
+    "type": "completion_audit",
+    "reviewer_note": "Clinic says no physicians are accepting. Regional directory still suggests collecting an application; the clinic statement is used pending clarification."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c100",
+    "clinic_name": "Two Rivers FHT — Hespeler Medical Clinic",
+    "old_status": "not listed",
+    "new_status": "waitlist",
+    "source": "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/",
+    "type": "completion_audit",
+    "reviewer_note": "Team-wide waitlist for people without a family physician; location/provider assignment is not guaranteed. Dr. Callaghan’s roster form is only for people already contacted by the office."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c101",
+    "clinic_name": "Two Rivers FHT — HealthLink Family Practice",
+    "old_status": "not listed",
+    "new_status": "waitlist",
+    "source": "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/",
+    "type": "completion_audit",
+    "reviewer_note": "Team-wide waitlist for people without a family physician; location/provider assignment is not guaranteed. Dr. Callaghan’s roster form is only for people already contacted by the office."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c102",
+    "clinic_name": "Centre for Family Medicine FHT — Victoria Street",
+    "old_status": "not listed",
+    "new_status": "not_accepting",
+    "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
+    "type": "completion_audit",
+    "reviewer_note": "Organization FAQ says no locations are accepting new family-doctor patients. This does not close specialized referral programs."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c103",
+    "clinic_name": "Centre for Family Medicine FHT — University Gates",
+    "old_status": "not listed",
+    "new_status": "not_accepting",
+    "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
+    "type": "completion_audit",
+    "reviewer_note": "Organization FAQ says no locations are accepting new family-doctor patients. This does not close specialized referral programs."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c104",
+    "clinic_name": "Centre for Family Medicine FHT — The Boardwalk",
+    "old_status": "not listed",
+    "new_status": "not_accepting",
+    "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
+    "type": "completion_audit",
+    "reviewer_note": "Organization FAQ says no locations are accepting new family-doctor patients. This does not close specialized referral programs."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c105",
+    "clinic_name": "Centre for Family Medicine FHT — Wellesley",
+    "old_status": "not listed",
+    "new_status": "not_accepting",
+    "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
+    "type": "completion_audit",
+    "reviewer_note": "Organization FAQ says no locations are accepting new family-doctor patients. This does not close specialized referral programs."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c106",
+    "clinic_name": "PrimaCare Community FHT — Paris",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.pccfht.ca/contacts/",
+    "type": "completion_audit",
+    "reviewer_note": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c107",
+    "clinic_name": "PrimaCare — Dr. Alice Wang",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.pccfht.ca/contacts/",
+    "type": "completion_audit",
+    "reviewer_note": "Affiliated family physician office confirmed; current new-patient capacity is not published."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c108",
+    "clinic_name": "St. George Medical Centre",
+    "old_status": "not listed",
+    "new_status": "waitlist",
+    "source": "https://stgeorgemedical.ca/",
+    "type": "completion_audit",
+    "reviewer_note": "Dr. Alex Quinlan and Dr. Alastair Hutton are no longer taking patients immediately; the clinic invites calls to join their waitlists."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c109",
+    "clinic_name": "Central Community Health Centre",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://centralchc.com/",
+    "type": "completion_audit",
+    "reviewer_note": "Serves St. Thomas, Central Elgin and Southwold. Call about enrolment; the website describes the process but does not state current roster capacity. Not a walk-in clinic."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c110",
+    "clinic_name": "Happy Valley Family Health Team",
+    "old_status": "not listed",
+    "new_status": "not_accepting",
+    "source": "https://happyvalleyfht.ca/about-us/",
+    "type": "completion_audit",
+    "reviewer_note": "Clinic FAQ says it is not actively accepting new patients. Homepage directs unattached people to Huron Perth and Area OHT resources."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c111",
+    "clinic_name": "Six Nations Primary Care / Family Health Team",
+    "old_status": "not listed",
+    "new_status": "waitlist",
+    "source": "https://www.snhs.ca/family-and-community-care/primary-care-family-health-team/",
+    "type": "completion_audit",
+    "reviewer_note": "Submit the team intake form to join its waitlist. Clinical need and time waiting affect priority; confirm eligibility for Six Nations services. No immediate attachment guaranteed."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c112",
+    "clinic_name": "Haldimand FHT — Hagersville",
+    "old_status": "not listed",
+    "new_status": "limited",
+    "source": "https://haldimandfht.ca/",
+    "type": "completion_audit",
+    "reviewer_note": "NP intake advertised for unattached residents of Haldimand, Mississaugas of the Credit or Six Nations. Call the team to confirm placement and site."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c113",
+    "clinic_name": "Argyle Medical Clinic — Dr. Chukwuemeka Ogbunando",
+    "old_status": "not listed",
+    "new_status": "reported",
+    "source": "https://haldimandfht.ca/affiliated-physicians/",
+    "type": "completion_audit",
+    "reviewer_note": "Affiliated FHT directory identifies Dr. Ogbunando as accepting. Call the named physician’s office; the claim does not cover every doctor at Argyle."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c114",
+    "clinic_name": "Okechukwu Medicine",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://haldimandfht.ca/affiliated-physicians/",
+    "type": "completion_audit",
+    "reviewer_note": "Affiliated family practice confirmed; no current intake statement found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c115",
+    "clinic_name": "Caledonia Family Clinic — Dr. Nicolaas Cloete",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://haldimandfht.ca/affiliated-physicians/",
+    "type": "completion_audit",
+    "reviewer_note": "Affiliated family practice confirmed; no current intake statement found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c116",
+    "clinic_name": "Takach Medicine — Dr. Sarah Takach",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://haldimandfht.ca/affiliated-physicians/",
+    "type": "completion_audit",
+    "reviewer_note": "Affiliated family practice confirmed; no current intake statement found."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c117",
+    "clinic_name": "SOAHAC — London",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.soahac.on.ca/locations/london",
+    "type": "completion_audit",
+    "reviewer_note": "Indigenous primary care service; contact the clinic about eligibility and intake. Current new-patient capacity for this location is not stated; the banner for Cambridge, Owen Sound and Newbury does not establish intake here."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c118",
+    "clinic_name": "SOAHAC — Chippewa of the Thames",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
+    "type": "completion_audit",
+    "reviewer_note": "Indigenous primary care service; contact the clinic about eligibility and intake. Current new-patient capacity for this location is not stated; the banner for Cambridge, Owen Sound and Newbury does not establish intake here."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c119",
+    "clinic_name": "SOAHAC — Waterloo Wellington",
+    "old_status": "not listed",
+    "new_status": "limited",
+    "source": "https://www.soahac.on.ca/locations/waterloo-wellington",
+    "type": "completion_audit",
+    "reviewer_note": "Indigenous primary care service; contact the clinic about eligibility and intake. Organization explicitly advertises new clients in Cambridge; confirm primary-care placement."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c120",
+    "clinic_name": "Woolwich Community Health Centre — Wellesley",
+    "old_status": "not listed",
+    "new_status": "waitlist",
+    "source": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
+    "type": "completion_audit",
+    "reviewer_note": "Organization accepts roster applications and prioritizes its queue by need. Site assignment is not confirmed. Apply once; the clinic asks applicants not to call for application updates."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c121",
+    "clinic_name": "Woolwich Community Health Centre — New Hamburg",
+    "old_status": "not listed",
+    "new_status": "waitlist",
+    "source": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
+    "type": "completion_audit",
+    "reviewer_note": "Organization accepts roster applications and prioritizes its queue by need. Site assignment is not confirmed. Apply once; the clinic asks applicants not to call for application updates."
   }
 ]

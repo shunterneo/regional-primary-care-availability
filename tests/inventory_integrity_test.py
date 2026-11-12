@@ -44,3 +44,9 @@ assert C['c074']['status']=='waitlist'
 assert all(not C[cid].get('clinic_address_verified') for cid in ('c012','c029','c047'))
 assert all(C[cid].get('clinic_address_verified') and C[cid].get('address_verification_source') for cid in ('c016','c052','c061','c074','c084','c095','c097'))
 print('PASS: structural audit, dynamically gated applications, cross-org mislink blocked, and specific office corrections')
+assert C['c061']['address']=='16 Andrew Street'
+assert C['c061']['phone']=='519-578-2100'
+assert C['c071']['status']=='not_accepting'
+assert C['c099']['status']=='not_accepting' and C['c099']['intake_conflict']
+assert C['c100']['status']=='waitlist'  # Invitation-only roster form is not an open roster.
+assert all(C[x]['status']!='accepting' for x in ('c117','c118'))  # Other-city SOAHAC banner.

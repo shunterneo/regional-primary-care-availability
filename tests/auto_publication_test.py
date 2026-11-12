@@ -71,6 +71,9 @@ base={'clinics':[], 'center':center, 'data_as_of':'2026-11-09'}
 assert process([fixture],base,[],register,{},'2026-11-10')==[]
 log=[];ex={}
 added=process([fixture],base,log,register,ex,'2026-11-11')
+assert added==[] and base['clinics']==[]  # Repeated registry presence is not a clinic review.
+register['publication_approvals']={'moh-123':True}
+added=process([fixture],base,log,register,ex,'2026-11-11')
 assert len(added)==1 and base['clinics'][0]['status']=='unknown' and base['clinics'][0]['operating_status']=='registry_listed'
 assert not process([fixture],base,log,register,ex,'2026-11-12')
 assert len(log)==1

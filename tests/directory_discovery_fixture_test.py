@@ -7,6 +7,7 @@ import registry_audit as a
 source={'id':'cambridge','name':'Cambridge recruiting doctors','url':'https://www.doctors4cambridge.com/contact.htm','mode':'table'}
 html='''<html><body><table><tr><td>Dr. Amara Test</td><td>New Family Medical Centre</td><td>100 Main Street, Cambridge</td></tr></table></body></html>'''
 rows=d.parse_candidates(html,source)
+assert d.parse_candidates('<table><tr><td>Walk In Clinic</td><td>Address</td><td>Telephone</td></tr></table>',source)==[]
 assert len(rows)==1 and rows[0]['title']=='Dr. Amara Test',rows
 page_source={'id':'woodstock_news','name':'Woodstock news','url':'https://www.cityofwoodstock.ca/news/','mode':'news'}
 news='''<a href="/news/posts/new-family-physician-opens/">New family physician opens clinic in Woodstock</a><a href="/news/posts/pool-closed/">Pool closure announced</a>'''

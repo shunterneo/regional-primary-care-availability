@@ -1,0 +1,396 @@
+[
+  {
+    "registry_id": "321787270",
+    "name": "Central Community Health Centre (St. Thomas)",
+    "registry_address": "359 Talbot Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c109",
+    "source": "https://centralchc.com/contact/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787550",
+    "name": "Haldimand Family Health Team",
+    "registry_address": "245 Argyle Street South",
+    "reviewed_on": "2026-11-12",
+    "outcome": "unresolved",
+    "finding": "Registry lists 245 Argyle Street South. Current FHT pages do not confirm this office address; retain as a lead. Separate current physician offices are published.",
+    "source": "https://haldimandfht.ca/contact/"
+  },
+  {
+    "registry_id": "321787315",
+    "name": "Langs Farm Village Association (3 Doors Down)",
+    "registry_address": "1273 Concession Road",
+    "reviewed_on": "2026-11-12",
+    "outcome": "not_ongoing_office",
+    "finding": "3 Doors Down provides workshops and support services; ongoing attachment at this site not established.",
+    "source": "https://www.langs.org/womens-health"
+  },
+  {
+    "registry_id": "321787701",
+    "name": "Six Nations of The Grand River Family Health Team",
+    "registry_address": "1745 Chiefswood Road",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c111",
+    "source": "https://www.snhs.ca/family-and-community-care/primary-care-family-health-team/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787715",
+    "name": "Star Family Health Team- Avon Family Medicine Centre",
+    "registry_address": "511 Huron Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c082",
+    "source": "https://starfht.ca/our-locations/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787130",
+    "name": "Waterloo Region Nurse Practitioner-Led Clinic (Breslau)",
+    "registry_address": "10 Townsend Drive",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c042",
+    "source": "https://wrnplc.ca/contact-us/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787636",
+    "name": "Norfolk Family Health Team",
+    "registry_address": "105 Main Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c058",
+    "source": "https://dchc.ca/contact/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321788817",
+    "name": "Health Zone Nurse Practitioner-Led Clinic",
+    "registry_address": "230 Victoria Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c064",
+    "source": "https://healthzonenplc.com/contact",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787637",
+    "name": "Norfolk Family Health Team",
+    "registry_address": "185 Robinson Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c076",
+    "source": "https://norfolkfht.ca/contact/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787595",
+    "name": "London Family Health Team",
+    "registry_address": "770 Swenige Drive",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c005",
+    "source": "https://londonfht.ca/our-locations/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787320",
+    "name": "London Intercommunity Health Centre (Argyle Clinic)",
+    "registry_address": "1700 Dundas Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c096",
+    "source": "https://lihc.on.ca/locations-and-hours-of-services/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787716",
+    "name": "Star Family Health Team- Tavistock Community Health Inc.",
+    "registry_address": "80 Maria Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c088",
+    "source": "https://starfht.ca/our-locations/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787714",
+    "name": "Star Family Health Team",
+    "registry_address": "700 OLoane Avenue",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c083",
+    "source": "https://starfht.ca/our-locations/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787639",
+    "name": "Norfolk Family Health Team",
+    "registry_address": "25 Curtis Avenue North",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c106",
+    "source": "https://www.pccfht.ca/contacts/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787316",
+    "name": "Langs Farm Village Association (Grow Community Centre)",
+    "registry_address": "1 Groh Avenue",
+    "reviewed_on": "2026-11-12",
+    "outcome": "not_ongoing_office",
+    "finding": "Grow Community Centre provides community activities; ongoing primary care not established.",
+    "source": "https://www.langs.org/grow-community-centre"
+  },
+  {
+    "registry_id": "321787593",
+    "name": "London Family Health Team",
+    "registry_address": "1261 Beaverbrook Avenue",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c004",
+    "source": "https://londonfht.ca/our-locations/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787627",
+    "name": "New Vision Family Health Team",
+    "registry_address": "421 Greenbrook Drive",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c045",
+    "source": "https://www.newvisionhealth.ca/clinic-hours",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787733",
+    "name": "Thames Valley Family Health Team - Woodstock",
+    "registry_address": "959 Dundas Street East",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c013",
+    "source": "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787549",
+    "name": "Haldimand Family Health Team",
+    "registry_address": "75 Parkview Road",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c112",
+    "source": "https://haldimandfht.ca/affiliated-physicians/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787336",
+    "name": "Oxford County CHC (Woodstock And Area Communities Health Centre)",
+    "registry_address": "35 Metcalf Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c050",
+    "source": "https://oxchc.ca/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787638",
+    "name": "Norfolk Family Health Team",
+    "registry_address": "1009 Bay Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c075",
+    "source": "https://norfolkfht.ca/port-rowan-medical-clinic/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787318",
+    "name": "Langs Farm Village Association (North Dumfries CHC)",
+    "registry_address": "2958 Greenfield Road",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c015",
+    "source": "https://www.langs.org/locations-hours",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787748",
+    "name": "Two Rivers Family Health Team Inc.",
+    "registry_address": "350 Conestoga Boulevard",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c100,c101",
+    "source": "https://tworiversfht.ca/contact/contact-us/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787319",
+    "name": "Langs Farm Village Association (Regional Coordination Centre)",
+    "registry_address": "6-150 Pinebush Road",
+    "reviewed_on": "2026-11-12",
+    "outcome": "not_ongoing_office",
+    "finding": "Regional Coordination Centre is not identified as one of the two Langs primary-care clinics.",
+    "source": "https://www.langs.org/"
+  },
+  {
+    "registry_id": "321787403",
+    "name": "Woolwich Community Health Centre (Wellesley Township Community Health Centre)",
+    "registry_address": "1401 QueenSouth Bush Road",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c120",
+    "source": "https://wchc.on.ca/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787129",
+    "name": "Waterloo Region Nurse Practitioner-Led Clinic (Kitchener)",
+    "registry_address": "123 Pioneer Drive",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c046",
+    "source": "https://wrnplc.ca/contact-us/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787731",
+    "name": "Thames Valley Family Health Team",
+    "registry_address": "1385 North Routledge Park",
+    "reviewed_on": "2026-11-12",
+    "outcome": "excluded_administration",
+    "finding": "TVFHT explicitly says its support office is not a medical clinic.",
+    "source": "https://thamesvalleyfht.ca/locations/central-office/"
+  },
+  {
+    "registry_id": "321787628",
+    "name": "New Vision Family Health Team - Dr. Balraj Singh's Clinic",
+    "registry_address": "430 The Boardwalk",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c093",
+    "source": "https://www.newvisionhealth.ca/clinic-hours",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787321",
+    "name": "London Intercommunity Health Centre (Huron Clinic)",
+    "registry_address": "1355 Huron Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c040",
+    "source": "https://lihc.on.ca/locations-and-hours-of-services/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787557",
+    "name": "Happy Valley Family Health Team",
+    "registry_address": "268 Maiden Lane",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c110",
+    "source": "https://happyvalleyfht.ca/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787322",
+    "name": "London Intercommunity Health Centre (Old East Village & Health Outreach Clinic)",
+    "registry_address": "659 Dundas Street East",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c039",
+    "source": "https://lihc.on.ca/locations-and-hours-of-services/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787675",
+    "name": "Primacare Community Family Health Team - St. George Location",
+    "registry_address": "2 Sunnyside Drive",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c108",
+    "source": "https://www.pccfht.ca/contacts/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787485",
+    "name": "Centre For Family Medicine Family Health Team",
+    "registry_address": "250 Laurelwood Drive",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c103",
+    "source": "https://family-medicine.ca/university-gates/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787732",
+    "name": "Thames Valley Family Health Team - Strathroy",
+    "registry_address": "351 Frances Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c086",
+    "source": "https://thamesvalleyfht.ca/locations/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321788827",
+    "name": "Waterloo Region Nurse Practitioner-Led Clinic (Cambridge)",
+    "registry_address": "13 Water Street North",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c044",
+    "source": "https://wrnplc.ca/contact-us/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787674",
+    "name": "Primacare Community Family Health Team",
+    "registry_address": "25 Curtis Street North",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c106",
+    "source": "https://www.pccfht.ca/contacts/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787523",
+    "name": "East Elgin Family Health Team",
+    "registry_address": "424 Talbot Street West",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c054",
+    "source": "https://www.eefht.ca/locations-and-hours/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787301",
+    "name": "Grand River Community Health Centre",
+    "registry_address": "363 Colborne Street",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c001",
+    "source": "https://www.grandriverchc.ca/who-we-are/directory/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321788815",
+    "name": "Ingersoll Nurse Practitioner-Led Clinic",
+    "registry_address": "19 King Street East",
+    "reviewed_on": "2026-11-12",
+    "outcome": "matched_to_reviewed_record",
+    "clinic_ids": "c038",
+    "source": "https://www.ocnplc.ca/patient-information/new-patients/",
+    "finding": "Matched organization/site; current clinic source takes precedence over registry spelling, obsolete name or community label."
+  },
+  {
+    "registry_id": "321787394",
+    "name": "West Elgin Community Health Centre (East Elgin Diabetes Education Program)",
+    "registry_address": "424 Talbot Street West Unit L9",
+    "reviewed_on": "2026-11-12",
+    "outcome": "excluded_specialized_program",
+    "finding": "East Elgin diabetes education program is not a separate family/NP attachment practice; same building already listed.",
+    "source": "https://www.southwesthealthline.ca/displayservice.aspx?id=12899"
+  }
+]

@@ -12,8 +12,10 @@
       "proposed_action": "investigate clinic or intake",
       "within_75km": "not verified",
       "current_intake": "not verified",
-      "review_status": "pending",
-      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+      "review_status": "rejected",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility.",
+      "reviewed_on": "2026-11-12",
+      "reviewer_note": "Headline identifies an out-of-area location (Islington UK, Chatham-Kent, Ramara, Fort Erie) or a general mentoring article, not a supported clinic opening within this directory region."
     },
     {
       "id": "c00ff506389baf8f",
@@ -26,8 +28,10 @@
       "proposed_action": "investigate clinic or intake",
       "within_75km": "not verified",
       "current_intake": "not verified",
-      "review_status": "pending",
-      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+      "review_status": "rejected",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility.",
+      "reviewed_on": "2026-11-12",
+      "reviewer_note": "Headline identifies an out-of-area location (Islington UK, Chatham-Kent, Ramara, Fort Erie) or a general mentoring article, not a supported clinic opening within this directory region."
     },
     {
       "id": "95dc5665bb0c3b8d",
@@ -40,8 +44,10 @@
       "proposed_action": "investigate clinic or intake",
       "within_75km": "not verified",
       "current_intake": "not verified",
-      "review_status": "pending",
-      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+      "review_status": "rejected",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility.",
+      "reviewed_on": "2026-11-12",
+      "reviewer_note": "Headline identifies an out-of-area location (Islington UK, Chatham-Kent, Ramara, Fort Erie) or a general mentoring article, not a supported clinic opening within this directory region."
     },
     {
       "id": "6fef75f721fc185b",
@@ -54,8 +60,10 @@
       "proposed_action": "investigate clinic or intake",
       "within_75km": "not verified",
       "current_intake": "not verified",
-      "review_status": "pending",
-      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+      "review_status": "rejected",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility.",
+      "reviewed_on": "2026-11-12",
+      "reviewer_note": "Headline identifies an out-of-area location (Islington UK, Chatham-Kent, Ramara, Fort Erie) or a general mentoring article, not a supported clinic opening within this directory region."
     },
     {
       "id": "e6f8713478814445",
@@ -68,8 +76,10 @@
       "proposed_action": "investigate clinic or intake",
       "within_75km": "not verified",
       "current_intake": "not verified",
-      "review_status": "pending",
-      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+      "review_status": "rejected",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility.",
+      "reviewed_on": "2026-11-12",
+      "reviewer_note": "Headline identifies an out-of-area location (Islington UK, Chatham-Kent, Ramara, Fort Erie) or a general mentoring article, not a supported clinic opening within this directory region."
     }
   ]
 }

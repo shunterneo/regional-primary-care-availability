@@ -62,7 +62,7 @@ def review(c,day):
     }
 
 def create_report(day=None):
-    day=day or dt.datetime.now(ZoneInfo('America/Toronto')).date()
+    day=day or dt.datetime.now(dt.timezone.utc).date()
     d=load_data();records=[review(c,day) for c in d['clinics']]
     flagged=sum(bool(r['issues']) for r in records)
     critical=[r for r in records if any(z.startswith('CRITICAL:') for z in r['issues'])]

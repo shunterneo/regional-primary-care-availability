@@ -1,3 +1,9 @@
+## Completion pass — 12 November 2026 UTC (supersedes prior counts)
+
+121 records across 33 communities, including 24 additions. Corrected the Joseph Street relocation and Westmount intake; reviewed all 40 government results and exercised actual monitoring. [Read the outcomes and explicit remaining dependencies](audits/completion-audit-2026-11-12.md). No claim of telephone verification or exhaustive coverage.
+
+---
+
 ## Follow-through update — November 11, 2026 (supersedes counts below)
 
 The remaining **47** records without dated individual intake reviews now have source-linked outcomes; **10 intake categories changed**. See [the full record-by-record review](audits/intake-follow-through-2026-11-11.md). All **97** entries now carry a public-review outcome, including unknown or inconclusive outcomes; this does **not** make all 97 verified openings.

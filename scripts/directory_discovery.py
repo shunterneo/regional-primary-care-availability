@@ -68,6 +68,7 @@ def parse_candidates(html, source):
         for tr in soup.select('tr'):
             cells=[canonical(td.get_text(' ',strip=True)) for td in tr.find_all(['td','th'],recursive=False)]
             if not cells or not CARE.search(' '.join(cells)):continue
+            if len(cells)>1 and cells[1].strip().lower()=='address':continue
             name=cells[0];detail=' · '.join(cells[:5])
             if not CARE.search(name) and len(cells)>1:name=cells[1]
             a=tr.find('a',href=True)

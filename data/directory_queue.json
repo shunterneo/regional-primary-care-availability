@@ -14,7 +14,9 @@
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "reviewer_note": "Live runner retrieved a new Baseline/Dr. Gerald Okafor entry, while search index returned an older LDAM list. Provider identity and direct family-practice contact remain uncorroborated; retain lead without publishing an opening."
     },
     {
       "id": "bc8e1e32aca51bcb0f",
@@ -25,11 +27,14 @@
       "source_name": "London & District Academy of Medicine — accepting physicians",
       "excerpt": "Dr. Jeff Spence and Dr. Shizar Goosheh , with experienced Nurse Practitioners. 309-460 Springbank Dr, London ON N6K 0A8. Please contact office@oldsouthfho.com or call 519-858-0013",
       "source_scope": "provider directory; status must be rechecked",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "clinic_ids": "c033",
+      "reviewer_note": "Matched to published individually reviewed record; clinic-specific intake category retained."
     },
     {
       "id": "5b41725350892ea84e",
@@ -40,11 +45,14 @@
       "source_name": "London & District Academy of Medicine — accepting physicians",
       "excerpt": "Viva Medical Clinic , 149 Oxford Street East Phone (226) 667-8488 https://vivamedicalclinic.ca",
       "source_scope": "provider directory; status must be rechecked",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "clinic_ids": "c036",
+      "reviewer_note": "Matched to published individually reviewed record; clinic-specific intake category retained."
     },
     {
       "id": "c225b338880a7994c8",
@@ -55,11 +63,14 @@
       "source_name": "London & District Academy of Medicine — accepting physicians",
       "excerpt": "Dundas Medical Clinic , 1560 Dundast St, Unit 5, London ON, N5W 3C1 548-866-0167 Register Here",
       "source_scope": "provider directory; status must be rechecked",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "clinic_ids": "c031",
+      "reviewer_note": "Matched to published individually reviewed record; clinic-specific intake category retained."
     },
     {
       "id": "f728c89252a2631d51",
@@ -70,11 +81,14 @@
       "source_name": "Doctors4Cambridge — recruitment and accepting directory",
       "excerpt": "Grandview Medical Centre FHT, welcomes two new physicians Dr. Aman Chumber (m) Dr. Zhen Yan Cao (f) · 167 Hespeler Road. · Please click on this link and sign up today!! www.gmcfht.ca/wait-list/ ·",
       "source_scope": "directory entry; verify original clinic intake",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "clinic_ids": "c043",
+      "reviewer_note": "Matched to published individually reviewed record; clinic-specific intake category retained."
     },
     {
       "id": "1b2501c529e3c6aab1",
@@ -85,11 +99,14 @@
       "source_name": "Doctors4Cambridge — recruitment and accepting directory",
       "excerpt": "Langs Community Health Centre (for residents of Cambridge) · 1145 Concession Road · · Please call 519-653-1470 Ext. 343 to register",
       "source_scope": "directory entry; verify original clinic intake",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "clinic_ids": "c023",
+      "reviewer_note": "Matched to published individually reviewed record; clinic-specific intake category retained."
     },
     {
       "id": "c4a85a8764eaf6846a",
@@ -100,11 +117,14 @@
       "source_name": "Doctors4Cambridge — recruitment and accepting directory",
       "excerpt": "Waterloo Region Nurse Practitioner Led Clinic · 13 Water St. N. Cambridge 123 Pioneer Dr., Kitchener 10-10 Townsend Dr., Breslau · www. wrnplc.ca/patient-information ·",
       "source_scope": "directory entry; verify original clinic intake",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "clinic_ids": "c042,c044,c046",
+      "reviewer_note": "Matched to published individually reviewed record; clinic-specific intake category retained."
     },
     {
       "id": "983f1f956bb0160585",
@@ -115,11 +135,14 @@
       "source_name": "Doctors4Cambridge — recruitment and accepting directory",
       "excerpt": "Dr. Martin Schuster · 11 George St. S. Unit #1 , Cambridge · · (519) 740-6437",
       "source_scope": "directory entry; verify original clinic intake",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "clinic_ids": "c098",
+      "reviewer_note": "Matched to published individually reviewed record; clinic-specific intake category retained."
     },
     {
       "id": "d255ed815c2ed13771",
@@ -130,11 +153,14 @@
       "source_name": "Doctors4Cambridge — recruitment and accepting directory",
       "excerpt": "Forbes Park Medical Centre · 26 Forbes Street · · Please visit clinic to pick up application",
       "source_scope": "directory entry; verify original clinic intake",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "clinic_ids": "c099",
+      "reviewer_note": "Matched to published individually reviewed record; clinic-specific intake category retained."
     },
     {
       "id": "c90b3c37fab4641819",
@@ -145,11 +171,14 @@
       "source_name": "Doctors4Cambridge — recruitment and accepting directory",
       "excerpt": "Dr. Isabella Callaghan · Two Rivers FHT – Hespeler Clinic 350 Conestoga Blvd. Unit 12 · www.tworiversfht.ca · To register please call 519-629-4615",
       "source_scope": "directory entry; verify original clinic intake",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "clinic_ids": "c100",
+      "reviewer_note": "Matched to published individually reviewed record; clinic-specific intake category retained."
     },
     {
       "id": "b54d885f1b66334c81",
@@ -160,11 +189,13 @@
       "source_name": "Doctors4Cambridge — recruitment and accepting directory",
       "excerpt": "Walk In Clinic · Address · Telephone · Hours",
       "source_scope": "directory entry; verify original clinic intake",
-      "review_status": "pending",
+      "review_status": "rejected",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "reviewer_note": "Table header, not a clinic. Parser now excludes address-header rows."
     },
     {
       "id": "a4bdd5ed36dd15f44d",
@@ -175,11 +206,13 @@
       "source_name": "Doctors4Cambridge — recruitment and accepting directory",
       "excerpt": "Dr. Binh Van · 600 Hespeler Road, Unit 20B · (519) 267-0216 · Call for hours",
       "source_scope": "directory entry; verify original clinic intake",
-      "review_status": "pending",
+      "review_status": "deferred",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "reviewer_note": "Listed in the walk-in table; ongoing attachment not established. Not promoted into family-doctor openings."
     },
     {
       "id": "65059088eab3fc53d2",
@@ -190,11 +223,13 @@
       "source_name": "Doctors4Cambridge — recruitment and accepting directory",
       "excerpt": "Avalon Medical Clinic · 85 Dundas Street · (519) 624-8716 · Mon. to Fri. 10 a.m. to 4 p.m. Sat. 10 a.m. to 3 p.m.",
       "source_scope": "directory entry; verify original clinic intake",
-      "review_status": "pending",
+      "review_status": "deferred",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-12",
+      "reviewer_note": "Listed in the walk-in table; ongoing attachment not established. Not promoted into family-doctor openings."
     }
   ]
 }

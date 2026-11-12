@@ -21,7 +21,7 @@ from reportlab.lib.units import inch
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
 
-today=datetime.datetime.now(ZoneInfo('America/Toronto')).date()
+today=datetime.datetime.now(datetime.timezone.utc).date()
 quality_summary=write_files()
 site=ROOT/'site'; docs=site/'documents'; docs.mkdir(parents=True,exist_ok=True)
 D=load_data(); archived=[c for c in D['clinics'] if c.get('operating_status') in ('closed','archived')]; clinics=[c for c in D['clinics'] if c.get('operating_status') not in ('closed','archived')]; source_state=json.loads((ROOT/'data'/'source_state.json').read_text()); queue=json.loads((ROOT/'data'/'review_queue.json').read_text()); history=json.loads((ROOT/'data'/'review_history.json').read_text()); discovery=json.loads((ROOT/'data'/'discovery_queue.json').read_text()); discovery_state=json.loads((ROOT/'data'/'discovery_state.json').read_text())
@@ -39,6 +39,7 @@ report={
  'source_urls_monitored':len(source_state['sources']),'pending_source_reviews':len([r for r in queue['items'] if r.get('review_status')=='pending']),
  'pending_new_clinic_leads':len([r for r in discovery['items'] if r.get('review_status')=='pending']),
  'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'),
+ 'source_scan_summary':source_state.get('last_summary',{}),
 }
 (site/'report.json').write_text(json.dumps(report,indent=2)+'\n')
 
@@ -160,6 +161,7 @@ def make_pdf():
     pd.build(story,onFirstPage=footer,onLaterPages=footer);return out
 
 site_json={
+ 'source_scan_summary':source_state.get('last_summary',{}),
  'generated_on':today.isoformat(), 'data_as_of':D['data_as_of'], 'center':D['center'], 'community_coords':CITY_COORDS,
  'counts':dict(counts), 'care_model_counts':report['care_model_counts'], 'archived_count':len(archived), 'queue_count':len([r for r in queue['items'] if r.get('review_status')=='pending']), 'discovery_queue_count':len([r for r in discovery['items'] if r.get('review_status')=='pending']), 'monitored_count':len(source_state['sources']), 'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'), 'change_history':history[-15:][::-1], 'clinics':clinics,
 }
