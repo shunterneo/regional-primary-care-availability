@@ -3185,7 +3185,7 @@
       "clinic_type": "MD",
       "status": "not_accepting",
       "intake_detail": "Clinic FAQ explicitly states it is not accepting new patients. After-hours services are for existing patients; no walk-in appointments. Public webpage checked November 12, 2026.",
-      "phone": "519-641-6712 ext. 3654",
+      "phone": "519-641-6712",
       "providers": "",
       "evidence_url": "https://www.westlondonfhc.com/faqs",
       "clinic_url": "https://www.westlondonfhc.com/",
@@ -3214,7 +3214,6 @@
       "address_verification_source": "https://thamesvalleyfht.ca/locations/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Public office address independently cross-checked; intake not inferred",
-      "phone_note": "Family Health Team inquiries; not direct physician enrolment.",
       "online_review": {
         "reviewed_on": "2026-11-12",
         "finding": "Clinic-owned FAQ explicitly states it is not accepting new patients. After-hours care is for existing patients and walk-ins are not accepted.",

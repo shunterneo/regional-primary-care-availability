@@ -25,7 +25,7 @@
 (()=>{
 const D=JSON.parse(document.getElementById('clinic-data').textContent), C=D.clinics;
 const careLabel={ongoing:'Ongoing family doctor / NP',both:'Family practice + walk-in',walk_in_only:'Walk-in only — not attachment',unverified:'Care model not verified'};
-const label={accepting:'Applications advertised',reported:'Regional listing (confirm)',limited:'Limited intake / eligibility',waitlist:'Waitlist',not_accepting:'Not accepting (reported)',needs_review:'Needs reconfirmation',unknown:'Intake not confirmed'};
+const label={accepting:'Applications advertised',reported:'Regional listing (confirm)',limited:'Limited intake / eligibility',waitlist:'Waitlist',not_accepting:'Not accepting (clinic notice)',needs_review:'Needs reconfirmation',unknown:'Intake not confirmed'};
 const byId=id=>document.getElementById(id); const E=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x};
 let q='',s='all',town='all',care='ongoing',mapMode='towns';
 byId('last').textContent=`Generated ${D.generated_on} · Record data last edited ${D.data_as_of} · Updated records may require telephone confirmation`;

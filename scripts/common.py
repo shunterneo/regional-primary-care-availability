@@ -17,7 +17,7 @@ STATUSES={
  'reported':('Reported by regional source','reported'),
  'limited':('Limited intake / eligibility','limited'),
  'waitlist':('Waitlist / application queue','waitlist'),
- 'not_accepting':('Not accepting (reported)','closed'),
+ 'not_accepting':('Not accepting (clinic notice)','closed'),
  'unknown':('Intake not confirmed','unknown'),
  'needs_review':('Needs reconfirmation','stale'),
 }
