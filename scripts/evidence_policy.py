@@ -63,6 +63,8 @@ def display_intake_status(clinic, today):
 def verification_display(clinic):
     v=clinic.get('intake_verification') or {}
     tier=v.get('tier','unverified')
+    if clinic.get('status')=='unknown' and tier in ('clinic_first_party','program_general'):
+        return 'Public clinic source reviewed; current intake not confirmed'
     return {
         'clinic_first_party':'Clinic-published intake evidence (public-source review only)',
         'program_general':'Program-wide notice; this location not individually confirmed',

@@ -88,3 +88,7 @@ The new TVFHT article was reviewed: [two future clinics in London and Lambeth ar
 - [Live monitoring run and deployment](https://github.com/shunterneo/regional-primary-care-availability/actions/runs/43150063574)
 
 The plan's public-review and technical tasks are complete. External confirmations, exhaustive enumeration, and precise geocoding remain open; this report must not be represented as proof that all regional offices or roster spaces have been verified.
+
+## Final live verification
+
+[Run 43151763614](https://github.com/shunterneo/regional-primary-care-availability/actions/runs/43151763614) passed all seven Python suites and JavaScript checks, regenerated the 122-record site and downloads, and deployed successfully. The live scan retrieved 68 of 89 URLs, recorded 21 failures and queued zero new source changes. Source-change and news queues have no unreviewed items; the uncorroborated Baseline physician lead remains pending and deferred future/walk-in leads remain retained. The PDF has 21 pages; PDF/Word text checks confirmed the relocation, Nith Valley addition and corrected Victoria phone. Unknown records now say public clinic source reviewed, current intake not confirmed.
