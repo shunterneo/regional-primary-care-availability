@@ -11,6 +11,9 @@ PUBLIC='https://example.org/public-intake'
 body1='<html><nav>Menu</nav><h1>New patients</h1><p>We welcome new patient applications. Registration does not guarantee enrollment.</p></html>'
 body2='<html><nav>Menu</nav><h1>New patients</h1><p>We are no longer accepting new applications. Contact reception to confirm.</p></html>'
 assert c.extract(body1)!=c.extract(body2)
+stamp='<p>Physician register AS OF THE DATE AND TIME NOTED BELOW 12/11/26 03:43:27 AM. Family physician practice at 123 Main Street.</p>'
+assert c.extract(stamp)==c.extract(stamp.replace('03:43:27','03:55:20'))
+assert c.extract(stamp)!=c.extract(stamp.replace('123 Main Street','125 Main Street'))
 with tempfile.TemporaryDirectory() as temp:
  t=pathlib.Path(temp); c.state_path=t/'state.json';c.queue_path=t/'queue.json'; c.state={'version':1,'sources':{}};c.queue={'version':1,'items':[]};c.urlmap={PUBLIC:{'clinics':['c001'],'kind':'intake evidence'}}
  with patch.object(c.requests,'get',return_value=Resp(body1)):

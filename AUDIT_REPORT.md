@@ -1,6 +1,6 @@
 ## Completion pass — 12 November 2026 UTC (supersedes prior counts)
 
-121 records across 33 communities, including 24 additions. Corrected the Joseph Street relocation and Westmount intake; reviewed all 40 government results and exercised actual monitoring. [Read the outcomes and explicit remaining dependencies](audits/completion-audit-2026-11-12.md). No claim of telephone verification or exhaustive coverage.
+122 records across 33 communities, including 25 additions. Corrected the Joseph Street relocation and Westmount intake; reviewed all 40 government results and exercised actual monitoring. [Read the outcomes and explicit remaining dependencies](audits/completion-audit-2026-11-12.md). No claim of telephone verification or exhaustive coverage.
 
 ---
 

@@ -229,7 +229,7 @@
   {
     "clinic_id": "c069",
     "name": "Victoria Family Medical Centre",
-    "phone": "519-685-8500 ext. 71263",
+    "phone": "519-433-8424",
     "website": "https://thamesvalleyfht.ca/locations/victoria-family-health-centre-london-health-sciences-centre/",
     "questions": [
       "Does this office currently accept applications for ongoing family physician/NP care? If so, what route and eligibility apply?"
@@ -585,6 +585,17 @@
     "website": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
     "questions": [
       "Is there a public direct intake/office number, or is the published online route the only contact?"
+    ],
+    "status": "requires_external_confirmation",
+    "last_public_review": "2026-11-12"
+  },
+  {
+    "clinic_id": "c122",
+    "name": "Nith Valley Family Practice",
+    "phone": "519-662-1551",
+    "website": "https://www.nvfp.ca/",
+    "questions": [
+      "Does this office currently accept applications for ongoing family physician care? What route and eligibility apply?"
     ],
     "status": "requires_external_confirmation",
     "last_public_review": "2026-11-12"

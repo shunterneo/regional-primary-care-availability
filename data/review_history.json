@@ -1760,5 +1760,25 @@
     "source": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
     "type": "completion_audit",
     "reviewer_note": "Organization accepts roster applications and prioritizes its queue by need. Site assignment is not confirmed. Apply once; the clinic asks applicants not to call for application updates."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c122",
+    "clinic_name": "Nith Valley Family Practice",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.nvfp.ca/",
+    "type": "completion_audit",
+    "reviewer_note": "Clinic confirms its ongoing family practice and contact details. No current new-patient intake statement was found; appointment booking is not proof of acceptance."
+  },
+  {
+    "date": "2026-11-12",
+    "clinic_id": "c069",
+    "clinic_name": "Victoria Family Medical Centre",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://www.lhsc.on.ca/patients-visitors/victoria-family-medical-centre",
+    "type": "contact_correction",
+    "reviewer_note": "Direct Victoria Family Medical Centre number published by LHSC; the previously listed hospital extension was for Family Health Team appointments only."
   }
 ]

@@ -32,6 +32,9 @@ def extract(text):
     # Collapse whitespace and use only meaningful content matching intake vocabulary.
     raw=' '.join(bs.stripped_strings)
     raw=re.sub(r'\s+',' ',raw)
+    # CPSO prints the retrieval clock on every response; it is not a practice change.
+    # Do not remove announcement dates, licence dates, addresses or phone numbers.
+    raw=re.sub(r'(AS OF THE DATE AND TIME NOTED BELOW)\s+\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}:\d{2}\s*[AP]M',r'\1 [retrieval time]',raw,flags=re.I)
     # Sentence boundaries are imperfect but deterministic; enough for an evidence-change alert.
     parts=re.split(r'(?<=[.!?])\s+|(?<=\n)\s*',raw)
     relevant=[p.strip()[:400] for p in parts if TERMS.search(p) and len(p.strip())>12]

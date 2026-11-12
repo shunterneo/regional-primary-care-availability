@@ -195,7 +195,7 @@
       "radius_checked": false,
       "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
       "reviewed_on": "2026-11-12",
-      "reviewer_note": "Table header, not a clinic. Parser now excludes address-header rows."
+      "reviewer_note": "Removal of a previously misparsed table header after parser correction; not a clinic closure."
     },
     {
       "id": "a4bdd5ed36dd15f44d",
@@ -238,11 +238,13 @@
       "url": "https://www.doctors4cambridge.com/contact.htm",
       "source_directory": "cambridge_recruitment",
       "source_name": "Doctors4Cambridge — recruitment and accepting directory",
-      "review_status": "pending",
+      "review_status": "rejected",
       "proposed_action": "Check whether directory listing was removed or renamed",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "Removal from one webpage is NEVER proof that intake closed or that the clinic closed."
+      "note": "Removal from one webpage is NEVER proof that intake closed or that the clinic closed.",
+      "reviewed_on": "2026-11-12",
+      "reviewer_note": "Removal of a previously misparsed table header after parser correction; not a clinic closure."
     }
   ]
 }
