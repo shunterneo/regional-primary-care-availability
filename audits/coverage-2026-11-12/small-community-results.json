@@ -28,9 +28,10 @@
       "excluded": {
         "159345": "Norwich England vascular surgery address, not Norwich Ontario"
       },
-      "additional_locations_pending": [
-        "120674"
-      ]
+      "additional_location_checked": {
+        "120674": "Additional 659 Dundas London is existing c039."
+      },
+      "query_reconciliation_complete": true
     },
     "Aylmer": {
       "all_rows": [
@@ -61,11 +62,12 @@
           "131404"
         ]
       },
-      "additional_locations_pending": [
-        "102350",
-        "131404",
-        "75971"
-      ]
+      "additional_location_checked": {
+        "102350": "Additional St. Marys Memorial Hospital.",
+        "131404": "Additional 424 Talbot W Aylmer, existing c054.",
+        "75971": "Additional 230 First Avenue Suite 105 is named walk-in clinic; not an independent attachment opening."
+      },
+      "query_reconciliation_complete": true
     },
     "Delhi": {
       "all_rows": [
@@ -93,20 +95,421 @@
         ]
       },
       "additional_location_checked": {
-        "141183": "105 Main Street Delhi Community Health Centre, c058"
+        "141183": "105 Main Street Delhi Community Health Centre, c058",
+        "97662": "Additional Extendicare Hamilton long-term-care facility.",
+        "92180": "Additional Norfolk General Hospital.",
+        "62102": "Additional Delhi Long Term Care, 750 Gibralter.",
+        "121409": "Additional Delhi c058 and Norfolk General Hospital.",
+        "122005": "Additional Delhi c058, Port Rowan c075 and Norfolk General Hospital.",
+        "84759": "Additional Delhi c058 and two Hamilton retirement residences."
       },
       "excluded": {
         "133436": "Delhi India address, not Delhi Ontario"
       },
+      "query_reconciliation_complete": true
+    },
+    "Port Rowan": {
+      "all_rows": [
+        "52324",
+        "77325",
+        "122005"
+      ],
+      "existing_offices": {
+        "c075": [
+          "122005"
+        ]
+      },
+      "specialist_excluded": [
+        "52324"
+      ],
+      "address_conflict": {
+        "77325": "Secondary 1035 Bay is retained in CPSO, but county announced FHT departure in March 2023 and clinic\u2019s current address is 1009 Bay. Historical office not added. Current primary office added as c209."
+      },
+      "query_reconciliation_complete": true
+    },
+    "Port Dover": {
+      "all_rows": [
+        "111139",
+        "84220",
+        "55700",
+        "103207",
+        "279095",
+        "88215",
+        "93329",
+        "77325"
+      ],
+      "existing_offices": {
+        "c125": [
+          "111139",
+          "103207",
+          "93329"
+        ],
+        "c126": [
+          "55700"
+        ]
+      },
+      "added_offices": {
+        "c209": [
+          "77325"
+        ],
+        "c210": [
+          "84220"
+        ]
+      },
+      "specialist_excluded": [
+        "279095",
+        "88215"
+      ],
+      "additional_location_checked": {
+        "93329": "West Haldimand, Ross Memorial and Norfolk General hospitals.",
+        "77325": "Historical Port Rowan 1035 Bay secondary address conflict recorded separately."
+      },
+      "query_reconciliation_complete": true
+    },
+    "Waterford": {
+      "all_rows": [
+        "65340",
+        "26928",
+        "65154",
+        "86486"
+      ],
+      "existing_primary_offices": {
+        "c092": [
+          "65340",
+          "65154"
+        ]
+      },
+      "additional_locations_pending": [],
+      "new_office_candidates": [
+        "26928",
+        "86486"
+      ],
+      "pages_retrieved": 1,
+      "query_reconciliation_complete": false
+    },
+    "Burford": {
+      "all_rows": [
+        "60130"
+      ],
+      "existing_primary_offices": {
+        "c133": [
+          "60130"
+        ]
+      },
+      "additional_locations_pending": [],
+      "new_office_candidates": [],
+      "pages_retrieved": 1,
+      "query_reconciliation_complete": true
+    },
+    "Tavistock": {
+      "all_rows": [
+        "98990",
+        "82662",
+        "86333",
+        "107734",
+        "100671",
+        "109021",
+        "111730"
+      ],
+      "existing_primary_offices": {
+        "c088": [
+          "98990",
+          "86333",
+          "107734",
+          "100671",
+          "111730"
+        ],
+        "c083": [
+          "109021"
+        ]
+      },
       "additional_locations_pending": [
-        "97662",
-        "92180",
-        "62102",
-        "121409",
-        "122005",
-        "84759"
+        "109021"
+      ],
+      "new_office_candidates": [],
+      "pages_retrieved": 1,
+      "query_reconciliation_complete": false,
+      "specialist_excluded": [
+        "82662"
+      ]
+    },
+    "Ayr": {
+      "all_rows": [
+        "67872",
+        "90399",
+        "110893",
+        "115257",
+        "79295",
+        "71631",
+        "116150",
+        "116027"
+      ],
+      "existing_primary_offices": {
+        "c015": [
+          "90399",
+          "110893",
+          "115257",
+          "116027"
+        ],
+        "c107": [
+          "116150"
+        ]
+      },
+      "additional_locations_pending": [
+        "67872",
+        "79295",
+        "71631"
+      ],
+      "new_office_candidates": [
+        "67872"
+      ],
+      "pages_retrieved": 1,
+      "query_reconciliation_complete": false
+    },
+    "St George": {
+      "all_rows": [
+        "123592",
+        "53038",
+        "102132",
+        "30161"
+      ],
+      "existing_primary_offices": {
+        "c108": [
+          "123592",
+          "53038",
+          "102132",
+          "30161"
+        ]
+      },
+      "additional_locations_pending": [],
+      "new_office_candidates": [],
+      "pages_retrieved": 1,
+      "query_reconciliation_complete": true
+    },
+    "Dorchester": {
+      "all_rows": [
+        "102159",
+        "29408",
+        "98408",
+        "96271",
+        "96418"
+      ],
+      "existing_primary_offices": {
+        "c129": [
+          "102159",
+          "96271"
+        ],
+        "c130": [
+          "29408"
+        ]
+      },
+      "additional_locations_pending": [
+        "102159"
+      ],
+      "new_office_candidates": [],
+      "pages_retrieved": 1,
+      "query_reconciliation_complete": false,
+      "specialist_excluded": [
+        "96418"
+      ],
+      "excluded": {
+        "98408": "Dorchester Massachusetts address, not Ontario."
+      }
+    },
+    "Thorndale": {
+      "all_rows": [
+        "56465",
+        "112832",
+        "58396"
+      ],
+      "existing_primary_offices": {
+        "c131": [
+          "56465",
+          "112832"
+        ]
+      },
+      "additional_locations_pending": [],
+      "new_office_candidates": [],
+      "pages_retrieved": 1,
+      "query_reconciliation_complete": true,
+      "specialist_excluded": [
+        "58396"
+      ]
+    },
+    "Komoka": {
+      "all_rows": [
+        "60224",
+        "122056",
+        "98460",
+        "109486"
+      ],
+      "existing_primary_offices": {
+        "c150": [
+          "122056",
+          "109486"
+        ]
+      },
+      "additional_locations_pending": [
+        "98460"
+      ],
+      "new_office_candidates": [],
+      "pages_retrieved": 1,
+      "query_reconciliation_complete": false,
+      "specialist_excluded": [
+        "60224"
+      ]
+    },
+    "Lucan": {
+      "all_rows": [
+        "98152",
+        "109391",
+        "87270"
+      ],
+      "existing_primary_offices": {
+        "c151": [
+          "98152",
+          "109391",
+          "87270"
+        ]
+      },
+      "additional_locations_pending": [
+        "109391"
+      ],
+      "new_office_candidates": [],
+      "pages_retrieved": 1,
+      "query_reconciliation_complete": false
+    },
+    "Ilderton": {
+      "all_rows": [
+        "276274",
+        "140920",
+        "89656",
+        "275134",
+        "275178",
+        "86532",
+        "286355",
+        "286356",
+        "106114",
+        "276269",
+        "84539",
+        "109033",
+        "100655",
+        "52667",
+        "84489",
+        "286360",
+        "88639",
+        "158378"
+      ],
+      "existing_primary_offices": {
+        "c059": [
+          "276274",
+          "275134",
+          "275178",
+          "86532",
+          "286355",
+          "286356",
+          "106114",
+          "276269",
+          "84539",
+          "109033",
+          "100655",
+          "286360",
+          "88639",
+          "158378"
+        ],
+        "c072": [
+          "140920"
+        ],
+        "c082": [
+          "84489"
+        ]
+      },
+      "additional_locations_pending": [
+        "140920",
+        "275178",
+        "86532",
+        "106114",
+        "84539",
+        "52667",
+        "84489"
+      ],
+      "new_office_candidates": [
+        "52667"
+      ],
+      "pages_retrieved": 2,
+      "query_reconciliation_complete": false,
+      "specialist_excluded": [
+        "89656"
+      ]
+    },
+    "Ailsa Craig": {
+      "all_rows": [
+        "140920",
+        "101462"
+      ],
+      "existing_primary_offices": {
+        "c051": [
+          "101462"
+        ],
+        "c072": [
+          "140920"
+        ]
+      },
+      "additional_locations_pending": [
+        "140920"
+      ],
+      "new_office_candidates": [],
+      "pages_retrieved": 1,
+      "query_reconciliation_complete": false
+    },
+    "Mount Brydges": {
+      "all_rows": [
+        "140920",
+        "88917",
+        "158335",
+        "158332",
+        "141501",
+        "76049",
+        "120862",
+        "90503",
+        "158405",
+        "74694",
+        "149270",
+        "149294",
+        "103119"
+      ],
+      "existing_primary_offices": {
+        "c072": [
+          "140920",
+          "158335",
+          "158332",
+          "141501",
+          "120862",
+          "90503",
+          "158405",
+          "74694",
+          "149270",
+          "149294",
+          "103119"
+        ]
+      },
+      "additional_locations_pending": [
+        "140920",
+        "158332",
+        "90503",
+        "103119"
+      ],
+      "new_office_candidates": [],
+      "pages_retrieved": 2,
+      "query_reconciliation_complete": false,
+      "specialist_excluded": [
+        "88917",
+        "76049"
       ]
     }
   },
-  "regional_census_complete": false
+  "regional_census_complete": false,
+  "unavailable_city_option": [
+    "Straffordville (not present in city selector; requires another supported geographic filter)"
+  ]
 }

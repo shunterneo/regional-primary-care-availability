@@ -53,8 +53,8 @@ function render(){
  if(c.phone_note)card.append(E('p','details',c.phone_note));
  if(c.clinic_address_verified===false)card.append(E('p','details','Address needs confirmation before travel.'));
  if(c.providers)card.append(E('p','details','Listed clinicians: '+c.providers));
- const sourceLabel=c.evidence_label.startsWith('Clinic-published')?'Clinic registration evidence':c.evidence_label.includes('Program-wide')?'Program / location registration notice':c.evidence_label.includes('Third-party')?'Directory report (not confirmed)':c.display_status==='unknown'?'Clinic listing source':'Source / intake information';
- const links=E('div','itemlinks');for(const pair of [[sourceLabel,c.evidence_url],['New-patient application',c.application_url],['Clinic website',c.clinic_url],['Map point source',c.coordinate_source]])if(pair[1]&&pair[1].startsWith('https://')){const a=E('a','',pair[0]);a.href=pair[1];a.rel='noreferrer noopener';a.target='_blank';links.append(a)}card.append(links);out.append(card)
+ const sourceLabel=(c.evidence_url||'').includes('cpso.on.ca')?'Physician register (location, not intake)':c.evidence_label.startsWith('Clinic-published')?'Clinic registration evidence':c.evidence_label.includes('Program-wide')?'Program / location registration notice':c.evidence_label.includes('Third-party')?'Directory report (not confirmed)':c.display_status==='unknown'?'Clinic listing source':'Source / intake information';
+ const links=E('div','itemlinks');for(const pair of [[sourceLabel,c.evidence_url],['New-patient application',c.application_url],['Clinic website',c.clinic_url],['Physician register',c.professional_register_url!==c.evidence_url?c.professional_register_url:''],['Map point source',c.coordinate_source]])if(pair[1]&&pair[1].startsWith('https://')){const a=E('a','',pair[0]);a.href=pair[1];a.rel='noreferrer noopener';a.target='_blank';links.append(a)}card.append(links);out.append(card)
  }
 }
 function setTown(t){town=t;byId('town').value=t;render();document.getElementById('find').scrollIntoView({behavior:'smooth',block:'start'})}

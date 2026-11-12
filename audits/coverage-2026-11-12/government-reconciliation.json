@@ -269,16 +269,15 @@
       "longitude": -80.370471,
       "distance": 46.1,
       "registry_id": "321787639",
-      "disposition": "represented_in_directory",
-      "clinic_id": "c106",
+      "disposition": "specialized_program_at_shared_building",
       "current_address": "25 Curtis Avenue North, Suite 201",
       "current_community": "Paris",
       "comparison_basis": "Manual reconciliation to previously individually reviewed clinic record; original government address/name can be stale.",
       "sources": [
-        "https://www.pccfht.ca/contacts/",
-        "https://www.pccfht.ca/contacts/"
+        "https://norfolkfht.ca/news/the-norfolk-family-health-team-is-steps-away-in-paris/",
+        "https://norfolkfht.ca/contact/"
       ],
-      "finding": "Government labels Paris address Norfolk FHT; clinic-owned current site identifies PrimaCare. Same site as government 321787674."
+      "finding": "Norfolk FHT Suite 202 is its chronic non-cancer pain management program, distinct from PrimaCare Suite 201. Not an additional general attachment office or duplicate organization."
     },
     {
       "id": "moh-321787316",
