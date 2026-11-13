@@ -170,6 +170,23 @@
         "+ Medically necessary physician services are covered for eligible OHIP patients."
       ],
       "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
+    },
+    {
+      "id": "97a9e7983e03",
+      "detected_at": "2026-11-13T20:29:49+00:00",
+      "url": "https://wharncliffe.medicalsolutionclinic.com/new-patients/",
+      "clinic_ids": [
+        "c200"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "95d3c6458a68542c60edb7eebad45744daf2525cd1fdf31682a162f582baf5de",
+      "new_hash": "1485b1c7fd47712ed19e9d8486e6d580fda9ee3672082c8f534b1f04d20b13c3",
+      "review_status": "pending",
+      "prior_excerpt": "New Patients – Wharncliffe Medical Solutions Clinic | Family Medicine in London, ON New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today Download and fill out the New Patient Registration Form before uploading it as an attachment.\nDownload IMPORTANT NOTICE This website is for patient information and new patient applications only.",
+      "current_excerpt": "New Patients – Wharncliffe Medical Solutions Clinic | Family Medicine in London, ON New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today Download and fill out the New Patient Registration Form before uploading it as an attachment.",
+      "possible_claim": "unclear",
+      "matched_excerpts": [],
+      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
     }
   ]
 }

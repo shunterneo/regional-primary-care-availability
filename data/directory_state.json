@@ -88,8 +88,8 @@
           "scope": "provider directory; status must be rechecked"
         }
       },
-      "last_attempt": "2026-11-12",
-      "last_success": "2026-11-12",
+      "last_attempt": "2026-11-13",
+      "last_success": "2026-11-13",
       "last_error": null,
       "entry_count": 12,
       "fingerprint": "11999b76287525eb3f7e2d3f5feef4a71932668e696b12122bf4903dc1f1b3aa"
@@ -139,8 +139,8 @@
           "scope": "provider directory; status must be rechecked"
         }
       },
-      "last_attempt": "2026-11-12",
-      "last_success": "2026-11-12",
+      "last_attempt": "2026-11-13",
+      "last_success": "2026-11-13",
       "last_error": null,
       "entry_count": 6,
       "fingerprint": "2a9d926eb119f19b9a9f347579b2828b8e3540025addafcaf65dee5762cb3483"
@@ -179,7 +179,7 @@
           "key": "sunilbhatia",
           "title": "Dr. Sunil Bhatia",
           "excerpt": "Dr. Sunil Bhatia · Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge · Please email [email protected] to request a Patient Registration Form ·",
-          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#4b182a2c22252a3c262e2f22282a272827222522280b2c262a2227652824266b",
+          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#590a383e3037382e343c3d303a38353a353037303a193e34383035773a363479",
           "scope": "directory entry; verify original clinic intake"
         },
         "townlinewalkin": {
@@ -260,26 +260,26 @@
           "scope": "directory entry; verify original clinic intake"
         }
       },
-      "last_attempt": "2026-11-12",
-      "last_success": "2026-11-12",
+      "last_attempt": "2026-11-13",
+      "last_success": "2026-11-13",
       "last_error": null,
       "entry_count": 16,
       "fingerprint": "fbeb79bc664a5f4d87df59658a4c0b55166f93d98aed5910435e0095074826da"
     },
     "sw_healthline": {
-      "last_attempt": "2026-11-12",
+      "last_attempt": "2026-11-13",
       "last_error": "unavailable; preserved previous results"
     },
     "woodstock_news": {
-      "last_attempt": "2026-11-12",
+      "last_attempt": "2026-11-13",
       "last_error": "no extractable entries; preserved previous results"
     },
     "oxford_oht": {
-      "last_attempt": "2026-11-12",
+      "last_attempt": "2026-11-13",
       "last_error": "unavailable; preserved previous results"
     }
   },
-  "last_run": "2026-11-12",
+  "last_run": "2026-11-13",
   "last_summary": {
     "sources": 6,
     "success": 3,
