@@ -8,7 +8,7 @@
     "coordinate_source": "https://www.openstreetmap.org/way/564144865",
     "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit"
   },
-  "data_as_of": "2026-11-12",
+  "data_as_of": "2026-11-13",
   "clinics": [
     {
       "id": "c001",
@@ -1543,17 +1543,17 @@
       "address": "11 Base Line Road East, Unit 1",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Clinic family-medicine page advertises new-patient registration. Call 519-204-0361 for the intake process and available physician. No wait duration or guaranteed placement is published; rehabilitation booking is a separate service.",
+      "intake_detail": "Clinic advertises new-patient family-practice registration. Its linked booking page directs new patients to book a Meet & Greet with Dr. Soe or Dr. Kiani; Dr. Goldie Steven is listed for existing patients only. Appointment-slot availability was not checked. A booking or application does not guarantee enrolment. Call 519-204-0361 for clarification.",
       "phone": "519-204-0361",
-      "providers": "",
+      "providers": "Dr. Soe and Dr. Kiani are named for new-patient Meet & Greet bookings; Dr. Goldie Steven is listed for existing patients only.",
       "evidence_url": "https://www.saffronhealth.ca/services/family-medical-centre/",
       "clinic_url": "https://www.saffronhealth.ca/",
       "source_published": "",
-      "last_reviewed": "2026-11-12",
+      "last_reviewed": "2026-11-13",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
-      "notes": "",
-      "review_basis": "Clinic-owned intake page and linked registration route reviewed November 12, 2026. No telephone contact; no guaranteed enrolment.",
+      "notes": "New-patient instructions on the clinic-linked Avaros booking page were reviewed without entering personal information or booking an appointment. Rehabilitation booking is separate.",
+      "review_basis": "Clinic-owned source and relevant linked route reviewed online November 13, 2026. No telephone confirmation; no application or appointment submitted.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.saffronhealth.ca/",
@@ -1561,10 +1561,10 @@
       "intake_verification": {
         "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-13",
         "method": "public_webpage_review",
         "source_url": "https://www.saffronhealth.ca/services/family-medical-centre/",
-        "finding": "Clinic family-medicine page advertises new-patient registration. Call 519-204-0361 for the intake process and available physician. No wait duration or guaranteed placement is published; rehabilitation booking is a separate service.",
+        "finding": "Clinic advertises new-patient family-practice registration. Its linked booking page directs new patients to book a Meet & Greet with Dr. Soe or Dr. Kiani; Dr. Goldie Steven is listed for existing patients only. Appointment-slot availability was not checked. A booking or application does not guarantee enrolment. Call 519-204-0361 for clarification.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -1580,12 +1580,14 @@
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Own family-medicine service page explicitly invites new-patient registration and phone contact; no named physician or current wait duration.",
+        "reviewed_on": "2026-11-13",
+        "finding": "Clinic advertises new-patient family-practice registration. Its linked booking page directs new patients to book a Meet & Greet with Dr. Soe or Dr. Kiani; Dr. Goldie Steven is listed for existing patients only. Appointment-slot availability was not checked. A booking or application does not guarantee enrolment. Call 519-204-0361 for clarification.",
         "sources": [
-          "https://www.saffronhealth.ca/services/family-medical-centre/"
+          "https://www.saffronhealth.ca/services/family-medical-centre/",
+          "https://app.avaros.ca/av/weblink/saffronhealth"
         ]
-      }
+      },
+      "application_url": "https://app.avaros.ca/av/weblink/saffronhealth"
     },
     {
       "id": "c035",
@@ -2165,8 +2167,8 @@
       "community": "Tillsonburg",
       "address": "96 Tillson Avenue",
       "clinic_type": "CHC",
-      "status": "limited",
-      "intake_detail": "Applications: Applications and some new intakes reported open by directory owner, an OCCHC staff member, on November 12, 2026. This is an organization-level report, not a confirmed opening at each site. Call 519-539-1111 for the application/referral route.\nEligibility / service area: Selective intake depends on individual needs, eligibility and capacity; current site-specific criteria require clinic assessment.\nPriorities: The April 2025 quality plan describes selective referrals and enrolment. It provides historical context, not current capacity or a verified current priority order.\nWaiting time: No current wait-time estimate verified. Older 211 closure wording conflicts with the current staff report; acceptance is not guaranteed.",
+      "status": "unknown",
+      "intake_detail": "Current applications, eligibility and capacity at this location have not been independently confirmed from a current public intake notice. Call 519-539-1111 for the application/referral route and site-specific availability. The April 2025 quality plan describes selective primary-care referrals and enrolment, but does not establish current openings or waiting time.",
       "phone": "519-539-1111",
       "providers": "",
       "evidence_url": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
@@ -2175,22 +2177,22 @@
       "last_reviewed": "2026-11-12",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 0,
-      "notes": "Prior 211 closure statement is not treated as definitive current closure. The reporting source is distinct from the historical public document; site-specific eligibility, availability and application route remain to be confirmed.",
-      "review_basis": "Directory-owner report of current applications and limited intake, received 2026-11-12; independently cross-checked against OCCHC’s 2025–26 QIP. No clinic telephone confirmation or current public opening notice.",
+      "notes": "Historical public documents do not establish current site-specific intake. Contact the clinic for current information.",
+      "review_basis": "Public-document context only; current site-specific intake not independently confirmed. No telephone confirmation.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://oxchc.ca/",
       "intake_verification": {
-        "tier": "current_report",
+        "tier": "unverified",
         "scope": "program",
         "reviewed_on": "2026-11-12",
-        "method": "reported_information_with_public_context",
+        "method": "public_document_context_only",
         "source_url": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
-        "finding": "Applications and some new primary-care intakes reported open, subject to eligibility and capacity. Contact OCCHC primary care at 519-539-1111 for the application/referral route and availability at this location. This is an organization-level report, not a confirmed opening at each site. OCCHC’s April 2025 plan documents selective primary-care referrals and enrolment; it does not establish current capacity. Older 211 closure wording conflicts with the current report. Acceptance is not guaranteed.",
+        "finding": "Current applications, eligibility and capacity at this location have not been independently confirmed from a current public intake notice. Call 519-539-1111 for the application/referral route and site-specific availability. The April 2025 quality plan describes selective primary-care referrals and enrolment, but does not establish current openings or waiting time.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false,
         "public_source_date": "2025-04-01",
-        "public_source_role": "Historical corroboration of selective intake, not current capacity"
+        "public_source_role": "Historical description of selective intake, not current capacity"
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
@@ -2203,8 +2205,7 @@
       "longitude": -80.7228,
       "coordinate_source": "https://www.openstreetmap.org/way/564144865",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12",
-      "intake_conflict": true
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c049",
@@ -2250,8 +2251,8 @@
       "community": "Woodstock",
       "address": "35 Metcalf Street",
       "clinic_type": "CHC",
-      "status": "limited",
-      "intake_detail": "Applications: Applications and some new intakes reported open by directory owner, an OCCHC staff member, on November 12, 2026. This is an organization-level report, not a confirmed opening at each site. Call 519-539-1111 for the application/referral route.\nEligibility / service area: Selective intake depends on individual needs, eligibility and capacity; current site-specific criteria require clinic assessment.\nPriorities: The April 2025 quality plan describes selective referrals and enrolment. It provides historical context, not current capacity or a verified current priority order.\nWaiting time: No current wait-time estimate verified. Older 211 closure wording conflicts with the current staff report; acceptance is not guaranteed.",
+      "status": "unknown",
+      "intake_detail": "Current applications, eligibility and capacity at this location have not been independently confirmed from a current public intake notice. Call 519-539-1111 for the application/referral route and site-specific availability. The April 2025 quality plan describes selective primary-care referrals and enrolment, but does not establish current openings or waiting time.",
       "phone": "519-539-1111",
       "providers": "Physician and/or NP program; individual clinician list not audited",
       "evidence_url": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
@@ -2260,22 +2261,22 @@
       "last_reviewed": "2026-11-12",
       "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 30.2,
-      "notes": "Prior 211 closure statement is not treated as definitive current closure. The reporting source is distinct from the historical public document; site-specific eligibility, availability and application route remain to be confirmed.",
-      "review_basis": "Directory-owner report of current applications and limited intake, received 2026-11-12; independently cross-checked against OCCHC’s 2025–26 QIP. No clinic telephone confirmation or current public opening notice.",
+      "notes": "Historical public documents do not establish current site-specific intake. Contact the clinic for current information.",
+      "review_basis": "Public-document context only; current site-specific intake not independently confirmed. No telephone confirmation.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://oxchc.ca/",
       "intake_verification": {
-        "tier": "current_report",
+        "tier": "unverified",
         "scope": "program",
         "reviewed_on": "2026-11-12",
-        "method": "reported_information_with_public_context",
+        "method": "public_document_context_only",
         "source_url": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
-        "finding": "Applications and some new primary-care intakes reported open, subject to eligibility and capacity. Contact OCCHC primary care at 519-539-1111 for the application/referral route and availability at this location. This is an organization-level report, not a confirmed opening at each site. OCCHC’s April 2025 plan documents selective primary-care referrals and enrolment; it does not establish current capacity. Older 211 closure wording conflicts with the current report. Acceptance is not guaranteed.",
+        "finding": "Current applications, eligibility and capacity at this location have not been independently confirmed from a current public intake notice. Call 519-539-1111 for the application/referral route and site-specific availability. The April 2025 quality plan describes selective primary-care referrals and enrolment, but does not establish current openings or waiting time.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false,
         "public_source_date": "2025-04-01",
-        "public_source_role": "Historical corroboration of selective intake, not current capacity"
+        "public_source_role": "Historical description of selective intake, not current capacity"
       },
       "audit_scope": "Public record and source-attribution audit; not a telephone/CPSO census",
       "intake_reviewed_by_phone": false,
@@ -2287,8 +2288,7 @@
       "longitude": -80.756421,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
       "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
-      "auto_updates_enabled": false,
-      "intake_conflict": true
+      "auto_updates_enabled": false
     },
     {
       "id": "c051",
@@ -5106,7 +5106,7 @@
       "care_model_basis": "Named organization identifies primary family physician or nurse practitioner services at this office.",
       "care_model_source": "https://centralchc.com/contact/",
       "source_published": "",
-      "notes": "Linked Microsoft Forms page was opened and its primary-care intake title verified; no personal information was entered.",
+      "notes": "The intake form introduction describes confidential primary-care use, but the platform separately warns that the owner has not supplied a privacy statement. This is a reason to clarify the route, not a finding of a privacy-law breach. No personal information was entered.",
       "clinic_address_verified": true,
       "address_verification_source": "https://centralchc.com/contact/",
       "address_verified_on": "2026-11-12",
@@ -5117,17 +5117,17 @@
       "intake_reviewed_by_phone": false,
       "status": "accepting",
       "evidence_url": "https://centralchc.com/",
-      "intake_detail": "Applications: Clinic advertises client intake and links its Primary Care Services Intake Form; enrolment is not guaranteed.\nEligibility / service area: Serves St. Thomas, Central Elgin and Southwold Township. An OHIP card is not required. Full individual eligibility remains subject to clinic assessment.\nPriorities: The clinic describes reducing barriers to care. The reviewed homepage does not establish a blanket requirement to be low-income or unhoused, or a current priority order.\nWaiting time: No current wait-time estimate verified.",
-      "last_reviewed": "2026-11-12",
-      "review_basis": "Clinic-owned public page reviewed online on 2026-11-12; no telephone contact; application does not guarantee enrolment.",
+      "intake_detail": "Applications: Clinic advertises client intake and links its Primary Care Services Intake Form; enrolment is not guaranteed.\nEligibility / service area: Serves St. Thomas, Central Elgin and Southwold Township. An OHIP card is not required. Full individual eligibility remains subject to clinic assessment.\nPriorities: The clinic describes reducing barriers to care. The reviewed homepage does not establish a blanket requirement to be low-income or unhoused, or a current priority order.\nWaiting time: No current wait-time estimate verified.\nForm privacy caution: The linked Microsoft Forms page displays a notice that its owner has not provided a privacy statement and advises against providing personal or sensitive information. Call 519-633-7989 to clarify the privacy arrangements or request another intake route before submitting.",
+      "last_reviewed": "2026-11-13",
+      "review_basis": "Clinic-owned source and relevant linked route reviewed online November 13, 2026. No telephone confirmation; no application or appointment submitted.",
       "auto_updates_enabled": false,
       "intake_verification": {
         "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-13",
         "method": "public_webpage_review",
         "source_url": "https://centralchc.com/",
-        "finding": "Clinic homepage explicitly announces that it is accepting clients and links a live Central Community Health Centre Primary Care Services Intake Form. Serves St. Thomas, Central Elgin and Southwold Township; submitting the form does not guarantee enrolment.",
+        "finding": "Applications: Clinic advertises client intake and links its Primary Care Services Intake Form; enrolment is not guaranteed.\nEligibility / service area: Serves St. Thomas, Central Elgin and Southwold Township. An OHIP card is not required. Full individual eligibility remains subject to clinic assessment.\nPriorities: The clinic describes reducing barriers to care. The reviewed homepage does not establish a blanket requirement to be low-income or unhoused, or a current priority order.\nWaiting time: No current wait-time estimate verified.\nForm privacy caution: The linked Microsoft Forms page displays a notice that its owner has not provided a privacy statement and advises against providing personal or sensitive information. Call 519-633-7989 to clarify the privacy arrangements or request another intake route before submitting.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -5135,7 +5135,14 @@
       "longitude": -81.1982287,
       "coordinate_source": "https://www.openstreetmap.org/way/772949465",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-13",
+        "finding": "Applications: Clinic advertises client intake and links its Primary Care Services Intake Form; enrolment is not guaranteed.\nEligibility / service area: Serves St. Thomas, Central Elgin and Southwold Township. An OHIP card is not required. Full individual eligibility remains subject to clinic assessment.\nPriorities: The clinic describes reducing barriers to care. The reviewed homepage does not establish a blanket requirement to be low-income or unhoused, or a current priority order.\nWaiting time: No current wait-time estimate verified.\nForm privacy caution: The linked Microsoft Forms page displays a notice that its owner has not provided a privacy statement and advises against providing personal or sensitive information. Call 519-633-7989 to clarify the privacy arrangements or request another intake route before submitting.",
+        "sources": [
+          "https://centralchc.com/"
+        ]
+      }
     },
     {
       "id": "c110",
@@ -5724,7 +5731,7 @@
       "care_model_basis": "Named organization identifies primary family physician or nurse practitioner services at this office.",
       "care_model_source": "https://www.nvfp.ca/",
       "source_published": "",
-      "notes": "",
+      "notes": "Waitlist closure is narrower than a verified closure of all practice intake. Status remains unknown for broader physician intake.",
       "clinic_address_verified": true,
       "address_verification_source": "https://www.nvfp.ca/",
       "address_verified_on": "2026-11-12",
@@ -5734,30 +5741,28 @@
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
       "status": "unknown",
-      "evidence_url": "https://www.nvfp.ca/",
-      "intake_detail": "Clinic confirms its ongoing family practice and contact details. No current new-patient intake statement was found; appointment booking is not proof of acceptance.",
-      "last_reviewed": "2026-11-12",
-      "review_basis": "Individual public-source review; no telephone confirmation or guaranteed attachment.",
+      "evidence_url": "https://www.nvfp.ca/news",
+      "intake_detail": "The clinic News page says its waitlist is currently closed; the dedicated waitlist page specifically names Dr. Hooper. A broader statement that every physician's new-patient intake is closed was not established. Call 519-662-1551 for clarification. This is not an open waitlist.",
+      "last_reviewed": "2026-11-13",
+      "review_basis": "Clinic-owned source and relevant linked route reviewed online November 13, 2026. No telephone confirmation; no application or appointment submitted.",
       "auto_updates_enabled": false,
       "intake_verification": {
         "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-13",
         "method": "public_webpage_review",
-        "source_url": "https://www.nvfp.ca/",
-        "finding": "Clinic confirms its ongoing family practice and contact details. No current new-patient intake statement was found; appointment booking is not proof of acceptance.",
+        "source_url": "https://www.nvfp.ca/news",
+        "finding": "The clinic News page says its waitlist is currently closed; the dedicated waitlist page specifically names Dr. Hooper. A broader statement that every physician's new-patient intake is closed was not established. Call 519-662-1551 for clarification. This is not an open waitlist.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Official practice site confirms service/contact details, no new-patient invitation located. Generic commercial directory accepting badges were not treated as verification.",
+        "reviewed_on": "2026-11-13",
+        "finding": "The clinic News page says its waitlist is currently closed; the dedicated waitlist page specifically names Dr. Hooper. A broader statement that every physician's new-patient intake is closed was not established. Call 519-662-1551 for clarification. This is not an open waitlist.",
         "sources": [
-          "https://www.nvfp.ca/"
+          "https://www.nvfp.ca/news"
         ]
-      },
-      "uncertainty_reason": "no_current_statement",
-      "uncertainty_label": "No current office-specific intake established"
+      }
     },
     {
       "id": "c123",
@@ -8145,15 +8150,15 @@
       "phone": "519-963-1875",
       "providers": "",
       "clinic_type": "MD",
-      "status": "unknown",
+      "status": "not_accepting",
       "care_model": "ongoing",
-      "intake_detail": "Healthline lists registered-patient appointments only; this does not establish whether applications are closed. CPSO now places Dr. Natalie Lovesey here, superseding the university profile at Nixon. Clinic website could not be retrieved; intake remains unknown.",
+      "intake_detail": "The clinic's own website states that none of its physicians are currently accepting new patients. It directs people seeking a doctor or nurse practitioner to Health Care Connect, a centralized matching service, not a Core clinic waitlist. Public-source review only; no telephone confirmation.",
       "clinic_url": "https://www.corefamilyhealth.com",
       "evidence_url": "https://www.corefamilyhealth.com",
       "source_published": "",
-      "last_reviewed": "2026-11-12",
-      "notes": "",
-      "review_basis": "Public-source office and intake review; no telephone confirmation.",
+      "last_reviewed": "2026-11-13",
+      "notes": "Clinic website was retrieved successfully; previous source-inaccessible wording has been superseded.",
+      "review_basis": "Clinic-owned source and relevant linked route reviewed online November 13, 2026. No telephone confirmation; no application or appointment submitted.",
       "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
       "care_model_source": "https://www.corefamilyhealth.com",
       "clinic_address_verified": true,
@@ -8163,27 +8168,23 @@
       "auto_updates_enabled": false,
       "location_quality": "Approximate community point; not an address-matched clinic coordinate.",
       "intake_verification": {
-        "tier": "conflicting_or_unconfirmed",
+        "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-13",
         "method": "public_webpage_review",
         "source_url": "https://www.corefamilyhealth.com",
-        "finding": "Healthline lists registered-patient appointments only; this does not establish whether applications are closed. CPSO now places Dr. Natalie Lovesey here, superseding the university profile at Nixon. Clinic website could not be retrieved; intake remains unknown.",
+        "finding": "The clinic's own website states that none of its physicians are currently accepting new patients. It directs people seeking a doctor or nurse practitioner to Health Care Connect, a centralized matching service, not a Core clinic waitlist. Public-source review only; no telephone confirmation.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
       "community_distance_km": 44.6,
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Healthline lists registered-patient appointments only; this does not establish whether applications are closed. CPSO now places Dr. Natalie Lovesey here, superseding the university profile at Nixon. Clinic website could not be retrieved; intake remains unknown.",
+        "reviewed_on": "2026-11-13",
+        "finding": "The clinic's own website states that none of its physicians are currently accepting new patients. It directs people seeking a doctor or nurse practitioner to Health Care Connect, a centralized matching service, not a Core clinic waitlist. Public-source review only; no telephone confirmation.",
         "sources": [
-          "https://southwesthealthline.ca/displayService.aspx?id=179278",
-          "https://register.cpso.on.ca/physician-info/?cpsonum=86465",
-          "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/38/ug"
+          "https://www.corefamilyhealth.com"
         ]
-      },
-      "uncertainty_reason": "no_current_statement",
-      "uncertainty_label": "No current office-specific intake established"
+      }
     },
     {
       "id": "c172",
