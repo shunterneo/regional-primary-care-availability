@@ -75,6 +75,7 @@ jobs:
       - name: Run offline functional, privacy and evidence tests
         run: |
           python tests/reliability_test.py
+          python tests/live_publication_test.py
           node tests/freshness_test.cjs
           python tests/monitor_fixture_test.py
           python tests/source_recovery_test.py
