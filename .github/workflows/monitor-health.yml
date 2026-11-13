@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   issues: write
 concurrency:
   group: source-monitor-heartbeat
@@ -22,27 +23,38 @@ jobs:
         id: health
         continue-on-error: true
         run: python scripts/monitor_health.py > /tmp/source-health.json
+      - name: Check actual daily scheduled execution
+        id: schedule
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/actions/workflows/daily-site.yml/runs?event=schedule&per_page=100" > /tmp/daily-runs.json
+          python scripts/check_schedule.py /tmp/daily-runs.json > /tmp/schedule-health.json
       - name: Preserve monitor health result
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: source-monitor-health-${{ github.run_id }}-${{ github.run_attempt }}
-          path: /tmp/source-health.json
+          path: |
+            /tmp/source-health.json
+            /tmp/schedule-health.json
           retention-days: 14
           if-no-files-found: warn
       - name: Maintain one actionable monitor-health issue
         env:
           GH_TOKEN: ${{ github.token }}
           HEALTH_OUTCOME: ${{ steps.health.outcome }}
+          SCHEDULE_OUTCOME: ${{ steps.schedule.outcome }}
         run: |
           title='Source monitoring needs attention'
           number=$(gh issue list --state open --search "$title in:title" --json number,title --jq '.[] | select(.title=="Source monitoring needs attention") | .number' | head -1)
-          if [ "$HEALTH_OUTCOME" = failure ]; then
-            { echo 'Source monitoring is incomplete. A successful site deployment is not a successful source check.'; echo; cat /tmp/source-health.json; } > /tmp/source-health-body.txt
+          if [ "$HEALTH_OUTCOME" = failure ] || [ "$SCHEDULE_OUTCOME" = failure ]; then
+            { echo 'Source monitoring is incomplete. A successful site deployment is not a successful source check.'; echo; cat /tmp/source-health.json; echo; cat /tmp/schedule-health.json || echo 'Scheduled-run verification failed before a result was produced; check job logs.'; } > /tmp/source-health-body.txt
             if [ -n "$number" ]; then gh issue edit "$number" --body-file /tmp/source-health-body.txt; else gh issue create --title "$title" --body-file /tmp/source-health-body.txt; fi
           elif [ -n "$number" ]; then
-            gh issue close "$number" --comment 'Current evidence URLs have been scanned without latest-attempt errors, and the source heartbeat is within 36 hours. This is monitoring health, not clinical/intake verification.'
+            gh issue close "$number" --comment 'Source coverage and scheduled-run checks currently pass (schedule uses a 2-hour grace period); inspect artifacts for details. This is monitoring health, not clinical/intake verification.'
           fi
       - name: Fail the health check visibly when monitoring is incomplete
-        if: steps.health.outcome == 'failure'
+        if: steps.health.outcome == 'failure' || steps.schedule.outcome == 'failure'
         run: exit 1

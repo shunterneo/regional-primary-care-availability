@@ -1,5 +1,7 @@
 """Public-source heartbeat; independent of deployment success and intake certainty."""
 import datetime as dt, json
+from collections import Counter
+from urllib.parse import urlsplit
 from common import ROOT
 
 def assess(db, state, now):
@@ -23,6 +25,8 @@ def assess(db, state, now):
     if failed:problems.append(f'{len(failed)} current evidence URLs failed their latest attempt')
     return {'checked_at':now.isoformat(),'last_source_scan':state.get('last_run'),
       'scan_age_hours':round(age,2) if age is not None else None,'expected_evidence_urls':len(expected),
+      'failed_by_domain':dict(Counter(urlsplit(u).netloc for u in failed)),
+      'failed_sources':[{'url':u,'category':sources[u].get('error_category','unclassified'),'error':sources[u].get('last_error')} for u in sorted(failed)],
       'unscanned_count':len(missing),'stale_source_count':len(stale),'failed_count':len(failed),'healthy':not problems,'problems':problems}
 
 def current():

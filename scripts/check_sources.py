@@ -7,7 +7,8 @@ unverified claims about new openings or closures.
 """
 from __future__ import annotations
 import concurrent.futures, datetime, hashlib, html, json, re, pathlib, sys, time
-import requests
+import requests, io
+from pypdf import PdfReader
 from bs4 import BeautifulSoup
 from common import ROOT,load_data,is_url
 from intake_evidence import classify
@@ -31,6 +32,9 @@ def extract(text):
     for bad in bs(['script','style','noscript','svg','header','footer','nav','form']):bad.decompose()
     # Collapse whitespace and use only meaningful content matching intake vocabulary.
     raw=' '.join(bs.stripped_strings)
+    return extract_plain(raw)
+
+def extract_plain(raw):
     raw=re.sub(r'\s+',' ',raw)
     # CPSO prints the retrieval clock on every response; it is not a practice change.
     # Do not remove announcement dates, licence dates, addresses or phone numbers.
@@ -54,19 +58,54 @@ def usable_page(text):
     if len(plain)<500 and re.search(shell,plain,re.I):return False
     return True
 
+def error_category(exc):
+    if isinstance(exc,requests.exceptions.SSLError):return 'tls_error'
+    if isinstance(exc,(requests.Timeout,requests.ConnectionError)):return 'transient_network'
+    if isinstance(exc,requests.HTTPError):
+        code=getattr(exc.response,'status_code',None)
+        if code in (401,403):return 'blocked_access'
+        if code == 429 or code in (500,502,503,504):return 'transient_http'
+        return 'http_error'
+    if 'challenge or login' in str(exc):return 'blocked_page'
+    return 'unsupported_or_invalid_content'
+
+def request_source(url):
+    # Retry only transient failures. Never evade access controls or disable TLS.
+    for attempt in range(3):
+        try:
+            res=requests.get(url,headers={'User-Agent':USER_AGENT,'Accept':'text/html, application/pdf'},timeout=(7,16),allow_redirects=True)
+            res.raise_for_status()
+            return res
+        except Exception as exc:
+            if attempt == 2 or error_category(exc) not in ('transient_network','transient_http'):raise
+            # Respect long server retry windows by leaving this source for a later run.
+            retry_after=getattr(getattr(exc,'response',None),'headers',{}).get('Retry-After','')
+            if retry_after:
+                try:
+                    if float(retry_after)>10:raise exc
+                except ValueError:raise exc
+            time.sleep(max(2**attempt,float(retry_after or 0)))
+
 def fetch_one(pair):
     url, meta=pair
     try:
-        res=requests.get(url,headers={'User-Agent':USER_AGENT,'Accept':'text/html'},timeout=(7,16),allow_redirects=True)
-        res.raise_for_status()
-        if 'html' not in res.headers.get('Content-Type','text/html').lower():raise ValueError('Response is not HTML')
+        res=request_source(url)
         if len(res.content)>4_000_000:raise ValueError('Page too large')
-        if not usable_page(res.text):raise ValueError('Unusable source: empty, challenge or login page')
-        body=extract(res.text)
+        content_type=res.headers.get('Content-Type','text/html').lower()
+        is_pdf='application/pdf' in content_type
+        if is_pdf:
+            reader=PdfReader(io.BytesIO(res.content))
+            if reader.is_encrypted:raise ValueError('Encrypted PDF')
+            if len(reader.pages)>100:raise ValueError('PDF too long')
+            body=extract_plain(' '.join(page.extract_text() or '' for page in reader.pages))
+        elif 'html' in content_type:
+            if not usable_page(res.text):raise ValueError('Unusable source: empty, challenge or login page')
+            body=extract(res.text)
+        else:raise ValueError('Response is not HTML or PDF')
         if not body.strip():raise ValueError('No matching text')
-        return url,{'hash':hashlib.sha256(body.encode()).hexdigest(),'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':decisive_statement(body)}
+        return url,{'hash':hashlib.sha256(body.encode()).hexdigest(),'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':None if is_pdf else decisive_statement(body), 'format':'pdf' if is_pdf else 'html'}
     except Exception as exc:
-        return url,{'hash':None,'error':str(exc)[:180]}
+        return url,{'hash':None,'error':str(exc)[:180], 'error_category':error_category(exc)}
 
 def run():
     now=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
@@ -78,7 +117,7 @@ def run():
             prev=state['sources'].get(url,{})
             if result['error']:
                 failed+=1
-                state['sources'][url]={**prev,'last_attempt':now,'last_error':result['error'],'auto_observation':{}}
+                state['sources'][url]={**prev,'last_attempt':now,'last_error':result['error'],'error_category':result['error_category'],'auto_observation':{}}
                 continue
             ok+=1
             newhash=result['hash'];oldhash=prev.get('hash')
@@ -89,7 +128,7 @@ def run():
             observation=observe(prior_obs,result['explicit_candidate'] if verified else None,now)
             state['sources'][url]={**prev,'hash':newhash,'excerpt':result['excerpt'][:1400],
               'possible_claim':result['assessment']['classification'],'last_attempt':now,'last_success':now,
-              'last_error':None,'official_first_party':verified,'auto_observation':observation}
+              'last_error':None,'error_category':None,'format':result['format'],'official_first_party':verified,'auto_observation':observation}
             if not oldhash:
                 baseline+=1;continue
             if oldhash!=newhash and (url,newhash) not in pending_ids:

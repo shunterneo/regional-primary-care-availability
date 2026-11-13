@@ -21,6 +21,10 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
+      - name: Validate source recovery safeguards
+        run: |
+          python tests/source_recovery_test.py
+          python tests/schedule_watchdog_test.py
       - name: Check public sources without automatic intake publication
         run: python scripts/check_sources.py
       - name: Verify scan did not change clinic records
