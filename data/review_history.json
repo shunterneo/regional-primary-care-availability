@@ -803,16 +803,6 @@
   },
   {
     "date": "2026-11-11",
-    "clinic_id": "c048",
-    "clinic_name": "Oxford County Community Health Centre — Tillsonburg",
-    "old_status": "not_accepting",
-    "new_status": "unknown",
-    "source": "https://211ontario.ca/service/95081079/oxford-county-community-health-centre-oxford-county-community-health-centre/",
-    "type": "individual_public_source_review",
-    "reviewer_note": "211 reports no new primary-care intake, but this Tillsonburg entry is dated July 11, 2025. Current clinic page does not resolve current intake. Contact primary care at 519-539-1111."
-  },
-  {
-    "date": "2026-11-11",
     "clinic_id": "c049",
     "clinic_name": "Dr. Frank Ferlisi family practice",
     "old_status": "not_accepting",
@@ -820,16 +810,6 @@
     "source": "https://primemedical.ca/",
     "type": "individual_public_source_review",
     "reviewer_note": "Practice website says capacity is full and patients are no longer being accepted from its waitlist."
-  },
-  {
-    "date": "2026-11-11",
-    "clinic_id": "c050",
-    "clinic_name": "Oxford County Community Health Centre — Woodstock",
-    "old_status": "not_accepting",
-    "new_status": "not_accepting",
-    "source": "https://211ontario.ca/service/95081080/oxford-county-community-health-centre-oxford-county-community-health-centre/",
-    "type": "individual_public_source_review",
-    "reviewer_note": "211 Woodstock listing, updated August 28, 2026, reports no new primary-care clients. Clinic medical-care page gives no newer intake decision."
   },
   {
     "date": "2026-11-11",
@@ -1373,16 +1353,6 @@
   },
   {
     "date": "2026-11-12",
-    "clinic_id": "c050",
-    "clinic_name": "Oxford County Community Health Centre — Woodstock",
-    "old_status": "not_accepting",
-    "new_status": "not_accepting",
-    "source": "https://211ontario.ca/service/95081080/oxford-county-community-health-centre-oxford-county-community-health-centre/",
-    "type": "completion_audit",
-    "reviewer_note": "211 Woodstock listing, updated August 28, 2026, reports no new primary-care clients. Clinic medical-care page gives no newer intake decision."
-  },
-  {
-    "date": "2026-11-12",
     "clinic_id": "c054",
     "clinic_name": "East Elgin Family Health Team — Aylmer",
     "old_status": "unknown",
@@ -1791,26 +1761,6 @@
   },
   {
     "date": "2026-11-12",
-    "clinic_id": "c048",
-    "clinic_name": "Oxford County Community Health Centre — Tillsonburg",
-    "old_status": "unknown",
-    "new_status": "limited",
-    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
-    "type": "reported_intake_correction",
-    "reviewer_note": "Directory-owner report of current applications and limited intake, received 2026-11-12; independently cross-checked against OCCHC’s 2025–26 QIP. No clinic telephone confirmation or current public opening notice."
-  },
-  {
-    "date": "2026-11-12",
-    "clinic_id": "c050",
-    "clinic_name": "Oxford County Community Health Centre — Woodstock",
-    "old_status": "not_accepting",
-    "new_status": "limited",
-    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
-    "type": "reported_intake_correction",
-    "reviewer_note": "Directory-owner report of current applications and limited intake, received 2026-11-12; independently cross-checked against OCCHC’s 2025–26 QIP. No clinic telephone confirmation or current public opening notice."
-  },
-  {
-    "date": "2026-11-12",
     "clinic_id": "c032",
     "old_status": "reported",
     "new_status": "not_accepting",
@@ -2072,26 +2022,6 @@
     "old_status": "limited",
     "new_status": "limited",
     "source": "https://lihc.on.ca/programs-services/primary-care/",
-    "type": "access_context_clarified",
-    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
-  },
-  {
-    "date": "2026-11-12",
-    "clinic_id": "c048",
-    "clinic_name": "Oxford County Community Health Centre — Tillsonburg",
-    "old_status": "limited",
-    "new_status": "limited",
-    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
-    "type": "access_context_clarified",
-    "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
-  },
-  {
-    "date": "2026-11-12",
-    "clinic_id": "c050",
-    "clinic_name": "Oxford County Community Health Centre — Woodstock",
-    "old_status": "limited",
-    "new_status": "limited",
-    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
     "type": "access_context_clarified",
     "reviewer_note": "Separated application availability, eligibility/service area, priorities and waiting time. No status change or inference of unrestricted access."
   },
@@ -2901,26 +2831,6 @@
     "new_status": "unknown",
     "source": "https://www.nvfp.ca/news",
     "summary": "Clarified closed-waitlist notice; it does not establish that every physician's intake is closed. Overall intake remains unconfirmed.",
-    "reviewer_note": "History entry records the already-published November 13 correction. Public-source review or record correction only; not telephone-confirmed.",
-    "type": "record_correction"
-  },
-  {
-    "date": "2026-11-13",
-    "clinic_id": "c048",
-    "old_status": "unknown",
-    "new_status": "unknown",
-    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
-    "summary": "Record correction: removed unsupported details. Current intake, eligibility and capacity remain unconfirmed; the 2025 quality plan is historical, not evidence of current openings.",
-    "reviewer_note": "History entry records the already-published November 13 correction. Public-source review or record correction only; not telephone-confirmed.",
-    "type": "record_correction"
-  },
-  {
-    "date": "2026-11-13",
-    "clinic_id": "c050",
-    "old_status": "unknown",
-    "new_status": "unknown",
-    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
-    "summary": "Record correction: removed unsupported details. Current intake, eligibility and capacity remain unconfirmed; the 2025 quality plan is historical, not evidence of current openings.",
     "reviewer_note": "History entry records the already-published November 13 correction. Public-source review or record correction only; not telephone-confirmed.",
     "type": "record_correction"
   }
