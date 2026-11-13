@@ -133,6 +133,43 @@
       "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically.",
       "reviewed_on": "2026-11-12",
       "reviewer_note": "Retained excerpts differ in retrieval timestamp; no current intake evidence. Status preserved. Retrieval clock normalization added; establish a new normalized baseline next run."
+    },
+    {
+      "id": "8d7093bfcacd",
+      "detected_at": "2026-11-13T13:52:14+00:00",
+      "url": "https://wharnox.medicalsolutionclinic.com/new-patients/",
+      "clinic_ids": [
+        "c199"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "d902391a24e59bcab54c5a9cb6096281bc301b9c6eca46a768abd59af4c05b2c",
+      "new_hash": "aa4f9f56d843d3165578552e5347c3535776a2bf8d6214863c3b0badefc25a39",
+      "review_status": "pending",
+      "prior_excerpt": "New Patients – Wharnox Medical Solutions Clinic New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today We welcome inquiries from new patients.\nPlease contact our office to learn about availability and registration requirements.",
+      "current_excerpt": "New Patients – Wharnox Medical Solutions Clinic New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today We welcome inquiries from new patients.\nPlease contact our office to learn about availability and registration requirements.\nDownload IMPORTANT NOTICE This website is for patient information and new patient applications only.",
+      "possible_claim": "unclear",
+      "matched_excerpts": [],
+      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
+    },
+    {
+      "id": "8d26090c1e9c",
+      "detected_at": "2026-11-13T13:52:14+00:00",
+      "url": "https://kamvamedical.ca/highbury-medical-clinic/",
+      "clinic_ids": [
+        "c208"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "16a718ede4312d899baa567d1206da2a5a7a7655a6e0a4c7cdc80d9e94c266ac",
+      "new_hash": "61932c34c7bae9bf548e52a4581e1916a594c576ec27b6fe4bef6cde5a499959",
+      "review_status": "pending",
+      "prior_excerpt": "Highbury Medical Clinic | Walk-In, Family Doctor & ALUMO Skip to content HIGHBURY MEDICAL CLINIC Walk-In Clinic in London, Ontario Care for everyday illnesses, minor injuries and ear cleaning right here at Highbury Medical Clinic.\nFirst-come, first-served, subject to capacity.\nSpecialist Referrals A physician can assess your concerns and make a specialist referral when appropriate.\nFAMILY PRACTICE A family doctor.\nSaadiyah Rao is accepting new patients for her family practice.\nComplete the intake form and drop it off in person at the clinic.\nPatient Intake Form Please bring your completed form to the clinic.\nBY REFERRAL & APPOINTMENT Cervical screening with a female physician.\nYour family doctor or a walk-in physician can send a referral.\nDirect billing is available for accepted plans, including ALUMO student medical insurance , after verification.\nView accepted plans and payment informa",
+      "current_excerpt": "Highbury Medical Clinic | Walk-In, Family Doctor & ALUMO Skip to content HIGHBURY MEDICAL CLINIC Walk-In Clinic in London, Ontario Care for everyday illnesses, minor injuries and ear cleaning right here at Highbury Medical Clinic.\nFirst-come, first-served, subject to capacity.\nSpecialist Referrals A physician can assess your concerns and make a specialist referral when appropriate.\nFAMILY PRACTICE A family doctor.\nSaadiyah Rao is accepting new patients for her family practice.\nComplete the intake form and drop it off in person at the clinic.\nDownload Intake PDF Family practice intake instructions BY REFERRAL & APPOINTMENT Cervical screening with a female physician.\nYour family doctor or a walk-in physician can send a referral.\nDirect billing is available for accepted plans, including ALUMO student medical insurance , after verification.\nView accepted plans and payment information .\nPatients are seen first-come, first-served, subject to capacity.\n+ Medically necessary physician services are covered for eligible OHIP patients.\nAccepted insurance plans are subject to verification.",
+      "possible_claim": "conflicting_or_conditional",
+      "matched_excerpts": [
+        "Saadiyah Rao is accepting new patients for her family practice.",
+        "+ Medically necessary physician services are covered for eligible OHIP patients."
+      ],
+      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
     }
   ]
 }
