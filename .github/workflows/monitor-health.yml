@@ -12,6 +12,7 @@ concurrency:
 jobs:
   heartbeat:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,6 +22,14 @@ jobs:
         id: health
         continue-on-error: true
         run: python scripts/monitor_health.py > /tmp/source-health.json
+      - name: Preserve monitor health result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-monitor-health-${{ github.run_id }}-${{ github.run_attempt }}
+          path: /tmp/source-health.json
+          retention-days: 14
+          if-no-files-found: warn
       - name: Maintain one actionable monitor-health issue
         env:
           GH_TOKEN: ${{ github.token }}

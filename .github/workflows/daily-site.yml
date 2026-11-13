@@ -34,6 +34,7 @@ concurrency:
 jobs:
   research-and-publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -115,6 +116,31 @@ jobs:
             git commit -m 'Record verified public-source changes and research leads'
             git push
           fi
+      - name: Preserve source-check diagnostics even when later steps fail
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-check-evidence-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 14
+          if-no-files-found: warn
+          path: |
+            data/source_state.json
+            data/discovery_state.json
+            data/directory_state.json
+            data/official_registry_state.json
+            data/review_queue.json
+            data/discovery_queue.json
+            data/directory_queue.json
+      - name: Record trigger and actual source coverage
+        if: always()
+        env:
+          RUN_EVENT: ${{ github.event_name }}
+        run: |
+          echo "## Run trigger: $RUN_EVENT" >> "$GITHUB_STEP_SUMMARY"
+          echo 'Deployment success is not a successful source check or verified intake.' >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          python scripts/monitor_health.py >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

@@ -1,0 +1,54 @@
+name: Recover source checks (no intake publication)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/source-recovery.yml']
+permissions:
+  contents: write
+concurrency:
+  group: public-primary-care-site
+  cancel-in-progress: false
+jobs:
+  source-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Check public sources without automatic intake publication
+        run: python scripts/check_sources.py
+      - name: Verify scan did not change clinic records
+        run: git diff --exit-code -- data/clinics.json data/review_history.json
+      - name: Save scan state and review proposals only
+        run: |
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git add data/source_state.json data/review_queue.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record source recovery checks without changing clinic intake'
+            git push
+          fi
+      - name: Show remaining coverage gaps
+        if: always()
+        run: |
+          echo 'Source recovery only: no intake publication or site deployment.' >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          python scripts/monitor_health.py > /tmp/source-health.json || true
+          cat /tmp/source-health.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve scan evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 14
+          path: |
+            data/source_state.json
+            data/review_queue.json
+            /tmp/source-health.json
