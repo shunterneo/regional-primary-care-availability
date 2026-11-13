@@ -11,7 +11,6 @@ import pathlib
 import re
 import sys
 import time
-from html import unescape
 from urllib.parse import urljoin
 
 import requests
@@ -28,7 +27,7 @@ def verify(base_url, site_dir, session=requests, attempts=6, pause=15):
     match = re.search(r'<script id="clinic-data" type="application/json">(.*?)</script>', index, re.S)
     if not match:
         raise ValueError("Built website lacks embedded clinic-data JSON")
-    embedded = json.loads(unescape(match.group(1)))
+    embedded = json.loads(match.group(1))
     count = len(embedded["clinics"])
     if count != report["count"]:
         raise ValueError(f"Local site/report count mismatch: {count} vs {report['count']}")
