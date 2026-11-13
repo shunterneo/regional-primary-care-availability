@@ -2863,5 +2863,65 @@
     "source": "https://elmdalehealth.com/",
     "reviewer_note": "Elmdale’s website advertises a family physician accepting new patients. Apply online if you are not registered with another family physician in Elgin County. Registration is online only; do not visit the building to register. The office will contact applicants. Acceptance is not guaranteed. This application is separate from TMC+.",
     "type": "individual_public_source_audit"
+  },
+  {
+    "date": "2026-11-13",
+    "clinic_id": "c034",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://www.saffronhealth.ca/services/family-medical-centre/",
+    "summary": "Clinic booking page distinguishes new-patient Meet & Greet with Dr. Soe or Dr. Kiani from existing-patient bookings with Dr. Goldie Steven. Appointment availability not checked.",
+    "reviewer_note": "History entry records the already-published November 13 correction. Public-source review or record correction only; not telephone-confirmed.",
+    "type": "record_correction"
+  },
+  {
+    "date": "2026-11-13",
+    "clinic_id": "c109",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://centralchc.com/",
+    "summary": "Added intake-form privacy caution: call the clinic before submitting personal information because the linked form says its owner has not provided a privacy statement.",
+    "reviewer_note": "History entry records the already-published November 13 correction. Public-source review or record correction only; not telephone-confirmed.",
+    "type": "record_correction"
+  },
+  {
+    "date": "2026-11-13",
+    "clinic_id": "c171",
+    "old_status": "unknown",
+    "new_status": "not_accepting",
+    "source": "https://www.corefamilyhealth.com",
+    "summary": "Clinic website states no physicians are accepting new patients; Health Care Connect is a separate matching service, not a clinic waitlist.",
+    "reviewer_note": "History entry records the already-published November 13 correction. Public-source review or record correction only; not telephone-confirmed.",
+    "type": "record_correction"
+  },
+  {
+    "date": "2026-11-13",
+    "clinic_id": "c122",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://www.nvfp.ca/news",
+    "summary": "Clarified closed-waitlist notice; it does not establish that every physician's intake is closed. Overall intake remains unconfirmed.",
+    "reviewer_note": "History entry records the already-published November 13 correction. Public-source review or record correction only; not telephone-confirmed.",
+    "type": "record_correction"
+  },
+  {
+    "date": "2026-11-13",
+    "clinic_id": "c048",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
+    "summary": "Record correction: removed unsupported details. Current intake, eligibility and capacity remain unconfirmed; the 2025 quality plan is historical, not evidence of current openings.",
+    "reviewer_note": "History entry records the already-published November 13 correction. Public-source review or record correction only; not telephone-confirmed.",
+    "type": "record_correction"
+  },
+  {
+    "date": "2026-11-13",
+    "clinic_id": "c050",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
+    "summary": "Record correction: removed unsupported details. Current intake, eligibility and capacity remain unconfirmed; the 2025 quality plan is historical, not evidence of current openings.",
+    "reviewer_note": "History entry records the already-published November 13 correction. Public-source review or record correction only; not telephone-confirmed.",
+    "type": "record_correction"
   }
 ]

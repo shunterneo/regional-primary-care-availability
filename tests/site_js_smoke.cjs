@@ -70,3 +70,11 @@ const racedCard=ids.results.children.find(card=>card.innerText.includes(raced.na
 assert(racedCard&&racedCard.innerText.includes('Needs reconfirmation'));
 assert(!racedCard.children.find(n=>n.className==='pills').children.some(n=>n.className==='pill accepting'));
 console.log('PASS: export-first expiry also refreshes visible cards before timer');
+
+// Detail-only corrections and new additions must render without false status claims.
+assert(html.includes('Recent directory updates'));
+assert(!ids.changeHistory.innerText.includes('null →'));
+for (const entry of DATA.change_history.slice(0,10)) {
+ if(entry.summary) assert(ids.changeHistory.innerText.includes(entry.summary),'Missing scoped change summary');
+}
+console.log('PASS: recent corrections render summaries without null statuses');
