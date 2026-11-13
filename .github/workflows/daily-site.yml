@@ -149,3 +149,9 @@ jobs:
           path: site
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify deployed website, report, Word and PDF are live and synchronized
+        if: steps.deployment.outcome == 'success'
+        run: |
+          python scripts/verify_live_publication.py \
+            --base-url 'https://shunterneo.github.io/regional-primary-care-availability/' \
+            --site-dir site
