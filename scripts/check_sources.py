@@ -45,20 +45,38 @@ def extract_plain(raw):
     if not relevant: relevant=[raw[:1200]]
     return '\n'.join(relevant)[:9000]
 
-def usable_page(text):
-    """Detect page shells without mistaking ordinary prose for a challenge."""
+class SourceContentError(ValueError):
+    def __init__(self, category, message):
+        super().__init__(message)
+        self.category=category
+
+def page_problem(text):
+    """Distinguish access challenges from empty/JavaScript shells for review.
+
+    Never solve a challenge or treat script-rendered content as intake evidence.
+    """
     bs=BeautifulSoup(text,'html.parser')
     title=' '.join(bs.title.stripped_strings) if bs.title else ''
+    noscript=' '.join(n.get_text(' ',strip=True) for n in bs.find_all('noscript'))
+    has_script=bool(bs.find('script',src=True))
     for node in bs(['script','style','noscript','template','svg','head']):node.decompose()
     plain=' '.join(bs.stripped_strings).strip()
-    if len(plain)<12:return False
     challenge=r'(?:just a moment[.!…]*|access denied|attention required!?|verify (?:you are|that you are) human|checking your browser)'
-    if re.fullmatch(challenge,title.strip(),re.I):return False
-    shell=r'^(?:just a moment[.!…]*|access denied|verify (?:you are|that you are) human|checking your browser|(?:you need to |please )?enable javascript(?: and cookies)?(?: to (?:run|view|use|continue))?|sign in to continue)'
-    if len(plain)<500 and re.search(shell,plain,re.I):return False
-    return True
+    if re.fullmatch(challenge,title.strip(),re.I) or (len(plain)<500 and re.match(challenge,plain,re.I)):
+        return ('blocked_page','Access challenge or denial; manual review required, no bypass attempted')
+    if len(plain)<500 and re.match(r'sign in to continue',plain,re.I):
+        return ('login_required','Sign-in required; no authentication attempted')
+    js=r'(?:enable|requires?|need).*javascript|javascript.*(?:required|enabled)'
+    if len(plain)<500 and (re.search(js,plain+' '+noscript,re.I) or (len(plain)<12 and has_script)):
+        return ('render_required','JavaScript page shell; readable source needs a separate rendered-page review')
+    if len(plain)<12:return ('empty_content','Empty response body; no readable source text')
+    return None
+
+def usable_page(text):
+    return page_problem(text) is None
 
 def error_category(exc):
+    if isinstance(exc,SourceContentError):return exc.category
     if isinstance(exc,requests.exceptions.SSLError):return 'tls_error'
     if isinstance(exc,(requests.Timeout,requests.ConnectionError)):return 'transient_network'
     if isinstance(exc,requests.HTTPError):
@@ -99,13 +117,14 @@ def fetch_one(pair):
             if len(reader.pages)>100:raise ValueError('PDF too long')
             body=extract_plain(' '.join(page.extract_text() or '' for page in reader.pages))
         elif 'html' in content_type:
-            if not usable_page(res.text):raise ValueError('Unusable source: empty, challenge or login page')
+            problem=page_problem(res.text)
+            if problem:raise SourceContentError(*problem)
             body=extract(res.text)
         else:raise ValueError('Response is not HTML or PDF')
         if not body.strip():raise ValueError('No matching text')
         return url,{'hash':hashlib.sha256(body.encode()).hexdigest(),'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':None if is_pdf else decisive_statement(body), 'format':'pdf' if is_pdf else 'html'}
     except Exception as exc:
-        return url,{'hash':None,'error':str(exc)[:180], 'error_category':error_category(exc)}
+        return url,{'hash':None,'error':str(exc)[:800], 'error_category':error_category(exc), 'http_status':getattr(getattr(exc,'response',None),'status_code',None)}
 
 def run():
     now=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
@@ -117,7 +136,7 @@ def run():
             prev=state['sources'].get(url,{})
             if result['error']:
                 failed+=1
-                state['sources'][url]={**prev,'last_attempt':now,'last_error':result['error'],'error_category':result['error_category'],'auto_observation':{}}
+                state['sources'][url]={**prev,'last_attempt':now,'last_error':result['error'],'error_category':result['error_category'],'http_status':result.get('http_status'),'auto_observation':{}}
                 continue
             ok+=1
             newhash=result['hash'];oldhash=prev.get('hash')
@@ -128,7 +147,7 @@ def run():
             observation=observe(prior_obs,result['explicit_candidate'] if verified else None,now)
             state['sources'][url]={**prev,'hash':newhash,'excerpt':result['excerpt'][:1400],
               'possible_claim':result['assessment']['classification'],'last_attempt':now,'last_success':now,
-              'last_error':None,'error_category':None,'format':result['format'],'official_first_party':verified,'auto_observation':observation}
+              'last_error':None,'error_category':None,'http_status':None,'format':result['format'],'official_first_party':verified,'auto_observation':observation}
             if not oldhash:
                 baseline+=1;continue
             if oldhash!=newhash and (url,newhash) not in pending_ids:

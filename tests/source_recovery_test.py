@@ -28,3 +28,19 @@ with patch.object(c.requests,'get',return_value=r),patch.object(c,'PdfReader',re
  assert result['format']=='pdf' and result['error'] is None
  assert result['explicit_candidate'] is None,'PDF observations must remain review-only'
 print('PASS: bounded transient retry, permanent/TLS no retry, Retry-After respected, PDF review only')
+
+# Distinguish inaccessible pages from render-only shells without bypassing either.
+for body,category in [
+ ('<title>Just a moment...</title><script src="challenge.js"></script>','blocked_page'),
+ ('<div id="root"></div><script src="app.js"></script>','render_required'),
+ ('<noscript>Please enable JavaScript</noscript>','render_required'),
+ ('<p>Sign in to continue</p>','login_required'),
+ ('<html></html>','empty_content')]:
+ r=Resp();r.text=body;r.content=body.encode()
+ with patch.object(c.requests,'get',return_value=r) as get:
+  result=c.fetch_one(('https://example.org',{}))[1]
+  assert result['error_category']==category,(category,result)
+  assert result['hash'] is None and get.call_count==1
+assert c.usable_page('<h1>Patient information</h1><p>If you need support, please contact our clinic.</p>')
+assert c.usable_page('<p>Our clinic has access denied parking areas for safety. Registration remains available.</p>')
+print('PASS: challenges, login, JS shells and empty bodies diagnosed separately; no evidence or retry from inaccessible content')
