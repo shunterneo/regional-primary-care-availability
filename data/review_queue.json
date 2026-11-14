@@ -187,6 +187,40 @@
       "possible_claim": "unclear",
       "matched_excerpts": [],
       "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
+    },
+    {
+      "id": "24524745af3a",
+      "detected_at": "2026-11-14T18:44:36+00:00",
+      "url": "https://drdinaalkhatib.com/",
+      "clinic_ids": [
+        "c140"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "0db0ca2619b4c0546c40063f3b8ca2a643ba2cce6af077a69b0346de3b4eefa7",
+      "new_hash": "da41e87aa464bccd8c6ac4eed8d69f5a9b2e687c3c8be935bcb54e90b469ee54",
+      "review_status": "pending",
+      "prior_excerpt": "AlKhatib walk-ins during regular hours, no appointment needed, simply come to the clinic and let us know View / Download Flu Clinic Flyer (PDF) Registered patients can schedule appointments online through our secure booking system.\nNo walk-ins accepted Tuesday November 10 5pm to 8pm Dr.\nNo walk-ins accepted Wednesday November 11 5pm to 8pm Dr.\nNo walk-ins accepted Thursday November 12 5pm to 8pm Dr.\nIf a call is needed, call the on call physician between 4:30 pm- 6:30 pm to reserve a spot.\nNo intake after 6:30pm.\nAlkhatib’s After - hours days: FOR FHO Patients WEEKDAYS : Please check in 4:45 PM and try to check in before 7:30 max- I will not accept pts after 7:30 as the clinic gets very busy.",
+      "current_excerpt": "AlKhatib walk-ins during regular hours, no appointment needed, simply come to the clinic and let us know View / Download Flu Clinic Flyer (PDF) Registered patients can schedule appointments online through our secure booking system.\nNo walk-ins accepted Tuesday November 17 5pm to 8pm Dr.\nNo walk-ins accepted Wednesday November 18 5pm to 8pm Dr.\nNo walk-ins accepted Thursday November 19 5pm to 7:30pm Dr.\nNo walk-ins accepted If the doctor in After Hour Clinic is NOT Dr Al Khatib - then its for urgent issues only (such as fever, new ear pain, new rash, UTI, asthma attack etc).\nIf a call is needed, call the on call physician between 4:30 pm- 6:30 pm to reserve a spot.\nNo intake after 6:30pm.\nAlkhatib’s After - hours days: FOR FHO Patients WEEKDAYS : Please check in 4:45 PM and try to check in before 7:30 max- I will not accept pts after 7:30 as the clinic gets very busy.",
+      "possible_claim": "unclear",
+      "matched_excerpts": [],
+      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
+    },
+    {
+      "id": "6a38395a43d3",
+      "detected_at": "2026-11-14T18:44:36+00:00",
+      "url": "https://wharncliffe.medicalsolutionclinic.com/new-patients/",
+      "clinic_ids": [
+        "c200"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "1485b1c7fd47712ed19e9d8486e6d580fda9ee3672082c8f534b1f04d20b13c3",
+      "new_hash": "95d3c6458a68542c60edb7eebad45744daf2525cd1fdf31682a162f582baf5de",
+      "review_status": "pending",
+      "prior_excerpt": "New Patients – Wharncliffe Medical Solutions Clinic | Family Medicine in London, ON New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today Download and fill out the New Patient Registration Form before uploading it as an attachment.",
+      "current_excerpt": "New Patients – Wharncliffe Medical Solutions Clinic | Family Medicine in London, ON New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today Download and fill out the New Patient Registration Form before uploading it as an attachment.\nDownload IMPORTANT NOTICE This website is for patient information and new patient applications only.",
+      "possible_claim": "unclear",
+      "matched_excerpts": [],
+      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
     }
   ]
 }

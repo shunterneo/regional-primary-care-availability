@@ -111,6 +111,20 @@
       "current_intake": "not verified",
       "review_status": "pending",
       "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+    },
+    {
+      "id": "5ebc6bc3d748fc97",
+      "detected_at": "2026-11-14T18:45:12+00:00",
+      "title": "Froedtert ThedaCare Announces New Emergency Department at ThedaCare Medical Center-Waupaca - Froedtert & MCW",
+      "news_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVXNZdkVBelY1SWNsUEp4QWpXQ3VzeUtQclB4QzJ4eldfRFRQb0ZYb1BfZUo4OWxqUXZDZ2VLTXBldTdLeHZ4NHdHU1VFajRTQmRCY2dVYWwwb1NzUEF1ZW8xTS1YUHJwbFcxR3FJaWpETWdralR4UGF5T0pUeEdtVmFCblVqSjVVX0llTnBLZjZpRXk2bHhya0xHU1I0YWtzdTJGOVBxaEdIbmRLRC1UZUtUTl9CQkFkUFE?oc=5",
+      "published": "Thu, 12 Nov 2026 17:45:00 GMT",
+      "matched_query": "London Ontario family practice accepting new patients",
+      "source_type": "news_search_feed",
+      "proposed_action": "investigate clinic or intake",
+      "within_75km": "not verified",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
     }
   ]
 }
