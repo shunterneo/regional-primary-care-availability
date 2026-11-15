@@ -9,6 +9,11 @@ html='''<html><body><table><tr><td>Dr. Amara Test</td><td>New Family Medical Cen
 rows=d.parse_candidates(html,source)
 assert d.parse_candidates('<table><tr><td>Walk In Clinic</td><td>Address</td><td>Telephone</td></tr></table>',source)==[]
 assert len(rows)==1 and rows[0]['title']=='Dr. Amara Test',rows
+healthline={'id':'healthline_oxford','name':'Oxford/ Norfolk family medical centres','url':'https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford','mode':'healthline'}
+healthline_html='''<table><tr><td><a href="displayservice.aspx?id=1234">Tillsonburg Family Physicians</a></td><td>594 Broadway, Tillsonburg, ON</td></tr><tr><td><a href="https://other.example/redirect">Untrusted entry</a></td></tr></table>'''
+healthline_rows=d.parse_candidates(healthline_html,healthline)
+assert len(healthline_rows)==1 and healthline_rows[0]['title']=='Tillsonburg Family Physicians',healthline_rows
+assert healthline_rows[0]['link']=='https://www.southwesthealthline.ca/displayservice.aspx?id=1234'
 page_source={'id':'woodstock_news','name':'Woodstock news','url':'https://www.cityofwoodstock.ca/news/','mode':'news'}
 news='''<a href="/news/posts/new-family-physician-opens/">New family physician opens clinic in Woodstock</a><a href="/news/posts/pool-closed/">Pool closure announced</a>'''
 assert len(d.parse_candidates(news,page_source))==1
