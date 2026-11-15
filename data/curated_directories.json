@@ -40,5 +40,47 @@
     "url": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
     "mode": "page",
     "kind": "local_care_resource"
+  },
+  {
+    "id": "healthline_oxford",
+    "name": "Southwest Healthline — Oxford/Norfolk family medical centres",
+    "url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford",
+    "mode": "healthline",
+    "kind": "practice_directory"
+  },
+  {
+    "id": "healthline_elgin",
+    "name": "Southwest Healthline — Elgin family medical centres",
+    "url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Elgin",
+    "mode": "healthline",
+    "kind": "practice_directory"
+  },
+  {
+    "id": "healthline_southwest",
+    "name": "Southwest Healthline — Southwest Ontario family medical centres",
+    "url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=SouthWestOntario",
+    "mode": "healthline",
+    "kind": "practice_directory"
+  },
+  {
+    "id": "norfolk_fht_resources",
+    "name": "Norfolk Family Health Team — find a doctor or NP",
+    "url": "https://norfolkfht.ca/find-a-doctor/",
+    "mode": "page",
+    "kind": "local_care_resource"
+  },
+  {
+    "id": "huron_perth_oht",
+    "name": "Huron Perth Ontario Health Team — attachment pathway",
+    "url": "https://hpaoht.ca/get-primary-care/",
+    "mode": "page",
+    "kind": "local_care_resource"
+  },
+  {
+    "id": "elmdale_family_physician",
+    "name": "Elmdale Health Centre — family physician registration notice",
+    "url": "https://elmdalehealth.com/",
+    "mode": "page",
+    "kind": "clinic_intake_announcement"
   }
 ]
