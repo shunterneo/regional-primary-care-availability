@@ -17,6 +17,20 @@ USER_AGENT='RegionalPrimaryCareDiscovery/2.0 (public news only; no patient data)
 HEALTH=re.compile(r'\b(?:family\s+(?:doctor|physician|medicine|practice)|primary\s+care|nurse\s+practitioner|medical\s+(?:clinic|centre|center)|health\s+centre|patient\s+attachment|new\s+patients?)\b',re.I)
 ACTION=re.compile(r'\b(?:accept(?:ing)?|new|open(?:ing|ed)?|intake|enrol|register|attach|roster|wait\s?list|recruit|launch|expand|clos(?:e|ed|ing|ure)|retir(?:e|ed|ement)|relocat(?:e|ed|ion)|merg(?:e|ed|er)|new\s+(?:office|location|physician|doctor))\b',re.I)
 
+# Geography is a DISCOVERY filter, not evidence that a physical office is within
+# the strict 75-km radius. Every resulting lead still needs its exact clinic address.
+REGIONAL_PLACE=re.compile(r'\b(?:Tillsonburg|Oxford County|Woodstock|Ingersoll|Norwich|Courtland|Otterville|Tavistock|Aylmer|St\.?\s*Thomas|Elgin County|Delhi|Simcoe|Waterford|Port Rowan|Port Burwell|Vienna|Norfolk County|Brantford|Brant County|Paris|Burford|Cambridge|Kitchener|Waterloo|Stratford|Strathroy|Middlesex|London[, ]+Ontario|London[, ]+ON\b|Southwestern Ontario|Southwest Ontario|New Hamburg|Ayr|Breslau|Ilderton|Mount Brydges|Ailsa Craig)\b',re.I)
+# High precision explicit exclusions. Never make a real-world radius decision from
+# a town name; an inside-area title still needs its precise clinic location checked.
+OUTSIDE_PLACE=re.compile(r'\b(?:Islington Council|London[, ]+England|London[, ]+UK|United Kingdom|Waupaca|Wisconsin|Michigan|Fort Erie|Chatham-Kent|Chatham Daily News|Ramara|Toronto|Mississauga|Ottawa|Alberta|British Columbia|Nova Scotia|New Brunswick|Saskatchewan|Manitoba)\b',re.I)
+ONTARIO_CONTEXT=re.compile(r'\b(?:Ontario|Ont\.?|ON\b|Canada|Canadian)\b',re.I)
+
+def relevant_headline(title):
+    """Triage public news; do not confuse query match with geographic evidence."""
+    if not (HEALTH.search(title) and ACTION.search(title)):return False
+    if OUTSIDE_PLACE.search(title):return False
+    return bool(REGIONAL_PLACE.search(title))
+
 def build_feed(query):
     return 'https://news.google.com/rss/search?'+urlencode({'q':query+' when:7d','hl':'en-CA','gl':'CA','ceid':'CA:en'})
 
@@ -46,7 +60,7 @@ def run():
     queries=conf['queries'];take=min(conf.get('queries_per_run',12),len(queries))
     start=int(state.get('next_query_index',0))%len(queries)
     chosen=[queries[(start+i)%len(queries)] for i in range(take)]
-    errors=[];found=0;queued=0;duplicates=0
+    errors=[];found=0;queued=0;duplicates=0;geography_filtered=0
     existing_ids={x['id'] for x in queue['items']}
     for query in chosen:
         try: items=fetch_feed(build_feed(query))
@@ -54,7 +68,8 @@ def run():
             errors.append({'query':query,'error':str(exc)[:140]});continue
         for row in items:
             found+=1
-            if not (HEALTH.search(row['title']) and ACTION.search(row['title'])):continue
+            if not relevant_headline(row['title']):
+                geography_filtered+=1;continue
             key=hashlib.sha256((row['url']+'|'+row['title']).encode()).hexdigest()[:16]
             if key in state['seen'] or key in existing_ids:
                 duplicates+=1;continue
@@ -63,7 +78,7 @@ def run():
               'id':key,'detected_at':now,'title':row['title'],'news_link':row['url'],
               'published':row['published'],'matched_query':query,
               'source_type':'news_search_feed','proposed_action':'investigate clinic or intake',
-              'within_75km':'not verified','current_intake':'not verified',
+              'within_75km':'not verified','current_intake':'not verified','geography':'headline appears regional; clinic-specific address and straight-line distance NOT verified',
               'review_status':'pending',
               'note':'Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility.'})
             queued+=1
@@ -72,7 +87,7 @@ def run():
     state['seen']={k:v for k,v in state['seen'].items() if v>=cutoff}
     state['next_query_index']=(start+take)%len(queries)
     state['last_run']=now
-    state['last_summary']={'queries_attempted':len(chosen),'queries_failed':len(errors),'feed_items_seen':found,'new_leads_queued':queued,'duplicates_skipped':duplicates,'errors':errors[:5]}
+    state['last_summary']={'queries_attempted':len(chosen),'queries_failed':len(errors),'feed_items_seen':found,'new_leads_queued':queued,'duplicates_skipped':duplicates,'headlines_filtered':geography_filtered,'errors':errors[:5]}
     STATE.write_text(json.dumps(state,indent=2,ensure_ascii=False)+'\n')
     QUEUE.write_text(json.dumps(queue,indent=2,ensure_ascii=False)+'\n')
     print('Discovery:',state['last_summary'])
