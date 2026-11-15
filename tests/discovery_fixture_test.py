@@ -11,6 +11,14 @@ rss=b'''<rss><channel>
 <item><title>Brantford nurse practitioner clinic accepting new patients</title><link>https://news.google.com/rss/articles/A3</link></item>
 </channel></rss>'''
 assert len(d.parse_rss(rss))==3
+assert d.relevant_headline('New family medicine clinic opens in Woodstock')
+assert d.relevant_headline('Brantford nurse practitioner clinic accepting new patients')
+assert not d.relevant_headline('New Andover Medical Centre opens - Islington Council News')
+assert not d.relevant_headline('Waupaca Medical Centre opening new family practice - Wisconsin')
+assert not d.relevant_headline('Chatham-Kent doctors accepting new patients')
+assert not d.relevant_headline('New family clinic opens in London England')
+assert not d.relevant_headline('London family clinic opens')  # London without Ontario is ambiguous
+assert not d.relevant_headline('Ontario soccer team wins in Kitchener')
 assert classify('We are not accepting new patients at this time.')['classification']=='possible_closed'
 assert classify('We are accepting new patients at this time.')['classification']=='possible_accepting'
 assert classify('We are not accepting new patients. Another physician is accepting new patients.')['classification']=='conflicting_or_conditional'
