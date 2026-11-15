@@ -109,6 +109,20 @@ def parse_candidates(html, source):
             title=canonical(heading.get_text(' ',strip=True)) if heading else body[:110]
             row=candidate(title,body,source['url'],source,'facility directory; does not establish intake')
             if row:out.append(row)
+    elif mode=='healthline':
+        # Healthline listServices pages link individual service entries directly.
+        # Each is a discovery lead only; their patient-intake status is not verified.
+        for a in soup.select('a[href]'):
+            href=urljoin(source['url'],a.get('href',''))
+            parsed=urlparse(href)
+            if parsed.scheme!='https' or not parsed.hostname or not parsed.hostname.endswith('healthline.ca'):continue
+            if 'displayservice.aspx' not in parsed.path.lower():continue
+            title=canonical(a.get_text(' ',strip=True))
+            if len(title)<7 or NOISE.fullmatch(title):continue
+            parent=a.find_parent(['tr','li','p','div'])
+            detail=canonical(parent.get_text(' ',strip=True))[:440] if parent else title
+            row=candidate(title,detail,href,source,'regional practice listing; verify address, care model and intake directly')
+            if row:out.append(row)
     elif mode=='page':
         # OHT resource page: flag only when meaningful public text changes.
         body=canonical(soup.get_text(' ',strip=True))
