@@ -2,7 +2,7 @@
   "version": 1,
   "feed_provider": "Google News RSS",
   "disclaimer": "Public news-feed discovery is incomplete; results are leads requiring review and radius/clinic verification.",
-  "queries_per_run": 16,
+  "queries_per_run": 20,
   "queries": [
     "Tillsonburg family doctor clinic new patients Ontario",
     "Oxford County Ontario family physician nurse practitioner accepting patients",
@@ -34,6 +34,16 @@
     "site:oxfordcounty.ca family physician opening",
     "site:cityofwoodstock.ca family doctor retiring practice closure",
     "London Woodstock Brantford physician retiring closing family practice",
-    "Waterloo Region new primary care physician office accepting families"
+    "Waterloo Region new primary care physician office accepting families",
+    "Dutton West Lorne Rodney Ontario new family physician practice",
+    "Elmira St Jacobs Wellesley Ontario family doctor clinic opening",
+    "Baden New Hamburg Tavistock family medicine accepting patients",
+    "Ayr Paris Burford Ontario primary care clinic nurse practitioner",
+    "Port Rowan Waterford Delhi Norfolk physician practice relocation",
+    "Mount Brydges Ilderton Ailsa Craig family doctor new patients",
+    "St Thomas Aylmer Elgin family physician retire relocate open",
+    "Tillsonburg Norwich Courtland Otterville family medicine clinic opening",
+    "Kitchener Waterloo Cambridge independent family practice new doctor",
+    "Stratford Perth family physician nurse practitioner new patients"
   ]
 }
