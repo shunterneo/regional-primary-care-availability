@@ -15,7 +15,7 @@ from common import ROOT
 DATA=ROOT/'data'; CONF=DATA/'search_queries.json'; QUEUE=DATA/'discovery_queue.json'; STATE=DATA/'discovery_state.json'
 USER_AGENT='RegionalPrimaryCareDiscovery/2.0 (public news only; no patient data)'
 HEALTH=re.compile(r'\b(?:family\s+(?:doctor|physician|medicine|practice)|primary\s+care|nurse\s+practitioner|medical\s+(?:clinic|centre|center)|health\s+centre|patient\s+attachment|new\s+patients?)\b',re.I)
-ACTION=re.compile(r'\b(?:accept(?:ing)?|new|open(?:ing|ed)?|intake|enrol|register|attach|roster|wait\s?list|recruit|launch|expand|clos(?:e|ed|ing|ure)|retir(?:e|ed|ement)|relocat(?:e|ed|ion)|merg(?:e|ed|er)|new\s+(?:office|location|physician|doctor))\b',re.I)
+ACTION=re.compile(r'\b(?:accept(?:ing)?|new|open(?:ing|ed)?|intake|enrol|register|attach|roster|wait\s?list|recruit|launch|expand|clos(?:e|ed|ing|ure)|retir(?:e|ed|ement|ing)|relocat(?:e|ed|ion)|merg(?:e|ed|er)|new\s+(?:office|location|physician|doctor))\b',re.I)
 
 # Geography is a DISCOVERY filter, not evidence that a physical office is within
 # the strict 75-km radius. Every resulting lead still needs its exact clinic address.
