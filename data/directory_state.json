@@ -88,8 +88,8 @@
           "scope": "provider directory; status must be rechecked"
         }
       },
-      "last_attempt": "2026-11-14",
-      "last_success": "2026-11-14",
+      "last_attempt": "2026-11-15",
+      "last_success": "2026-11-15",
       "last_error": null,
       "entry_count": 12,
       "fingerprint": "11999b76287525eb3f7e2d3f5feef4a71932668e696b12122bf4903dc1f1b3aa"
@@ -139,8 +139,8 @@
           "scope": "provider directory; status must be rechecked"
         }
       },
-      "last_attempt": "2026-11-14",
-      "last_success": "2026-11-14",
+      "last_attempt": "2026-11-15",
+      "last_success": "2026-11-15",
       "last_error": null,
       "entry_count": 6,
       "fingerprint": "2a9d926eb119f19b9a9f347579b2828b8e3540025addafcaf65dee5762cb3483"
@@ -179,7 +179,7 @@
           "key": "sunilbhatia",
           "title": "Dr. Sunil Bhatia",
           "excerpt": "Dr. Sunil Bhatia · Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge · Please email [email protected] to request a Patient Registration Form ·",
-          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#f1a29096989f90869c94959892909d929d989f9892b1969c90989ddf929e9cd1",
+          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#b6e5d7d1dfd8d7c1dbd3d2dfd5d7dad5dadfd8dfd5f6d1dbd7dfda98d5d9db96",
           "scope": "directory entry; verify original clinic intake"
         },
         "townlinewalkin": {
@@ -260,31 +260,91 @@
           "scope": "directory entry; verify original clinic intake"
         }
       },
-      "last_attempt": "2026-11-14",
-      "last_success": "2026-11-14",
+      "last_attempt": "2026-11-15",
+      "last_success": "2026-11-15",
       "last_error": null,
       "entry_count": 16,
       "fingerprint": "fbeb79bc664a5f4d87df59658a4c0b55166f93d98aed5910435e0095074826da"
     },
     "sw_healthline": {
-      "last_attempt": "2026-11-14",
+      "last_attempt": "2026-11-15",
       "last_error": "unavailable; preserved previous results"
     },
     "woodstock_news": {
-      "last_attempt": "2026-11-14",
+      "last_attempt": "2026-11-15",
       "last_error": "no extractable entries; preserved previous results"
     },
     "oxford_oht": {
-      "last_attempt": "2026-11-14",
+      "last_attempt": "2026-11-15",
       "last_error": "unavailable; preserved previous results"
+    },
+    "healthline_oxford": {
+      "last_attempt": "2026-11-15",
+      "last_error": "unavailable; preserved previous results"
+    },
+    "healthline_elgin": {
+      "last_attempt": "2026-11-15",
+      "last_error": "unavailable; preserved previous results"
+    },
+    "healthline_southwest": {
+      "last_attempt": "2026-11-15",
+      "last_error": "unavailable; preserved previous results"
+    },
+    "norfolk_fht_resources": {
+      "entries": {
+        "page": {
+          "key": "page",
+          "title": "Norfolk Family Health Team — find a doctor or NP",
+          "excerpt": "Find a Doctor or Nurse Practitioner - Norfolk Family Health Team Skip to content FOR PATIENTS | FIND A DOCTOR or NURSE PRACTITIONER Find a Doctor or Nurse Practitioner Health Care Connect helps Ontarians who are without a family health care provider (family doctor or nurse practitioner) to find one. People without a family health care provider are referred to a family doctor or a nurse practitioner who is accepting new patients in their",
+          "link": "https://norfolkfht.ca/find-a-doctor/",
+          "scope": "resource notice; no clinic-specific intake claim"
+        }
+      },
+      "last_attempt": "2026-11-15",
+      "last_success": "2026-11-15",
+      "last_error": null,
+      "entry_count": 1,
+      "fingerprint": "70cf2d0cdc53f81283af8780eb9da237052da2168fb9efc919880685e262e482"
+    },
+    "huron_perth_oht": {
+      "entries": {
+        "page": {
+          "key": "page",
+          "title": "Huron Perth Ontario Health Team — attachment pathway",
+          "excerpt": "Register for a Family Doctor or Nurse Practitioner - Huron Perth & Area Ontario Health Team Health811 Call 811(TTY: 1-866-797-0007) Ontario Caregiver Helpline 1-833-416-2273(CARE) Register for a Family Doctor or Nurse Practitioner If you live in Huron or Perth County and are looking for a family doctor or nurse practitioner, or for care closer to home (within a 30-minute drive), you can register to be matched. You do not need to leave y",
+          "link": "https://hpaoht.ca/get-primary-care/",
+          "scope": "resource notice; no clinic-specific intake claim"
+        }
+      },
+      "last_attempt": "2026-11-15",
+      "last_success": "2026-11-15",
+      "last_error": null,
+      "entry_count": 1,
+      "fingerprint": "f8aae431176e96d555b01b6711e2be3d593c8c23153b3f555612272ce6093284"
+    },
+    "elmdale_family_physician": {
+      "entries": {
+        "page": {
+          "key": "page",
+          "title": "Elmdale Health Centre — family physician registration notice",
+          "excerpt": "ElmdaleHealth :: Home Elmdale Health Centre Home Blog Open House - June 17, 2017 Family Medicine Recruitment Fair Leasing Opportunities WHAT'S HERE Dr. Derek Haruta and Associates - SUITE 101 (519) 631-6641 www.drharuta.com Hours: Mon 8-8. Tues 8-5, Wed 8-5, Thurs 8-5, Fri 7:30-3 Elmdale Medical Pharmacy - SUITE 105 (519) 633-6337 (519-MED-MEDS) www.elmdalepharmacy.ca Hours: Monday-Friday 9am-530pm, Saturday 9am-12pm Dr. Colin Bolzon - ",
+          "link": "https://elmdalehealth.com/",
+          "scope": "resource notice; no clinic-specific intake claim"
+        }
+      },
+      "last_attempt": "2026-11-15",
+      "last_success": "2026-11-15",
+      "last_error": null,
+      "entry_count": 1,
+      "fingerprint": "7091823a272e821b280c46cca80e85090e6a0e601e0478eff4236e8dbef8d410"
     }
   },
-  "last_run": "2026-11-14",
+  "last_run": "2026-11-15",
   "last_summary": {
-    "sources": 6,
-    "success": 3,
-    "failed": 3,
-    "baselines": 0,
+    "sources": 12,
+    "success": 6,
+    "failed": 6,
+    "baselines": 3,
     "new_directory_leads": 0,
     "listing_removals_to_review": 0,
     "errors": [
@@ -295,6 +355,18 @@
       {
         "source": "oxford_oht",
         "error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor"
+      },
+      {
+        "source": "healthline_oxford",
+        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&regio"
+      },
+      {
+        "source": "healthline_elgin",
+        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&regio"
+      },
+      {
+        "source": "healthline_southwest",
+        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&regio"
       }
     ]
   }
