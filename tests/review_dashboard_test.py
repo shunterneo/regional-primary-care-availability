@@ -11,6 +11,22 @@ class DashboardTests(unittest.TestCase):
   values.update(overrides or {})
   for name,v in values.items():(d/name).write_text(json.dumps(v))
 
+ def test_manual_review_is_dated_escaped_and_never_clears_failure(self):
+  with tempfile.TemporaryDirectory() as t:
+   d=pathlib.Path(t);u='https://valid.example/intake'
+   self.make(d,{'source_state.json':{'sources':{u:{'last_attempt':'2026-11-16','last_success':'2026-11-01','last_error':'JavaScript shell','error_category':'render_required'}}},'manual_source_reviews.json':{'reviews':[{'source_url':u,'method':'rendered_public_page','reviewed_on':'2026-11-16','finding':'<script>bad</script> Manual reading only','private_field':'secret'}]}})
+   r=collect(d,[{'id':'c1','name':'Practice','evidence_url':u}],now=dt.datetime(2026,11,16,tzinfo=dt.timezone.utc))
+   self.assertEqual(r['counts']['failure'],1);self.assertEqual(r['items'][0]['last_success'],'2026-11-01')
+   h=render(r);self.assertIn('automated check is still unresolved',h);self.assertIn('2026-11-16',h);self.assertNotIn('<script>',h);self.assertNotIn('secret',h)
+
+ def test_invalid_manual_review_does_not_resolve_or_annotate(self):
+  with tempfile.TemporaryDirectory() as t:
+   d=pathlib.Path(t);u='https://valid.example/intake'
+   for day,method in [('2026-11-17','rendered_public_page'),('invalid','rendered_public_page'),('2026-11-16','automated')]:
+    self.make(d,{'manual_source_reviews.json':{'reviews':[{'source_url':u,'method':method,'reviewed_on':day,'finding':'Untrusted claim'}]}})
+    r=collect(d,[{'id':'c1','name':'Practice','evidence_url':u}],now=dt.datetime(2026,11,16,tzinfo=dt.timezone.utc))
+    self.assertEqual(r['counts']['failure'],1);self.assertNotIn('manual_review',r['items'][0])
+
  def test_all_four_pending_queues_and_no_resolved_items(self):
   with tempfile.TemporaryDirectory() as t:
    d=pathlib.Path(t);changes={}

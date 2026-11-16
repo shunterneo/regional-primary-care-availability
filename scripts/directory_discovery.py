@@ -25,7 +25,7 @@ QUEUE = DATA / 'directory_queue.json'
 STATE = DATA / 'directory_state.json'
 CLINICS = DATA / 'clinics.json'
 AGENT = 'RegionalPrimaryCareDiscovery/3.0 (public-directory research; no patient data)'
-EXTRACTION_VERSION = 'directory-v3'
+EXTRACTION_VERSION = 'directory-v4'
 MAX_ENTRIES = 120
 MAX_HTML_BYTES = 1_500_000
 MAX_PAGE_LINKS = 500
@@ -50,6 +50,17 @@ def fingerprint(items):
 
 
 def candidate(title, detail, link, source, scope):
+    # Cloudflare's email-protection fragment changes between responses even
+    # when visible directory information does not. It is not a clinic page.
+    # Use the public directory as the review destination instead; never decode
+    # or fetch the protected email, or discard prose/normal navigation changes.
+    if link:
+        parsed_link=urlparse(link)
+        if (parsed_link.scheme=='https' and
+                parsed_link.netloc==urlparse(source['url']).netloc and
+                parsed_link.path=='/cdn-cgi/l/email-protection' and
+                not parsed_link.query):
+            link=source['url']
     full_title=canonical(title)
     full_detail=canonical(detail)
     title=full_title[:180]

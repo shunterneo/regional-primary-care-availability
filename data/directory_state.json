@@ -108,7 +108,7 @@
       "fingerprint": "0e5464c384781dc047626bf26fea35a087f6c41cd7d7ee515f6484262cd3a1b4",
       "extraction_version": "directory-v3",
       "source_signature": "c04447bc23f449d1c2b47172c040f2b08aca1461168e26b12b9ce3489d90e4a3",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "brant_hospital": {
@@ -170,7 +170,7 @@
       "fingerprint": "a850985d2b592e5d00264ee7d164260d9cb7182bc7870f71b0a0645e79f99119",
       "extraction_version": "directory-v3",
       "source_signature": "9488ff977bf146dd47ad1ac08a60a563d6d61883050d4067f655558f468895d9",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "cambridge_recruitment": {
@@ -211,9 +211,9 @@
           "key": "sunilbhatia",
           "title": "Dr. Sunil Bhatia",
           "excerpt": "Dr. Sunil Bhatia · Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge · Please email [email protected] to request a Patient Registration Form ·",
-          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#2d7e4c4a44434c5a404849444e4c414e414443444e6d4a404c4441034e42400d",
+          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#085b696f6166697f656d6c616b69646b646166616b486f65696164266b676528",
           "scope": "directory entry; verify original clinic intake",
-          "content_hash": "3f5d0203e06cc778095c07af12b36654ce1bb21120b6ea78e10cca5cfcf71951"
+          "content_hash": "ae595889de3e7abd7518b3fd2507387a38e4010cb3e3a944e271780a730c4e3f"
         },
         "townlinewalkin": {
           "key": "townlinewalkin",
@@ -309,16 +309,16 @@
       "last_error": null,
       "error_category": null,
       "entry_count": 16,
-      "fingerprint": "45063cb1f6a255d4f1cbf5b90cadc92227a14faa303098ca64cb7ba11ecc4c89",
+      "fingerprint": "4106bf1f533d6a9918a6669f8263dedb70515cfddeeeffd6933367ef0c3ea365",
       "extraction_version": "directory-v3",
       "source_signature": "766bb5b31d9eccb36294cfa0b4de1299babd9578dc9f11b5b9bb413cc42bad8c",
-      "baseline_reason": "extraction_version_or_source_changed",
-      "event_sequence": 0
+      "baseline_reason": null,
+      "event_sequence": 1
     },
     "sw_healthline": {
       "last_attempt": "2026-11-16",
-      "last_error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=London (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
-      "error_category": "tls_error"
+      "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=London; preserved previous results",
+      "error_category": "transient_http"
     },
     "woodstock_news": {
       "entries": {},
@@ -330,28 +330,28 @@
       "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "extraction_version": "directory-v3",
       "source_signature": "1f6bc0a89f81db77b6e5171baa4671ea74310947e19f2401ac2a685dd256bb6c",
-      "baseline_reason": "first_observation",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "oxford_oht": {
       "last_attempt": "2026-11-16",
-      "last_error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor-or-nurse-practitioner/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
-      "error_category": "tls_error"
+      "last_error": "503 Server Error: Service Unavailable for url: https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/; preserved previous results",
+      "error_category": "transient_http"
     },
     "healthline_oxford": {
       "last_attempt": "2026-11-16",
-      "last_error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=Oxford (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
-      "error_category": "tls_error"
+      "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford; preserved previous results",
+      "error_category": "transient_http"
     },
     "healthline_elgin": {
       "last_attempt": "2026-11-16",
-      "last_error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=Elgin (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
-      "error_category": "tls_error"
+      "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Elgin; preserved previous results",
+      "error_category": "transient_http"
     },
     "healthline_southwest": {
       "last_attempt": "2026-11-16",
-      "last_error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=SouthWestOntario (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
-      "error_category": "tls_error"
+      "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=SouthWestOntario; preserved previous results",
+      "error_category": "transient_http"
     },
     "norfolk_fht_resources": {
       "entries": {
@@ -372,7 +372,7 @@
       "fingerprint": "87e9cd69679fa80bdd4c3d98a6193dcf5eeeac51bd234eef511c68ba5a5d0948",
       "extraction_version": "directory-v3",
       "source_signature": "c294e8b8de013daa139eb1cfd56dffa4029ea9f4d346e728a32350b91fa3773c",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "huron_perth_oht": {
@@ -394,7 +394,7 @@
       "fingerprint": "1569425e1710f5ce96550f4d4a9ea13329119e462b5187f20edc359c0f4329be",
       "extraction_version": "directory-v3",
       "source_signature": "8c4f20a023de656b7ebbfc6e63555436e7a92ed0f31e9defd20a572f675ff67e",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "elmdale_family_physician": {
@@ -416,7 +416,7 @@
       "fingerprint": "74adb6a182c95a3b8be5c21a7bfd85c38eb7fb0550e376454e9a4c35bf259051",
       "extraction_version": "directory-v3",
       "source_signature": "877ab2466b9135ecd457572a8975a6e14fae8348b593d04e4624f8c46e7012d4",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     }
   },
@@ -425,36 +425,36 @@
     "sources": 12,
     "success": 7,
     "failed": 5,
-    "baselines": 7,
-    "version_baselines": 6,
+    "baselines": 0,
+    "version_baselines": 0,
     "zero_result_news": 1,
-    "new_directory_leads": 0,
+    "new_directory_leads": 1,
     "listing_removals_to_review": 0,
     "errors": [
       {
         "source": "sw_healthline",
-        "category": "tls_error",
-        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=London (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
+        "category": "transient_http",
+        "error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=London"
       },
       {
         "source": "oxford_oht",
-        "category": "tls_error",
-        "error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor-or-nurse-practitioner/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
+        "category": "transient_http",
+        "error": "503 Server Error: Service Unavailable for url: https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/"
       },
       {
         "source": "healthline_oxford",
-        "category": "tls_error",
-        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=Oxford (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
+        "category": "transient_http",
+        "error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford"
       },
       {
         "source": "healthline_elgin",
-        "category": "tls_error",
-        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=Elgin (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
+        "category": "transient_http",
+        "error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Elgin"
       },
       {
         "source": "healthline_southwest",
-        "category": "tls_error",
-        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=SouthWestOntario (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
+        "category": "transient_http",
+        "error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=SouthWestOntario"
       }
     ]
   }

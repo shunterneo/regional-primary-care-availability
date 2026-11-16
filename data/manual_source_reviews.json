@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "source_url": "https://www.coronationfamilyphysicians.ca/",
+      "reviewed_on": "2026-11-16",
+      "method": "rendered_public_page",
+      "finding": "Clinic homepage offers a new-patient waiting list. This is a location-level pathway, not guaranteed immediate attachment or placement with a particular physician."
+    },
+    {
+      "source_url": "https://oxfordiamedical.com/",
+      "reviewed_on": "2026-11-16",
+      "method": "rendered_public_page",
+      "finding": "Clinic homepage names Dr. Hamza Aman and invites new patients to book a registration visit using its Ocean link. Appointment slots and enrolment were not confirmed."
+    },
+    {
+      "source_url": "https://colbornemedicare.ca/",
+      "reviewed_on": "2026-11-16",
+      "method": "rendered_public_page",
+      "finding": "Clinic homepage lists Dr. Rabiya Niaz among three doctors and invites new-patient forms by drop-off or mail. The invitation is clinic-wide, not guaranteed placement with Dr. Niaz."
+    },
+    {
+      "source_url": "https://polarihealth.com/family-practice/",
+      "reviewed_on": "2026-11-16",
+      "method": "rendered_public_page",
+      "finding": "Rendered family-practice page describes ongoing family care, links a first appointment and displays a new-patient invitation. Its booking page is an appointment-request form, not confirmed enrolment or a guaranteed slot. No form was submitted."
+    }
+  ]
+}

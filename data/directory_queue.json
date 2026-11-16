@@ -245,6 +245,35 @@
       "note": "Removal from one webpage is NEVER proof that intake closed or that the clinic closed.",
       "reviewed_on": "2026-11-12",
       "reviewer_note": "Removal of a previously misparsed table header after parser correction; not a clinic closure."
+    },
+    {
+      "id": "055853254eaffe6a19",
+      "detected_at": "2026-11-16",
+      "title": "Dr. Sunil Bhatia",
+      "url": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#085b696f6166697f656d6c616b69646b646166616b486f65696164266b676528",
+      "source_directory": "cambridge_recruitment",
+      "source_name": "Doctors4Cambridge — recruitment and accepting directory",
+      "extraction_version": "directory-v3",
+      "source_signature": "766bb5b31d9eccb36294cfa0b4de1299babd9578dc9f11b5b9bb413cc42bad8c",
+      "source_url": "https://www.doctors4cambridge.com/contact.htm",
+      "source_mode": "table",
+      "event_sequence": 1,
+      "review_status": "reviewed",
+      "proposed_action": "Check modified directory text; confirm clinic-specific ongoing patient intake if applicable",
+      "prior_excerpt": "Dr. Sunil Bhatia · Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge · Please email [email protected] to request a Patient Registration Form ·",
+      "current_excerpt": "Dr. Sunil Bhatia · Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge · Please email [email protected] to request a Patient Registration Form ·",
+      "prior_content_hash": "3f5d0203e06cc778095c07af12b36654ce1bb21120b6ea78e10cca5cfcf71951",
+      "current_content_hash": "ae595889de3e7abd7518b3fd2507387a38e4010cb3e3a944e271780a730c4e3f",
+      "preview_unchanged": true,
+      "intake_status": "unconfirmed",
+      "radius_checked": false,
+      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure.",
+      "reviewed_on": "2026-11-16",
+      "review_outcome": "Non-substantive protected-email link token change",
+      "reviewer_note": "Prior and current directory text is identical. Only the opaque email-protection URL token changed. No email decoded or contact attempted; existing clinic intake preserved. Parser repair canonicalizes this exact same-origin protection endpoint to the source directory and retains real text or destination changes.",
+      "review_sources": [
+        "https://www.doctors4cambridge.com/contact.htm"
+      ]
     }
   ]
 }

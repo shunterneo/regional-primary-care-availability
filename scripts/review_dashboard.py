@@ -159,6 +159,25 @@ def collect(data, clinics, now=None):
                       'note': 'Unmatched by exact office identity, not a confirmed missing clinic. No profile approval or intake claim is created here.'
                               + (' Same-address listings to compare: ' + text('; '.join(overlaps),500) + '. A shared address alone does not establish the same practice.' if overlaps else ''),
                       'version': 'Profile schema ' + str(observation.get('schema_version', 'legacy'))})
+    # Manual reading is supplemental evidence, never a successful automated check.
+    manual = read_json(data / 'manual_source_reviews.json', {'reviews': []})
+    reviews = manual.get('reviews', [])
+    if isinstance(reviews, list):
+        for entry in reviews:
+            if not isinstance(entry, dict): continue
+            source = url(entry.get('source_url'))
+            day = text(entry.get('reviewed_on'), 10)
+            try:
+                reviewed = dt.date.fromisoformat(day)
+            except ValueError:
+                continue
+            if reviewed > now.date() or entry.get('method') != 'rendered_public_page': continue
+            finding = text(entry.get('finding'), 1000)
+            if not source or not finding: continue
+            for item in items:
+                if item['group'] == 'failure' and item.get('source_url') == source:
+                    item['manual_review'] = {'reviewed_on': day, 'finding': finding}
+
     items.sort(key=lambda item: (list(GROUPS).index(item['group']), item.get('date', ''), item['title'].casefold()))
     counts = {group: sum(i['group'] == group for i in items) for group in GROUPS}
     return {'generated_at': now.isoformat(), 'items': items, 'counts': counts,
@@ -193,10 +212,14 @@ def render(report, health=None):
                                if item.get(k))
             meta = ' · '.join(v for v in [item.get('date') or 'Date not recorded', item.get('source_name'), item.get('category')] if v)
             last_good = '<p class="meta">Last readable check: ' + e(item.get('last_success') or 'Not recorded') + '</p>' if group == 'failure' else ''
+            manual = item.get('manual_review')
+            manual_note = ('<p class="meta"><strong>Separate manual rendered-page review: ' + e(manual['reviewed_on'])
+                           + '</strong></p><p>' + e(manual['finding'])
+                           + '</p><p class="caution">The automated check is still unresolved. This dated manual review does not repair monitoring or guarantee current availability.</p>') if isinstance(manual, dict) else ''
             version = '<p class="meta">' + e(item.get('version', '')) + '</p>' if item.get('version') else ''
             cards.append('<details class="finding"><summary><span>' + e(item['title']) + '</span><small>' + e(meta) + '</small></summary>'
                          + '<div class="body"><p class="action">' + e(item['action']) + '</p><p class="caution">' + e(item['note']) + '</p>'
-                         + excerpts + last_good + version + '<div class="links">' + links + '</div></div></details>')
+                         + excerpts + last_good + manual_note + version + '<div class="links">' + links + '</div></div></details>')
         description = ('<p class="caution">These observations did not match the exact stored office identity. Many may already be listed under a different name. The count is <strong>not a count of new or missing clinics</strong>.</p>' if group == 'registry_profile' else '')
         host_summary = ''
         if group == 'failure':
