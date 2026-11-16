@@ -2833,5 +2833,24 @@
     "summary": "Clarified closed-waitlist notice; it does not establish that every physician's intake is closed. Overall intake remains unconfirmed.",
     "reviewer_note": "History entry records the already-published November 13 correction. Public-source review or record correction only; not telephone-confirmed.",
     "type": "record_correction"
+  },
+  {
+    "date": "2026-11-16",
+    "clinic_id": "c220",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://wilkinswalkinclinic.com/",
+    "reviewer_note": "Official clinic homepage and contact page checked 2026-11-16: family physician Dr. Adesewa Ademola, combined family practice and walk-in care at Unit 5, 699 Wilkins Street. Public OpenStreetMap address node matches street and civic number; building/address point, not a surveyed unit entrance. Database and source, discovery and directory queues checked by clinic name, clinician, phone, domain and address: no matching office found. No clinic contact or patient data used."
+  },
+  {
+    "date": "2026-11-16",
+    "clinic_id": "c220",
+    "clinic_name": "Wilkins Medical Walk In Clinic",
+    "old_status": "unknown",
+    "new_status": "waitlist",
+    "source": "https://wilkinswalkinclinic.com/booking/",
+    "type": "manual_review_with_evidence_gate",
+    "reviewer_note": "Manual original-source review on 2026-11-16: homepage explicitly names family-practice intake for Dr. Adesewa Ademola; booking page instead invites a family-practice waitlist and describes a meet-and-greet before final registration. Preserve both notices and conservatively show waitlist, not a green confirmed opening. No publication date is shown. No booking, telephone confirmation or eligibility/catchment confirmation performed.",
+    "evidence_quote": ""
   }
 ]

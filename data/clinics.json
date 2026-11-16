@@ -10396,6 +10396,47 @@
         "enrolment_guaranteed": false
       },
       "community_distance_km": null
+    },
+    {
+      "id": "c220",
+      "name": "Wilkins Medical Walk In Clinic",
+      "community": "London",
+      "address": "699 Wilkins Street, Unit 5, London, ON N6C 5C8",
+      "clinic_type": "Family practice and walk-in clinic",
+      "care_model": "both",
+      "care_model_basis": "Official clinic homepage and contact page checked 2026-11-16: family physician Dr. Adesewa Ademola, combined family practice and walk-in care at Unit 5, 699 Wilkins Street. Public OpenStreetMap address node matches street and civic number; building/address point, not a surveyed unit entrance. Database and source, discovery and directory queues checked by clinic name, clinician, phone, domain and address: no matching office found. No clinic contact or patient data used.",
+      "care_model_source": "https://wilkinswalkinclinic.com/",
+      "status": "waitlist",
+      "intake_detail": "Family-practice waitlist advertised on the booking page. The homepage separately says Dr. Adesewa Ademola is accepting new family-practice patients; these undated notices do not establish immediate roster availability. Call 519-963-6748 to confirm the current family-practice intake route and eligibility. Walk-in visits are separate and do not establish ongoing attachment. The linked booking portal was not verified for available appointments; joining a waitlist or attending a meet-and-greet does not guarantee enrolment.",
+      "phone": "519-963-6748",
+      "providers": "Dr. Adesewa Ademola",
+      "evidence_url": "https://wilkinswalkinclinic.com/booking/",
+      "clinic_url": "https://wilkinswalkinclinic.com/",
+      "source_published": "",
+      "last_reviewed": "2026-11-16",
+      "location_quality": "Address-matched OpenStreetMap public building/address point; not an entrance or unit",
+      "community_distance_km": 42.4,
+      "latitude": 42.9510617,
+      "longitude": -81.2305793,
+      "coordinate_source": "https://www.openstreetmap.org/node/2015449288",
+      "coordinate_checked_on": "2026-11-16",
+      "notes": "Homepage names Dr. Adesewa Ademola as accepting family-practice patients; booking page advertises a waitlist. Confirm current pathway with clinic. The embedded contact-page map and a booking-page contact link point to other clinic names and were not used as location or contact evidence.",
+      "review_basis": "Manual original-source review on 2026-11-16: homepage explicitly names family-practice intake for Dr. Adesewa Ademola; booking page instead invites a family-practice waitlist and describes a meet-and-greet before final registration. Preserve both notices and conservatively show waitlist, not a green confirmed opening. No publication date is shown. No booking, telephone confirmation or eligibility/catchment confirmation performed.",
+      "intake_reviewed_on": "2026-11-16",
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "unverified",
+        "reviewed_on": null,
+        "source_url": "https://wilkinswalkinclinic.com/booking/",
+        "method": "manual_review",
+        "finding": "Family-practice waitlist advertised on the booking page. The homepage separately says Dr. Adesewa Ademola is accepting new family-practice patients; these undated notices do not establish immediate roster availability. Call 519-963-6748 to confirm the current family-practice intake route and eligibility. Walk-in visits are separate and do not establish ongoing attachment. The linked booking portal was not verified for available appointments; joining a waitlist or attending a meet-and-greet does not guarantee enrolment.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "clinic_address_verified": true,
+      "address_verification_source": "https://wilkinswalkinclinic.com/contact-us/",
+      "address_verified_on": "2026-11-16",
+      "intake_conflict": true
     }
   ]
 }
