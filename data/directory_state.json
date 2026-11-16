@@ -8,91 +8,108 @@
           "title": "Dr. Gerald Okafor",
           "excerpt": "Dr. Gerald Okafor . Baseline Medical Clinic, 25 Baseline Rd W., London ON N6J 1V1. Visit or call 226-663-4647 to register.",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "432db6e51582a02d5a49e31d5f23958456137ec26fe6996306c4b8475a5aa8e3"
         },
         "zarmeenqamar": {
           "key": "zarmeenqamar",
           "title": "Dr. Zarmeen Qamar",
           "excerpt": "Dr. Zarmeen Qamar . 460 Springbank Drive, London ON N6K 0A8. email: drqamar.oldsouth@gmail.com or visit www.oldsouthfho.ca . Join the waitlist, starting January 2027. Please include full name, best callback number, and email address.",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "a430485d9cbae2fcba73c0b863ec5e94ee3a79af60260e3ead6509dc3f2ea85d"
         },
         "jeffspenceandshizargoosheh": {
           "key": "jeffspenceandshizargoosheh",
           "title": "Dr. Jeff Spence and Dr. Shizar Goosheh",
           "excerpt": "Dr. Jeff Spence and Dr. Shizar Goosheh , with experienced Nurse Practitioners. 309-460 Springbank Dr, London ON N6K 0A8. Please contact office@oldsouthfho.com or call 519-858-0013",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "4d332ba65effd829e097a06fb88fa9d5c594fc01cbeabe43594becd92049defd"
         },
         "rabiyaniaz": {
           "key": "rabiyaniaz",
           "title": "Dr. Rabiya Niaz",
           "excerpt": "Dr. Rabiya Niaz . 358 Oxford Street East, London ON N6A 1V7. 519-438-0002‍ ‍ https://colbornemedicare.ca",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "8fdaa0d2a4ce37e865803da0d8647b6f1b81234523e79404ef2e9b641d18531c"
         },
         "ankitsachdeva": {
           "key": "ankitsachdeva",
           "title": "Dr. Ankit Sachdeva",
           "excerpt": "Dr. Ankit Sachdeva . https://activecaremedicalcentre.com/201-clinic , 519-433-2996",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "551a2405fb5cc688f014e8de064917f022334ff69f4573cb6b1b3db3d7001908"
         },
         "arogundade": {
           "key": "arogundade",
           "title": "Dr. Arogundade",
           "excerpt": "Dr. Arogundade , Wonderland South Medical Centre, 1051 Wonderland Rd South London, ON N6K 3X4, (519) 472 2060 To apply, visit https://www.wonderlandsouthmedicalcentre.ca",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "4ac445fbb1be4ab3ad2b41c76515486307e2c08677d9ff7c1e5cb7433a369638"
         },
         "festusanochie": {
           "key": "festusanochie",
           "title": "Dr. Festus Anochie",
           "excerpt": "Dr. Festus Anochie , 200-440 Boler Road, London Ontario N6K 4L2 Phone: 519-471-2929",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "b3fb1078ce158587b3d52aab384879ea8ebd9b2fb86d02c0b4b1987133784282"
         },
         "viva": {
           "key": "viva",
           "title": "Viva Medical Clinic",
           "excerpt": "Viva Medical Clinic , 149 Oxford Street East Phone (226) 667-8488 https://vivamedicalclinic.ca",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "72002d174a90cfc74b5ae3eb9d004b2ef478a925a5cb2144ac032c2436b7868a"
         },
         "hamilton": {
           "key": "hamilton",
           "title": "Hamilton Medical Clinic",
           "excerpt": "Hamilton Medical Clinic , 204 Hamilton Road, London, ON N5Z 1R1 (905) 595-9126 https://hamiltonmedclinic.com",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "1fad71d46b5cfc5f1f7d34a3dba0b9b04c090885769145f78c51b03da120f796"
         },
         "dundas": {
           "key": "dundas",
           "title": "Dundas Medical Clinic",
           "excerpt": "Dundas Medical Clinic , 1560 Dundast St, Unit 5, London ON, N5W 3C1 548-866-0167 Register Here",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "142dba884bc2d0251fa95d9961d6543824db9740e103d53c5871854ce1b73357"
         },
         "serenity": {
           "key": "serenity",
           "title": "Serenity Medical Centre",
           "excerpt": "Serenity Medical Centre , 272 Oxford St W, London ON N6H 1S9 548-866-0248 (inquire at pharmacy). New physician starting November 1, 2026.",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "df4dbc0632c4c14e71ff8e69456df60b7ce29ccb0ae4b489e09e1c03d3d8295b"
         },
         "saffron": {
           "key": "saffron",
           "title": "Saffron Medical Centre",
           "excerpt": "Saffron Medical Centre , 1-11 Base Line Road East, London Ontario N6C 5Z8, 519-204-0361, https://www.saffronhealth.ca/",
           "link": "https://www.ldam.ca/find-a-doctor",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "1fa8de19713d16f8bffb0e6f3d666722b4c5f959a7ca104ac98e4ee3f37f0d52"
         }
       },
-      "last_attempt": "2026-11-15",
-      "last_success": "2026-11-15",
+      "last_attempt": "2026-11-16",
+      "last_success": "2026-11-16",
       "last_error": null,
+      "error_category": null,
       "entry_count": 12,
-      "fingerprint": "11999b76287525eb3f7e2d3f5feef4a71932668e696b12122bf4903dc1f1b3aa"
+      "fingerprint": "0e5464c384781dc047626bf26fea35a087f6c41cd7d7ee515f6484262cd3a1b4",
+      "extraction_version": "directory-v3",
+      "source_signature": "c04447bc23f449d1c2b47172c040f2b08aca1461168e26b12b9ce3489d90e4a3",
+      "baseline_reason": "extraction_version_or_source_changed",
+      "event_sequence": 0
     },
     "brant_hospital": {
       "entries": {
@@ -101,49 +118,60 @@
           "title": "Dr. Clara Obanor",
           "excerpt": "Dr. Clara Obanor",
           "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "46695d7bf009a74d84e46b8881577a5ddfbf9db592f97a6f8e6a8261ee3df119"
         },
         "saminashaikh": {
           "key": "saminashaikh",
           "title": "Dr. Samina Shaikh",
           "excerpt": "Dr. Samina Shaikh",
           "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "f01584af364a16d38284fce4a79c23b53535bc5bd4bb0bfe8c10248d55f38c71"
         },
         "farahmutasher": {
           "key": "farahmutasher",
           "title": "Dr. Farah Mutasher",
           "excerpt": "Dr. Farah Mutasher",
           "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "dfbf19279421cdcbe071627f875032a1d64fc84e4c1b8a0463f0120f4e5fd37b"
         },
         "vidhidesai": {
           "key": "vidhidesai",
           "title": "Dr. Vidhi Desai",
           "excerpt": "Dr. Vidhi Desai",
           "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "af953420627c4d907bc193fad04c548dccfb4ac852afdddbf45221144baa0851"
         },
         "tundesamuelomisore": {
           "key": "tundesamuelomisore",
           "title": "Dr. Tunde Samuel Omisore",
           "excerpt": "Dr. Tunde Samuel Omisore",
           "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "a5d13b9b850043d1f227ecdb23cd23a474073264686162c48cdfb3d7ffdcf171"
         },
         "kolawolegbolagade": {
           "key": "kolawolegbolagade",
           "title": "Dr. Kolawole Gbolagade",
           "excerpt": "Dr. Kolawole Gbolagade",
           "link": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
-          "scope": "provider directory; status must be rechecked"
+          "scope": "provider directory; status must be rechecked",
+          "content_hash": "b4b6918af57dfcb910ca2447a2e9403711a1814f07b9ab1db3a200a4f41d2c61"
         }
       },
-      "last_attempt": "2026-11-15",
-      "last_success": "2026-11-15",
+      "last_attempt": "2026-11-16",
+      "last_success": "2026-11-16",
       "last_error": null,
+      "error_category": null,
       "entry_count": 6,
-      "fingerprint": "2a9d926eb119f19b9a9f347579b2828b8e3540025addafcaf65dee5762cb3483"
+      "fingerprint": "a850985d2b592e5d00264ee7d164260d9cb7182bc7870f71b0a0645e79f99119",
+      "extraction_version": "directory-v3",
+      "source_signature": "9488ff977bf146dd47ad1ac08a60a563d6d61883050d4067f655558f468895d9",
+      "baseline_reason": "extraction_version_or_source_changed",
+      "event_sequence": 0
     },
     "cambridge_recruitment": {
       "entries": {
@@ -152,143 +180,178 @@
           "title": "Grandview Medical Centre FHT, welcomes two new physicians Dr. Aman Chumber (m) Dr. Zhen Yan Cao (f)",
           "excerpt": "Grandview Medical Centre FHT, welcomes two new physicians Dr. Aman Chumber (m) Dr. Zhen Yan Cao (f) · 167 Hespeler Road. · Please click on this link and sign up today!! www.gmcfht.ca/wait-list/ ·",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "c2aee55e22ad39963391cbd39899a9610af113939a065ea00bf42cf39e5ef725"
         },
         "langscommunityforresidentsofcambridge": {
           "key": "langscommunityforresidentsofcambridge",
           "title": "Langs Community Health Centre (for residents of Cambridge)",
           "excerpt": "Langs Community Health Centre (for residents of Cambridge) · 1145 Concession Road · · Please call 519-653-1470 Ext. 343 to register",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "967b13d839ec51bfdd9c4974e90b67e5bcde3c85fbf642403f011eed79d29756"
         },
         "langsnorthdumfriescommunityforresidentsofnorthdumfries": {
           "key": "langsnorthdumfriescommunityforresidentsofnorthdumfries",
           "title": "Langs North Dumfries Community Health Centre (for residents of North Dumfries)",
           "excerpt": "Langs North Dumfries Community Health Centre (for residents of North Dumfries) · 2938 Greenfield Road, Ayr · · Please call 519-653-1470 Ext. 343 to register",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "5b54c9a4d0ec174e57cfe25c0295d5c78d245a1baccd9ba5b73e0543bdac8105"
         },
         "hishamghali": {
           "key": "hishamghali",
           "title": "Dr. Hisham Ghali",
           "excerpt": "Dr. Hisham Ghali · Shepherd Medical Centre, 512 Coronation Blvd. · · (519) 623-7878",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "2075b8aae74a7f248ebc254f489e5758bac13208a80225af7d415f18302c3c43"
         },
         "sunilbhatia": {
           "key": "sunilbhatia",
           "title": "Dr. Sunil Bhatia",
           "excerpt": "Dr. Sunil Bhatia · Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge · Please email [email protected] to request a Patient Registration Form ·",
-          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#b6e5d7d1dfd8d7c1dbd3d2dfd5d7dad5dadfd8dfd5f6d1dbd7dfda98d5d9db96",
-          "scope": "directory entry; verify original clinic intake"
+          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#2d7e4c4a44434c5a404849444e4c414e414443444e6d4a404c4441034e42400d",
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "3f5d0203e06cc778095c07af12b36654ce1bb21120b6ea78e10cca5cfcf71951"
         },
         "townlinewalkin": {
           "key": "townlinewalkin",
           "title": "Townline Walk-in & Medical Clinic",
           "excerpt": "Townline Walk-in & Medical Clinic · 940 Jamieson Pkwy · Register to become a patient with Dr. Mehreen Saif, Dr. Waqar Faisal who will begin their practice in Aug. 2025. www.townlineclinic.com ·",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "1eec2e0dd047beac2bb5286a04beb000e6e85716090ed72eb6ee50214133a1d7"
         },
         "standrewswalkin": {
           "key": "standrewswalkin",
           "title": "St. Andrews Walk-in & Medical Clinic",
           "excerpt": "St. Andrews Walk-in & Medical Clinic · 190 St. Andrews St. Unit B2 · Register to become a patient with Dr. Edward Lapido who will begin to practice in Sept. 2025. www.standrewsclinic.ca ·",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "c7e123d2942a35423caf2bc53c86ac6ab312f22ba565b95a73514d48eb4d2e95"
         },
         "fareshayekcoronationphysicians": {
           "key": "fareshayekcoronationphysicians",
           "title": "Dr. Fares Hayek Coronation Family Physicians",
           "excerpt": "Dr. Fares Hayek Coronation Family Physicians · 182 Pinebush Road · www.coronationfamilyphysicians.ca ·",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "4a2b9ffa290c70331507906fadae83a124f67a82518bf7c8db9a6bf023c706e2"
         },
         "sherifmikhail": {
           "key": "sherifmikhail",
           "title": "Dr. Sherif Mikhail",
           "excerpt": "Dr. Sherif Mikhail · 350 Conestoga Blvd. Unit B7A · · Please call to register (519) 740-1700",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "a81e7df9a42ab95dbcbdc622daec363c63e5a139a3d1e29acd8e250bb49d4de4"
         },
         "uzmasohailemeraldcaremaxwalkinand": {
           "key": "uzmasohailemeraldcaremaxwalkinand",
           "title": "Dr. Uzma Sohail Emerald Caremax Walk-in Clinic and Family Practice",
           "excerpt": "Dr. Uzma Sohail Emerald Caremax Walk-in Clinic and Family Practice · 140 Hespeler Road · www. emeraldcaremax.ca/registration/ · (519) 267-5030",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "a021c8e7d54caafa86c99927ebcf387b8fbf8afd9ab75898355acf2df5f6afa7"
         },
         "waterlooregionnursepractitionerled": {
           "key": "waterlooregionnursepractitionerled",
           "title": "Waterloo Region Nurse Practitioner Led Clinic",
           "excerpt": "Waterloo Region Nurse Practitioner Led Clinic · 13 Water St. N. Cambridge 123 Pioneer Dr., Kitchener 10-10 Townsend Dr., Breslau · www. wrnplc.ca/patient-information ·",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "9c3be8b1d3cd834383e4d67855334b026fd1220380d4687442923713d1ec4c98"
         },
         "martinschuster": {
           "key": "martinschuster",
           "title": "Dr. Martin Schuster",
           "excerpt": "Dr. Martin Schuster · 11 George St. S. Unit #1 , Cambridge · · (519) 740-6437",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "cec5f843f5f593c9be44844ee50cb60ee099fc2e8f62ddd41e0016c7300b474e"
         },
         "forbespark": {
           "key": "forbespark",
           "title": "Forbes Park Medical Centre",
           "excerpt": "Forbes Park Medical Centre · 26 Forbes Street · · Please visit clinic to pick up application",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "7bbcc76de8ccad7a5ffe20b7536718b378392475bc227ee8b8371db205d9470b"
         },
         "isabellacallaghan": {
           "key": "isabellacallaghan",
           "title": "Dr. Isabella Callaghan",
           "excerpt": "Dr. Isabella Callaghan · Two Rivers FHT – Hespeler Clinic 350 Conestoga Blvd. Unit 12 · www.tworiversfht.ca · To register please call 519-629-4615",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "3c4dc69b921a442b4fd77d8ec74c49701db36cec76b975d5e97d575c39068206"
         },
         "binhvan": {
           "key": "binhvan",
           "title": "Dr. Binh Van",
           "excerpt": "Dr. Binh Van · 600 Hespeler Road, Unit 20B · (519) 267-0216 · Call for hours",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "538c034716c01ace4a4dbd196346866b91f327bf92cf91140ccdfbaabbf7d807"
         },
         "avalon": {
           "key": "avalon",
           "title": "Avalon Medical Clinic",
           "excerpt": "Avalon Medical Clinic · 85 Dundas Street · (519) 624-8716 · Mon. to Fri. 10 a.m. to 4 p.m. Sat. 10 a.m. to 3 p.m.",
           "link": "https://www.doctors4cambridge.com/contact.htm",
-          "scope": "directory entry; verify original clinic intake"
+          "scope": "directory entry; verify original clinic intake",
+          "content_hash": "d653b99e5288a22f59b5aa1b4a854f1478d31c7f4e87c6473a3318ef7be12807"
         }
       },
-      "last_attempt": "2026-11-15",
-      "last_success": "2026-11-15",
+      "last_attempt": "2026-11-16",
+      "last_success": "2026-11-16",
       "last_error": null,
+      "error_category": null,
       "entry_count": 16,
-      "fingerprint": "fbeb79bc664a5f4d87df59658a4c0b55166f93d98aed5910435e0095074826da"
+      "fingerprint": "45063cb1f6a255d4f1cbf5b90cadc92227a14faa303098ca64cb7ba11ecc4c89",
+      "extraction_version": "directory-v3",
+      "source_signature": "766bb5b31d9eccb36294cfa0b4de1299babd9578dc9f11b5b9bb413cc42bad8c",
+      "baseline_reason": "extraction_version_or_source_changed",
+      "event_sequence": 0
     },
     "sw_healthline": {
-      "last_attempt": "2026-11-15",
-      "last_error": "unavailable; preserved previous results"
+      "last_attempt": "2026-11-16",
+      "last_error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=London (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
+      "error_category": "tls_error"
     },
     "woodstock_news": {
-      "last_attempt": "2026-11-15",
-      "last_error": "no extractable entries; preserved previous results"
+      "entries": {},
+      "last_attempt": "2026-11-16",
+      "last_success": "2026-11-16",
+      "last_error": null,
+      "error_category": null,
+      "entry_count": 0,
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "extraction_version": "directory-v3",
+      "source_signature": "1f6bc0a89f81db77b6e5171baa4671ea74310947e19f2401ac2a685dd256bb6c",
+      "baseline_reason": "first_observation",
+      "event_sequence": 0
     },
     "oxford_oht": {
-      "last_attempt": "2026-11-15",
-      "last_error": "unavailable; preserved previous results"
+      "last_attempt": "2026-11-16",
+      "last_error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor-or-nurse-practitioner/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
+      "error_category": "tls_error"
     },
     "healthline_oxford": {
-      "last_attempt": "2026-11-15",
-      "last_error": "unavailable; preserved previous results"
+      "last_attempt": "2026-11-16",
+      "last_error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=Oxford (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
+      "error_category": "tls_error"
     },
     "healthline_elgin": {
-      "last_attempt": "2026-11-15",
-      "last_error": "unavailable; preserved previous results"
+      "last_attempt": "2026-11-16",
+      "last_error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=Elgin (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
+      "error_category": "tls_error"
     },
     "healthline_southwest": {
-      "last_attempt": "2026-11-15",
-      "last_error": "unavailable; preserved previous results"
+      "last_attempt": "2026-11-16",
+      "last_error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=SouthWestOntario (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
+      "error_category": "tls_error"
     },
     "norfolk_fht_resources": {
       "entries": {
@@ -297,14 +360,20 @@
           "title": "Norfolk Family Health Team — find a doctor or NP",
           "excerpt": "Find a Doctor or Nurse Practitioner - Norfolk Family Health Team Skip to content FOR PATIENTS | FIND A DOCTOR or NURSE PRACTITIONER Find a Doctor or Nurse Practitioner Health Care Connect helps Ontarians who are without a family health care provider (family doctor or nurse practitioner) to find one. People without a family health care provider are referred to a family doctor or a nurse practitioner who is accepting new patients in their",
           "link": "https://norfolkfht.ca/find-a-doctor/",
+          "content_hash": "07147f28afc994f366003191e8e9eef10b8f107a017c42396d249cd670f95c75",
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-15",
-      "last_success": "2026-11-15",
+      "last_attempt": "2026-11-16",
+      "last_success": "2026-11-16",
       "last_error": null,
+      "error_category": null,
       "entry_count": 1,
-      "fingerprint": "70cf2d0cdc53f81283af8780eb9da237052da2168fb9efc919880685e262e482"
+      "fingerprint": "87e9cd69679fa80bdd4c3d98a6193dcf5eeeac51bd234eef511c68ba5a5d0948",
+      "extraction_version": "directory-v3",
+      "source_signature": "c294e8b8de013daa139eb1cfd56dffa4029ea9f4d346e728a32350b91fa3773c",
+      "baseline_reason": "extraction_version_or_source_changed",
+      "event_sequence": 0
     },
     "huron_perth_oht": {
       "entries": {
@@ -313,14 +382,20 @@
           "title": "Huron Perth Ontario Health Team — attachment pathway",
           "excerpt": "Register for a Family Doctor or Nurse Practitioner - Huron Perth & Area Ontario Health Team Health811 Call 811(TTY: 1-866-797-0007) Ontario Caregiver Helpline 1-833-416-2273(CARE) Register for a Family Doctor or Nurse Practitioner If you live in Huron or Perth County and are looking for a family doctor or nurse practitioner, or for care closer to home (within a 30-minute drive), you can register to be matched. You do not need to leave y",
           "link": "https://hpaoht.ca/get-primary-care/",
+          "content_hash": "c5521b192ad73e4304b0a4c7020e774572e31f3a5b5101d10e4eb3f4563b86a1",
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-15",
-      "last_success": "2026-11-15",
+      "last_attempt": "2026-11-16",
+      "last_success": "2026-11-16",
       "last_error": null,
+      "error_category": null,
       "entry_count": 1,
-      "fingerprint": "f8aae431176e96d555b01b6711e2be3d593c8c23153b3f555612272ce6093284"
+      "fingerprint": "1569425e1710f5ce96550f4d4a9ea13329119e462b5187f20edc359c0f4329be",
+      "extraction_version": "directory-v3",
+      "source_signature": "8c4f20a023de656b7ebbfc6e63555436e7a92ed0f31e9defd20a572f675ff67e",
+      "baseline_reason": "extraction_version_or_source_changed",
+      "event_sequence": 0
     },
     "elmdale_family_physician": {
       "entries": {
@@ -329,44 +404,57 @@
           "title": "Elmdale Health Centre — family physician registration notice",
           "excerpt": "ElmdaleHealth :: Home Elmdale Health Centre Home Blog Open House - June 17, 2017 Family Medicine Recruitment Fair Leasing Opportunities WHAT'S HERE Dr. Derek Haruta and Associates - SUITE 101 (519) 631-6641 www.drharuta.com Hours: Mon 8-8. Tues 8-5, Wed 8-5, Thurs 8-5, Fri 7:30-3 Elmdale Medical Pharmacy - SUITE 105 (519) 633-6337 (519-MED-MEDS) www.elmdalepharmacy.ca Hours: Monday-Friday 9am-530pm, Saturday 9am-12pm Dr. Colin Bolzon - ",
           "link": "https://elmdalehealth.com/",
+          "content_hash": "86a9ba5195860e17c7897d36efcbb0f7263d6f85ed9fe994cde6cfb6d4786e2c",
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-15",
-      "last_success": "2026-11-15",
+      "last_attempt": "2026-11-16",
+      "last_success": "2026-11-16",
       "last_error": null,
+      "error_category": null,
       "entry_count": 1,
-      "fingerprint": "7091823a272e821b280c46cca80e85090e6a0e601e0478eff4236e8dbef8d410"
+      "fingerprint": "74adb6a182c95a3b8be5c21a7bfd85c38eb7fb0550e376454e9a4c35bf259051",
+      "extraction_version": "directory-v3",
+      "source_signature": "877ab2466b9135ecd457572a8975a6e14fae8348b593d04e4624f8c46e7012d4",
+      "baseline_reason": "extraction_version_or_source_changed",
+      "event_sequence": 0
     }
   },
-  "last_run": "2026-11-15",
+  "last_run": "2026-11-16",
   "last_summary": {
     "sources": 12,
-    "success": 6,
-    "failed": 6,
-    "baselines": 3,
+    "success": 7,
+    "failed": 5,
+    "baselines": 7,
+    "version_baselines": 6,
+    "zero_result_news": 1,
     "new_directory_leads": 0,
     "listing_removals_to_review": 0,
     "errors": [
       {
         "source": "sw_healthline",
-        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&regio"
+        "category": "tls_error",
+        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=London (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
       },
       {
         "source": "oxford_oht",
-        "error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor"
+        "category": "tls_error",
+        "error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor-or-nurse-practitioner/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
       },
       {
         "source": "healthline_oxford",
-        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&regio"
+        "category": "tls_error",
+        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=Oxford (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
       },
       {
         "source": "healthline_elgin",
-        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&regio"
+        "category": "tls_error",
+        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=Elgin (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
       },
       {
         "source": "healthline_southwest",
-        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&regio"
+        "category": "tls_error",
+        "error": "HTTPSConnectionPool(host='www.southwesthealthline.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=SouthWestOntario (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
       }
     ]
   }
