@@ -125,6 +125,22 @@
       "current_intake": "not verified",
       "review_status": "pending",
       "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+    },
+    {
+      "id": "oncare-tillsonburg-review-20261116",
+      "detected_at": "2026-11-16T07:24:37+00:00",
+      "title": "OnCare Tillsonburg website: operation and intake unverified",
+      "news_link": "https://www.oncareclinic.ca/tillsonburg/",
+      "original_source": "https://www.oncareclinic.ca/tillsonburg/",
+      "published": "Undated webpage",
+      "matched_query": "Manual public-source review: OnCare Tillsonburg",
+      "source_type": "manual_public_source_review",
+      "proposed_action": "Verify clinic operation, physician identity and clinic-controlled contact before considering inclusion",
+      "within_75km": "not verified",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Unverified lead only, not an active clinic listing or confirmed opening. The website advertises family-practice registration but labels both named doctors not accepting, shows every day closed, and provides no Tillsonburg booking phone. The new-patient page displays 416-555-0123. Coward PharmaChoice independently lists the same address, but that does not confirm or disprove a separate clinic. Do not use the medical-history form as a verified application route. Independent operation and identity evidence is required; do not infer fraud, closure or acceptance.",
+      "reviewed_on": "2026-11-16"
     }
   ]
 }
