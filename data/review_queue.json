@@ -144,12 +144,18 @@
       "source_kind": "intake evidence",
       "old_hash": "d902391a24e59bcab54c5a9cb6096281bc301b9c6eca46a768abd59af4c05b2c",
       "new_hash": "aa4f9f56d843d3165578552e5347c3535776a2bf8d6214863c3b0badefc25a39",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "New Patients – Wharnox Medical Solutions Clinic New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today We welcome inquiries from new patients.\nPlease contact our office to learn about availability and registration requirements.",
       "current_excerpt": "New Patients – Wharnox Medical Solutions Clinic New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today We welcome inquiries from new patients.\nPlease contact our office to learn about availability and registration requirements.\nDownload IMPORTANT NOTICE This website is for patient information and new patient applications only.",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
+      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "reviewer_note": "Original Wharnox new-patient page reopened. It still invites inquiries and says to contact the office about availability and requirements. The changed footer/download wording does not confirm a roster opening. Existing c199 unknown status preserved.",
+      "review_outcome": "No intake-status change",
+      "review_sources": [
+        "https://wharnox.medicalsolutionclinic.com/new-patients/"
+      ]
     },
     {
       "id": "8d26090c1e9c",
@@ -161,7 +167,7 @@
       "source_kind": "intake evidence",
       "old_hash": "16a718ede4312d899baa567d1206da2a5a7a7655a6e0a4c7cdc80d9e94c266ac",
       "new_hash": "61932c34c7bae9bf548e52a4581e1916a594c576ec27b6fe4bef6cde5a499959",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Highbury Medical Clinic | Walk-In, Family Doctor & ALUMO Skip to content HIGHBURY MEDICAL CLINIC Walk-In Clinic in London, Ontario Care for everyday illnesses, minor injuries and ear cleaning right here at Highbury Medical Clinic.\nFirst-come, first-served, subject to capacity.\nSpecialist Referrals A physician can assess your concerns and make a specialist referral when appropriate.\nFAMILY PRACTICE A family doctor.\nSaadiyah Rao is accepting new patients for her family practice.\nComplete the intake form and drop it off in person at the clinic.\nPatient Intake Form Please bring your completed form to the clinic.\nBY REFERRAL & APPOINTMENT Cervical screening with a female physician.\nYour family doctor or a walk-in physician can send a referral.\nDirect billing is available for accepted plans, including ALUMO student medical insurance , after verification.\nView accepted plans and payment informa",
       "current_excerpt": "Highbury Medical Clinic | Walk-In, Family Doctor & ALUMO Skip to content HIGHBURY MEDICAL CLINIC Walk-In Clinic in London, Ontario Care for everyday illnesses, minor injuries and ear cleaning right here at Highbury Medical Clinic.\nFirst-come, first-served, subject to capacity.\nSpecialist Referrals A physician can assess your concerns and make a specialist referral when appropriate.\nFAMILY PRACTICE A family doctor.\nSaadiyah Rao is accepting new patients for her family practice.\nComplete the intake form and drop it off in person at the clinic.\nDownload Intake PDF Family practice intake instructions BY REFERRAL & APPOINTMENT Cervical screening with a female physician.\nYour family doctor or a walk-in physician can send a referral.\nDirect billing is available for accepted plans, including ALUMO student medical insurance , after verification.\nView accepted plans and payment information .\nPatients are seen first-come, first-served, subject to capacity.\n+ Medically necessary physician services are covered for eligible OHIP patients.\nAccepted insurance plans are subject to verification.",
       "possible_claim": "conflicting_or_conditional",
@@ -169,7 +175,13 @@
         "Saadiyah Rao is accepting new patients for her family practice.",
         "+ Medically necessary physician services are covered for eligible OHIP patients."
       ],
-      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
+      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "reviewer_note": "Original Highbury page reopened. Dr. Saadiyah Rao still advertises family-practice intake and directs completed forms to the clinic in person; walk-in care is separate. The change is link wording, not a change of intake. Existing c208 applications-advertised listing preserved; no guaranteed enrolment.",
+      "review_outcome": "Existing intake pathway unchanged",
+      "review_sources": [
+        "https://kamvamedical.ca/highbury-medical-clinic/"
+      ]
     },
     {
       "id": "97a9e7983e03",
@@ -181,12 +193,18 @@
       "source_kind": "intake evidence",
       "old_hash": "95d3c6458a68542c60edb7eebad45744daf2525cd1fdf31682a162f582baf5de",
       "new_hash": "1485b1c7fd47712ed19e9d8486e6d580fda9ee3672082c8f534b1f04d20b13c3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "New Patients – Wharncliffe Medical Solutions Clinic | Family Medicine in London, ON New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today Download and fill out the New Patient Registration Form before uploading it as an attachment.\nDownload IMPORTANT NOTICE This website is for patient information and new patient applications only.",
       "current_excerpt": "New Patients – Wharncliffe Medical Solutions Clinic | Family Medicine in London, ON New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today Download and fill out the New Patient Registration Form before uploading it as an attachment.",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
+      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "reviewer_note": "Original Wharncliffe new-patient page reopened. Registration form/upload instructions remain, without an explicit current roster-capacity statement. Footer notice removal does not establish closure or a new opening. Existing c200 unknown status preserved.",
+      "review_outcome": "No intake-status change",
+      "review_sources": [
+        "https://wharncliffe.medicalsolutionclinic.com/new-patients/"
+      ]
     },
     {
       "id": "24524745af3a",
@@ -198,12 +216,18 @@
       "source_kind": "intake evidence",
       "old_hash": "0db0ca2619b4c0546c40063f3b8ca2a643ba2cce6af077a69b0346de3b4eefa7",
       "new_hash": "da41e87aa464bccd8c6ac4eed8d69f5a9b2e687c3c8be935bcb54e90b469ee54",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "AlKhatib walk-ins during regular hours, no appointment needed, simply come to the clinic and let us know View / Download Flu Clinic Flyer (PDF) Registered patients can schedule appointments online through our secure booking system.\nNo walk-ins accepted Tuesday November 10 5pm to 8pm Dr.\nNo walk-ins accepted Wednesday November 11 5pm to 8pm Dr.\nNo walk-ins accepted Thursday November 12 5pm to 8pm Dr.\nIf a call is needed, call the on call physician between 4:30 pm- 6:30 pm to reserve a spot.\nNo intake after 6:30pm.\nAlkhatib’s After - hours days: FOR FHO Patients WEEKDAYS : Please check in 4:45 PM and try to check in before 7:30 max- I will not accept pts after 7:30 as the clinic gets very busy.",
       "current_excerpt": "AlKhatib walk-ins during regular hours, no appointment needed, simply come to the clinic and let us know View / Download Flu Clinic Flyer (PDF) Registered patients can schedule appointments online through our secure booking system.\nNo walk-ins accepted Tuesday November 17 5pm to 8pm Dr.\nNo walk-ins accepted Wednesday November 18 5pm to 8pm Dr.\nNo walk-ins accepted Thursday November 19 5pm to 7:30pm Dr.\nNo walk-ins accepted If the doctor in After Hour Clinic is NOT Dr Al Khatib - then its for urgent issues only (such as fever, new ear pain, new rash, UTI, asthma attack etc).\nIf a call is needed, call the on call physician between 4:30 pm- 6:30 pm to reserve a spot.\nNo intake after 6:30pm.\nAlkhatib’s After - hours days: FOR FHO Patients WEEKDAYS : Please check in 4:45 PM and try to check in before 7:30 max- I will not accept pts after 7:30 as the clinic gets very busy.",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
+      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "reviewer_note": "Original Dr. Dina AlKhatib page reopened. Booking is explicitly for existing patients and after-hours care is for FHO patients. The queued change concerns weekly dates/hours, not new-patient attachment. Existing c140 unknown intake preserved. No after-hours schedule copied into the directory.",
+      "review_outcome": "Existing-patient schedule change only",
+      "review_sources": [
+        "https://drdinaalkhatib.com/"
+      ]
     },
     {
       "id": "6a38395a43d3",
@@ -215,12 +239,18 @@
       "source_kind": "intake evidence",
       "old_hash": "1485b1c7fd47712ed19e9d8486e6d580fda9ee3672082c8f534b1f04d20b13c3",
       "new_hash": "95d3c6458a68542c60edb7eebad45744daf2525cd1fdf31682a162f582baf5de",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "New Patients – Wharncliffe Medical Solutions Clinic | Family Medicine in London, ON New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today Download and fill out the New Patient Registration Form before uploading it as an attachment.",
       "current_excerpt": "New Patients – Wharncliffe Medical Solutions Clinic | Family Medicine in London, ON New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today Download and fill out the New Patient Registration Form before uploading it as an attachment.\nDownload IMPORTANT NOTICE This website is for patient information and new patient applications only.",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically."
+      "note": "A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "reviewer_note": "Original Wharncliffe new-patient page reopened. This reverses the earlier footer-notice change; registration instructions remain. It adds no current capacity evidence. Existing c200 unknown status preserved.",
+      "review_outcome": "No intake-status change",
+      "review_sources": [
+        "https://wharncliffe.medicalsolutionclinic.com/new-patients/"
+      ]
     }
   ]
 }

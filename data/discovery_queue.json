@@ -107,10 +107,13 @@
       "matched_query": "Cambridge Ontario family practice patient registration",
       "source_type": "news_search_feed",
       "proposed_action": "investigate clinic or intake",
-      "within_75km": "not verified",
+      "within_75km": false,
       "current_intake": "not verified",
-      "review_status": "pending",
-      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+      "review_status": "rejected",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility.",
+      "reviewed_on": "2026-11-16",
+      "reviewer_note": "Out-of-area search result: the headline concerns Nova Scotia, not a clinic within 75 km of Tillsonburg. The original CTV article could not be opened (robots restriction); this rejection is geographic triage, not an intake determination.",
+      "review_outcome": "Outside geographic scope"
     },
     {
       "id": "5ebc6bc3d748fc97",
@@ -121,10 +124,14 @@
       "matched_query": "London Ontario family practice accepting new patients",
       "source_type": "news_search_feed",
       "proposed_action": "investigate clinic or intake",
-      "within_75km": "not verified",
+      "within_75km": false,
       "current_intake": "not verified",
-      "review_status": "pending",
-      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility."
+      "review_status": "rejected",
+      "note": "Lead only. Identify original source, exact office address, radius, current clinic-specific intake and eligibility.",
+      "reviewed_on": "2026-11-16",
+      "reviewer_note": "Original Froedtert release checked: a future emergency-department project in Waupaca, Wisconsin, not Ontario primary-care attachment. Outside the 75 km scope and wrong service type.",
+      "review_outcome": "Outside geography and service scope",
+      "original_source": "https://www.froedtert.com/news/froedtert-thedacare-announces-new-emergency-department-thedacare-medical-center-waupaca"
     },
     {
       "id": "oncare-tillsonburg-review-20261116",
