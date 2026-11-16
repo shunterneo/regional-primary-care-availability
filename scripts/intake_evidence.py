@@ -5,11 +5,21 @@ These labels are *proposals*, not proof of enrollment and never change a clinic 
 from __future__ import annotations
 import re
 
-REVIEW_CLASSIFIER_VERSION = 'intake-hints-v2'
+REVIEW_CLASSIFIER_VERSION = 'intake-hints-v3'
 NONE_AT_CLINIC = re.compile(
     r'\bnone\s+of\s+(?:the\s+)?(?:physicians?|doctors?|providers?)\s+'
     r'(?:in|at)\s+(?:our|this|the)\s+(?:clinic|practice|office)\s+'
     r'(?:are|is)\s+(?:currently\s+)?accepting\s+new\s+patients?\b', re.I)
+
+# Negated availability of clinicians is not a positive intake announcement.
+NO_ACCEPTING_CLINICIANS = re.compile(
+    r"\b(?:do\s+not|don't|don’t)\s+have\s+any\s+"
+    r"(?:physicians?|doctors?|providers?)\s+(?:currently\s+)?"
+    r"accepting\s+(?:new\s+)?patients?\b", re.I)
+# Exclude only the explicitly specialist-owned queue, not every sentence that
+# mentions a specialist (which could also contain a primary-care waitlist).
+SPECIALIST_WAITLIST = re.compile(
+    r"\bspecialists?(?:['’]s|['’])?\s+(?:wait\s?list|waiting\s+list)\b", re.I)
 
 CLOSED = re.compile(r"\b(?:not|no longer|currently not|aren['’]t|isn['’]t|unable to|cannot)\s+(?:currently\s+)?(?:accepting|taking|registering|enrolling|rostering)\s+(?:any\s+)?new\s+(?:patients?|clients?|applications?)\b|\bclosed\s+to\s+new\s+(?:patients?|applications?)\b", re.I)
 OPEN = re.compile(r"\b(?:currently\s+)?(?:now\s+)?(?:accepting|taking|registering|enrolling|rostering|welcoming)\s+(?:new\s+)?(?:patient|client|applicant)(?:s|\s+applications?)?\b|\bnew[ -]patient\s+(?:registration|applications?)\s+(?:is\s+)?(?:open|available)\b", re.I)
@@ -24,9 +34,9 @@ def classify(excerpt: str) -> dict:
     for line in lines:
         line = line[:450]
         # Check negative expressions first to avoid falsely parsing "not accepting" as open.
-        if CLOSED.search(line) or NONE_AT_CLINIC.search(line): found['possible_closed'].append(line)
+        if CLOSED.search(line) or NONE_AT_CLINIC.search(line) or NO_ACCEPTING_CLINICIANS.search(line): found['possible_closed'].append(line)
         elif OPEN.search(line): found['possible_accepting'].append(line)
-        if WAITLIST.search(line): found['possible_waitlist'].append(line)
+        if WAITLIST.search(SPECIALIST_WAITLIST.sub('', line)): found['possible_waitlist'].append(line)
         if LIMITED.search(line): found['possible_limited'].append(line)
     active = [k for k,v in found.items() if v]
     if not active: return {'classification':'unclear','excerpts':[],'confidence':'insufficient'}
