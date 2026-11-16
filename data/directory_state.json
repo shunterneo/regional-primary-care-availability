@@ -108,7 +108,7 @@
       "fingerprint": "0e5464c384781dc047626bf26fea35a087f6c41cd7d7ee515f6484262cd3a1b4",
       "extraction_version": "directory-v4",
       "source_signature": "c04447bc23f449d1c2b47172c040f2b08aca1461168e26b12b9ce3489d90e4a3",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "brant_hospital": {
@@ -170,7 +170,7 @@
       "fingerprint": "a850985d2b592e5d00264ee7d164260d9cb7182bc7870f71b0a0645e79f99119",
       "extraction_version": "directory-v4",
       "source_signature": "9488ff977bf146dd47ad1ac08a60a563d6d61883050d4067f655558f468895d9",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "cambridge_recruitment": {
@@ -312,7 +312,7 @@
       "fingerprint": "7734ef58ecd751ee37b940386072f95407c40653fe09c7a35b157d2fbf465031",
       "extraction_version": "directory-v4",
       "source_signature": "766bb5b31d9eccb36294cfa0b4de1299babd9578dc9f11b5b9bb413cc42bad8c",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 1
     },
     "sw_healthline": {
@@ -424,7 +424,7 @@
       "fingerprint": "30039ebd841f715f3419c14535f9d348a2335a5881a4a6e2060f7a3024dbc9a9",
       "extraction_version": "directory-v4",
       "source_signature": "cff9151f0dce91ac3594b9c4ffeb73924d71c075519541a7d7edda93a387393c",
-      "baseline_reason": "first_observation",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "woodstock_news": {
@@ -437,13 +437,13 @@
       "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "extraction_version": "directory-v4",
       "source_signature": "1f6bc0a89f81db77b6e5171baa4671ea74310947e19f2401ac2a685dd256bb6c",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "oxford_oht": {
       "last_attempt": "2026-11-16",
-      "last_error": "503 Server Error: Service Unavailable for url: https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/; preserved previous results",
-      "error_category": "transient_http"
+      "last_error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor-or-nurse-practitioner/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
+      "error_category": "tls_error"
     },
     "healthline_oxford": {
       "original_url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford",
@@ -506,7 +506,7 @@
       "fingerprint": "fae7ddee9a65b08dcf94a06e294c133682725b73ff9943b2a2e5f9a88a7a5ea7",
       "extraction_version": "directory-v4",
       "source_signature": "5b69167263f68a7652858ac72f5135abe21bf69d23baa2c4579dd287c6d8569d",
-      "baseline_reason": "first_observation",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "healthline_elgin": {
@@ -570,7 +570,7 @@
       "fingerprint": "c119069a84cd6a8712fc7db169451597b8f6adc91c9d1e30350eb317b2423ec4",
       "extraction_version": "directory-v4",
       "source_signature": "61918fbf0f1e58c75e168793a96e30f2e107b5909cfda4cff7781fcbcc164b08",
-      "baseline_reason": "first_observation",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "healthline_southwest": {
@@ -778,7 +778,7 @@
       "fingerprint": "4f03caa5fed468c4849745bcedbb2ef7c6f6bf0ee35a574de9a090cbb422ba99",
       "extraction_version": "directory-v4",
       "source_signature": "c3a49794e018a5e9e1551746a5e045d7efe50fe9bcebf7a099fe571943c8fcae",
-      "baseline_reason": "first_observation",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "norfolk_fht_resources": {
@@ -800,7 +800,7 @@
       "fingerprint": "87e9cd69679fa80bdd4c3d98a6193dcf5eeeac51bd234eef511c68ba5a5d0948",
       "extraction_version": "directory-v4",
       "source_signature": "c294e8b8de013daa139eb1cfd56dffa4029ea9f4d346e728a32350b91fa3773c",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "huron_perth_oht": {
@@ -822,7 +822,7 @@
       "fingerprint": "1569425e1710f5ce96550f4d4a9ea13329119e462b5187f20edc359c0f4329be",
       "extraction_version": "directory-v4",
       "source_signature": "8c4f20a023de656b7ebbfc6e63555436e7a92ed0f31e9defd20a572f675ff67e",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     },
     "elmdale_family_physician": {
@@ -844,7 +844,7 @@
       "fingerprint": "74adb6a182c95a3b8be5c21a7bfd85c38eb7fb0550e376454e9a4c35bf259051",
       "extraction_version": "directory-v4",
       "source_signature": "877ab2466b9135ecd457572a8975a6e14fae8348b593d04e4624f8c46e7012d4",
-      "baseline_reason": "extraction_version_or_source_changed",
+      "baseline_reason": null,
       "event_sequence": 0
     }
   },
@@ -853,16 +853,16 @@
     "sources": 12,
     "success": 11,
     "failed": 1,
-    "baselines": 11,
-    "version_baselines": 7,
+    "baselines": 0,
+    "version_baselines": 0,
     "zero_result_news": 1,
-    "new_directory_leads": 16,
+    "new_directory_leads": 0,
     "listing_removals_to_review": 0,
     "errors": [
       {
         "source": "oxford_oht",
-        "category": "transient_http",
-        "error": "503 Server Error: Service Unavailable for url: https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/"
+        "category": "tls_error",
+        "error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor-or-nurse-practitioner/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
       }
     ]
   }

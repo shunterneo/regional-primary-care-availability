@@ -1,4 +1,18 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "id": "a94c6cfb6cb7ecdcea",
+      "detected_at": "2026-11-16",
+      "title": "Monthly-cycle registry cross-check \u2014 London and Middlesex",
+      "url": "https://register.cpso.on.ca/Advanced-Search01/",
+      "second_url": "https://registry.cno.org/",
+      "region": "London and Middlesex",
+      "locations": "London, Ilderton, Strathroy, Mount Brydges, Ailsa Craig",
+      "review_status": "pending",
+      "proposed_action": "Manually inspect public CPSO family-physician and CNO nurse-practitioner practice-location records; compare with active office list. Independently verify any unlisted address and whether ongoing primary care is offered.",
+      "intake_status": "not provided by registries",
+      "note": "Official registers do NOT verify patient acceptance. No automated scraping or registry data ingestion."
+    }
+  ]
 }
