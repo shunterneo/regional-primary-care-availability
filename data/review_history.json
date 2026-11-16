@@ -2852,5 +2852,15 @@
     "type": "manual_review_with_evidence_gate",
     "reviewer_note": "Manual original-source review on 2026-11-16: homepage explicitly names family-practice intake for Dr. Adesewa Ademola; booking page instead invites a family-practice waitlist and describes a meet-and-greet before final registration. Preserve both notices and conservatively show waitlist, not a green confirmed opening. No publication date is shown. No booking, telephone confirmation or eligibility/catchment confirmation performed.",
     "evidence_quote": ""
+  },
+  {
+    "date": "2026-11-16",
+    "clinic_id": "c221",
+    "clinic_name": "Aafiyat Medical Centre — Kitchener (Dr. Ejaz Ahmed)",
+    "old_status": "not listed",
+    "new_status": "accepting",
+    "source": "https://aafiyat.ca/dr-ejaz-ahmed/",
+    "type": "manual_original_source_verification",
+    "reviewer_note": "Newly discovered first-party named family-physician intake. Clinic states Dr Ejaz Ahmed accepts family-practice attachment, not only same-day walk-ins. Current office 815 Weber St E Unit 5; first-party opening date Oct 8 2026 and future move to 150 Duke St W in late Nov/early Dec. 815 Weber public business coordinate 43.43813,-80.45972 matched to same civic address, about 67.15 km straight-line from 96 Tillson Ave. Clinic-specific source checked Nov 16 2026; enrolment eligibility/capacity not guaranteed. No CPSO or telephone confirmation."
   }
 ]
