@@ -7,6 +7,7 @@ from common import ROOT, STATUSES, CARE_MODELS, CITY_COORDS, load_data, effectiv
 from evidence_policy import verification_display, display_expiry
 from monitor_health import current as monitoring_health
 from audit_inventory import write_files
+from review_dashboard import write_dashboard
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -47,6 +48,9 @@ report={
  'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'),
  'source_scan_summary':source_state.get('last_summary',{}),
 }
+review_findings=write_dashboard(ROOT,clinics,report['monitoring_health'])
+report['review_findings_counts']=review_findings['counts']
+report['review_findings_input_errors']=review_findings['input_errors']
 (site/'report.json').write_text(json.dumps(report,indent=2)+'\n')
 
 # DOCX helpers
@@ -173,6 +177,8 @@ def make_pdf():
     pd.build(story,onFirstPage=footer,onLaterPages=footer);return out
 
 site_json={
+ 'review_findings_counts':review_findings['counts'],
+ 'review_findings_input_errors':review_findings['input_errors'],
  'source_scan_summary':source_state.get('last_summary',{}),
  'generated_on':today.isoformat(), 'monitoring_health':monitoring_health(), 'data_as_of':D['data_as_of'], 'center':D['center'], 'community_coords':CITY_COORDS,
  'counts':dict(counts), 'care_model_counts':report['care_model_counts'], 'archived_count':len(archived), 'queue_count':len([r for r in queue['items'] if r.get('review_status')=='pending']), 'discovery_queue_count':len([r for r in discovery['items'] if r.get('review_status')=='pending']), 'monitored_count':len(source_state['sources']), 'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'), 'change_history':history[-15:][::-1], 'clinics':clinics,

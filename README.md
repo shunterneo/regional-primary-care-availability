@@ -247,3 +247,17 @@ state and diagnostic artifacts before failing visibly when coverage is incomplet
 A red recovery result can therefore mean remaining website failures, not a lost
 scan. This recovery workflow does not deploy the site; the next site build exposes
 its saved observations. A green deployment alone does not prove healthy monitoring.
+
+### Read-only review inbox
+
+The directory links to `review.html`, a build-time view of all four pending review
+queues, unmatched government profile observations and current source/directory
+failures. It shows source links, observed excerpts, repair/review steps and stage
+health. It is not an approval interface and never writes queues or clinic facts.
+Existing authenticated publication and repository review procedures still apply.
+Registry observation counts are not counts of missing clinics; same-address
+matches are comparison leads, not identity proof. Failed-check counts are not
+unique-office counts. Source content is escaped, projected through an allowlist,
+and linked only via validated public HTTPS URLs. No script, form, analytics or
+remote assets are used by the review page. New observations appear after a site
+build, not instantly. A failed input is shown as incomplete, never silently green.

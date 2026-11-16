@@ -16,21 +16,21 @@ const ids={};for(const m of html.matchAll(/\bid="([^"]+)"/g))ids[m[1]]=new Node(
 ids['clinic-data'].textContent=dataMatch[1];
 const document={handlers:{},addEventListener(k,callback){this.handlers[k]=callback},getElementById(id){assert(ids[id],`missing id: ${id}`);return ids[id]},createElement(tag){return new Node(tag)},createElementNS(ns,tag){return new Node(tag)}};
 const timers=[];const context={document,console,Math,Set,JSON,Intl,TextEncoder,setInterval(fn){timers.push(fn)}};
-vm.runInNewContext(scriptMatch[1].replace('})();','globalThis.features={openEditor,reviewEdit,pdfBytes,docxBytes,csvBytes,exportRows,selectedClinics};})();'),context, {timeout:3000,filename:'site-inline.js'});
+vm.runInNewContext(scriptMatch[1].replace('})();','globalThis.features={setFilter,chosen,filterControls,openEditor,reviewEdit,pdfBytes,docxBytes,csvBytes,exportRows,selectedClinics};})();'),context, {timeout:3000,filename:'site-inline.js'});
 assert.equal(ids.mTotal.textContent,N);assert.equal(ids.mIntake.textContent,numFor('accepting'));assert.equal(ids.mLeads.textContent,numFor('reported'));
 assert.equal(ids.results.children.length,countOngoing());assert.equal(ids.map.children.filter(x=>x.tag==='g').length,TOWNS);
-ids.status.handlers.change({target:{value:'accepting'}});assert.equal(ids.results.children.length,numFor('accepting'));
-ids.status.handlers.change({target:{value:'reported'}});assert.equal(ids.results.children.length,numFor('reported'));
-ids.status.handlers.change({target:{value:'all'}});
-ids.care.handlers.change({target:{value:'both'}});assert.equal(ids.results.children.length,countModel('both'));
-ids.care.handlers.change({target:{value:'walkin'}});assert.equal(ids.results.children.length,countModel('both')+countModel('walk_in_only'));
-ids.care.handlers.change({target:{value:'walk_in_only'}});assert.equal(ids.results.children.filter(n=>n.className==='item').length,countModel('walk_in_only'));assert(!ids.map.children.some(n=>n.tag==='g') || countModel('walk_in_only')>0);
-ids.care.handlers.change({target:{value:'ongoing'}});
+context.features.setFilter('status',['accepting']);assert.equal(ids.results.children.length,numFor('accepting'));
+context.features.setFilter('status',['reported']);assert.equal(ids.results.children.length,numFor('reported'));
+context.features.setFilter('status',['all']);
+context.features.setFilter('care',['both']);assert.equal(ids.results.children.length,countModel('both'));
+context.features.setFilter('care',['walkin']);assert.equal(ids.results.children.length,countModel('both')+countModel('walk_in_only'));
+context.features.setFilter('care',['walk_in_only']);assert.equal(ids.results.children.filter(n=>n.className==='item').length,countModel('walk_in_only'));assert(!ids.map.children.some(n=>n.tag==='g') || countModel('walk_in_only')>0);
+context.features.setFilter('care',['ongoing']);
 ids.search.handlers.input({target:{value:'Oxfordia'}});const match=C=>C.filter(c=>c.name.toLowerCase().includes('oxfordia')).length;assert.equal(ids.results.children.length,match(DATA.clinics));
 ids.reset.handlers.click();assert.equal(ids.results.children.length,countOngoing());
-ids.town.handlers.change({target:{value:'Tillsonburg'}});assert.equal(ids.results.children.length,countTown('Tillsonburg'));
+context.features.setFilter('town',['Tillsonburg']);assert.equal(ids.results.children.length,countTown('Tillsonburg'));
 assert(!/home.address|residential address geocod|Google Map/i.test(ids.last.innerText));
-ids.reset.handlers.click();ids.mapMode.handlers.change({target:{value:'clinics'}});assert(ids.mapDetail.textContent.includes('sourced clinic points'));assert(ids.map.children.some(n=>n.tag==='g'));ids.town.handlers.change({target:{value:'Tillsonburg'}});assert(ids.mapDetail.textContent.includes('filtered listings'));ids.mapMode.handlers.change({target:{value:'towns'}});ids.reset.handlers.click();
+ids.reset.handlers.click();ids.mapMode.handlers.change({target:{value:'clinics'}});assert(ids.mapDetail.textContent.includes('sourced clinic points'));assert(ids.map.children.some(n=>n.tag==='g'));context.features.setFilter('town',['Tillsonburg']);assert(ids.mapDetail.textContent.includes('filtered listings'));ids.mapMode.handlers.change({target:{value:'towns'}});ids.reset.handlers.click();
 console.log(`PASS: ${N} records; ${numFor("accepting")} direct; ${numFor("reported")} reported; clinic filters and ${TOWNS} SVG markers; no patient-address entry`);
 
 // Exercise the actual export and editor code, with a one-clinic selected subset.
@@ -78,3 +78,24 @@ for (const entry of DATA.change_history.slice(0,10)) {
  if(entry.summary) assert(ids.changeHistory.innerText.includes(entry.summary),'Missing scoped change summary');
 }
 console.log('PASS: recent corrections render summaries without null statuses');
+
+// Multiselect: OR within a field, AND across fields; actual checkbox change handlers.
+ids.reset.handlers.click();
+const ctl=f.filterControls;
+function tick(id,value,checked){const input=ctl[id].inputs.find(x=>x[0]===value)[1];input.checked=checked;input.handlers.change()}
+tick('status','reported',true);tick('status','waitlist',true);
+const expected=DATA.clinics.filter(c=>['ongoing','both'].includes(c.care_model)&&['reported','waitlist'].includes(c.display_status));
+assert.equal(ids.results.children.filter(x=>x.className==='item').length,expected.length);
+assert(ids.statusSummary.textContent.includes('Waitlist'));
+const twoTowns=[...new Set(expected.map(c=>c.community))].slice(0,2);
+for(const t of twoTowns)tick('town',t,true);
+assert.equal(ids.results.children.filter(x=>x.className==='item').length,expected.filter(c=>twoTowns.includes(c.community)).length);
+ids.downloadScope.value='filtered';assert.equal(f.exportRows().length,expected.filter(c=>twoTowns.includes(c.community)).length);
+ids.statusAll.handlers.click();assert.equal(f.chosen.status.length,0);
+ids.townAll.handlers.click();tick('care','unverified',true);
+assert.equal(f.exportRows().length,DATA.clinics.filter(c=>['ongoing','both','unverified'].includes(c.care_model)).length);
+ids.careAll.handlers.click();assert.equal(f.exportRows().length,N);
+ids.status.open=true;ids.status.handlers.keydown({key:'Escape'});assert.equal(ids.status.open,false);
+ids.reset.handlers.click();assert.deepEqual(Array.from(f.chosen.care),['ongoing']);assert.equal(f.chosen.status.length,0);assert.equal(f.chosen.town.length,0);
+assert.equal(f.exportRows().length,countOngoing());
+console.log('PASS: multiple statuses/communities/care types, OR/AND combinations, filtered export, Show all, reset, Escape');

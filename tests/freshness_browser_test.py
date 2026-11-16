@@ -3,6 +3,15 @@ import os
 import pathlib,datetime,json
 from playwright.sync_api import sync_playwright
 root=pathlib.Path(__file__).resolve().parents[1]
+
+def choose_filter(page, field, *values):
+    if not page.locator('#'+field).evaluate('(node)=>node.open'):
+        page.locator('#'+field+'Summary').click()
+    page.locator('#'+field+'All').click()
+    for value in values:
+        if value != 'all':
+            page.locator('#'+field+'Options input[value="'+value+'"]').check()
+
 with sync_playwright() as p:
     browser=p.chromium.launch(headless=True,executable_path=os.environ.get('PLAYWRIGHT_CHROMIUM_EXECUTABLE') or None,args=['--no-sandbox','--disable-dev-shm-usage'])
     page=browser.new_page()
@@ -10,9 +19,9 @@ with sync_playwright() as p:
     errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
     page.goto((root/'site/index.html').as_uri())
     assert page.locator('#mIntake').inner_text()=='0','Old static build must not advertise expired openings'
-    page.select_option('#status','accepting')
+    choose_filter(page,'status','accepting')
     assert page.locator('#results .item').count()==0
-    page.select_option('#status','needs_review')
+    choose_filter(page,'status','needs_review')
     assert page.locator('#results .item').count()>0
     page.click('#downloadOpen')
     page.select_option('#downloadScope','all')

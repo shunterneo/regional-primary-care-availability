@@ -21,6 +21,15 @@ class Quiet(http.server.SimpleHTTPRequestHandler):
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(ROOT/'site')))
 threading.Thread(target=server.serve_forever,daemon=True).start()
 url=site.as_uri()
+
+def choose_filter(page, field, *values):
+    if not page.locator('#'+field).evaluate('(node)=>node.open'):
+        page.locator('#'+field+'Summary').click()
+    page.locator('#'+field+'All').click()
+    for value in values:
+        if value != 'all':
+            page.locator('#'+field+'Options input[value="'+value+'"]').check()
+
 with sync_playwright() as p:
  browser=p.chromium.launch(headless=True,executable_path=os.environ.get('PLAYWRIGHT_CHROMIUM_EXECUTABLE') or None,args=['--no-sandbox','--disable-dev-shm-usage'])
  page=browser.new_page(viewport={'width':1365,'height':900},device_scale_factor=1)
@@ -29,28 +38,33 @@ with sync_playwright() as p:
  page.on('pageerror',lambda err:errors.append(str(err)))
  page.goto(url);page.wait_for_selector('.item')
  print('INITIAL',page.locator('#count').inner_text());assert page.locator('.item').count()==N_ONGOING
- page.select_option('#care','all');assert page.locator('.item').count()==N
- page.select_option('#status','accepting');assert page.locator('.item').count()==expected_accepting
- page.select_option('#status','reported');assert page.locator('.item').count()==expected_reported
- page.select_option('#status','all');page.locator('#search').fill('Oxfordia')
+ choose_filter(page,'care','all');assert page.locator('.item').count()==N
+ choose_filter(page,'status','accepting');assert page.locator('.item').count()==expected_accepting
+ choose_filter(page,'status','reported');assert page.locator('.item').count()==expected_reported
+ choose_filter(page,'status','accepting','waitlist')
+ assert page.locator('.item').count()==sum(effective_status(c,date.today()) in ('accepting','waitlist') for c in records)
+ choose_filter(page,'town','Tillsonburg','Woodstock')
+ assert page.locator('.item').count()==sum(effective_status(c,date.today()) in ('accepting','waitlist') and c['community'] in ('Tillsonburg','Woodstock') for c in records)
+ choose_filter(page,'town','all')
+ choose_filter(page,'status','all');page.locator('#search').fill('Oxfordia')
  assert page.locator('.item').count()==1 and 'Oxfordia' in page.locator('.item').first.inner_text()
  page.locator('#reset').click(); assert page.locator('.item').count()==N_ONGOING
- assert page.locator('#care').input_value()=='ongoing'
- page.select_option('#care','all');assert page.locator('.item').count()==N
- page.select_option('#town','Tillsonburg');assert page.locator('.item').count()==5
+ assert page.locator('#careOptions input[value=ongoing]').is_checked()
+ choose_filter(page,'care','all');assert page.locator('.item').count()==N
+ choose_filter(page,'town','Tillsonburg');assert page.locator('.item').count()==sum(c['community']=='Tillsonburg' for c in records)
  assert page.locator('.town-group').count()==1, 'Town filter must also filter map'
- page.select_option('#town','all')
+ choose_filter(page,'town','all')
  assert page.locator('.town-group').count()==len({c['community'] for c in records})
  assert not page.locator('input[placeholder*="address"]').count()
  assert 'No patient-address search' in page.locator('.notice').inner_text()
  assert not errors,errors
  assert not blocked,blocked
- page.select_option('#town','all');page.screenshot(path=str(ARTIFACTS/'desktop.png'),full_page=True)
+ choose_filter(page,'town','all');page.screenshot(path=str(ARTIFACTS/'desktop.png'),full_page=True)
  print('PASS: dynamic clinic dataset, filters, Oxfordia name search, map markers, no HTTP requests, no JS errors')
  mob=browser.new_page(viewport={'width':390,'height':844},device_scale_factor=1)
  mob.goto(url);mob.wait_for_selector('.item');print('MOBILE',mob.locator('.item').count())
  assert mob.locator('.item').count()==N_ONGOING
- mob.select_option('#care','all');assert mob.locator('.item').count()==N
+ choose_filter(mob,'care','all');assert mob.locator('.item').count()==N
  assert mob.evaluate('document.documentElement.scrollWidth <= window.innerWidth+3'),'horizontal page overflow'
  mob.screenshot(path=str(ARTIFACTS/'mobile.png'),full_page=False)
  browser.close()
