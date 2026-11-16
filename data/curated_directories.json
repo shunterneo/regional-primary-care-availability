@@ -23,9 +23,12 @@
   {
     "id": "sw_healthline",
     "name": "Southwest Healthline — family medical centres",
-    "url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=London",
-    "mode": "cards",
-    "kind": "practice_directory"
+    "url": "https://www.lignesantesud-ouest.ca/listServices.aspx?id=10075&region=London",
+    "mode": "healthline",
+    "kind": "practice_directory",
+    "original_url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=London",
+    "language": "fr",
+    "source_note": "Official French edition of the same Healthline directory; discovery leads only, never intake evidence."
   },
   {
     "id": "woodstock_news",
@@ -44,23 +47,32 @@
   {
     "id": "healthline_oxford",
     "name": "Southwest Healthline — Oxford/Norfolk family medical centres",
-    "url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford",
+    "url": "https://www.lignesantesud-ouest.ca/listServices.aspx?id=10075&region=Oxford",
     "mode": "healthline",
-    "kind": "practice_directory"
+    "kind": "practice_directory",
+    "original_url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford",
+    "language": "fr",
+    "source_note": "Official French edition of the same Healthline directory; discovery leads only, never intake evidence."
   },
   {
     "id": "healthline_elgin",
     "name": "Southwest Healthline — Elgin family medical centres",
-    "url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Elgin",
+    "url": "https://www.lignesantesud-ouest.ca/listServices.aspx?id=10075&region=Elgin",
     "mode": "healthline",
-    "kind": "practice_directory"
+    "kind": "practice_directory",
+    "original_url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Elgin",
+    "language": "fr",
+    "source_note": "Official French edition of the same Healthline directory; discovery leads only, never intake evidence."
   },
   {
     "id": "healthline_southwest",
     "name": "Southwest Healthline — Southwest Ontario family medical centres",
-    "url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=SouthWestOntario",
+    "url": "https://www.lignesantesud-ouest.ca/listServices.aspx?id=10075",
     "mode": "healthline",
-    "kind": "practice_directory"
+    "kind": "practice_directory",
+    "original_url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=SouthWestOntario",
+    "language": "fr",
+    "source_note": "Official French edition of the same Healthline directory; discovery leads only, never intake evidence."
   },
   {
     "id": "norfolk_fht_resources",

@@ -91,6 +91,7 @@ jobs:
           python tests/discovery_fixture_test.py
           python tests/directory_discovery_fixture_test.py
           python tests/directory_email_noise_test.py
+          python tests/official_source_editions_test.py
           python tests/directory_health_semantics_test.py
           python tests/auto_publication_test.py
           python tests/auto_publication_pause_test.py

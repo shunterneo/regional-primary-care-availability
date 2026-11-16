@@ -27,6 +27,16 @@ class DashboardTests(unittest.TestCase):
     r=collect(d,[{'id':'c1','name':'Practice','evidence_url':u}],now=dt.datetime(2026,11,16,tzinfo=dt.timezone.utc))
     self.assertEqual(r['counts']['failure'],1);self.assertNotIn('manual_review',r['items'][0])
 
+ def test_official_alternate_is_disclosed_not_original_repair(self):
+  with tempfile.TemporaryDirectory() as t:
+   d=pathlib.Path(t);u='https://original.example/intake';a='https://edition.example/intake'
+   rec={'last_attempt':'2026-11-16','last_success':'2026-11-16','last_error':None,'review_observation':{'original_url':u,'observed_url':a,'method':'official_language_edition','language':'fr','original_endpoint_issue':{'last_error':'original 503','last_attempt':'2026-11-15'}}}
+   self.make(d,{'source_state.json':{'sources':{u:rec}}})
+   r=collect(d,[{'id':'c1','name':'Clinic','evidence_url':u}]);self.assertEqual(r['counts']['failure'],0);self.assertEqual(len(r['alternate_source_checks']),1)
+   h=render(r);self.assertIn('does not mean the original endpoint was repaired',h);self.assertIn('original 503',h);self.assertIn(a,h)
+   rec['last_error']='alternate failed';self.make(d,{'source_state.json':{'sources':{u:rec}}})
+   r=collect(d,[{'id':'c1','name':'Clinic','evidence_url':u}]);self.assertEqual(r['counts']['failure'],1);self.assertEqual(r['alternate_source_checks'],[])
+
  def test_all_four_pending_queues_and_no_resolved_items(self):
   with tempfile.TemporaryDirectory() as t:
    d=pathlib.Path(t);changes={}

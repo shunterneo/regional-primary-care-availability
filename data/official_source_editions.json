@@ -1,0 +1,23 @@
+{
+  "https://www.southwesthealthline.ca/displayService.aspx?id=187735": {
+    "url": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=187735",
+    "language": "fr",
+    "publisher": "thehealthline.ca",
+    "review_only": true,
+    "basis": "Official French edition, same service ID; page explicitly links English original. Availability verified with normal TLS. Not evidence of current intake."
+  },
+  "https://www.southwesthealthline.ca/displayService.aspx?id=132247": {
+    "url": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=132247",
+    "language": "fr",
+    "publisher": "thehealthline.ca",
+    "review_only": true,
+    "basis": "Official French edition, same service ID; page explicitly links English original. Availability verified with normal TLS. Not evidence of current intake."
+  },
+  "https://southwesthealthline.ca/displayService.aspx?id=224103": {
+    "url": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=224103",
+    "language": "fr",
+    "publisher": "thehealthline.ca",
+    "review_only": true,
+    "basis": "Official French edition, same service ID; page explicitly links English original. Availability verified with normal TLS. Not evidence of current intake."
+  }
+}

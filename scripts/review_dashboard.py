@@ -159,6 +159,31 @@ def collect(data, clinics, now=None):
                       'note': 'Unmatched by exact office identity, not a confirmed missing clinic. No profile approval or intake claim is created here.'
                               + (' Same-address listings to compare: ' + text('; '.join(overlaps),500) + '. A shared address alone does not establish the same practice.' if overlaps else ''),
                       'version': 'Profile schema ' + str(observation.get('schema_version', 'legacy'))})
+    alternate_checks = []
+    def add_alternate(name, original, record, observation):
+        if not isinstance(observation, dict) or record.get('last_error') or not record.get('last_success'): return
+        if observation.get('method') != 'official_language_edition' or observation.get('original_url') != original: return
+        observed = url(observation.get('observed_url'))
+        if not observed or not url(original) or observed == original: return
+        issue = observation.get('original_endpoint_issue')
+        issue = issue if isinstance(issue, dict) else {}
+        alternate_checks.append({'title': text(name), 'original_url': original, 'observed_url': observed,
+            'checked_at': text(record.get('last_success')), 'language': text(observation.get('language')),
+            'original_error': text(issue.get('last_error')) or 'Original endpoint not reverified by this alternate check',
+            'original_attempt': text(issue.get('last_attempt')) or 'Not recorded'})
+    source_records = state.get('sources') if isinstance(state.get('sources'), dict) else {}
+    directory_records = directory_state.get('sources') if isinstance(directory_state.get('sources'), dict) else {}
+    for source_url in sorted(expected):
+        record = source_records.get(source_url, {})
+        if isinstance(record, dict):
+            add_alternate(', '.join(owner_names.get(source_url, [])) or urlsplit(source_url).hostname,
+                          source_url, record, record.get('review_observation'))
+    for source in directories:
+        if not isinstance(source, dict): continue
+        record = directory_records.get(source.get('id'), {})
+        if isinstance(record, dict) and record.get('observed_url') == source.get('url'):
+            add_alternate(source.get('name'), source.get('original_url'), record, record)
+
     # Manual reading is supplemental evidence, never a successful automated check.
     manual = read_json(data / 'manual_source_reviews.json', {'reviews': []})
     reviews = manual.get('reviews', [])
@@ -180,7 +205,7 @@ def collect(data, clinics, now=None):
 
     items.sort(key=lambda item: (list(GROUPS).index(item['group']), item.get('date', ''), item['title'].casefold()))
     counts = {group: sum(i['group'] == group for i in items) for group in GROUPS}
-    return {'generated_at': now.isoformat(), 'items': items, 'counts': counts,
+    return {'generated_at': now.isoformat(), 'items': items, 'counts': counts, 'alternate_source_checks': alternate_checks,
             'counts_by_queue': counts_by_queue, 'total': len(items), 'input_errors': errors,
             'last_source_scan': state.get('last_run'), 'last_directory_scan': directory_state.get('last_run'),
             'automatic_status_publication': publication_configuration(data.parent), 'read_only': True}
@@ -244,6 +269,16 @@ def render(report, health=None):
             if not isinstance(problems, list): problems = [str(problems)]
             stage_cards.append('<li><strong>' + e(str(stage.get('label') or name).replace('_',' ')) + ':</strong> ' + e(str(status).replace('_',' '))
                                + ('. ' + e('; '.join(str(p) for p in problems)) if problems else '') + '</li>')
+    alternates = []
+    for item in report.get('alternate_source_checks', []):
+        alternates.append('<details class="alternate-check"><summary>' + e(item['title']) + '</summary><div class="body">'
+            + '<p>Monitoring is available through the publisher’s official French edition. This does not mean the original endpoint was repaired and does not confirm intake.</p>'
+            + '<p class="meta">Alternate checked: ' + e(item['checked_at']) + '</p>'
+            + '<p class="meta">Original last attempted: ' + e(item['original_attempt']) + ' · ' + e(item['original_error']) + '</p>'
+            + '<div class="links"><a href="' + e(item['original_url'], quote=True) + '" target="_blank" rel="noopener noreferrer">Original source</a>'
+            + '<a href="' + e(item['observed_url'], quote=True) + '" target="_blank" rel="noopener noreferrer">Official alternate source</a></div></div></details>')
+    alternate_section = ('<section id="official-alternates"><details class="group"><summary><h2>Checks using official alternate sources <span class="count">'
+                         + str(len(alternates)) + '</span></h2></summary>' + ''.join(alternates) + '</details></section>') if alternates else ''
     errors = ''.join('<li>' + e(err) + '</li>' for err in report.get('input_errors', []))
     nav = ''.join('<a href="#' + key + '">' + e(label) + ' (' + str(counts[key]) + ')</a>' for key,label in GROUPS.items())
     publication = report.get('automatic_status_publication', 'not verified')
@@ -251,14 +286,14 @@ def render(report, health=None):
     return ('''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; connect-src 'none'; img-src 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none'">
 <meta name="referrer" content="no-referrer"><title>Review findings | Primary Care Availability</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#f5f8f7;color:#243c4a;font:16px/1.55 system-ui,sans-serif}header{background:#15394a;color:white;padding:28px max(20px,calc((100% - 1100px)/2))}h1{line-height:1.15;margin:8px 0 14px;font-size:clamp(28px,4vw,40px)}header p{color:#d6e6e8;max-width:850px}header a{color:#fff}.wrap{max-width:1140px;margin:auto;padding:24px 20px 70px}.notice{padding:16px 18px;background:#fff7e7;border:1px solid #dfca9a;border-radius:10px;color:#67491a}.links,nav{display:flex;flex-wrap:wrap;gap:12px}a{color:#145b70;text-underline-offset:3px;overflow-wrap:anywhere}nav{margin:22px 0}nav a{background:white;padding:8px 12px;border:1px solid #c8d8db;border-radius:8px;text-decoration:none;font-size:14px}section{margin:30px 0;scroll-margin-top:15px}h2{font-size:23px;color:#173548}.count{font-size:14px;background:#e4edee;padding:4px 9px;border-radius:20px;vertical-align:middle}.finding{border:1px solid #cfdddf;border-radius:10px;margin:10px 0;background:white;overflow:hidden}.finding summary{cursor:pointer;padding:16px 18px;font-weight:650;overflow-wrap:anywhere}.finding summary small{display:block;font-size:12px;font-weight:400;color:#60727a;margin-top:4px}.body{padding:0 18px 20px}.action{font-weight:600}.caution,.meta,.empty{font-size:13px;color:#5f727c}.excerpt{border-left:3px solid #c5d7db;padding:0 12px;background:#f7fafb;overflow-wrap:anywhere}.excerpt h4{padding-top:8px;font-size:13px;margin-bottom:4px}.excerpt p{font-size:13px;white-space:pre-wrap;padding-bottom:8px}details.instructions{background:#eaf2f3;padding:15px 18px;border-radius:10px;margin:20px 0}.instructions summary{font-weight:700;cursor:pointer}.links a{font-size:13px;font-weight:650}a:focus-visible,summary:focus-visible{outline:3px solid #b87513;outline-offset:3px}.health{background:white;border:1px solid #cfdddf;padding:14px 20px;border-radius:10px}.health li{margin:8px 0;font-size:14px}@media(max-width:550px){.wrap{padding:18px 14px 50px}.finding summary{padding:14px}.body{padding:0 14px 16px}nav a{flex:1 1 45%;font-size:12px}h2{font-size:20px}.links{flex-direction:column}}</style></head><body><header><a href="index.html">← Back to clinic directory</a><h1>Review findings</h1><p>One place to inspect source changes, possible new offices and monitoring gaps. These are research tasks, not confirmed intake changes.</p></header><main class="wrap">'''
+<style>*{box-sizing:border-box}body{margin:0;background:#f5f8f7;color:#243c4a;font:16px/1.55 system-ui,sans-serif}header{background:#15394a;color:white;padding:28px max(20px,calc((100% - 1100px)/2))}h1{line-height:1.15;margin:8px 0 14px;font-size:clamp(28px,4vw,40px)}header p{color:#d6e6e8;max-width:850px}header a{color:#fff}.wrap{max-width:1140px;margin:auto;padding:24px 20px 70px}.notice{padding:16px 18px;background:#fff7e7;border:1px solid #dfca9a;border-radius:10px;color:#67491a}.links,nav{display:flex;flex-wrap:wrap;gap:12px}a{color:#145b70;text-underline-offset:3px;overflow-wrap:anywhere}nav{margin:22px 0}nav a{background:white;padding:8px 12px;border:1px solid #c8d8db;border-radius:8px;text-decoration:none;font-size:14px}section{margin:30px 0;scroll-margin-top:15px}h2{font-size:23px;color:#173548}.count{font-size:14px;background:#e4edee;padding:4px 9px;border-radius:20px;vertical-align:middle}.finding,.alternate-check{border:1px solid #cfdddf;border-radius:10px;margin:10px 0;background:white;overflow:hidden}.finding summary,.alternate-check summary{cursor:pointer;padding:16px 18px;font-weight:650;overflow-wrap:anywhere}.finding summary small{display:block;font-size:12px;font-weight:400;color:#60727a;margin-top:4px}.body{padding:0 18px 20px}.action{font-weight:600}.caution,.meta,.empty{font-size:13px;color:#5f727c}.excerpt{border-left:3px solid #c5d7db;padding:0 12px;background:#f7fafb;overflow-wrap:anywhere}.excerpt h4{padding-top:8px;font-size:13px;margin-bottom:4px}.excerpt p{font-size:13px;white-space:pre-wrap;padding-bottom:8px}details.instructions{background:#eaf2f3;padding:15px 18px;border-radius:10px;margin:20px 0}.instructions summary{font-weight:700;cursor:pointer}.links a{font-size:13px;font-weight:650}a:focus-visible,summary:focus-visible{outline:3px solid #b87513;outline-offset:3px}.health{background:white;border:1px solid #cfdddf;padding:14px 20px;border-radius:10px}.health li{margin:8px 0;font-size:14px}@media(max-width:550px){.wrap{padding:18px 14px 50px}.finding summary,.alternate-check summary{padding:14px}.body{padding:0 14px 16px}nav a{flex:1 1 45%;font-size:12px}h2{font-size:20px}.links{flex-direction:column}}</style></head><body><header><a href="index.html">← Back to clinic directory</a><h1>Review findings</h1><p>One place to inspect source changes, possible new offices and monitoring gaps. These are research tasks, not confirmed intake changes.</p></header><main class="wrap">'''
     + '<div class="notice"><strong>Read-only review inbox. ' + publication_notice + '</strong> Every finding is unverified research, not an approved opening or closure. Nothing on this page changes a listing. Confirm current, location-specific clinic evidence before publishing. Missing pages never establish closure. Public clinic information only; do not add patient details.</div>'
     + '<p class="meta">Snapshot generated ' + e(report['generated_at']) + '. Latest clinic-source scan: ' + e(str(report.get('last_source_scan') or 'Not recorded')) + '. Latest directory scan: ' + e(str(report.get('last_directory_scan') or 'Not recorded')) + '. New findings appear after a successful research run and site rebuild, not instantly.</p>'
     + '<nav aria-label="Review categories">' + nav + '</nav>'
     + '<details class="instructions"><summary>How to finish a review</summary><ol><li>Open the original public source and verify the exact office, service type, eligibility and current evidence. Headlines and registers do not prove intake.</li><li>For an existing listing, return to the directory’s <strong>Edit listing</strong> tool. Review the proposed edit and publish only through the authenticated GitHub confirmation workflow. For a possible new office, verify identity, duplicates, exact coordinates and the 75 km boundary before creating a reviewed profile with intake unconfirmed.</li><li>Record the review outcome in the linked GitHub queue. This page has no approve/reject or save action and does not resolve queue items automatically.</li></ol><a href="' + REPO_URL + '/issues" target="_blank" rel="noopener noreferrer">Open research and monitoring issues on GitHub</a></details>'
     + ('<section class="health"><h2>Research-stage health</h2><ul>' + ''.join(stage_cards) + '</ul><p class="meta">A green build is not proof of source coverage or clinic availability.</p></section>' if stage_cards else '')
     + ('<div class="notice"><strong>Some review inputs could not be loaded.</strong><ul>' + errors + '</ul></div>' if errors else '')
-    + ''.join(sections) + '<p class="meta">Static public-source review only. Not a complete provider census, live roster check, or PHIPA-certified patient-record system.</p></main></body></html>')
+    + alternate_section + ''.join(sections) + '<p class="meta">Static public-source review only. Not a complete provider census, live roster check, or PHIPA-certified patient-record system.</p></main></body></html>')
 
 
 def write_dashboard(root, clinics, health=None):

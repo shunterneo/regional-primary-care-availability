@@ -25,6 +25,8 @@ for source in extra:
     url=source['url']
     if is_url(url):urlmap.setdefault(url,{'clinics':[],'kind':'clinic discovery'})
 
+OFFICIAL_EDITIONS=json.loads((DATA/'official_source_editions.json').read_text())
+
 USER_AGENT='RegionalPrimaryCareAvailabilityMonitor/1.0 (public-source change check; no patient data)'
 TERMS=re.compile(r'accept(?:ing|ance)?|new patients?|not accepting|register|registration|intake|enrol|attach|capacity|wait ?list|physician|practitioner|family doctor|clos(?:ed|ure|ing)|retir|relocat',re.I)
 
@@ -106,7 +108,11 @@ def request_source(url):
 def fetch_one(pair):
     url, meta=pair
     try:
-        res=request_source(url)
+        edition=OFFICIAL_EDITIONS.get(url)
+        fetch_url=edition['url'] if edition else url
+        res=request_source(fetch_url)
+        if edition and getattr(res,'url',fetch_url)!=fetch_url:
+            raise SourceContentError('unsupported_or_invalid_content','Official edition redirected; review mapping before use')
         if len(res.content)>4_000_000:raise ValueError('Page too large')
         content_type=res.headers.get('Content-Type','text/html').lower()
         is_pdf='application/pdf' in content_type
@@ -123,11 +129,13 @@ def fetch_one(pair):
             body=extract_plain(context['text'])
         else:raise ValueError('Response is not HTML or PDF')
         if not body.strip():raise ValueError('No matching text')
-        return url,{'hash':context['hash'],'extraction_version':REVIEW_VERSION,
+        return url,{'hash':context['hash'],'extraction_version':'official-language-review-v1' if edition else REVIEW_VERSION,
+          'review_only':bool(edition),
           'review_observation':{**{k:v for k,v in context.items() if k!='text'},
             'response_sha256':hashlib.sha256(res.content).hexdigest(),
-            'response_bytes':len(res.content),'rendered':False},
-          'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':None if is_pdf else publication_candidate(res.text), 'format':'pdf' if is_pdf else 'html'}
+            'response_bytes':len(res.content),'rendered':False,
+            **({'original_url':url,'observed_url':fetch_url,'official_language_edition':edition,'method':'official_language_edition','language':edition['language']} if edition else {})},
+          'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':None if is_pdf or edition else publication_candidate(res.text), 'format':'pdf' if is_pdf else 'html'}
     except Exception as exc:
         return url,{'hash':None,'error':str(exc)[:800], 'error_category':error_category(exc), 'http_status':getattr(getattr(exc,'response',None),'status_code',None)}
 
@@ -144,21 +152,27 @@ def run():
                 continue
             ok+=1
             newhash=result['hash'];oldhash=prev.get('hash')
-            same_version=prev.get('extraction_version')==REVIEW_VERSION
+            result_version=result['extraction_version']
+            same_version=prev.get('extraction_version')==result_version
             owners=urlmap[url]['clinics']
-            verified=bool(len(owners)==1 and first_party(next(c for c in clinics if c['id']==owners[0]),url,owners,result['final_url']))
+            verified=bool(not result.get('review_only') and len(owners)==1 and first_party(next(c for c in clinics if c['id']==owners[0]),url,owners,result['final_url']))
             prior_obs=prev.get('auto_observation',{}) if verified else {}
             # A failed, ambiguous or redirected page breaks the consecutive evidence chain.
             scope_hash=scope_fingerprint(next(c for c in clinics if c['id']==owners[0])) if verified else None
             observation=observe(prior_obs,result['explicit_candidate'] if verified else None,now,scope_hash=scope_hash)
+            if result['review_observation'].get('official_language_edition'):
+                prior_issue=prev.get('review_observation',{}).get('original_endpoint_issue')
+                if not prior_issue and prev.get('last_error'):
+                    prior_issue={k:prev.get(k) for k in ('last_error','error_category','http_status','last_attempt')}
+                if prior_issue:result['review_observation']['original_endpoint_issue']=prior_issue
             migrated={}
             if oldhash and not same_version:
                 migrated['previous_extraction']={'version':prev.get('extraction_version','legacy-excerpt-v1'),
                   'hash':oldhash,'last_success':prev.get('last_success')}
-            state['sources'][url]={**prev,**migrated,'hash':newhash,'extraction_version':REVIEW_VERSION,
+            state['sources'][url]={**prev,**migrated,'hash':newhash,'extraction_version':result_version,
               'review_observation':{**result['review_observation'],'observed_at':now},'excerpt':result['excerpt'][:1400],
               'possible_claim':result['assessment']['classification'],'assessment_version':REVIEW_CLASSIFIER_VERSION,'last_attempt':now,'last_success':now,
-              'last_error':None,'error_category':None,'http_status':None,'format':result['format'],'final_url':result['final_url'],'official_first_party':verified,'auto_observation':observation}
+              'last_error':None,'error_category':None,'http_status':None,'format':result['format'],'final_url':result['final_url'],'official_first_party':verified,'auto_observation':observation,'check_method':result.get('method',result['review_observation'].get('method','static_public_source'))}
             if not oldhash:
                 baseline+=1;continue
             # An extraction upgrade is a new baseline, not a real source change.
@@ -175,7 +189,7 @@ def run():
                   'id':hashlib.sha256(json.dumps([url,oldhash,newhash,now,len(queue['items'])]).encode()).hexdigest()[:18],
                   'detected_at':now,'url':url,'clinic_ids':urlmap[url]['clinics'],
                   'source_kind':urlmap[url]['kind'],'old_hash':oldhash,'new_hash':newhash,
-                  'extraction_version':REVIEW_VERSION,
+                  'extraction_version':result_version,
                   'assessment_version':REVIEW_CLASSIFIER_VERSION,
                   'review_status':'pending',
                   'prior_excerpt':prev.get('excerpt','')[:900],

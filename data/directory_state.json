@@ -106,9 +106,9 @@
       "error_category": null,
       "entry_count": 12,
       "fingerprint": "0e5464c384781dc047626bf26fea35a087f6c41cd7d7ee515f6484262cd3a1b4",
-      "extraction_version": "directory-v3",
+      "extraction_version": "directory-v4",
       "source_signature": "c04447bc23f449d1c2b47172c040f2b08aca1461168e26b12b9ce3489d90e4a3",
-      "baseline_reason": null,
+      "baseline_reason": "extraction_version_or_source_changed",
       "event_sequence": 0
     },
     "brant_hospital": {
@@ -168,9 +168,9 @@
       "error_category": null,
       "entry_count": 6,
       "fingerprint": "a850985d2b592e5d00264ee7d164260d9cb7182bc7870f71b0a0645e79f99119",
-      "extraction_version": "directory-v3",
+      "extraction_version": "directory-v4",
       "source_signature": "9488ff977bf146dd47ad1ac08a60a563d6d61883050d4067f655558f468895d9",
-      "baseline_reason": null,
+      "baseline_reason": "extraction_version_or_source_changed",
       "event_sequence": 0
     },
     "cambridge_recruitment": {
@@ -211,9 +211,9 @@
           "key": "sunilbhatia",
           "title": "Dr. Sunil Bhatia",
           "excerpt": "Dr. Sunil Bhatia · Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge · Please email [email protected] to request a Patient Registration Form ·",
-          "link": "https://www.doctors4cambridge.com/cdn-cgi/l/email-protection#085b696f6166697f656d6c616b69646b646166616b486f65696164266b676528",
+          "link": "https://www.doctors4cambridge.com/contact.htm",
           "scope": "directory entry; verify original clinic intake",
-          "content_hash": "ae595889de3e7abd7518b3fd2507387a38e4010cb3e3a944e271780a730c4e3f"
+          "content_hash": "41605c73365d91844ec37657224795510286fae36c404a577be13ea1fd847e3d"
         },
         "townlinewalkin": {
           "key": "townlinewalkin",
@@ -309,16 +309,123 @@
       "last_error": null,
       "error_category": null,
       "entry_count": 16,
-      "fingerprint": "4106bf1f533d6a9918a6669f8263dedb70515cfddeeeffd6933367ef0c3ea365",
-      "extraction_version": "directory-v3",
+      "fingerprint": "7734ef58ecd751ee37b940386072f95407c40653fe09c7a35b157d2fbf465031",
+      "extraction_version": "directory-v4",
       "source_signature": "766bb5b31d9eccb36294cfa0b4de1299babd9578dc9f11b5b9bb413cc42bad8c",
-      "baseline_reason": null,
+      "baseline_reason": "extraction_version_or_source_changed",
       "event_sequence": 1
     },
     "sw_healthline": {
+      "original_url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=London",
+      "observed_url": "https://www.lignesantesud-ouest.ca/listServices.aspx?id=10075&region=London",
+      "language": "fr",
+      "method": "official_language_edition",
+      "original_endpoint_issue": {
+        "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=London; preserved previous results",
+        "error_category": "transient_http",
+        "http_status": null,
+        "last_attempt": "2026-11-16"
+      },
+      "entries": {
+        "core": {
+          "key": "core",
+          "title": "Core Family Health Centre",
+          "excerpt": "Core Family Health Centre 825 Richmond St, London, ON N6H 3H7 519-963-1875 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=179278",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "ef34514cf29ff1451f878dfc2da2c23d8a64bee91a8033e7c50ffc8d556fb496"
+        },
+        "londonsciencesvictoria": {
+          "key": "londonsciencesvictoria",
+          "title": "London Health Sciences Centre - Victoria Family Medical Centre",
+          "excerpt": "London Health Sciences Centre - Victoria Family Medical Centre 60 avenue Chesley, London, ON N5Z 2C1 519-433-8424 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=13547",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "335d3b42d9e1e45909e5bf919154693a7d6e15c3b427cac3e5ae05d2dd56f105"
+        },
+        "medservice": {
+          "key": "medservice",
+          "title": "MedService",
+          "excerpt": "MedService 905 Adelaide St N, London, ON N5Y 2M6 519-433-6137 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=15234",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "1384e65135152d15774b9362217221a73e8991b75992288cda9d4cf08b5ab5fe"
+        },
+        "sherwood": {
+          "key": "sherwood",
+          "title": "Sherwood Medical Centre",
+          "excerpt": "Sherwood Medical Centre 1225 Wonderland Rd N, London, ON N6G 2V9 548-689-9059 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=227372",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "43e95c3367fcd6890994d9807856207884b9dd3738b8950eb799426f0e3f0f40"
+        },
+        "stjosephscarelondonstjosephsanddental": {
+          "key": "stjosephscarelondonstjosephsanddental",
+          "title": "St Joseph's Health Care London - St Joseph's Family Medical and Dental Centre",
+          "excerpt": "St Joseph's Health Care London - St Joseph's Family Medical and Dental Centre 268 Grosvenor St, London, ON N6G 1J1 Medical Centre: 519-672-9660 Dental Centre: 519-646-6022 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=14665",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
+        },
+        "thamesvalleyteamildertonmiddlesexmedicine": {
+          "key": "thamesvalleyteamildertonmiddlesexmedicine",
+          "title": "Thames Valley Family Health Team - Ilderton - Middlesex Centre Family Medicine Clinic",
+          "excerpt": "Thames Valley Family Health Team - Ilderton - Middlesex Centre Family Medicine Clinic 36 promenade Heritage, Ilderton, ON N0M 2A0 519-666-1610 Renseignements sur l'équipe de santé familiale : 519-666-1610 poste 219 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=146680",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "601ec379586e14bf0bf4da77eae1b4b5fe49b7fb742c29669cb19c1db7fb76eb"
+        },
+        "thamesvalleyteamlondonoxfordgroup": {
+          "key": "thamesvalleyteamlondonoxfordgroup",
+          "title": "Thames Valley Family Health Team - London - Oxford Medical Group",
+          "excerpt": "Thames Valley Family Health Team - London - Oxford Medical Group 312 rue Oxford Ouest, London, ON N6H 4N6 Clinique Oxford : 519-432-6786 Clinique Wharncliffe : 519-645-0100 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=170260",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "bf71bbf6eec39974a43a4a3a7a162e67479faef2b4a23105203f2ef67ea2ff19"
+        },
+        "thamesvalleyteamlondonwestlondon": {
+          "key": "thamesvalleyteamlondonwestlondon",
+          "title": "Thames Valley Family Health Team - London - West London Family Health Clinic",
+          "excerpt": "Thames Valley Family Health Team - London - West London Family Health Clinic Westmount Shopping Centre, 785 chemin Wonderland Sud, bureau 200, London, ON N6K 1M6 519-641-6712 ext 3654 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=15008",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "62f74e5f8f0cb3eca6d0bddebc8bc4ccbfb1e489cedc26d64853b4eaac9016d0"
+        },
+        "thamesvalleyteamstrathroy": {
+          "key": "thamesvalleyteamstrathroy",
+          "title": "Thames Valley Family Health Team - Strathroy Medical Clinic",
+          "excerpt": "Thames Valley Family Health Team - Strathroy Medical Clinic 74 rue Front Est, Strathroy, ON N7G 1Y7 519-245-0430 Renseignements sur l'équipe de santé familiale : 226-726-8440 poste 4 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=14767",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "511d0211f1ea1448c7ad6c00d46a305a19de6fae418b641317aadaf8a0595f58"
+        },
+        "thompson": {
+          "key": "thompson",
+          "title": "Thompson Medical Centre",
+          "excerpt": "Thompson Medical Centre 130 Thompson Rd, London, ON N5Z 2Y6 519-601-8621 (press 1) Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=170103",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "6e162be4778b4674d01d99c3fc96fb85d6a90965dae7a57ca5b046e0ba6b2e9f"
+        },
+        "huronsystemsouthhuronhospitalsouthhuron": {
+          "key": "huronsystemsouthhuronhospitalsouthhuron",
+          "title": "Huron Health System - South Huron Hospital - South Huron Medical Centre",
+          "excerpt": "Huron Health System - South Huron Hospital - South Huron Medical Centre South Huron Medical Centre, 23 Huron St W, Exeter, ON N0M 1S2 519-235-3343 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=11576",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "63f039146ab5673a1e2fd6bed5936a5f0c387bdfac1b6a0ed284affa3e645f41"
+        }
+      },
       "last_attempt": "2026-11-16",
-      "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=London; preserved previous results",
-      "error_category": "transient_http"
+      "last_success": "2026-11-16",
+      "last_error": null,
+      "error_category": null,
+      "entry_count": 11,
+      "fingerprint": "30039ebd841f715f3419c14535f9d348a2335a5881a4a6e2060f7a3024dbc9a9",
+      "extraction_version": "directory-v4",
+      "source_signature": "cff9151f0dce91ac3594b9c4ffeb73924d71c075519541a7d7edda93a387393c",
+      "baseline_reason": "first_observation",
+      "event_sequence": 0
     },
     "woodstock_news": {
       "entries": {},
@@ -328,9 +435,9 @@
       "error_category": null,
       "entry_count": 0,
       "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "extraction_version": "directory-v3",
+      "extraction_version": "directory-v4",
       "source_signature": "1f6bc0a89f81db77b6e5171baa4671ea74310947e19f2401ac2a685dd256bb6c",
-      "baseline_reason": null,
+      "baseline_reason": "extraction_version_or_source_changed",
       "event_sequence": 0
     },
     "oxford_oht": {
@@ -339,19 +446,340 @@
       "error_category": "transient_http"
     },
     "healthline_oxford": {
+      "original_url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford",
+      "observed_url": "https://www.lignesantesud-ouest.ca/listServices.aspx?id=10075&region=Oxford",
+      "language": "fr",
+      "method": "official_language_edition",
+      "original_endpoint_issue": {
+        "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford; preserved previous results",
+        "error_category": "transient_http",
+        "http_status": null,
+        "last_attempt": "2026-11-16"
+      },
+      "entries": {
+        "russellmhall": {
+          "key": "russellmhall",
+          "title": "Dr Russell M Hall Family Health Centre",
+          "excerpt": "Dr Russell M Hall Family Health Centre Dr Russell M Hall Family Health Centre, 32 South Court St E, Norwich, ON N0J 1P0 519-863-2338 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=143822",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "6f0b318a06f8e5f8f1f6efee39b2367b4611619b1de4c11c3f830cd98f1d3535"
+        },
+        "thamesvalleyteamwoodstockteam": {
+          "key": "thamesvalleyteamwoodstockteam",
+          "title": "Thames Valley Family Health Team - Woodstock Family Health Team",
+          "excerpt": "Thames Valley Family Health Team - Woodstock Family Health Team 959 rue Dundas est, bureau 204, Woodstock, ON N4S 1H2 519-537-6701 ou 519-290-5055 poste 2167 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=15065",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "68dfd4c537635e25c7728624aac966cd42f15f0cad7c924ae2f68eb9207582b8"
+        },
+        "tillsonburgphysicians": {
+          "key": "tillsonburgphysicians",
+          "title": "Tillsonburg Family Physicians",
+          "excerpt": "Tillsonburg Family Physicians 594 Broadway, Unit 4, Tillsonburg, ON N4G 5K9 519-842-3636 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=187735",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "81a3060cfa1d24c35bcf4c97d0e1470d0ee980b35fe02d2891d72574dbacf39d"
+        },
+        "tillsonburg": {
+          "key": "tillsonburg",
+          "title": "Tillsonburg Medical Centre",
+          "excerpt": "Tillsonburg Medical Centre Tillsonburg Town Centre, 200 Broadway St, Tillsonburg, ON N4G 5A7 519-842-4231 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=177439",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "08030e52df527526f65d3a43672d9491d503d2814b2f16dff8f9fd638126c184"
+        },
+        "stjosephscarelondonstjosephsanddental": {
+          "key": "stjosephscarelondonstjosephsanddental",
+          "title": "St Joseph's Health Care London - St Joseph's Family Medical and Dental Centre",
+          "excerpt": "St Joseph's Health Care London - St Joseph's Family Medical and Dental Centre 268 Grosvenor St, London, ON N6G 1J1 Medical Centre: 519-672-9660 Dental Centre: 519-646-6022 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=14665",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
+        }
+      },
       "last_attempt": "2026-11-16",
-      "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford; preserved previous results",
-      "error_category": "transient_http"
+      "last_success": "2026-11-16",
+      "last_error": null,
+      "error_category": null,
+      "entry_count": 5,
+      "fingerprint": "fae7ddee9a65b08dcf94a06e294c133682725b73ff9943b2a2e5f9a88a7a5ea7",
+      "extraction_version": "directory-v4",
+      "source_signature": "5b69167263f68a7652858ac72f5135abe21bf69d23baa2c4579dd287c6d8569d",
+      "baseline_reason": "first_observation",
+      "event_sequence": 0
     },
     "healthline_elgin": {
+      "original_url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Elgin",
+      "observed_url": "https://www.lignesantesud-ouest.ca/listServices.aspx?id=10075&region=Elgin",
+      "language": "fr",
+      "method": "official_language_edition",
+      "original_endpoint_issue": {
+        "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Elgin; preserved previous results",
+        "error_category": "transient_http",
+        "http_status": null,
+        "last_attempt": "2026-11-16"
+      },
+      "entries": {
+        "dutton": {
+          "key": "dutton",
+          "title": "Dutton Medical Centre",
+          "excerpt": "Dutton Medical Centre 156 Currie Rd, Dutton, ON N0L 1J0 519-762-0943 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=164277",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "ee34d5b727c7940d24af3202409aa93560ded1cbc924f218e36413a75d981cbf"
+        },
+        "primepoint": {
+          "key": "primepoint",
+          "title": "PrimePoint Medical Clinic",
+          "excerpt": "PrimePoint Medical Clinic 19 Elgin St, St Thomas, ON N5R 3L7 226-336-7512 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=224103",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "3901a5e247a9c5ff859dc6112fa6f9f4468213d355bba6e839c7d216ec1f5758"
+        },
+        "talbotorganization": {
+          "key": "talbotorganization",
+          "title": "Talbot Family Health Organization",
+          "excerpt": "Talbot Family Health Organization 1-294 Talbot St, St Thomas, ON N5P 4E3 226-210-3773 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=183709",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "4a4115d5035fb738581e68590172d9af6d3510d9bf93905f1020b70cf3943c10"
+        },
+        "westelgincommunityfirstfivewestelgin": {
+          "key": "westelgincommunityfirstfivewestelgin",
+          "title": "West Elgin Community Health Centre - First Five West Elgin",
+          "excerpt": "West Elgin Community Health Centre - First Five West Elgin West Elgin Community Health Centre, 153 Main St, West Lorne, ON N0L 2P0 519-768-1715 ext 2301 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=222586",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "40e5896b798fb019836724155e9b931531c13f253dc1cd19ce6187b033e15bcf"
+        },
+        "stjosephscarelondonstjosephsanddental": {
+          "key": "stjosephscarelondonstjosephsanddental",
+          "title": "St Joseph's Health Care London - St Joseph's Family Medical and Dental Centre",
+          "excerpt": "St Joseph's Health Care London - St Joseph's Family Medical and Dental Centre 268 Grosvenor St, London, ON N6G 1J1 Medical Centre: 519-672-9660 Dental Centre: 519-646-6022 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=14665",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
+        }
+      },
       "last_attempt": "2026-11-16",
-      "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Elgin; preserved previous results",
-      "error_category": "transient_http"
+      "last_success": "2026-11-16",
+      "last_error": null,
+      "error_category": null,
+      "entry_count": 5,
+      "fingerprint": "c119069a84cd6a8712fc7db169451597b8f6adc91c9d1e30350eb317b2423ec4",
+      "extraction_version": "directory-v4",
+      "source_signature": "61918fbf0f1e58c75e168793a96e30f2e107b5909cfda4cff7781fcbcc164b08",
+      "baseline_reason": "first_observation",
+      "event_sequence": 0
     },
     "healthline_southwest": {
+      "original_url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=SouthWestOntario",
+      "observed_url": "https://www.lignesantesud-ouest.ca/listServices.aspx?id=10075",
+      "language": "fr",
+      "method": "official_language_edition",
+      "original_endpoint_issue": {
+        "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=SouthWestOntario; preserved previous results",
+        "error_category": "transient_http",
+        "http_status": null,
+        "last_attempt": "2026-11-16"
+      },
+      "entries": {
+        "core": {
+          "key": "core",
+          "title": "Core Family Health Centre",
+          "excerpt": "Core Family Health Centre 825 Richmond St, London, ON N6H 3H7 519-963-1875 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=179278",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "ef34514cf29ff1451f878dfc2da2c23d8a64bee91a8033e7c50ffc8d556fb496"
+        },
+        "russellmhall": {
+          "key": "russellmhall",
+          "title": "Dr Russell M Hall Family Health Centre",
+          "excerpt": "Dr Russell M Hall Family Health Centre Dr Russell M Hall Family Health Centre, 32 South Court St E, Norwich, ON N0J 1P0 519-863-2338 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=143822",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "6f0b318a06f8e5f8f1f6efee39b2367b4611619b1de4c11c3f830cd98f1d3535"
+        },
+        "dutton": {
+          "key": "dutton",
+          "title": "Dutton Medical Centre",
+          "excerpt": "Dutton Medical Centre 156 Currie Rd, Dutton, ON N0L 1J0 519-762-0943 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=164277",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "ee34d5b727c7940d24af3202409aa93560ded1cbc924f218e36413a75d981cbf"
+        },
+        "exeterfhosouthhuronexeterorganization": {
+          "key": "exeterfhosouthhuronexeterorganization",
+          "title": "Exeter FHO - South Huron Medical Centre - Exeter Family Health Organization",
+          "excerpt": "Exeter FHO - South Huron Medical Centre - Exeter Family Health Organization South Huron Medical Centre, 23 Huron St W, Exeter, ON N0M 1S2 519-235-3343 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=189660",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "e1d9dd7e6ec005872a6363fc784ec625a34a3951a3309b663424270051986ee2"
+        },
+        "huronsystemsouthhuronhospitalsouthhuron": {
+          "key": "huronsystemsouthhuronhospitalsouthhuron",
+          "title": "Huron Health System - South Huron Hospital - South Huron Medical Centre",
+          "excerpt": "Huron Health System - South Huron Hospital - South Huron Medical Centre South Huron Medical Centre, 23 Huron St W, Exeter, ON N0M 1S2 519-235-3343 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=11576",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "63f039146ab5673a1e2fd6bed5936a5f0c387bdfac1b6a0ed284affa3e645f41"
+        },
+        "kincardinecommunity": {
+          "key": "kincardinecommunity",
+          "title": "Kincardine Community Medical Clinic",
+          "excerpt": "Kincardine Community Medical Clinic 1201 Queen St, Kincardine, ON N2Z 3C1 519-396-4300 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=13334",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "4cf064f60e523b47ba740c45bdc3c837d52673100e773d7d45698347fd967daa"
+        },
+        "londonsciencesvictoria": {
+          "key": "londonsciencesvictoria",
+          "title": "London Health Sciences Centre - Victoria Family Medical Centre",
+          "excerpt": "London Health Sciences Centre - Victoria Family Medical Centre 60 avenue Chesley, London, ON N5Z 2C1 519-433-8424 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=13547",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "335d3b42d9e1e45909e5bf919154693a7d6e15c3b427cac3e5ae05d2dd56f105"
+        },
+        "medservice": {
+          "key": "medservice",
+          "title": "MedService",
+          "excerpt": "MedService 905 Adelaide St N, London, ON N5Y 2M6 519-433-6137 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=15234",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "1384e65135152d15774b9362217221a73e8991b75992288cda9d4cf08b5ab5fe"
+        },
+        "milvertonanddistrict": {
+          "key": "milvertonanddistrict",
+          "title": "Milverton and District Medical Centre",
+          "excerpt": "Milverton and District Medical Centre 50 William St, Suite 101, PO Box 149, Milverton, ON N0K 1M0 519-595-8548 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=13833",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "9aa6127c54d86036572cd013bfe738f84aec9e33df215610019a9f37e46eba2e"
+        },
+        "mitchell": {
+          "key": "mitchell",
+          "title": "Mitchell Family Doctors",
+          "excerpt": "Mitchell Family Doctors 7 Frances St, Mitchell, ON N0K 1N0 519-348-8402 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=176129",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "b204c7d3167dc4a12ea8c7d816963b9faea31e9b65c2d0881b58fdf2b1cf8f77"
+        },
+        "primepoint": {
+          "key": "primepoint",
+          "title": "PrimePoint Medical Clinic",
+          "excerpt": "PrimePoint Medical Clinic 19 Elgin St, St Thomas, ON N5R 3L7 226-336-7512 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=224103",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "3901a5e247a9c5ff859dc6112fa6f9f4468213d355bba6e839c7d216ec1f5758"
+        },
+        "sherwood": {
+          "key": "sherwood",
+          "title": "Sherwood Medical Centre",
+          "excerpt": "Sherwood Medical Centre 1225 Wonderland Rd N, London, ON N6G 2V9 548-689-9059 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=227372",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "43e95c3367fcd6890994d9807856207884b9dd3738b8950eb799426f0e3f0f40"
+        },
+        "stjosephscarelondonstjosephsanddental": {
+          "key": "stjosephscarelondonstjosephsanddental",
+          "title": "St Joseph's Health Care London - St Joseph's Family Medical and Dental Centre",
+          "excerpt": "St Joseph's Health Care London - St Joseph's Family Medical and Dental Centre 268 Grosvenor St, London, ON N6G 1J1 Medical Centre: 519-672-9660 Dental Centre: 519-646-6022 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=14665",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
+        },
+        "talbotorganization": {
+          "key": "talbotorganization",
+          "title": "Talbot Family Health Organization",
+          "excerpt": "Talbot Family Health Organization 1-294 Talbot St, St Thomas, ON N5P 4E3 226-210-3773 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=183709",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "4a4115d5035fb738581e68590172d9af6d3510d9bf93905f1020b70cf3943c10"
+        },
+        "thamesvalleyteamildertonmiddlesexmedicine": {
+          "key": "thamesvalleyteamildertonmiddlesexmedicine",
+          "title": "Thames Valley Family Health Team - Ilderton - Middlesex Centre Family Medicine Clinic",
+          "excerpt": "Thames Valley Family Health Team - Ilderton - Middlesex Centre Family Medicine Clinic 36 promenade Heritage, Ilderton, ON N0M 2A0 519-666-1610 Renseignements sur l'équipe de santé familiale : 519-666-1610 poste 219 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=146680",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "601ec379586e14bf0bf4da77eae1b4b5fe49b7fb742c29669cb19c1db7fb76eb"
+        },
+        "thamesvalleyteamlondonoxfordgroup": {
+          "key": "thamesvalleyteamlondonoxfordgroup",
+          "title": "Thames Valley Family Health Team - London - Oxford Medical Group",
+          "excerpt": "Thames Valley Family Health Team - London - Oxford Medical Group 312 rue Oxford Ouest, London, ON N6H 4N6 Clinique Oxford : 519-432-6786 Clinique Wharncliffe : 519-645-0100 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=170260",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "bf71bbf6eec39974a43a4a3a7a162e67479faef2b4a23105203f2ef67ea2ff19"
+        },
+        "thamesvalleyteamlondonwestlondon": {
+          "key": "thamesvalleyteamlondonwestlondon",
+          "title": "Thames Valley Family Health Team - London - West London Family Health Clinic",
+          "excerpt": "Thames Valley Family Health Team - London - West London Family Health Clinic Westmount Shopping Centre, 785 chemin Wonderland Sud, bureau 200, London, ON N6K 1M6 519-641-6712 ext 3654 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=15008",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "62f74e5f8f0cb3eca6d0bddebc8bc4ccbfb1e489cedc26d64853b4eaac9016d0"
+        },
+        "thamesvalleyteamstrathroy": {
+          "key": "thamesvalleyteamstrathroy",
+          "title": "Thames Valley Family Health Team - Strathroy Medical Clinic",
+          "excerpt": "Thames Valley Family Health Team - Strathroy Medical Clinic 74 rue Front Est, Strathroy, ON N7G 1Y7 519-245-0430 Renseignements sur l'équipe de santé familiale : 226-726-8440 poste 4 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=14767",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "511d0211f1ea1448c7ad6c00d46a305a19de6fae418b641317aadaf8a0595f58"
+        },
+        "thamesvalleyteamwoodstockteam": {
+          "key": "thamesvalleyteamwoodstockteam",
+          "title": "Thames Valley Family Health Team - Woodstock Family Health Team",
+          "excerpt": "Thames Valley Family Health Team - Woodstock Family Health Team 959 rue Dundas est, bureau 204, Woodstock, ON N4S 1H2 519-537-6701 ou 519-290-5055 poste 2167 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=15065",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "68dfd4c537635e25c7728624aac966cd42f15f0cad7c924ae2f68eb9207582b8"
+        },
+        "thompson": {
+          "key": "thompson",
+          "title": "Thompson Medical Centre",
+          "excerpt": "Thompson Medical Centre 130 Thompson Rd, London, ON N5Z 2Y6 519-601-8621 (press 1) Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=170103",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "6e162be4778b4674d01d99c3fc96fb85d6a90965dae7a57ca5b046e0ba6b2e9f"
+        },
+        "tillsonburgphysicians": {
+          "key": "tillsonburgphysicians",
+          "title": "Tillsonburg Family Physicians",
+          "excerpt": "Tillsonburg Family Physicians 594 Broadway, Unit 4, Tillsonburg, ON N4G 5K9 519-842-3636 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=187735",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "81a3060cfa1d24c35bcf4c97d0e1470d0ee980b35fe02d2891d72574dbacf39d"
+        },
+        "tillsonburg": {
+          "key": "tillsonburg",
+          "title": "Tillsonburg Medical Centre",
+          "excerpt": "Tillsonburg Medical Centre Tillsonburg Town Centre, 200 Broadway St, Tillsonburg, ON N4G 5A7 519-842-4231 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=177439",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "08030e52df527526f65d3a43672d9491d503d2814b2f16dff8f9fd638126c184"
+        },
+        "westelgincommunityfirstfivewestelgin": {
+          "key": "westelgincommunityfirstfivewestelgin",
+          "title": "West Elgin Community Health Centre - First Five West Elgin",
+          "excerpt": "West Elgin Community Health Centre - First Five West Elgin West Elgin Community Health Centre, 153 Main St, West Lorne, ON N0L 2P0 519-768-1715 ext 2301 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=222586",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "40e5896b798fb019836724155e9b931531c13f253dc1cd19ce6187b033e15bcf"
+        }
+      },
       "last_attempt": "2026-11-16",
-      "last_error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=SouthWestOntario; preserved previous results",
-      "error_category": "transient_http"
+      "last_success": "2026-11-16",
+      "last_error": null,
+      "error_category": null,
+      "entry_count": 23,
+      "fingerprint": "4f03caa5fed468c4849745bcedbb2ef7c6f6bf0ee35a574de9a090cbb422ba99",
+      "extraction_version": "directory-v4",
+      "source_signature": "c3a49794e018a5e9e1551746a5e045d7efe50fe9bcebf7a099fe571943c8fcae",
+      "baseline_reason": "first_observation",
+      "event_sequence": 0
     },
     "norfolk_fht_resources": {
       "entries": {
@@ -370,9 +798,9 @@
       "error_category": null,
       "entry_count": 1,
       "fingerprint": "87e9cd69679fa80bdd4c3d98a6193dcf5eeeac51bd234eef511c68ba5a5d0948",
-      "extraction_version": "directory-v3",
+      "extraction_version": "directory-v4",
       "source_signature": "c294e8b8de013daa139eb1cfd56dffa4029ea9f4d346e728a32350b91fa3773c",
-      "baseline_reason": null,
+      "baseline_reason": "extraction_version_or_source_changed",
       "event_sequence": 0
     },
     "huron_perth_oht": {
@@ -392,9 +820,9 @@
       "error_category": null,
       "entry_count": 1,
       "fingerprint": "1569425e1710f5ce96550f4d4a9ea13329119e462b5187f20edc359c0f4329be",
-      "extraction_version": "directory-v3",
+      "extraction_version": "directory-v4",
       "source_signature": "8c4f20a023de656b7ebbfc6e63555436e7a92ed0f31e9defd20a572f675ff67e",
-      "baseline_reason": null,
+      "baseline_reason": "extraction_version_or_source_changed",
       "event_sequence": 0
     },
     "elmdale_family_physician": {
@@ -414,47 +842,27 @@
       "error_category": null,
       "entry_count": 1,
       "fingerprint": "74adb6a182c95a3b8be5c21a7bfd85c38eb7fb0550e376454e9a4c35bf259051",
-      "extraction_version": "directory-v3",
+      "extraction_version": "directory-v4",
       "source_signature": "877ab2466b9135ecd457572a8975a6e14fae8348b593d04e4624f8c46e7012d4",
-      "baseline_reason": null,
+      "baseline_reason": "extraction_version_or_source_changed",
       "event_sequence": 0
     }
   },
   "last_run": "2026-11-16",
   "last_summary": {
     "sources": 12,
-    "success": 7,
-    "failed": 5,
-    "baselines": 0,
-    "version_baselines": 0,
+    "success": 11,
+    "failed": 1,
+    "baselines": 11,
+    "version_baselines": 7,
     "zero_result_news": 1,
-    "new_directory_leads": 1,
+    "new_directory_leads": 16,
     "listing_removals_to_review": 0,
     "errors": [
-      {
-        "source": "sw_healthline",
-        "category": "transient_http",
-        "error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=London"
-      },
       {
         "source": "oxford_oht",
         "category": "transient_http",
         "error": "503 Server Error: Service Unavailable for url: https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/"
-      },
-      {
-        "source": "healthline_oxford",
-        "category": "transient_http",
-        "error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford"
-      },
-      {
-        "source": "healthline_elgin",
-        "category": "transient_http",
-        "error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Elgin"
-      },
-      {
-        "source": "healthline_southwest",
-        "category": "transient_http",
-        "error": "503 Server Error: Service Unavailable for url: https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=SouthWestOntario"
       }
     ]
   }

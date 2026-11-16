@@ -904,6 +904,222 @@
       "review_sources": [
         "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access"
       ]
+    },
+    {
+      "id": "72bd0357fb131f1932",
+      "detected_at": "2026-11-16T14:52:59+00:00",
+      "url": "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+      "clinic_ids": [
+        "c017",
+        "c018"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "250c7e0f1e3dc9256b13e63c54aa12c8401336754ae0ac46be852c170e26f5fa",
+      "new_hash": "2475cbd57af4c0468a594963f33c1572ee94fd9c440c216f52495ed95b46ecde",
+      "extraction_version": "review-context-v2",
+      "assessment_version": "intake-hints-v3",
+      "review_status": "reviewed",
+      "prior_excerpt": "Close alert Skip to main content Skip to footer Brant Community Healthcare System Menu Patients and Visitors Expand sub pages Patients and Visitors Amenities Finding a Doctor Food and Nutrition Health Care Consent and Decision Making Health Care Coverage Indigenous Family Space Leaving the Hospital Maps and Directions Parking Patient and Family Education Patient Experience & Feedback Patient Surve\nIt provides health advice and information and A registered nurse will take your call 24 hours a day, seven days a week, to provide you with health advice and information.\nToll-free: 811 Toll-free TTY: 1-866-797-0007 There is also a chat option Health Care Connect Register with Health Care Connect to find care close to home.\nHealth Care Connect finds you a family doctor, nurse practitioner or primary care team that is accepting new patients in your community.",
+      "current_excerpt": "Close alert Skip to main content Skip to footer Brant Community Healthcare System Menu Patients and Visitors Expand sub pages Patients and Visitors Amenities Finding a Doctor Food and Nutrition Health Care Consent and Decision Making Health Care Coverage Indigenous Family Space Leaving the Hospital Maps and Directions Parking Patient and Family Education Patient Experience & Feedback Patient Surve\nIt provides health advice and information and A registered nurse will take your call 24 hours a day, seven days a week, to provide you with health advice and information.\nToll-free: 811 Toll-free TTY: 1-866-797-0007 There is also a chat option Health Care Connect Register with Health Care Connect to find care close to home.\nHealth Care Connect finds you a family doctor, nurse practitioner or primary care team that is accepting new patients in your community.",
+      "possible_claim": "possible_accepting",
+      "matched_excerpts": [
+        "Health Care Connect finds you a family doctor, nurse practitioner or primary care team that is accepting new patients in your community."
+      ],
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "review_outcome": "Original source reviewed; existing status preserved",
+      "reviewer_note": "Reviewed the original BCHS Finding a Doctor page on 2026-11-16. It still lists Dr Clara Obanor at 250 King George Road and Drs Samina Shaikh/Farah Mutasher at Bonavista under its accepting-patient directory. This is a hospital third-party listing, not fresh clinic confirmation. Retain c017 and c018 as reported; no upgrade to confirmed accepting is warranted. The Health Care Connect paragraph is general program information, not evidence of these offices having capacity. The queue excerpts are unchanged; the exact raw-hash cause was not established in this review.",
+      "review_sources": [
+        "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/"
+      ]
+    },
+    {
+      "id": "d5154249ac88fa68bd",
+      "detected_at": "2026-11-16T14:52:59+00:00",
+      "url": "https://www.doctors4cambridge.com/contact.htm",
+      "clinic_ids": [
+        "c022",
+        "c025",
+        "c098"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "7642273eede16763c5a7eec0dde89ecbd42c85a11e08fa8f2609f3d878e734ce",
+      "new_hash": "a41df5f2dbc4cb5babcf36ca6467496505d752e6a6d4ff6a10ef49089ff2b023",
+      "extraction_version": "review-context-v2",
+      "assessment_version": "intake-hints-v3",
+      "review_status": "reviewed",
+      "prior_excerpt": "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.\nPlease note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients.\nDoctors, Nurse Practitioners and Clinic Address Website Telephone Grandview Medical Centre FHT, welcomes two new physicians Dr.\n343 to register Langs North Dumfries Community Health Centre (for residents of North Dumfries) 2938 Greenfield Road, Ayr Please call 519-653-1470 Ext.\n343 to register Dr.\nSunil Bhatia Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge Please email [email protected] to request a Patient Registration Form Townline Walk-in & Medical Clinic 940 Jamieson Pkwy Register to become a patient with Dr.\nUnit B2 Register to become a patient with Dr.\n",
+      "current_excerpt": "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.\nPlease note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients.\nDoctors, Nurse Practitioners and Clinic Address Website Telephone Grandview Medical Centre FHT, welcomes two new physicians Dr.\n343 to register Langs North Dumfries Community Health Centre (for residents of North Dumfries) 2938 Greenfield Road, Ayr Please call 519-653-1470 Ext.\n343 to register Dr.\nSunil Bhatia Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge Please email [email protected] to request a Patient Registration Form Townline Walk-in & Medical Clinic 940 Jamieson Pkwy Register to become a patient with Dr.\nUnit B2 Register to become a patient with Dr.\nFares Hayek Coronation Family Physicians 182 Pinebush Road www.coronationfamilyphysicians.ca Dr.\nUnit B7A Please call to register (519) 740-1700 Dr.\nemeraldcaremax.ca/registration/ (519) 267-5030 Waterloo Region Nurse Practitioner Led Clinic 13 Water St.\nUnit 12 www.tworiversfht.ca To register please call 519-629-4615 Physician details To view details for licensed physicians practising in Ontario, such as language spoken, visit the physician register with the College of Physicians and Surgeons o",
+      "possible_claim": "possible_accepting",
+      "matched_excerpts": [
+        "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.",
+        "Please note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients."
+      ],
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "review_outcome": "Original source reviewed; existing status preserved",
+      "reviewer_note": "Reviewed the original Doctors4Cambridge contact directory on 2026-11-16. It still lists Dr Sherif Mikhail with telephone registration, Dr Hisham Ghali at Shepherd Medical Centre and Dr Martin Schuster at 11 George Street South Unit 1. The page warns that changes are not always communicated promptly. Retain c022, c025 and c098 as reported rather than clinic-confirmed accepting. Preserve c098 suite discrepancy pending clinic confirmation. The same directory also lists Forbes intake, but the clinic-owned Forbes page explicitly contradicts that; c099 remains not_accepting. No new status change warranted from this alert; opaque email-protection URLs can change the raw observation, but this review does not assert the sole hash cause.",
+      "review_sources": [
+        "https://www.doctors4cambridge.com/contact.htm"
+      ]
+    },
+    {
+      "id": "f9534bfb69bb94927e",
+      "detected_at": "2026-11-16T14:52:59+00:00",
+      "url": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
+      "clinic_ids": [
+        "c041"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "c1550e052f77569dff7a1b219acab928008b47dec985e5f4a1428fd01480eb3f",
+      "new_hash": "b57f98b60ae984584c1270e48cf7a98c604b2077515552e670f50a13c7853246",
+      "extraction_version": "review-context-v2",
+      "assessment_version": "intake-hints-v3",
+      "review_status": "reviewed",
+      "prior_excerpt": "London - 602 Queens Avenue - Thames Valley FHT 2026-11-11T21:18:10+00:00 Virtual Urgent Care available for children/youth: LEARN MORE BOOK ONLINE Skip to content Main Menu EN FR Patient Survey Greenspace Home About Our Locations Mission, Vision & Values Board of Directors and Leadership Accessibility Our Public Accountability Protecting Your Privacy Procurement Our Health Professionals News & Upda\nThey focus on voluntary attachment with respect for patient choice.",
+      "current_excerpt": "London - 602 Queens Avenue - Thames Valley FHT 2026-11-11T21:18:10+00:00 Virtual Urgent Care available for children/youth: LEARN MORE BOOK ONLINE Skip to content Main Menu EN FR Patient Survey Greenspace Home About Our Locations Mission, Vision & Values Board of Directors and Leadership Accessibility Our Public Accountability Protecting Your Privacy Procurement Our Health Professionals News & Upda\nThey focus on voluntary attachment with respect for patient choice.",
+      "possible_claim": "unclear",
+      "matched_excerpts": [],
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "review_outcome": "Original source reviewed; existing status preserved",
+      "reviewer_note": "Reviewed the original TVFHT 602 Queens Avenue page on 2026-11-16. It identifies the Health & Homelessness team, low-barrier care for people experiencing homelessness, voluntary attachment, and provider/partner referrals or self-referrals requiring both the 2026 application and referral forms. These are already reflected in c041. Retain limited, not general open intake; application is not guaranteed placement. No clinic status or intake-detail change warranted. The raw source hash changed, but no contradictory current intake instruction was found.",
+      "review_sources": [
+        "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/"
+      ]
+    },
+    {
+      "id": "e1c35b254aa3d97ed7",
+      "detected_at": "2026-11-16T14:52:59+00:00",
+      "url": "https://www.bfmc.ca/home",
+      "clinic_ids": [
+        "c062"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "31d3ebab5ca00dee02fe7aa386aec444e72cea8c75ae7aa613dbcb6e78f14a05",
+      "new_hash": "9e3bfb95e68c739682f02a93203ef015dc77daaed1afd1b06229baf6e19f0aea",
+      "extraction_version": "review-context-v2",
+      "assessment_version": "intake-hints-v3",
+      "review_status": "reviewed",
+      "prior_excerpt": "Byron Family Medical Search this site Embedded Files Skip to main content Skip to navigation Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map More Home News Hours For Patients Virtual Visits About Us Contact Us Map Wednesday, November 11, 2026 - Remembrance Day The Byron\nIf you have an urgent issue that cannot wait until Tuesday, please call 519-685-8500 and ask the LHSC switchboard to connect you with the Byron Family Medical Centre on-call physician.\nWhen callin g it is very important to specify that you wish to speak with the on-call physician from the BYRON Family Medical Centre so that you are directed to the appropriate on-call team.\nPlease note that we are not a walk-in clinic and are not accepting new patients at this time.\nWe only see registered patien",
+      "current_excerpt": "Byron Family Medical Search this site Embedded Files Skip to main content Skip to navigation Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map More Home News Hours For Patients Virtual Visits About Us Contact Us Map Wednesday, November 11, 2026 - Remembrance Day The Byron\nIf you have an urgent issue that cannot wait until Tuesday, please call 519-685-8500 and ask the LHSC switchboard to connect you with the Byron Family Medical Centre on-call physician.\nWhen callin g it is very important to specify that you wish to speak with the on-call physician from the BYRON Family Medical Centre so that you are directed to the appropriate on-call team.\nPlease note that we are not a walk-in clinic and are not accepting new patients at this time.\nWe only see registered patients of our centre.",
+      "possible_claim": "possible_closed",
+      "matched_excerpts": [
+        "Please note that we are not a walk-in clinic and are not accepting new patients at this time."
+      ],
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "review_outcome": "Original source reviewed; existing status preserved",
+      "reviewer_note": "Reviewed the original Byron homepage on 2026-11-16. It explicitly says it is not accepting new patients, is not a walk-in clinic, and sees only registered patients. The November 11 Remembrance Day closure is temporary, with reopening November 12, and is not a permanent practice closure. Retain c062 not_accepting and existing operating status. No listing change warranted; identical queue excerpts are not alone used as the basis for this conclusion.",
+      "review_sources": [
+        "https://www.bfmc.ca/home"
+      ]
+    },
+    {
+      "id": "b48a72c084d276d2e3",
+      "detected_at": "2026-11-16T14:52:59+00:00",
+      "url": "https://www.forbesparkmedical.com/new-patients",
+      "clinic_ids": [
+        "c099"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "55b0624e25077f8ec23555bdae4de94824645e270cd81505fbc8ce495a9e6886",
+      "new_hash": "90706953b1e2622a423def0758caa31390f3dbd50ffa877d1e098c7e78b09fe7",
+      "extraction_version": "review-context-v2",
+      "assessment_version": "intake-hints-v3",
+      "review_status": "reviewed",
+      "prior_excerpt": "Forbes Park Medical - New Patients Search this site Embedded Files Skip to main content Skip to navigation Forbes Park Medical Home Office Hours Appointment Booking Physicians and Staff Cold and Flu New Patients Mental Health Resources Uninsured Services Forbes Park Medical New Patients We do not have any physicians accepting patients at this time.",
+      "current_excerpt": "Forbes Park Medical - New Patients Search this site Embedded Files Skip to main content Skip to navigation Forbes Park Medical Home Office Hours Appointment Booking Physicians and Staff Cold and Flu New Patients Mental Health Resources Uninsured Services Forbes Park Medical New Patients We do not have any physicians accepting patients at this time.",
+      "possible_claim": "possible_closed",
+      "matched_excerpts": [
+        "Forbes Park Medical - New Patients Search this site Embedded Files Skip to main content Skip to navigation Forbes Park Medical Home Office Hours Appointment Booking Physicians and Staff Cold and Flu New Patients Mental Health Resources Uninsured Services Forbes Park Medical New Patients We do not have any physicians accepting patients at this time."
+      ],
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "review_outcome": "Original source reviewed; existing status preserved",
+      "reviewer_note": "Reviewed the original Forbes Park New Patients page on 2026-11-16. It explicitly says no physicians are accepting patients at this time. Retain c099 not_accepting; this clinic-owned instruction takes precedence over the Doctors4Cambridge application listing. No closure or new availability inferred from the changed raw hash. The current negative review hint is consistent with the page.",
+      "review_sources": [
+        "https://www.forbesparkmedical.com/new-patients"
+      ]
+    },
+    {
+      "id": "084651d39dc4bb7392",
+      "detected_at": "2026-11-16T14:52:59+00:00",
+      "url": "https://synergycentre.ca/about-us/about-us",
+      "clinic_ids": [
+        "c132"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "7ad2c5109876c816a6946b5773629fe212af664473a599766c7707c7371c74aa",
+      "new_hash": "fac4b84b47f35aac99aee32c51d4a638d29369785b64dfdfc9b5123911ecf4a3",
+      "extraction_version": "review-context-v2",
+      "assessment_version": "intake-hints-v3",
+      "review_status": "reviewed",
+      "prior_excerpt": "About & Contact Us - Synergy Centre - London Welcome Services Services Cosmetic & Family Dentistry Beauty Within Medical Aesthetics Aesthetics & Skincare Registered-Massage-Therapy Chiropractic & Acupuncture Physiotherapy Laser Therapy Pharmacy Foot Care Natural Health Psychotherapy Family Medicine Liver Health Assessment Orthotics & Compression Therapy About Us About Us Privacy Policy Join Our Te\nThe lower level of Synergy Centre contains a peaceful oasis where patients can relax and enjoy a massage from one of our Registered Massage Therapists, or address any of their Physiotherapy or Chiropractic needs.\nThe dental area has both open areas and a closed room for complete privacy.\nOUR FULL STORY Contact Us Synergy Centre, your trusted London dental practice, is currently accepting new patients.\nSYNERGY CENTRE MAIN DESK HOURS Monday - Friday: 9am - 5pm The Centre is closed for Statutory a",
+      "current_excerpt": "About & Contact Us - Synergy Centre - London Welcome Services Services Cosmetic & Family Dentistry Beauty Within Medical Aesthetics Aesthetics & Skincare Registered-Massage-Therapy Chiropractic & Acupuncture Physiotherapy Laser Therapy Pharmacy Foot Care Natural Health Psychotherapy Family Medicine Liver Health Assessment Orthotics & Compression Therapy About Us About Us Privacy Policy Join Our Te\nThe lower level of Synergy Centre contains a peaceful oasis where patients can relax and enjoy a massage from one of our Registered Massage Therapists, or address any of their Physiotherapy or Chiropractic needs.\nThe dental area has both open areas and a closed room for complete privacy.\nOUR FULL STORY Contact Us Synergy Centre, your trusted London dental practice, is currently accepting new patients.\nSYNERGY CENTRE MAIN DESK HOURS Monday - Friday: 9am - 5pm The Centre is closed for Statutory and Recognized Holidays.\nPHARMACY HOURS Monday - Friday: 9am - 6pm Saturday: 9am - 12pm Sundays & Holidays: Closed Email pharma questions during or after hours to: pharmacy@sclondon.ca FAMILY MEDICINE HOURS By Appointment Only Monday – Friday: 9am – 5pm Some triaged appointments may fall outside of these parameters for our rostered patients AESTHETIC & LASER HOURS By Appointment ONLY Monday, Tuesday, Wednesday, Thursday: \nWelcome About Us About & Contact Us Synergy Centre 519-266–3600 1635 Hyde P",
+      "possible_claim": "possible_accepting",
+      "matched_excerpts": [
+        "OUR FULL STORY Contact Us Synergy Centre, your trusted London dental practice, is currently accepting new patients."
+      ],
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "review_outcome": "Original source reviewed; existing status preserved",
+      "reviewer_note": "Reviewed the original Synergy About & Contact page on 2026-11-16. Its new-patient invitation explicitly describes the dental practice. Family-medicine hours and after-hours instructions refer to rostered patients, with Dr Maria Tetelbaum named. No current family-practice enrolment invitation is established. Retain c132 unknown and its existing warning that dental intake is a different service; do not change to accepting or not_accepting. No listing change warranted.",
+      "review_sources": [
+        "https://synergycentre.ca/about-us/about-us"
+      ]
+    },
+    {
+      "id": "158bb3008906ac4c59",
+      "detected_at": "2026-11-16T14:52:59+00:00",
+      "url": "https://www.drjonathongriffin.ca/",
+      "clinic_ids": [
+        "c159"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "f02f8c0d846c19611cf5be037b407f4e42c3b2e8c0880a20dcb94f3d182aeffd",
+      "new_hash": "2890a09d5ab0969e65a0cc77701e54f63e49e1c95db836f3de024fa456144104",
+      "extraction_version": "review-context-v2",
+      "assessment_version": "intake-hints-v3",
+      "review_status": "reviewed",
+      "prior_excerpt": "We are currently adding patients to our wait list.\nOffice Hours: Monday - 8:30am-4:00pm Tuesday - 8:30am-4:00pm Wednesday - 8:30am-4:00pm Thursday - 8:30am-4:00pm Friday - 8:30am-12:30pm Saturday/Sunday - closed **Office hours subject to change After Hours Clinic: (for urgent medical concerns) Monday - 5:00pm-8:00pm Tuesday - 5:00pm-8:00pm Wednesday - 5:00pm-8:00pm Thursday - 5:00pm-8:00pm Friday- closed Saturday- 8:30am-5:30pm Sunday - closed Sta\nGriffin and the Nurse Practitioner is unable to see you.",
+      "current_excerpt": "We are currently adding patients to our wait list.\nOffice Hours: Monday - 8:30am-4:00pm Tuesday - 8:30am-4:00pm Wednesday - 8:30am-4:00pm Thursday - 8:30am-4:00pm Friday - 8:30am-12:30pm Saturday/Sunday - closed **Office hours subject to change After Hours Clinic: (for urgent medical concerns) Monday - 5:00pm-8:00pm Tuesday - 5:00pm-8:00pm Wednesday - 5:00pm-8:00pm Thursday - 5:00pm-8:00pm Friday- closed Saturday- 8:30am-5:30pm Sunday - closed Sta\nGriffin and the Nurse Practitioner is unable to see you.",
+      "possible_claim": "possible_waitlist",
+      "matched_excerpts": [
+        "We are currently adding patients to our wait list."
+      ],
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "review_outcome": "Original source reviewed; existing status preserved",
+      "reviewer_note": "Reviewed Dr Jonathon Griffin's original clinic homepage on 2026-11-16. It still invites patients to contact the office to join the waitlist, lists 302-460 Springbank Drive and 519-681-8860, and limits after-hours care to already rostered patients. Retain c159 waitlist, not immediate accepting or guaranteed enrolment. No listing change warranted from the raw-hash transition.",
+      "review_sources": [
+        "https://www.drjonathongriffin.ca/"
+      ]
+    },
+    {
+      "id": "d1c29b6a3a4c38ed5b",
+      "detected_at": "2026-11-16T14:52:59+00:00",
+      "url": "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access",
+      "clinic_ids": [
+        "c195"
+      ],
+      "source_kind": "intake evidence",
+      "old_hash": "f6b19c9536ebd063449710a456f42033a39166052550813f35c6cb475d3e9cd0",
+      "new_hash": "85329b49e6e7d995970d3464677252fd99ae0a9946a46188c7ab2567ed94393a",
+      "extraction_version": "review-context-v2",
+      "assessment_version": "intake-hints-v3",
+      "review_status": "reviewed",
+      "prior_excerpt": "Read more Breadcrumb Home Areas of Care Trauma and Violence Specialized Primary Care Program How To Access Program Menu Back to Areas of Care Trauma and Violence Specialized Primary Care Program Contact Details Services How to Access What to Expect Care Team Trauma and Violence Specialized Primary Care Program - How To Access Currently, the Trauma and Violence Specialized Primary Care Program only\nThe program also aims to expand research capacity and training opportunities, creating a sustainable and replicable model for trauma and violence informed specialized primary care across the province.",
+      "current_excerpt": "Read more Breadcrumb Home Areas of Care Trauma and Violence Specialized Primary Care Program How To Access Program Menu Back to Areas of Care Trauma and Violence Specialized Primary Care Program Contact Details Services How to Access What to Expect Care Team Trauma and Violence Specialized Primary Care Program - How To Access Currently, the Trauma and Violence Specialized Primary Care Program only\nThe program also aims to expand research capacity and training opportunities, creating a sustainable and replicable model for trauma and violence informed specialized primary care across the province.",
+      "possible_claim": "unclear",
+      "matched_excerpts": [],
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-16",
+      "review_outcome": "Original source reviewed; existing status preserved",
+      "reviewer_note": "Reviewed the original St Joseph's How To Access page on 2026-11-16. Current access remains restricted to internal referrals from specified St Joseph's programs/services and LHSC emergency departments. Expansion to outside partners and primary-care providers is described as a future phase, not a current pathway. Retain c195 limited; no public self-referral or unrestricted intake is established. No listing change warranted.",
+      "review_sources": [
+        "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access"
+      ]
     }
   ]
 }

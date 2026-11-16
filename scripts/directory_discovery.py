@@ -29,7 +29,7 @@ EXTRACTION_VERSION = 'directory-v4'
 MAX_ENTRIES = 120
 MAX_HTML_BYTES = 1_500_000
 MAX_PAGE_LINKS = 500
-HEALTHLINE_ROOTS = ('southwesthealthline.ca','healthline.ca')
+HEALTHLINE_ROOTS = ('southwesthealthline.ca','healthline.ca','lignesantesud-ouest.ca')
 CARE = re.compile(r'\b(?:Dr\.?\s+[A-Z][A-Za-z]+|physician|family\s+(?:doctor|medicine|practice|health)|nurse\s+practitioner|(?:medical|primary\s+care|health)\s+(?:centre|center|clinic)|walk[- ]?in|health\s+team|NP[- ]?led)\b', re.I)
 NEWS = re.compile(r'(?:family\s+(?:doctor|physician|medicine)|nurse\s+practitioner|primary\s+care|new\s+medical\s+clinic)', re.I)
 ACTION = re.compile(r'(?:open(?:s|ed|ing)?|new\s+practice|accepting|registration|recruit|joined|joins|retir|clos(?:e|ed|ing|ure)|relocat|mov(?:e|ing)|expand)', re.I)
@@ -75,6 +75,11 @@ def candidate(title, detail, link, source, scope):
 def parse_candidates(html, source):
     """Conservative deterministic extraction; no AI inference from directory text."""
     soup=BeautifulSoup(html,'html.parser')
+    # Healthline ASP.NET wraps its entire public directory in a form.
+    # Unwrap that container only; never submit or retain form controls.
+    if source.get('mode')=='healthline':
+        for form in soup.find_all('form'):form.unwrap()
+        for control in soup(['input','button','select','textarea']):control.decompose()
     for t in soup(['script','style','noscript','svg','footer','nav','form']):t.decompose()
     mode=source['mode'];out=[]
     if mode=='news':
@@ -250,8 +255,13 @@ def source_signature(source):
     return hashlib.sha256(json.dumps({key:source.get(key) for key in ('url','mode')},sort_keys=True).encode()).hexdigest()
 
 
-def successful_state(current,rows,day,signature,reason,event_sequence):
-    return {'entries':current,'last_attempt':day,'last_success':day,'last_error':None,
+def successful_state(current,rows,day,signature,reason,event_sequence,source=None,previous=None):
+    provenance={}
+    if source and source.get("original_url"):
+        previous=previous or {}
+        issue=previous.get("original_endpoint_issue") or {k:previous.get(k) for k in ("last_error","error_category","http_status","last_attempt")}
+        provenance={"original_url":source["original_url"],"observed_url":source["url"],"language":source.get("language"),"method":"official_language_edition","original_endpoint_issue":issue}
+    return {**provenance,'entries':current,'last_attempt':day,'last_success':day,'last_error':None,
             'error_category':None,'entry_count':len(rows),'fingerprint':fingerprint(rows),
             'extraction_version':EXTRACTION_VERSION,'source_signature':signature,
             'baseline_reason':reason,'event_sequence':event_sequence}
@@ -268,6 +278,11 @@ def extract_snapshot(html,source):
     if source.get('mode') not in ('news','table','people','cards','healthline','page'):
         raise ExtractionError('extraction_schema','Unsupported directory mode')
     soup=BeautifulSoup(html,'html.parser')
+    # Healthline ASP.NET wraps its entire public directory in a form.
+    # Unwrap that container only; never submit or retain form controls.
+    if source.get('mode')=='healthline':
+        for form in soup.find_all('form'):form.unwrap()
+        for control in soup(['input','button','select','textarea']):control.decompose()
     title=soup.title.get_text(' ',strip=True) if soup.title else ''
     noscript=' '.join(x.get_text(' ',strip=True) for x in soup.find_all('noscript'))
     has_script=bool(soup.find('script'))
@@ -342,7 +357,7 @@ def process(sources,html_map,state,queue,clinics,day,fetch_errors=None):
         # A new parser/configuration establishes its own baseline. It cannot
         # interpret extraction differences as actual directory changes/removals.
         if migration:
-            state['sources'][sid]=successful_state(current,rows,day,signature,'extraction_version_or_source_changed',prior_sequence)
+            state['sources'][sid]=successful_state(current,rows,day,signature,'extraction_version_or_source_changed',prior_sequence,source,prev)
             continue
         for key,row in current.items():
             if key in old:
@@ -388,7 +403,7 @@ def process(sources,html_map,state,queue,clinics,day,fetch_errors=None):
                 'intake_status':'unconfirmed','radius_checked':False,
                 'note':'Removal from one webpage is NEVER proof that intake closed or that the clinic closed.'})
             existing_ids.add(ident);summary['listing_removals_to_review']+=1
-        state['sources'][sid]=successful_state(current,rows,day,signature,'first_observation' if first_baseline else None,event_sequence)
+        state['sources'][sid]=successful_state(current,rows,day,signature,'first_observation' if first_baseline else None,event_sequence,source,prev)
     state['last_run']=day;state['last_summary']=summary
     return summary
 
