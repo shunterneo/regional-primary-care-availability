@@ -7,6 +7,19 @@ Automatic intake-status and permanent-closure writes are temporarily paused whil
 **An independent, public-information-only map and staff directory for family physician and nurse practitioner practices within 75 km (straight-line) of 96 Tillson Avenue, Tillsonburg, Ontario.** No employer account, work device, private client address, or identifiable patient information is required.
 
 
+## Paused safety hardening: evidence and new profiles
+
+The automatic intake writer remains disabled. Passing offline tests is not permission to re-enable it or a claim that arbitrary clinic webpages can be interpreted safely.
+
+- Automatic candidates now use a separate complete-context extractor instead of truncated change-notification snippets. The bounded adapter supports **static text-only HTML**. Executable scripts, CSS-dependent rendering, images/embedded media, collapsed content and ambiguous notices require a separately reviewed adapter or manual review. Dates, qualifications, quotations and contradictions are review-only; unsupported text is not an intake decision.
+- Each eligible source needs an independently recorded `auto_publication_scope`: version 1, exact clinic/source identity hash, single-office scope, review date/method/evidence, and approved full non-claim context template hash. The template also binds DOM structure and attributes. Only an exact bounded intake sentence can vary without a new context review. **No existing record is automatically granted this approval.**
+- Observations carry `context-v2`, complete-context/template hashes and scope fingerprints. Legacy observations, changed context/scope, invalid or repeated/future dates, failed latest fetches, non-HTTPS or different-path redirects cannot reuse prior confirmation days. New reviews require fresh observations; two sightings are stability evidence, not independent corroboration.
+- New government profiles require an exact schema-version/candidate-hash approval, public source, explicit office/duplicate review, care-model evidence and a review no more than 30 days old. Bare historical booleans are rejected. Intake remains unknown; no missing fact is invented. Registry failure/malformed-response health is retained separately from previous facts.
+- Manual additions now accept **unknown intake only** and require `--coordinate-source`. Apply any later sourced intake change through the existing reviewed-update workflow. Both manual and registry profiles retain coordinate provenance; validation rejects nonfinite/out-of-range coordinates and enforces the 75 km boundary using the emitted office point, without a rounding buffer.
+- Name alone, a shared building, or an address prefix is not an office identity. Distinct addresses/suites remain distinct candidates; unresolved possible duplicates still need review.
+
+These controls reduce specific demonstrated risks. They do not resolve all inaccessible sources, prove clinic capacity, provide a complete provider census, or certify PHIPA compliance. Real source-specific pilots and independent review are still required before any future enablement.
+
 ## November 11 source-integrity audit and limitations
 
 The automated audit reviews **all 96 current records for consistency and source attribution**, and generates `site/documents/quality-audit.csv` so that unresolved items are visible. It is **not** a claim that every office was checked by telephone, or that every recorded address and clinician roster is current. The initial audited baseline has **14 clinic-published application pathways**, **14 regional reports**, **5 limited**, **6 waitlist**, **4 explicitly not accepting**, and **53 unknown**. 70 of the 96 records have at least one follow-up flag, frequently because no direct intake statement or recent independently verified office information is available.
@@ -91,8 +104,9 @@ Example adding a **verified public clinic building** (fictional example; **do no
 
 ```bash
 python scripts/add_clinic.py --name 'VERIFIED CLINIC NAME' --community 'EXACT TOWN' \
-  --address 'VERIFIED PUBLIC CLINIC ADDRESS' --clinic-type MD \
+  --address 'VERIFIED PUBLIC CLINIC ADDRESS' --clinic-type MD --care-model unverified \
   --latitude 42.86 --longitude -80.72 --status unknown \
+  --coordinate-source 'https://example.org/verified-public-office-coordinate' \
   --intake-detail 'No current intake statement found' \
   --source 'https://example.org/official-clinic-page' \
   --reviewer-note 'Verified public clinic address and coordinates within the boundary; no patient information.'

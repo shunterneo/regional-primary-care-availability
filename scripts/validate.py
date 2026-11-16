@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import sys,collections,datetime
 from evidence_policy import qualified_public_intake,host
+from profile_integrity import coordinate_distance
 from common import load_data, STATUSES,CARE_MODELS,CITY_COORDS,km,is_url
 D=load_data(); xs=D['clinics']; assert len(xs)>0
 errors=[];ids=set();names=set();center=D['center']
@@ -31,15 +32,14 @@ for r in xs:
     if r['community'] not in CITY_COORDS:errors.append(f'unknown city coordinates {id}')
     else:
         dist=km(center['latitude'],center['longitude'],*CITY_COORDS[r['community']])
-        if dist>75.01: errors.append(f'community outside boundary {id} ({dist:.1f} km)')
+        if 'latitude' not in r and dist>center['radius_km']: errors.append(f'community outside boundary {id} ({dist:.1f} km)')
     v=r.get('intake_verification') or {}
     if v.get('tier') in ('clinic_first_party','program_general'):
         if host(r.get('evidence_url')) != host(r.get('clinic_url')) or v.get('source_url') != r.get('evidence_url'):
             errors.append(f'clinic/program evidence must belong to its organization {id}')
     if 'latitude' in r or 'longitude' in r:
         try:
-            d=km(center['latitude'],center['longitude'],float(r['latitude']),float(r['longitude']))
-            if d>center['radius_km']+.01:errors.append(f'clinic coordinate outside 75 km circle {id}: {d:.1f} km')
+            coordinate_distance(center,r['latitude'],r['longitude'],r.get('coordinate_source'))
         except (KeyError,ValueError,TypeError):errors.append(f'invalid verified clinic coords for {id}')
     for fld in ('evidence_url','clinic_url'):
         if r.get(fld) and not is_url(r[fld]):errors.append(f'non-https URL in {id} ({fld})')

@@ -12,7 +12,7 @@ from pypdf import PdfReader
 from bs4 import BeautifulSoup
 from common import ROOT,load_data,is_url
 from intake_evidence import classify
-from auto_evidence import decisive_statement, observe, first_party
+from auto_evidence import decisive_statement, observe, first_party, publication_candidate, scope_fingerprint
 DATA=ROOT/'data';state_path=DATA/'source_state.json';queue_path=DATA/'review_queue.json'
 state=json.loads(state_path.read_text());queue=json.loads(queue_path.read_text());clinics=load_data()['clinics']
 extra=json.loads((DATA/'discovery_sources.json').read_text())
@@ -122,7 +122,7 @@ def fetch_one(pair):
             body=extract(res.text)
         else:raise ValueError('Response is not HTML or PDF')
         if not body.strip():raise ValueError('No matching text')
-        return url,{'hash':hashlib.sha256(body.encode()).hexdigest(),'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':None if is_pdf else decisive_statement(body), 'format':'pdf' if is_pdf else 'html'}
+        return url,{'hash':hashlib.sha256(body.encode()).hexdigest(),'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':None if is_pdf else publication_candidate(res.text), 'format':'pdf' if is_pdf else 'html'}
     except Exception as exc:
         return url,{'hash':None,'error':str(exc)[:800], 'error_category':error_category(exc), 'http_status':getattr(getattr(exc,'response',None),'status_code',None)}
 
@@ -144,10 +144,11 @@ def run():
             verified=bool(len(owners)==1 and first_party(next(c for c in clinics if c['id']==owners[0]),url,owners,result['final_url']))
             prior_obs=prev.get('auto_observation',{}) if verified else {}
             # A failed, ambiguous or redirected page breaks the consecutive evidence chain.
-            observation=observe(prior_obs,result['explicit_candidate'] if verified else None,now)
+            scope_hash=scope_fingerprint(next(c for c in clinics if c['id']==owners[0])) if verified else None
+            observation=observe(prior_obs,result['explicit_candidate'] if verified else None,now,scope_hash=scope_hash)
             state['sources'][url]={**prev,'hash':newhash,'excerpt':result['excerpt'][:1400],
               'possible_claim':result['assessment']['classification'],'last_attempt':now,'last_success':now,
-              'last_error':None,'error_category':None,'http_status':None,'format':result['format'],'official_first_party':verified,'auto_observation':observation}
+              'last_error':None,'error_category':None,'http_status':None,'format':result['format'],'final_url':result['final_url'],'official_first_party':verified,'auto_observation':observation}
             if not oldhash:
                 baseline+=1;continue
             if oldhash!=newhash and (url,newhash) not in pending_ids:

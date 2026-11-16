@@ -6,7 +6,7 @@ No AI or news output is used. No client data is consumed or published.
 from __future__ import annotations
 import json, datetime as dt, os
 from common import ROOT
-from auto_evidence import first_party,confirmed,explicit_longitudinal
+from auto_evidence import first_party,confirmed,explicit_longitudinal,scope_fingerprint
 
 D=ROOT/'data'; DB=D/'clinics.json'; SRC=D/'source_state.json'; HISTORY=D/'review_history.json'
 
@@ -21,7 +21,9 @@ def apply(database, source_state, history, day):
         rec=source_state.get('sources',{}).get(url,{})
         o=rec.get('auto_observation') or {}
         if not rec.get('official_first_party') or rec.get('last_error'):continue
-        if not first_party(c,url,owners.get(url,[])):continue
+        if not first_party(c,url,owners.get(url,[]),rec.get('final_url',''),today=day):continue
+        if rec.get('last_success') != o.get('last_seen') or o.get('scope_hash') != scope_fingerprint(c):continue
+        if o.get('template_hash') != c['auto_publication_scope'].get('context_template_hash'):continue
         if not confirmed(o,day):continue
         decision=o.get('status')
         if decision not in ('accepting','not_accepting','closed'):continue
@@ -68,6 +70,8 @@ def apply(database, source_state, history, day):
             'old_status':prior,'new_status':action,'type':'automated_official_confirmation',
             'source':url,'evidence':o.get('quote','')[:320],
             'days_confirmed':o['days'][-2:],
+            'evidence_rule_version':o['rule_version'],'evidence_context_hash':o['context_hash'],
+            'office_scope_hash':o['scope_hash'],'evidence_template_hash':o['template_hash'],
             'reviewer_note':'Two separate-day checks of clinic-specific first-party statement; no AI/third-party evidence.'})
         changes.append({'id':c['id'],'name':c['name'],'action':action})
     if changes or refreshes:database['data_as_of']=day

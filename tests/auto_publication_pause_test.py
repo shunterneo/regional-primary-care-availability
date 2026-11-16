@@ -5,18 +5,23 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'scripts'))
 import auto_publish
-from auto_evidence import decisive_statement, observe
+from auto_evidence import decisive_statement, observe, scope_identity, scope_fingerprint
 
 today = dt.date.today()
 day = today.isoformat()
 url = 'https://example.test/intake'
 quote = 'Our family practice is now accepting new patients.'
-observation = observe({}, decisive_statement(quote), (today-dt.timedelta(days=1)).isoformat()+'T13:00:00+00:00')
-observation = observe(observation, decisive_statement(quote), day+'T13:00:00+00:00')
 database = {'clinics': [{'id': 'fixture', 'name': 'Synthetic clinic', 'status': 'unknown',
     'clinic_url': 'https://example.test/', 'evidence_url': url, 'care_model': 'ongoing',
     'last_reviewed': (today-dt.timedelta(days=2)).isoformat()}], 'data_as_of': day}
-source = {'sources': {url: {'official_first_party': True, 'last_error': None, 'auto_observation': observation}}}
+clinic=database['clinics'][0]
+clinic['auto_publication_scope']={'version':1,'clinic_id':clinic['id'],'source_url':url,'scope':'single_office',
+    'reviewed_on':day,'method':'independent_public_source_review','evidence':'Synthetic reviewed single-office source.',
+    'identity_hash':scope_identity(clinic),'context_template_hash':decisive_statement(quote)['template_hash']}
+observation = observe({}, decisive_statement(quote), (today-dt.timedelta(days=1)).isoformat()+'T13:00:00+00:00',scope_hash=scope_fingerprint(clinic))
+observation = observe(observation, decisive_statement(quote), day+'T13:00:00+00:00',scope_hash=scope_fingerprint(clinic))
+source = {'sources': {url: {'official_first_party': True, 'last_error': None, 'auto_observation': observation,
+    'last_success':observation['last_seen'],'final_url':url}}}
 
 with tempfile.TemporaryDirectory() as folder:
     root = pathlib.Path(folder)
