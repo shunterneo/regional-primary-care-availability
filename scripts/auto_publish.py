@@ -4,7 +4,7 @@
 No AI or news output is used. No client data is consumed or published.
 """
 from __future__ import annotations
-import json, datetime as dt
+import json, datetime as dt, os
 from common import ROOT
 from auto_evidence import first_party,confirmed,explicit_longitudinal
 
@@ -74,6 +74,12 @@ def apply(database, source_state, history, day):
     return changes,refreshes
 
 def run():
+    # Fail closed until context-preserving evidence rules have passed review.
+    # Fetching, candidate observations, review queues and manual approvals are
+    # independent of this switch. Never rewrite records merely to pause writes.
+    if os.environ.get('AUTO_PUBLICATION_ENABLED') != 'true':
+        print('Auto-publication PAUSED: automatic intake/closure writes are disabled; source scanning and review queues continue.')
+        return 0
     database=json.loads(DB.read_text());state=json.loads(SRC.read_text());history=json.loads(HISTORY.read_text())
     today=dt.date.today().isoformat()
     changes,refreshes=apply(database,state,history,today)

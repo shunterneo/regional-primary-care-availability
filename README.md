@@ -1,5 +1,9 @@
 # Regional Primary Care Availability Hub — Phase 2
 
+## Automatic status publication paused (November 16, 2026)
+
+Automatic intake-status and permanent-closure writes are temporarily paused while evidence-context safeguards are strengthened. Public-source checking, discovery, candidate observations, review alerts, existing records, and explicitly reviewed manual updates continue. No clinic status was changed by this safety pause. `auto_publish.py` now defaults to no writes, and the daily workflow explicitly sets `AUTO_PUBLICATION_ENABLED: 'false'`. Do not re-enable it until the context-preserving rules have passed independent review and fresh, versioned observations have been collected. The automatic-publication descriptions below document the paused capability, not an active guarantee.
+
 **An independent, public-information-only map and staff directory for family physician and nurse practitioner practices within 75 km (straight-line) of 96 Tillson Avenue, Tillsonburg, Ontario.** No employer account, work device, private client address, or identifiable patient information is required.
 
 
