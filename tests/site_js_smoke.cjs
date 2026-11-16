@@ -99,3 +99,14 @@ ids.status.open=true;ids.status.handlers.keydown({key:'Escape'});assert.equal(id
 ids.reset.handlers.click();assert.deepEqual(Array.from(f.chosen.care),['ongoing']);assert.equal(f.chosen.status.length,0);assert.equal(f.chosen.town.length,0);
 assert.equal(f.exportRows().length,countOngoing());
 console.log('PASS: multiple statuses/communities/care types, OR/AND combinations, filtered export, Show all, reset, Escape');
+
+// Sourced HCC guidance is shared by the site and both document exporters.
+assert(DATA.health_care_connect.text.includes('call 811'));
+assert(DATA.health_care_connect.text.includes('keep your current provider'));
+assert(DATA.health_care_connect.text.includes('register again by phone'));
+assert(DATA.health_care_connect.text.includes('not guaranteed or immediate'));
+assert(html.includes('Help finding a regular provider'));
+assert(!html.includes('<!--HCC_GUIDANCE-->'));
+assert(Buffer.from(f.docxBytes([ox])).toString().includes(DATA.health_care_connect.text));
+assert(Buffer.from(f.pdfBytes([ox])).toString().includes('Health Care Connect'));
+console.log('PASS: HCC guidance and provenance retained in website and PDF/Word exports');

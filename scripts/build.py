@@ -23,6 +23,10 @@ from reportlab.lib.units import inch
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
 
+# Ontario guidance checked 2026-11-16; clinic-specific eligibility remains separate.
+HCC_URL='https://www.ontario.ca/page/health-care-connect-find-family-doctor-or-nurse-practitioner'
+HCC_TEXT='Health Care Connect: register online or call 811 (TTY 711), available 24/7. If you have used the service before, register again by phone. When moving or seeking a new provider, you can keep your current provider while waiting. A match is not guaranteed or immediate. Individual clinics may have separate eligibility rules.'
+
 today=datetime.datetime.now(datetime.timezone.utc).date()
 quality_summary=write_files()
 site=ROOT/'site'; docs=site/'documents'; docs.mkdir(parents=True,exist_ok=True)
@@ -78,6 +82,8 @@ def make_docx():
     p.style='Subtitle'
     doc.add_paragraph('Generated '+today.strftime('%B %-d, %Y')+'  |  Baseline source audit as of: '+D['data_as_of']+'  |  '+str(len(clinics))+' clinic/service listings across '+str(report['communities'])+' communities')
     doc.add_paragraph('IMPORTANT: Intake status is based on public information, not live telephone confirmation. An application does not guarantee attachment. Green requires a recent clinic-specific public intake notice (never just a directory or program-wide lead); it does not guarantee a roster space. Records become “Needs reconfirmation” when their review date expires.').italic=True
+    doc.add_paragraph(HCC_TEXT)
+    doc.add_paragraph('Ontario guidance checked November 16, 2026: '+HCC_URL)
     doc.add_paragraph(f'Quality audit: {quality_summary["records_examined"]} clinic/service records were checked for structural and source-integrity issues; {quality_summary["records_with_review_flags"]} have follow-up flags (including missing clinical intake evidence or office contact information). This does NOT mean all clinics were independently verified. See the downloadable audit CSV for the record-level review.').italic=True
     doc.add_paragraph('Care classification is separate from intake status. A walk-in appointment does not mean a physician or NP is accepting new patients for ongoing care. Combined clinics appear in ongoing-care listings with an explicit walk-in label. The website offers community and clinic-location views. Sourced building/planning points are distinguished from approximate community locations; neither identifies entrances or suites.')
     p=doc.add_paragraph('Directory key: ')
@@ -143,6 +149,8 @@ def make_pdf():
     sections=[('ONGOING FAMILY DOCTOR / NURSE PRACTITIONER CARE',lambda c:ongoing_eligible(c),True),
               ('WALK-IN ONLY — NO ATTACHMENT IMPLIED',lambda c:c['care_model']=='walk_in_only',False),
               ('SERVICE TYPE UNVERIFIED',lambda c:c['care_model']=='unverified',False)]
+    story.append(Paragraph(html.escape(HCC_TEXT),body))
+    story.append(Paragraph('Ontario guidance checked November 16, 2026: <link href="'+HCC_URL+'" color="#185B78">Health Care Connect</link>',small))
     story.append(Paragraph('A walk-in appointment is not registration with a family doctor. Mixed-service clinics are explicitly labeled; intake statuses relate to ongoing care only.',body))
     story.append(Paragraph(f'Quality review: {quality_summary["records_examined"]} records structurally audited; {quality_summary["records_with_review_flags"]} have follow-up flags, often because intake or address has not been individually reconfirmed. Not a census or live telephone-confirmed availability.',body))
     for title_text,select,group_status in sections:
@@ -177,6 +185,7 @@ def make_pdf():
     pd.build(story,onFirstPage=footer,onLaterPages=footer);return out
 
 site_json={
+ 'health_care_connect':{'text':HCC_TEXT,'url':HCC_URL,'reviewed_on':'2026-11-16'},
  'review_findings_counts':review_findings['counts'],
  'review_findings_input_errors':review_findings['input_errors'],
  'source_scan_summary':source_state.get('last_summary',{}),
@@ -186,6 +195,7 @@ site_json={
 # Avoid literal closing script tags in inlined source text.
 jsdata=json.dumps(site_json,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
 template=(ROOT/'scripts'/'site_template.html').read_text(encoding='utf8')
+template=template.replace('<!--HCC_GUIDANCE-->',html.escape(HCC_TEXT)).replace('HCC_SOURCE_URL',HCC_URL)
 template=template.replace('// PDF_FONT_JS','const PDF_FONT='+ (ROOT/'scripts/fonts/pdf-font.json').read_text().strip()+';')
 template=template.replace('// FRESHNESS_JS',(ROOT/'scripts/freshness.js').read_text())
 template=template.replace('// FEATURES_JS',(ROOT/'scripts/site_features.js').read_text())
