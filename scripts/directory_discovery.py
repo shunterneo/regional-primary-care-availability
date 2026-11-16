@@ -9,6 +9,9 @@ import datetime as dt
 import hashlib
 import json
 import re
+import time
+import math
+from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlparse
 from pathlib import Path
 
@@ -152,8 +155,28 @@ def parse_candidates(html, source):
 def fetch_html(source):
     url=source['url']
     if not url.startswith('https://'):raise ValueError('HTTPS required')
-    r=requests.get(url,headers={'User-Agent':AGENT,'Accept':'text/html'},timeout=(7,18),allow_redirects=True)
-    r.raise_for_status()
+    for attempt in range(2):
+        try:
+            r=requests.get(url,headers={'User-Agent':AGENT,'Accept':'text/html'},timeout=(7,18),allow_redirects=True)
+            r.raise_for_status()
+            break
+        except requests.RequestException as exc:
+            # Exactly one normal retry for transient failure. Never retry access
+            # denial/TLS problems or solve challenges; never disable TLS checks.
+            if attempt or fetch_error_category(exc) not in ('transient_network','transient_http'):raise
+            header=getattr(getattr(exc,'response',None),'headers',{}).get('Retry-After','')
+            delay=1.0
+            if header:
+                try:
+                    try:seconds=float(header)
+                    except ValueError:
+                        until=parsedate_to_datetime(header)
+                        if until.tzinfo is None:raise ValueError('Retry-After lacks timezone')
+                        seconds=max(0,(until-dt.datetime.now(dt.timezone.utc)).total_seconds())
+                    if not math.isfinite(seconds) or not 0<=seconds<=10:raise ValueError('Retry-After outside bounded retry budget')
+                    delay=max(delay,seconds)
+                except (ValueError,TypeError,OverflowError):raise exc
+            time.sleep(delay)
     if urlparse(r.url).scheme!='https' or urlparse(r.url).hostname!=urlparse(url).hostname:raise ValueError('Redirect changed directory HTTPS origin')
     if 'html' not in r.headers.get('Content-Type','text/html').lower():raise ValueError('Not HTML')
     if len(r.content)>MAX_HTML_BYTES:raise ValueError('Oversized directory page')
@@ -237,10 +260,10 @@ def extract_snapshot(html,source):
     title=soup.title.get_text(' ',strip=True) if soup.title else ''
     noscript=' '.join(x.get_text(' ',strip=True) for x in soup.find_all('noscript'))
     has_script=bool(soup.find('script'))
-    for node in soup(['script','style','noscript','template','svg','head','nav','footer','form']):node.decompose()
+    for node in soup(['script','style','noscript','template','svg','head','title','nav','footer','form']):node.decompose()
     plain=canonical(soup.get_text(' ',strip=True))
     challenge=r'just a moment[.!…]*|access denied|attention required!?|verify (?:you are|that you are) human|checking your browser'
-    if re.fullmatch(challenge,title.strip(),re.I) or re.match(challenge,plain,re.I):
+    if re.fullmatch(challenge,title.strip(),re.I) or re.match(challenge,plain,re.I) or (has_script and len(plain)<12 and title.strip().lower()=='verification'):
         raise ExtractionError('blocked_page','Access challenge or denial; no bypass attempted')
     if re.search(r'\b(?:sign|log) in to (?:continue|view|access)\b',title+' '+plain,re.I):
         raise ExtractionError('login_required','Authentication required; no login attempted')

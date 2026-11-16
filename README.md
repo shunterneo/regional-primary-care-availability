@@ -217,3 +217,33 @@ These safeguards do not solve blocked sources or guarantee complete monitoring.
 JavaScript-only clinic pages still need a separately reviewed rendered adapter;
 TLS and access failures are not bypassed. A successful build or HTTP 200 response
 alone is not evidence of a successful intake check.
+
+### Stage-complete health and no-publication recovery
+
+`monitor_health.current()` reports clinic evidence, configured discovery pages,
+the latest rotating RSS query batch, all configured directories, Ontario registry
+health, and separate human-only professional-register audit metadata. Optional AI
+triage is not a required health stage. Counts may overlap across evidence and
+discovery URLs; do not sum them as unique sources or clinics. Latest-batch RSS
+success does not prove every configured query was recently checked.
+
+Missing, malformed, future-dated, inconsistent or source-configuration-mismatched
+observations cannot earn a blanket healthy result. Date-only clocks expose an age
+interval; an interval crossing the 36-hour threshold is uncertain, not green.
+The legacy `assess()` evidence-only interface remains available, but whole-system
+health uses `assess_all()`. Detailed attention lists are bounded for GitHub issue
+size, with explicit omission counts; aggregate counts and problems are retained.
+
+Directory fetches permit one bounded normal retry for transient network/server
+failure. Access denials and TLS failures are not retried or bypassed. Long or
+invalid Retry-After instructions defer the check instead of overriding the server.
+A known empty verification shell is recorded as an access challenge, not evidence.
+
+The source-recovery workflow checks both sources and directories and persists only
+source/directory observations and their review queues. It explicitly keeps the
+status writer off, never invokes a clinic/profile publisher or external outreach,
+and asserts clinic facts/history/registry approvals remain unchanged. It saves
+state and diagnostic artifacts before failing visibly when coverage is incomplete.
+A red recovery result can therefore mean remaining website failures, not a lost
+scan. This recovery workflow does not deploy the site; the next site build exposes
+its saved observations. A green deployment alone does not prove healthy monitoring.

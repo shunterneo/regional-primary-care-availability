@@ -83,6 +83,9 @@ jobs:
           python tests/monitor_fixture_test.py
           python tests/source_recovery_test.py
           python tests/source_observation_test.py
+          python tests/directory_retry_test.py
+          python tests/stage_monitor_health_test.py
+          python tests/monitoring_workflow_test.py
           python tests/schedule_watchdog_test.py
           python tests/discovery_fixture_test.py
           python tests/directory_discovery_fixture_test.py

@@ -57,10 +57,11 @@ def page_problem(text):
     title=' '.join(bs.title.stripped_strings) if bs.title else ''
     noscript=' '.join(n.get_text(' ',strip=True) for n in bs.find_all('noscript'))
     has_script=bool(bs.find('script',src=True))
-    for node in bs(['script','style','noscript','template','svg','head']):node.decompose()
+    has_any_script=bool(bs.find('script'))
+    for node in bs(['script','style','noscript','template','svg','head','title']):node.decompose()
     plain=' '.join(bs.stripped_strings).strip()
     challenge=r'(?:just a moment[.!…]*|access denied|attention required!?|verify (?:you are|that you are) human|checking your browser)'
-    if re.fullmatch(challenge,title.strip(),re.I) or (len(plain)<500 and re.match(challenge,plain,re.I)):
+    if re.fullmatch(challenge,title.strip(),re.I) or (len(plain)<500 and re.match(challenge,plain,re.I)) or (len(plain)<12 and title.strip().lower()=='verification' and has_any_script):
         return ('blocked_page','Access challenge or denial; manual review required, no bypass attempted')
     if len(plain)<500 and re.match(r'sign in to continue',plain,re.I):
         return ('login_required','Sign-in required; no authentication attempted')

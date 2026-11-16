@@ -24,16 +24,26 @@ jobs:
       - name: Validate source recovery safeguards
         run: |
           python tests/source_recovery_test.py
+          python tests/source_observation_test.py
+          python tests/directory_retry_test.py
+          python tests/directory_health_semantics_test.py
+          python tests/stage_monitor_health_test.py
+          python tests/monitoring_workflow_test.py
+          python tests/auto_publication_pause_test.py
           python tests/schedule_watchdog_test.py
       - name: Check public sources without automatic intake publication
-        run: python scripts/check_sources.py
+        env:
+          AUTO_PUBLICATION_ENABLED: 'false'
+        run: |
+          python scripts/check_sources.py
+          python scripts/directory_discovery.py
       - name: Verify scan did not change clinic records
-        run: git diff --exit-code -- data/clinics.json data/review_history.json
+        run: git diff --exit-code -- data/clinics.json data/review_history.json data/extra_communities.json data/official_registry_state.json
       - name: Save scan state and review proposals only
         run: |
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git config user.name 'github-actions[bot]'
-          git add data/source_state.json data/review_queue.json
+          git add data/source_state.json data/review_queue.json data/directory_state.json data/directory_queue.json
           if ! git diff --cached --quiet; then
             git commit -m 'Record source recovery checks without changing clinic intake'
             git push
@@ -55,4 +65,9 @@ jobs:
           path: |
             data/source_state.json
             data/review_queue.json
+            data/directory_state.json
+            data/directory_queue.json
             /tmp/source-health.json
+      - name: Mark incomplete recovery visibly after preserving state and evidence
+        if: always()
+        run: python scripts/monitor_health.py
