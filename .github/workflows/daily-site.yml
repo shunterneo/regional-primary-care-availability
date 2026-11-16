@@ -82,9 +82,11 @@ jobs:
           node tests/freshness_test.cjs
           python tests/monitor_fixture_test.py
           python tests/source_recovery_test.py
+          python tests/source_observation_test.py
           python tests/schedule_watchdog_test.py
           python tests/discovery_fixture_test.py
           python tests/directory_discovery_fixture_test.py
+          python tests/directory_health_semantics_test.py
           python tests/auto_publication_test.py
           python tests/auto_publication_pause_test.py
           python tests/intake_context_adversarial_test.py

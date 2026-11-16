@@ -11,8 +11,9 @@ import requests, io
 from pypdf import PdfReader
 from bs4 import BeautifulSoup
 from common import ROOT,load_data,is_url
-from intake_evidence import classify
+from intake_evidence import classify, REVIEW_CLASSIFIER_VERSION
 from auto_evidence import decisive_statement, observe, first_party, publication_candidate, scope_fingerprint
+from source_observation import REVIEW_VERSION, document_context, normalize_text
 DATA=ROOT/'data';state_path=DATA/'source_state.json';queue_path=DATA/'review_queue.json'
 state=json.loads(state_path.read_text());queue=json.loads(queue_path.read_text());clinics=load_data()['clinics']
 extra=json.loads((DATA/'discovery_sources.json').read_text())
@@ -25,7 +26,7 @@ for source in extra:
     if is_url(url):urlmap.setdefault(url,{'clinics':[],'kind':'clinic discovery'})
 
 USER_AGENT='RegionalPrimaryCareAvailabilityMonitor/1.0 (public-source change check; no patient data)'
-TERMS=re.compile(r'accept(?:ing|ance)?|new patients?|not accepting|register|registration|intake|enrol|attach|capacity|wait ?list|physician|practitioner|family doctor',re.I)
+TERMS=re.compile(r'accept(?:ing|ance)?|new patients?|not accepting|register|registration|intake|enrol|attach|capacity|wait ?list|physician|practitioner|family doctor|clos(?:ed|ure|ing)|retir|relocat',re.I)
 
 def extract(text):
     bs=BeautifulSoup(text,'html.parser')
@@ -35,10 +36,7 @@ def extract(text):
     return extract_plain(raw)
 
 def extract_plain(raw):
-    raw=re.sub(r'\s+',' ',raw)
-    # CPSO prints the retrieval clock on every response; it is not a practice change.
-    # Do not remove announcement dates, licence dates, addresses or phone numbers.
-    raw=re.sub(r'(AS OF THE DATE AND TIME NOTED BELOW)\s+\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}:\d{2}\s*[AP]M',r'\1 [retrieval time]',raw,flags=re.I)
+    raw=normalize_text(raw)
     # Sentence boundaries are imperfect but deterministic; enough for an evidence-change alert.
     parts=re.split(r'(?<=[.!?])\s+|(?<=\n)\s*',raw)
     relevant=[p.strip()[:400] for p in parts if TERMS.search(p) and len(p.strip())>12]
@@ -115,22 +113,27 @@ def fetch_one(pair):
             reader=PdfReader(io.BytesIO(res.content))
             if reader.is_encrypted:raise ValueError('Encrypted PDF')
             if len(reader.pages)>100:raise ValueError('PDF too long')
-            body=extract_plain(' '.join(page.extract_text() or '' for page in reader.pages))
+            context=document_context(' '.join(page.extract_text() or '' for page in reader.pages),getattr(res,'url',url),'pdf')
+            body=extract_plain(context['text'])
         elif 'html' in content_type:
             problem=page_problem(res.text)
             if problem:raise SourceContentError(*problem)
-            body=extract(res.text)
+            context=document_context(res.text,getattr(res,'url',url),'html')
+            body=extract_plain(context['text'])
         else:raise ValueError('Response is not HTML or PDF')
         if not body.strip():raise ValueError('No matching text')
-        return url,{'hash':hashlib.sha256(body.encode()).hexdigest(),'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':None if is_pdf else publication_candidate(res.text), 'format':'pdf' if is_pdf else 'html'}
+        return url,{'hash':context['hash'],'extraction_version':REVIEW_VERSION,
+          'review_observation':{**{k:v for k,v in context.items() if k!='text'},
+            'response_sha256':hashlib.sha256(res.content).hexdigest(),
+            'response_bytes':len(res.content),'rendered':False},
+          'error':None,'excerpt':body[:1400],'assessment':classify(body),'final_url':getattr(res,'url',url), 'explicit_candidate':None if is_pdf else publication_candidate(res.text), 'format':'pdf' if is_pdf else 'html'}
     except Exception as exc:
         return url,{'hash':None,'error':str(exc)[:800], 'error_category':error_category(exc), 'http_status':getattr(getattr(exc,'response',None),'status_code',None)}
 
 def run():
     now=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
-    pending_ids={(i['url'],i.get('new_hash')) for i in queue['items']}
     items=list(urlmap.items())
-    changed=0;failed=0;baseline=0;ok=0
+    changed=0;failed=0;baseline=0;ok=0;version_baselines=0
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         for url,result in pool.map(fetch_one,items):
             prev=state['sources'].get(url,{})
@@ -140,30 +143,46 @@ def run():
                 continue
             ok+=1
             newhash=result['hash'];oldhash=prev.get('hash')
+            same_version=prev.get('extraction_version')==REVIEW_VERSION
             owners=urlmap[url]['clinics']
             verified=bool(len(owners)==1 and first_party(next(c for c in clinics if c['id']==owners[0]),url,owners,result['final_url']))
             prior_obs=prev.get('auto_observation',{}) if verified else {}
             # A failed, ambiguous or redirected page breaks the consecutive evidence chain.
             scope_hash=scope_fingerprint(next(c for c in clinics if c['id']==owners[0])) if verified else None
             observation=observe(prior_obs,result['explicit_candidate'] if verified else None,now,scope_hash=scope_hash)
-            state['sources'][url]={**prev,'hash':newhash,'excerpt':result['excerpt'][:1400],
-              'possible_claim':result['assessment']['classification'],'last_attempt':now,'last_success':now,
+            migrated={}
+            if oldhash and not same_version:
+                migrated['previous_extraction']={'version':prev.get('extraction_version','legacy-excerpt-v1'),
+                  'hash':oldhash,'last_success':prev.get('last_success')}
+            state['sources'][url]={**prev,**migrated,'hash':newhash,'extraction_version':REVIEW_VERSION,
+              'review_observation':{**result['review_observation'],'observed_at':now},'excerpt':result['excerpt'][:1400],
+              'possible_claim':result['assessment']['classification'],'assessment_version':REVIEW_CLASSIFIER_VERSION,'last_attempt':now,'last_success':now,
               'last_error':None,'error_category':None,'http_status':None,'format':result['format'],'final_url':result['final_url'],'official_first_party':verified,'auto_observation':observation}
             if not oldhash:
                 baseline+=1;continue
-            if oldhash!=newhash and (url,newhash) not in pending_ids:
+            # An extraction upgrade is a new baseline, not a real source change.
+            # Preserve the preceding version/hash rather than comparing unlike
+            # observations or inventing an intake-change alert.
+            if not same_version:
+                version_baselines+=1;continue
+            if oldhash!=newhash:
                 changed+=1
                 queue['items'].append({
-                  'id':hashlib.sha256((url+newhash).encode()).hexdigest()[:12],
+                  # Returning to an earlier content hash is a new transition,
+                  # even if a review item for that content was already resolved.
+                  # Unchanged repeated scans are deduplicated by the state hash.
+                  'id':hashlib.sha256(json.dumps([url,oldhash,newhash,now,len(queue['items'])]).encode()).hexdigest()[:18],
                   'detected_at':now,'url':url,'clinic_ids':urlmap[url]['clinics'],
                   'source_kind':urlmap[url]['kind'],'old_hash':oldhash,'new_hash':newhash,
+                  'extraction_version':REVIEW_VERSION,
+                  'assessment_version':REVIEW_CLASSIFIER_VERSION,
                   'review_status':'pending',
                   'prior_excerpt':prev.get('excerpt','')[:900],
                   'current_excerpt':result['excerpt'][:1400],
                   'possible_claim':result['assessment']['classification'],
                   'matched_excerpts':result['assessment']['excerpts'],
-                  'note':'A public source changed. Verify clinic-specific intake; do not infer opening or closure automatically.'})
-    state['last_run']=now;state['last_summary']={'urls':len(items),'success':ok,'failed':failed,'new_baselines':baseline,'source_changes_queued':changed}
+                  'note':'Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.'})
+    state['last_run']=now;state['last_summary']={'urls':len(items),'success':ok,'failed':failed,'new_baselines':baseline,'extraction_version_baselines':version_baselines,'extraction_version':REVIEW_VERSION,'source_changes_queued':changed}
     state_path.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     queue_path.write_text(json.dumps(queue,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print('Source monitor:',state['last_summary'])

@@ -5,6 +5,12 @@ These labels are *proposals*, not proof of enrollment and never change a clinic 
 from __future__ import annotations
 import re
 
+REVIEW_CLASSIFIER_VERSION = 'intake-hints-v2'
+NONE_AT_CLINIC = re.compile(
+    r'\bnone\s+of\s+(?:the\s+)?(?:physicians?|doctors?|providers?)\s+'
+    r'(?:in|at)\s+(?:our|this|the)\s+(?:clinic|practice|office)\s+'
+    r'(?:are|is)\s+(?:currently\s+)?accepting\s+new\s+patients?\b', re.I)
+
 CLOSED = re.compile(r"\b(?:not|no longer|currently not|aren['’]t|isn['’]t|unable to|cannot)\s+(?:currently\s+)?(?:accepting|taking|registering|enrolling|rostering)\s+(?:any\s+)?new\s+(?:patients?|clients?|applications?)\b|\bclosed\s+to\s+new\s+(?:patients?|applications?)\b", re.I)
 OPEN = re.compile(r"\b(?:currently\s+)?(?:now\s+)?(?:accepting|taking|registering|enrolling|rostering|welcoming)\s+(?:new\s+)?(?:patient|client|applicant)(?:s|\s+applications?)?\b|\bnew[ -]patient\s+(?:registration|applications?)\s+(?:is\s+)?(?:open|available)\b", re.I)
 WAITLIST = re.compile(r"\bwait\s?list|waiting\s+list|attachment\s+queue", re.I)
@@ -18,7 +24,7 @@ def classify(excerpt: str) -> dict:
     for line in lines:
         line = line[:450]
         # Check negative expressions first to avoid falsely parsing "not accepting" as open.
-        if CLOSED.search(line): found['possible_closed'].append(line)
+        if CLOSED.search(line) or NONE_AT_CLINIC.search(line): found['possible_closed'].append(line)
         elif OPEN.search(line): found['possible_accepting'].append(line)
         if WAITLIST.search(line): found['possible_waitlist'].append(line)
         if LIMITED.search(line): found['possible_limited'].append(line)

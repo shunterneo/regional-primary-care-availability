@@ -184,3 +184,36 @@ The `data/clinics.json` records now include `intake_verification` with `tier`, `
 The historical public-source audit (November 11, 2026) was used to classify 47 intake/waitlist leads. **No clinic was telephoned.** In a conservative cleanup, 3 general-program/municipal announcements are now leads rather than green; 2 Health Care Connect matching pathways were moved to limited intake. The current green count is **14 clinic-specific advertised application pathways**, not 14 verified new patient spots; other first-party notices conflict or identify only program-wide registration. Nine previously listed third-party leads remain amber; more current external announcements can affect these counts. The evidence audit will not be silently re-stamped when the website is rebuilt.
 
 Manual intake approvals now require an exact clinic-published statement for ongoing care, an explicit location or named-clinician scope, and a clinic-owned HTTPS source. The approval form rejects a bare 'accepting' label when those controls aren't met. Staff/client addresses must never be entered. Provider capacity must still be confirmed directly before a referral is made.
+
+### Versioned review-only source monitoring
+
+The automatic intake writer remains paused. `review-context-v2` observations hash
+complete meaningful raw HTML/PDF text before shortening review previews, together
+with relevant link targets, HTML base resolution, media targets and visibility
+attributes. This catches text beyond the old excerpt limits and changes to which
+message may be shown. It does **not** render JavaScript, read text inside images,
+fetch external assets, establish computed visibility, or verify actual capacity.
+Raw-response hashes, byte counts and extraction versions support diagnosis;
+public-form values and script contents are excluded from review text. Review
+labels are tentative and cannot change clinic facts or intake-review dates.
+
+The first successful scan after an extraction-version upgrade creates a new
+baseline without inventing a content-change alert. The previous source hash and
+version are retained. Later recurring content transitions can create new review
+items even when an earlier item for the same text was resolved. Unchanged scans
+do not generate repeat items. A source failure preserves its last good review
+snapshot but breaks the independent automatic-publication observation chain.
+
+Directory observations use `directory-v3` full-content fingerprints rather than
+440-character previews. A readable news index with zero relevant articles is a
+successful zero-result check, and rolling news expiry is not a clinic removal.
+Challenges, login pages, empty/JavaScript shells, unsupported layouts and partial
+extractions preserve prior entries and report a typed failure. Parser or source
+configuration changes establish a new baseline rather than false removals.
+Directory entries and content changes remain research leads, never confirmation
+that a practice exists within the boundary or accepts ongoing patients.
+
+These safeguards do not solve blocked sources or guarantee complete monitoring.
+JavaScript-only clinic pages still need a separately reviewed rendered adapter;
+TLS and access failures are not bypassed. A successful build or HTTP 200 response
+alone is not evidence of a successful intake check.
