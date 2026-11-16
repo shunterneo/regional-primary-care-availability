@@ -8,7 +8,7 @@
     "coordinate_source": "https://www.openstreetmap.org/way/564144865",
     "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit"
   },
-  "data_as_of": "2026-11-15",
+  "data_as_of": "2026-11-16",
   "clinics": [
     {
       "id": "c001",
@@ -10437,6 +10437,49 @@
       "address_verification_source": "https://wilkinswalkinclinic.com/contact-us/",
       "address_verified_on": "2026-11-16",
       "intake_conflict": true
+    },
+    {
+      "id": "c221",
+      "name": "Aafiyat Medical Centre — Kitchener (Dr. Ejaz Ahmed)",
+      "community": "Kitchener",
+      "address": "815 Weber Street East, Unit 5, Kitchener, ON N2H 1H5",
+      "clinic_type": "Family physician and walk-in clinic",
+      "care_model": "both",
+      "care_model_basis": "Clinic's named physician page explicitly identifies Dr. Ejaz Ahmed as a family physician who accepts new FAMILY PRACTICE patients, and separately advertises walk-in appointments by WhatsApp. Walk-in care is not evidence of attachment.",
+      "care_model_source": "https://aafiyat.ca/dr-ejaz-ahmed/",
+      "status": "accepting",
+      "intake_detail": "Named family physician Dr. Ejaz Ahmed currently advertises enrolment of NEW FAMILY PRACTICE patients, separate from walk-in visits. Call, text or WhatsApp 519-704-2444 to begin registration; staff arrange the first visit. Clinic advertises family care for children and adults; any residence/catchment, capacity and OHIP eligibility details beyond those stated must be confirmed. Calling or booking does not guarantee attachment.",
+      "application_url": "https://aafiyat.ca/book/",
+      "phone": "519-704-2444",
+      "providers": "Dr. Ejaz Ahmed (CPSO number 282218 stated by clinic; registration not independently confirmed)",
+      "evidence_url": "https://aafiyat.ca/dr-ejaz-ahmed/",
+      "clinic_url": "https://aafiyat.ca/kitchener/",
+      "source_published": "",
+      "last_reviewed": "2026-11-16",
+      "intake_reviewed_on": "2026-11-16",
+      "location_quality": "Address-matched public OpenStreetMap unit-level pharmacy point at same 815 Weber Street East, Unit 5; not a surveyed family-clinic entrance. Approx. 67.2 km straight line from 96 Tillson Avenue; safely within 75 km.",
+      "latitude": 43.43813,
+      "longitude": -80.45972,
+      "coordinate_source": "https://www.openstreetmap.org/node/10865896539",
+      "coordinate_quality": "Nearby pharmacy point at the same public commercial building and unit, not a clinic-specific surveyed entrance",
+      "coordinate_checked_on": "2026-11-16",
+      "notes": "Clinic reports opening October 8, 2026 at this address. Planned move to 150 Duke Street West in late November/early December 2026; new address is future-only and must NOT replace the current one until the clinic confirms relocation. No publication date was shown on the current intake page. Physician registration number is clinic-reported, not independently verified.",
+      "review_basis": "Public clinic-owned Kitchener and physician intake pages checked 2026-11-16. Original clinic page explicitly advertises named clinician's family-practice attachment, not merely walk-in visits. Public address corroborated by City of Kitchener site-plan records and same-unit OpenStreetMap business point. Current physical location lies ~67.15 km straight line from radius origin. No telephone or booking confirmation.",
+      "confidence": "High for first-party named family-practice application and stated address; independent CPSO confirmation unavailable; relocation is announced but not yet effective.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-16",
+        "method": "public_webpage_review",
+        "source_url": "https://aafiyat.ca/dr-ejaz-ahmed/",
+        "finding": "Dr. Ejaz Ahmed is explicitly accepting new family-practice patients at the Kitchener location, distinct from same-day walk-ins. New patients are directed to call, text or WhatsApp 519-704-2444; roster placement and individual eligibility are not guaranteed by the page.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "clinic_address_verified": true,
+      "address_verification_source": "https://aafiyat.ca/kitchener/",
+      "address_verified_on": "2026-11-16",
+      "intake_reviewed_by_phone": false
     }
   ]
 }
