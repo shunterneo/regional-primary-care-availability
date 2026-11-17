@@ -1560,7 +1560,7 @@
       "new_hash": "3d4c51b974b013c31173d61dba2324bedc1fd652c76bcedf86bdd8eb3954e7c8",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Adeniran is no longer accepting new patients • Dr.\nUkpongs previously enrolled patients • Dr.\nAdeniran is no longer accepting new patients • Dr.\nUkpongs previously enrolled patients • Medical Clinic Operations Notice Please note that Dr.\nAdeniran is no longer accepting new patients.\nCancelations can occur online (if you’ve booked through our booking link) or by email / phone call otherwise Hours of Operation Monday: Closed Tuesday: 11:00 am – 6:00 pm Wednesday: 11:00 am – 6:00 pm Thursday: 11:00 am – 6:00 pm Friday: 11:00 am – 6:00 pm Saturday: Closed Sunday: Closed Synchronized with Google in real time our location Conveniently located with everything else you need Restauran\nWe have successfully recruited over 200 talented physicians to serve patients at our various locations in Ontario.\nTechnology We use bleeding edge technology powered by machine intelligence to ensure low wait times ",
       "current_excerpt": "Adeniran is no longer accepting new patients • Dr.\nUkpongs previously enrolled patients • Dr.\nAdeniran is no longer accepting new patients • Dr.\nUkpongs previously enrolled patients • Medical Clinic Operations Notice Please note that Dr.\nAdeniran is no longer accepting new patients.\nCancelations can occur online (if you’ve booked through our booking link) or by email / phone call otherwise Hours of Operation Monday: Closed Tuesday: 11:00 am – 6:00 pm Wednesday: 11:00 am – 6:00 pm Thursday: 11:00 am – 6:00 pm Friday: 11:00 am – 6:00 pm Saturday: Closed Sunday: Closed Synchronized with Google in real time our location Conveniently located with everything else you need Restauran\nWe have successfully recruited over 200 talented physicians to serve patients at our various locations in Ontario.\nTechnology We use bleeding edge technology powered by machine intelligence to ensure low wait times with real-time notification of when it is your turn so you do not have to wait Patient Care We employ only the best physicians and allied healthcare professionals in Ontario, who are carefully vetted and onboarded to provide you with the best quality episodic care Innovation We care about the patien\nComprised of experienced physicians, compassionate nurses, and friendly support staff, we’re committed to your health and well-being.\nAdeniran Oluwaseyi, MBBS (Nigeria), RCGP (UK) Family Physician Un",
       "possible_claim": "possible_closed",
@@ -1569,7 +1569,12 @@
         "Adeniran is no longer accepting new patients • Dr.",
         "Adeniran is no longer accepting new patients."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "reviewer_note": "Independent clinic operations notice confirms Dr Adeniran not accepting new patients while caring for existing/former Ukpong patients. Existing c032 not_accepting remains correct; generic booking link and office-hours closed text are not permanent closure.",
+      "review_sources": [
+        "https://hamiltonmedclinic.com/"
+      ]
     },
     {
       "id": "f549c0b8df6a9a9252",
@@ -1584,14 +1589,19 @@
       "new_hash": "6d87d829e8a0847341b05b778578d0d977cbc6ca33f45ef4c88c3ab0d909b954",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "London, ON, N5V 1R9 For: Primary Care , Health Promotion & Education , Mental Health , Primary Health Care Primary Care Intake is Now Open London InterCommunity Health Centre is currently accepting new referrals for Primary Care.\nCare may be provided by physicians, nurse practitioners, nurses, social workers, a community dietitian, physiotherapists, and other members of our interdisciplinary team.\nYou May Be Eligible If In the past 12 months, you have NOT: Had a family doctor practising in London Been asked to leave a family doctor’s practice Chosen to leave your family doctor’s practice Using a walk-in clinic does not count as having a family doctor.\nClients accepted into Primary Care receive ongoing care from a Primary Care team .\nThere are two ways to begin the intake process: Call us Call the Primary Care Intake Line at 519-660-0874 ext.\nComplete an Intake Form Complete the Primary C",
       "current_excerpt": "London, ON, N5V 1R9 For: Primary Care , Health Promotion & Education , Mental Health , Primary Health Care Primary Care Intake is Now Open London InterCommunity Health Centre is currently accepting new referrals for Primary Care.\nCare may be provided by physicians, nurse practitioners, nurses, social workers, a community dietitian, physiotherapists, and other members of our interdisciplinary team.\nYou May Be Eligible If In the past 12 months, you have NOT: Had a family doctor practising in London Been asked to leave a family doctor’s practice Chosen to leave your family doctor’s practice Using a walk-in clinic does not count as having a family doctor.\nClients accepted into Primary Care receive ongoing care from a Primary Care team .\nThere are two ways to begin the intake process: Call us Call the Primary Care Intake Line at 519-660-0874 ext.\nComplete an Intake Form Complete the Primary Care Intake Form online, or pick up a paper copy and return it to one of our locations: Dundas Site 659 Dundas St., London Huron Site 1355 Huron St., Unit 7, London PRIMARY CARE INTAKE FORM (PDF) ONline primary care intake form “I would be a much sicker man without the excellent care and follow-up that I have received over many years.\nThis clinic provides prenatal care for people who are pregnant, new to Canada, or unable to access a family doctor for prenatal care.",
       "possible_claim": "possible_limited",
       "matched_excerpts": [
         "You May Be Eligible If In the past 12 months, you have NOT: Had a family doctor practising in London Been asked to leave a family doctor’s practice Chosen to leave your family doctor’s practice Using a walk-in clinic does not count as having a family doctor."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "reviewer_note": "Independent LIHC page confirms conditional primary-care referrals, 12-month family-practice restrictions and access barriers, permit exclusions, intake line and Dundas/Huron form routes. Existing c039/c040 limited profiles already preserve these conditions; no status change.",
+      "review_sources": [
+        "https://lihc.on.ca/programs-services/primary-care/"
+      ]
     },
     {
       "id": "804590cdea28ba147e",
@@ -1605,14 +1615,19 @@
       "new_hash": "bf7c1aca5755490ccb676eafaabd8225273a89c185dcc7420a9bc377b5264b58",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Byron Family Medical Search this site Embedded Files Skip to main content Skip to navigation Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map More Home News Hours For Patients Virtual Visits About Us Contact Us Map Wednesday, November 11, 2026 - Remembrance Day The Byron\nIf you have an urgent issue that cannot wait until Tuesday, please call 519-685-8500 and ask the LHSC switchboard to connect you with the Byron Family Medical Centre on-call physician.\nWhen callin g it is very important to specify that you wish to speak with the on-call physician from the BYRON Family Medical Centre so that you are directed to the appropriate on-call team.\nPlease note that we are not a walk-in clinic and are not accepting new patients at this time.\nWe only see registered patien",
       "current_excerpt": "Byron Family Medical Search this site Embedded Files Skip to main content Skip to navigation Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map More Home News Hours For Patients Virtual Visits About Us Contact Us Map Wednesday, November 11, 2026 - Remembrance Day The Byron\nIf you have an urgent issue that cannot wait until Tuesday, please call 519-685-8500 and ask the LHSC switchboard to connect you with the Byron Family Medical Centre on-call physician.\nWhen callin g it is very important to specify that you wish to speak with the on-call physician from the BYRON Family Medical Centre so that you are directed to the appropriate on-call team.\nPlease note that we are not a walk-in clinic and are not accepting new patients at this time.\nWe only see registered patients of our centre.",
       "possible_claim": "possible_closed",
       "matched_excerpts": [
         "Please note that we are not a walk-in clinic and are not accepting new patients at this time."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "reviewer_note": "Independent Byron homepage says no new patients and registered patients only. Holiday closure is temporary and not practice closure; c062 not_accepting preserved.",
+      "review_sources": [
+        "https://www.bfmc.ca/home"
+      ]
     },
     {
       "id": "999a2cb528aee73e8b",
@@ -1671,14 +1686,19 @@
       "new_hash": "6cc0554e779f47e4896f7ac180b276f0e478d2bbb1262730ef5d26e4b6ab6fa4",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Forbes Park Medical - New Patients Search this site Embedded Files Skip to main content Skip to navigation Forbes Park Medical Home Office Hours Appointment Booking Physicians and Staff Cold and Flu New Patients Mental Health Resources Uninsured Services Forbes Park Medical New Patients We do not have any physicians accepting patients at this time.",
       "current_excerpt": "Forbes Park Medical - New Patients Search this site Embedded Files Skip to main content Skip to navigation Forbes Park Medical Home Office Hours Appointment Booking Physicians and Staff Cold and Flu New Patients Mental Health Resources Uninsured Services Forbes Park Medical New Patients We do not have any physicians accepting patients at this time.",
       "possible_claim": "possible_closed",
       "matched_excerpts": [
         "Forbes Park Medical - New Patients Search this site Embedded Files Skip to main content Skip to navigation Forbes Park Medical Home Office Hours Appointment Booking Physicians and Staff Cold and Flu New Patients Mental Health Resources Uninsured Services Forbes Park Medical New Patients We do not have any physicians accepting patients at this time."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "reviewer_note": "Independent clinic New Patients page explicitly says no physicians accepting. Existing c099 not_accepting remains correct; excerpts unchanged.",
+      "review_sources": [
+        "https://www.forbesparkmedical.com/new-patients"
+      ]
     },
     {
       "id": "aeb76d3253b5fdcb36",
@@ -1730,14 +1750,19 @@
       "new_hash": "f5ad8c67f36fbe4fe6dc260458b7749548d1eac6369043b6b22a9e13dd528dd6",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "We are currently adding patients to our wait list.\nOffice Hours: Monday - 8:30am-4:00pm Tuesday - 8:30am-4:00pm Wednesday - 8:30am-4:00pm Thursday - 8:30am-4:00pm Friday - 8:30am-12:30pm Saturday/Sunday - closed **Office hours subject to change After Hours Clinic: (for urgent medical concerns) Monday - 5:00pm-8:00pm Tuesday - 5:00pm-8:00pm Wednesday - 5:00pm-8:00pm Thursday - 5:00pm-8:00pm Friday- closed Saturday- 8:30am-5:30pm Sunday - closed Sta\nGriffin and the Nurse Practitioner is unable to see you.",
       "current_excerpt": "We are currently adding patients to our wait list.\nOffice Hours: Monday - 8:30am-4:00pm Tuesday - 8:30am-4:00pm Wednesday - 8:30am-4:00pm Thursday - 8:30am-4:00pm Friday - 8:30am-12:30pm Saturday/Sunday - closed **Office hours subject to change After Hours Clinic: (for urgent medical concerns) Monday - 5:00pm-8:00pm Tuesday - 5:00pm-8:00pm Wednesday - 5:00pm-8:00pm Thursday - 5:00pm-8:00pm Friday- closed Saturday- 8:30am-5:30pm Sunday - closed Sta\nGriffin and the Nurse Practitioner is unable to see you.",
       "possible_claim": "possible_waitlist",
       "matched_excerpts": [
         "We are currently adding patients to our wait list."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "reviewer_note": "Independent Dr Griffin webpage confirms adding people to waitlist, office contact 519-681-8860. Existing c159 waitlist remains correct; after-hours access limited to rostered patients.",
+      "review_sources": [
+        "https://www.drjonathongriffin.ca/"
+      ]
     },
     {
       "id": "49594ed47d5ca1ad46",
@@ -1770,12 +1795,17 @@
       "new_hash": "228976686190a81493c3d5bf07828c9a0efce36d6610a1956c6e62df3969e9f0",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "New Patients – Wharnox Medical Solutions Clinic 205 Oxford Street East London ON, N6A 5G6 Canada 226-289-7173 Wharncliffe Medical Solutions Clinic Click Here Mon -Fri: 9:00 AM - 5:00 PM Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today We welcome inquiries from new patients.\nPlease contact our office to learn about availability and registration requirements.\nQuick Link Home About Us Contact Services Pharmacy FAQ New Patients Privacy Policy Open – Closed Time Monday 9.00 - 17.00 Tuesday 9.00 - 17.00 Wednesday 9.00 - 17.00 Thursday 9.00 - 17.00 Frid",
       "current_excerpt": "New Patients – Wharnox Medical Solutions Clinic 205 Oxford Street East London ON, N6A 5G6 Canada 226-289-7173 Wharncliffe Medical Solutions Clinic Click Here Mon -Fri: 9:00 AM - 5:00 PM Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today We welcome inquiries from new patients.\nPlease contact our office to learn about availability and registration requirements.\nQuick Link Home About Us Contact Services Pharmacy FAQ New Patients Privacy Policy Open – Closed Time Monday 9.00 - 17.00 Tuesday 9.00 - 17.00 Wednesday 9.00 - 17.00 Thursday 9.00 - 17.00 Friday 9.00 - 17.00 Saturday close - close Sunday close - close © 2026 Wharnox Medical Clinic .\nDesigned & Developed by Assist My Day IMPORTANT NOTICE This website is for patient information and new patient applications only.",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "reviewer_note": "Independent Wharnox New Patients page invites inquiries about availability and registration requirements, not an explicit roster opening. Existing c199 unknown remains appropriate.",
+      "review_sources": [
+        "https://wharnox.medicalsolutionclinic.com/new-patients/"
+      ]
     },
     {
       "id": "680255584431bf249f",
@@ -1808,12 +1838,17 @@
       "new_hash": "e09fd3c9f0ffce8e2f66cf3678cbbc348e10185764fcc565574c43333c5e7952",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "OHIP, WSIB and Blue Cross accepted.\nBook an appointment → Explore services › Book Your Flu Shot – Vaccination → Accepted coverage OHIP WSIB Blue Cross Our services Comprehensive care, all in one place .\nClear billing Accepted: OHIP, WSIB, and Blue Cross IFHP.\n★★★★★ “Great people 👍🏿 great environment, efficient service” — Joseph Prince ★★★★★ “Timely,informative and friendly” — Laura Doric ★★★★★ “It was professional and very courteous no” — Sheer Yusuf ★★★★★ “The clinic service is excellent, Dr Mohsin is a great physician, a good listener, professional and very detailed in explaining the result of my lab test and proffering some remedies to the area that\nI am highly delighted to choose this KW healthy living and Family practice clinic for my family- Akeem” — OGUNLEYE AKEEM ★★★★★ “Dr Ahsan is very open and affable family Physician who attends of his patients with utmost attention and care.\n",
       "current_excerpt": "OHIP, WSIB and Blue Cross accepted.\nBook an appointment → Explore services › Book Your Flu Shot – Vaccination → Accepted coverage OHIP WSIB Blue Cross Our services Comprehensive care, all in one place .\nClear billing Accepted: OHIP, WSIB, and Blue Cross IFHP.\n👏 🙏” — Brinell Coelho ★★★★★ “Great people 👍🏿 great environment, efficient service” — Joseph Prince ★★★★★ “Timely,informative and friendly” — Laura Doric ★★★★★ “It was professional and very courteous no” — Sheer Yusuf ★★★★★ “The clinic service is excellent, Dr Mohsin is a great physician, a good listener, professional and very detailed in explaining the result of my lab test and proffering some rem\nPhysicians, nurses, and support staff working together — so you always have someone who knows you.\nMA Mohsin Ahsan Physician View profile → DW Dilini Wijayanayaka Physician View profile → Clinical Support AS Anna Senko Medical Office Administrator View profile → SS Shivali Singh Medical Office Administrator View profile → AS Aini Shamim Client View profile → AB Adetola Bakare Medical Office Administrator View profile → × Hours of operation Here when you need us .\nBook visit (519) 340-3043 Please Note: We are no longer Accepting Walk-In Patients.\nPatients who are looking for a new family doctor are welcome to call the clinic or visit us in person to register.\nMonday 10:00 AM – 4:00 PM Tuesday 10:00 AM – 4:00 PM Wednesday 10:00 AM ",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "reviewer_note": "Independent clinic webpage review confirms ongoing-family-doctor registration and no walk-ins. Existing c215 already represents this; review/ratings and expanded excerpt do not require status changes.",
+      "review_sources": [
+        "https://kwhlclinic.com/"
+      ]
     },
     {
       "id": "84e9ab475671f3d18b",
