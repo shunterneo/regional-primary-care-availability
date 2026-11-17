@@ -1134,14 +1134,20 @@
       "new_hash": "5885e44632e0e4b6ddb3c71918b803fd47dafc0b41800e872ce09bc3c1294784",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Close alert Skip to main content Skip to footer Brant Community Healthcare System Menu Patients and Visitors Expand sub pages Patients and Visitors Amenities Finding a Doctor Food and Nutrition Health Care Consent and Decision Making Health Care Coverage Indigenous Family Space Leaving the Hospital Maps and Directions Parking Patient and Family Education Patient Experience & Feedback Patient Surve\nIt provides health advice and information and A registered nurse will take your call 24 hours a day, seven days a week, to provide you with health advice and information.\nToll-free: 811 Toll-free TTY: 1-866-797-0007 There is also a chat option Health Care Connect Register with Health Care Connect to find care close to home.\nHealth Care Connect finds you a family doctor, nurse practitioner or primary care team that is accepting new patients in your community.",
       "current_excerpt": "Close alert Skip to main content Skip to footer Brant Community Healthcare System Menu Patients and Visitors Expand sub pages Patients and Visitors Amenities Finding a Doctor Food and Nutrition Health Care Consent and Decision Making Health Care Coverage Indigenous Family Space Leaving the Hospital Maps and Directions Parking Patient and Family Education Patient Experience & Feedback Patient Surve\nIt provides health advice and information and A registered nurse will take your call 24 hours a day, seven days a week, to provide you with health advice and information.\nToll-free: 811 Toll-free TTY: 1-866-797-0007 There is also a chat option Health Care Connect Register with Health Care Connect to find care close to home.\nHealth Care Connect finds you a family doctor, nurse practitioner or primary care team that is accepting new patients in your community.",
       "possible_claim": "possible_accepting",
       "matched_excerpts": [
         "Health Care Connect finds you a family doctor, nurse practitioner or primary care team that is accepting new patients in your community."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Public-source context reviewed; existing status preserved",
+      "reviewer_note": "BCHS still lists the Bonavista and Clara Obanor practices. Preserve c017/c018 as reported regional evidence, not first-party verified acceptance. General Health Care Connect wording is not a clinic-specific opening.",
+      "review_sources": [
+        "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/"
+      ]
     },
     {
       "id": "7f18e71b637fb8041c",
@@ -1157,7 +1163,7 @@
       "new_hash": "b9c39f3703da6bd4e7e6f51a44a9dfe1820f9c281d4950ad015962a4d9d89ee7",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.\nPlease note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients.\nDoctors, Nurse Practitioners and Clinic Address Website Telephone Grandview Medical Centre FHT, welcomes two new physicians Dr.\n343 to register Langs North Dumfries Community Health Centre (for residents of North Dumfries) 2938 Greenfield Road, Ayr Please call 519-653-1470 Ext.\n343 to register Dr.\nSunil Bhatia Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge Please email [email protected] to request a Patient Registration Form Townline Walk-in & Medical Clinic 940 Jamieson Pkwy Register to become a patient with Dr.\nUnit B2 Register to become a patient with Dr.\n",
       "current_excerpt": "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.\nPlease note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients.\nDoctors, Nurse Practitioners and Clinic Address Website Telephone Grandview Medical Centre FHT, welcomes two new physicians Dr.\n343 to register Langs North Dumfries Community Health Centre (for residents of North Dumfries) 2938 Greenfield Road, Ayr Please call 519-653-1470 Ext.\n343 to register Dr.\nSunil Bhatia Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge Please email [email protected] to request a Patient Registration Form Townline Walk-in & Medical Clinic 940 Jamieson Pkwy Register to become a patient with Dr.\nUnit B2 Register to become a patient with Dr.\nFares Hayek Coronation Family Physicians 182 Pinebush Road www.coronationfamilyphysicians.ca Dr.\nUnit B7A Please call to register (519) 740-1700 Dr.\nemeraldcaremax.ca/registration/ (519) 267-5030 Waterloo Region Nurse Practitioner Led Clinic 13 Water St.\nUnit 12 www.tworiversfht.ca To register please call 519-629-4615 Physician details To view details for licensed physicians practising in Ontario, such as language spoken, visit the physician register with the College of Physicians and Surgeons o",
       "possible_claim": "possible_accepting",
@@ -1165,7 +1171,13 @@
         "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.",
         "Please note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Public-source context reviewed; existing status preserved",
+      "reviewer_note": "Doctors4Cambridge still lists Mikhail, Ghali and Schuster and cautions that availability reporting may lag. Preserve c022/c025/c098 as reported. Do not override Forbes Park's own explicit non-acceptance using this regional directory.",
+      "review_sources": [
+        "https://www.doctors4cambridge.com/contact.htm"
+      ]
     },
     {
       "id": "2856b37949bf959b07",
@@ -1179,14 +1191,20 @@
       "new_hash": "319c1f9e019faee2858b7f70b567ab27e9a07b3b1f44e67e39e7f944dd56eb50",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Byron Family Medical Search this site Embedded Files Skip to main content Skip to navigation Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map More Home News Hours For Patients Virtual Visits About Us Contact Us Map Wednesday, November 11, 2026 - Remembrance Day The Byron\nIf you have an urgent issue that cannot wait until Tuesday, please call 519-685-8500 and ask the LHSC switchboard to connect you with the Byron Family Medical Centre on-call physician.\nWhen callin g it is very important to specify that you wish to speak with the on-call physician from the BYRON Family Medical Centre so that you are directed to the appropriate on-call team.\nPlease note that we are not a walk-in clinic and are not accepting new patients at this time.\nWe only see registered patien",
       "current_excerpt": "Byron Family Medical Search this site Embedded Files Skip to main content Skip to navigation Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map Byron Family Medical Home News Hours For Patients Virtual Visits About Us Contact Us Map More Home News Hours For Patients Virtual Visits About Us Contact Us Map Wednesday, November 11, 2026 - Remembrance Day The Byron\nIf you have an urgent issue that cannot wait until Tuesday, please call 519-685-8500 and ask the LHSC switchboard to connect you with the Byron Family Medical Centre on-call physician.\nWhen callin g it is very important to specify that you wish to speak with the on-call physician from the BYRON Family Medical Centre so that you are directed to the appropriate on-call team.\nPlease note that we are not a walk-in clinic and are not accepting new patients at this time.\nWe only see registered patients of our centre.",
       "possible_claim": "possible_closed",
       "matched_excerpts": [
         "Please note that we are not a walk-in clinic and are not accepting new patients at this time."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Public-source context reviewed; existing status preserved",
+      "reviewer_note": "Byron's own page explicitly says it is not accepting new patients and is not a walk-in clinic. Preserve c062 not_accepting; this is closed intake, not closure of the practice.",
+      "review_sources": [
+        "https://www.bfmc.ca/home"
+      ]
     },
     {
       "id": "ad1fdc9ebf904bedb0",
@@ -1200,12 +1218,18 @@
       "new_hash": "8555e966b3c268fdc5562503b02fef9df4d3a06da877c3c084ee7906efb8fb16",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Thomas, Ontario 2026-11-09T13:14:25+00:00 Skip to content For the health & safety of our patients and staff, face masks are required upon entry to our office Home News About Us Non-OHIP Services Policies Hours Contact Book An Appointment Home News About Us Non-OHIP Services Policies Hours Contact Book An Appointment Formerly Elmdale Family Health Organization Welcome to Talbot Family Health Book a\nYou are assigned to one of our 7 physicians (Dr.\n● If you no longer wish to be a patient, or if you move far away, we would appreciate it if you would please notify the office so that we may open a spot for another patient who does not have a family doctor.\nNew patients cannot book appointments online.\nWe accept debit, credit card, cash (if exact amount) PATIENT SERV LETTER: Dear Patient, We hope this letter finds you in good health.\n• Every phone call, prescription request, form, letter, note,",
       "current_excerpt": "Thomas, Ontario 2026-11-16T19:21:28+00:00 Skip to content For the health & safety of our patients and staff, face masks are required upon entry to our office Home News About Us Non-OHIP Services Policies Hours Contact Book An Appointment Home News About Us Non-OHIP Services Policies Hours Contact Book An Appointment Formerly Elmdale Family Health Organization Welcome to Talbot Family Health Book a\nYou are assigned to one of our 7 physicians (Dr.\n● If you no longer wish to be a patient, or if you move far away, we would appreciate it if you would please notify the office so that we may open a spot for another patient who does not have a family doctor.\nNew patients cannot book appointments online.\nWe accept debit, credit card, cash (if exact amount) PATIENT SERV LETTER: Dear Patient, We hope this letter finds you in good health.\n• Every phone call, prescription request, form, letter, note, email, fax, or other request requires staff and physician time, skill, and resources.\nAs mentioned above, faxed prescription refills outside of a visit are not covered by OHIP, and each refill request takes significant staff and physician chart review time.\nWe will generally give you enough refills to last until a follow-up appointment is recommended, which means that if you are out of refills, please book an appointment as it is time for your physician to reassess the condition for which you r",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Public-source context reviewed; existing status preserved",
+      "reviewer_note": "Talbot's own page explicitly states it is not accepting new patients. Preserve c078 not_accepting. Location and administrative page changes do not establish a new opening.",
+      "review_sources": [
+        "https://talbothealth.ca/"
+      ]
     },
     {
       "id": "349f1bc939d94bceea",
@@ -1219,14 +1243,20 @@
       "new_hash": "0ab771cc2b8c5ead781011eb6a58f1d8f3d6007781c48a23a4006a8a7f3a2747",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Forbes Park Medical - New Patients Search this site Embedded Files Skip to main content Skip to navigation Forbes Park Medical Home Office Hours Appointment Booking Physicians and Staff Cold and Flu New Patients Mental Health Resources Uninsured Services Forbes Park Medical New Patients We do not have any physicians accepting patients at this time.",
       "current_excerpt": "Forbes Park Medical - New Patients Search this site Embedded Files Skip to main content Skip to navigation Forbes Park Medical Home Office Hours Appointment Booking Physicians and Staff Cold and Flu New Patients Mental Health Resources Uninsured Services Forbes Park Medical New Patients We do not have any physicians accepting patients at this time.",
       "possible_claim": "possible_closed",
       "matched_excerpts": [
         "Forbes Park Medical - New Patients Search this site Embedded Files Skip to main content Skip to navigation Forbes Park Medical Home Office Hours Appointment Booking Physicians and Staff Cold and Flu New Patients Mental Health Resources Uninsured Services Forbes Park Medical New Patients We do not have any physicians accepting patients at this time."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Public-source context reviewed; existing status preserved",
+      "reviewer_note": "Forbes Park's own new-patients page states no physicians are accepting at this time. Preserve c099 not_accepting, notwithstanding the regional Doctors4Cambridge listing. No practice closure is implied.",
+      "review_sources": [
+        "https://www.forbesparkmedical.com/new-patients"
+      ]
     },
     {
       "id": "f16a280265976ed1d7",
@@ -1248,7 +1278,13 @@
       "matched_excerpts": [
         "Or if you are in the Cambridge, Ontario area, check the Doctors 4 Cambridge website for Doctors and Nurse Practitioners who are accepting patients."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Access limited; primary-page verification remains pending",
+      "reviewer_note": "Direct page access returned HTTP 403 in this review. Indexed first-party text describes a team-level waitlist but is not a fresh rendered-page verification. The changed excerpt's Doctors4Cambridge/Health Care Connect references are external pathways, not proof of Two Rivers acceptance. Preserve c100/c101 waitlist and original verification dates; retain pending for accessible primary-page verification.",
+      "review_sources": [
+        "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/"
+      ]
     },
     {
       "id": "638416890d614c882d",
@@ -1262,14 +1298,20 @@
       "new_hash": "44ea5ba1e5efd8f39982fc0ef527745f9a896e5182ba648f9c3a0e4916585ecf",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "We are currently adding patients to our wait list.\nOffice Hours: Monday - 8:30am-4:00pm Tuesday - 8:30am-4:00pm Wednesday - 8:30am-4:00pm Thursday - 8:30am-4:00pm Friday - 8:30am-12:30pm Saturday/Sunday - closed **Office hours subject to change After Hours Clinic: (for urgent medical concerns) Monday - 5:00pm-8:00pm Tuesday - 5:00pm-8:00pm Wednesday - 5:00pm-8:00pm Thursday - 5:00pm-8:00pm Friday- closed Saturday- 8:30am-5:30pm Sunday - closed Sta\nGriffin and the Nurse Practitioner is unable to see you.",
       "current_excerpt": "We are currently adding patients to our wait list.\nOffice Hours: Monday - 8:30am-4:00pm Tuesday - 8:30am-4:00pm Wednesday - 8:30am-4:00pm Thursday - 8:30am-4:00pm Friday - 8:30am-12:30pm Saturday/Sunday - closed **Office hours subject to change After Hours Clinic: (for urgent medical concerns) Monday - 5:00pm-8:00pm Tuesday - 5:00pm-8:00pm Wednesday - 5:00pm-8:00pm Thursday - 5:00pm-8:00pm Friday- closed Saturday- 8:30am-5:30pm Sunday - closed Sta\nGriffin and the Nurse Practitioner is unable to see you.",
       "possible_claim": "possible_waitlist",
       "matched_excerpts": [
         "We are currently adding patients to our wait list."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Public-source context reviewed; existing status preserved",
+      "reviewer_note": "The clinic homepage still invites patients to join its waitlist. Preserve c159 waitlist, not immediate acceptance or guaranteed attachment. After-hours availability is for rostered patients.",
+      "review_sources": [
+        "https://www.drjonathongriffin.ca/"
+      ]
     },
     {
       "id": "e1cec85753bfcf82b6",
@@ -1283,12 +1325,18 @@
       "new_hash": "b70aeca0eca50de002b8a0b7b0b4bef30641b23250ab9e1ba04e46467ce4445f",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Read more Breadcrumb Home Areas of Care Trauma and Violence Specialized Primary Care Program How To Access Program Menu Back to Areas of Care Trauma and Violence Specialized Primary Care Program Contact Details Services How to Access What to Expect Care Team Trauma and Violence Specialized Primary Care Program - How To Access Currently, the Trauma and Violence Specialized Primary Care Program only\nThe program also aims to expand research capacity and training opportunities, creating a sustainable and replicable model for trauma and violence informed specialized primary care across the province.",
       "current_excerpt": "Read more Breadcrumb Home Areas of Care Trauma and Violence Specialized Primary Care Program How To Access Program Menu Back to Areas of Care Trauma and Violence Specialized Primary Care Program Contact Details Services How to Access What to Expect Care Team Trauma and Violence Specialized Primary Care Program - How To Access Currently, the Trauma and Violence Specialized Primary Care Program only\nThe program also aims to expand research capacity and training opportunities, creating a sustainable and replicable model for trauma and violence informed specialized primary care across the province.",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Public-source context reviewed; existing status preserved",
+      "reviewer_note": "St Joseph's current access page restricts referrals to specified internal programs and LHSC emergency departments. Expansion is future-facing. Preserve c195 limited; no unrestricted public self-referral is established.",
+      "review_sources": [
+        "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access"
+      ]
     },
     {
       "id": "f0bc636c071597ff4b",
@@ -1302,12 +1350,18 @@
       "new_hash": "8476036ca4df7b80f3e01581d08bcbd109e0d25e4ac85ceb89d38919d2ff63b2",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "New Patients – Wharnox Medical Solutions Clinic 205 Oxford Street East London ON, N6A 5G6 Canada 226-289-7173 Wharncliffe Medical Solutions Clinic Click Here Mon -Fri: 9:00 AM - 5:00 PM Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today We welcome inquiries from new patients.\nPlease contact our office to learn about availability and registration requirements.\nQuick Link Home About Us Contact Services Pharmacy FAQ New Patients Privacy Policy Open – Closed Time Monday 9.00 - 17.00 Tuesday 9.00 - 17.00 Wednesday 9.00 - 17.00 Thursday 9.00 - 17.00 Frid",
       "current_excerpt": "New Patients – Wharnox Medical Solutions Clinic 205 Oxford Street East London ON, N6A 5G6 Canada 226-289-7173 Wharncliffe Medical Solutions Clinic Click Here Mon -Fri: 9:00 AM - 5:00 PM Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact Home About Us Services Pharmacy New Patients Doctors Dr.\nIyabode Adesiji Dr Vitalis Ojike Contact New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today We welcome inquiries from new patients.\nPlease contact our office to learn about availability and registration requirements.\nQuick Link Home About Us Contact Services Pharmacy FAQ New Patients Privacy Policy Open – Closed Time Monday 9.00 - 17.00 Tuesday 9.00 - 17.00 Wednesday 9.00 - 17.00 Thursday 9.00 - 17.00 Friday 9.00 - 17.00 Saturday close - close Sunday close - close © 2026 Wharnox Medical Clinic .",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Public-source context reviewed; existing status preserved",
+      "reviewer_note": "Wharnox welcomes inquiries and asks prospective patients to contact the office about availability and registration requirements. This is not explicit roster capacity. Preserve c199 unknown; a registration form alone is insufficient.",
+      "review_sources": [
+        "https://wharnox.medicalsolutionclinic.com/new-patients/"
+      ]
     },
     {
       "id": "16d9c50e677c60613d",
@@ -1321,12 +1375,18 @@
       "new_hash": "c768d96cf6a8e19fac04df06b858736042581e9b772fa100b422b46bb12e2a3e",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "OHIP, WSIB and Blue Cross accepted.\nBook an appointment → Explore services › Accepted coverage OHIP WSIB Blue Cross Our services Comprehensive care, all in one place .\nClear billing Accepted: OHIP, WSIB, and Blue Cross IFHP.\n★★★★★ “Great people 👍🏿 great environment, efficient service” — Joseph Prince ★★★★★ “Timely,informative and friendly” — Laura Doric ★★★★★ “It was professional and very courteous no” — Sheer Yusuf ★★★★★ “The clinic service is excellent, Dr Mohsin is a great physician, a good listener, professional and very detailed in explaining the result of my lab test and proffering some remedies to the area that\nI am highly delighted to choose this KW healthy living and Family practice clinic for my family- Akeem” — OGUNLEYE AKEEM ★★★★★ “Dr Ahsan is very open and affable family Physician who attends of his patients with utmost attention and care.\nPhysicians, nurses, and support sta",
       "current_excerpt": "OHIP, WSIB and Blue Cross accepted.\nBook an appointment → Explore services › Book Your Flu Shot – Vaccination → Accepted coverage OHIP WSIB Blue Cross Our services Comprehensive care, all in one place .\nClear billing Accepted: OHIP, WSIB, and Blue Cross IFHP.\n★★★★★ “Great people 👍🏿 great environment, efficient service” — Joseph Prince ★★★★★ “Timely,informative and friendly” — Laura Doric ★★★★★ “It was professional and very courteous no” — Sheer Yusuf ★★★★★ “The clinic service is excellent, Dr Mohsin is a great physician, a good listener, professional and very detailed in explaining the result of my lab test and proffering some remedies to the area that\nI am highly delighted to choose this KW healthy living and Family practice clinic for my family- Akeem” — OGUNLEYE AKEEM ★★★★★ “Dr Ahsan is very open and affable family Physician who attends of his patients with utmost attention and care.\nPhysicians, nurses, and support staff working together — so you always have someone who knows you.\nMA Mohsin Ahsan Physician View profile → DW Dilini Wijayanayaka Physician View profile → Clinical Support AS Anna Senko Medical Office Administrator View profile → SS Shivali Singh Medical Office Administrator View profile → AS Aini Shamim Client View profile → AB Adetola Bakare Medical Office Administrator View profile → × Hours of operation Here when you need us .\nBook visit (519) 340-3043 Please",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Public-source context reviewed; existing status preserved",
+      "reviewer_note": "KW Healthy Living's own page invites people seeking a family doctor to register by phone, visit or booking, while expressly saying it no longer accepts walk-ins despite walk-in branding. Preserve c215 accepting as an application pathway, not guaranteed attachment. Flu-shot and Friday-video details are not intake evidence.",
+      "review_sources": [
+        "https://kwhlclinic.com/"
+      ]
     },
     {
       "id": "76e8cf851085d89135",
@@ -1338,14 +1398,21 @@
       "new_hash": "c583c95359f2c6b0275ba12f469dd98d4ee23fca54e4054f58f27739cdaf4418",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Menu Menu About us Who We Are Meet Our Team Careers Strategic Plan Health Services Family Physicians Social Workers Registered Nurses Nurse Practitioner Registered Dietitian Psychologist Pharmacist Respiratory Therapist Patient Resources Mutual Respect Programs & Services Frequently Asked Questions Health Connect Ontario/ Health811 Tools & Links Greenspace Portal Clinic & Events Updates Patient Ex\nPlease call 811 for assistance if you are looking for a doctor or nurse practitioner.\nPlease note that the London Family Health Team is NOT accepting any new patients at this time.\nClick here for details HEALTH CONNECT ONTARIO Free access to a Registered Nurse 24/7 at: \" 811 \" (TTY: 1-866-797-0007 ) Learn more family Doctor Office Information CLICK FOR DETAILS Funded by the province of Ontario Business Hours – Allied Health Staff ONLY Monday to Friday 8:30am-4:30pm Beaverbrook Location 1261 Bea",
       "current_excerpt": "Menu Menu About us Who We Are Meet Our Team Careers Strategic Plan Health Services Family Physicians Social Workers Registered Nurses Nurse Practitioner Registered Dietitian Psychologist Pharmacist Respiratory Therapist Patient Resources Mutual Respect Programs & Services Frequently Asked Questions Health Connect Ontario/ Health811 Tools & Links Greenspace Portal Clinic & Events Updates Patient Ex\nPlease call 811 for assistance if you are looking for a doctor or nurse practitioner.\nPlease note that the London Family Health Team is NOT accepting any new patients at this time.\nClick here for details HEALTH CONNECT ONTARIO Free access to a Registered Nurse 24/7 at: \" 811 \" (TTY: 1-866-797-0007 ) Learn more family Doctor Office Information CLICK FOR DETAILS Funded by the province of Ontario Business Hours – Allied Health Staff ONLY Monday to Friday 8:30am-4:30pm Beaverbrook Location 1261 Beaverbrook Ave Unit 1, ON N6H 0G6 Medway Location 1205 Oxford St W, London, ON N6H 1",
       "possible_claim": "possible_closed",
       "matched_excerpts": [
         "Please note that the London Family Health Team is NOT accepting any new patients at this time."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Public-source context reviewed; existing status preserved",
+      "reviewer_note": "The generic locations page says not accepting, but its specific linked August 26, 2026 announcement invites applications to some physicians/nurse practitioners at Beaverbrook and Stoney Creek. Preserve existing clinic statuses; do not infer blanket closure or extend this invitation to Medway. Applications do not guarantee capacity. Conflicting generic wording remains an evidence limitation.",
+      "review_sources": [
+        "https://londonfht.ca/our-locations/",
+        "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/"
+      ]
     }
   ]
 }
