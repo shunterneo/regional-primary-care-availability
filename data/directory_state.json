@@ -6,10 +6,10 @@
         "geraldokafor": {
           "key": "geraldokafor",
           "title": "Dr. Gerald Okafor",
-          "excerpt": "Dr. Gerald Okafor . Baseline Medical Clinic, 25 Baseline Rd W., London ON N6J 1V1. Visit or call 226-663-4647 to register.",
+          "excerpt": "Dr. Gerald Okafor . 25 Baseline Rd W., London ON N6J 1V1. Visit or call 226-663-4647 to register. https://app.migranium.com/intake-form/dr-gerald-npi",
           "link": "https://www.ldam.ca/find-a-doctor",
           "scope": "provider directory; status must be rechecked",
-          "content_hash": "432db6e51582a02d5a49e31d5f23958456137ec26fe6996306c4b8475a5aa8e3"
+          "content_hash": "9121cb9956c3d56264fc4425f26222a0e2d4e4d5a5fe2c9c3373097a474e164d"
         },
         "zarmeenqamar": {
           "key": "zarmeenqamar",
@@ -100,16 +100,16 @@
           "content_hash": "1fa8de19713d16f8bffb0e6f3d666722b4c5f959a7ca104ac98e4ee3f37f0d52"
         }
       },
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 12,
-      "fingerprint": "0e5464c384781dc047626bf26fea35a087f6c41cd7d7ee515f6484262cd3a1b4",
+      "fingerprint": "6a9720fc1d9e99f9976729b4a12da687e8a4bd959ebf4cefa04786118724b4bd",
       "extraction_version": "directory-v4",
       "source_signature": "c04447bc23f449d1c2b47172c040f2b08aca1461168e26b12b9ce3489d90e4a3",
       "baseline_reason": null,
-      "event_sequence": 0
+      "event_sequence": 1
     },
     "brant_hospital": {
       "entries": {
@@ -162,8 +162,8 @@
           "content_hash": "b4b6918af57dfcb910ca2447a2e9403711a1814f07b9ab1db3a200a4f41d2c61"
         }
       },
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 6,
@@ -304,8 +304,8 @@
           "content_hash": "d653b99e5288a22f59b5aa1b4a854f1478d31c7f4e87c6473a3318ef7be12807"
         }
       },
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 16,
@@ -416,8 +416,8 @@
           "content_hash": "63f039146ab5673a1e2fd6bed5936a5f0c387bdfac1b6a0ed284affa3e645f41"
         }
       },
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 11,
@@ -429,8 +429,8 @@
     },
     "woodstock_news": {
       "entries": {},
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 0,
@@ -441,9 +441,26 @@
       "event_sequence": 0
     },
     "oxford_oht": {
-      "last_attempt": "2026-11-16",
-      "last_error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor-or-nurse-practitioner/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
-      "error_category": "tls_error"
+      "entries": {
+        "page": {
+          "key": "page",
+          "title": "Oxford OHT — primary care resources for unattached patients",
+          "excerpt": "Find Services – Oxford OHT Website Home About Us Our Work Our Partner Directory Partner Spotlights Find Services Resources Tillsonburg Unattached Care Clinic Cancer Screening Community Member Resources News and Events More Contact Get Involved Find Services Home Find Services Health Services for People Without a Family Doctor or Nurse Practitioner IF YOU ARE EXPERIENCING A HEALTH EMERGENCY, CALL 911 PDF Download - Full Colour (Sept 9, 2",
+          "link": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+          "content_hash": "d48c2e897319170f3a467cbb85866138ec0e216025556b38c872d73b676afefe",
+          "scope": "resource notice; no clinic-specific intake claim"
+        }
+      },
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
+      "last_error": null,
+      "error_category": null,
+      "entry_count": 1,
+      "fingerprint": "aeb815b442677b55a667ff64eb435f1a11b5c661ec6ca0aca300de7df75c4fd3",
+      "extraction_version": "directory-v4",
+      "source_signature": "9446165d4ad80f8cd1007f2eea89e016eca11bf6b0270b4e2a759e4dc701527d",
+      "baseline_reason": "first_observation",
+      "event_sequence": 0
     },
     "healthline_oxford": {
       "original_url": "https://www.southwesthealthline.ca/listServices.aspx?id=10075&region=Oxford",
@@ -498,8 +515,8 @@
           "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
         }
       },
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 5,
@@ -562,8 +579,8 @@
           "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
         }
       },
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 5,
@@ -770,8 +787,8 @@
           "content_hash": "40e5896b798fb019836724155e9b931531c13f253dc1cd19ce6187b033e15bcf"
         }
       },
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 23,
@@ -792,8 +809,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -814,8 +831,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -836,8 +853,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-16",
-      "last_success": "2026-11-16",
+      "last_attempt": "2026-11-17",
+      "last_success": "2026-11-17",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -848,22 +865,16 @@
       "event_sequence": 0
     }
   },
-  "last_run": "2026-11-16",
+  "last_run": "2026-11-17",
   "last_summary": {
     "sources": 12,
-    "success": 11,
-    "failed": 1,
-    "baselines": 0,
+    "success": 12,
+    "failed": 0,
+    "baselines": 1,
     "version_baselines": 0,
     "zero_result_news": 1,
-    "new_directory_leads": 0,
+    "new_directory_leads": 1,
     "listing_removals_to_review": 0,
-    "errors": [
-      {
-        "source": "oxford_oht",
-        "category": "tls_error",
-        "error": "HTTPSConnectionPool(host='oxfordoht.ca', port=443): Max retries exceeded with url: /primary-care-resources-without-a-family-doctor-or-nurse-practitioner/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
-      }
-    ]
+    "errors": []
   }
 }

@@ -764,6 +764,29 @@
       "distance_km": 78.33,
       "latitude": 42.600323,
       "longitude": -81.611227
+    },
+    {
+      "id": "9a05d586eaf3b09e91",
+      "detected_at": "2026-11-17",
+      "title": "Dr. Gerald Okafor",
+      "url": "https://www.ldam.ca/find-a-doctor",
+      "source_directory": "london_association",
+      "source_name": "London & District Academy of Medicine — accepting physicians",
+      "extraction_version": "directory-v4",
+      "source_signature": "c04447bc23f449d1c2b47172c040f2b08aca1461168e26b12b9ce3489d90e4a3",
+      "source_url": "https://www.ldam.ca/find-a-doctor",
+      "source_mode": "people",
+      "event_sequence": 1,
+      "review_status": "pending",
+      "proposed_action": "Check modified directory text; confirm clinic-specific ongoing patient intake if applicable",
+      "prior_excerpt": "Dr. Gerald Okafor . Baseline Medical Clinic, 25 Baseline Rd W., London ON N6J 1V1. Visit or call 226-663-4647 to register.",
+      "current_excerpt": "Dr. Gerald Okafor . 25 Baseline Rd W., London ON N6J 1V1. Visit or call 226-663-4647 to register. https://app.migranium.com/intake-form/dr-gerald-npi",
+      "prior_content_hash": "432db6e51582a02d5a49e31d5f23958456137ec26fe6996306c4b8475a5aa8e3",
+      "current_content_hash": "9121cb9956c3d56264fc4425f26222a0e2d4e4d5a5fe2c9c3373097a474e164d",
+      "preview_unchanged": false,
+      "intake_status": "unconfirmed",
+      "radius_checked": false,
+      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
     }
   ]
 }
