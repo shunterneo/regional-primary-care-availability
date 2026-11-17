@@ -147,7 +147,9 @@
       "current_intake": "not verified",
       "review_status": "pending",
       "note": "Unverified lead only, not an active clinic listing or confirmed opening. The website advertises family-practice registration but labels both named doctors not accepting, shows every day closed, and provides no Tillsonburg booking phone. The new-patient page displays 416-555-0123. Coward PharmaChoice independently lists the same address, but that does not confirm or disprove a separate clinic. Do not use the medical-history form as a verified application route. Independent operation and identity evidence is required; do not infer fraud, closure or acceptance.",
-      "reviewed_on": "2026-11-16"
+      "reviewed_on": "2026-11-17",
+      "review_outcome": "Unverified; conflicting website content and direct access limitation",
+      "reviewer_note": "Direct access redirected to an inaccessible bare-domain page during this review. Indexed first-party text still mixes general family-practice registration wording with both named doctors not accepting, all days closed, no Tillsonburg booking phone, and a placeholder central phone. Indexed content is not fresh rendered-page verification. Keep pending, do not publish an active-clinic or acceptance claim, and do not direct patients to its medical-history form. Independent operating identity and clinic-controlled contact remain necessary; do not infer fraud or permanent closure."
     }
   ]
 }
