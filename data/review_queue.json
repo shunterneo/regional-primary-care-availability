@@ -1426,12 +1426,17 @@
       "new_hash": "86583592e3425cea2c35202629fe2eb7a74e104701813d101b83c02985a767d2",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Skip to main content Skip to footer Grand River Community Health Centre Menu Your Health Expand sub pages Your Health COVID-19 Testing Flu Shot Clinic RSV Vaccine Clinic Gender Affirming Clinic Midwife Outreach New Clients Nutrition Counselling Online Appointment Booking Partner Agencies Primary Health Care Seniors Assessment Service Social Prescribing Social Work and Counselling GreenShield Prgra\nHow to Register Please complete our New Client Intake Form and drop it to reception during our operating hours.\nIf you prefer a paper copy, you are welcome to visit the Centre and ask our reception team for a New Client Intake Package.\nNew Client Intake Form Additional Registration Option You can also register with Health Care Connect by calling 1-800-445-1822 or registering online through — https://hcc3.hcc.moh.gov.on.ca Completing both the GRCHC intake form and Health Care Connect registratio",
       "current_excerpt": "Seeking a Family Doctor or Nurse Practitioner | Grand River Community Health Centre This website uses cookies to enhance usability and provide you with a more personal experience.\nSkip to main content Skip to footer Grand River Community Health Centre Menu Your Health Expand sub pages Your Health Seeking a Family Doctor or Nurse Practitioner Flu Shot Clinic RSV Vaccine Clinic Gender Affirming Clinic Primary Care Access Clinic Midwife Outreach Nutrition Counselling Online Appointment Booking Partner Agencies Primary Health Care Seniors Assessment Service Social Prescribing a\nHow to Register Please complete our New Client Intake Form and submit it to reception during our operating hours.\nYou can also email the completed form to intake@grchc.ca .\nIf you prefer a paper copy, you are welcome to visit the Centre and ask our reception team for a New Client Intake Package.\nNew Client Intake Form Additional Registration Option You can also register with Health Care Connect by calling 1-800-445-1822 or registering online through — https://hcc3.hcc.moh.gov.on.ca Completing both the GRCHC intake form and Health Care Connect registration may help you connect with a Family Doctor or Nurse Practitioner faster.\nGrand River Community Health Centre 363 Colborne Street Brantford, ON N3S 3N2 Your Health Seeking a Family Doctor or Nurse Practitioner Toggle Menu Html.Raw(currentTopLevel.Value (\"subN",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-17",
+      "reviewer_note": "Independently verified redirected clinic-owned application page and email/reception submission route. Invitation is for people without a family doctor or NP; existing accepting-applications category unchanged. Canonical source and submission details reconciled to c001.",
+      "review_sources": [
+        "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/"
+      ]
     },
     {
       "id": "275c041593bdddfab1",
