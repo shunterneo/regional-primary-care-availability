@@ -320,20 +320,22 @@
       "event_sequence": 0,
       "excerpt": "Sherwood Medical Centre 1225 Wonderland Rd N, London, ON N6G 2V9 548-689-9059 Ajouter au presse-papiers",
       "source_scope": "regional practice listing; verify address, care model and intake directly",
-      "review_status": "pending",
+      "review_status": "published",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
-      "intake_status": "unconfirmed",
-      "radius_checked": false,
+      "intake_status": "unknown",
+      "radius_checked": true,
       "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
       "reviewed_on": "2026-11-17",
-      "review_outcome": "verified_missing_practice",
-      "reviewer_note": "Clinic-owned pages confirm 1225 Wonderland Road North, London, 548-689-9059, and nine named physicians. The about page describes longitudinal care for rostered Health Park FHO patients. Now Open and Book Now are not evidence of new-patient enrolment. Preserve pending/unconfirmed until exact office coordinates/radius and duplicate review permit an unknown-intake inventory addition; do not publish an accepting claim.",
+      "review_outcome": "verified_office_added_unknown_intake",
+      "reviewer_note": "Clinic-owned pages independently confirm nine family doctors and ongoing care for Health Park FHO roster; no patient enrolment advertised. CPSO public Dr Pantazis record corroborates site and location. Address-matched public business point 49.87 km from origin. Published c222 with unknown intake; booking/after-hours is not new-patient attachment.",
       "review_sources": [
-        "https://www.lignesantesud-ouest.ca/displayService.aspx?id=227372",
         "https://www.sherwoodmedicalclinic.com/",
-        "https://www.sherwoodmedicalclinic.com/about"
+        "https://www.sherwoodmedicalclinic.com/about",
+        "https://register.cpso.on.ca/physician-info/?cpsonum=110983"
       ],
-      "reviewed_content_hash": "43e95c3367fcd6890994d9807856207884b9dd3738b8950eb799426f0e3f0f40"
+      "reviewed_content_hash": "43e95c3367fcd6890994d9807856207884b9dd3738b8950eb799426f0e3f0f40",
+      "linked_clinic_id": "c222",
+      "distance_km": 49.87
     },
     {
       "id": "5a13325077ace2eb4f",
@@ -380,22 +382,22 @@
       "event_sequence": 0,
       "excerpt": "Dutton Medical Centre 156 Currie Rd, Dutton, ON N0L 1J0 519-762-0943 Ajouter au presse-papiers",
       "source_scope": "regional practice listing; verify address, care model and intake directly",
-      "review_status": "pending",
+      "review_status": "published",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
-      "intake_status": "unconfirmed",
-      "radius_checked": false,
+      "intake_status": "unknown",
+      "radius_checked": true,
       "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
       "reviewed_on": "2026-11-17",
-      "review_outcome": "Verified practice lead; transition prevents intake inference",
-      "reviewer_note": "Municipal sources confirm Dutton Medical Centre at 156 Currie Road, 519-762-0943. The newer October 14, 2026 municipal announcement says Dr Kamar plans to relocate to London, with his last Dutton day undetermined. Existing roster/waitlist patients may follow or apply to West Elgin Community Health Centre. A new CHC NP/RPN team is accepting clients in West Lorne and preparing a future Dutton transition; this does not establish current intake at the Dutton site. Do not use the generic municipal limited-acceptance wording as a new Dutton opening. Preserve pending/unconfirmed until office identity, coordinate provenance and current care-model/transition review support an unknown-intake addition. The old municipal intake PDF returned 404; the CPSO page returned 403, neither proves closure.",
+      "review_outcome": "verified_office_added_unknown_conflicting_intake",
+      "reviewer_note": "Dutton office 156 Currie confirmed by official October 14 2026 town release and public clinic building OSM way 1013446624 (67.45 km). Older municipality page advertises Dr Kamar limited intake, while recent announcement says his move to London is pending; Dr Sharman continuing pending retirement. Added c223 only as ongoing family practice, intake unknown, conflict flagged. West Elgin CHC West Lorne is >75 km and not added.",
       "review_sources": [
-        "https://www.lignesantesud-ouest.ca/displayService.aspx?id=164277",
-        "https://www.lignesantesud-ouest.ca/mapService.aspx?id=164277",
+        "https://www.duttondunwich.on.ca/your-government/news/post/continuing-primary-healthcare-for-our-community",
         "https://www.duttondunwich.on.ca/municipal-services/emergency-medical-services",
-        "https://www.duttondunwich.on.ca/your-government/news/post/continuing-primary-healthcare-for-our-community"
+        "https://www.openstreetmap.org/way/1013446624"
       ],
       "reviewed_content_hash": "ee34d5b727c7940d24af3202409aa93560ded1cbc924f218e36413a75d981cbf",
-      "distance_km": 67.45
+      "distance_km": 67.45,
+      "linked_clinic_id": "c223"
     },
     {
       "id": "43274a07f99b36ac96",
