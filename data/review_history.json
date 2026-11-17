@@ -2882,5 +2882,15 @@
     "type": "verified_missing_office_added_intake_conflict",
     "source": "https://www.duttondunwich.on.ca/your-government/news/post/continuing-primary-healthcare-for-our-community",
     "reviewer_note": "November 17 2026: October 14 2026 original municipality notice says Dr Kamar moving his roster to London, date undecided, Dr Sharman continues pending retirement; municipal clinic listing at 156 Currie Rd still says limited Dr Kamar intake but older/contradictory. Preserve unknown until physician-specific confirmation. OSM clinic building way 1013446624 matches 156 Currie Rd, 67.45 km straight line. West Elgin CHC new NP currently works at 153 Main St West Lorne (77.75 km outside), and proposed Dutton move is future only. No patient information used."
+  },
+  {
+    "date": "2026-11-17",
+    "clinic_id": "c001",
+    "clinic_name": "Grand River Community Health Centre",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "type": "verified_application_route_update",
+    "source": "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/",
+    "reviewer_note": "Independently reviewed clinic-owned page through the old URL redirect: completed New Client Intake Form can be delivered to reception or emailed to intake@grchc.ca. Invitation addresses people without a family doctor or NP. Updated canonical evidence URLs and route; preserved intake category, historical package caveats, no telephone or guaranteed attachment claim. Automatic writer remains paused."
   }
 ]
