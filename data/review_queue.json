@@ -1663,7 +1663,7 @@
       "new_hash": "092b6eeac04f189a81dd8aa989427ac478823b51f7d5ed2a3db654b7dd5bab04",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "There are currently four family physicians and one naturopathic doctor practicing at the Medical Centre with a dedicated team of staff nurses, medical office assistants and support staff: Dr.\nAndrea Hornyak, Doctor of Naturopathic Medicine Practice in Oxford is a website designed to provide information about physician opportunities within Oxford County.\nPatient Wait List The Norwich Medical Centre maintains a waiting list for any individuals interested in becoming patients in one of our physicians’ practices.\nOur waiting list is open to all interested individuals; however, residents of the Township of Norwich receive priority placement whenever a practice is accepting new patients.\nIf you would like to have your name added to the Patient Wait List, please contact the Manager of Medical Services.\nThe following information can be emailed or drop off directly at the Medical Centre: Patient ",
       "current_excerpt": "There are currently four family physicians and one naturopathic doctor practicing at the Medical Centre with a dedicated team of staff nurses, medical office assistants and support staff: Dr.\nAndrea Hornyak, Doctor of Naturopathic Medicine Practice in Oxford is a website designed to provide information about physician opportunities within Oxford County.\nPatient Wait List The Norwich Medical Centre maintains a waiting list for any individuals interested in becoming patients in one of our physicians’ practices.\nOur waiting list is open to all interested individuals; however, residents of the Township of Norwich receive priority placement whenever a practice is accepting new patients.\nIf you would like to have your name added to the Patient Wait List, please contact the Manager of Medical Services.\nThe following information can be emailed or drop off directly at the Medical Centre: Patient name(s) Date of birth Mailing address of principal residence Contact phone number Current family physician and location of practice (if applicable) Recruitment The Norwich Medical Centre is staffed by a complementary team of family physicians, staff nurses, medical office assistants, and specialized admini\nThe Township of Norwich currently has one physician vacancy to fill the five physician complement as designated by the Underserviced Area Program.\nVarious practice opportunities exist and we i",
       "possible_claim": "conflicting_or_conditional",
@@ -1672,7 +1672,12 @@
         "Patient Wait List The Norwich Medical Centre maintains a waiting list for any individuals interested in becoming patients in one of our physicians’ practices.",
         "If you would like to have your name added to the Patient Wait List, please contact the Manager of Medical Services."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "Fresh official Township webpage retrieval confirms the existing open patient waitlist, Norwich resident priority and no immediate physician roster opening. Current c074 accurately reflects these facts; expanded source excerpt does not warrant a status change. No patient information submitted.",
+      "review_sources": [
+        "https://www.norwich.ca/our-community/medical-centre"
+      ]
     },
     {
       "id": "0adb2a52d3e94b7e62",
