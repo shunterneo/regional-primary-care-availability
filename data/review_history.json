@@ -3402,5 +3402,53 @@
         ]
       }
     }
+  },
+  {
+    "reviewed_on": "2026-11-18",
+    "clinic_id": "c208",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "type": "intake_route_clarification",
+    "source": "https://kamvamedical.ca/patient-intake/",
+    "reviewer_note": "Independently opened dedicated first-party intake page and linked Dr. Rao form. Clarified in-person-only submission and no email/inquiry-form applications. Undated notice; no clinic contact or guaranteed enrolment. No intake status change.",
+    "changed_fields": [
+      "intake_detail",
+      "evidence_url",
+      "last_reviewed",
+      "intake_verification",
+      "online_review",
+      "ongoing_care_review"
+    ],
+    "prior_values": {
+      "intake_detail": "Dr. Saadiyah Rao advertises new-patient family-practice intake. Complete the linked patient intake form and deliver it in person to Highbury Medical Clinic. Walk-in service is separate; submitting a form does not guarantee enrolment.",
+      "evidence_url": "https://kamvamedical.ca/highbury-medical-clinic/",
+      "last_reviewed": "2026-11-12",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://kamvamedical.ca/highbury-medical-clinic/",
+        "finding": "Dr. Saadiyah Rao advertises new-patient family-practice intake. Complete the linked patient intake form and deliver it in person to Highbury Medical Clinic. Walk-in service is separate; submitting a form does not guarantee enrolment.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Dr. Saadiyah Rao advertises new-patient family-practice intake. Complete the linked patient intake form and deliver it in person to Highbury Medical Clinic. Walk-in service is separate; submitting a form does not guarantee enrolment.",
+        "sources": [
+          "https://kamvamedical.ca/highbury-medical-clinic/",
+          "https://kamvamedical.ca/wp-content/uploads/2026/10/dr-saadiyah-rao-patient-intake-form-2026-10-25-revised.pdf",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=149339"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Official page explicitly identifies Dr. Saadiyah Rao as accepting new family-practice patients and directs applicants to deliver the intake form in person. This pathway is separate from walk-in visits; submission does not guarantee enrolment. Undated official notice.",
+        "sources": [
+          "https://kamvamedical.ca/highbury-medical-clinic/"
+        ]
+      }
+    }
   }
 ]
