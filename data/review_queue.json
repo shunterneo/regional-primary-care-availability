@@ -1281,12 +1281,14 @@
       "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
       "reviewed_on": "2026-11-17",
       "review_outcome": "Access limited; primary-page verification remains pending",
-      "reviewer_note": "Direct page access returned HTTP 403 in this review. Indexed first-party text describes a team-level waitlist but is not a fresh rendered-page verification. The changed excerpt's Doctors4Cambridge/Health Care Connect references are external pathways, not proof of Two Rivers acceptance. Preserve c100/c101 waitlist and original verification dates; retain pending for accessible primary-page verification.",
+      "reviewer_note": "Owner supplied official waitlist announcement on November 18. Indexed official announcement and New Patient Wait List page corroborate waitlist intake and identify the direct application form. Both location records now link to that form and clearly distinguish waitlist applications from attachment. Direct current-page retrieval still returns HTTP 403; retain pending only for rendered-page/form accessibility verification, not as evidence of closure.",
       "review_sources": [
+        "https://tworiversfht.ca/now-accepting-patients-to-our-wait-list/",
+        "https://tworiversfht.ca/new-patient-wait-list/",
         "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/"
       ],
       "review_attempted_on": "2026-11-18",
-      "review_blocker": "Current official intake URL returns HTTP 403 through web and direct retrieval. Older indexed official waitlist/rostering pages support historical wording but cannot verify changed current page. Preserve pending status and prior verification date; do not infer closure."
+      "review_blocker": "Direct current-page/form retrieval returns HTTP 403. Indexed first-party evidence supports the waitlist application route; rendered form operation is not verified. Primary-page verification dates retained."
     },
     {
       "id": "638416890d614c882d",

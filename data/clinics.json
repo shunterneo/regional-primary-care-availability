@@ -4707,12 +4707,12 @@
       "phone": "519-629-4615",
       "clinic_type": "FHT",
       "providers": "",
-      "clinic_url": "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/",
+      "clinic_url": "https://tworiversfht.ca/",
       "care_model": "ongoing",
       "care_model_basis": "Named organization identifies primary family physician or nurse practitioner services at this office.",
       "care_model_source": "https://tworiversfht.ca/contact/contact-us/",
       "source_published": "",
-      "notes": "",
+      "notes": "Waitlist announcement dated October 31, 2025; direct application link added after indexed official-source review November 18, 2026.",
       "clinic_address_verified": true,
       "address_verification_source": "https://tworiversfht.ca/contact/contact-us/",
       "address_verified_on": "2026-11-12",
@@ -4723,9 +4723,9 @@
       "intake_reviewed_by_phone": false,
       "status": "waitlist",
       "evidence_url": "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/",
-      "intake_detail": "Team-wide waitlist for people without a family physician; location/provider assignment is not guaranteed. Dr. Callaghan’s roster form is only for people already contacted by the office.",
+      "intake_detail": "Accepting applications to the team-wide waitlist for people without a family physician. Complete the New Patient Wait List form; do not call for your position on the list because staff cannot provide it. This is not immediate attachment, and location/provider assignment is not guaranteed. Individual physician rostering forms are separate from the waitlist application.",
       "last_reviewed": "2026-11-12",
-      "review_basis": "Individual public-source review; no telephone confirmation or guaranteed attachment.",
+      "review_basis": "Waitlist application route reviewed from indexed official pages November 18, 2026. Direct access returned HTTP 403; prior primary-page verification date retained. No telephone confirmation or guaranteed attachment.",
       "auto_updates_enabled": false,
       "intake_verification": {
         "tier": "program_general",
@@ -4741,7 +4741,17 @@
       "longitude": -80.313995,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
       "coordinate_quality": "Government planning point matched to clinic address; not entrance or suite",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "application_url": "https://tworiversfht.ca/new-patient-wait-list/",
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Official announcement and new-patient form located in search-indexed first-party pages on November 18, 2026, following the owner-supplied announcement. Direct retrieval returns HTTP 403, so current form operation was not tested. Published pathway accepts waitlist applications, not immediate or guaranteed attachment.",
+        "sources": [
+          "https://tworiversfht.ca/now-accepting-patients-to-our-wait-list/",
+          "https://tworiversfht.ca/new-patient-wait-list/",
+          "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/"
+        ]
+      }
     },
     {
       "id": "c101",
@@ -4751,12 +4761,12 @@
       "phone": "519-740-5010",
       "clinic_type": "FHT",
       "providers": "",
-      "clinic_url": "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/",
+      "clinic_url": "https://tworiversfht.ca/",
       "care_model": "ongoing",
       "care_model_basis": "Named organization identifies primary family physician or nurse practitioner services at this office.",
       "care_model_source": "https://tworiversfht.ca/contact/contact-us/",
       "source_published": "",
-      "notes": "",
+      "notes": "Waitlist announcement dated October 31, 2025; direct application link added after indexed official-source review November 18, 2026.",
       "clinic_address_verified": true,
       "address_verification_source": "https://tworiversfht.ca/contact/contact-us/",
       "address_verified_on": "2026-11-12",
@@ -4767,9 +4777,9 @@
       "intake_reviewed_by_phone": false,
       "status": "waitlist",
       "evidence_url": "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/",
-      "intake_detail": "Team-wide waitlist for people without a family physician; location/provider assignment is not guaranteed. Dr. Callaghan’s roster form is only for people already contacted by the office.",
+      "intake_detail": "Accepting applications to the team-wide waitlist for people without a family physician. Complete the New Patient Wait List form; do not call for your position on the list because staff cannot provide it. This is not immediate attachment, and location/provider assignment is not guaranteed. Individual physician rostering forms are separate from the waitlist application.",
       "last_reviewed": "2026-11-12",
-      "review_basis": "Individual public-source review; no telephone confirmation or guaranteed attachment.",
+      "review_basis": "Waitlist application route reviewed from indexed official pages November 18, 2026. Direct access returned HTTP 403; prior primary-page verification date retained. No telephone confirmation or guaranteed attachment.",
       "auto_updates_enabled": false,
       "intake_verification": {
         "tier": "program_general",
@@ -4785,7 +4795,17 @@
       "longitude": -80.313995,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
       "coordinate_quality": "Government planning point matched to clinic address; not entrance or suite",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "application_url": "https://tworiversfht.ca/new-patient-wait-list/",
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Official announcement and new-patient form located in search-indexed first-party pages on November 18, 2026, following the owner-supplied announcement. Direct retrieval returns HTTP 403, so current form operation was not tested. Published pathway accepts waitlist applications, not immediate or guaranteed attachment.",
+        "sources": [
+          "https://tworiversfht.ca/now-accepting-patients-to-our-wait-list/",
+          "https://tworiversfht.ca/new-patient-wait-list/",
+          "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/"
+        ]
+      }
     },
     {
       "id": "c102",

@@ -2922,5 +2922,25 @@
     "source": "https://smhc.net/",
     "type": "verified_application_route_clarification",
     "reviewer_note": "Clinic website names Dr. Gabriella Schoettle and Dr. Faraz Hafezi as taking new patients. Call 519-264-2800 about registration; online appointment booking is for existing patients. Announcement has no visible year or intake deadline. Dr. Joshua Reycraft’s separate intake is limited to family members of his existing patients. Public-source review; no telephone confirmation or guaranteed enrolment."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c100",
+    "clinic_name": "Two Rivers FHT — Hespeler Medical Clinic",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://tworiversfht.ca/new-patient-wait-list/",
+    "type": "owner_source_followup",
+    "reviewer_note": "Official announcement and new-patient form located in search-indexed first-party pages on November 18, 2026, following the owner-supplied announcement. Direct retrieval returns HTTP 403, so current form operation was not tested. Published pathway accepts waitlist applications, not immediate or guaranteed attachment. Added direct waitlist application link; preserved prior live-page verification date."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c101",
+    "clinic_name": "Two Rivers FHT — HealthLink Family Practice",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "source": "https://tworiversfht.ca/new-patient-wait-list/",
+    "type": "owner_source_followup",
+    "reviewer_note": "Official announcement and new-patient form located in search-indexed first-party pages on November 18, 2026, following the owner-supplied announcement. Direct retrieval returns HTTP 403, so current form operation was not tested. Published pathway accepts waitlist applications, not immediate or guaranteed attachment. Added direct waitlist application link; preserved prior live-page verification date."
   }
 ]
