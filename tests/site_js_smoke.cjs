@@ -19,7 +19,7 @@ const timers=[];const context={document,console,Math,Set,JSON,Intl,TextEncoder,s
 vm.runInNewContext(scriptMatch[1].replace('})();','globalThis.features={distanceTo,filtered,setFilter,chosen,filterControls,openEditor,reviewEdit,pdfBytes,docxBytes,csvBytes,exportRows,selectedClinics};})();'),context, {timeout:3000,filename:'site-inline.js'});
 assert.equal(ids.mTotal.textContent,N);assert.equal(ids.mIntake.textContent,numFor('accepting'));assert.equal(ids.mLeads.textContent,numFor('reported'));
 assert.equal(ids.results.children.length,N);assert.equal(ids.map.children.filter(x=>x.tag==='g').length,TOWNS);
-context.features.setFilter('status',['accepting']);assert.equal(ids.results.children.length,numFor('accepting'));
+context.features.setFilter('status',['accepting']);assert.equal(ids.results.children.length,numFor('accepting')+3);
 context.features.setFilter('status',['reported']);assert.equal(ids.results.children.length,numFor('reported'));
 context.features.setFilter('status',['all']);
 ids.search.handlers.input({target:{value:'Oxfordia'}});const match=C=>C.filter(c=>c.name.toLowerCase().includes('oxfordia')).length;assert.equal(ids.results.children.length,match(DATA.clinics));
@@ -43,7 +43,7 @@ assert.equal(context.features.distanceTo({latitude:100,longitude:0}),null);
 assert(context.features.distanceTo({latitude:42.8654+25/6371*180/Math.PI,longitude:-80.7228})>24.9999);
 context.features.setFilter('town',['Tillsonburg','Kitchener']);assert(context.features.filtered().length>radiusRows.length);
 context.features.setFilter('status',['accepting']);assert(context.features.filtered().every(c=>c.display_status==='accepting'));
-context.features.setFilter('town',[]);assert(ids.surrounding.disabled);assert.equal(context.features.filtered().length,numFor('accepting'));
+context.features.setFilter('town',[]);assert(ids.surrounding.disabled);assert.equal(context.features.filtered().length,numFor('accepting')+3);
 ids.reset.handlers.click();assert.equal(context.features.filtered().length,N);assert(ids.surrounding.disabled);assert(!ids.surrounding.checked);
 console.log('PASS: surrounding-area inclusion, sort, missing/invalid coordinates, multiple communities, combined filters, filtered export and reset');
 console.log(`PASS: ${N} records; ${numFor("accepting")} direct; ${numFor("reported")} reported; clinic filters and ${TOWNS} SVG markers; no patient-address entry`);
@@ -157,3 +157,17 @@ Object.assign(mixed,{walk_in_review:saved.walk,ongoing_care_review:saved.ongoing
 ids.reset.handlers.click();ids.reset.handlers.click();assert.equal(f.chosen.town.length,0);assert.equal(f.chosen.status.length,0);assert.equal(ids.search.value,'');assert.equal(ids.results.children.filter(c=>c.className==='item').length,N);
 ids.mapMode.handlers.change({target:{value:'clinics'}});assert(ids.map.children.some(c=>c.tag==='g'));ids.mapMode.handlers.change({target:{value:'towns'}});
 console.log('PASS: single search includes unverified care; no hidden legacy controls; independent service evidence, search, attachment filter, repeated reset and all exports preserved');
+
+// Reviewed TMC network applications are discoverable without office-intake upgrades.
+ids.reset.handlers.click(); f.setFilter('status',['accepting']);
+for(const id of ['c006','c007','c010']){
+ const row=f.exportRows().find(c=>c.id===id);
+ assert(row,'TMC network application must remain discoverable in applications filter');
+ assert.equal(row.display_status,'reported');
+ const card=ids.results.children.find(c=>c.innerText.includes(row.name));
+ assert(card.innerText.includes('Network applications advertised; location not confirmed.'));
+}
+f.setFilter('status',['reported']);
+for(const id of ['c006','c007','c010'])assert(f.exportRows().some(c=>c.id===id));
+ids.reset.handlers.click();
+console.log('PASS: TMC applications discoverability retains network-level uncertainty and lead classification');
