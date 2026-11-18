@@ -2952,5 +2952,56 @@
     "source": "https://dchc.ca/public-walk-in-clinic/",
     "type": "service_pathway_clarification",
     "reviewer_note": "DCHC public walk-in page successfully reviewed. Removed obsolete retrieval-failure wording; acute/urgent walk-in service is distinct from Big Creek/Norfolk FHT enrolment. Ongoing intake remains unconfirmed."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c006",
+    "clinic_name": "TMC+ — Hyde Park",
+    "old_status": "accepting",
+    "new_status": "reported",
+    "source": "https://thompsonmedical.ca/new-patients/",
+    "type": "attachment_scope_audit",
+    "reviewer_note": "Conservative correction from office-specific application claim to shared network lead. Official page promises location choice, but linked intake form returned404 during review; specific office application availability not independently established. Not evidence of closure."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c007",
+    "clinic_name": "TMC+ — Thompson Road",
+    "old_status": "accepting",
+    "new_status": "reported",
+    "source": "https://thompsonmedical.ca/new-patients/",
+    "type": "attachment_scope_audit",
+    "reviewer_note": "Conservative correction from office-specific application claim to shared network lead. Official page promises location choice, but linked intake form returned404 during review; specific office application availability not independently established. Not evidence of closure."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c010",
+    "clinic_name": "TMC+ — St. Thomas",
+    "old_status": "accepting",
+    "new_status": "reported",
+    "source": "https://thompsonmedical.ca/new-patients/",
+    "type": "attachment_scope_audit",
+    "reviewer_note": "Conservative correction from office-specific application claim to shared network lead. Official page promises location choice, but linked intake form returned404 during review; specific office application availability not independently established. Not evidence of closure."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c109",
+    "clinic_name": "Central Community Health Centre",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://centralchc.com/",
+    "type": "application_route_correction",
+    "reviewer_note": "Current homepage/contact pages direct prospective patients to phone for enrolment and no longer link the previously reviewed Microsoft Forms intake. Replaced the obsolete form/privacy warning with the current phone route; earlier observation retained in history. No clinic contact or form submission.",
+    "prior_notes": "The intake form introduction describes confidential primary-care use, but the platform separately warns that the owner has not supplied a privacy statement. This is a reason to clarify the route, not a finding of a privacy-law breach. No personal information was entered."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c004",
+    "clinic_name": "London Family Health Team — Beaverbrook",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
+    "type": "application_scope_clarification",
+    "reviewer_note": "Named Hassani/Haghighi application remains documented, but it is not the only published LFHT application pathway: a separate August 26 announcement names Beaverbrook and Stoney Creek for availability-dependent applications. Preserve the named-form eligibility and reception discrepancy; broad announcement is not proof every clinician accepts. General location-page conflict remains relevant."
   }
 ]

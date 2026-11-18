@@ -14,7 +14,7 @@ def ongoing_eligible(clinic):
 
 STATUSES={
  'accepting':('Applications advertised','accepting'),
- 'reported':('Reported by regional source','reported'),
+ 'reported':('Network / regional lead (confirm)','reported'),
  'limited':('Limited intake / eligibility','limited'),
  'waitlist':('Waitlist / application queue','waitlist'),
  'not_accepting':('Not accepting (clinic notice)','closed'),

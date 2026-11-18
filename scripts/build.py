@@ -112,7 +112,7 @@ def make_docx():
             records=[c for c in subset if c['display_status']==st] if group_status else subset
             if not records:continue
             if group_status:doc.add_heading(f'{STATUSES[st][0]}  ({len(records)})',level=2)
-            if st=='reported' and group_status:doc.add_paragraph('Regional leads need direct confirmation of ongoing-care attachment.')
+            if st=='reported' and group_status:doc.add_paragraph('Network or regional leads need office-specific confirmation of ongoing-care attachment.')
             if st=='needs_review' and group_status:doc.add_paragraph('Older information requires reconfirmation; it does not establish an open or closed patient roster.')
             for c in records:
                 p=doc.add_paragraph();p.paragraph_format.keep_with_next=True

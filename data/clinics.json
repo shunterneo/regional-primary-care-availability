@@ -171,7 +171,7 @@
       "address": "1261 Beaverbrook Avenue, Unit 1",
       "clinic_type": "FHT",
       "status": "accepting",
-      "intake_detail": "Applications are advertised specifically for Dr. Behzad Hassani and NP Mahsa Haghighi, not all Beaverbrook physicians. The August 2026 form is for people without a doctor or NP; application does not guarantee acceptance. Call 519-673-3900 to confirm reception: the FAQ says second floor while the form says Unit 1. Named-provider evidence is more specific than the general locations notice.",
+      "intake_detail": "The FAQ advertises applications specifically to Dr. Behzad Hassani and NP Mahsa Haghighi; their August 2026 form is for people without a doctor or NP. Call 519-673-3900 to confirm reception: the FAQ says second floor while the form says Unit 1. Separately, the August 26, 2026 LFHT announcement invites applications at Beaverbrook and Stoney Creek, with placement depending on individual clinician availability. This broader invitation does not establish that every physician is accepting. Application does not guarantee enrolment.",
       "phone": "519-673-3900",
       "providers": "Dr. Behzad Hassani; NP Mahsa Haghighi (named intake only)",
       "evidence_url": "https://londonfht.ca/frequently-asked-questions/",
@@ -191,7 +191,7 @@
         "reviewed_on": "2026-11-18",
         "method": "public_webpage_review",
         "source_url": "https://londonfht.ca/frequently-asked-questions/",
-        "finding": "Current FAQ and physician page still explicitly advertise applications to Dr. Behzad Hassani and his NP, submitted to his office or hassanioffice@beaverbrookmedical.ca. This is a named-practice exception, not all Beaverbrook physicians. The general locations notice still conflicts; the published floor/suite caution remains. No capacity or enrolment guarantee.",
+        "finding": "The FAQ advertises applications specifically to Dr. Behzad Hassani and NP Mahsa Haghighi; their August 2026 form is for people without a doctor or NP. Call 519-673-3900 to confirm reception: the FAQ says second floor while the form says Unit 1. Separately, the August 26, 2026 LFHT announcement invites applications at Beaverbrook and Stoney Creek, with placement depending on individual clinician availability. This broader invitation does not establish that every physician is accepting. Application does not guarantee enrolment.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -209,11 +209,10 @@
       "application_url": "https://londonfht.ca/wp-content/uploads/2026/08/Dr-B-Hassani-Patient-Intake-Form-2026-Copy.pdf",
       "online_review": {
         "reviewed_on": "2026-11-18",
-        "finding": "Current FAQ and physician page still explicitly advertise applications to Dr. Behzad Hassani and his NP, submitted to his office or hassanioffice@beaverbrookmedical.ca. This is a named-practice exception, not all Beaverbrook physicians. The general locations notice still conflicts; the published floor/suite caution remains. No capacity or enrolment guarantee.",
+        "finding": "Named Hassani/Haghighi application remains documented, but it is not the only published LFHT application pathway: a separate August 26 announcement names Beaverbrook and Stoney Creek for availability-dependent applications. Preserve the named-form eligibility and reception discrepancy; broad announcement is not proof every clinician accepts. General location-page conflict remains relevant.",
         "sources": [
           "https://londonfht.ca/frequently-asked-questions/",
-          "https://londonfht.ca/family-physicians/",
-          "https://londonfht.ca/our-locations/"
+          "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/"
         ]
       }
     },
@@ -280,28 +279,28 @@
       "community": "London",
       "address": "990 Gainsborough Road",
       "clinic_type": "MD",
-      "status": "accepting",
-      "intake_detail": "Official TMC+ new-patient application and London medical association list.",
+      "status": "reported",
+      "intake_detail": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
       "phone": "519-601-8621",
       "providers": "",
       "evidence_url": "https://thompsonmedical.ca/new-patients/",
       "clinic_url": "https://thompsonmedical.ca/",
       "source_published": "",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-18",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "review_basis": "Official network application page reviewed November 18, 2026; individual-location options not verified. No telephone confirmation or guaranteed enrolment.",
       "care_model": "both",
       "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
       "care_model_source": "https://thompsonmedical.ca/",
       "intake_verification": {
-        "tier": "clinic_first_party",
-        "scope": "location",
-        "reviewed_on": "2026-11-11",
+        "tier": "program_general",
+        "scope": "organization",
+        "reviewed_on": "2026-11-18",
         "method": "public_webpage_review",
         "source_url": "https://thompsonmedical.ca/new-patients/",
-        "finding": "TMC+ website says now accepting and provides location-selectable application.",
+        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -327,11 +326,13 @@
       },
       "ongoing_care_review": {
         "reviewed_on": "2026-11-18",
-        "finding": "Official new-patient page advertises a separate family-doctor application with location selection. This supports advertised applications, not guaranteed availability at a chosen location or final enrolment. Page is undated.",
+        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
         "sources": [
-          "https://thompsonmedical.ca/new-patients/"
+          "https://thompsonmedical.ca/new-patients/",
+          "https://thompsonmedical.ca/team/"
         ]
-      }
+      },
+      "application_url": "https://thompsonmedical.ca/new-patients/"
     },
     {
       "id": "c007",
@@ -339,28 +340,28 @@
       "community": "London",
       "address": "130 Thompson Road",
       "clinic_type": "MD",
-      "status": "accepting",
-      "intake_detail": "Online clinic application indicates choice of location; no guaranteed enrolment.",
+      "status": "reported",
+      "intake_detail": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
       "phone": "519-601-8621",
       "providers": "",
       "evidence_url": "https://thompsonmedical.ca/new-patients/",
       "clinic_url": "https://thompsonmedical.ca/",
       "source_published": "",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-18",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "review_basis": "Official network application page reviewed November 18, 2026; individual-location options not verified. No telephone confirmation or guaranteed enrolment.",
       "care_model": "both",
       "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
       "care_model_source": "https://thompsonmedical.ca/",
       "intake_verification": {
-        "tier": "clinic_first_party",
-        "scope": "location",
-        "reviewed_on": "2026-11-11",
+        "tier": "program_general",
+        "scope": "organization",
+        "reviewed_on": "2026-11-18",
         "method": "public_webpage_review",
         "source_url": "https://thompsonmedical.ca/new-patients/",
-        "finding": "TMC+ website advertises location-selectable new-patient application.",
+        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -385,11 +386,13 @@
       },
       "ongoing_care_review": {
         "reviewed_on": "2026-11-18",
-        "finding": "Official new-patient page advertises a separate family-doctor application with location selection. This supports advertised applications, not guaranteed availability at a chosen location or final enrolment. Page is undated.",
+        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
         "sources": [
-          "https://thompsonmedical.ca/new-patients/"
+          "https://thompsonmedical.ca/new-patients/",
+          "https://thompsonmedical.ca/team/"
         ]
-      }
+      },
+      "application_url": "https://thompsonmedical.ca/new-patients/"
     },
     {
       "id": "c008",
@@ -507,28 +510,28 @@
       "community": "St. Thomas",
       "address": "25 Elm Street, Unit 104",
       "clinic_type": "MD",
-      "status": "accepting",
-      "intake_detail": "TMC+ advertises a separate new-patient application across its locations. Clinic at same building as Elmdale Health but different intake.",
+      "status": "reported",
+      "intake_detail": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment. This office is separate from Elmdale Health despite sharing a building.",
       "phone": "519-601-8621 option 3",
       "providers": "",
       "evidence_url": "https://thompsonmedical.ca/new-patients/",
       "clinic_url": "https://thompsonmedical.ca/walk-in-clinic/",
       "source_published": "",
-      "last_reviewed": "2026-11-11",
+      "last_reviewed": "2026-11-18",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 39,
       "notes": "",
-      "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
+      "review_basis": "Official network application page reviewed November 18, 2026; individual-location options not verified. No telephone confirmation or guaranteed enrolment.",
       "care_model": "both",
       "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
       "care_model_source": "https://thompsonmedical.ca/walk-in-clinic/",
       "intake_verification": {
-        "tier": "clinic_first_party",
-        "scope": "location",
-        "reviewed_on": "2026-11-11",
+        "tier": "program_general",
+        "scope": "organization",
+        "reviewed_on": "2026-11-18",
         "method": "public_webpage_review",
         "source_url": "https://thompsonmedical.ca/new-patients/",
-        "finding": "TMC+ site lists St Thomas as one of the location choices on its new-patient process.",
+        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment. This office is separate from Elmdale Health despite sharing a building.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -554,11 +557,13 @@
       },
       "ongoing_care_review": {
         "reviewed_on": "2026-11-18",
-        "finding": "Official new-patient page advertises a separate family-doctor application with location selection. This supports advertised applications, not guaranteed availability at a chosen location or final enrolment. Page is undated.",
+        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment. This office is separate from Elmdale Health despite sharing a building.",
         "sources": [
-          "https://thompsonmedical.ca/new-patients/"
+          "https://thompsonmedical.ca/new-patients/",
+          "https://thompsonmedical.ca/team/"
         ]
-      }
+      },
+      "application_url": "https://thompsonmedical.ca/new-patients/"
     },
     {
       "id": "c011",
@@ -5320,7 +5325,7 @@
       "care_model_basis": "Named organization identifies primary family physician or nurse practitioner services at this office.",
       "care_model_source": "https://centralchc.com/contact/",
       "source_published": "",
-      "notes": "The intake form introduction describes confidential primary-care use, but the platform separately warns that the owner has not supplied a privacy statement. This is a reason to clarify the route, not a finding of a privacy-law breach. No personal information was entered.",
+      "notes": "Phone enrolment route reviewed November 18, 2026; no form submitted or personal information entered.",
       "clinic_address_verified": true,
       "address_verification_source": "https://centralchc.com/contact/",
       "address_verified_on": "2026-11-12",
@@ -5331,17 +5336,17 @@
       "intake_reviewed_by_phone": false,
       "status": "accepting",
       "evidence_url": "https://centralchc.com/",
-      "intake_detail": "Applications: Clinic advertises client intake and links its Primary Care Services Intake Form; enrolment is not guaranteed.\nEligibility / service area: Serves St. Thomas, Central Elgin and Southwold Township. An OHIP card is not required. Full individual eligibility remains subject to clinic assessment.\nPriorities: The clinic describes reducing barriers to care. The reviewed homepage does not establish a blanket requirement to be low-income or unhoused, or a current priority order.\nWaiting time: No current wait-time estimate verified.\nForm privacy caution: The linked Microsoft Forms page displays a notice that its owner has not provided a privacy statement and advises against providing personal or sensitive information. Call 519-633-7989 to clarify the privacy arrangements or request another intake route before submitting.",
-      "last_reviewed": "2026-11-13",
-      "review_basis": "Clinic-owned source and relevant linked route reviewed online November 13, 2026. No telephone confirmation; no application or appointment submitted.",
+      "intake_detail": "Ongoing physician/NP enrolment: clinic instructs prospective patients to call 519-633-7989 during opening hours. It is not a walk-in clinic. Serves St. Thomas, Central Elgin and Southwold Township; an OHIP card is not required. Eligibility and placement remain subject to clinic assessment. No current wait estimate or guaranteed placement verified.",
+      "last_reviewed": "2026-11-18",
+      "review_basis": "Current official enrolment instructions reviewed November 18, 2026; no telephone confirmation or guaranteed placement.",
       "auto_updates_enabled": false,
       "intake_verification": {
         "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-13",
+        "reviewed_on": "2026-11-18",
         "method": "public_webpage_review",
         "source_url": "https://centralchc.com/",
-        "finding": "Applications: Clinic advertises client intake and links its Primary Care Services Intake Form; enrolment is not guaranteed.\nEligibility / service area: Serves St. Thomas, Central Elgin and Southwold Township. An OHIP card is not required. Full individual eligibility remains subject to clinic assessment.\nPriorities: The clinic describes reducing barriers to care. The reviewed homepage does not establish a blanket requirement to be low-income or unhoused, or a current priority order.\nWaiting time: No current wait-time estimate verified.\nForm privacy caution: The linked Microsoft Forms page displays a notice that its owner has not provided a privacy statement and advises against providing personal or sensitive information. Call 519-633-7989 to clarify the privacy arrangements or request another intake route before submitting.",
+        "finding": "Ongoing physician/NP enrolment: clinic instructs prospective patients to call 519-633-7989 during opening hours. It is not a walk-in clinic. Serves St. Thomas, Central Elgin and Southwold Township; an OHIP card is not required. Eligibility and placement remain subject to clinic assessment. No current wait estimate or guaranteed placement verified.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -5351,8 +5356,25 @@
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
-        "reviewed_on": "2026-11-13",
-        "finding": "Applications: Clinic advertises client intake and links its Primary Care Services Intake Form; enrolment is not guaranteed.\nEligibility / service area: Serves St. Thomas, Central Elgin and Southwold Township. An OHIP card is not required. Full individual eligibility remains subject to clinic assessment.\nPriorities: The clinic describes reducing barriers to care. The reviewed homepage does not establish a blanket requirement to be low-income or unhoused, or a current priority order.\nWaiting time: No current wait-time estimate verified.\nForm privacy caution: The linked Microsoft Forms page displays a notice that its owner has not provided a privacy statement and advises against providing personal or sensitive information. Call 519-633-7989 to clarify the privacy arrangements or request another intake route before submitting.",
+        "reviewed_on": "2026-11-18",
+        "finding": "Current homepage/contact pages direct prospective patients to phone for enrolment and no longer link the previously reviewed Microsoft Forms intake. Replaced the obsolete form/privacy warning with the current phone route; earlier observation retained in history. No clinic contact or form submission.",
+        "sources": [
+          "https://centralchc.com/",
+          "https://centralchc.com/contact/"
+        ]
+      },
+      "application_url": "https://centralchc.com/",
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Ongoing physician/NP enrolment: clinic instructs prospective patients to call 519-633-7989 during opening hours. It is not a walk-in clinic. Serves St. Thomas, Central Elgin and Southwold Township; an OHIP card is not required. Eligibility and placement remain subject to clinic assessment. No current wait estimate or guaranteed placement verified.",
+        "sources": [
+          "https://centralchc.com/"
+        ]
+      },
+      "walk_in_review": {
+        "status": "not_available",
+        "reviewed_on": "2026-11-18",
+        "finding": "Official FAQ explicitly says the centre is not a walk-in clinic. Existing clients needing short-notice care must call for an appointment; this does not establish public drop-in access.",
         "sources": [
           "https://centralchc.com/"
         ]

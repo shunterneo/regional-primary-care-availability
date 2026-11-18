@@ -4,7 +4,7 @@ const html=fs.readFileSync(__dirname+'/../site/index.html','utf8');
 const dataMatch=html.match(/<script id="clinic-data" type="application\/json">([\s\S]*?)<\/script>/);
 const scriptMatch=html.match(/<script>\s*('use strict';[\s\S]*?)<\/script>/);
 assert(dataMatch&&scriptMatch,'embedded data and UI script');
-const DATA=JSON.parse(dataMatch[1]);const N=DATA.clinics.length;const numFor=(k)=>DATA.clinics.filter(x=>['ongoing','both'].includes(x.care_model)&&x.display_status===k).length;const TOWNS=new Set(DATA.clinics.map(x=>x.community)).size;const countTown=t=>DATA.clinics.filter(x=>x.community===t&&['ongoing','both'].includes(x.care_model)).length;const countModel=k=>DATA.clinics.filter(x=>x.care_model===k).length;const countOngoing=()=>DATA.clinics.filter(x=>['ongoing','both'].includes(x.care_model)).length;
+const DATA=JSON.parse(dataMatch[1]);const N=DATA.clinics.length;const numFor=(k)=>DATA.clinics.filter(x=>['ongoing','both'].includes(x.care_model)&&x.display_status===k).length;const TOWNS=new Set(DATA.clinics.map(x=>x.community)).size;const countTown=t=>DATA.clinics.filter(x=>x.community===t).length;
 class Node{
  constructor(tag='',cls='',text=''){this.tag=tag;this.className=cls;this.textContent=text;this.children=[];this.handlers={};this.value='all';this.href='';this.style={};this.attrs={};}
  prepend(x){this.children.unshift(x);return x}append(...xs){this.children.push(...xs)}showModal(){this.open=true}close(){this.open=false}remove(){}focus(){}select(){}click(){if(this.handlers.click)this.handlers.click()}set id(v){this._id=v;ids[v]=this}get id(){return this._id}replaceChildren(...nodes){this.children=[...nodes]}
@@ -18,16 +18,12 @@ const document={handlers:{},addEventListener(k,callback){this.handlers[k]=callba
 const timers=[];const context={document,console,Math,Set,JSON,Intl,TextEncoder,setInterval(fn){timers.push(fn)}};
 vm.runInNewContext(scriptMatch[1].replace('})();','globalThis.features={setFilter,chosen,filterControls,openEditor,reviewEdit,pdfBytes,docxBytes,csvBytes,exportRows,selectedClinics};})();'),context, {timeout:3000,filename:'site-inline.js'});
 assert.equal(ids.mTotal.textContent,N);assert.equal(ids.mIntake.textContent,numFor('accepting'));assert.equal(ids.mLeads.textContent,numFor('reported'));
-assert.equal(ids.results.children.length,countOngoing());assert.equal(ids.map.children.filter(x=>x.tag==='g').length,TOWNS);
+assert.equal(ids.results.children.length,N);assert.equal(ids.map.children.filter(x=>x.tag==='g').length,TOWNS);
 context.features.setFilter('status',['accepting']);assert.equal(ids.results.children.length,numFor('accepting'));
 context.features.setFilter('status',['reported']);assert.equal(ids.results.children.length,numFor('reported'));
 context.features.setFilter('status',['all']);
-context.features.setFilter('care',['both']);assert.equal(ids.results.children.length,countModel('both'));
-context.features.setFilter('care',['walkin']);assert.equal(ids.results.children.length,countModel('both')+countModel('walk_in_only'));
-context.features.setFilter('care',['walk_in_only']);assert.equal(ids.results.children.filter(n=>n.className==='item').length,countModel('walk_in_only'));assert(!ids.map.children.some(n=>n.tag==='g') || countModel('walk_in_only')>0);
-context.features.setFilter('care',['ongoing']);
 ids.search.handlers.input({target:{value:'Oxfordia'}});const match=C=>C.filter(c=>c.name.toLowerCase().includes('oxfordia')).length;assert.equal(ids.results.children.length,match(DATA.clinics));
-ids.reset.handlers.click();assert.equal(ids.results.children.length,countOngoing());
+ids.reset.handlers.click();assert.equal(ids.results.children.length,N);
 context.features.setFilter('town',['Tillsonburg']);assert.equal(ids.results.children.length,countTown('Tillsonburg'));
 assert(!/home.address|residential address geocod|Google Map/i.test(ids.last.innerText));
 ids.reset.handlers.click();ids.mapMode.handlers.change({target:{value:'clinics'}});assert(ids.mapDetail.textContent.includes('sourced clinic points'));assert(ids.map.children.some(n=>n.tag==='g'));context.features.setFilter('town',['Tillsonburg']);assert(ids.mapDetail.textContent.includes('filtered listings'));ids.mapMode.handlers.change({target:{value:'towns'}});ids.reset.handlers.click();
@@ -84,7 +80,7 @@ ids.reset.handlers.click();
 const ctl=f.filterControls;
 function tick(id,value,checked){const input=ctl[id].inputs.find(x=>x[0]===value)[1];input.checked=checked;input.handlers.change()}
 tick('status','reported',true);tick('status','waitlist',true);
-const expected=DATA.clinics.filter(c=>['ongoing','both'].includes(c.care_model)&&['reported','waitlist'].includes(c.display_status));
+const expected=DATA.clinics.filter(c=>['reported','waitlist'].includes(c.display_status));
 assert.equal(ids.results.children.filter(x=>x.className==='item').length,expected.length);
 assert(ids.statusSummary.textContent.includes('Waitlist'));
 const twoTowns=[...new Set(expected.map(c=>c.community))].slice(0,2);
@@ -92,13 +88,11 @@ for(const t of twoTowns)tick('town',t,true);
 assert.equal(ids.results.children.filter(x=>x.className==='item').length,expected.filter(c=>twoTowns.includes(c.community)).length);
 ids.downloadScope.value='filtered';assert.equal(f.exportRows().length,expected.filter(c=>twoTowns.includes(c.community)).length);
 ids.statusAll.handlers.click();assert.equal(f.chosen.status.length,0);
-ids.townAll.handlers.click();tick('care','unverified',true);
-assert.equal(f.exportRows().length,DATA.clinics.filter(c=>['ongoing','both','unverified'].includes(c.care_model)).length);
-ids.careAll.handlers.click();assert.equal(f.exportRows().length,N);
+ids.townAll.handlers.click();assert.equal(f.exportRows().length,N);
 ids.status.open=true;ids.status.handlers.keydown({key:'Escape'});assert.equal(ids.status.open,false);
-ids.reset.handlers.click();assert.deepEqual(Array.from(f.chosen.care),['ongoing']);assert.equal(f.chosen.status.length,0);assert.equal(f.chosen.town.length,0);
-assert.equal(f.exportRows().length,countOngoing());
-console.log('PASS: multiple statuses/communities/care types, OR/AND combinations, filtered export, Show all, reset, Escape');
+ids.reset.handlers.click();assert.equal(f.chosen.status.length,0);assert.equal(f.chosen.town.length,0);
+assert.equal(f.exportRows().length,N);
+console.log('PASS: multiple statuses/communities, OR/AND combinations, filtered export, Show all, reset, Escape');
 
 // Sourced HCC guidance is shared by the site and both document exporters.
 assert(DATA.health_care_connect.text.includes('call 811'));
@@ -111,38 +105,36 @@ assert(Buffer.from(f.docxBytes([ox])).toString().includes(DATA.health_care_conne
 assert(Buffer.from(f.pdfBytes([ox])).toString().includes('Health Care Connect'));
 console.log('PASS: HCC guidance and provenance retained in website and PDF/Word exports');
 
-// Purpose views keep episodic service evidence separate from family attachment.
-ids.reset.handlers.click();ids.downloadScope.value='all';
+// One search includes all service listings, with care labels rather than redundant views.
+assert(!ids.purposeOngoing&&!ids.purposeWalkin&&!ids.care&&!ids.careSummary);
+assert(!ids.metricsScope&&!html.includes('counterScope')&&!html.includes('In these results:'));
+assert.deepEqual(Object.keys(f.chosen).sort(),['status','town']);
+ids.reset.handlers.click();assert.equal(ids.results.children.filter(c=>c.className==='item').length,N);
+for(const unknown of DATA.clinics.filter(c=>c.care_model==='unverified')){const card=ids.results.children.find(c=>c.innerText.includes(unknown.name));assert(card&&card.innerText.includes('Care model not verified'));assert(card.innerText.includes('Family-practice intake: Intake not confirmed'))}
+assert(html.includes('Explore directory service listings'));
+
+// Independent episodic and ongoing-care evidence remains visible, searchable and exportable.
+ids.downloadScope.value='all';
 const mixed=f.exportRows().find(c=>c.care_model==='both');assert(mixed);
 const saved={walk:mixed.walk_in_review,ongoing:mixed.ongoing_care_review,status:mixed.display_status};
 mixed.walk_in_review={status:'advertised',reviewed_on:'2026-11-18',finding:'Fixture: walk-in visits published; not live capacity.',eligibility:'Fixture eligibility is limited to adults.',sources:['https://example.org/walk-in']};
 mixed.ongoing_care_review={reviewed_on:'2026-11-18',finding:'Fixture: separate ongoing-care evidence.',sources:['https://example.org/family-care']};
 mixed.display_status='not_accepting';
-f.setFilter('status',['accepting']);ids.purposeWalkin.handlers.click();
-assert.equal(ids.purposeWalkin.attrs['aria-pressed'],'true');assert.equal(ids.purposeOngoing.attrs['aria-pressed'],'false');
-assert.equal(ids.status.hidden,true);assert.equal(ids.walkinNotice.hidden,false);assert.equal(f.chosen.status.length,0);
-const walkCount=DATA.clinics.filter(c=>['both','walk_in_only'].includes(c.care_model)).length;
-assert.equal(ids.results.children.filter(c=>c.className==='item').length,walkCount);
+f.setFilter('status',['not_accepting']);
 const getMixed=()=>ids.results.children.find(c=>c.innerText.includes(mixed.name));
-let card=getMixed();assert(card);assert(card.innerText.includes('Walk-in service advertised (check access)'));assert(card.innerText.includes('Separate family-practice intake: Not accepting'));
+let card=getMixed();assert(card);assert(card.innerText.includes('Walk-in service advertised (check access)'));assert(card.innerText.includes('Family-practice intake: Not accepting'));
 assert(card.innerText.includes('Fixture eligibility'));assert(card.innerText.includes('Family-care service review · 2026-11-18'));assert(card.innerText.includes('Walk-in evidence reviewed: 2026-11-18'));
-assert.equal(card.children.find(c=>c.className==='pills').children[0].className,'pill unknown');
-assert(ids.mapLegend.innerText.includes('not live availability'));
-for(const group of ids.map.children.filter(c=>c.tag==='g'))for(const dot of group.children.filter(c=>['circle','polygon'].includes(c.tag)))assert.equal(dot.attrs.fill,'#82959a');
-ids.mapMode.handlers.change({target:{value:'clinics'}});
-for(const group of ids.map.children.filter(c=>c.tag==='g'))for(const dot of group.children.filter(c=>['circle','polygon'].includes(c.tag)))assert.equal(dot.attrs.fill,'#82959a');
-f.setFilter('status',['accepting']);assert.equal(ids.results.children.filter(c=>c.className==='item').length,walkCount,'hidden family filter cannot suppress walk-in results');
-f.setFilter('town',[mixed.community]);for(const term of ['Fixture eligibility','separate ongoing-care evidence','walk-in visits published']){ids.search.handlers.input({target:{value:term}});assert(getMixed(),'service findings and eligibility are searchable')}ids.search.handlers.input({target:{value:mixed.name}});assert(getMixed());
-ids.purposeOngoing.handlers.click();assert.equal(ids.status.hidden,false);assert.equal(ids.walkinNotice.hidden,true);assert.equal(f.chosen.status.length,0);assert(getMixed());
-assert(getMixed().children.find(c=>c.className==='pills').children[0].innerText.startsWith('Family-practice intake:'));
-ids.purposeWalkin.handlers.click();ids.purposeWalkin.handlers.click();assert.equal(f.chosen.care.length,1);assert(getMixed());
-for(const status of ['uncertain','not_available']){mixed.walk_in_review.status=status;ids.purposeWalkin.handlers.click();assert(getMixed().innerText.includes(status==='uncertain'?'Walk-in service needs verification':'Walk-in service not available'))}
-delete mixed.walk_in_review;ids.purposeWalkin.handlers.click();assert(getMixed().innerText.includes('Walk-in evidence review date: not recorded.'));
-assert(!getMixed().children.find(c=>c.className==='pills').children[0].innerText.includes('Not accepting'));
+assert.equal(card.children.find(c=>c.className==='pills').children[0].className,'pill not_accepting');
+f.setFilter('status',['accepting']);assert(!getMixed(),'attachment-status filter still applies despite advertised walk-in service');
+f.setFilter('status',[]);f.setFilter('town',[mixed.community]);for(const term of ['Fixture eligibility','separate ongoing-care evidence','walk-in visits published']){ids.search.handlers.input({target:{value:term}});assert(getMixed(),'service findings and eligibility are searchable')}
+ids.search.handlers.input({target:{value:mixed.name}});assert(getMixed());
+for(const status of ['uncertain','not_available']){mixed.walk_in_review.status=status;f.setFilter('status',[]);assert(getMixed().innerText.includes(status==='uncertain'?'Walk-in service needs verification':'Walk-in service not available'))}
+delete mixed.walk_in_review;f.setFilter('status',[]);assert(getMixed().innerText.includes('Walk-in evidence review date: not recorded.'));
+assert(getMixed().children.find(c=>c.className==='pills').children[0].innerText.includes('Family-practice intake: Not accepting'));
 mixed.walk_in_review={status:'advertised',reviewed_on:'2026-11-18',finding:'Fixture: walk-in visits published; not live capacity.',eligibility:'Fixture eligibility is limited to adults.',sources:['https://example.org/walk-in']};
 const csv=f.csvBytes([mixed]);assert(csv.includes('Family-practice intake: Not accepting'));assert(csv.includes('Walk-in service advertised'));assert(csv.includes('https://example.org/walk-in'));assert(csv.includes('https://example.org/family-care'));assert(csv.includes('Incomplete walk-in inventory'));
 for(const text of [f.pdfBytes([mixed]),new TextDecoder().decode(f.docxBytes([mixed]))]){assert(text.includes('Family-practice intake:'));assert(text.includes('Walk-in evidence reviewed:'));assert(text.includes('Fixture eligibility'));assert(text.includes('https://example.org/walk-in'));assert(text.includes('https://example.org/family-care'))}
 Object.assign(mixed,{walk_in_review:saved.walk,ongoing_care_review:saved.ongoing,display_status:saved.status});
-ids.reset.handlers.click();assert.equal(ids.purposeOngoing.attrs['aria-pressed'],'true');assert.equal(ids.status.hidden,false);assert.equal(ids.walkinNotice.hidden,true);assert.equal(f.chosen.town.length,0);assert.equal(ids.search.value,'');
-ids.mapMode.handlers.change({target:{value:'towns'}});
-console.log('PASS: purpose views, distinct service evidence, no inferred walk-in capacity, neutral maps, retained search/community, repeated switches/reset and independent evidence in all exports');
+ids.reset.handlers.click();ids.reset.handlers.click();assert.equal(f.chosen.town.length,0);assert.equal(f.chosen.status.length,0);assert.equal(ids.search.value,'');assert.equal(ids.results.children.filter(c=>c.className==='item').length,N);
+ids.mapMode.handlers.change({target:{value:'clinics'}});assert(ids.map.children.some(c=>c.tag==='g'));ids.mapMode.handlers.change({target:{value:'towns'}});
+console.log('PASS: single search includes unverified care; no hidden legacy controls; independent service evidence, search, attachment filter, repeated reset and all exports preserved');
