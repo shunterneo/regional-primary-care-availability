@@ -16,7 +16,7 @@ const ids={};for(const m of html.matchAll(/\bid="([^"]+)"/g))ids[m[1]]=new Node(
 ids['clinic-data'].textContent=dataMatch[1];
 const document={handlers:{},addEventListener(k,callback){this.handlers[k]=callback},getElementById(id){assert(ids[id],`missing id: ${id}`);return ids[id]},createElement(tag){return new Node(tag)},createElementNS(ns,tag){return new Node(tag)}};
 const timers=[];const context={document,console,Math,Set,JSON,Intl,TextEncoder,setInterval(fn){timers.push(fn)}};
-vm.runInNewContext(scriptMatch[1].replace('})();','globalThis.features={setFilter,chosen,filterControls,openEditor,reviewEdit,pdfBytes,docxBytes,csvBytes,exportRows,selectedClinics};})();'),context, {timeout:3000,filename:'site-inline.js'});
+vm.runInNewContext(scriptMatch[1].replace('})();','globalThis.features={distanceTo,filtered,setFilter,chosen,filterControls,openEditor,reviewEdit,pdfBytes,docxBytes,csvBytes,exportRows,selectedClinics};})();'),context, {timeout:3000,filename:'site-inline.js'});
 assert.equal(ids.mTotal.textContent,N);assert.equal(ids.mIntake.textContent,numFor('accepting'));assert.equal(ids.mLeads.textContent,numFor('reported'));
 assert.equal(ids.results.children.length,N);assert.equal(ids.map.children.filter(x=>x.tag==='g').length,TOWNS);
 context.features.setFilter('status',['accepting']);assert.equal(ids.results.children.length,numFor('accepting'));
@@ -27,6 +27,25 @@ ids.reset.handlers.click();assert.equal(ids.results.children.length,N);
 context.features.setFilter('town',['Tillsonburg']);assert.equal(ids.results.children.length,countTown('Tillsonburg'));
 assert(!/home.address|residential address geocod|Google Map/i.test(ids.last.innerText));
 ids.reset.handlers.click();ids.mapMode.handlers.change({target:{value:'clinics'}});assert(ids.mapDetail.textContent.includes('sourced clinic points'));assert(ids.map.children.some(n=>n.tag==='g'));context.features.setFilter('town',['Tillsonburg']);assert(ids.mapDetail.textContent.includes('filtered listings'));ids.mapMode.handlers.change({target:{value:'towns'}});ids.reset.handlers.click();
+// Surrounding-area filtering uses clinic points, never a fallback town point or network service.
+context.features.setFilter('town',['Tillsonburg']);assert(!ids.surrounding.disabled);
+ids.surrounding.checked=true;ids.surrounding.handlers.change();
+const radiusRows=context.features.filtered();assert(radiusRows.length>countTown('Tillsonburg')&&radiusRows.length<N);
+assert(radiusRows.every(c=>c.community==='Tillsonburg'||(context.features.distanceTo(c)!==null&&context.features.distanceTo(c)<=25)));
+assert(DATA.clinics.filter(c=>c.community==='Tillsonburg').every(c=>radiusRows.some(r=>r.id===c.id)),'nearby is a superset of selected-community listings');
+assert(radiusRows.every((c,i)=>!i||(context.features.distanceTo(c)??Infinity)>=(context.features.distanceTo(radiusRows[i-1])??Infinity)));
+assert(ids.results.innerText.includes('straight line'));assert(ids.distanceStatus.textContent.includes('cannot be checked'));
+ids.downloadScope.value='filtered';assert.equal(context.features.exportRows().length,radiusRows.length);
+const localUnknown=DATA.clinics.find(c=>!Number.isFinite(c.latitude));assert(localUnknown);context.features.setFilter('town',[localUnknown.community]);assert(context.features.filtered().some(c=>c.id===localUnknown.id));assert(context.features.exportRows().some(c=>c.id===localUnknown.id));assert(ids.results.innerText.includes('Distance unavailable'));assert(!ids.unlocatedList.innerText.includes(localUnknown.name));context.features.setFilter('town',['Tillsonburg']);
+assert.equal(context.features.distanceTo({latitude:42.8654,longitude:-80.7228}),0);
+assert.equal(context.features.distanceTo({latitude:null,longitude:null}),null);
+assert.equal(context.features.distanceTo({latitude:100,longitude:0}),null);
+assert(context.features.distanceTo({latitude:42.8654+25/6371*180/Math.PI,longitude:-80.7228})>24.9999);
+context.features.setFilter('town',['Tillsonburg','Kitchener']);assert(context.features.filtered().length>radiusRows.length);
+context.features.setFilter('status',['accepting']);assert(context.features.filtered().every(c=>c.display_status==='accepting'));
+context.features.setFilter('town',[]);assert(ids.surrounding.disabled);assert.equal(context.features.filtered().length,numFor('accepting'));
+ids.reset.handlers.click();assert.equal(context.features.filtered().length,N);assert(ids.surrounding.disabled);assert(!ids.surrounding.checked);
+console.log('PASS: surrounding-area inclusion, sort, missing/invalid coordinates, multiple communities, combined filters, filtered export and reset');
 console.log(`PASS: ${N} records; ${numFor("accepting")} direct; ${numFor("reported")} reported; clinic filters and ${TOWNS} SVG markers; no patient-address entry`);
 
 // Exercise the actual export and editor code, with a one-clinic selected subset.
