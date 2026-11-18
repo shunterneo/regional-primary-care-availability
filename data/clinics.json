@@ -11250,6 +11250,49 @@
           "https://portal.opra.ca/jobs/openings/ab564a90-8b34-4cb6-9555-fb80c969a0df/"
         ]
       }
+    },
+    {
+      "id": "c229",
+      "name": "Mackenzie Clinic Family Medicine",
+      "community": "London",
+      "address": "450 Central Avenue, Unit 205",
+      "clinic_type": "MD",
+      "care_model": "ongoing",
+      "care_model_basis": "Official family medicine page independently checked November 18, 2026 for office identity, ongoing family practice, address and phone. Building coordinate reused from independently address-matched c063 at the same civic address; suites remain distinct.",
+      "care_model_source": "https://mackenzieclinic.com/family-medicine",
+      "status": "not_accepting",
+      "intake_detail": "The clinic's family medicine page states that new-patient intake is currently closed. It advises checking the page later for changes; this is not a closure of the clinic.",
+      "phone": "519-601-7535",
+      "providers": "",
+      "evidence_url": "https://mackenzieclinic.com/family-medicine",
+      "clinic_url": "https://mackenzieclinic.com/family-medicine",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "location_quality": "Street and suite verified on clinic website; address-matched building coordinate, not an entrance or unit.",
+      "community_distance_km": 44.5,
+      "latitude": 42.9934533,
+      "longitude": -81.2411338,
+      "coordinate_source": "https://www.openstreetmap.org/way/140785762",
+      "coordinate_checked_on": "2026-11-18",
+      "notes": "Distinct office from Forest City FHO (Lower Level 99) in the same building. Family Medicine services are provided only at the London location. Notice undated.",
+      "review_basis": "First-party page inspected November 18, 2026. Ongoing family practice in London, unit 205; distinct from Forest City FHO in Lower Level 99 at the same civic address. Notice undated; no phone confirmation.",
+      "intake_reviewed_on": "2026-11-18",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-18",
+        "source_url": "https://mackenzieclinic.com/family-medicine",
+        "method": "public_webpage_review",
+        "finding": "The clinic's family medicine page states that new-patient intake is currently closed. It advises checking the page later for changes; this is not a closure of the clinic.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
+      "coordinate_reviewed_on": "2026-11-18",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://mackenzieclinic.com/family-medicine",
+      "address_verified_on": "2026-11-18",
+      "auto_updates_enabled": false
     }
   ]
 }

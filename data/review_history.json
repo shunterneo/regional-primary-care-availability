@@ -3500,5 +3500,24 @@
     "type": "reviewed_planned_practice_application",
     "source": "https://form.jotform.com/262283813217254",
     "reviewer_note": "Indexed KGK-owned announcement linked through https://lnkd.in/gbgE7ENw to the live KGK Family Health Centre New Patient Application. Public form HTML and identity chain reviewed November 18; no information entered or submitted. OPRA recruitment corroborates planned Wellington identity at 275 Dundas. Neither recruitment nor an available form proves current operation."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c229",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://mackenzieclinic.com/family-medicine",
+    "reviewer_note": "Official family medicine page independently checked November 18, 2026 for office identity, ongoing family practice, address and phone. Building coordinate reused from independently address-matched c063 at the same civic address; suites remain distinct."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c229",
+    "clinic_name": "Mackenzie Clinic Family Medicine",
+    "old_status": "unknown",
+    "new_status": "not_accepting",
+    "source": "https://mackenzieclinic.com/family-medicine",
+    "type": "manual_review_with_evidence_gate",
+    "reviewer_note": "First-party page inspected November 18, 2026. Ongoing family practice in London, unit 205; distinct from Forest City FHO in Lower Level 99 at the same civic address. Notice undated; no phone confirmation.",
+    "evidence_quote": "Intake for new patients is currently closed."
   }
 ]
