@@ -11339,6 +11339,60 @@
       "address_verification_source": "https://www.drmichaelvu.ca/",
       "address_verified_on": "2026-11-18",
       "auto_updates_enabled": false
+    },
+    {
+      "id": "c231",
+      "name": "Doctors Walk-In Medical Clinic — Dr. Loay Haddad family practice",
+      "community": "London",
+      "address": "641 Commissioners Road East, London, ON N6C 2V9",
+      "clinic_type": "MD",
+      "care_model": "both",
+      "care_model_basis": "Undated official location page reviewed 2026-11-18 explicitly identifies ongoing care with Dr. Loay Haddad (CPSO 119795), his family practice at 641 Commissioners Road East, and separate general walk-in service. Linked patient-intake page concerns Dr. Rao at Highbury only; Haddad attachment intake remains unknown. Official directions link resolves to the named clinic Google Maps place coordinates. No telephone confirmation.",
+      "care_model_source": "https://kamvamedical.ca/doctors-walk-in-medical-clinic/",
+      "status": "unknown",
+      "intake_detail": "Ongoing family practice with Dr. Loay Haddad is advertised here, but new-patient attachment availability is not confirmed. Walk-in visits are separate and do not establish family-doctor registration. The linked network intake announcement is for Dr. Saadiyah Rao at Highbury, not Dr. Haddad at this location.",
+      "phone": "519-686-8585",
+      "providers": "Dr. Loay Haddad",
+      "evidence_url": "https://kamvamedical.ca/doctors-walk-in-medical-clinic/",
+      "clinic_url": "https://kamvamedical.ca/doctors-walk-in-medical-clinic/",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "location_quality": "Official clinic directions link to named Google Maps place point; not a verified entrance.",
+      "community_distance_km": 42.7,
+      "latitude": 42.9574529,
+      "longitude": -81.2321943,
+      "coordinate_source": "https://maps.app.goo.gl/M9uYrKpu5QJKmCN1A",
+      "coordinate_checked_on": "2026-11-18",
+      "notes": "Do not apply the Highbury/Dr. Rao intake announcement to Dr. Haddad. Official location page is undated.",
+      "review_basis": "Undated official location page reviewed 2026-11-18 explicitly identifies ongoing care with Dr. Loay Haddad (CPSO 119795), his family practice at 641 Commissioners Road East, and separate general walk-in service. Linked patient-intake page concerns Dr. Rao at Highbury only; Haddad attachment intake remains unknown. Official directions link resolves to the named clinic Google Maps place coordinates. No telephone confirmation.",
+      "auto_updates_enabled": false,
+      "clinic_address_verified": true,
+      "address_verification_source": "https://kamvamedical.ca/doctors-walk-in-medical-clinic/",
+      "address_verified_on": "2026-11-18",
+      "address_verification_scope": "Official public clinic address; not new-patient attachment confirmation.",
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Ongoing family practice with Dr. Loay Haddad is advertised here, but new-patient attachment availability is not confirmed. Walk-in visits are separate and do not establish family-doctor registration. The linked network intake announcement is for Dr. Saadiyah Rao at Highbury, not Dr. Haddad at this location.",
+        "sources": [
+          "https://kamvamedical.ca/doctors-walk-in-medical-clinic/",
+          "https://kamvamedical.ca/patient-intake/"
+        ]
+      },
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-18",
+        "finding": "Official location page advertises general walk-in care without appointments, first-come and subject to capacity. This is distinct from family-practice registration.",
+        "sources": [
+          "https://kamvamedical.ca/doctors-walk-in-medical-clinic/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Official page explicitly describes ongoing care with Dr. Haddad and his family practice at this location; new-patient attachment intake is unknown.",
+        "sources": [
+          "https://kamvamedical.ca/doctors-walk-in-medical-clinic/"
+        ]
+      }
     }
   ]
 }
