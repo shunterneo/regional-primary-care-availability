@@ -11161,7 +11161,7 @@
       "care_model_basis": "First-party site describes ongoing family-physician care and separately identifies walk-in care where applicable; see https://spurlinemedclinic.com/about-us/",
       "care_model_source": "https://spurlinemedclinic.com/",
       "status": "unknown",
-      "intake_detail": "Named family physicians provide continuing care and walk-in services. Its first-party about page welcomes new patients and allows appointment bookings, and a co-located pharmacy advertises a new family doctor, but neither specifies which physician is currently accepting family-practice roster enrolment. Call 519-883-8581 to verify physician-specific ongoing attachment; do not equate booking a visit with roster acceptance.",
+      "intake_detail": "First-party homepage now explicitly banners 'Accepting new patients: Dr. Ope Folorunsho' and separately lists ongoing family-medicine care; the booking page labels Dr. Folorunsho's appointments 'Family Practice.' These two statements together are a strong named-physician lead. However neither specifically confirms that those newly accepted visits constitute ongoing family-physician roster attachment (rather than new walk-in/episodic patients). Phone 519-883-8581 to verify whether Dr. Folorunsho is adding attached family-practice patients. The booking option itself is not proof of enrolment. Dr. Stefanie Wright's intake is unconfirmed.",
       "application_url": "https://spurlinemedclinic.com/booking/",
       "phone": "519-883-8581",
       "providers": "Dr. Opeoluwa Folorunsho; Dr. Stefanie Wright",
@@ -11170,16 +11170,16 @@
       "source_published": "",
       "last_reviewed": "2026-11-18",
       "intake_reviewed_on": "2026-11-18",
-      "notes": "Nearby pharmacy says new FAMILY DOCTOR intake is open, while the clinic's undated site advertises generic new-patient visits. Conservative status UNKNOWN because current named physician's ongoing roster intake is not explicit on clinic-owned website; walk-in access does not establish attachment.",
-      "review_basis": "Direct clinic website checked 2026-11-18; address corroboration via OSM mapped 55 Erb Street East building, Healthline listing updated Feb 20 2026, physician-recruitment notice Nov 13 2025. Undated live practice page; secondary directory 2025/2026. No phone confirmation. Patient acceptance is not guaranteed. Public office geolocation approximated from nearby published feature, not user or patient address.",
-      "confidence": "High for clinic existence, listed physicians, combined practice model and exact address; current family-roster intake uncertain.",
+      "notes": "First-party homepage explicitly names Dr. Ope Folorunsho as accepting NEW PATIENTS, and its booking page distinctly titles his schedule 'Family Practice'; strong indication, but rostering scope is not explicit at this mixed family/walk-in practice. Do not classify accepting attachment without explicit first-party enrolment confirmation. Co-located pharmacy also advertises a new family doctor, but is secondary evidence. No confirmed current attachment intake for Dr. Wright.",
+      "review_basis": "Clinic-owned homepage https://spurlinemedclinic.com/ and family-practice physician booking page https://spurlinemedclinic.com/booking/ checked 2026-11-18. Named-physician 'accepting new patients' banner was checked independently against family-practice appointment descriptor; this could still represent first-time episodic visits. Phone intake confirmation outstanding. Building coordinate verified against public OpenStreetMap 55 Erb Street East commercial building.",
+      "confidence": "High for combined family-practice/walk-in operation, location and named Dr. Folorunsho new-patient visits. Moderate for possible ongoing attachment; roster-specific scope not explicitly confirmed; left unknown for ongoing attachment.",
       "intake_verification": {
         "tier": "conflicting_or_unconfirmed",
         "scope": "unverified",
         "reviewed_on": "2026-11-18",
         "method": "public_webpage_review",
         "source_url": "https://spurlinemedclinic.com/about-us/",
-        "finding": "Current opening to NEW family-practice rosters not directly established; ordinary appointments/walk-ins are not proof of attachment.",
+        "finding": "Clinic-owned banner names Dr. Folorunsho accepting new patients and appointment page names his family practice; explicit *ongoing family-doctor enrolment* not established for new patients at a combined walk-in site. Classify ongoing attachment intake unknown; not an acceptance claim.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -11196,9 +11196,10 @@
       },
       "ongoing_care_review": {
         "reviewed_on": "2026-11-18",
-        "finding": "Unconfirmed current eligibility and ongoing attachment; third-party physician-recruitment list was last updated November 13, 2025, and is too old to establish current roster acceptance.",
+        "finding": "The clinic homepage identifies Dr. Ope Folorunsho as accepting new patients, and clinic booking page calls his practice 'Family Practice,' but does not expressly state new ongoing/rostered enrolment. Unknown until direct confirmation of the roster pathway; Dr. Wright unverified.",
         "sources": [
-          "https://spurlinemedclinic.com/about-us/"
+          "https://spurlinemedclinic.com/",
+          "https://spurlinemedclinic.com/booking/"
         ]
       }
     }
