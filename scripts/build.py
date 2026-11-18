@@ -40,6 +40,13 @@ for c in clinics:
     r=c.get('online_review') or {}
     c['online_review_text']=(r.get('reviewed_on','')+' — '+r.get('finding','')) if r else ''
     c['online_review_sources']=' | '.join(r.get('sources',[]))
+WALK_LABELS={'advertised':'Service advertised; not live availability','uncertain':'Details need confirmation','not_available':'No walk-in service advertised'}
+def service_review_text(c,field):
+    r=c.get(field) or {}
+    if not r:return ''
+    prefix=(WALK_LABELS.get(r.get('status'),'Not verified')+' | ') if field=='walk_in_review' else ''
+    return prefix+'Reviewed '+r.get('reviewed_on','unknown')+' | '+r.get('finding','')
+
 ORDER=['accepting','reported','limited','waitlist','not_accepting','needs_review','unknown']
 clinics.sort(key=lambda c:(ORDER.index(c['display_status']),c['community'].lower(),c['name'].lower()))
 counts=collections.Counter(c['display_status'] for c in clinics)
@@ -85,7 +92,7 @@ def make_docx():
     doc.add_paragraph(HCC_TEXT)
     doc.add_paragraph('Ontario guidance checked November 16, 2026: '+HCC_URL)
     doc.add_paragraph(f'Quality audit: {quality_summary["records_examined"]} clinic/service records were checked for structural and source-integrity issues; {quality_summary["records_with_review_flags"]} have follow-up flags (including missing clinical intake evidence or office contact information). This does NOT mean all clinics were independently verified. See the downloadable audit CSV for the record-level review.').italic=True
-    doc.add_paragraph('Care classification is separate from intake status. A walk-in appointment does not mean a physician or NP is accepting new patients for ongoing care. Combined clinics appear in ongoing-care listings with an explicit walk-in label. The website offers community and clinic-location views. Sourced building/planning points are distinguished from approximate community locations; neither identifies entrances or suites.')
+    doc.add_paragraph('Care classification is separate from intake status. A walk-in appointment does not mean a physician or NP is accepting new patients for ongoing care. Combined clinics appear in ongoing-care listings with a separate dated walk-in review. Walk-in evidence does not establish availability today. This is an incomplete walk-in inventory. The website offers community and clinic-location views. Sourced building/planning points are distinguished from approximate community locations; neither identifies entrances or suites.')
     p=doc.add_paragraph('Directory key: ')
     for st in ORDER:
         if counts[st]:
@@ -111,7 +118,7 @@ def make_docx():
                 p=doc.add_paragraph();p.paragraph_format.keep_with_next=True
                 rr=p.add_run(f'{c["community"]}  |  {c["name"]}');rr.bold=True
                 t=doc.add_table(rows=0,cols=2);t.autofit=False;t.columns[0].width=Inches(1.00);t.columns[1].width=Inches(5.9)
-                for label,value in [('Office',c['address']),('Service model',CARE_MODELS[c['care_model']]),('Provider',c['clinic_type']),('Phone',c.get('phone','') or 'Not listed'),('Intake note',c.get('intake_detail','') or 'No current details'),('Uncertainty reason',c.get('uncertainty_label','')),('Evidence level',c['evidence_label']),('Intake evidence checked',c['public_evidence_reviewed']+' (public only; not confirmed by telephone)'),('Record last edited',c['last_reviewed']),('Online research',c.get('online_review_text','')),('Research sources',c.get('online_review_sources',''))]:
+                for label,value in [('Office',c['address']),('Service model',CARE_MODELS[c['care_model']]),('Provider',c['clinic_type']),('Phone',c.get('phone','') or 'Not listed'),('Family-practice intake',c.get('intake_detail','') or 'No current details'),('Family-care review',service_review_text(c,'ongoing_care_review')),('Family-care sources',' | '.join((c.get('ongoing_care_review') or {}).get('sources',[]))),('Walk-in / episodic care',service_review_text(c,'walk_in_review')),('Walk-in sources',' | '.join((c.get('walk_in_review') or {}).get('sources',[]))),('Uncertainty reason',c.get('uncertainty_label','')),('Evidence level',c['evidence_label']),('Intake evidence checked',c['public_evidence_reviewed']+' (public only; not confirmed by telephone)'),('Record last edited',c['last_reviewed']),('Online research',c.get('online_review_text','')),('Research sources',c.get('online_review_sources',''))]:
                     row=t.add_row();row.cells[0].text=label;row.cells[1].text=value
                     row.cells[0].paragraphs[0].runs[0].bold=True
                     for cell in row.cells:
@@ -151,7 +158,7 @@ def make_pdf():
               ('SERVICE TYPE UNVERIFIED',lambda c:c['care_model']=='unverified',False)]
     story.append(Paragraph(html.escape(HCC_TEXT),body))
     story.append(Paragraph('Ontario guidance checked November 16, 2026: <link href="'+HCC_URL+'" color="#185B78">Health Care Connect</link>',small))
-    story.append(Paragraph('A walk-in appointment is not registration with a family doctor. Mixed-service clinics are explicitly labeled; intake statuses relate to ongoing care only.',body))
+    story.append(Paragraph('A walk-in appointment is not registration with a family doctor. Mixed-service clinics are explicitly labeled; intake statuses relate to ongoing care only. Walk-in evidence is reviewed separately and does not establish availability today. This is an incomplete walk-in inventory.',body))
     story.append(Paragraph(f'Quality review: {quality_summary["records_examined"]} records structurally audited; {quality_summary["records_with_review_flags"]} have follow-up flags, often because intake or address has not been individually reconfirmed. Not a census or live telephone-confirmed availability.',body))
     for title_text,select,group_status in sections:
         subset=[c for c in clinics if select(c)]
@@ -165,8 +172,13 @@ def make_pdf():
                 e=html.escape
                 lines=[Paragraph(e(c['community'])+'  |  '+e(c['name']),h2),
                     Paragraph('<b>Office:</b> '+e(c['address'])+'   <b>Care:</b> '+e(CARE_MODELS[c['care_model']])+'   <b>Type:</b> '+e(c['clinic_type'])+'   <b>Phone:</b> '+e(c.get('phone') or 'Not listed'),small),
-                    Paragraph(e(c.get('intake_detail') or 'No current intake details'),body),
+                    Paragraph('<b>Family-practice intake:</b> '+e(c.get('intake_detail') or 'No current intake details'),body),
                     Paragraph('<b>Evidence level:</b> '+e(c['evidence_label'])+'   <b>Evidence checked:</b> '+e(c['public_evidence_reviewed'])+' (public only; not telephone verified)',small)]
+                for field,title_label in [('ongoing_care_review','Family-care review'),('walk_in_review','Walk-in / episodic care')]:
+                    if c.get(field):
+                        lines.append(Paragraph('<b>'+title_label+':</b> '+e(service_review_text(c,field)),small))
+                        for u in c[field].get('sources',[]):
+                            lines.append(Paragraph('<link href="'+e(u,quote=True)+'" color="#185B78">'+e(u)+'</link>',small))
                 if c.get('uncertainty_label'):
                     lines.append(Paragraph('<b>Unconfirmed because:</b> '+e(c['uncertainty_label']),small))
                 if c.get('online_review_text'):

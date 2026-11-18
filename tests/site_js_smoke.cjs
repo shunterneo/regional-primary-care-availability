@@ -7,7 +7,7 @@ assert(dataMatch&&scriptMatch,'embedded data and UI script');
 const DATA=JSON.parse(dataMatch[1]);const N=DATA.clinics.length;const numFor=(k)=>DATA.clinics.filter(x=>['ongoing','both'].includes(x.care_model)&&x.display_status===k).length;const TOWNS=new Set(DATA.clinics.map(x=>x.community)).size;const countTown=t=>DATA.clinics.filter(x=>x.community===t&&['ongoing','both'].includes(x.care_model)).length;const countModel=k=>DATA.clinics.filter(x=>x.care_model===k).length;const countOngoing=()=>DATA.clinics.filter(x=>['ongoing','both'].includes(x.care_model)).length;
 class Node{
  constructor(tag='',cls='',text=''){this.tag=tag;this.className=cls;this.textContent=text;this.children=[];this.handlers={};this.value='all';this.href='';this.style={};this.attrs={};}
- prepend(x){this.children.unshift(x);return x}append(x){this.children.push(x);return x}showModal(){this.open=true}close(){this.open=false}remove(){}focus(){}select(){}click(){if(this.handlers.click)this.handlers.click()}set id(v){this._id=v;ids[v]=this}get id(){return this._id}replaceChildren(...nodes){this.children=[...nodes]}
+ prepend(x){this.children.unshift(x);return x}append(...xs){this.children.push(...xs)}showModal(){this.open=true}close(){this.open=false}remove(){}focus(){}select(){}click(){if(this.handlers.click)this.handlers.click()}set id(v){this._id=v;ids[v]=this}get id(){return this._id}replaceChildren(...nodes){this.children=[...nodes]}
  setAttribute(k,v){this.attrs[k]=v}addEventListener(k,callback){this.handlers[k]=callback}
  scrollIntoView(){}get innerText(){return this.textContent+' '+this.children.map(x=>x.innerText).join(' ')}
  get count(){return this.children.length}
@@ -110,3 +110,39 @@ assert(!html.includes('<!--HCC_GUIDANCE-->'));
 assert(Buffer.from(f.docxBytes([ox])).toString().includes(DATA.health_care_connect.text));
 assert(Buffer.from(f.pdfBytes([ox])).toString().includes('Health Care Connect'));
 console.log('PASS: HCC guidance and provenance retained in website and PDF/Word exports');
+
+// Purpose views keep episodic service evidence separate from family attachment.
+ids.reset.handlers.click();ids.downloadScope.value='all';
+const mixed=f.exportRows().find(c=>c.care_model==='both');assert(mixed);
+const saved={walk:mixed.walk_in_review,ongoing:mixed.ongoing_care_review,status:mixed.display_status};
+mixed.walk_in_review={status:'advertised',reviewed_on:'2026-11-18',finding:'Fixture: walk-in visits published; not live capacity.',eligibility:'Fixture eligibility is limited to adults.',sources:['https://example.org/walk-in']};
+mixed.ongoing_care_review={reviewed_on:'2026-11-18',finding:'Fixture: separate ongoing-care evidence.',sources:['https://example.org/family-care']};
+mixed.display_status='not_accepting';
+f.setFilter('status',['accepting']);ids.purposeWalkin.handlers.click();
+assert.equal(ids.purposeWalkin.attrs['aria-pressed'],'true');assert.equal(ids.purposeOngoing.attrs['aria-pressed'],'false');
+assert.equal(ids.status.hidden,true);assert.equal(ids.walkinNotice.hidden,false);assert.equal(f.chosen.status.length,0);
+const walkCount=DATA.clinics.filter(c=>['both','walk_in_only'].includes(c.care_model)).length;
+assert.equal(ids.results.children.filter(c=>c.className==='item').length,walkCount);
+const getMixed=()=>ids.results.children.find(c=>c.innerText.includes(mixed.name));
+let card=getMixed();assert(card);assert(card.innerText.includes('Walk-in service advertised (check access)'));assert(card.innerText.includes('Separate family-practice intake: Not accepting'));
+assert(card.innerText.includes('Fixture eligibility'));assert(card.innerText.includes('Family-care service review · 2026-11-18'));assert(card.innerText.includes('Walk-in evidence reviewed: 2026-11-18'));
+assert.equal(card.children.find(c=>c.className==='pills').children[0].className,'pill unknown');
+assert(ids.mapLegend.innerText.includes('not live availability'));
+for(const group of ids.map.children.filter(c=>c.tag==='g'))for(const dot of group.children.filter(c=>['circle','polygon'].includes(c.tag)))assert.equal(dot.attrs.fill,'#82959a');
+ids.mapMode.handlers.change({target:{value:'clinics'}});
+for(const group of ids.map.children.filter(c=>c.tag==='g'))for(const dot of group.children.filter(c=>['circle','polygon'].includes(c.tag)))assert.equal(dot.attrs.fill,'#82959a');
+f.setFilter('status',['accepting']);assert.equal(ids.results.children.filter(c=>c.className==='item').length,walkCount,'hidden family filter cannot suppress walk-in results');
+f.setFilter('town',[mixed.community]);for(const term of ['Fixture eligibility','separate ongoing-care evidence','walk-in visits published']){ids.search.handlers.input({target:{value:term}});assert(getMixed(),'service findings and eligibility are searchable')}ids.search.handlers.input({target:{value:mixed.name}});assert(getMixed());
+ids.purposeOngoing.handlers.click();assert.equal(ids.status.hidden,false);assert.equal(ids.walkinNotice.hidden,true);assert.equal(f.chosen.status.length,0);assert(getMixed());
+assert(getMixed().children.find(c=>c.className==='pills').children[0].innerText.startsWith('Family-practice intake:'));
+ids.purposeWalkin.handlers.click();ids.purposeWalkin.handlers.click();assert.equal(f.chosen.care.length,1);assert(getMixed());
+for(const status of ['uncertain','not_available']){mixed.walk_in_review.status=status;ids.purposeWalkin.handlers.click();assert(getMixed().innerText.includes(status==='uncertain'?'Walk-in service needs verification':'Walk-in service not available'))}
+delete mixed.walk_in_review;ids.purposeWalkin.handlers.click();assert(getMixed().innerText.includes('Walk-in evidence review date: not recorded.'));
+assert(!getMixed().children.find(c=>c.className==='pills').children[0].innerText.includes('Not accepting'));
+mixed.walk_in_review={status:'advertised',reviewed_on:'2026-11-18',finding:'Fixture: walk-in visits published; not live capacity.',eligibility:'Fixture eligibility is limited to adults.',sources:['https://example.org/walk-in']};
+const csv=f.csvBytes([mixed]);assert(csv.includes('Family-practice intake: Not accepting'));assert(csv.includes('Walk-in service advertised'));assert(csv.includes('https://example.org/walk-in'));assert(csv.includes('https://example.org/family-care'));assert(csv.includes('Incomplete walk-in inventory'));
+for(const text of [f.pdfBytes([mixed]),new TextDecoder().decode(f.docxBytes([mixed]))]){assert(text.includes('Family-practice intake:'));assert(text.includes('Walk-in evidence reviewed:'));assert(text.includes('Fixture eligibility'));assert(text.includes('https://example.org/walk-in'));assert(text.includes('https://example.org/family-care'))}
+Object.assign(mixed,{walk_in_review:saved.walk,ongoing_care_review:saved.ongoing,display_status:saved.status});
+ids.reset.handlers.click();assert.equal(ids.purposeOngoing.attrs['aria-pressed'],'true');assert.equal(ids.status.hidden,false);assert.equal(ids.walkinNotice.hidden,true);assert.equal(f.chosen.town.length,0);assert.equal(ids.search.value,'');
+ids.mapMode.handlers.change({target:{value:'towns'}});
+console.log('PASS: purpose views, distinct service evidence, no inferred walk-in capacity, neutral maps, retained search/community, repeated switches/reset and independent evidence in all exports');

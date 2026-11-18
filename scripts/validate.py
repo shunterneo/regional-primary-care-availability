@@ -43,6 +43,19 @@ for r in xs:
         except (KeyError,ValueError,TypeError):errors.append(f'invalid verified clinic coords for {id}')
     for fld in ('evidence_url','clinic_url'):
         if r.get(fld) and not is_url(r[fld]):errors.append(f'non-https URL in {id} ({fld})')
+    for field in ('walk_in_review','ongoing_care_review'):
+        review=r.get(field)
+        if review is None:continue
+        if not isinstance(review,dict):
+            errors.append(f'invalid {field} {id}');continue
+        if field=='walk_in_review' and review.get('status') not in ('advertised','uncertain','not_available'):
+            errors.append(f'invalid walk-in evidence status {id}')
+        if not isinstance(review.get('finding'),str) or not review['finding'].strip():errors.append(f'missing {field} finding {id}')
+        sources=review.get('sources')
+        if not isinstance(sources,list) or not sources or any(not isinstance(u,str) or not is_url(u) for u in sources):errors.append(f'invalid {field} sources {id}')
+        try:
+            if datetime.date.fromisoformat(review.get('reviewed_on',''))>datetime.datetime.now(datetime.timezone.utc).date():raise ValueError('future')
+        except (ValueError,TypeError):errors.append(f'invalid {field} date {id}')
     if len(name)<3:errors.append(f'blank clinic name {id}')
     try:datetime.date.fromisoformat(r['last_reviewed'])
     except Exception: errors.append(f'bad last reviewed {id}')

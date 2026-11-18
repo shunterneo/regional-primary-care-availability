@@ -59,3 +59,20 @@ assert manual('Our clinic is not accepting new family medicine patients.').retur
 assert manual('We are now accepting walk-in patients.').returncode!=0
 assert manual('Our family practice is now accepting new patients.',scope='program').returncode!=0
 # A successful reviewed change is checked separately in the existing approval fixture.
+
+# Service-level research is independent of family-practice enrolment status.
+for c in B.values():
+    for field in ('walk_in_review','ongoing_care_review'):
+        r=c.get(field)
+        if not r:continue
+        assert r['finding'] and r['sources'] and all(u.startswith('https://') for u in r['sources'])
+        assert dt.date.fromisoformat(r['reviewed_on'])<=dt.datetime.now(dt.timezone.utc).date()
+        if field=='walk_in_review':assert r['status'] in ('advertised','uncertain','not_available')
+# Changing episodic-service research cannot change the attachment result.
+for c in B.values():
+    expected=display_intake_status(c,T)
+    for walk_status in ('advertised','uncertain','not_available'):
+        trial=copy.deepcopy(c)
+        trial['walk_in_review']={'status':walk_status,'reviewed_on':T.isoformat(),'finding':'Independent service evidence.','sources':['https://clinic.example.org/walkin']}
+        assert display_intake_status(trial,T)==expected
+print('PASS: independent dated walk-in and family-care research; conflicting locations remain uncertain')

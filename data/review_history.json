@@ -2942,5 +2942,15 @@
     "source": "https://tworiversfht.ca/new-patient-wait-list/",
     "type": "owner_source_followup",
     "reviewer_note": "Official announcement and new-patient form located in search-indexed first-party pages on November 18, 2026, following the owner-supplied announcement. Direct retrieval returns HTTP 403, so current form operation was not tested. Published pathway accepts waitlist applications, not immediate or guaranteed attachment. Added direct waitlist application link; preserved prior live-page verification date."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c058",
+    "clinic_name": "Delhi Community Health Centre — Big Creek FHO / Norfolk FHT",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://dchc.ca/public-walk-in-clinic/",
+    "type": "service_pathway_clarification",
+    "reviewer_note": "DCHC public walk-in page successfully reviewed. Removed obsolete retrieval-failure wording; acute/urgent walk-in service is distinct from Big Creek/Norfolk FHT enrolment. Ongoing intake remains unconfirmed."
   }
 ]
