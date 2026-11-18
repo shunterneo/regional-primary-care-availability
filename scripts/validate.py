@@ -28,7 +28,8 @@ for r in xs:
     if care not in CARE_MODELS:errors.append(f'missing or invalid care model {id}')
     if care in ('walk_in_only','unverified') and r['status'] in ('accepting','reported','limited','waitlist','not_accepting'):
         errors.append(f'cannot assign attachment intake status to {care} clinic {id}')
-    if r.get('operating_status','active') not in ('active','closed','archived','registry_listed'):errors.append(f'bad operating status {id}')
+    if r.get('operating_status','active') not in ('active','closed','archived','registry_listed','planned'):errors.append(f'bad operating status {id}')
+    if r.get('operating_status')=='planned' and (r['status']=='accepting' or r.get('auto_updates_enabled') is not False or 'planned' not in name.lower()):errors.append(f'planned practice must be labelled, non-green and manual-only {id}')
     if r['community'] not in CITY_COORDS:errors.append(f'unknown city coordinates {id}')
     else:
         dist=km(center['latitude'],center['longitude'],*CITY_COORDS[r['community']])

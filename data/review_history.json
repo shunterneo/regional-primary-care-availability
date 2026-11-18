@@ -3490,5 +3490,15 @@
     "type": "verified_new_public_practice",
     "source": "https://spurlinemedclinic.com/about-us/",
     "reviewer_note": "First-party practice source checked 2026-11-18. High for clinic existence, listed physicians, combined practice model and exact address; current family-roster intake uncertain. Nearby pharmacy says new FAMILY DOCTOR intake is open, while the clinic's undated site advertises generic new-patient visits. Conservative status UNKNOWN because current named physician's ongoing roster intake is not explicit on clinic-owned website; walk-in access does not establish attachment. Public clinic address corroborated against independent location records; map coordinate is address-matched commercial building footprint at 55 Erb Street East, NOT suite entrance. 68.70 km great-circle distance at that point. Surrounding public office is independently confirmed within the 75-km boundary."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c228",
+    "clinic_name": "KGK / Wellington Family Health Centre — London (planned)",
+    "old_status": "not listed",
+    "new_status": "waitlist",
+    "type": "reviewed_planned_practice_application",
+    "source": "https://form.jotform.com/262283813217254",
+    "reviewer_note": "Indexed KGK-owned announcement linked through https://lnkd.in/gbgE7ENw to the live KGK Family Health Centre New Patient Application. Public form HTML and identity chain reviewed November 18; no information entered or submitted. OPRA recruitment corroborates planned Wellington identity at 275 Dundas. Neither recruitment nor an available form proves current operation."
   }
 ]

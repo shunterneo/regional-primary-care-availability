@@ -61,6 +61,26 @@ def publication_configuration(root):
     return 'not verified'
 
 
+
+def reviewed_registry_identity(row, clinics, reviews, now):
+    """Display-only reconciliation, never authorization to publish a profile."""
+    fields = ('id', 'name', 'community', 'address', 'clinic_type', 'registry_id')
+    entry = reviews.get(row.get('id')) if isinstance(reviews, dict) else None
+    if not isinstance(entry, dict) or entry.get('source_identity') != {k: row.get(k) for k in fields}: return None
+    try:
+        day = dt.date.fromisoformat(entry.get('reviewed_on', ''))
+        if day > now.date(): return None
+    except (TypeError, ValueError): return None
+    if not isinstance(entry.get('sources'), list) or not entry['sources'] or not all(url(u) for u in entry['sources']): return None
+    if not isinstance(entry.get('finding'), str) or not entry['finding'].strip(): return None
+    disposition = entry.get('disposition')
+    if disposition == 'represented_in_directory':
+        expected = entry.get('clinic_identity')
+        if not isinstance(expected, dict) or not all(expected.get(k) for k in ('id','name','community','address')): return None
+        if not any({k:c.get(k) for k in expected} == expected for c in clinics): return None
+    elif disposition not in ('program_or_administrative_site_not_general_attachment', 'specialized_program_at_shared_building'): return None
+    return entry
+
 def collect(data, clinics, now=None):
     """Project only public, necessary fields; do not mutate inputs or queues."""
     now = now or dt.datetime.now(dt.timezone.utc)
@@ -103,7 +123,11 @@ def collect(data, clinics, now=None):
                     'prior_excerpt': text(row.get('prior_excerpt')),
                     'current_excerpt': text(row.get('current_excerpt') or row.get('excerpt')),
                     'version': text(row.get('extraction_version'), 80) or 'Legacy observation; compare directly before use',
-                    'source_name': text(row.get('source_name') or row.get('source_kind'), 180)}
+                    'source_name': text(row.get('source_name') or row.get('source_kind'), 180),
+                    'reviewed_on': text(row.get('review_attempted_on') or row.get('reviewed_on'), 40),
+                    'review_outcome': text(row.get('review_outcome'), 400),
+                    'reviewer_note': text(row.get('reviewer_note')),
+                    'review_blocker': text(row.get('review_blocker'), 1000)}
             # Deliberately omit heuristic possible_claim labels: they are not
             # confirmed facts and may be misleading in old pending queue items.
             items.append(item)
@@ -135,6 +159,9 @@ def collect(data, clinics, now=None):
         category = text(record.get('error_category'), 70) or ('unscanned' if not record.get('last_attempt') else 'unclassified')
         items.append(failure_item('directory:' + str(source.get('id')), source.get('name'), source.get('url'), record, category, 'Directory check'))
 
+    registry_review_data = read_json(data / 'registry_reconciliation.json', {})
+    registry_reviews = registry_review_data.get('reviews', {}) if isinstance(registry_review_data, dict) else {}
+    reconciled_registry = []
     registry = read_json(data / 'official_registry_state.json', {})
     seen = registry.get('seen') if isinstance(registry.get('seen'), dict) else {}
     for ident, observation in seen.items():
@@ -144,6 +171,10 @@ def collect(data, clinics, now=None):
             errors.append('A malformed government profile observation was withheld')
             continue
         if existing_clinic(row, clinics): continue
+        reviewed = reviewed_registry_identity(row, clinics, registry_reviews, now)
+        if reviewed:
+            reconciled_registry.append({'title': row['name'], 'reviewed_on': reviewed['reviewed_on'], 'finding': reviewed['finding'], 'sources': reviewed['sources']})
+            continue
         normalize=lambda value:re.sub(r'[^a-z0-9]','',str(value or '').casefold())
         overlaps=[c.get('name',c['id']) for c in clinics
                   if office_address(c.get('address'))==office_address(row['address'])
@@ -196,16 +227,16 @@ def collect(data, clinics, now=None):
                 reviewed = dt.date.fromisoformat(day)
             except ValueError:
                 continue
-            if reviewed > now.date() or entry.get('method') != 'rendered_public_page': continue
+            if reviewed > now.date() or entry.get('method') not in ('rendered_public_page', 'public_html_review'): continue
             finding = text(entry.get('finding'), 1000)
             if not source or not finding: continue
             for item in items:
                 if item['group'] == 'failure' and item.get('source_url') == source:
-                    item['manual_review'] = {'reviewed_on': day, 'finding': finding}
+                    item['manual_review'] = {'reviewed_on': day, 'finding': finding, 'method': entry['method']}
 
     items.sort(key=lambda item: (list(GROUPS).index(item['group']), item.get('date', ''), item['title'].casefold()))
     counts = {group: sum(i['group'] == group for i in items) for group in GROUPS}
-    return {'generated_at': now.isoformat(), 'items': items, 'counts': counts, 'alternate_source_checks': alternate_checks,
+    return {'generated_at': now.isoformat(), 'items': items, 'counts': counts, 'alternate_source_checks': alternate_checks, 'reconciled_registry': reconciled_registry,
             'counts_by_queue': counts_by_queue, 'total': len(items), 'input_errors': errors,
             'last_source_scan': state.get('last_run'), 'last_directory_scan': directory_state.get('last_run'),
             'automatic_status_publication': publication_configuration(data.parent), 'read_only': True}
@@ -238,14 +269,18 @@ def render(report, health=None):
             meta = ' · '.join(v for v in [item.get('date') or 'Date not recorded', item.get('source_name'), item.get('category')] if v)
             last_good = '<p class="meta">Last readable check: ' + e(item.get('last_success') or 'Not recorded') + '</p>' if group == 'failure' else ''
             manual = item.get('manual_review')
-            manual_note = ('<p class="meta"><strong>Separate manual rendered-page review: ' + e(manual['reviewed_on'])
+            manual_note = ('<p class="meta"><strong>Separate manual ' + ('rendered-page' if manual.get('method') == 'rendered_public_page' else 'public HTML') + ' review: ' + e(manual['reviewed_on'])
                            + '</strong></p><p>' + e(manual['finding'])
                            + '</p><p class="caution">The automated check is still unresolved. This dated manual review does not repair monitoring or guarantee current availability.</p>') if isinstance(manual, dict) else ''
+            review_note = ''.join('<p class="meta"><strong>' + label + ':</strong> ' + e(item[k]) + '</p>' for k, label in [('reviewed_on','Last review attempt'),('review_outcome','Review outcome'),('reviewer_note','What was checked'),('review_blocker','Still unresolved')] if item.get(k))
             version = '<p class="meta">' + e(item.get('version', '')) + '</p>' if item.get('version') else ''
             cards.append('<details class="finding"><summary><span>' + e(item['title']) + '</span><small>' + e(meta) + '</small></summary>'
                          + '<div class="body"><p class="action">' + e(item['action']) + '</p><p class="caution">' + e(item['note']) + '</p>'
-                         + excerpts + last_good + manual_note + version + '<div class="links">' + links + '</div></div></details>')
+                         + review_note + excerpts + last_good + manual_note + version + '<div class="links">' + links + '</div></div></details>')
         description = ('<p class="caution">These observations did not match the exact stored office identity. Many may already be listed under a different name. The count is <strong>not a count of new or missing clinics</strong>.</p>' if group == 'registry_profile' else '')
+        if group == 'registry_profile' and report.get('reconciled_registry'):
+            reviewed_cards = ''.join('<li><strong>' + e(r['title']) + '</strong> — reviewed ' + e(r['reviewed_on']) + ': ' + e(r['finding']) + ' ' + ''.join('<a href="' + e(u, quote=True) + '" target="_blank" rel="noopener noreferrer">Source</a> ' for u in r['sources']) + '</li>' for r in report['reconciled_registry'])
+            cards.append('<details class="alternate-check"><summary>Previously reconciled observations (' + str(len(report['reconciled_registry'])) + ')</summary><div class="body"><p>Identity reconciliation only, not fresh intake confirmation. Changed source or clinic identities reopen review. Historical review evidence remains visible.</p><ul>' + reviewed_cards + '</ul></div></details>')
         host_summary = ''
         if group == 'failure':
             hosts = Counter(urlsplit(i['source_url']).hostname for i in report['items'] if i['group'] == 'failure' and i.get('source_url'))

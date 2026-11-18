@@ -25,7 +25,7 @@ def qualified_public_intake(clinic, today):
         return False
     if clinic.get('status')!='accepting' or clinic.get('care_model') not in ('ongoing','both'):
         return False
-    if clinic.get('operating_status') in ('closed','archived'):
+    if clinic.get('operating_status') in ('closed','archived','planned'):
         return False
     if v.get('tier')!='clinic_first_party' or v.get('scope') not in ('location','named_clinician'):
         return False

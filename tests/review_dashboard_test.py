@@ -37,6 +37,15 @@ class DashboardTests(unittest.TestCase):
    rec['last_error']='alternate failed';self.make(d,{'source_state.json':{'sources':{u:rec}}})
    r=collect(d,[{'id':'c1','name':'Clinic','evidence_url':u}]);self.assertEqual(r['counts']['failure'],1);self.assertEqual(r['alternate_source_checks'],[])
 
+ def test_manual_html_and_pending_review_outcome_are_visible_without_clearing(self):
+  with tempfile.TemporaryDirectory() as t:
+   d=pathlib.Path(t);u='https://valid.example/intake'
+   self.make(d,{'review_queue.json':{'items':[{'id':'x','review_status':'pending','reviewed_on':'2026-11-18','review_outcome':'Still pending','reviewer_note':'Checked published notice','review_blocker':'Form access denied'}]},'manual_source_reviews.json':{'reviews':[{'source_url':u,'reviewed_on':'2026-11-18','method':'public_html_review','finding':'Readable application notice, no submission'}]}})
+   r=collect(d,[{'id':'c1','name':'Clinic','evidence_url':u}],now=dt.datetime(2026,11,18,tzinfo=dt.timezone.utc));h=render(r)
+   self.assertEqual(r['counts']['failure'],1);self.assertEqual(r['counts']['source_change'],1)
+   for value in ['Separate manual public HTML review','Still unresolved','Form access denied','Checked published notice']:
+    self.assertIn(value,h)
+
  def test_all_four_pending_queues_and_no_resolved_items(self):
   with tempfile.TemporaryDirectory() as t:
    d=pathlib.Path(t);changes={}

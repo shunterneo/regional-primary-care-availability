@@ -11202,6 +11202,54 @@
           "https://spurlinemedclinic.com/booking/"
         ]
       }
+    },
+    {
+      "id": "c228",
+      "name": "KGK / Wellington Family Health Centre — London (planned)",
+      "community": "London",
+      "address": "275 Dundas Street, London, ON N6B 3L1",
+      "clinic_type": "Planned family physician practice",
+      "operating_status": "planned",
+      "care_model": "ongoing",
+      "care_model_basis": "Official KGK announcement invites family-doctor applications for its planned community primary-care clinic; this is separate from clinical research recruitment. Opening and current physician roster are unconfirmed.",
+      "care_model_source": "https://www.linkedin.com/company/kgkscienceinc.",
+      "status": "waitlist",
+      "intake_detail": "Applications open for a planned family practice. The KGK-linked New Patient Application form is available; opening date, current physician roster and assignment to a doctor are not confirmed. Apply through the linked form if interested; an application is not acceptance, an appointment or immediate care. Submit a separate application for each family member as directed by the announcement.",
+      "application_url": "https://form.jotform.com/262283813217254",
+      "phone": "",
+      "providers": "Physician recruitment advertised; current roster not confirmed",
+      "clinic_url": "https://www.linkedin.com/company/kgkscienceinc.",
+      "evidence_url": "https://www.linkedin.com/company/kgkscienceinc.",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "intake_reviewed_on": "2026-11-18",
+      "notes": "One planned practice, also announced as Wellington Family Health Centre. Not the KGK clinical-trial registration service. No confirmed opening date, appointment capacity or accepted enrolment.",
+      "review_basis": "Indexed KGK-owned announcement linked through https://lnkd.in/gbgE7ENw to the live KGK Family Health Centre New Patient Application. Public form HTML and identity chain reviewed November 18; no information entered or submitted. OPRA recruitment corroborates planned Wellington identity at 275 Dundas. Neither recruitment nor an available form proves current operation.",
+      "confidence": "High for the advertised application route and planned office address; actual opening, named roster and application processing unconfirmed.",
+      "auto_updates_enabled": false,
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-18",
+        "method": "public_webpage_review",
+        "source_url": "https://www.linkedin.com/company/kgkscienceinc.",
+        "finding": "KGK advertises applications for planned ongoing family care; linked form loads. Opening and attachment not verified. Listed under application queue, not currently operating/accepting.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "clinic_address_verified": true,
+      "address_verification_source": "https://portal.opra.ca/jobs/openings/ab564a90-8b34-4cb6-9555-fb80c969a0df/",
+      "address_verified_on": "2026-11-18",
+      "address_verification_scope": "Planned clinic address corroborated by KGK announcement and physician recruitment; current operation not verified.",
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Planned family-doctor service, not research recruitment or walk-in appointment access. Existing application is for intended future ongoing care.",
+        "sources": [
+          "https://www.linkedin.com/company/kgkscienceinc.",
+          "https://form.jotform.com/262283813217254",
+          "https://portal.opra.ca/jobs/openings/ab564a90-8b34-4cb6-9555-fb80c969a0df/"
+        ]
+      }
     }
   ]
 }

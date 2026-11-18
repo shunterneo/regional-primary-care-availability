@@ -1,0 +1,354 @@
+{
+  "reviewed_on": "2026-11-18",
+  "scope": "All 32 Sources needing repair cards in live review page snapshot 2026-11-18T14:29:19Z. Not a full directory intake census or scheduled scanner run.",
+  "counts": {
+    "readable_html_manual_review": 7,
+    "render_required": 3,
+    "access_denied": 21,
+    "access_challenge": 1
+  },
+  "items": [
+    {
+      "title": "Grand River Community Health Centre",
+      "url": "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/",
+      "status": 200,
+      "final_url": "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/",
+      "bytes": 53366,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "readable_html_manual_review",
+      "next_action": "Wait for scheduled source check; manual reading does not establish monitor recovery."
+    },
+    {
+      "title": "Grand River Family Health & Walk-In Clinic — Kitchener",
+      "url": "https://www.grandriverfamilyhealth.ca/",
+      "status": 200,
+      "final_url": "https://www.grandriverfamilyhealth.ca/",
+      "bytes": 842685,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "readable_html_manual_review",
+      "next_action": "Wait for scheduled source check; manual reading does not establish monitor recovery."
+    },
+    {
+      "title": "Highbury Medical Clinic — Dr. Saadiyah Rao",
+      "url": "https://kamvamedical.ca/patient-intake/",
+      "status": 200,
+      "final_url": "https://kamvamedical.ca/patient-intake/",
+      "bytes": 477248,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "readable_html_manual_review",
+      "next_action": "Wait for scheduled source check; manual reading does not establish monitor recovery."
+    },
+    {
+      "title": "KW Bruce Medical — Kitchener",
+      "url": "https://kwbrucemedical.ca/patient-registration/",
+      "status": 200,
+      "final_url": "https://kwbrucemedical.ca/patient-registration/",
+      "bytes": 176895,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "readable_html_manual_review",
+      "next_action": "Wait for scheduled source check; manual reading does not establish monitor recovery."
+    },
+    {
+      "title": "Spurline Crossing Family Practice & Walk-In Clinic — Waterloo",
+      "url": "https://spurlinemedclinic.com/about-us/",
+      "status": 200,
+      "final_url": "https://spurlinemedclinic.com/about-us/",
+      "bytes": 170978,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "readable_html_manual_review",
+      "next_action": "Wait for scheduled source check; manual reading does not establish monitor recovery."
+    },
+    {
+      "title": "St. George Medical Center — Kitchener (Dr. Oladapo Ogunkoya)",
+      "url": "https://www.stgeorgemc.ca/kitchener/family-practice",
+      "status": 200,
+      "final_url": "https://www.stgeorgemc.ca/kitchener/family-practice",
+      "bytes": 70687,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "readable_html_manual_review",
+      "next_action": "Wait for scheduled source check; manual reading does not establish monitor recovery."
+    },
+    {
+      "title": "Colborne Medicare — Dr. Rabiya Niaz",
+      "url": "https://colbornemedicare.ca/",
+      "status": 200,
+      "final_url": "https://colbornemedicare.ca/",
+      "bytes": 674,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "render_required",
+      "next_action": "Requires a separately tested rendered-page monitoring adapter; preserve previous intake evidence."
+    },
+    {
+      "title": "Coronation Family Physicians — Dr. Fares Hayek",
+      "url": "https://www.coronationfamilyphysicians.ca/",
+      "status": 200,
+      "final_url": "https://www.coronationfamilyphysicians.ca/",
+      "bytes": 5276,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "render_required",
+      "next_action": "Requires a separately tested rendered-page monitoring adapter; preserve previous intake evidence."
+    },
+    {
+      "title": "Elmwood Family Health Centre",
+      "url": "https://thamesvalleyfht.ca/locations/elmwood-family-health-organization/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Forest City FHO — Central Avenue",
+      "url": "https://thamesvalleyfht.ca/locations/forest-city-family-health-organization/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Middlesex Centre Family Medicine Clinic",
+      "url": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Old South FHO — Dr. Aisha Rashid, Old South FHO — Dr. Ali Chasm Khavari, Old South FHO — Dr. Cameron Coatsworth, Old South FHO — Dr. Dan Kreuzer, Old South FHO — Dr. Daryoush Safdari, Old South FHO — Dr. Devon Shewfelt, ",
+      "url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Oxford Medical Group",
+      "url": "https://thamesvalleyfht.ca/locations/chelsey-park-medical-centre/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Oxfordia Medical Centre — Dr. Hamza Aman",
+      "url": "https://oxfordiamedical.com/",
+      "status": 200,
+      "final_url": "https://oxfordiamedical.com/",
+      "bytes": 8114,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "render_required",
+      "next_action": "Requires a separately tested rendered-page monitoring adapter; preserve previous intake evidence."
+    },
+    {
+      "title": "Polari Health — Family Practice",
+      "url": "https://polarihealth.com/family-practice/",
+      "error": "HTTP Error 406: Not Acceptable",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Port Dover Family Health",
+      "url": "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/",
+      "status": 200,
+      "final_url": "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/",
+      "bytes": 1760,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_challenge",
+      "next_action": "Preserve listing; no challenge bypass. Search-indexed publisher listing is not fresh operating confirmation."
+    },
+    {
+      "title": "St. Joseph’s Family Medical Centre",
+      "url": "https://thamesvalleyfht.ca/locations/oxford-st-josephs-family-health-organization/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "STAR FHT — Avon Family Medicine Centre",
+      "url": "https://starfht.ca/clinics_offices/avon-family-medicine-centre/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "STAR FHT — O’Loane Medical Clinic",
+      "url": "https://starfht.ca/clinics_offices/oloane-medical-clinic/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "STAR FHT — Tavistock Community Health",
+      "url": "https://starfht.ca/clinics_offices/tavistock-community-health-inc/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Strathroy Medical Clinic",
+      "url": "https://thamesvalleyfht.ca/locations/strathroy-medical-clinic/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Strathroy–Caradoc FHO / TVFHT",
+      "url": "https://thamesvalleyfht.ca/locations/strathroy-caradoc-family-health-organization/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Synergy Centre — Family Medicine",
+      "url": "https://synergycentre.ca/about-us/about-us",
+      "status": 200,
+      "final_url": "https://synergycentre.ca/about-us/about-us",
+      "bytes": 101484,
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "readable_html_manual_review",
+      "next_action": "Wait for scheduled source check; manual reading does not establish monitor recovery."
+    },
+    {
+      "title": "Thames Valley FHT — Ailsa Craig",
+      "url": "https://thamesvalleyfht.ca/locations/strathroy-family-health-organization-ailsa-craig-site/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Thames Valley FHT — Elgin Community Health Hub",
+      "url": "https://thamesvalleyfht.ca/locations/elgin-community-health-hub/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Thames Valley FHT — Queens Avenue Health & Homelessness",
+      "url": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Thames Valley FHT — Springbank NP Clinic, Thames Valley Family Health Team — Woodstock",
+      "url": "https://thamesvalleyfht.ca/become-a-patient/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "thamesvalleyfht.ca",
+      "url": "https://thamesvalleyfht.ca/2026/11/11/nurse-practitioner-week-2026/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Victoria Family Medical Centre",
+      "url": "https://thamesvalleyfht.ca/locations/victoria-family-health-centre-london-health-sciences-centre/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "West Middlesex Health Centre",
+      "url": "https://thamesvalleyfht.ca/locations/strathroy-family-health-organization/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Windemere Family Medical Centre",
+      "url": "https://thamesvalleyfht.ca/locations/windemere-family-medical-centre/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    },
+    {
+      "title": "Woolwich Community Health Centre — New Hamburg, Woolwich Community Health Centre — Wellesley",
+      "url": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
+      "error": "HTTP Error 403: Forbidden",
+      "reviewed_on": "2026-11-18",
+      "method": "bounded_public_http_read",
+      "monitoring_state_changed": false,
+      "outcome": "access_denied",
+      "next_action": "Preserve previous evidence; no access-control bypass or inference of closure."
+    }
+  ]
+}

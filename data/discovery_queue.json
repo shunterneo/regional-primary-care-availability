@@ -162,15 +162,17 @@
       "source_type": "manual_public_source_review",
       "proposed_action": "Verify current opening, physician roster, clinic identity/name and application destination before considering active listing",
       "within_75km": "not verified",
-      "current_intake": "not verified",
-      "review_status": "pending",
-      "note": "Review-only lead, not a confirmed operating clinic or currently accepting listing. Indexed KGK company announcement advertised applications ahead of an anticipated Fall 2026 opening at 275 Dundas Street, London, next to its research clinic. OPRA recruitment page names Wellington Family Health Centre at the same address. Current operating status, official roster and relationship of the names require verification. Application shortlink is not verified; do not direct patients to it.",
+      "current_intake": "Application route available; opening and formal enrolment unconfirmed",
+      "review_status": "reviewed",
+      "note": "KGK official announcement shortlink was traced to its live New Patient Application form. Added one clearly labelled planned KGK / Wellington listing c228, not a confirmed operating or green accepting clinic.",
       "reviewed_on": "2026-11-18",
-      "review_outcome": "Pending current operation, identity and intake verification",
-      "reviewer_note": "First-party indexed announcement and OPRA recruitment page reviewed. Current company-page retrieval does not itself establish a current intake opening; recruitment advertising is not confirmation of patient attachment. No forms submitted or clinic contact made.",
+      "review_outcome": "Published as planned practice application queue only; current operation not confirmed",
+      "reviewer_note": "Official linked form https://form.jotform.com/262283813217254 returns public application HTML. No form entered or submitted. Same planned practice identity supported by official KGK announcements and OPRA; no exact opening, current roster or guaranteed attachment verified.",
       "review_sources": [
         "https://www.linkedin.com/company/kgkscienceinc.",
-        "https://portal.opra.ca/jobs/openings/ab564a90-8b34-4cb6-9555-fb80c969a0df/"
+        "https://portal.opra.ca/jobs/openings/ab564a90-8b34-4cb6-9555-fb80c969a0df/",
+        "https://lnkd.in/gbgE7ENw",
+        "https://form.jotform.com/262283813217254"
       ]
     }
   ]

@@ -24,6 +24,48 @@
       "reviewed_on": "2026-11-16",
       "method": "rendered_public_page",
       "finding": "Rendered family-practice page describes ongoing family care, links a first appointment and displays a new-patient invitation. Its booking page is an appointment-request form, not confirmed enrolment or a guaranteed slot. No form was submitted."
+    },
+    {
+      "source_url": "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/",
+      "reviewed_on": "2026-11-18",
+      "method": "public_html_review",
+      "finding": "Published page invites people without a family doctor or NP to submit its New Client Intake Form. This new URL is readable manually; it has not yet been scanned by the scheduled monitor."
+    },
+    {
+      "source_url": "https://www.grandriverfamilyhealth.ca/",
+      "reviewed_on": "2026-11-18",
+      "method": "public_html_review",
+      "finding": "Homepage separately advertises family-doctor registration and walk-in appointments. Family-practice application invitation matches the existing listing; no enrolment guarantee."
+    },
+    {
+      "source_url": "https://kamvamedical.ca/patient-intake/",
+      "reviewed_on": "2026-11-18",
+      "method": "public_html_review",
+      "finding": "Clinic page explicitly names Dr. Saadiyah Rao accepting patients for her family practice. Completed forms must be dropped off in person at 1345 Huron St; submission does not confirm registration."
+    },
+    {
+      "source_url": "https://kwbrucemedical.ca/patient-registration/",
+      "reviewed_on": "2026-11-18",
+      "method": "public_html_review",
+      "finding": "Registration page offers a Family Doctor service and names Dr. Omowunmi Sonubi and Dr. Sunday Ocharifu. Published start date is February 23, 2026; this is a form review, not tested submission or guaranteed attachment."
+    },
+    {
+      "source_url": "https://spurlinemedclinic.com/about-us/",
+      "reviewed_on": "2026-11-18",
+      "method": "public_html_review",
+      "finding": "About page describes family medicine and separately walk-in/same-day access. It does not settle whether advertised new visits constitute ongoing attachment; existing unknown status retained."
+    },
+    {
+      "source_url": "https://www.stgeorgemc.ca/kitchener/family-practice",
+      "reviewed_on": "2026-11-18",
+      "method": "public_html_review",
+      "finding": "Kitchener family-practice page explicitly describes continuous healthcare, advertises accepting new patients and names Dr. Oladapo Oluseyi Ogunkoya. No registration was submitted."
+    },
+    {
+      "source_url": "https://synergycentre.ca/about-us/about-us",
+      "reviewed_on": "2026-11-18",
+      "method": "public_html_review",
+      "finding": "About page is readable manually again. Its new-patient invitation is dental, not evidence that family-medicine rosters are open. Existing unconfirmed family-medicine status retained."
     }
   ]
 }
