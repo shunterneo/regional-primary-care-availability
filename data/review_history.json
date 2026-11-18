@@ -3529,5 +3529,24 @@
     "type": "service_purpose_correction",
     "source": "https://drsirek.ca/",
     "reviewer_note": "Removed unsupported ongoing civilian family-care classification from military-site professional listing. Current clinician website describes aerospace/occupational services and explicitly directs civilian aviation exams away from military base. Intake remains unknown; no clinic closure or absence of other family practice inferred."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c230",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.drmichaelvu.ca/",
+    "reviewer_note": "Clinician-owned website independently reviewed November 18, 2026: comprehensive primary care, precise suite, phone and address-query map centre verified; map is not a suite entrance."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c230",
+    "clinic_name": "Dr. Michael Vu Family Medical Clinic",
+    "old_status": "unknown",
+    "new_status": "not_accepting",
+    "source": "https://www.drmichaelvu.ca/",
+    "type": "manual_review_with_evidence_gate",
+    "reviewer_note": "Clinician-owned first-party page reviewed November 18, 2026. Comprehensive family primary care at the stated London office. Notice undated; no telephone confirmation.",
+    "evidence_quote": "At this time, we are not accepting new patients."
   }
 ]
