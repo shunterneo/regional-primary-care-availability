@@ -777,7 +777,7 @@
       "source_url": "https://www.ldam.ca/find-a-doctor",
       "source_mode": "people",
       "event_sequence": 1,
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Check modified directory text; confirm clinic-specific ongoing patient intake if applicable",
       "prior_excerpt": "Dr. Gerald Okafor . Baseline Medical Clinic, 25 Baseline Rd W., London ON N6J 1V1. Visit or call 226-663-4647 to register.",
       "current_excerpt": "Dr. Gerald Okafor . 25 Baseline Rd W., London ON N6J 1V1. Visit or call 226-663-4647 to register. https://app.migranium.com/intake-form/dr-gerald-npi",
@@ -786,7 +786,12 @@
       "preview_unchanged": false,
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
+      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure.",
+      "reviewed_on": "2026-11-18",
+      "clinic_ids": [
+        "c123"
+      ],
+      "reviewer_note": "Current LDAM entry matches existing c123 Dr. Gerald Okafor at Baseline Medical Clinic. Retained third-party reported category and visit/call registration route. Newly observed Migranium form could not be verified; no unverified application link added and no duplicate clinic created."
     }
   ]
 }

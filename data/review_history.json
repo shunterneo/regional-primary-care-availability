@@ -2892,5 +2892,35 @@
     "type": "verified_application_route_update",
     "source": "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/",
     "reviewer_note": "Independently reviewed clinic-owned page through the old URL redirect: completed New Client Intake Form can be delivered to reception or emailed to intake@grchc.ca. Invitation addresses people without a family doctor or NP. Updated canonical evidence URLs and route; preserved intake category, historical package caveats, no telephone or guaranteed attachment claim. Automatic writer remains paused."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c026",
+    "clinic_name": "St. Andrews Walk-in & Medical Clinic",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://standrewsclinic.ca/booking/",
+    "type": "verified_application_route_clarification",
+    "reviewer_note": "Family-practice registration is available through the clinic’s intake form, followed by a meet-and-greet and mutual agreement before final enrolment. Walk-in booking is separate. Form access requires sign-in; availability and enrolment are not guaranteed. Public-source review; no telephone confirmation or guaranteed enrolment."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c027",
+    "clinic_name": "Townline Walk-in & Family Medical Clinic",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://townlineclinic.com/",
+    "type": "verified_application_route_clarification",
+    "reviewer_note": "Clinic website invites family-practice registration for Dr. Mehreen Saif and Dr. Muhammad Waqar Faisal. Use “Register for Family Practice Today,” not the existing-patient appointment button. Enrolment follows a meet-and-greet and mutual agreement; submitting the form does not guarantee attachment. The physician-arrival announcement is dated August 2025. Public-source review; no telephone confirmation or guaranteed enrolment."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c072",
+    "clinic_name": "Southwest Middlesex Health Centre",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://smhc.net/",
+    "type": "verified_application_route_clarification",
+    "reviewer_note": "Clinic website names Dr. Gabriella Schoettle and Dr. Faraz Hafezi as taking new patients. Call 519-264-2800 about registration; online appointment booking is for existing patients. Announcement has no visible year or intake deadline. Dr. Joshua Reycraft’s separate intake is limited to family members of his existing patients. Public-source review; no telephone confirmation or guaranteed enrolment."
   }
 ]

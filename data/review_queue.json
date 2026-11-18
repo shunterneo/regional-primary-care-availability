@@ -1284,7 +1284,9 @@
       "reviewer_note": "Direct page access returned HTTP 403 in this review. Indexed first-party text describes a team-level waitlist but is not a fresh rendered-page verification. The changed excerpt's Doctors4Cambridge/Health Care Connect references are external pathways, not proof of Two Rivers acceptance. Preserve c100/c101 waitlist and original verification dates; retain pending for accessible primary-page verification.",
       "review_sources": [
         "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/"
-      ]
+      ],
+      "review_attempted_on": "2026-11-18",
+      "review_blocker": "Current official intake URL returns HTTP 403 through web and direct retrieval. Older indexed official waitlist/rostering pages support historical wording but cannot verify changed current page. Preserve pending status and prior verification date; do not infer closure."
     },
     {
       "id": "638416890d614c882d",
@@ -1451,14 +1453,21 @@
       "new_hash": "810fc08799775365fe30976e8c4870504468467f1c4c6ac80e471501b6d83985",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Close alert Skip to main content Skip to footer Brant Community Healthcare System Menu Patients and Visitors Expand sub pages Patients and Visitors Amenities Finding a Doctor Food and Nutrition Health Care Consent and Decision Making Health Care Coverage Indigenous Family Space Leaving the Hospital Maps and Directions Parking Patient and Family Education Patient Experience & Feedback Patient Surve\nIt provides health advice and information and A registered nurse will take your call 24 hours a day, seven days a week, to provide you with health advice and information.\nToll-free: 811 Toll-free TTY: 1-866-797-0007 There is also a chat option Health Care Connect Register with Health Care Connect to find care close to home.\nHealth Care Connect finds you a family doctor, nurse practitioner or primary care team that is accepting new patients in your community.",
       "current_excerpt": "Close alert Skip to main content Skip to footer Brant Community Healthcare System Menu Patients and Visitors Expand sub pages Patients and Visitors Amenities Finding a Doctor Food and Nutrition Health Care Consent and Decision Making Health Care Coverage Indigenous Family Space Leaving the Hospital Maps and Directions Parking Patient and Family Education Patient Experience & Feedback Patient Surve\nIt provides health advice and information and A registered nurse will take your call 24 hours a day, seven days a week, to provide you with health advice and information.\nToll-free: 811 Toll-free TTY: 1-866-797-0007 There is also a chat option Health Care Connect Register with Health Care Connect to find care close to home.\nHealth Care Connect finds you a family doctor, nurse practitioner or primary care team that is accepting new patients in your community.",
       "possible_claim": "possible_accepting",
       "matched_excerpts": [
         "Health Care Connect finds you a family doctor, nurse practitioner or primary care team that is accepting new patients in your community."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "BCHS still lists Drs. Shaikh and Mutasher among accepting practices. The clinic homepage confirms its address and that walk-in service has ended; its contact page provides enrolment forms but no explicit current roster availability. Related clinic records reviewed individually; existing statuses retained.",
+      "review_sources": [
+        "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+        "https://bonavistamedicalcentrebrantford.com/",
+        "https://bonavistamedicalcentrebrantford.com/contact.php"
+      ]
     },
     {
       "id": "5ec222686d34dc0039",
@@ -1474,7 +1483,7 @@
       "new_hash": "7c0818ccd5b1d4432a6ca69c9f6ce074e001381b97dd49e66766270bc3691941",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.\nPlease note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients.\nDoctors, Nurse Practitioners and Clinic Address Website Telephone Grandview Medical Centre FHT, welcomes two new physicians Dr.\n343 to register Langs North Dumfries Community Health Centre (for residents of North Dumfries) 2938 Greenfield Road, Ayr Please call 519-653-1470 Ext.\n343 to register Dr.\nSunil Bhatia Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge Please email [email protected] to request a Patient Registration Form Townline Walk-in & Medical Clinic 940 Jamieson Pkwy Register to become a patient with Dr.\nUnit B2 Register to become a patient with Dr.\n",
       "current_excerpt": "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.\nPlease note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients.\nDoctors, Nurse Practitioners and Clinic Address Website Telephone Grandview Medical Centre FHT, welcomes two new physicians Dr.\n343 to register Langs North Dumfries Community Health Centre (for residents of North Dumfries) 2938 Greenfield Road, Ayr Please call 519-653-1470 Ext.\n343 to register Dr.\nSunil Bhatia Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge Please email [email protected] to request a Patient Registration Form Townline Walk-in & Medical Clinic 940 Jamieson Pkwy Register to become a patient with Dr.\nUnit B2 Register to become a patient with Dr.\nFares Hayek Coronation Family Physicians 182 Pinebush Road www.coronationfamilyphysicians.ca Dr.\nUnit B7A Please call to register (519) 740-1700 Dr.\nemeraldcaremax.ca/registration/ (519) 267-5030 Waterloo Region Nurse Practitioner Led Clinic 13 Water St.\nUnit 12 www.tworiversfht.ca To register please call 519-629-4615 Physician details To view details for licensed physicians practising in Ontario, such as language spoken, visit the physician register with the College of Physicians and Surgeons o",
       "possible_claim": "possible_accepting",
@@ -1482,7 +1491,13 @@
         "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.",
         "Please note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "Doctors4Cambridge still lists Dr. Mikhail and asks prospective patients to call. Clinic homepage confirms address and phone but contains no new-patient invitation. The directory warns updates may be delayed. Related clinic records reviewed individually; existing statuses retained.",
+      "review_sources": [
+        "https://www.doctors4cambridge.com/contact.htm",
+        "https://www.sherifmikhail.ca/"
+      ]
     },
     {
       "id": "11cb1fcab2f32309a7",
@@ -1496,12 +1511,17 @@
       "new_hash": "706682926f01bf955853d3da3acbcfc49325d1ff0b32e1dcfa5218cd293e1c72",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "If you wish to be enrolled in our family practice, you must first complete the registration form found below.\nOnce you have completed a Meet-&-Greet session with the physician and you become enrolled in their practice, you will be able to use the Family Practice Book Appointment Today button to schedule subsequent appointments.\nWalk-In Patients – Book Appointment Today Family Practice Book Appointment Today Register for Family Practice Today .\nIf both you and the doctor agree to move forward, you will be given a final registration form.\nThis form completes the family practice rostering process and officially registers you with the clinic.\nIf you are or were rostered with another family doctor, your medical records will need to be transferred.\nYour physician will let you know when your next physical exam should be booked based on your age and health history.\nDo you accept Walk-Ins or is e",
       "current_excerpt": "If you wish to be enrolled in our family practice, you must first complete the registration form found below.\nOnce you have completed a Meet-&-Greet session with the physician and you become enrolled in their practice, you will be able to use the Family Practice Book Appointment Today button to schedule subsequent appointments.\nWalk-In Patients – Book Appointment Today Family Practice Book Appointment Today Register for Family Practice Today .\nIf both you and the doctor agree to move forward, you will be given a final registration form.\nThis form completes the family practice rostering process and officially registers you with the clinic.\nIf you are or were rostered with another family doctor, your medical records will need to be transferred.\nYour physician will let you know when your next physical exam should be booked based on your age and health history.\nDo you accept Walk-Ins or is everything appointment-based?\nWe accept walk-ins during operational hours, however walk-in doctor availability is subject to clinic volume.\nWe accept appointment for rostered patients to book appointments with their family doctors.\nHow early should I book a family doctor appointment?\nRostered patients may select their family physician.\nWalk-in physician availability depends on scheduling.\nIf you are a rostered family practice patient, you can book an appointment with your family doctor for prescr",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "Clinic page confirms family-practice registration and a meet-and-greet process. Its registration link redirects to Cortico patient sign-in; no information was entered or appointment booked. No guaranteed enrolment. Related clinic records reviewed individually; existing statuses retained.",
+      "review_sources": [
+        "https://standrewsclinic.ca/booking/"
+      ]
     },
     {
       "id": "d5f9f5aa3e43fcb7be",
@@ -1515,12 +1535,18 @@
       "new_hash": "eec46ddd2700550cf47677d42d0cded60b3da0578e1d5c100311997487313a00",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Townline Walk-in & Family Medical clinic Home Services About Us Contact Booking Call Us: 519-260-8100 Walk-in Patients Book Appointment Family Patients Book Appointment New Family Doctors Joining August 2025 REGISTER NOW AS A FAMILY PATIENT Dr.\nMehreen Saif is a compassionate female family physician with a special interest in Integrated Medicine, which focuses on healing the mind, body, and soul as one.\nMuhammad Waqar Faisal is an experienced male family physician with advanced qualifications from the UK’s Royal Colleges.\nClick to Register as a Family Practice Patient WHAT TO EXPECT AFTER SUBMITTING THE REGISTRATION FORM 1.\nMutual Agreement: If both you and the doctor agree to proceed, you will be provided with the final registration form to complete the onboarding process.\nTransfer of Medical Records (if applicable): If you currently have a family physician and would like us to obtain y",
       "current_excerpt": "Townline Walk-in & Family Medical clinic Home Services About Us Contact Booking Call Us: 519-260-8100 Walk-in Patients Book Appointment Family Patients Book Appointment New Family Doctors Joining August 2025 REGISTER NOW AS A FAMILY PATIENT Dr.\nMehreen Saif is a compassionate female family physician with a special interest in Integrated Medicine, which focuses on healing the mind, body, and soul as one.\nMuhammad Waqar Faisal is an experienced male family physician with advanced qualifications from the UK’s Royal Colleges.\nClick to Register as a Family Practice Patient WHAT TO EXPECT AFTER SUBMITTING THE REGISTRATION FORM 1.\nMutual Agreement: If both you and the doctor agree to proceed, you will be provided with the final registration form to complete the onboarding process.\nTransfer of Medical Records (if applicable): If you currently have a family physician and would like us to obtain your previous medical records, you will need to sign a medical release form.\nHours of Operation Sunday: Closed Monday: 9:30 am – 6:00 pm Tuesday: 9:30 am – 6:00 pm Wednesday: 9:30 am – 6:00 pm Thursday: 9:30 am – 6:00 pm Friday: 9:30 am – 5:30 pm Saturday: 9:30 am – 2:30 pm Synchronized with Google in real time Holiday Hours our location Conveniently located with everything else you need Restaurants Nearby Pharmacy Accessible Free Parking TESTIMONIALS What our patients say\nWe have successfully re",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "Clinic website invites family-practice registration for Dr. Mehreen Saif and Dr. Muhammad Waqar Faisal. Use “Register for Family Practice Today,” not the existing-patient appointment button. Enrolment follows a meet-and-greet and mutual agreement; submitting the form does not guarantee attachment. The physician-arrival announcement is dated August 2025. Existing status retained.",
+      "review_sources": [
+        "https://townlineclinic.com/",
+        "https://townlineclinic.com/booking/"
+      ]
     },
     {
       "id": "e527d34a38080624e1",
@@ -1537,7 +1563,7 @@
       "new_hash": "154ccf62417ad591ce03cc23e6974ac550fe33b19f68951eab8c1223779a67d2",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Skip to Content Home About About Us Advocacy Awards & Bursaries Careers FAQ Get Involved News Events Academy Events External Events Find A Doctor Current Members Member Resources Newsroom Directory Classifieds Resources Community Resources Physician Resources Membership Renewal/Sign Up Membership Benefits Membership Application Contact Open Menu Close Menu Home About About Us Advocacy Awards & Bur\nRegister with Health Care Connect .\nThose currently without a family doctor or nurse practitioner can register with this program at 1-800-445-1822 or via their website .\nAs a courtesy to our members, we maintain a list of family doctors in the London area who have let us know that they may be accepting new patients (when available).\nYou can search for family physicians on the College of Physicians and Surgeons of Ontario website ; you can even search for physicians who speak a particular langua",
       "current_excerpt": "Skip to Content Home About About Us Advocacy Awards & Bursaries Careers FAQ Get Involved News Events Academy Events External Events Find A Doctor Current Members Member Resources Newsroom Directory Classifieds Resources Community Resources Physician Resources Membership Renewal/Sign Up Membership Benefits Membership Application Contact Open Menu Close Menu Home About About Us Advocacy Awards & Bur\nRegister with Health Care Connect .\nThose currently without a family doctor or nurse practitioner can register with this program at 1-800-445-1822 or via their website .\nAs a courtesy to our members, we maintain a list of family doctors in the London area who have let us know that they may be accepting new patients (when available).\nYou can search for family physicians on the College of Physicians and Surgeons of Ontario website ; you can even search for physicians who speak a particular language.\nNote that this website does not differentiate physicians accepting new patients from those who are not.\nIf there are no family physicians listed at this time, you may call Health Care Connect 1-800-445-1822 for their assistance in helping you find a family physician.\nIf you continue to have difficulty finding a family doctor after an extended period of time, visit http://bit.ly/ONriding to find your riding and contact your Member of Provincial Parliament.\nCurrently Accepting New Patients: Dr",
       "possible_claim": "conflicting_or_conditional",
@@ -1546,7 +1572,12 @@
         "Note that this website does not differentiate physicians accepting new patients from those who are not.",
         "Currently Accepting New Patients: Dr."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "Current LDAM directory still lists this named practice. This remains an official third-party report, not fresh clinic-owned capacity confirmation. Existing contact/registration route retained; no guaranteed placement. Existing status retained.",
+      "review_sources": [
+        "https://www.ldam.ca/find-a-doctor"
+      ]
     },
     {
       "id": "3975d04250bf0ce633",
@@ -1641,7 +1672,7 @@
       "new_hash": "c934bc51610ce3d8f0869bd4405d324b446e70f08a4711257da0d77585d1e520",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Meet our New Medical Operations Administrator Our Administrative Director, Mary Hay, is semi-retiring on September 1, and taking on a purely financial role.\nReycraft is currently accepting patients who are family members of his existing patients.\nFaraz Hafezi, who are establishing a joint practice at the Southwest Middlesex Health Centre, and are currently taking new patients.\nOne-Stop Shop Health Care Southwest Middlesex Health Centre is a non-profit, charitable community-governed organization in Mount Brydges, Ontario that provides comprehensive primary care, health promotion, disease prevention and management, education and research for the benefit of our enrolled clients.\nAs a “one-stop shop” for all your healthcare needs, we have staff physicians, medical residents, and family practice registered nurses.\nSocial Worker Please inquire with your physician about a referral.\n519-264-2800",
       "current_excerpt": "Meet our New Medical Operations Administrator Our Administrative Director, Mary Hay, is semi-retiring on September 1, and taking on a purely financial role.\nReycraft is currently accepting patients who are family members of his existing patients.\nFaraz Hafezi, who are establishing a joint practice at the Southwest Middlesex Health Centre, and are currently taking new patients.\nOne-Stop Shop Health Care Southwest Middlesex Health Centre is a non-profit, charitable community-governed organization in Mount Brydges, Ontario that provides comprehensive primary care, health promotion, disease prevention and management, education and research for the benefit of our enrolled clients.\nAs a “one-stop shop” for all your healthcare needs, we have staff physicians, medical residents, and family practice registered nurses.\nSocial Worker Please inquire with your physician about a referral.\n519-264-2800 x2333 Occupational Therapist Please inquire with your physician about a referral.\nStaff Physicians Experienced family doctors certified by the College of Family Physicians of Canada and faculty members of the Department of Family Physicians at Western.\nRegistered Nurses Family practice registered nurses are your first point of contact.\nDietician Please inquire with your physician about a referral.\nHours of Operation Medical Centre Monday 9:00 am - 5:00 pm Tuesday 9:00 am - 5:00 pm Wednesday Lim",
       "possible_claim": "possible_accepting",
@@ -1649,7 +1680,12 @@
         "Reycraft is currently accepting patients who are family members of his existing patients.",
         "Faraz Hafezi, who are establishing a joint practice at the Southwest Middlesex Health Centre, and are currently taking new patients."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "Clinic homepage still names Dr. Gabriella Schoettle and Dr. Faraz Hafezi as taking new patients. Dr. Joshua Reycraft’s separate intake is limited to family members of his existing patients. No intake inferred from the Dr. Ryan Biehn welcome announcement. Announcement dates/capacity remain unconfirmed. Existing status retained.",
+      "review_sources": [
+        "https://smhc.net/"
+      ]
     },
     {
       "id": "f767bec344bc49adf0",
@@ -1717,12 +1753,17 @@
       "new_hash": "230481b2e37841372fe0c89cf9aa31cfe3f701ebd1bc7747478ac9c43cf5d955",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Services Physical Physiotherapy Chiropractic Care Chiropody Pedorthist – Custom-Made Orthotics Advanced Footcare Nursing Athletic Therapy and Kinesiology Occupational Therapy Services Speech Language Pathology Counselling and Mental Health Meet the Team What To Expect Individual Counselling Family Counselling Relationship and Couples Counselling Child and Youth Counselling PTSD and First Responder\nServices Physical Physiotherapy Chiropractic Care Chiropody Pedorthist – Custom-Made Orthotics Advanced Footcare Nursing Athletic Therapy and Kinesiology Occupational Therapy Services Speech Language Pathology Counselling and Mental Health Meet the Team What To Expect Individual Counselling Family Counselling Relationship and Couples Counselling Child and Youth Counselling PTSD and First Responder\ncobblestonemedicineandrehab.janeapp.com Registered Physiotherapy Dhruvdatt Joshi Registered Physio",
       "current_excerpt": "Services Physical Physiotherapy Chiropractic Care Chiropody Pedorthist – Custom-Made Orthotics Advanced Footcare Nursing Athletic Therapy and Kinesiology Occupational Therapy Services Speech Language Pathology Counselling and Mental Health Meet the Team What To Expect Individual Counselling Family Counselling Relationship and Couples Counselling Child and Youth Counselling PTSD and First Responder\nServices Physical Physiotherapy Chiropractic Care Chiropody Pedorthist – Custom-Made Orthotics Advanced Footcare Nursing Athletic Therapy and Kinesiology Occupational Therapy Services Speech Language Pathology Counselling and Mental Health Meet the Team What To Expect Individual Counselling Family Counselling Relationship and Couples Counselling Child and Youth Counselling PTSD and First Responder\ncobblestonemedicineandrehab.janeapp.com Registered Physiotherapy Dhruvdatt Joshi Registered Physiotherapist | Acupuncture Provider Dhruvdatt Joshi is a compassionate and experienced Registered Physiotherapist in Canada, bringing over 8 years of expertise in treating a wide range of conditions across orthopaedic, paediatric, and neurological care.\nOsteopath Practitioners Madison Bowen Manual Osteopath Madison is dedicated to providing patient-centered care with a strong focus on improving mobility, reducing pain, and enhancing overall well-being.\nMassage Therapy Karen Grsic​ Registered Massag",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "Host page identifies Dr. Joanne Ozog-Bartlett and independently operated medical services. No current physician-intake invitation or verified direct physician contact established; rehabilitation booking is not family-practice registration. Existing status retained.",
+      "review_sources": [
+        "https://cobblestonemedicineandrehab.com/our-staff-burford/"
+      ]
     },
     {
       "id": "889de5065d954d0293",
@@ -1736,12 +1777,17 @@
       "new_hash": "54ccea13c89f2d6515e865185cb6edf56aadf7f057e065b30bf894e9d79ff1ac",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "AlKhatib walk-ins during regular hours, no appointment needed, simply come to the clinic and let us know View / Download Flu Clinic Flyer (PDF) Registered patients can schedule appointments online through our secure booking system.\nNo walk-ins accepted Tuesday November 17 5pm to 8pm Dr.\nNo walk-ins accepted Wednesday November 18 5pm to 8pm Dr.\nNo walk-ins accepted Thursday November 19 5pm to 7:30pm Dr.\nNo walk-ins accepted If the doctor in After Hour Clinic is NOT Dr Al Khatib - then its for urgent issues only (such as fever, new ear pain, new rash, UTI, asthma attack etc).\nIf a call is needed, call the on call physician between 4:30 pm- 6:30 pm to reserve a spot.\nNo intake after 6:30pm.\nAlkhatib’s After - hours days: FOR FHO Patients WEEKDAYS : Please check in 4:45 PM and try to check in before 7:30 max- I will not accept pts after 7:30 as the clinic gets very busy.",
       "current_excerpt": "AlKhatib walk-ins during regular hours, no appointment needed, simply come to the clinic and let us know View / Download Flu Clinic Flyer (PDF) Registered patients can schedule appointments online through our secure booking system.\nNo walk-ins accepted Tuesday November 17 5pm to 8pm Dr.\nNo walk-ins accepted Wednesday November 18 5pm to 8pm Dr.\nNo walk-ins accepted Thursday November 19 5pm to 7:30pm Dr.\nNo walk-ins accepted If the doctor in After Hour Clinic is NOT Dr Al Khatib - then its for urgent issues only (such as fever, new ear pain, new rash, UTI, asthma attack etc).\nIf a call is needed, call the on call physician between 4:30 pm- 6:30 pm to reserve a spot.\nNo intake after 6:30pm.\nAlkhatib’s After - hours days: FOR FHO Patients WEEKDAYS : Please check in 4:45 PM and try to check in before 7:30 max- I will not accept pts after 7:30 as the clinic gets very busy.",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "Clinic page restricts appointment booking to existing Dr. AlKhatib patients and after-hours care to her/FHO patients. Weekly hours and flu-clinic wording are not new family-practice intake. No current roster opening established. Existing categories retained; uncertain capacity is not resolved by reviewing the source change.",
+      "review_sources": [
+        "https://drdinaalkhatib.com/"
+      ]
     },
     {
       "id": "457fc5b6a7833af3d8",
@@ -1781,12 +1827,17 @@
       "new_hash": "7121f89eee7f75f0c2d84ebc6f16d63a8c378b1d42123163e8a9f3a01701ace4",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Read more Breadcrumb Home Areas of Care Trauma and Violence Specialized Primary Care Program How To Access Program Menu Back to Areas of Care Trauma and Violence Specialized Primary Care Program Contact Details Services How to Access What to Expect Care Team Trauma and Violence Specialized Primary Care Program - How To Access Currently, the Trauma and Violence Specialized Primary Care Program only\nThe program also aims to expand research capacity and training opportunities, creating a sustainable and replicable model for trauma and violence informed specialized primary care across the province.",
       "current_excerpt": "Read more Breadcrumb Home Areas of Care Trauma and Violence Specialized Primary Care Program How To Access Program Menu Back to Areas of Care Trauma and Violence Specialized Primary Care Program Contact Details Services How to Access What to Expect Care Team Trauma and Violence Specialized Primary Care Program - How To Access Currently, the Trauma and Violence Specialized Primary Care Program only\nThe program also aims to expand research capacity and training opportunities, creating a sustainable and replicable model for trauma and violence informed specialized primary care across the province.",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "Current program page still limits referrals to specified St. Joseph’s programs/services and LHSC emergency departments. Future external referral expansion is not a current self-referral or community-referral pathway. Existing categories retained; uncertain capacity is not resolved by reviewing the source change.",
+      "review_sources": [
+        "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access"
+      ]
     },
     {
       "id": "4d4310d66a506bbd19",
@@ -1824,12 +1875,18 @@
       "new_hash": "6dc1e4752c2740e5be274d5b8cc4cbb1ad38ebe59e847b58cef6f308e417a87a",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "New Patients – Wharncliffe Medical Solutions Clinic | Family Medicine in London, ON 217 Wharncliffe Rd South, London, ON, N6J 2L2 Canada.\n226-289-7228 Wharnox Medical Centre Click Here Mon - Fri : 9:00 AM - 5:00 PM Home About Us Services Pharmacy New Patients Doctors Dr Amarachukwu Okechukwu Dr Okechukwu Ogunna- Amaeze Dr.\nGodbless Ugwuowo Contact Home About Us Services Pharmacy New Patients Doctors Dr Amarachukwu Okechukwu Dr Okechukwu Ogunna- Amaeze Dr.\nGodbless Ugwuowo Contact Home About Us Services Pharmacy New Patients Doctors Dr Amarachukwu Okechukwu Dr Okechukwu Ogunna- Amaeze Dr.\nGodbless Ugwuowo Contact New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today Download and fill out the New Patient Registration Form before uploading it as an attachment.\nQuick Link Home About Us Contact FAQ Services Pharmacy Privacy Policy Open – Closed",
       "current_excerpt": "New Patients – Wharncliffe Medical Solutions Clinic | Family Medicine in London, ON 217 Wharncliffe Rd South, London, ON, N6J 2L2 Canada.\n226-289-7228 Wharnox Medical Centre Click Here Mon - Fri : 9:00 AM - 5:00 PM Home About Us Services Pharmacy New Patients Doctors Dr Amarachukwu Okechukwu Dr Okechukwu Ogunna- Amaeze Dr.\nGodbless Ugwuowo Contact Home About Us Services Pharmacy New Patients Doctors Dr Amarachukwu Okechukwu Dr Okechukwu Ogunna- Amaeze Dr.\nGodbless Ugwuowo Contact Home About Us Services Pharmacy New Patients Doctors Dr Amarachukwu Okechukwu Dr Okechukwu Ogunna- Amaeze Dr.\nGodbless Ugwuowo Contact New Patients Home New Patients New Register patients Register Your Patients’ Medical Information Today Download and fill out the New Patient Registration Form before uploading it as an attachment.\nQuick Link Home About Us Contact FAQ Services Pharmacy Privacy Policy Open – Closed Time Monday 9.00 - 17.00 Tuesday 9.00 - 17.00 Wednesday 9.00 - 17.00 Thursday 9.00 - 17.00 Friday 9.00 - 17.00 Saturday - closed Sunday - closed © 2026 Wharncliffe Medical Clinic .",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "The new-patient page offers a registration-form upload, but the page and clinic homepage do not establish current roster capacity. Keep intake unconfirmed and distinguish this office from Wharnox. Existing categories retained; uncertain capacity is not resolved by reviewing the source change.",
+      "review_sources": [
+        "https://wharncliffe.medicalsolutionclinic.com/new-patients/",
+        "https://wharncliffe.medicalsolutionclinic.com/"
+      ]
     },
     {
       "id": "94f88b34df5e94d04f",
@@ -1865,14 +1922,21 @@
       "new_hash": "605edd378a320e9f70b59c8b1d28693428287d97ddc474ba1ddc04ddb621fcfc",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Menu Menu About us Who We Are Meet Our Team Careers Strategic Plan Health Services Family Physicians Social Workers Registered Nurses Nurse Practitioner Registered Dietitian Psychologist Pharmacist Respiratory Therapist Patient Resources Mutual Respect Programs & Services Frequently Asked Questions Health Connect Ontario/ Health811 Tools & Links Greenspace Portal Clinic & Events Updates Patient Ex\nPlease call 811 for assistance if you are looking for a doctor or nurse practitioner.\nPlease note that the London Family Health Team is NOT accepting any new patients at this time.\nClick here for details HEALTH CONNECT ONTARIO Free access to a Registered Nurse 24/7 at: \" 811 \" (TTY: 1-866-797-0007 ) Learn more family Doctor Office Information CLICK FOR DETAILS Funded by the province of Ontario Business Hours – Allied Health Staff ONLY Monday to Friday 8:30am-4:30pm Beaverbrook Location 1261 Bea",
       "current_excerpt": "Menu Menu About us Who We Are Meet Our Team Careers Strategic Plan Health Services Family Physicians Social Workers Registered Nurses Nurse Practitioner Registered Dietitian Psychologist Pharmacist Respiratory Therapist Patient Resources Mutual Respect Programs & Services Frequently Asked Questions Health Connect Ontario/ Health811 Tools & Links Greenspace Portal Clinic & Events Updates Patient Ex\nPlease call 811 for assistance if you are looking for a doctor or nurse practitioner.\nPlease note that the London Family Health Team is NOT accepting any new patients at this time.\nClick here for details HEALTH CONNECT ONTARIO Free access to a Registered Nurse 24/7 at: \" 811 \" (TTY: 1-866-797-0007 ) Learn more family Doctor Office Information CLICK FOR DETAILS Funded by the province of Ontario Business Hours – Allied Health Staff ONLY Monday to Friday 8:30am-4:30pm Beaverbrook Location 1261 Beaverbrook Ave Unit 1, ON N6H 0G6 Medway Location 1205 Oxford St W, London, ON N6H 1",
       "possible_claim": "possible_closed",
       "matched_excerpts": [
         "Please note that the London Family Health Team is NOT accepting any new patients at this time."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-18",
+      "reviewer_note": "Current FAQ and physician page still explicitly advertise applications to Dr. Behzad Hassani and his NP, submitted to his office or hassanioffice@beaverbrookmedical.ca. This is a named-practice exception, not all Beaverbrook physicians. The general locations notice still conflicts; the published floor/suite caution remains. No capacity or enrolment guarantee. Existing categories retained; uncertain capacity is not resolved by reviewing the source change.",
+      "review_sources": [
+        "https://londonfht.ca/frequently-asked-questions/",
+        "https://londonfht.ca/family-physicians/",
+        "https://londonfht.ca/our-locations/"
+      ]
     }
   ]
 }
