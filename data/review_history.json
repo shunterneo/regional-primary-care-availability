@@ -3519,5 +3519,15 @@
     "type": "manual_review_with_evidence_gate",
     "reviewer_note": "First-party page inspected November 18, 2026. Ongoing family practice in London, unit 205; distinct from Forest City FHO in Lower Level 99 at the same civic address. Notice undated; no phone confirmation.",
     "evidence_quote": "Intake for new patients is currently closed."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c185",
+    "clinic_name": "Dr. Adam Sirek — professional listing (civilian family care unverified)",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "service_purpose_correction",
+    "source": "https://drsirek.ca/",
+    "reviewer_note": "Removed unsupported ongoing civilian family-care classification from military-site professional listing. Current clinician website describes aerospace/occupational services and explicitly directs civilian aviation exams away from military base. Intake remains unknown; no clinic closure or absence of other family practice inferred."
   }
 ]
