@@ -150,6 +150,28 @@
       "reviewed_on": "2026-11-17",
       "review_outcome": "Unverified; conflicting website content and direct access limitation",
       "reviewer_note": "Direct access redirected to an inaccessible bare-domain page during this review. Indexed first-party text still mixes general family-practice registration wording with both named doctors not accepting, all days closed, no Tillsonburg booking phone, and a placeholder central phone. Indexed content is not fresh rendered-page verification. Keep pending, do not publish an active-clinic or acceptance claim, and do not direct patients to its medical-history form. Independent operating identity and clinic-controlled contact remain necessary; do not infer fraud or permanent closure."
+    },
+    {
+      "id": "kgk-wellington-london-review-20261118",
+      "detected_at": "2026-11-18T14:30:00+00:00",
+      "title": "KGK / Wellington Family Health Centre — planned London clinic; current intake unverified",
+      "news_link": "https://www.linkedin.com/company/kgkscienceinc.",
+      "original_source": "https://www.linkedin.com/company/kgkscienceinc.",
+      "published": "Exact announcement date unverified; indexed post anticipates Fall 2026",
+      "matched_query": "Manual public-source review: KGK / Wellington Family Health Centre",
+      "source_type": "manual_public_source_review",
+      "proposed_action": "Verify current opening, physician roster, clinic identity/name and application destination before considering active listing",
+      "within_75km": "not verified",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Review-only lead, not a confirmed operating clinic or currently accepting listing. Indexed KGK company announcement advertised applications ahead of an anticipated Fall 2026 opening at 275 Dundas Street, London, next to its research clinic. OPRA recruitment page names Wellington Family Health Centre at the same address. Current operating status, official roster and relationship of the names require verification. Application shortlink is not verified; do not direct patients to it.",
+      "reviewed_on": "2026-11-18",
+      "review_outcome": "Pending current operation, identity and intake verification",
+      "reviewer_note": "First-party indexed announcement and OPRA recruitment page reviewed. Current company-page retrieval does not itself establish a current intake opening; recruitment advertising is not confirmation of patient attachment. No forms submitted or clinic contact made.",
+      "review_sources": [
+        "https://www.linkedin.com/company/kgkscienceinc.",
+        "https://portal.opra.ca/jobs/openings/ab564a90-8b34-4cb6-9555-fb80c969a0df/"
+      ]
     }
   ]
 }
