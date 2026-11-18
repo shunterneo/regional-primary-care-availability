@@ -10973,6 +10973,234 @@
       "address_verified_on": "2026-11-17",
       "uncertainty_reason": "conflicting_or_conditional",
       "uncertainty_label": "Dr Kamar's relocation and Dr Sharman's retirement decision make any older availability statement unreliable."
+    },
+    {
+      "id": "c224",
+      "name": "St. George Medical Center — Kitchener (Dr. Oladapo Ogunkoya)",
+      "community": "Kitchener",
+      "address": "1193 Fischer-Hallman Road, Unit 310, Kitchener, ON N2R 0H3",
+      "latitude": 43.40251,
+      "longitude": -80.49735,
+      "coordinate_source": "https://gist.github.com/john-clarke/968ecd34ef043e3a5d6a88d0c7d75719",
+      "coordinate_quality": "adjacent 1201 Fischer-Hallman public commercial location, NOT surveyed clinic entrance",
+      "coordinate_checked_on": "2026-11-18",
+      "location_quality": "Public clinic address corroborated against independent location records; map coordinate is adjacent 1201 Fischer-Hallman public commercial location, NOT surveyed clinic entrance. 62.45 km great-circle distance at that point. Surrounding public office is independently confirmed within the 75-km boundary.",
+      "clinic_type": "Family physician and walk-in",
+      "care_model": "both",
+      "care_model_basis": "First-party site describes ongoing family-physician care and separately identifies walk-in care where applicable; see https://www.stgeorgemc.ca/kitchener/family-practice",
+      "care_model_source": "https://www.stgeorgemc.ca/kitchener",
+      "status": "accepting",
+      "intake_detail": "First-party family-practice page explicitly welcomes new patients for ongoing rostered care with Dr. Oladapo Oluseyi Ogunkoya. Call 519-593-1004 to REQUEST family-practice registration; the page says online registration is not yet active. Separate walk-in visits do not imply attachment.",
+      "application_url": "https://www.stgeorgemc.ca/kitchener/family-practice",
+      "phone": "519-593-1004",
+      "providers": "Dr. Oladapo Oluseyi Ogunkoya; clinic states family practice open to new roster patients",
+      "clinic_url": "https://www.stgeorgemc.ca/kitchener",
+      "evidence_url": "https://www.stgeorgemc.ca/kitchener/family-practice",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "intake_reviewed_on": "2026-11-18",
+      "notes": "OFFICIAL CLINIC WEBPAGE HAS POSTAL CODE N2N 0H3, while independent local business directories at the same 1193 Fischer-Hallman office report N2R 0H3; call reception before attending. Unrelated St. George Medical Centre at 2 Sunnyside Drive in St. George, Ontario is a DIFFERENT physical practice, do not merge. Adjacent 1201 road business point used for conservative within-radius check, not precise clinic coordinates.",
+      "review_basis": "Direct clinic website checked 2026-11-18; address corroboration via Public local listing of 1193 Fischer-Hallman Road and 1201 Fischer-Hallman Road geotag. Undated live site. No phone confirmation. Patient acceptance is not guaranteed. Public office geolocation approximated from nearby published feature, not user or patient address.",
+      "confidence": "High for current first-party family-practice enquiry and civic office address; postal code and exact entrance coordinate unresolved.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-18",
+        "method": "public_webpage_review",
+        "source_url": "https://www.stgeorgemc.ca/kitchener/family-practice",
+        "finding": "First-party family-practice page explicitly welcomes new patients for ongoing rostered care with Dr. Oladapo Oluseyi Ogunkoya. Call 519-593-1004 to REQUEST family-practice registration; the page says online registration is not yet active. Separate walk-in visits do not imply attachment.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.stgeorgemc.ca/kitchener",
+      "address_verified_on": "2026-11-18",
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-18",
+        "finding": "Episodic / walk-in visits advertised separately from any family-practice roster; such visits are not evidence of attachment.",
+        "sources": [
+          "https://www.stgeorgemc.ca/kitchener"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Family-practice enrolment currently advertised; telephone review and clinician capacity still required. OHIP and non-OHIP patients are listed as welcome; individual eligibility not specified.",
+        "sources": [
+          "https://www.stgeorgemc.ca/kitchener/family-practice"
+        ]
+      }
+    },
+    {
+      "id": "c225",
+      "name": "KW Bruce Medical — Kitchener",
+      "community": "Kitchener",
+      "address": "809 Victoria Street North, Kitchener, ON N2B 3C3",
+      "latitude": 43.46197,
+      "longitude": -80.4685,
+      "coordinate_source": "https://www.openstreetmap.org/node/12692051116",
+      "coordinate_quality": "same street-address commercial building point for another retail tenant, NOT clinic entrance",
+      "coordinate_checked_on": "2026-11-18",
+      "location_quality": "Public clinic address corroborated against independent location records; map coordinate is same street-address commercial building point for another retail tenant, NOT clinic entrance. 69.46 km great-circle distance at that point. Surrounding public office is independently confirmed within the 75-km boundary.",
+      "clinic_type": "Family physician practice and walk-in clinic",
+      "care_model": "both",
+      "care_model_basis": "First-party site describes ongoing family-physician care and separately identifies walk-in care where applicable; see https://kwbrucemedical.ca/patient-registration/",
+      "care_model_source": "https://kwbrucemedical.ca/",
+      "status": "accepting",
+      "intake_detail": "Official patient-registration form lists 'Family Doctor' as a service and says physicians accepting patients from February 23, 2026. Clinic describes ongoing family medicine and says it welcomes new patients from the Kitchener-Waterloo region and Bruce County. Submit the clinic's patient registration form, or call 226-336-1046. Application is not guaranteed roster attachment.",
+      "application_url": "https://kwbrucemedical.ca/patient-registration/",
+      "phone": "226-336-1046",
+      "providers": "Dr. Omowunmi Sonubi; Dr. Sunday Ocharifu (individual enrolment availability not separately stated)",
+      "clinic_url": "https://kwbrucemedical.ca/",
+      "evidence_url": "https://kwbrucemedical.ca/patient-registration/",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "intake_reviewed_on": "2026-11-18",
+      "notes": "Live homepage retains pre-opening February 2026 marketing copy even though it lists current office hours; first-party patient form explicitly dates intake from February 23, 2026. No telephone confirmation. Same-property shop location is not exact clinic entrance.",
+      "review_basis": "Direct clinic website checked 2026-11-18; address corroboration via OSM same-plaza tenant 809 Victoria Street North and clinic site. Intake date February 23, 2026; page publication undated. No phone confirmation. Patient acceptance is not guaranteed. Public office geolocation approximated from nearby published feature, not user or patient address.",
+      "confidence": "High for published first-party ongoing family-practice applications and same-street-address office; provider-specific availability not confirmed.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-18",
+        "method": "public_webpage_review",
+        "source_url": "https://kwbrucemedical.ca/patient-registration/",
+        "finding": "Official patient-registration form lists 'Family Doctor' as a service and says physicians accepting patients from February 23, 2026. Clinic describes ongoing family medicine and says it welcomes new patients from the Kitchener-Waterloo region and Bruce County. Submit the clinic's patient registration form, or call 226-336-1046. Application is not guaranteed roster attachment.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "clinic_address_verified": true,
+      "address_verification_source": "https://kwbrucemedical.ca/",
+      "address_verified_on": "2026-11-18",
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-18",
+        "finding": "Episodic / walk-in visits advertised separately from any family-practice roster; such visits are not evidence of attachment.",
+        "sources": [
+          "https://kwbrucemedical.ca/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Stated catchment: Kitchener-Waterloo region and Bruce County. Physician-specific capacity, additional restrictions and acceptance must be confirmed.",
+        "sources": [
+          "https://kwbrucemedical.ca/patient-registration/"
+        ]
+      }
+    },
+    {
+      "id": "c226",
+      "name": "Grand River Family Health & Walk-In Clinic — Kitchener",
+      "community": "Kitchener",
+      "address": "1585 Victoria Street North, Kitchener, ON N2B 3E6",
+      "latitude": 43.47289,
+      "longitude": -80.43621,
+      "coordinate_source": "https://www.openstreetmap.org/way/233699213",
+      "coordinate_quality": "adjacent 1575 Victoria Street North building point, NOT exact 1585 clinic entrance",
+      "coordinate_checked_on": "2026-11-18",
+      "location_quality": "Public clinic address corroborated against independent location records; map coordinate is adjacent 1575 Victoria Street North building point, NOT exact 1585 clinic entrance. 71.42 km great-circle distance at that point. Surrounding public office is independently confirmed within the 75-km boundary.",
+      "clinic_type": "Family physician practice and walk-in clinic",
+      "care_model": "both",
+      "care_model_basis": "First-party site describes ongoing family-physician care and separately identifies walk-in care where applicable; see https://www.grandriverfamilyhealth.ca/",
+      "care_model_source": "https://www.grandriverfamilyhealth.ca/",
+      "status": "accepting",
+      "intake_detail": "First-party homepage distinguishes 'Register for a Family Doctor' from new-patient WALK-IN appointments and states its male multilingual family physician is accepting new patients. Visit the clinic's family-doctor registration page or call 519-340-5835; this is a request for ongoing family care, not guaranteed attachment.",
+      "application_url": "https://www.grandriverfamilyhealth.ca/register-now",
+      "phone": "519-340-5835",
+      "providers": "Clinic site names Dr. Nizar Mohammed and other physicians; which specific physician has new family-roster capacity is unconfirmed",
+      "clinic_url": "https://www.grandriverfamilyhealth.ca/",
+      "evidence_url": "https://www.grandriverfamilyhealth.ca/",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "intake_reviewed_on": "2026-11-18",
+      "notes": "Clinic page advertises several family doctors accepting, but it does not match the current intake promise to a specific clinician; do not label every doctor accepting. Geospatial source maps adjacent 1575 Victoria Street N, not the 1585 office itself. The location is near the 75-km margin but neighbouring address point is ~71.4 km, providing substantial boundary margin.",
+      "review_basis": "Direct clinic website checked 2026-11-18; address corroboration via CPSO public physician-register office at 1585 Victoria Street North; OSM building at neighbouring 1575. CPSO capture dated June 10, 2026; clinic page undated. No phone confirmation. Patient acceptance is not guaranteed. Public office geolocation approximated from nearby published feature, not user or patient address.",
+      "confidence": "High for clinic's own family-doctor registration announcement and physical address; moderate for unspecified accepting clinician; exact suite coordinate unverified.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-18",
+        "method": "public_webpage_review",
+        "source_url": "https://www.grandriverfamilyhealth.ca/",
+        "finding": "First-party homepage distinguishes 'Register for a Family Doctor' from new-patient WALK-IN appointments and states its male multilingual family physician is accepting new patients. Visit the clinic's family-doctor registration page or call 519-340-5835; this is a request for ongoing family care, not guaranteed attachment.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.grandriverfamilyhealth.ca/",
+      "address_verified_on": "2026-11-18",
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-18",
+        "finding": "Episodic / walk-in visits advertised separately from any family-practice roster; such visits are not evidence of attachment.",
+        "sources": [
+          "https://www.grandriverfamilyhealth.ca/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "The clinic does not publish additional residency or age restrictions on its registration page; check clinician availability with reception. Walk-in encounters are a separate pathway.",
+        "sources": [
+          "https://www.grandriverfamilyhealth.ca/"
+        ]
+      }
+    },
+    {
+      "id": "c227",
+      "name": "Spurline Crossing Family Practice & Walk-In Clinic — Waterloo",
+      "community": "Waterloo",
+      "address": "55 Erb Street East, Unit 108, Waterloo, ON N2J 4K8",
+      "latitude": 43.46515,
+      "longitude": -80.51853,
+      "coordinate_source": "https://www.openstreetmap.org/way/157555055",
+      "coordinate_quality": "address-matched commercial building footprint at 55 Erb Street East, NOT suite entrance",
+      "coordinate_checked_on": "2026-11-18",
+      "location_quality": "Public clinic address corroborated against independent location records; map coordinate is address-matched commercial building footprint at 55 Erb Street East, NOT suite entrance. 68.70 km great-circle distance at that point. Surrounding public office is independently confirmed within the 75-km boundary.",
+      "clinic_type": "Family physician practice and walk-in clinic",
+      "care_model": "both",
+      "care_model_basis": "First-party site describes ongoing family-physician care and separately identifies walk-in care where applicable; see https://spurlinemedclinic.com/about-us/",
+      "care_model_source": "https://spurlinemedclinic.com/",
+      "status": "unknown",
+      "intake_detail": "Named family physicians provide continuing care and walk-in services. Its first-party about page welcomes new patients and allows appointment bookings, and a co-located pharmacy advertises a new family doctor, but neither specifies which physician is currently accepting family-practice roster enrolment. Call 519-883-8581 to verify physician-specific ongoing attachment; do not equate booking a visit with roster acceptance.",
+      "application_url": "https://spurlinemedclinic.com/booking/",
+      "phone": "519-883-8581",
+      "providers": "Dr. Opeoluwa Folorunsho; Dr. Stefanie Wright",
+      "clinic_url": "https://spurlinemedclinic.com/",
+      "evidence_url": "https://spurlinemedclinic.com/about-us/",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "intake_reviewed_on": "2026-11-18",
+      "notes": "Nearby pharmacy says new FAMILY DOCTOR intake is open, while the clinic's undated site advertises generic new-patient visits. Conservative status UNKNOWN because current named physician's ongoing roster intake is not explicit on clinic-owned website; walk-in access does not establish attachment.",
+      "review_basis": "Direct clinic website checked 2026-11-18; address corroboration via OSM mapped 55 Erb Street East building, Healthline listing updated Feb 20 2026, physician-recruitment notice Nov 13 2025. Undated live practice page; secondary directory 2025/2026. No phone confirmation. Patient acceptance is not guaranteed. Public office geolocation approximated from nearby published feature, not user or patient address.",
+      "confidence": "High for clinic existence, listed physicians, combined practice model and exact address; current family-roster intake uncertain.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-18",
+        "method": "public_webpage_review",
+        "source_url": "https://spurlinemedclinic.com/about-us/",
+        "finding": "Current opening to NEW family-practice rosters not directly established; ordinary appointments/walk-ins are not proof of attachment.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "clinic_address_verified": true,
+      "address_verification_source": "https://spurlinemedclinic.com/",
+      "address_verified_on": "2026-11-18",
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-18",
+        "finding": "Episodic / walk-in visits advertised separately from any family-practice roster; such visits are not evidence of attachment.",
+        "sources": [
+          "https://spurlinemedclinic.com/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Unconfirmed current eligibility and ongoing attachment; third-party physician-recruitment list was last updated November 13, 2025, and is too old to establish current roster acceptance.",
+        "sources": [
+          "https://spurlinemedclinic.com/about-us/"
+        ]
+      }
     }
   ]
 }

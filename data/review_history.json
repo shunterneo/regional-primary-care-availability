@@ -3450,5 +3450,45 @@
         ]
       }
     }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c224",
+    "clinic_name": "St. George Medical Center — Kitchener (Dr. Oladapo Ogunkoya)",
+    "old_status": "not listed",
+    "new_status": "accepting",
+    "type": "verified_new_public_practice",
+    "source": "https://www.stgeorgemc.ca/kitchener/family-practice",
+    "reviewer_note": "First-party practice source checked 2026-11-18. High for current first-party family-practice enquiry and civic office address; postal code and exact entrance coordinate unresolved. OFFICIAL CLINIC WEBPAGE HAS POSTAL CODE N2N 0H3, while independent local business directories at the same 1193 Fischer-Hallman office report N2R 0H3; call reception before attending. Unrelated St. George Medical Centre at 2 Sunnyside Drive in St. George, Ontario is a DIFFERENT physical practice, do not merge. Adjacent 1201 road business point used for conservative within-radius check, not precise clinic coordinates. Public clinic address corroborated against independent location records; map coordinate is adjacent 1201 Fischer-Hallman public commercial location, NOT surveyed clinic entrance. 62.45 km great-circle distance at that point. Surrounding public office is independently confirmed within the 75-km boundary."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c225",
+    "clinic_name": "KW Bruce Medical — Kitchener",
+    "old_status": "not listed",
+    "new_status": "accepting",
+    "type": "verified_new_public_practice",
+    "source": "https://kwbrucemedical.ca/patient-registration/",
+    "reviewer_note": "First-party practice source checked 2026-11-18. High for published first-party ongoing family-practice applications and same-street-address office; provider-specific availability not confirmed. Live homepage retains pre-opening February 2026 marketing copy even though it lists current office hours; first-party patient form explicitly dates intake from February 23, 2026. No telephone confirmation. Same-property shop location is not exact clinic entrance. Public clinic address corroborated against independent location records; map coordinate is same street-address commercial building point for another retail tenant, NOT clinic entrance. 69.46 km great-circle distance at that point. Surrounding public office is independently confirmed within the 75-km boundary."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c226",
+    "clinic_name": "Grand River Family Health & Walk-In Clinic — Kitchener",
+    "old_status": "not listed",
+    "new_status": "accepting",
+    "type": "verified_new_public_practice",
+    "source": "https://www.grandriverfamilyhealth.ca/",
+    "reviewer_note": "First-party practice source checked 2026-11-18. High for clinic's own family-doctor registration announcement and physical address; moderate for unspecified accepting clinician; exact suite coordinate unverified. Clinic page advertises several family doctors accepting, but it does not match the current intake promise to a specific clinician; do not label every doctor accepting. Geospatial source maps adjacent 1575 Victoria Street N, not the 1585 office itself. The location is near the 75-km margin but neighbouring address point is ~71.4 km, providing substantial boundary margin. Public clinic address corroborated against independent location records; map coordinate is adjacent 1575 Victoria Street North building point, NOT exact 1585 clinic entrance. 71.42 km great-circle distance at that point. Surrounding public office is independently confirmed within the 75-km boundary."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c227",
+    "clinic_name": "Spurline Crossing Family Practice & Walk-In Clinic — Waterloo",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "type": "verified_new_public_practice",
+    "source": "https://spurlinemedclinic.com/about-us/",
+    "reviewer_note": "First-party practice source checked 2026-11-18. High for clinic existence, listed physicians, combined practice model and exact address; current family-roster intake uncertain. Nearby pharmacy says new FAMILY DOCTOR intake is open, while the clinic's undated site advertises generic new-patient visits. Conservative status UNKNOWN because current named physician's ongoing roster intake is not explicit on clinic-owned website; walk-in access does not establish attachment. Public clinic address corroborated against independent location records; map coordinate is address-matched commercial building footprint at 55 Erb Street East, NOT suite entrance. 68.70 km great-circle distance at that point. Surrounding public office is independently confirmed within the 75-km boundary."
   }
 ]
