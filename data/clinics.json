@@ -7148,7 +7148,7 @@
       "id": "c145",
       "name": "Dr. Alexander Adeyemi — Family Medicine",
       "community": "London",
-      "address": "230 Victoria Street",
+      "address": "230 Victoria Street, Unit 221",
       "phone": "226-270-9077",
       "providers": "Dr. Alexander Adeyemi",
       "clinic_type": "MD",
@@ -7163,9 +7163,9 @@
       "last_reviewed": "2026-11-12",
       "review_basis": "Own live practice page and new-patient application instructions reviewed online on 2026-11-12.",
       "clinic_address_verified": true,
-      "address_verification_source": "https://www.dralexadeyemi.ca/",
-      "address_verified_on": "2026-11-12",
-      "address_verification_scope": "Published clinical business address; not private corporate mailing address.",
+      "address_verification_source": "https://advancedpracticefho.com/contact-us",
+      "address_verified_on": "2026-11-18",
+      "address_verification_scope": "FHO contact page confirms Unit 221 and same office phone; intake not rechecked in this address-only review.",
       "location_quality": "Street address checked; map remains community-level approximate.",
       "community_distance_km": 44.6,
       "notes": "",
@@ -7272,7 +7272,7 @@
       },
       "online_review": {
         "reviewed_on": "2026-11-18",
-        "finding": "The Healthline page could not be freshly retrieved. Its indexed listing, last fully updated September 16, 2025, gives 230 Victoria Street, Unit 116A; an older cached CPSO page gives Suite 208 at the same street address. The current TVFHT Forest City page does not name Dr. Malu. Confirm the office and unit at 519-640-9954 before visiting. This conflict does not establish relocation or closure, and intake remains unknown.",
+        "finding": "The Healthline page could not be freshly retrieved. Its indexed listing, last fully updated September 16, 2025, gives 230 Victoria Street, Unit 116A; the live CPSO register reviewed November 18, 2026 gives Suite 208 at the same street address. The current TVFHT Forest City page does not name Dr. Malu. Confirm the office and unit at 519-640-9954 before visiting. This unresolved source conflict does not establish relocation or closure, and intake remains unknown.",
         "sources": [
           "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
           "https://thamesvalleyfht.ca/locations/forest-city-family-health-organization/",
@@ -7292,17 +7292,17 @@
       "clinic_type": "MD",
       "status": "unknown",
       "care_model": "ongoing",
-      "care_model_basis": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO.",
-      "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=97631",
-      "clinic_url": "",
+      "care_model_basis": "Official FHO lists Dr. Matusa as a family physician and confirms her separate Unit 201 office.",
+      "care_model_source": "https://advancedpracticefho.com/family-physicians",
+      "clinic_url": "https://advancedpracticefho.com/contact-us",
       "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=97631",
       "intake_detail": "Practice identified in the completeness review. Current new-patient applications or waitlist availability not established from reviewed public sources.",
       "source_published": "",
       "last_reviewed": "2026-11-12",
       "review_basis": "Public physician-register office location and family-medicine specialty checked; intake availability is not listed by CPSO.",
       "clinic_address_verified": true,
-      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=97631",
-      "address_verified_on": "2026-11-12",
+      "address_verification_source": "https://advancedpracticefho.com/contact-us",
+      "address_verified_on": "2026-11-18",
       "address_verification_scope": "Published clinical business address; not private corporate mailing address.",
       "location_quality": "Street address checked; map remains community-level approximate.",
       "community_distance_km": 44.6,
@@ -7321,10 +7321,11 @@
         "enrolment_guaranteed": false
       },
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Practice-name searches locate university practice inventory and third-party descriptions, not a current clinic-owned intake page. Existing register evidence supports offices, not capacity.",
+        "reviewed_on": "2026-11-18",
+        "finding": "Official FHO confirms Dr. Matusa at 781 Richmond Unit 201, phone5196807772. Ongoing care supported; intake remains unknown.",
         "sources": [
-          "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+          "https://advancedpracticefho.com/contact-us",
+          "https://advancedpracticefho.com/family-physicians"
         ]
       },
       "uncertainty_reason": "no_current_statement",
@@ -11315,7 +11316,7 @@
       "source_published": "",
       "last_reviewed": "2026-11-18",
       "location_quality": "Official site address-query map centre; not suite entrance.",
-      "community_distance_km": 44.0,
+      "community_distance_km": 44,
       "latitude": 43.024041,
       "longitude": -81.217971,
       "coordinate_source": "https://www.drmichaelvu.ca/",
@@ -11393,6 +11394,232 @@
           "https://kamvamedical.ca/doctors-walk-in-medical-clinic/"
         ]
       }
+    },
+    {
+      "id": "c232",
+      "name": "Advanced Medical Practice FHO — Esterbauer and Doulaverakis office",
+      "community": "London",
+      "address": "230 Victoria Street, Unit 202, London, ON N6A 2C2",
+      "clinic_type": "MD",
+      "care_model": "ongoing",
+      "care_model_basis": "Official FHO contact page and family-physician profiles reviewed 2026-11-18 confirm these family doctors and this public office. FHO after-hours service is only for rostered patients, not public walk-in or evidence of new-patient acceptance. Existing government address-matched 230 Victoria building point reused, not suite entrance.",
+      "care_model_source": "https://advancedpracticefho.com/family-physicians",
+      "status": "unknown",
+      "intake_detail": "Ongoing family practice is listed by the FHO, but new-patient applications or waitlist availability are unconfirmed. Contact the individual office to ask. The separate after-hours clinic is restricted to existing rostered patients and is not public walk-in service.",
+      "phone": "519-672-9766",
+      "providers": "Dr. Michael Esterbauer; Dr. Christina Doulaverakis",
+      "evidence_url": "https://advancedpracticefho.com/contact-us",
+      "clinic_url": "https://advancedpracticefho.com/contact-us",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "location_quality": "Address-matched public clinic building point; not a verified suite or entrance.",
+      "community_distance_km": 46.1,
+      "latitude": 43.00447,
+      "longitude": -81.256931,
+      "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
+      "coordinate_checked_on": "2026-11-18",
+      "notes": "",
+      "review_basis": "Official FHO contact page and family-physician profiles reviewed 2026-11-18 confirm these family doctors and this public office. FHO after-hours service is only for rostered patients, not public walk-in or evidence of new-patient acceptance. Existing government address-matched 230 Victoria building point reused, not suite entrance.",
+      "auto_updates_enabled": false,
+      "clinic_address_verified": true,
+      "address_verification_source": "https://advancedpracticefho.com/contact-us",
+      "address_verified_on": "2026-11-18",
+      "address_verification_scope": "Official FHO office address; not intake confirmation.",
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Ongoing family practice is listed by the FHO, but new-patient applications or waitlist availability are unconfirmed. Contact the individual office to ask. The separate after-hours clinic is restricted to existing rostered patients and is not public walk-in service.",
+        "sources": [
+          "https://advancedpracticefho.com/contact-us",
+          "https://advancedpracticefho.com/family-physicians",
+          "https://advancedpracticefho.com/after-hours-clinic"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "FHO identifies these family doctors and their ongoing practices. Intake unknown.",
+        "sources": [
+          "https://advancedpracticefho.com/contact-us",
+          "https://advancedpracticefho.com/family-physicians"
+        ]
+      },
+      "walk_in_review": {
+        "status": "not_available",
+        "reviewed_on": "2026-11-18",
+        "finding": "FHO after-hours clinic is explicitly restricted to rostered patients; it is not public walk-in service.",
+        "sources": [
+          "https://advancedpracticefho.com/after-hours-clinic"
+        ]
+      },
+      "phone_note": "Dr. Esterbauer: 519-672-9766; Dr. Doulaverakis: 519-914-3477. Shared Unit 202, separate physician contacts."
+    },
+    {
+      "id": "c233",
+      "name": "Advanced Medical Practice FHO — Dr. Eshak Tawfeek",
+      "community": "London",
+      "address": "230 Victoria Street, Unit 118, London, ON N6A 2C2",
+      "clinic_type": "MD",
+      "care_model": "ongoing",
+      "care_model_basis": "Official FHO contact page and family-physician profiles reviewed 2026-11-18 confirm these family doctors and this public office. FHO after-hours service is only for rostered patients, not public walk-in or evidence of new-patient acceptance. Existing government address-matched 230 Victoria building point reused, not suite entrance.",
+      "care_model_source": "https://advancedpracticefho.com/family-physicians",
+      "status": "unknown",
+      "intake_detail": "Ongoing family practice is listed by the FHO, but new-patient applications or waitlist availability are unconfirmed. Contact the individual office to ask. The separate after-hours clinic is restricted to existing rostered patients and is not public walk-in service.",
+      "phone": "519-645-2467",
+      "providers": "Dr. Eshak Tawfeek",
+      "evidence_url": "https://advancedpracticefho.com/contact-us",
+      "clinic_url": "https://advancedpracticefho.com/contact-us",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "location_quality": "Address-matched public clinic building point; not a verified suite or entrance.",
+      "community_distance_km": 46.1,
+      "latitude": 43.00447,
+      "longitude": -81.256931,
+      "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
+      "coordinate_checked_on": "2026-11-18",
+      "notes": "",
+      "review_basis": "Official FHO contact page and family-physician profiles reviewed 2026-11-18 confirm these family doctors and this public office. FHO after-hours service is only for rostered patients, not public walk-in or evidence of new-patient acceptance. Existing government address-matched 230 Victoria building point reused, not suite entrance.",
+      "auto_updates_enabled": false,
+      "clinic_address_verified": true,
+      "address_verification_source": "https://advancedpracticefho.com/contact-us",
+      "address_verified_on": "2026-11-18",
+      "address_verification_scope": "Official FHO office address; not intake confirmation.",
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Ongoing family practice is listed by the FHO, but new-patient applications or waitlist availability are unconfirmed. Contact the individual office to ask. The separate after-hours clinic is restricted to existing rostered patients and is not public walk-in service.",
+        "sources": [
+          "https://advancedpracticefho.com/contact-us",
+          "https://advancedpracticefho.com/family-physicians",
+          "https://advancedpracticefho.com/after-hours-clinic"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "FHO identifies these family doctors and their ongoing practices. Intake unknown.",
+        "sources": [
+          "https://advancedpracticefho.com/contact-us",
+          "https://advancedpracticefho.com/family-physicians"
+        ]
+      },
+      "walk_in_review": {
+        "status": "not_available",
+        "reviewed_on": "2026-11-18",
+        "finding": "FHO after-hours clinic is explicitly restricted to rostered patients; it is not public walk-in service.",
+        "sources": [
+          "https://advancedpracticefho.com/after-hours-clinic"
+        ]
+      }
+    },
+    {
+      "id": "c234",
+      "name": "Advanced Medical Practice FHO — Dr. Natalie Ferrari",
+      "community": "London",
+      "address": "230 Victoria Street, Unit 233, London",
+      "clinic_type": "MD",
+      "care_model": "ongoing",
+      "care_model_basis": "Current official FHO contact page reviewed 2026-11-18 confirms named family doctors and distinct office unit. No intake opening established. After-hours service is rostered-patients-only. Coordinates matched to public street address building, not suite entrance; Victoria government point reused, Richmond address-matched OpenStreetMap point.",
+      "care_model_source": "https://advancedpracticefho.com/family-physicians",
+      "status": "unknown",
+      "intake_detail": "Ongoing family practice is listed by the FHO, but new-patient applications or waitlist availability are unconfirmed. Contact the individual office to ask. The separate after-hours clinic is restricted to existing rostered patients and is not public walk-in service.",
+      "phone": "519-873-1700",
+      "providers": "Dr. Natalie Ferrari",
+      "evidence_url": "https://advancedpracticefho.com/contact-us",
+      "clinic_url": "https://advancedpracticefho.com/contact-us",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "location_quality": "Address-matched public clinic building point; not a verified suite or entrance.",
+      "community_distance_km": 46.1,
+      "latitude": 43.00447,
+      "longitude": -81.256931,
+      "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
+      "coordinate_checked_on": "2026-11-18",
+      "notes": "",
+      "review_basis": "Current official FHO contact page reviewed 2026-11-18 confirms named family doctors and distinct office unit. No intake opening established. After-hours service is rostered-patients-only. Coordinates matched to public street address building, not suite entrance; Victoria government point reused, Richmond address-matched OpenStreetMap point.",
+      "auto_updates_enabled": false,
+      "clinic_address_verified": true,
+      "address_verification_source": "https://advancedpracticefho.com/contact-us",
+      "address_verified_on": "2026-11-18",
+      "address_verification_scope": "Official FHO office address; not intake confirmation.",
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Ongoing family practice is listed by the FHO, but new-patient applications or waitlist availability are unconfirmed. Contact the individual office to ask. The separate after-hours clinic is restricted to existing rostered patients and is not public walk-in service.",
+        "sources": [
+          "https://advancedpracticefho.com/contact-us",
+          "https://advancedpracticefho.com/family-physicians",
+          "https://advancedpracticefho.com/after-hours-clinic"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "FHO identifies these family doctors and their ongoing practices. Intake unknown.",
+        "sources": [
+          "https://advancedpracticefho.com/contact-us",
+          "https://advancedpracticefho.com/family-physicians"
+        ]
+      },
+      "walk_in_review": {
+        "status": "not_available",
+        "reviewed_on": "2026-11-18",
+        "finding": "FHO after-hours clinic is explicitly restricted to rostered patients; it is not public walk-in service.",
+        "sources": [
+          "https://advancedpracticefho.com/after-hours-clinic"
+        ]
+      }
+    },
+    {
+      "id": "c235",
+      "name": "Advanced Medical Practice FHO — Kanwar and Cosma office",
+      "community": "London",
+      "address": "781 Richmond Street, Unit 202, London",
+      "clinic_type": "MD",
+      "care_model": "ongoing",
+      "care_model_basis": "Current official FHO contact page reviewed 2026-11-18 confirms named family doctors and distinct office unit. No intake opening established. After-hours service is rostered-patients-only. Coordinates matched to public street address building, not suite entrance; Victoria government point reused, Richmond address-matched OpenStreetMap point.",
+      "care_model_source": "https://advancedpracticefho.com/family-physicians",
+      "status": "unknown",
+      "intake_detail": "Ongoing family practice is listed by the FHO, but new-patient applications or waitlist availability are unconfirmed. Contact the individual office to ask. The separate after-hours clinic is restricted to existing rostered patients and is not public walk-in service.",
+      "phone": "226-663-3081",
+      "providers": "Dr. Namita Kanwar; Dr. Delaney Cosma",
+      "evidence_url": "https://advancedpracticefho.com/contact-us",
+      "clinic_url": "https://advancedpracticefho.com/contact-us",
+      "source_published": "",
+      "last_reviewed": "2026-11-18",
+      "location_quality": "Address-matched public clinic building point; not a verified suite or entrance.",
+      "community_distance_km": 45.6,
+      "latitude": 42.9963312,
+      "longitude": -81.2538212,
+      "coordinate_source": "https://www.openstreetmap.org/way/188285694",
+      "coordinate_checked_on": "2026-11-18",
+      "notes": "",
+      "review_basis": "Current official FHO contact page reviewed 2026-11-18 confirms named family doctors and distinct office unit. No intake opening established. After-hours service is rostered-patients-only. Coordinates matched to public street address building, not suite entrance; Victoria government point reused, Richmond address-matched OpenStreetMap point.",
+      "auto_updates_enabled": false,
+      "clinic_address_verified": true,
+      "address_verification_source": "https://advancedpracticefho.com/contact-us",
+      "address_verified_on": "2026-11-18",
+      "address_verification_scope": "Official FHO office address; not intake confirmation.",
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Ongoing family practice is listed by the FHO, but new-patient applications or waitlist availability are unconfirmed. Contact the individual office to ask. The separate after-hours clinic is restricted to existing rostered patients and is not public walk-in service.",
+        "sources": [
+          "https://advancedpracticefho.com/contact-us",
+          "https://advancedpracticefho.com/family-physicians",
+          "https://advancedpracticefho.com/after-hours-clinic"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "FHO identifies these family doctors and their ongoing practices. Intake unknown.",
+        "sources": [
+          "https://advancedpracticefho.com/contact-us",
+          "https://advancedpracticefho.com/family-physicians"
+        ]
+      },
+      "walk_in_review": {
+        "status": "not_available",
+        "reviewed_on": "2026-11-18",
+        "finding": "FHO after-hours clinic is explicitly restricted to rostered patients; it is not public walk-in service.",
+        "sources": [
+          "https://advancedpracticefho.com/after-hours-clinic"
+        ]
+      },
+      "phone_note": "Dr. Kanwar: 226-663-3081; Dr. Cosma: 548-866-0351. Shared Unit 202, separate physician contacts."
     }
   ]
 }

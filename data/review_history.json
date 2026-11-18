@@ -22,7 +22,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c019",
-    "clinic_name": "Valleyview Medical Centre \u2014 Colborne",
+    "clinic_name": "Valleyview Medical Centre — Colborne",
     "old_status": "reported",
     "new_status": "accepting",
     "source": "https://valleyviewmedical.ca/",
@@ -32,7 +32,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c020",
-    "clinic_name": "Valleyview Medical Centre \u2014 Lynden",
+    "clinic_name": "Valleyview Medical Centre — Lynden",
     "old_status": "reported",
     "new_status": "accepting",
     "source": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
@@ -42,7 +42,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c021",
-    "clinic_name": "Coronation Family Physicians \u2014 Dr. Fares Hayek",
+    "clinic_name": "Coronation Family Physicians — Dr. Fares Hayek",
     "old_status": "reported",
     "new_status": "waitlist",
     "source": "https://www.coronationfamilyphysicians.ca/",
@@ -52,7 +52,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c023",
-    "clinic_name": "Langs Community Health Centre \u2014 Cambridge",
+    "clinic_name": "Langs Community Health Centre — Cambridge",
     "old_status": "reported",
     "new_status": "accepting",
     "source": "https://www.langs.org/new-patients",
@@ -82,7 +82,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c028",
-    "clinic_name": "Active Care Medical Centre \u2014 Dr. Ankit Sachdeva",
+    "clinic_name": "Active Care Medical Centre — Dr. Ankit Sachdeva",
     "old_status": "reported",
     "new_status": "accepting",
     "source": "https://activecaremedicalcentre.com/201-clinic/",
@@ -102,7 +102,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c033",
-    "clinic_name": "Old South FHO \u2014 Dr. Spence & Dr. Goosheh",
+    "clinic_name": "Old South FHO — Dr. Spence & Dr. Goosheh",
     "old_status": "reported",
     "new_status": "accepting",
     "source": "https://www.oldsouthfho.ca/new-patients",
@@ -142,7 +142,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c041",
-    "clinic_name": "Thames Valley FHT \u2014 Queens Avenue Health & Homelessness",
+    "clinic_name": "Thames Valley FHT — Queens Avenue Health & Homelessness",
     "old_status": "limited",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
@@ -152,7 +152,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c047",
-    "clinic_name": "Old South FHO \u2014 Dr. Zarmeen Qamar",
+    "clinic_name": "Old South FHO — Dr. Zarmeen Qamar",
     "old_status": "waitlist",
     "new_status": "unknown",
     "source": "https://www.ldam.ca/find-a-doctor",
@@ -162,7 +162,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c008",
-    "clinic_name": "Thames Valley FHT \u2014 Springbank NP Clinic",
+    "clinic_name": "Thames Valley FHT — Springbank NP Clinic",
     "old_status": "accepting",
     "new_status": "reported",
     "type": "strict_evidence_baseline_policy",
@@ -172,7 +172,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c012",
-    "clinic_name": "Oxfordia Medical Centre \u2014 Dr. Hamza Aman",
+    "clinic_name": "Oxfordia Medical Centre — Dr. Hamza Aman",
     "old_status": "accepting",
     "new_status": "reported",
     "type": "strict_evidence_baseline_policy",
@@ -182,7 +182,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c013",
-    "clinic_name": "Thames Valley Family Health Team \u2014 Woodstock",
+    "clinic_name": "Thames Valley Family Health Team — Woodstock",
     "old_status": "accepting",
     "new_status": "reported",
     "type": "strict_evidence_baseline_policy",
@@ -202,7 +202,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c023",
-    "clinic_name": "Langs Community Health Centre \u2014 Cambridge",
+    "clinic_name": "Langs Community Health Centre — Cambridge",
     "old_status": "accepting",
     "new_status": "limited",
     "type": "strict_evidence_baseline_policy",
@@ -212,7 +212,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c013",
-    "clinic_name": "Thames Valley Family Health Team \u2014 Woodstock",
+    "clinic_name": "Thames Valley Family Health Team — Woodstock",
     "type": "systemic_quality_audit",
     "old_status": "reported",
     "new_status": "reported",
@@ -229,7 +229,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c012",
-    "clinic_name": "Oxfordia Medical Centre \u2014 Dr. Hamza Aman",
+    "clinic_name": "Oxfordia Medical Centre — Dr. Hamza Aman",
     "type": "systemic_quality_audit",
     "old_status": "reported",
     "new_status": "reported",
@@ -243,7 +243,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c028",
-    "clinic_name": "Active Care Medical Centre \u2014 Dr. Ankit Sachdeva",
+    "clinic_name": "Active Care Medical Centre — Dr. Ankit Sachdeva",
     "type": "systemic_quality_audit",
     "old_status": "accepting",
     "new_status": "accepting",
@@ -264,7 +264,7 @@
     "old_status": "accepting",
     "new_status": "accepting",
     "source": "https://vivamedicalclinic.ca/",
-    "reviewer_note": "The clinic\u2019s direct webpage lists a separate phone number for Dr. Osita Ohaeto.",
+    "reviewer_note": "The clinic’s direct webpage lists a separate phone number for Dr. Osita Ohaeto.",
     "changed_fields": [
       "phone",
       "providers",
@@ -274,12 +274,12 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c009",
-    "clinic_name": "Elmdale Health Centre \u2014 Building registration notice",
+    "clinic_name": "Elmdale Health Centre — Building registration notice",
     "type": "systemic_quality_audit",
     "old_status": "accepting",
     "new_status": "reported",
     "source": "https://www.elmdalehealth.com/",
-    "reviewer_note": "The ElmdaleHealth website advertises a registration form for the building, but it is not a named doctor\u2019s verified open roster.",
+    "reviewer_note": "The ElmdaleHealth website advertises a registration form for the building, but it is not a named doctor’s verified open roster.",
     "changed_fields": [
       "name",
       "status",
@@ -292,7 +292,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c011",
-    "clinic_name": "Oxford County Nurse Practitioner-Led Clinic \u2014 Tillsonburg",
+    "clinic_name": "Oxford County Nurse Practitioner-Led Clinic — Tillsonburg",
     "type": "systemic_quality_audit",
     "old_status": "accepting",
     "new_status": "limited",
@@ -310,7 +310,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c033",
-    "clinic_name": "Old South FHO \u2014 Dr. Spence & Dr. Goosheh",
+    "clinic_name": "Old South FHO — Dr. Spence & Dr. Goosheh",
     "type": "systemic_quality_audit",
     "old_status": "accepting",
     "new_status": "reported",
@@ -328,12 +328,12 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c019",
-    "clinic_name": "Valleyview Medical Centre \u2014 Colborne",
+    "clinic_name": "Valleyview Medical Centre — Colborne",
     "type": "systemic_quality_audit",
     "old_status": "accepting",
     "new_status": "accepting",
     "source": "https://valleyviewmedical.ca/locations/brantford-colborne",
-    "reviewer_note": "Clinic\u2019s own Colborne location has dedicated new-patient registration information.",
+    "reviewer_note": "Clinic’s own Colborne location has dedicated new-patient registration information.",
     "changed_fields": [
       "evidence_url",
       "clinic_url",
@@ -343,12 +343,12 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c020",
-    "clinic_name": "Valleyview Medical Centre \u2014 Lynden",
+    "clinic_name": "Valleyview Medical Centre — Lynden",
     "type": "systemic_quality_audit",
     "old_status": "accepting",
     "new_status": "accepting",
     "source": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
-    "reviewer_note": "Clinic\u2019s own Lynden location has dedicated new-patient registration information.",
+    "reviewer_note": "Clinic’s own Lynden location has dedicated new-patient registration information.",
     "changed_fields": [
       "intake_detail"
     ]
@@ -356,7 +356,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c008",
-    "clinic_name": "Thames Valley FHT \u2014 Springbank NP Clinic",
+    "clinic_name": "Thames Valley FHT — Springbank NP Clinic",
     "type": "address_or_contact_verified",
     "old_status": "reported",
     "new_status": "reported",
@@ -394,7 +394,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c018",
-    "clinic_name": "Dr. Clara Obanor \u2014 King George Road",
+    "clinic_name": "Dr. Clara Obanor — King George Road",
     "type": "address_or_contact_verified",
     "old_status": "reported",
     "new_status": "reported",
@@ -412,7 +412,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c022",
-    "clinic_name": "Dr. Sherif Mikhail \u2014 Conestoga",
+    "clinic_name": "Dr. Sherif Mikhail — Conestoga",
     "type": "address_or_contact_verified",
     "old_status": "reported",
     "new_status": "reported",
@@ -430,7 +430,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c024",
-    "clinic_name": "Saginaw Medical Centre \u2014 Dr. Sunil Bhatia",
+    "clinic_name": "Saginaw Medical Centre — Dr. Sunil Bhatia",
     "type": "address_or_contact_verified",
     "old_status": "reported",
     "new_status": "reported",
@@ -468,7 +468,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c040",
-    "clinic_name": "London InterCommunity Health Centre \u2014 Huron",
+    "clinic_name": "London InterCommunity Health Centre — Huron",
     "type": "address_or_contact_verified",
     "old_status": "limited",
     "new_status": "limited",
@@ -504,7 +504,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c063",
-    "clinic_name": "Forest City FHO \u2014 Central Avenue",
+    "clinic_name": "Forest City FHO — Central Avenue",
     "type": "address_or_contact_verified",
     "old_status": "unknown",
     "new_status": "unknown",
@@ -594,7 +594,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c079",
-    "clinic_name": "Thames Valley FHT \u2014 Elgin Community Health Hub",
+    "clinic_name": "Thames Valley FHT — Elgin Community Health Hub",
     "type": "address_or_contact_verified",
     "old_status": "unknown",
     "new_status": "unknown",
@@ -612,7 +612,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c041",
-    "clinic_name": "Thames Valley FHT \u2014 Queens Avenue Health & Homelessness",
+    "clinic_name": "Thames Valley FHT — Queens Avenue Health & Homelessness",
     "type": "address_or_contact_verified",
     "old_status": "unknown",
     "new_status": "unknown",
@@ -630,7 +630,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c021",
-    "clinic_name": "Coronation Family Physicians \u2014 Dr. Fares Hayek",
+    "clinic_name": "Coronation Family Physicians — Dr. Fares Hayek",
     "type": "address_or_contact_verified",
     "old_status": "waitlist",
     "new_status": "waitlist",
@@ -646,7 +646,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c045",
-    "clinic_name": "New Vision Family Health Team \u2014 Greenbrook",
+    "clinic_name": "New Vision Family Health Team — Greenbrook",
     "type": "address_or_contact_verified",
     "old_status": "waitlist",
     "new_status": "waitlist",
@@ -658,7 +658,7 @@
       "notes": ""
     },
     "after": {
-      "providers": "Dr. Adam Agate; Dr. Tracy Bausmer; Dr. Morgan Brown; Dr. Karen Cameron; Dr. Steven Chan; Dr. Yidersal Gebeyehu; Dr. Sarah Gimbel; Dr. Martin Kane; Dr. Shvan Korsheed; Dr. Sarah MacDonald; Dr. Cecelia McLachlan; Dr. Albert Mensah; Dr. Rose Noble; Dr. Thomas O\u2019Brien; Dr. Meredith Pope; Dr. Chase Reaume; Dr. Joanna Zorzitto",
+      "providers": "Dr. Adam Agate; Dr. Tracy Bausmer; Dr. Morgan Brown; Dr. Karen Cameron; Dr. Steven Chan; Dr. Yidersal Gebeyehu; Dr. Sarah Gimbel; Dr. Martin Kane; Dr. Shvan Korsheed; Dr. Sarah MacDonald; Dr. Cecelia McLachlan; Dr. Albert Mensah; Dr. Rose Noble; Dr. Thomas O’Brien; Dr. Meredith Pope; Dr. Chase Reaume; Dr. Joanna Zorzitto",
       "provider_list_source": "https://www.newvisionhealth.ca/about-our-team",
       "notes": "Team website lists 17 family physicians at Greenbrook; this roster is not evidence any individual physician is accepting new patients."
     }
@@ -666,7 +666,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c093",
-    "clinic_name": "New Vision FHT \u2014 Boardwalk",
+    "clinic_name": "New Vision FHT — Boardwalk",
     "type": "address_or_contact_verified",
     "old_status": "unknown",
     "new_status": "unknown",
@@ -684,19 +684,19 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c009",
-    "clinic_name": "Elmdale Health Centre \u2014 building-wide physician registration lead",
+    "clinic_name": "Elmdale Health Centre — building-wide physician registration lead",
     "type": "address_or_contact_verified",
     "old_status": "reported",
     "new_status": "reported",
     "source": "https://www.elmdalehealth.com/",
     "reviewer_note": "Corrected public office/address/contact or care-type metadata from independent official source; not a verification of intake.",
     "before": {
-      "name": "Elmdale Health Centre \u2014 Building registration notice",
+      "name": "Elmdale Health Centre — Building registration notice",
       "care_model": "ongoing",
       "intake_detail": "Elmdale Health Centre advertises online family physician registration for unattached Elgin County residents, but does not identify the accepting physician or office. Registration is separate from TMC+ and is not guaranteed attachment."
     },
     "after": {
-      "name": "Elmdale Health Centre \u2014 building-wide physician registration lead",
+      "name": "Elmdale Health Centre — building-wide physician registration lead",
       "care_model": "unverified",
       "intake_detail": "The building website offers an online family physician registration notice for unattached Elgin County residents; it does not name the physician or guarantee attachment. Not a confirmed independent clinic office; do not count as a specific accepting practice."
     }
@@ -704,7 +704,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c096",
-    "clinic_name": "London InterCommunity Health Centre \u2014 Argyle",
+    "clinic_name": "London InterCommunity Health Centre — Argyle",
     "old_status": "not listed",
     "new_status": "unknown",
     "type": "verified_public_site_discovery",
@@ -714,7 +714,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c004",
-    "clinic_name": "London Family Health Team \u2014 Beaverbrook",
+    "clinic_name": "London Family Health Team — Beaverbrook",
     "old_status": "accepting",
     "new_status": "unknown",
     "type": "conflicting_first_party_intake_evidence",
@@ -724,7 +724,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c005",
-    "clinic_name": "London Family Health Team \u2014 Stoney Creek",
+    "clinic_name": "London Family Health Team — Stoney Creek",
     "old_status": "accepting",
     "new_status": "unknown",
     "type": "conflicting_first_party_intake_evidence",
@@ -744,7 +744,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c010",
-    "clinic_name": "TMC+ \u2014 St. Thomas",
+    "clinic_name": "TMC+ — St. Thomas",
     "old_status": "accepting",
     "new_status": "accepting",
     "type": "verified_public_contact",
@@ -754,7 +754,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c021",
-    "clinic_name": "Coronation Family Physicians \u2014 Dr. Fares Hayek",
+    "clinic_name": "Coronation Family Physicians — Dr. Fares Hayek",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "type": "verified_public_contact",
@@ -764,7 +764,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c065",
-    "clinic_name": "London FHT \u2014 Medway",
+    "clinic_name": "London FHT — Medway",
     "old_status": "unknown",
     "new_status": "unknown",
     "type": "verified_public_contact",
@@ -774,7 +774,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c095",
-    "clinic_name": "Dr. Jennifer Bonnett \u2014 Family Medicine",
+    "clinic_name": "Dr. Jennifer Bonnett — Family Medicine",
     "old_status": "combined two physician offices in one record",
     "new_status": "separate individual practice record",
     "type": "address_contact_correction",
@@ -784,7 +784,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c097",
-    "clinic_name": "Dr. Shameena Tamachi \u2014 Family Medicine",
+    "clinic_name": "Dr. Shameena Tamachi — Family Medicine",
     "old_status": "not independently represented",
     "new_status": "listed individually, intake unknown",
     "type": "provider_discovery",
@@ -814,7 +814,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c051",
-    "clinic_name": "Thames Valley FHT \u2014 Ailsa Craig",
+    "clinic_name": "Thames Valley FHT — Ailsa Craig",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/strathroy-family-health-organization-ailsa-craig-site/",
@@ -834,7 +834,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c063",
-    "clinic_name": "Forest City FHO \u2014 Central Avenue",
+    "clinic_name": "Forest City FHO — Central Avenue",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/forest-city-family-health-organization/",
@@ -854,7 +854,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c068",
-    "clinic_name": "St. Joseph\u2019s Family Medical Centre",
+    "clinic_name": "St. Joseph’s Family Medical Centre",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/oxford-st-josephs-family-health-organization/",
@@ -914,7 +914,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c086",
-    "clinic_name": "Strathroy\u2013Caradoc FHO / TVFHT",
+    "clinic_name": "Strathroy–Caradoc FHO / TVFHT",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/strathroy-caradoc-family-health-organization/",
@@ -934,7 +934,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c052",
-    "clinic_name": "Dr. Edward Vivoda \u2014 Family Medicine",
+    "clinic_name": "Dr. Edward Vivoda — Family Medicine",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=75971",
@@ -944,7 +944,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c053",
-    "clinic_name": "Dr. Steven Rioux \u2014 Family Medicine",
+    "clinic_name": "Dr. Steven Rioux — Family Medicine",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=116967",
@@ -964,7 +964,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c073",
-    "clinic_name": "Dr. Michael Hofer \u2014 Family Medicine",
+    "clinic_name": "Dr. Michael Hofer — Family Medicine",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
@@ -984,7 +984,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c095",
-    "clinic_name": "Dr. Jennifer Bonnett \u2014 Family Medicine",
+    "clinic_name": "Dr. Jennifer Bonnett — Family Medicine",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=69085",
@@ -994,7 +994,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c097",
-    "clinic_name": "Dr. Shameena Tamachi \u2014 Family Medicine",
+    "clinic_name": "Dr. Shameena Tamachi — Family Medicine",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=115111",
@@ -1004,7 +1004,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c054",
-    "clinic_name": "East Elgin Family Health Team \u2014 Aylmer",
+    "clinic_name": "East Elgin Family Health Team — Aylmer",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://www.eefht.ca/about-us/the-team/",
@@ -1014,7 +1014,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c081",
-    "clinic_name": "East Elgin Family Health Team \u2014 Straffordville",
+    "clinic_name": "East Elgin Family Health Team — Straffordville",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://www.eefht.ca/contact-us/",
@@ -1044,7 +1044,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c058",
-    "clinic_name": "Delhi Community Health Centre \u2014 Big Creek FHO / Norfolk FHT",
+    "clinic_name": "Delhi Community Health Centre — Big Creek FHO / Norfolk FHT",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://norfolkfht.ca/find-a-doctor/",
@@ -1064,7 +1064,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c061",
-    "clinic_name": "Centre for Family Medicine FHT \u2014 Joseph Street",
+    "clinic_name": "Centre for Family Medicine FHT — Joseph Street",
     "old_status": "unknown",
     "new_status": "not_accepting",
     "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
@@ -1094,7 +1094,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c065",
-    "clinic_name": "London FHT \u2014 Medway",
+    "clinic_name": "London FHT — Medway",
     "old_status": "unknown",
     "new_status": "not_accepting",
     "source": "https://londonfht.ca/family-physicians/",
@@ -1104,7 +1104,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c067",
-    "clinic_name": "Prisma Health Care Collaborative \u2014 Grow Family Health",
+    "clinic_name": "Prisma Health Care Collaborative — Grow Family Health",
     "old_status": "unknown",
     "new_status": "limited",
     "source": "https://www.prismahcc.ca/forproviders",
@@ -1134,7 +1134,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c075",
-    "clinic_name": "Norfolk Family Health Team \u2014 Port Rowan Medical Clinic",
+    "clinic_name": "Norfolk Family Health Team — Port Rowan Medical Clinic",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://norfolkfht.ca/find-a-doctor/",
@@ -1144,7 +1144,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c076",
-    "clinic_name": "Norfolk Family Health Team \u2014 Simcoe",
+    "clinic_name": "Norfolk Family Health Team — Simcoe",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://norfolkfht.ca/find-a-doctor/",
@@ -1154,7 +1154,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c079",
-    "clinic_name": "Thames Valley FHT \u2014 Elgin Community Health Hub",
+    "clinic_name": "Thames Valley FHT — Elgin Community Health Hub",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/elgin-community-health-hub/",
@@ -1164,7 +1164,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c082",
-    "clinic_name": "STAR FHT \u2014 Avon Family Medicine Centre",
+    "clinic_name": "STAR FHT — Avon Family Medicine Centre",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://starfht.ca/clinics_offices/avon-family-medicine-centre/",
@@ -1174,7 +1174,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c083",
-    "clinic_name": "STAR FHT \u2014 O\u2019Loane Medical Clinic",
+    "clinic_name": "STAR FHT — O’Loane Medical Clinic",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://starfht.ca/clinics_offices/oloane-medical-clinic/",
@@ -1184,7 +1184,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c088",
-    "clinic_name": "STAR FHT \u2014 Tavistock Community Health",
+    "clinic_name": "STAR FHT — Tavistock Community Health",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://starfht.ca/clinics_offices/tavistock-community-health-inc/",
@@ -1224,7 +1224,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c092",
-    "clinic_name": "Waterford Family Health Center \u2014 Medical",
+    "clinic_name": "Waterford Family Health Center — Medical",
     "old_status": "unknown",
     "new_status": "reported",
     "source": "https://norfolkfht.ca/find-a-doctor/",
@@ -1234,7 +1234,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c093",
-    "clinic_name": "New Vision FHT \u2014 Boardwalk",
+    "clinic_name": "New Vision FHT — Boardwalk",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://www.newvisionhealth.ca/need-a-family-doctor",
@@ -1244,7 +1244,7 @@
   {
     "date": "2026-11-11",
     "clinic_id": "c094",
-    "clinic_name": "Athlone Family Medicine \u2014 Dr. Sarah Davies",
+    "clinic_name": "Athlone Family Medicine — Dr. Sarah Davies",
     "old_status": "unknown",
     "new_status": "not_accepting",
     "source": "https://www.daviesfamilymed.com/join-the-waitlist",
@@ -1264,22 +1264,22 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c004",
-    "clinic_name": "London Family Health Team \u2014 Beaverbrook",
+    "clinic_name": "London Family Health Team — Beaverbrook",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
     "type": "completion_audit",
-    "reviewer_note": "Clinic's August 26, 2026 intake announcement includes Beaverbrook, and its FAQ/physician directory specifically identify Dr. Behzad Hassani and NP Mahsa Haghighi as accepting applications. Other physicians are stated not accepting; clinic's general locations page contradicts the announcement. Confirm current intake directly; submitting form does not guarantee attachment. Dr. Hassani\u2019s named-provider application is returned to his second-floor office; Unit 1 is the team intake/allied-health address. Conflicting site-wide statements remain unresolved."
+    "reviewer_note": "Clinic's August 26, 2026 intake announcement includes Beaverbrook, and its FAQ/physician directory specifically identify Dr. Behzad Hassani and NP Mahsa Haghighi as accepting applications. Other physicians are stated not accepting; clinic's general locations page contradicts the announcement. Confirm current intake directly; submitting form does not guarantee attachment. Dr. Hassani’s named-provider application is returned to his second-floor office; Unit 1 is the team intake/allied-health address. Conflicting site-wide statements remain unresolved."
   },
   {
     "date": "2026-11-12",
     "clinic_id": "c013",
-    "clinic_name": "Thames Valley Family Health Team \u2014 Woodstock",
+    "clinic_name": "Thames Valley Family Health Team — Woodstock",
     "old_status": "reported",
     "new_status": "reported",
     "source": "https://thamesvalleyfht.ca/become-a-patient/",
     "type": "completion_audit",
-    "reviewer_note": "Thames Valley FHT runs an NP attachment intake program across Oxford, London, Middlesex and Elgin. Oxford NPLC directs Woodstock residents to this program at 959 Dundas Street East. The program application is open; this specific office\u2019s available roster capacity is NOT independently confirmed."
+    "reviewer_note": "Thames Valley FHT runs an NP attachment intake program across Oxford, London, Middlesex and Elgin. Oxford NPLC directs Woodstock residents to this program at 959 Dundas Street East. The program application is open; this specific office’s available roster capacity is NOT independently confirmed."
   },
   {
     "date": "2026-11-12",
@@ -1294,7 +1294,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c038",
-    "clinic_name": "Oxford County Nurse Practitioner-Led Clinic \u2014 Ingersoll",
+    "clinic_name": "Oxford County Nurse Practitioner-Led Clinic — Ingersoll",
     "old_status": "limited",
     "new_status": "limited",
     "source": "https://www.ocnplc.ca/patient-information/new-patients/",
@@ -1304,7 +1304,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c040",
-    "clinic_name": "London InterCommunity Health Centre \u2014 Huron",
+    "clinic_name": "London InterCommunity Health Centre — Huron",
     "old_status": "limited",
     "new_status": "limited",
     "source": "https://lihc.on.ca/programs-services/primary-care/",
@@ -1314,7 +1314,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c042",
-    "clinic_name": "Waterloo Region NP-Led Clinic \u2014 Breslau",
+    "clinic_name": "Waterloo Region NP-Led Clinic — Breslau",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "source": "https://wrnplc.ca/patient-information/",
@@ -1324,17 +1324,17 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c044",
-    "clinic_name": "Waterloo Region NP-Led Clinic \u2014 Cambridge",
+    "clinic_name": "Waterloo Region NP-Led Clinic — Cambridge",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "source": "https://wrnplc.ca/patient-information/",
     "type": "completion_audit",
-    "reviewer_note": "2026 form available; latest specific published notice warns extensive waits (10\u201312 months; May 2025). Cambridge relocated Aug 26, 2026."
+    "reviewer_note": "2026 form available; latest specific published notice warns extensive waits (10–12 months; May 2025). Cambridge relocated Aug 26, 2026."
   },
   {
     "date": "2026-11-12",
     "clinic_id": "c045",
-    "clinic_name": "New Vision Family Health Team \u2014 Greenbrook",
+    "clinic_name": "New Vision Family Health Team — Greenbrook",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "source": "https://www.newvisionhealth.ca/need-a-family-doctor",
@@ -1344,7 +1344,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c046",
-    "clinic_name": "Waterloo Region NP-Led Clinic \u2014 Pioneer Park",
+    "clinic_name": "Waterloo Region NP-Led Clinic — Pioneer Park",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "source": "https://wrnplc.ca/patient-information/",
@@ -1354,7 +1354,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c054",
-    "clinic_name": "East Elgin Family Health Team \u2014 Aylmer",
+    "clinic_name": "East Elgin Family Health Team — Aylmer",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://www.eefht.ca/about-us/the-team/",
@@ -1364,7 +1364,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c058",
-    "clinic_name": "Delhi Community Health Centre \u2014 Big Creek FHO / Norfolk FHT",
+    "clinic_name": "Delhi Community Health Centre — Big Creek FHO / Norfolk FHT",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://norfolkfht.ca/find-a-doctor/",
@@ -1374,7 +1374,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c061",
-    "clinic_name": "Centre for Family Medicine \u2014 Andrew Street (formerly Joseph Street)",
+    "clinic_name": "Centre for Family Medicine — Andrew Street (formerly Joseph Street)",
     "old_status": "not_accepting",
     "new_status": "not_accepting",
     "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
@@ -1404,7 +1404,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c075",
-    "clinic_name": "Norfolk Family Health Team \u2014 Port Rowan Medical Clinic",
+    "clinic_name": "Norfolk Family Health Team — Port Rowan Medical Clinic",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://norfolkfht.ca/find-a-doctor/",
@@ -1414,7 +1414,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c076",
-    "clinic_name": "Norfolk Family Health Team \u2014 Simcoe",
+    "clinic_name": "Norfolk Family Health Team — Simcoe",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://norfolkfht.ca/find-a-doctor/",
@@ -1424,7 +1424,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c081",
-    "clinic_name": "East Elgin Family Health Team \u2014 Straffordville",
+    "clinic_name": "East Elgin Family Health Team — Straffordville",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://www.eefht.ca/contact-us/",
@@ -1434,7 +1434,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c082",
-    "clinic_name": "STAR FHT \u2014 Avon Family Medicine Centre",
+    "clinic_name": "STAR FHT — Avon Family Medicine Centre",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://starfht.ca/clinics_offices/avon-family-medicine-centre/",
@@ -1444,7 +1444,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c083",
-    "clinic_name": "STAR FHT \u2014 O\u2019Loane Medical Clinic",
+    "clinic_name": "STAR FHT — O’Loane Medical Clinic",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://starfht.ca/clinics_offices/oloane-medical-clinic/",
@@ -1454,7 +1454,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c086",
-    "clinic_name": "Strathroy\u2013Caradoc FHO / TVFHT",
+    "clinic_name": "Strathroy–Caradoc FHO / TVFHT",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/strathroy-caradoc-family-health-organization/",
@@ -1464,7 +1464,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c088",
-    "clinic_name": "STAR FHT \u2014 Tavistock Community Health",
+    "clinic_name": "STAR FHT — Tavistock Community Health",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://starfht.ca/clinics_offices/tavistock-community-health-inc/",
@@ -1474,7 +1474,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c093",
-    "clinic_name": "New Vision FHT \u2014 Boardwalk",
+    "clinic_name": "New Vision FHT — Boardwalk",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://www.newvisionhealth.ca/need-a-family-doctor",
@@ -1484,7 +1484,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c096",
-    "clinic_name": "London InterCommunity Health Centre \u2014 Argyle",
+    "clinic_name": "London InterCommunity Health Centre — Argyle",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://lihc.on.ca/locations-and-hours-of-services/",
@@ -1494,7 +1494,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c098",
-    "clinic_name": "Dr. Martin Schuster \u2014 Family Practice",
+    "clinic_name": "Dr. Martin Schuster — Family Practice",
     "old_status": "not listed",
     "new_status": "reported",
     "source": "https://www.doctors4cambridge.com/contact.htm",
@@ -1514,27 +1514,27 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c100",
-    "clinic_name": "Two Rivers FHT \u2014 Hespeler Medical Clinic",
+    "clinic_name": "Two Rivers FHT — Hespeler Medical Clinic",
     "old_status": "not listed",
     "new_status": "waitlist",
     "source": "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/",
     "type": "completion_audit",
-    "reviewer_note": "Team-wide waitlist for people without a family physician; location/provider assignment is not guaranteed. Dr. Callaghan\u2019s roster form is only for people already contacted by the office."
+    "reviewer_note": "Team-wide waitlist for people without a family physician; location/provider assignment is not guaranteed. Dr. Callaghan’s roster form is only for people already contacted by the office."
   },
   {
     "date": "2026-11-12",
     "clinic_id": "c101",
-    "clinic_name": "Two Rivers FHT \u2014 HealthLink Family Practice",
+    "clinic_name": "Two Rivers FHT — HealthLink Family Practice",
     "old_status": "not listed",
     "new_status": "waitlist",
     "source": "https://tworiversfht.ca/patient-centre/how-to-become-a-patient/",
     "type": "completion_audit",
-    "reviewer_note": "Team-wide waitlist for people without a family physician; location/provider assignment is not guaranteed. Dr. Callaghan\u2019s roster form is only for people already contacted by the office."
+    "reviewer_note": "Team-wide waitlist for people without a family physician; location/provider assignment is not guaranteed. Dr. Callaghan’s roster form is only for people already contacted by the office."
   },
   {
     "date": "2026-11-12",
     "clinic_id": "c102",
-    "clinic_name": "Centre for Family Medicine FHT \u2014 Victoria Street",
+    "clinic_name": "Centre for Family Medicine FHT — Victoria Street",
     "old_status": "not listed",
     "new_status": "not_accepting",
     "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
@@ -1544,7 +1544,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c103",
-    "clinic_name": "Centre for Family Medicine FHT \u2014 University Gates",
+    "clinic_name": "Centre for Family Medicine FHT — University Gates",
     "old_status": "not listed",
     "new_status": "not_accepting",
     "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
@@ -1554,7 +1554,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c104",
-    "clinic_name": "Centre for Family Medicine FHT \u2014 The Boardwalk",
+    "clinic_name": "Centre for Family Medicine FHT — The Boardwalk",
     "old_status": "not listed",
     "new_status": "not_accepting",
     "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
@@ -1564,7 +1564,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c105",
-    "clinic_name": "Centre for Family Medicine FHT \u2014 Wellesley",
+    "clinic_name": "Centre for Family Medicine FHT — Wellesley",
     "old_status": "not listed",
     "new_status": "not_accepting",
     "source": "https://family-medicine.ca/patient-resources/frequently-asked-questions/",
@@ -1574,7 +1574,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c106",
-    "clinic_name": "PrimaCare Community FHT \u2014 Paris",
+    "clinic_name": "PrimaCare Community FHT — Paris",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://www.pccfht.ca/contacts/",
@@ -1584,7 +1584,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c107",
-    "clinic_name": "PrimaCare \u2014 Dr. Alice Wang",
+    "clinic_name": "PrimaCare — Dr. Alice Wang",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://www.pccfht.ca/contacts/",
@@ -1634,7 +1634,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c112",
-    "clinic_name": "Haldimand FHT \u2014 Hagersville",
+    "clinic_name": "Haldimand FHT — Hagersville",
     "old_status": "not listed",
     "new_status": "limited",
     "source": "https://haldimandfht.ca/",
@@ -1644,12 +1644,12 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c113",
-    "clinic_name": "Argyle Medical Clinic \u2014 Dr. Chukwuemeka Ogbunando",
+    "clinic_name": "Argyle Medical Clinic — Dr. Chukwuemeka Ogbunando",
     "old_status": "not listed",
     "new_status": "reported",
     "source": "https://haldimandfht.ca/affiliated-physicians/",
     "type": "completion_audit",
-    "reviewer_note": "Affiliated FHT directory identifies Dr. Ogbunando as accepting. Call the named physician\u2019s office; the claim does not cover every doctor at Argyle."
+    "reviewer_note": "Affiliated FHT directory identifies Dr. Ogbunando as accepting. Call the named physician’s office; the claim does not cover every doctor at Argyle."
   },
   {
     "date": "2026-11-12",
@@ -1664,7 +1664,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c115",
-    "clinic_name": "Caledonia Family Clinic \u2014 Dr. Nicolaas Cloete",
+    "clinic_name": "Caledonia Family Clinic — Dr. Nicolaas Cloete",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://haldimandfht.ca/affiliated-physicians/",
@@ -1674,7 +1674,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c116",
-    "clinic_name": "Takach Medicine \u2014 Dr. Sarah Takach",
+    "clinic_name": "Takach Medicine — Dr. Sarah Takach",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://haldimandfht.ca/affiliated-physicians/",
@@ -1684,7 +1684,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c117",
-    "clinic_name": "SOAHAC \u2014 London",
+    "clinic_name": "SOAHAC — London",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://www.soahac.on.ca/locations/london",
@@ -1694,7 +1694,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c118",
-    "clinic_name": "SOAHAC \u2014 Chippewa of the Thames",
+    "clinic_name": "SOAHAC — Chippewa of the Thames",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
@@ -1704,7 +1704,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c119",
-    "clinic_name": "SOAHAC \u2014 Waterloo Wellington",
+    "clinic_name": "SOAHAC — Waterloo Wellington",
     "old_status": "not listed",
     "new_status": "limited",
     "source": "https://www.soahac.on.ca/locations/waterloo-wellington",
@@ -1714,7 +1714,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c120",
-    "clinic_name": "Woolwich Community Health Centre \u2014 Wellesley",
+    "clinic_name": "Woolwich Community Health Centre — Wellesley",
     "old_status": "not listed",
     "new_status": "waitlist",
     "source": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
@@ -1724,7 +1724,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c121",
-    "clinic_name": "Woolwich Community Health Centre \u2014 New Hamburg",
+    "clinic_name": "Woolwich Community Health Centre — New Hamburg",
     "old_status": "not listed",
     "new_status": "waitlist",
     "source": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
@@ -1781,7 +1781,7 @@
     "old_status": "unknown",
     "new_status": "waitlist",
     "source": "https://www.oldsouthfho.ca/doctor-profile-1-5-1",
-    "reviewer_note": "Dr. Qamar\u2019s own practice profile invites waitlist requests now by email to drqamar.oldsouth@gmail.com. The practice opens January 2027; this is not immediate clinical availability."
+    "reviewer_note": "Dr. Qamar’s own practice profile invites waitlist requests now by email to drqamar.oldsouth@gmail.com. The practice opens January 2027; this is not immediate clinical availability."
   },
   {
     "date": "2026-11-12",
@@ -1789,7 +1789,7 @@
     "old_status": "reported",
     "new_status": "accepting",
     "source": "https://colbornemedicare.ca/",
-    "reviewer_note": "Clinic\u2019s own site names Dr. Rabiya Niaz among its physicians and explicitly invites new-patient registration forms, to be dropped off or mailed to the clinic. This is a clinic application route, not guaranteed placement with a particular doctor."
+    "reviewer_note": "Clinic’s own site names Dr. Rabiya Niaz among its physicians and explicitly invites new-patient registration forms, to be dropped off or mailed to the clinic. This is a clinic application route, not guaranteed placement with a particular doctor."
   },
   {
     "date": "2026-11-12",
@@ -1797,7 +1797,7 @@
     "old_status": "reported",
     "new_status": "accepting",
     "source": "https://oxfordiamedical.com/",
-    "reviewer_note": "Oxfordia\u2019s own website names Dr. Hamza Aman and invites new patients to book a registration visit through its linked Ocean booking service. Registration does not guarantee attachment."
+    "reviewer_note": "Oxfordia’s own website names Dr. Hamza Aman and invites new patients to book a registration visit through its linked Ocean booking service. Registration does not guarantee attachment."
   },
   {
     "date": "2026-11-12",
@@ -1998,7 +1998,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c023",
-    "clinic_name": "Langs Community Health Centre \u2014 Cambridge",
+    "clinic_name": "Langs Community Health Centre — Cambridge",
     "old_status": "limited",
     "new_status": "limited",
     "source": "https://www.langs.org/new-patients",
@@ -2008,7 +2008,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c039",
-    "clinic_name": "London InterCommunity Health Centre \u2014 Dundas",
+    "clinic_name": "London InterCommunity Health Centre — Dundas",
     "old_status": "limited",
     "new_status": "limited",
     "source": "https://lihc.on.ca/programs-services/primary-care/",
@@ -2018,7 +2018,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c040",
-    "clinic_name": "London InterCommunity Health Centre \u2014 Huron",
+    "clinic_name": "London InterCommunity Health Centre — Huron",
     "old_status": "limited",
     "new_status": "limited",
     "source": "https://lihc.on.ca/programs-services/primary-care/",
@@ -2028,7 +2028,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c096",
-    "clinic_name": "London InterCommunity Health Centre \u2014 Argyle",
+    "clinic_name": "London InterCommunity Health Centre — Argyle",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://lihc.on.ca/locations-and-hours-of-services/",
@@ -2058,7 +2058,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c117",
-    "clinic_name": "SOAHAC \u2014 London",
+    "clinic_name": "SOAHAC — London",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://www.soahac.on.ca/locations/london",
@@ -2068,7 +2068,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c118",
-    "clinic_name": "SOAHAC \u2014 Chippewa of the Thames",
+    "clinic_name": "SOAHAC — Chippewa of the Thames",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://www.soahac.on.ca/locations/chippewa-of-the-thames",
@@ -2078,7 +2078,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c119",
-    "clinic_name": "SOAHAC \u2014 Waterloo Wellington",
+    "clinic_name": "SOAHAC — Waterloo Wellington",
     "old_status": "limited",
     "new_status": "limited",
     "source": "https://www.soahac.on.ca/locations/waterloo-wellington",
@@ -2088,7 +2088,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c120",
-    "clinic_name": "Woolwich Community Health Centre \u2014 Wellesley",
+    "clinic_name": "Woolwich Community Health Centre — Wellesley",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "source": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
@@ -2098,7 +2098,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c121",
-    "clinic_name": "Woolwich Community Health Centre \u2014 New Hamburg",
+    "clinic_name": "Woolwich Community Health Centre — New Hamburg",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "source": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
@@ -2128,7 +2128,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c024",
-    "clinic_name": "Saginaw Medical Centre \u2014 Dr. Sunil Bhatia",
+    "clinic_name": "Saginaw Medical Centre — Dr. Sunil Bhatia",
     "old_status": "reported",
     "new_status": "accepting",
     "source": "https://www.saginawmedicalcentre.com/home",
@@ -2158,7 +2158,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c004",
-    "clinic_name": "London Family Health Team \u2014 Beaverbrook",
+    "clinic_name": "London Family Health Team — Beaverbrook",
     "old_status": "unknown",
     "new_status": "accepting",
     "source": "https://londonfht.ca/frequently-asked-questions/",
@@ -2178,7 +2178,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c153",
-    "clinic_name": "Old South FHO \u2014 Dr. Emmanuel Adejokun",
+    "clinic_name": "Old South FHO — Dr. Emmanuel Adejokun",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2188,7 +2188,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c154",
-    "clinic_name": "Old South FHO \u2014 Dr. Parvin Akter",
+    "clinic_name": "Old South FHO — Dr. Parvin Akter",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2198,7 +2198,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c155",
-    "clinic_name": "Old South FHO \u2014 Dr. Willoon Cheng",
+    "clinic_name": "Old South FHO — Dr. Willoon Cheng",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2208,7 +2208,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c156",
-    "clinic_name": "Old South FHO \u2014 Dr. Ali Chasm Khavari",
+    "clinic_name": "Old South FHO — Dr. Ali Chasm Khavari",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2218,7 +2218,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c157",
-    "clinic_name": "Old South FHO \u2014 Dr. Cameron Coatsworth",
+    "clinic_name": "Old South FHO — Dr. Cameron Coatsworth",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2228,7 +2228,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c158",
-    "clinic_name": "Old South FHO \u2014 Dr. Greg Gillis",
+    "clinic_name": "Old South FHO — Dr. Greg Gillis",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2238,7 +2238,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c159",
-    "clinic_name": "Old South FHO \u2014 Dr. Jonathon Griffin",
+    "clinic_name": "Old South FHO — Dr. Jonathon Griffin",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2248,7 +2248,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c160",
-    "clinic_name": "Old South FHO \u2014 Dr. Dan Kreuzer",
+    "clinic_name": "Old South FHO — Dr. Dan Kreuzer",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2258,7 +2258,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c161",
-    "clinic_name": "Old South FHO \u2014 Dr. Tariq Nizami",
+    "clinic_name": "Old South FHO — Dr. Tariq Nizami",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2268,7 +2268,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c162",
-    "clinic_name": "Old South FHO \u2014 Dr. Aisha Rashid",
+    "clinic_name": "Old South FHO — Dr. Aisha Rashid",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2278,7 +2278,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c163",
-    "clinic_name": "Old South FHO \u2014 Dr. Daryoush Safdari",
+    "clinic_name": "Old South FHO — Dr. Daryoush Safdari",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2288,7 +2288,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c164",
-    "clinic_name": "Old South FHO \u2014 Dr. Devon Shewfelt",
+    "clinic_name": "Old South FHO — Dr. Devon Shewfelt",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2298,7 +2298,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c165",
-    "clinic_name": "Old South FHO \u2014 Dr. Kelsey Watson",
+    "clinic_name": "Old South FHO — Dr. Kelsey Watson",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
@@ -2308,7 +2308,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c166",
-    "clinic_name": "Dr. Dorota Marczuk \u2014 Family Practice",
+    "clinic_name": "Dr. Dorota Marczuk — Family Practice",
     "old_status": "not listed",
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=85714",
@@ -2378,7 +2378,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c173",
-    "clinic_name": "MedService \u2014 Family Health Practice",
+    "clinic_name": "MedService — Family Health Practice",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://medservice.ca/2022Site/index.php/services/",
@@ -2398,7 +2398,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c175",
-    "clinic_name": "Carling Heights \u2014 Dr. Ejike Obute",
+    "clinic_name": "Carling Heights — Dr. Ejike Obute",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=122944",
@@ -2408,7 +2408,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c176",
-    "clinic_name": "PrimePoint Medical Clinic \u2014 Family Practice",
+    "clinic_name": "PrimePoint Medical Clinic — Family Practice",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://southwesthealthline.ca/displayService.aspx?id=224103",
@@ -2428,7 +2428,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c178",
-    "clinic_name": "Blackfriars FHO \u2014 Dr. Andrea Mok",
+    "clinic_name": "Blackfriars FHO — Dr. Andrea Mok",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=82957",
@@ -2438,7 +2438,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c179",
-    "clinic_name": "Dr. Faria Rubab \u2014 Family Medicine",
+    "clinic_name": "Dr. Faria Rubab — Family Medicine",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=104186",
@@ -2448,7 +2448,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c180",
-    "clinic_name": "Dr. Caroline Despard \u2014 Family Practice",
+    "clinic_name": "Dr. Caroline Despard — Family Practice",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=55458",
@@ -2468,7 +2468,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c182",
-    "clinic_name": "Polari Health \u2014 Family Practice",
+    "clinic_name": "Polari Health — Family Practice",
     "old_status": null,
     "new_status": "reported",
     "source": "https://polarihealth.com/family-practice/",
@@ -2478,7 +2478,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c183",
-    "clinic_name": "Drs. Stephen & Marie Wegener \u2014 Family Practice",
+    "clinic_name": "Drs. Stephen & Marie Wegener — Family Practice",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=98111",
@@ -2488,7 +2488,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c184",
-    "clinic_name": "Argyle Family Medical Clinic \u2014 Dr. Koyenikan",
+    "clinic_name": "Argyle Family Medical Clinic — Dr. Koyenikan",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=116919",
@@ -2498,7 +2498,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c185",
-    "clinic_name": "Dr. Adam Sirek \u2014 Family Practice",
+    "clinic_name": "Dr. Adam Sirek — Family Practice",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=110929",
@@ -2508,7 +2508,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c186",
-    "clinic_name": "Dr. Elsie Osagie \u2014 Family Practice",
+    "clinic_name": "Dr. Elsie Osagie — Family Practice",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=94506",
@@ -2518,7 +2518,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c187",
-    "clinic_name": "St. Thomas Family Care Centre \u2014 Dr. Vaughan",
+    "clinic_name": "St. Thomas Family Care Centre — Dr. Vaughan",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=59950",
@@ -2538,7 +2538,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c189",
-    "clinic_name": "First Avenue Family Medical Centre \u2014 Dr. Carter",
+    "clinic_name": "First Avenue Family Medical Centre — Dr. Carter",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=95304",
@@ -2548,7 +2548,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c190",
-    "clinic_name": "Elmdale \u2014 Dr. Colin Bolzon",
+    "clinic_name": "Elmdale — Dr. Colin Bolzon",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=118946",
@@ -2558,7 +2558,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c191",
-    "clinic_name": "Dr. Ian Hons \u2014 Family Practice",
+    "clinic_name": "Dr. Ian Hons — Family Practice",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=103033",
@@ -2568,7 +2568,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c192",
-    "clinic_name": "Dr. Vida Omidvar \u2014 Family Practice",
+    "clinic_name": "Dr. Vida Omidvar — Family Practice",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=98770",
@@ -2578,7 +2578,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c193",
-    "clinic_name": "Drs. Soofia Kazi & Bhooma Bhayana \u2014 Family Practice",
+    "clinic_name": "Drs. Soofia Kazi & Bhooma Bhayana — Family Practice",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=81324",
@@ -2598,17 +2598,17 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c195",
-    "clinic_name": "St. Joseph\u2019s \u2014 Trauma and Violence Specialized Primary Care",
+    "clinic_name": "St. Joseph’s — Trauma and Violence Specialized Primary Care",
     "old_status": null,
     "new_status": "limited",
     "source": "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access",
     "type": "detailed_practice_reconciliation",
-    "reviewer_note": "Comprehensive ongoing primary care for people affected by trauma. Currently accepts only internal referrals from specified St. Joseph\u2019s programs/services and LHSC emergency departments. External community and self-referrals are not an advertised current pathway."
+    "reviewer_note": "Comprehensive ongoing primary care for people affected by trauma. Currently accepts only internal referrals from specified St. Joseph’s programs/services and LHSC emergency departments. External community and self-referrals are not an advertised current pathway."
   },
   {
     "date": "2026-11-12",
     "clinic_id": "c196",
-    "clinic_name": "Western University \u2014 Employee & Family Health Clinic",
+    "clinic_name": "Western University — Employee & Family Health Clinic",
     "old_status": null,
     "new_status": "limited",
     "source": "https://www.uwo.ca/health/employee-clinic/index.html",
@@ -2618,7 +2618,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c197",
-    "clinic_name": "Dr. Keith Thompson \u2014 Family Practice",
+    "clinic_name": "Dr. Keith Thompson — Family Practice",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=58164",
@@ -2628,12 +2628,12 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c198",
-    "clinic_name": "Carling Heights \u2014 Dr. Franklin Ossai",
+    "clinic_name": "Carling Heights — Dr. Franklin Ossai",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=105391",
     "type": "detailed_practice_reconciliation",
-    "reviewer_note": "CPSO confirms this physician\u2019s office and separate phone line. No current clinic-owned intake statement found; do not infer availability from other physicians sharing the building."
+    "reviewer_note": "CPSO confirms this physician’s office and separate phone line. No current clinic-owned intake statement found; do not infer availability from other physicians sharing the building."
   },
   {
     "date": "2026-11-12",
@@ -2643,7 +2643,7 @@
     "new_status": "unknown",
     "source": "https://wharnox.medicalsolutionclinic.com/new-patients/",
     "type": "detailed_practice_reconciliation",
-    "reviewer_note": "Clinic invites new-patient inquiries and asks people to contact the office about availability and requirements. This does not explicitly confirm a roster opening. Dr. Nzeadi\u2019s register address has moved here from Barker Street; his separate line is 519-204-4224."
+    "reviewer_note": "Clinic invites new-patient inquiries and asks people to contact the office about availability and requirements. This does not explicitly confirm a roster opening. Dr. Nzeadi’s register address has moved here from Barker Street; his separate line is 519-204-4224."
   },
   {
     "date": "2026-11-12",
@@ -2668,7 +2668,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c202",
-    "clinic_name": "Western University \u2014 Student Health & Wellness",
+    "clinic_name": "Western University — Student Health & Wellness",
     "old_status": null,
     "new_status": "limited",
     "source": "https://www.uwo.ca/health/physical-health/index.html",
@@ -2678,7 +2678,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c203",
-    "clinic_name": "Fanshawe College \u2014 Student Health Services",
+    "clinic_name": "Fanshawe College — Student Health Services",
     "old_status": null,
     "new_status": "limited",
     "source": "https://www.fowlerkennedy.com/services/fanshawe-college-students/",
@@ -2688,7 +2688,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c159",
-    "clinic_name": "Old South FHO \u2014 Dr. Jonathon Griffin",
+    "clinic_name": "Old South FHO — Dr. Jonathon Griffin",
     "old_status": "unknown",
     "new_status": "waitlist",
     "source": "https://www.drjonathongriffin.ca/",
@@ -2698,17 +2698,17 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c187",
-    "clinic_name": "St. Thomas Family Care Centre \u2014 Dr. Rick Goodhew",
+    "clinic_name": "St. Thomas Family Care Centre — Dr. Rick Goodhew",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=66522",
     "type": "live_register_identity_correction",
-    "reviewer_note": "Earlier version named Dr. Vaughan and used 519-637-2424 based on an older indexed register record. Live CPSO now places Vaughan at PeopleCare Tillsonburg, not this office. Goodhew\u2019s live register record independently confirms this St. Thomas office and his separate telephone. No clinic-specific current intake notice established."
+    "reviewer_note": "Earlier version named Dr. Vaughan and used 519-637-2424 based on an older indexed register record. Live CPSO now places Vaughan at PeopleCare Tillsonburg, not this office. Goodhew’s live register record independently confirms this St. Thomas office and his separate telephone. No clinic-specific current intake notice established."
   },
   {
     "date": "2026-11-12",
     "clinic_id": "c204",
-    "clinic_name": "Family Plus Medical Center \u2014 Dr. Ikechukwu Walter Ibeme",
+    "clinic_name": "Family Plus Medical Center — Dr. Ikechukwu Walter Ibeme",
     "old_status": "not_listed",
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=149588",
@@ -2718,7 +2718,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c182",
-    "clinic_name": "Polari Health \u2014 Family Practice",
+    "clinic_name": "Polari Health — Family Practice",
     "old_status": "reported",
     "new_status": "accepting",
     "source": "https://polarihealth.com/family-practice/",
@@ -2728,7 +2728,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c008",
-    "clinic_name": "Thames Valley FHT \u2014 Springbank NP Clinic",
+    "clinic_name": "Thames Valley FHT — Springbank NP Clinic",
     "old_status": "reported",
     "new_status": "limited",
     "source": "https://thamesvalleyfht.ca/become-a-patient/",
@@ -2738,7 +2738,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c013",
-    "clinic_name": "Thames Valley Family Health Team \u2014 Woodstock",
+    "clinic_name": "Thames Valley Family Health Team — Woodstock",
     "old_status": "reported",
     "new_status": "limited",
     "source": "https://thamesvalleyfht.ca/become-a-patient/",
@@ -2748,7 +2748,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c205",
-    "clinic_name": "Haldimand FHT \u2014 Caledonia",
+    "clinic_name": "Haldimand FHT — Caledonia",
     "old_status": null,
     "new_status": "limited",
     "source": "https://haldimandfht.ca/",
@@ -2758,17 +2758,17 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c206",
-    "clinic_name": "Haldimand Medical Clinic \u2014 team family practice",
+    "clinic_name": "Haldimand Medical Clinic — team family practice",
     "old_status": null,
     "new_status": "waitlist",
     "source": "https://healthycaledonia.ca/enrol",
     "type": "individual_public_source_audit",
-    "reviewer_note": "Clinic invites new-patient waitlist forms for each family member with a valid Ontario health card. It prioritizes based on need and publishes a 6\u201312 month estimate; this is not a guaranteed current wait. This team has a separate intake route from Dr. Ogbunando at the same street address."
+    "reviewer_note": "Clinic invites new-patient waitlist forms for each family member with a valid Ontario health card. It prioritizes based on need and publishes a 6–12 month estimate; this is not a guaranteed current wait. This team has a separate intake route from Dr. Ogbunando at the same street address."
   },
   {
     "date": "2026-11-12",
     "clinic_id": "c207",
-    "clinic_name": "Hint of Health \u2014 private fee-for-service NP",
+    "clinic_name": "Hint of Health — private fee-for-service NP",
     "old_status": null,
     "new_status": "unknown",
     "source": "https://hintofhealthinc.ca/fees",
@@ -2778,7 +2778,7 @@
   {
     "date": "2026-11-12",
     "clinic_id": "c208",
-    "clinic_name": "Highbury Medical Clinic \u2014 Dr. Saadiyah Rao",
+    "clinic_name": "Highbury Medical Clinic — Dr. Saadiyah Rao",
     "old_status": null,
     "new_status": "accepting",
     "source": "https://kamvamedical.ca/highbury-medical-clinic/",
@@ -2791,7 +2791,7 @@
     "old_status": "unknown",
     "new_status": "accepting",
     "source": "https://elmdalehealth.com/",
-    "reviewer_note": "Elmdale\u2019s website advertises a family physician accepting new patients. Apply online if you are not registered with another family physician in Elgin County. Registration is online only; do not visit the building to register. The office will contact applicants. Acceptance is not guaranteed. This application is separate from TMC+.",
+    "reviewer_note": "Elmdale’s website advertises a family physician accepting new patients. Apply online if you are not registered with another family physician in Elgin County. Registration is online only; do not visit the building to register. The office will contact applicants. Acceptance is not guaranteed. This application is separate from TMC+.",
     "type": "individual_public_source_audit"
   },
   {
@@ -2856,7 +2856,7 @@
   {
     "date": "2026-11-16",
     "clinic_id": "c221",
-    "clinic_name": "Aafiyat Medical Centre \u2014 Kitchener (Dr. Ejaz Ahmed)",
+    "clinic_name": "Aafiyat Medical Centre — Kitchener (Dr. Ejaz Ahmed)",
     "old_status": "not listed",
     "new_status": "accepting",
     "source": "https://aafiyat.ca/dr-ejaz-ahmed/",
@@ -2866,7 +2866,7 @@
   {
     "date": "2026-11-17",
     "clinic_id": "c222",
-    "clinic_name": "Sherwood Medical Clinic \u2014 Health Park Family Health Organization",
+    "clinic_name": "Sherwood Medical Clinic — Health Park Family Health Organization",
     "old_status": "not listed",
     "new_status": "unknown",
     "type": "verified_missing_office_added_intake_unknown",
@@ -2876,7 +2876,7 @@
   {
     "date": "2026-11-17",
     "clinic_id": "c223",
-    "clinic_name": "Dutton Medical Centre \u2014 Drs. Kamar and Sharman",
+    "clinic_name": "Dutton Medical Centre — Drs. Kamar and Sharman",
     "old_status": "not listed",
     "new_status": "unknown",
     "type": "verified_missing_office_added_intake_conflict",
@@ -2901,7 +2901,7 @@
     "new_status": "accepting",
     "source": "https://standrewsclinic.ca/booking/",
     "type": "verified_application_route_clarification",
-    "reviewer_note": "Family-practice registration is available through the clinic\u2019s intake form, followed by a meet-and-greet and mutual agreement before final enrolment. Walk-in booking is separate. Form access requires sign-in; availability and enrolment are not guaranteed. Public-source review; no telephone confirmation or guaranteed enrolment."
+    "reviewer_note": "Family-practice registration is available through the clinic’s intake form, followed by a meet-and-greet and mutual agreement before final enrolment. Walk-in booking is separate. Form access requires sign-in; availability and enrolment are not guaranteed. Public-source review; no telephone confirmation or guaranteed enrolment."
   },
   {
     "date": "2026-11-18",
@@ -2911,7 +2911,7 @@
     "new_status": "accepting",
     "source": "https://townlineclinic.com/",
     "type": "verified_application_route_clarification",
-    "reviewer_note": "Clinic website invites family-practice registration for Dr. Mehreen Saif and Dr. Muhammad Waqar Faisal. Use \u201cRegister for Family Practice Today,\u201d not the existing-patient appointment button. Enrolment follows a meet-and-greet and mutual agreement; submitting the form does not guarantee attachment. The physician-arrival announcement is dated August 2025. Public-source review; no telephone confirmation or guaranteed enrolment."
+    "reviewer_note": "Clinic website invites family-practice registration for Dr. Mehreen Saif and Dr. Muhammad Waqar Faisal. Use “Register for Family Practice Today,” not the existing-patient appointment button. Enrolment follows a meet-and-greet and mutual agreement; submitting the form does not guarantee attachment. The physician-arrival announcement is dated August 2025. Public-source review; no telephone confirmation or guaranteed enrolment."
   },
   {
     "date": "2026-11-18",
@@ -2921,12 +2921,12 @@
     "new_status": "accepting",
     "source": "https://smhc.net/",
     "type": "verified_application_route_clarification",
-    "reviewer_note": "Clinic website names Dr. Gabriella Schoettle and Dr. Faraz Hafezi as taking new patients. Call 519-264-2800 about registration; online appointment booking is for existing patients. Announcement has no visible year or intake deadline. Dr. Joshua Reycraft\u2019s separate intake is limited to family members of his existing patients. Public-source review; no telephone confirmation or guaranteed enrolment."
+    "reviewer_note": "Clinic website names Dr. Gabriella Schoettle and Dr. Faraz Hafezi as taking new patients. Call 519-264-2800 about registration; online appointment booking is for existing patients. Announcement has no visible year or intake deadline. Dr. Joshua Reycraft’s separate intake is limited to family members of his existing patients. Public-source review; no telephone confirmation or guaranteed enrolment."
   },
   {
     "date": "2026-11-18",
     "clinic_id": "c100",
-    "clinic_name": "Two Rivers FHT \u2014 Hespeler Medical Clinic",
+    "clinic_name": "Two Rivers FHT — Hespeler Medical Clinic",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "source": "https://tworiversfht.ca/new-patient-wait-list/",
@@ -2936,7 +2936,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c101",
-    "clinic_name": "Two Rivers FHT \u2014 HealthLink Family Practice",
+    "clinic_name": "Two Rivers FHT — HealthLink Family Practice",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "source": "https://tworiversfht.ca/new-patient-wait-list/",
@@ -2946,7 +2946,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c058",
-    "clinic_name": "Delhi Community Health Centre \u2014 Big Creek FHO / Norfolk FHT",
+    "clinic_name": "Delhi Community Health Centre — Big Creek FHO / Norfolk FHT",
     "old_status": "unknown",
     "new_status": "unknown",
     "source": "https://dchc.ca/public-walk-in-clinic/",
@@ -2956,7 +2956,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c006",
-    "clinic_name": "TMC+ \u2014 Hyde Park",
+    "clinic_name": "TMC+ — Hyde Park",
     "old_status": "accepting",
     "new_status": "reported",
     "source": "https://thompsonmedical.ca/new-patients/",
@@ -2966,7 +2966,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c007",
-    "clinic_name": "TMC+ \u2014 Thompson Road",
+    "clinic_name": "TMC+ — Thompson Road",
     "old_status": "accepting",
     "new_status": "reported",
     "source": "https://thompsonmedical.ca/new-patients/",
@@ -2976,7 +2976,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c010",
-    "clinic_name": "TMC+ \u2014 St. Thomas",
+    "clinic_name": "TMC+ — St. Thomas",
     "old_status": "accepting",
     "new_status": "reported",
     "source": "https://thompsonmedical.ca/new-patients/",
@@ -2997,7 +2997,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c004",
-    "clinic_name": "London Family Health Team \u2014 Beaverbrook",
+    "clinic_name": "London Family Health Team — Beaverbrook",
     "old_status": "accepting",
     "new_status": "accepting",
     "source": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
@@ -3007,7 +3007,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c021",
-    "clinic_name": "Coronation Family Physicians \u2014 Dr. Fares Hayek",
+    "clinic_name": "Coronation Family Physicians — Dr. Fares Hayek",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "type": "full_directory_source_audit",
@@ -3036,7 +3036,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c047",
-    "clinic_name": "Old South FHO \u2014 Dr. Zarmeen Qamar",
+    "clinic_name": "Old South FHO — Dr. Zarmeen Qamar",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "type": "full_directory_source_audit",
@@ -3052,7 +3052,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c052",
-    "clinic_name": "Dr. Edward Vivoda \u2014 Family Medicine",
+    "clinic_name": "Dr. Edward Vivoda — Family Medicine",
     "old_status": "unknown",
     "new_status": "unknown",
     "type": "full_directory_source_audit",
@@ -3074,7 +3074,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c053",
-    "clinic_name": "Dr. Steven Rioux \u2014 Family Medicine",
+    "clinic_name": "Dr. Steven Rioux — Family Medicine",
     "old_status": "unknown",
     "new_status": "unknown",
     "type": "full_directory_source_audit",
@@ -3119,7 +3119,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c065",
-    "clinic_name": "London FHT \u2014 Medway",
+    "clinic_name": "London FHT — Medway",
     "old_status": "not_accepting",
     "new_status": "not_accepting",
     "type": "full_directory_source_audit",
@@ -3150,7 +3150,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c067",
-    "clinic_name": "Prisma Health Care Collaborative \u2014 Grow Family Health",
+    "clinic_name": "Prisma Health Care Collaborative — Grow Family Health",
     "old_status": "limited",
     "new_status": "limited",
     "type": "full_directory_source_audit",
@@ -3204,7 +3204,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c106",
-    "clinic_name": "PrimaCare Community FHT \u2014 Paris",
+    "clinic_name": "PrimaCare Community FHT — Paris",
     "old_status": "unknown",
     "new_status": "unknown",
     "type": "full_directory_source_audit",
@@ -3275,7 +3275,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c136",
-    "clinic_name": "Drs. Domenicone & Kocsis \u2014 Family Medicine",
+    "clinic_name": "Drs. Domenicone & Kocsis — Family Medicine",
     "old_status": "unknown",
     "new_status": "unknown",
     "type": "full_directory_source_audit",
@@ -3298,7 +3298,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c141",
-    "clinic_name": "Advanced Western Medical Clinic \u2014 Dr. Muhammad Amin",
+    "clinic_name": "Advanced Western Medical Clinic — Dr. Muhammad Amin",
     "old_status": "unknown",
     "new_status": "unknown",
     "type": "full_directory_source_audit",
@@ -3320,7 +3320,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c147",
-    "clinic_name": "Forest City FHO \u2014 Dr. Doosuur Malu",
+    "clinic_name": "Forest City FHO — Dr. Doosuur Malu",
     "old_status": "unknown",
     "new_status": "unknown",
     "type": "full_directory_source_audit",
@@ -3358,7 +3358,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c176",
-    "clinic_name": "PrimePoint Medical Clinic \u2014 Family Practice",
+    "clinic_name": "PrimePoint Medical Clinic — Family Practice",
     "old_status": "unknown",
     "new_status": "unknown",
     "type": "full_directory_source_audit",
@@ -3383,7 +3383,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c047",
-    "clinic_name": "Old South FHO \u2014 Dr. Zarmeen Qamar",
+    "clinic_name": "Old South FHO — Dr. Zarmeen Qamar",
     "old_status": "waitlist",
     "new_status": "waitlist",
     "type": "full_directory_source_audit",
@@ -3395,7 +3395,7 @@
     "prior_values": {
       "online_review": {
         "reviewed_on": "2026-11-18",
-        "finding": "Dr. Qamar\u2019s official profile invites email waitlist requests for a practice opening January 2027. Old South\u2019s general new-patient page also lists her for primary care. These describe advance registration, not immediate clinical availability or guaranteed placement. Both pages were directly readable on this review.",
+        "finding": "Dr. Qamar’s official profile invites email waitlist requests for a practice opening January 2027. Old South’s general new-patient page also lists her for primary care. These describe advance registration, not immediate clinical availability or guaranteed placement. Both pages were directly readable on this review.",
         "sources": [
           "https://www.oldsouthfho.ca/doctor-profile-1-5-1",
           "https://www.oldsouthfho.ca/new-patients"
@@ -3454,7 +3454,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c224",
-    "clinic_name": "St. George Medical Center \u2014 Kitchener (Dr. Oladapo Ogunkoya)",
+    "clinic_name": "St. George Medical Center — Kitchener (Dr. Oladapo Ogunkoya)",
     "old_status": "not listed",
     "new_status": "accepting",
     "type": "verified_new_public_practice",
@@ -3464,7 +3464,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c225",
-    "clinic_name": "KW Bruce Medical \u2014 Kitchener",
+    "clinic_name": "KW Bruce Medical — Kitchener",
     "old_status": "not listed",
     "new_status": "accepting",
     "type": "verified_new_public_practice",
@@ -3474,7 +3474,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c226",
-    "clinic_name": "Grand River Family Health & Walk-In Clinic \u2014 Kitchener",
+    "clinic_name": "Grand River Family Health & Walk-In Clinic — Kitchener",
     "old_status": "not listed",
     "new_status": "accepting",
     "type": "verified_new_public_practice",
@@ -3484,7 +3484,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c227",
-    "clinic_name": "Spurline Crossing Family Practice & Walk-In Clinic \u2014 Waterloo",
+    "clinic_name": "Spurline Crossing Family Practice & Walk-In Clinic — Waterloo",
     "old_status": "not listed",
     "new_status": "unknown",
     "type": "verified_new_public_practice",
@@ -3494,7 +3494,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c228",
-    "clinic_name": "KGK / Wellington Family Health Centre \u2014 London (planned)",
+    "clinic_name": "KGK / Wellington Family Health Centre — London (planned)",
     "old_status": "not listed",
     "new_status": "waitlist",
     "type": "reviewed_planned_practice_application",
@@ -3523,7 +3523,7 @@
   {
     "date": "2026-11-18",
     "clinic_id": "c185",
-    "clinic_name": "Dr. Adam Sirek \u2014 professional listing (civilian family care unverified)",
+    "clinic_name": "Dr. Adam Sirek — professional listing (civilian family care unverified)",
     "old_status": "unknown",
     "new_status": "unknown",
     "type": "service_purpose_correction",
@@ -3556,5 +3556,61 @@
     "new_status": "unknown",
     "source": "https://kamvamedical.ca/doctors-walk-in-medical-clinic/",
     "reviewer_note": "Undated official location page reviewed 2026-11-18 explicitly identifies ongoing care with Dr. Loay Haddad (CPSO 119795), his family practice at 641 Commissioners Road East, and separate general walk-in service. Linked patient-intake page concerns Dr. Rao at Highbury only; Haddad attachment intake remains unknown. Official directions link resolves to the named clinic Google Maps place coordinates. No telephone confirmation."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c232",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://advancedpracticefho.com/contact-us",
+    "reviewer_note": "Official FHO contact page and family-physician profiles reviewed 2026-11-18 confirm these family doctors and this public office. FHO after-hours service is only for rostered patients, not public walk-in or evidence of new-patient acceptance. Existing government address-matched 230 Victoria building point reused, not suite entrance."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c233",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://advancedpracticefho.com/contact-us",
+    "reviewer_note": "Official FHO contact page and family-physician profiles reviewed 2026-11-18 confirm these family doctors and this public office. FHO after-hours service is only for rostered patients, not public walk-in or evidence of new-patient acceptance. Existing government address-matched 230 Victoria building point reused, not suite entrance."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c145",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://advancedpracticefho.com/contact-us",
+    "reviewer_note": "Address-only correction: official FHO contact page specifies 230 Victoria Unit 221 and matches2262709077. Existing intake status unchanged; no new acceptance finding."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c234",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://advancedpracticefho.com/contact-us",
+    "reviewer_note": "Current official FHO contact page reviewed 2026-11-18 confirms named family doctors and distinct office unit. No intake opening established. After-hours service is rostered-patients-only. Coordinates matched to public street address building, not suite entrance; Victoria government point reused, Richmond address-matched OpenStreetMap point."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c235",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://advancedpracticefho.com/contact-us",
+    "reviewer_note": "Current official FHO contact page reviewed 2026-11-18 confirms named family doctors and distinct office unit. No intake opening established. After-hours service is rostered-patients-only. Coordinates matched to public street address building, not suite entrance; Victoria government point reused, Richmond address-matched OpenStreetMap point."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c148",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://advancedpracticefho.com/contact-us",
+    "reviewer_note": "Added direct FHO corroboration for Dr. Matusa family practice, Unit201 and phone. Separate from newly added Unit202. Intake unchanged unknown."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c147",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=113661",
+    "reviewer_note": "Corrected evidence freshness: current live CPSO review gives Suite208, not merely an older cached record. Healthline September2025 Unit116A conflicts; no resolved office move or intake finding."
   }
 ]
