@@ -5,6 +5,9 @@ on:
     paths:
       - 'data/clinics.json'
       - 'data/review_history.json'
+      - 'data/review_queue.json'
+      - 'data/discovery_queue.json'
+      - 'data/directory_queue.json'
       - 'data/extra_communities.json'
       - 'scripts/**'
       - 'tests/**'
