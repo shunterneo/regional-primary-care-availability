@@ -1,0 +1,729 @@
+[
+  {
+    "id": "c122",
+    "name": "Nith Valley Family Practice",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Current news page says the practice waitlist is closed. No broader all-physician closure established; retain unknown, clearly not an open waitlist.",
+    "sources": [
+      "https://www.nvfp.ca/news"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c123",
+    "name": "Baseline Medical Clinic \u2014 Dr. Gerald Okafor",
+    "stored_status": "reported",
+    "recommended_status": "reported",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "LDAM currently lists Gerald Okafor at25BaselineW and2266634647 under accepting, with Migranium link. Supports regional reported status only; no form submission or verified capacity.",
+    "sources": [
+      "https://www.ldam.ca/find-a-doctor"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c125",
+    "name": "Port Dover Family Health",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader recovered original source",
+    "original_http_status": 403,
+    "finding": "211 page recovered via web reader; expressly registered patients/not accepting, with Last Updated November13,2026. Update directory-report date and retain caveat that this is not clinic confirmation. No direct clinic source found.",
+    "sources": [
+      "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "Add current211 report date, no status upgrade"
+  },
+  {
+    "id": "c126",
+    "name": "Dover Shores Family Practice",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Ownsite confirms full-service familypractice410Main,5195830892/1377. Medical appointments distinct from nonpatient marine exams and private-pay medispa; no newfamilypractice intake notice.",
+    "sources": [
+      "https://dovershoresfamilypractice.ca/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c127",
+    "name": "C.A. Bell Medical Centre \u2014 Dr. Kristin Richter",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader refreshed today",
+    "original_http_status": 403,
+    "finding": "CPSO primary-business-location record and familymedicine identity corroborate stored listing. Register does not report accepting-patient availability; retain unknown.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=100988"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c128",
+    "name": "C.A. Bell Medical Centre \u2014 Dr. Brendan Boyd",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader refreshed today",
+    "original_http_status": 403,
+    "finding": "CPSO primary-business-location record and familymedicine identity corroborate stored listing. Register does not report accepting-patient availability; retain unknown.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=103833"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c129",
+    "name": "Dorchester Medical Centre",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader refreshed today",
+    "original_http_status": 403,
+    "finding": "CPSO primary-business-location record and familymedicine identity corroborate stored listing. Register does not report accepting-patient availability; retain unknown.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=96271"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c130",
+    "name": "Thames River FHO \u2014 Dr. Alex Bohdanowicz",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "FHO lists Alex Bohdanowicz4036Catherine,5192687301; no newpatient intake statement.",
+    "sources": [
+      "https://www.thamesriverfho.ca/doctors"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c131",
+    "name": "Thames River FHO \u2014 Thorndale",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "FHO lists HenryChapeskie and TinaLam21816Fairview,5194610776; no newpatient intake statement.",
+    "sources": [
+      "https://www.thamesriverfho.ca/doctors"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c132",
+    "name": "Synergy Centre \u2014 Family Medicine",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Own familymedicine page explicitly enrolled MariaTetelbaum patients/FHO/rostered extended-hours; general newpatient or booking invitations do not establish open familypractice intake.",
+    "sources": [
+      "https://synergycentre.ca/about-us/about-us",
+      "https://synergycentre.ca/services/family-medicine"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c133",
+    "name": "Burford Medical Centre \u2014 Dr. Joanne Ozog-Bartlett",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Host Burford team page names JoanneOzog-Bartlett familymedicine and says medicalservices affiliated-only, independent of rehab. No newpatient offer or direct physician phone; do not use rehab booking.",
+    "sources": [
+      "https://cobblestonemedicineandrehab.com/our-staff-burford/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c134",
+    "name": "Dr. Michelle Andersen-Kay \u2014 Family Medicine",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader refreshed today",
+    "original_http_status": 403,
+    "finding": "CPSO primary-business-location record and familymedicine identity corroborate stored listing. Register does not report accepting-patient availability; retain unknown.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=71229"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c135",
+    "name": "Dr. Jeffrey Nichols \u2014 Family Medicine",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader refreshed today",
+    "original_http_status": 403,
+    "finding": "CPSO primary-business-location record and familymedicine identity corroborate stored listing. Register does not report accepting-patient availability; retain unknown.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=56952"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c136",
+    "name": "Drs. Domenicone & Kocsis \u2014 Family Medicine",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader refreshed today",
+    "original_http_status": 403,
+    "finding": "CPSO62101 corroborates RosariaDomenicone at959DundasSuite201/5195395621 and familymedicine. This source does not independently reconfirm Kocsis; no newpatient intake established. Retain unknown; do not present both practitioners as newly verified.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=62101"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c137",
+    "name": "Dr. Donna Onishenko \u2014 Family Medicine",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader refreshed today",
+    "original_http_status": 403,
+    "finding": "CPSO primary-business-location record and familymedicine identity corroborate stored listing. Register does not report accepting-patient availability; retain unknown.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=62100"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c138",
+    "name": "McKinney Medical Centre \u2014 Dr. Brock Tompkins",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader refreshed today",
+    "original_http_status": 403,
+    "finding": "CPSO primary-business-location record and familymedicine identity corroborate stored listing. Register does not report accepting-patient availability; retain unknown.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=70097"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c139",
+    "name": "Dr. Pauline Zhang \u2014 Family Medicine",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader cached4months",
+    "original_http_status": 403,
+    "finding": "CPSO primary-business-location record and familymedicine identity corroborate stored listing. Register does not report accepting-patient availability; retain unknown.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=114431"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c140",
+    "name": "Fanshawe Family Medical Centre \u2014 Dr. Dina AlKhatib",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader recovered original source",
+    "original_http_status": 406,
+    "finding": "Ownsite recovered through web reader after direct406. Explicit appointment booking for DrAlKhatib patients only and registeredpatients; current Nov16-21 afterhours schedule, no open familypractice intake notice.",
+    "sources": [
+      "https://drdinaalkhatib.com/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c141",
+    "name": "Advanced Western Medical Clinic \u2014 Dr. Muhammad Amin",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "alternative or indexed evidence; see findings",
+    "original_http_status": 403,
+    "finding": "Direct and web open register blocked403; indexed official register snapshot Sep30,2026 identifies MuhammadAmin925WonderlandS UnitB,2266633334, familymedicine. Not current intake evidence; retain unknown and access limitation.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=96373"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "Add source access limitation; keep unknown"
+  },
+  {
+    "id": "c142",
+    "name": "Thames River FHO \u2014 Dr. Claudia Niesner",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "FHO lists ClaudiaNiesner267FanshaweParkW,5196451888; no newpatient intake statement.",
+    "sources": [
+      "https://www.thamesriverfho.ca/doctors"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c143",
+    "name": "WELL Health Medical Centres \u2014 London (formerly HealthPark)",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Own WELL London page confirms formerHealthPark,140OxfordE Suite300,familypractice; Ontario newpatient page inspected and London not among listed application clinics. Generic navigation/booking not London attachment evidence; retain unknown.",
+    "sources": [
+      "https://www.thamesriverfho.ca/doctors",
+      "https://wellclinics.ca/ontario/london/london-whmc/",
+      "https://wellclinics.ca/accepting-new-patients/ontario/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c144",
+    "name": "Thames River FHO \u2014 Dr. Joel Hommel",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "FHO lists JoelHommel304-240WharncliffeN,5196012004; no newpatient intake statement.",
+    "sources": [
+      "https://www.thamesriverfho.ca/doctors"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c146",
+    "name": "Southwest FHO \u2014 Knights Hill",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Ownsite confirms KnightsHill comprehensive allage primarycare and same-day/afterhours for practice patients. New physicians at440Boler are separate site; no KnightsHill newpatient offer. Nov20,2026 flu notice is not intake.",
+    "sources": [
+      "https://www.southwestfho.com/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c147",
+    "name": "Forest City FHO \u2014 Dr. Doosuur Malu",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "alternative or indexed evidence; see findings",
+    "original_http_status": 503,
+    "finding": "Stored Healthline endpoint failed; indexed source last fullupdateSep16,2025 lists Malu230Victoria Unit116A/5196409954. Current linked TVFHT ForestCity page does not name Malu. CPSO113661 cached last-year page instead lists230Victoria Suite208/samephone. Flag unit conflict, confirm before visiting; do not replace with older unit or infer closure. Intake remains unknown.",
+    "sources": [
+      "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
+      "https://thamesvalleyfht.ca/locations/forest-city-family-health-organization/",
+      "https://register.cpso.on.ca/physician-info/?cpsonum=113661"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "Add unit conflict and access/source-age caveat; confirm office"
+  },
+  {
+    "id": "c148",
+    "name": "Richmond Medicare \u2014 Dr. Elena Matusa",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "alternative or indexed evidence; see findings",
+    "original_http_status": 403,
+    "finding": "CPSO direct403; indexedSep30,2026 corroborates. Current official AdvancedMedicalPracticeFHO contact page independently confirms ElenaMatusa781Richmond Unit201/5196807772; homepage identifies comprehensive familycare. No intake offer for her.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=97631",
+      "https://advancedpracticefho.com/contact-us",
+      "https://advancedpracticefho.com/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c149",
+    "name": "Richmond Medical \u2014 Dr. Robert Butchey",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader cached5days",
+    "original_http_status": 403,
+    "finding": "CPSO primary-business-location record and familymedicine identity corroborate stored listing. Register does not report accepting-patient availability; retain unknown.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=87374"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c150",
+    "name": "Komoka Medical Clinic",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader cached6days",
+    "original_http_status": 403,
+    "finding": "CPSO primary-business-location record and familymedicine identity corroborate stored listing. Register does not report accepting-patient availability; retain unknown.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=109486"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c151",
+    "name": "Lucan Medical Centre",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader cached3months",
+    "original_http_status": 403,
+    "finding": "CPSO reader identifies TarunNanda LucanMedical268Main/5192271163, familymedicine; cached3months. Targeted official municipal search did not substantiate prior social-mirror waitlist. Keep unknown with prior lead marked unverified.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=109391"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c152",
+    "name": "Alexandra Medical Centre",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Ownsite confirms fullscope familymedicine on2ndfloor AlexandraHospital; rostered-only afterhours restricted namedpractice patients, not public clinic. No newpatient intake statement.",
+    "sources": [
+      "https://www.alexandramedicalcentre.ca/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c153",
+    "name": "Old South FHO \u2014 Dr. Emmanuel Adejokun",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c154",
+    "name": "Old South FHO \u2014 Dr. Parvin Akter",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown. Existing record already flags differing CPSO suite; this pass confirms FHT203B only, does not resolve discrepancy.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c155",
+    "name": "Old South FHO \u2014 Dr. Willoon Cheng",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c156",
+    "name": "Old South FHO \u2014 Dr. Ali Chasm Khavari",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c157",
+    "name": "Old South FHO \u2014 Dr. Cameron Coatsworth",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c158",
+    "name": "Old South FHO \u2014 Dr. Greg Gillis",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c159",
+    "name": "Old South FHO \u2014 Dr. Jonathon Griffin",
+    "stored_status": "waitlist",
+    "recommended_status": "waitlist",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Current ownsite invites joining JonathonGriffin waitlist via office5196818860;302-460Springbank. Afterhours only his rosteredpatients. Retain waitlist, no guaranteed enrolment/date.",
+    "sources": [
+      "https://www.drjonathongriffin.ca/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c160",
+    "name": "Old South FHO \u2014 Dr. Dan Kreuzer",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c161",
+    "name": "Old South FHO \u2014 Dr. Tariq Nizami",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c162",
+    "name": "Old South FHO \u2014 Dr. Aisha Rashid",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c163",
+    "name": "Old South FHO \u2014 Dr. Daryoush Safdari",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c164",
+    "name": "Old South FHO \u2014 Dr. Devon Shewfelt",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c165",
+    "name": "Old South FHO \u2014 Dr. Kelsey Watson",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct current TVFHT OldSouth location source lists this physician, stored suite and telephone; existingpatient afterhours does not establish newpatient intake. Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c166",
+    "name": "Dr. Dorota Marczuk \u2014 Family Practice",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader cached5days",
+    "original_http_status": 403,
+    "finding": "CPSO reader confirms DorotaMarczuk595WonderlandN/5194881951, familymedicine. No newpatient intake statement; do not infer from aesthetics.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=85714"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c167",
+    "name": "D.A. Monteith Medical Centre",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "web reader cached5days",
+    "original_http_status": 403,
+    "finding": "CPSO reader confirms RebeccaRobinson35846TalbotLine/5197642245, familymedicine. No newpatient intake statement.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=117791"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c168",
+    "name": "London East Medical Centre",
+    "stored_status": "unknown",
+    "recommended_status": "unknown",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Ownsite confirms295Saskatoon and separateSinclair/Jimenez/Tam/Dzongowski phone lines; urgentafterhours by familydoctor booking. No intake notice.",
+    "sources": [
+      "https://londoneastmedical.ca/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c169",
+    "name": "London Lambeth Medical Clinic",
+    "stored_status": "not_accepting",
+    "recommended_status": "not_accepting",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Ownsite explicitly not accepting newpatients; familymedicalhome described. Retain not_accepting, undated notice.",
+    "sources": [
+      "https://londonlambeth.ca/"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c170",
+    "name": "Old South Maternity Care & Family Practice",
+    "stored_status": "not_accepting",
+    "recommended_status": "not_accepting",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Ownsite policy explicitly no newfamilypractice patients; pregnant patients may be referred atany pregnancy stage. Retain not_accepting for ongoingattachment, not maternity closure.",
+    "sources": [
+      "https://www.oldsouthmaternity.ca/clinic-policies.html"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  },
+  {
+    "id": "c171",
+    "name": "Core Family Health Centre",
+    "stored_status": "not_accepting",
+    "recommended_status": "not_accepting",
+    "reviewed_on": "2026-11-18",
+    "method": "direct HTTP200 original source text",
+    "original_http_status": 200,
+    "finding": "Direct live homepage explicitly none of physicians accepting newpatients; HealthCareConnect referral is centralized matching not Core waitlist. Retain not_accepting.",
+    "sources": [
+      "https://www.corefamilyhealth.com"
+    ],
+    "source_date": "Undated intake notice unless explicitly identified in finding; retrieval is not publication date",
+    "correction": "No substantive correction established"
+  }
+]

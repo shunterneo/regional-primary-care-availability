@@ -1,0 +1,749 @@
+[
+  {
+    "id": "c005",
+    "name": "London Family Health Team \u2014 Stoney Creek",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "conflict retained",
+    "finding_identity_model_eligibility": "Rostered family care. Aug26 announcement names Stoney Creek; Locations says no new patients; FAQ says other physicians apart from Hassani not accepting/no waitlist. No resolution or fresh placement confirmation.",
+    "correction_or_limit": "Keep unknown/conflict; do not infer closure or openings.",
+    "sources": [
+      "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
+      "https://londonfht.ca/our-locations/",
+      "https://londonfht.ca/frequently-asked-questions/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c008",
+    "name": "Thames Valley FHT \u2014 Springbank NP Clinic",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "limited",
+    "observed_status": "program applications",
+    "finding_identity_model_eligibility": "NP clinic identity confirmed at Suite209 Springbank. Regional intake explicitly ongoing care for unattached or existing provider outside area. Site allocation/capacity not established.",
+    "correction_or_limit": "Retain limited/program-level; existing-patient booking is not intake.",
+    "sources": [
+      "https://thamesvalleyfht.ca/become-a-patient/",
+      "https://thamesvalleyfht.ca/locations/london-nurse-practitioner-clinic/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c013",
+    "name": "Thames Valley Family Health Team \u2014 Woodstock",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "limited",
+    "observed_status": "program applications",
+    "finding_identity_model_eligibility": "Woodstock FHT office confirmed; directory lists numerous physician contacts, not their accepting status. Regional NP attachment open for unattached or provider outside area.",
+    "correction_or_limit": "Retain limited/program-level. No doctor-roster availability inference.",
+    "sources": [
+      "https://thamesvalleyfht.ca/become-a-patient/",
+      "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c015",
+    "name": "Langs North Dumfries Community Health Centre",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "limited",
+    "observed_status": "matching applications",
+    "finding_identity_model_eligibility": "Langs expressly accepts new doctor/NP patients in North Dumfries and Cambridge via HCC, then eligibility/matching, then clinic contact. No wait duration.",
+    "correction_or_limit": "Retain limited; service region explicitly includes Ayr, Roseville, Branchton, Clyde, Drumbo, New Dundee and Plattsville.",
+    "sources": [
+      "https://www.langs.org/new-patients"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c016",
+    "name": "Avenue Medical Centre",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "waitlist",
+    "observed_status": "waitlist supported",
+    "finding_identity_model_eligibility": "Dr Vidhi Desai full-time family practice started July2026; local people without physician eligible. Clinic waitlist and HCC routes. Linked 2026 PDF is family-doctor waitlist.",
+    "correction_or_limit": "Retain waitlist. Applications before2022 must be renewed; no immediate attachment guarantee.",
+    "sources": [
+      "https://www.avenuemedical.ca/index.aspx?PageName=Notices",
+      "https://www.avenuemedical.ca/userfiles/AMC_Wait_List_2026.pdf"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c017",
+    "name": "Bonavista Medical Centre",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "reported",
+    "observed_status": "regional report supported",
+    "finding_identity_model_eligibility": "BCHS still names Shaikh/Mutasher. Clinic explicitly ended walk-ins; contact page offers patient enrolment/intake downloads without current capacity statement.",
+    "correction_or_limit": "Keep reported, not clinic-confirmed opening. No-walk-in statement alone not sufficient ongoing proof; enrolment route and family-clinic identity support it.",
+    "sources": [
+      "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+      "https://bonavistamedicalcentrebrantford.com/",
+      "https://bonavistamedicalcentrebrantford.com/contact.php"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c018",
+    "name": "Dr. Clara Obanor \u2014 King George Road",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "reported",
+    "observed_status": "regional report supported",
+    "finding_identity_model_eligibility": "BCHS names Clara Obanor,250 King George Road,548-567-9999 under family doctors accepting. Linked pharmacy homepage does not independently confirm her intake.",
+    "correction_or_limit": "Retain reported. Pharmacy services/registration not physician attachment.",
+    "sources": [
+      "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+      "https://kinggeorgepharmacy.ca/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c021",
+    "name": "Coronation Family Physicians \u2014 Dr. Fares Hayek",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "waitlist",
+    "observed_status": "waitlist indexed only",
+    "finding_identity_model_eligibility": "Direct page no readable lines; freshly indexed official text says family-physician waitlist and lists Hayek among multiple clinicians.",
+    "correction_or_limit": "Retain waitlist, but scope is clinic-wide, not evidence Hayek individually has openings.",
+    "sources": [
+      "https://www.coronationfamilyphysicians.ca/"
+    ],
+    "access": "official_index_only",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c022",
+    "name": "Dr. Sherif Mikhail \u2014 Conestoga",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "reported",
+    "observed_status": "regional report supported",
+    "finding_identity_model_eligibility": "Doctors4Cambridge lists Sherif Mikhail,350 Conestoga B7A,519-740-1700,call to register; page warns updates may lag.",
+    "correction_or_limit": "Retain reported; no first-party clinic intake or guarantee established.",
+    "sources": [
+      "https://www.doctors4cambridge.com/contact.htm"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c023",
+    "name": "Langs Community Health Centre \u2014 Cambridge",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "limited",
+    "observed_status": "matching applications",
+    "finding_identity_model_eligibility": "Langs Cambridge family doctor/NP intake via HCC eligibility/matching. Cambridge and North Dumfries residents stated; placement not guaranteed.",
+    "correction_or_limit": "Retain limited, no duration verified.",
+    "sources": [
+      "https://www.langs.org/new-patients"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c025",
+    "name": "Shepherd Medical Centre \u2014 Dr. Hisham Ghali",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "reported",
+    "observed_status": "regional report supported",
+    "finding_identity_model_eligibility": "Doctors4Cambridge lists Hisham Ghali at Shepherd,512 Coronation,519-623-7878; warning that availability changes.",
+    "correction_or_limit": "Retain reported, not clinic-confirmed capacity.",
+    "sources": [
+      "https://www.doctors4cambridge.com/contact.htm"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c030",
+    "name": "Dr. Festus Anochie family medicine",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "reported",
+    "observed_status": "regional report supported",
+    "finding_identity_model_eligibility": "LDAM still lists Festus Anochie,200-440 Boler,519-471-2929 as family-doctor lead.",
+    "correction_or_limit": "Retain reported; no clinic confirmation or eligibility/wait details.",
+    "sources": [
+      "https://www.ldam.ca/find-a-doctor"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c031",
+    "name": "Dundas Medical Clinic",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "reported",
+    "observed_status": "regional-linked registration",
+    "finding_identity_model_eligibility": "LDAM lists Dundas and links clinic-branded form for new family doctor beginning first week August2026; registration interest, family members allowed, no guaranteed enrolment.",
+    "correction_or_limit": "Retain reported; physician unnamed and clinic-domain ownership/current placements not independently confirmed.",
+    "sources": [
+      "https://www.ldam.ca/find-a-doctor",
+      "https://docs.google.com/forms/d/e/1FAIpQLSf1p8Hrnnowl_ep2Z_2Yq5bB_8jSnNVlwuMrA5acWGifI3vqA/viewform?pli=1"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c032",
+    "name": "Hamilton Medical Clinic \u2014 Dr. Adeniran",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "not_accepting",
+    "observed_status": "not accepting supported",
+    "finding_identity_model_eligibility": "Named clinic notices repeatedly state Adeniran no longer accepting, caring for own and former Ukpong rostered patients subject to availability. Generic join-family-practice button remains.",
+    "correction_or_limit": "Retain named-doctor closure; generic button does not override explicit notice.",
+    "sources": [
+      "https://hamiltonmedclinic.com/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c035",
+    "name": "Serenity Medical Centre",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "reported",
+    "observed_status": "regional report supported",
+    "finding_identity_model_eligibility": "LDAM names Serenity,272 OxfordW,548-866-0248,inquire at pharmacy,new physician starting Nov1,2026.",
+    "correction_or_limit": "Retain reported; add stated start date with attribution if useful. Named clinician/actual capacity not established.",
+    "sources": [
+      "https://www.ldam.ca/find-a-doctor"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c038",
+    "name": "Oxford County Nurse Practitioner-Led Clinic \u2014 Ingersoll",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "limited",
+    "observed_status": "limited plus conflicting route",
+    "finding_identity_model_eligibility": "Intake webpage says limited Ingersoll capacity as of Aug26,2026; older news says Ingersoll not accepting. NP-led ongoing care established. Ocean route not freshly readable.",
+    "correction_or_limit": "Retain limited/conflict caution. Do not claim Tillsonburg-only form freshly verified in this pass.",
+    "sources": [
+      "https://www.ocnplc.ca/patient-information/new-patients/",
+      "https://www.ocnplc.ca/news/",
+      "https://www.ocnplc.ca/about-us/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c039",
+    "name": "London InterCommunity Health Centre \u2014 Dundas",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "limited",
+    "observed_status": "restricted referrals supported",
+    "finding_identity_model_eligibility": "LIHC explicitly ongoing team primary care, not walk-in. Past12mo no London family doctor/no leaving or dismissal; access barriers required. Visitor/work/study permits excluded; IFH may qualify.",
+    "correction_or_limit": "Retain limited. Linked Sept2026 PDF requires drop-off and warns limited availability; no verified online submission route.",
+    "sources": [
+      "https://lihc.on.ca/programs-services/primary-care/",
+      "https://lihc.on.ca/wp-content/uploads/2026/09/Walk-in-form-Sept.-2026.pdf"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c040",
+    "name": "London InterCommunity Health Centre \u2014 Huron",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "limited",
+    "observed_status": "restricted referrals supported",
+    "finding_identity_model_eligibility": "Same central LIHC intake as Dundas; Huron is paper drop-off location. Ongoing care for accepted eligible clients, not proof of independent Huron availability.",
+    "correction_or_limit": "Retain limited and central-site allocation caveat; same restrictions as c039.",
+    "sources": [
+      "https://lihc.on.ca/programs-services/primary-care/",
+      "https://lihc.on.ca/wp-content/uploads/2026/09/Walk-in-form-Sept.-2026.pdf"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c041",
+    "name": "Thames Valley FHT \u2014 Queens Avenue Health & Homelessness",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "limited",
+    "observed_status": "restricted referrals supported",
+    "finding_identity_model_eligibility": "Health/Homelessness team explicitly supports voluntary attachment, acute/chronic care, for people experiencing homelessness. Provider/self-referrals require both2026 forms.",
+    "correction_or_limit": "Retain limited. DOCX application/referral content unsupported by web extractor, not substantively inspected.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c042",
+    "name": "Waterloo Region NP-Led Clinic \u2014 Breslau",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "waitlist",
+    "observed_status": "application with historical wait",
+    "finding_identity_model_eligibility": "NPLC assigns ongoing NP to registered patient; not walk-in. Current page accepts intake applications. May21,2025 notice says all3 sites extensive waitlists/up to10-12mo.",
+    "correction_or_limit": "Retain waitlist with dated historical estimate; no fresh duration/capacity.2026 DOCX not readable in web extractor.",
+    "sources": [
+      "https://wrnplc.ca/patient-information/",
+      "https://wrnplc.ca/current-wait-time-for-new-patient-intakes/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c043",
+    "name": "Grandview Medical Centre Family Health Team",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "waitlist",
+    "observed_status": "waitlist supported",
+    "finding_identity_model_eligibility": "Official form requests family-physician waitlist; review as availability allows; no guaranteed immediate attachment. Staff cannot give position/timelines; submit once.",
+    "correction_or_limit": "Retain waitlist; no wait estimate.",
+    "sources": [
+      "https://www.gmcfht.ca/wait-list/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c044",
+    "name": "Waterloo Region NP-Led Clinic \u2014 Cambridge",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "waitlist",
+    "observed_status": "application with historical wait",
+    "finding_identity_model_eligibility": "Same WRNPLC ongoing NP intake route. May2025 wait notice applies all3 clinics, not fresh estimate.2026 DOCX link unsupported.",
+    "correction_or_limit": "Retain waitlist; this pass did not reverify Aug2026 relocation.",
+    "sources": [
+      "https://wrnplc.ca/patient-information/",
+      "https://wrnplc.ca/current-wait-time-for-new-patient-intakes/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c045",
+    "name": "New Vision Family Health Team \u2014 Greenbrook",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "waitlist",
+    "observed_status": "waitlist indexed only",
+    "finding_identity_model_eligibility": "Direct403; freshly indexed official page accepts names for new-patient waitlist, online or paper dropped off in person; Greenbrook address.",
+    "correction_or_limit": "Retain waitlist, explicitly index-only recheck; downstream form not inspected.",
+    "sources": [
+      "https://www.newvisionhealth.ca/need-a-family-doctor"
+    ],
+    "access": "official_index_only",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c046",
+    "name": "Waterloo Region NP-Led Clinic \u2014 Pioneer Park",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "waitlist",
+    "observed_status": "application with historical wait",
+    "finding_identity_model_eligibility": "Same WRNPLC registered-patient ongoing NP model and current applications; all-sites May2025 wait warning.",
+    "correction_or_limit": "Retain waitlist; dated estimate only, DOCX not inspected.",
+    "sources": [
+      "https://wrnplc.ca/patient-information/",
+      "https://wrnplc.ca/current-wait-time-for-new-patient-intakes/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c047",
+    "name": "Old South FHO \u2014 Dr. Zarmeen Qamar",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "waitlist",
+    "observed_status": "future waitlist first-party confirmed",
+    "finding_identity_model_eligibility": "Official profile directly readable on retry: practice opening January 2027, email waitlist; general new-patient page lists Qamar primary care. Advance waitlist is not current clinical availability.",
+    "correction_or_limit": "Keep waitlist and January 2027 future date; no immediate availability guarantee.",
+    "sources": [
+      "https://www.oldsouthfho.ca/doctor-profile-1-5-1",
+      "https://www.oldsouthfho.ca/new-patients"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c048",
+    "name": "Oxford County Community Health Centre \u2014 Tillsonburg",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained",
+    "finding_identity_model_eligibility": "2025/26 quality plan records selective attachment of unattached high-use ED clients in Tillsonburg. Current medical-care page says registered doctor/NP patients only,no walk-in; homepage confirms Tillsonburg primary care.",
+    "correction_or_limit": "Retain unknown; current service description is not open intake notice. Replace generic care-model evidence with medical-care page.",
+    "sources": [
+      "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
+      "https://oxchc.ca/medical-care/",
+      "https://oxchc.ca/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c049",
+    "name": "Dr. Frank Ferlisi family practice",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "not_accepting",
+    "observed_status": "not accepting supported",
+    "finding_identity_model_eligibility": "Family physician Ferlisi states full capacity and no longer taking patients from waitlist.",
+    "correction_or_limit": "Retain not_accepting.",
+    "sources": [
+      "https://primemedical.ca/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c050",
+    "name": "Oxford County Community Health Centre \u2014 Woodstock",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained",
+    "finding_identity_model_eligibility": "Current OCCHC medical-care page confirms rostered doctor/NP in-clinic care,no walk-in; homepage confirms Woodstock. Historical quality plan not current intake.",
+    "correction_or_limit": "Retain unknown, eligibility/capacity unresolved. Use medical-care page for care model.",
+    "sources": [
+      "https://oxchc.ca/wp-content/uploads/2025/04/OCCHC-Quality-Improvement-Plan-2025-26.pdf",
+      "https://oxchc.ca/medical-care/",
+      "https://oxchc.ca/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c051",
+    "name": "Thames Valley FHT \u2014 Ailsa Craig",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained",
+    "finding_identity_model_eligibility": "FHT location lists Ailsa Craig and direct family-doctor phone. No local intake/eligibility statement.",
+    "correction_or_limit": "Retain unknown; regional NP program does not establish this physician roster.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/strathroy-family-health-organization-ailsa-craig-site/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c052",
+    "name": "Dr. Edward Vivoda \u2014 Family Medicine",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "register indexed only",
+    "finding_identity_model_eligibility": "Direct CPSO403; indexed CPSO snapshot dated12Sep2026 names Edward Ernest Vivoda,family-medicine specialty,113JohnStS Aylmer; includes separate walk-in location.",
+    "correction_or_limit": "Retain unknown intake. Specialty/office listing alone does not independently establish ongoing roster model at this site.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=75971"
+    ],
+    "access": "official_index_only",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c053",
+    "name": "Dr. Steven Rioux \u2014 Family Medicine",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "register snapshot readable",
+    "finding_identity_model_eligibility": "CPSO snapshot12Nov2026 names Steven Gordon David Rioux,Family Medicine,6-418TalbotW Aylmer. No intake.",
+    "correction_or_limit": "Retain unknown intake; specialty alone insufficient to assert verified longitudinal roster model.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=116967"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c054",
+    "name": "East Elgin Family Health Team \u2014 Aylmer",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained",
+    "finding_identity_model_eligibility": "EEFHT team lists physicians and NPs,424TalbotW Aylmer,after-hours arrangements. No intake statement on inspected team page.",
+    "correction_or_limit": "Retain unknown; no acceptance or closure inferred.",
+    "sources": [
+      "https://www.eefht.ca/about-us/the-team/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c056",
+    "name": "Hopeton Medical Centre",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "waitlist",
+    "observed_status": "waitlist supported",
+    "finding_identity_model_eligibility": "Direct fetch eventually successful: prominent join-waitlist/apply-in-person banner and separate ongoing family practice/walk-in services. Forms page repeats banner.",
+    "correction_or_limit": "Retain waitlist/in-person. Generic accepting copy does not justify immediate attachment.",
+    "sources": [
+      "https://hopetonmedical.com/",
+      "https://hopetonmedical.com/forms"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c057",
+    "name": "King Street Medical Centre",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "register snapshot readable",
+    "finding_identity_model_eligibility": "CPSO snapshot12Nov2026 names Gurmeet Singh Sidhu,family-medicine specialty,1718KingStE Cambridge,519-219-8999. No intake.",
+    "correction_or_limit": "Retain unknown intake; specialty/office identity is not independent roster-model verification.",
+    "sources": [
+      "https://register.cpso.on.ca/physician-info/?cpsonum=91809"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c058",
+    "name": "Delhi Community Health Centre \u2014 Big Creek FHO / Norfolk FHT",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained",
+    "finding_identity_model_eligibility": "Norfolk find-doctor page offers HCC and other practices,not own opening. Delhi office appears in footer.",
+    "correction_or_limit": "Retain unknown. Ongoing Norfolk/BigCreek and separate episodic DCHC service should remain distinct; latter not re-audited here.",
+    "sources": [
+      "https://norfolkfht.ca/find-a-doctor/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c059",
+    "name": "Middlesex Centre Family Medicine Clinic",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained",
+    "finding_identity_model_eligibility": "Middlesex Centre Family Medicine identity/contact; explicitly not walk-in,has on-call and after-hours for patients. No intake.",
+    "correction_or_limit": "Retain unknown; use this own FHT source for model.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c060",
+    "name": "Alexandra Family Physicians",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained",
+    "finding_identity_model_eligibility": "Alexandra explicitly family practice; named physicians; urgent after-hours for its existing patients. No new registration notice.",
+    "correction_or_limit": "Retain unknown, do not infer closed.",
+    "sources": [
+      "https://alexfp.ca/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c061",
+    "name": "Centre for Family Medicine \u2014 Andrew Street (formerly Joseph Street)",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "not_accepting",
+    "observed_status": "not accepting supported",
+    "finding_identity_model_eligibility": "Team FAQ explicitly no new family-doctor patients at any location; rostered continuous care explained.",
+    "correction_or_limit": "Retain not_accepting. Andrew/Joseph move not rechecked in this intake pass; specialty exceptions not implied closed.",
+    "sources": [
+      "https://family-medicine.ca/patient-resources/frequently-asked-questions/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c062",
+    "name": "Byron Family Medical Centre",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "not_accepting",
+    "observed_status": "not accepting supported",
+    "finding_identity_model_eligibility": "Byron explicitly not accepting/not walk-in/registered patients only. Page includes Nov11,2026 closure notice,not date of intake statement.",
+    "correction_or_limit": "Retain not_accepting; temporary holiday closure is not practice closure.",
+    "sources": [
+      "https://www.bfmc.ca/home"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c063",
+    "name": "Forest City FHO \u2014 Central Avenue",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained",
+    "finding_identity_model_eligibility": "Current FHT page450Central SuiteLL99 supports family-practice patients of Mawhinney/Arora,doctor phone519-672-3020 separate from allied FHT number. No intake notice.",
+    "correction_or_limit": "Retain unknown. Consider replacing generic FHT contact with clearly labeled doctor route; no address geocode changes.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/forest-city-family-health-organization/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c064",
+    "name": "Health Zone Nurse Practitioner-Led Clinic",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "waitlist",
+    "observed_status": "waitlist supported",
+    "finding_identity_model_eligibility": "London/surrounding residents without access to primary-care provider considered; waitlist then additional info then NP suitability assessment,may take months,no guarantee,no follow-up calls.",
+    "correction_or_limit": "Retain waitlist. Ocean endpoint not substantively inspected.",
+    "sources": [
+      "https://healthzonenplc.com/contact-us/new-patient-wait-list"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c065",
+    "name": "London FHT \u2014 Medway",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "not_accepting",
+    "observed_status": "not accepting supported, attribution correction",
+    "finding_identity_model_eligibility": "Physician directory identifies Debbie Norrie at Medway but has NO accepting text. FAQ excludes physicians other than Hassani and no waitlist; Aug26 announcement does not name Medway.",
+    "correction_or_limit": "Keep not_accepting; change intake evidence/source attribution to FAQ rather than physician directory.",
+    "sources": [
+      "https://londonfht.ca/family-physicians/",
+      "https://londonfht.ca/frequently-asked-questions/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c066",
+    "name": "Oxford Medical Group",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained",
+    "finding_identity_model_eligibility": "Oxford Medical Group312OxfordW confirmed. Direct doctor/NP phone519-432-6786,allied professions different number. No intake notice.",
+    "correction_or_limit": "Retain unknown; NP regional intake does not establish individual office availability.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/chelsey-park-medical-centre/"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c067",
+    "name": "Prisma Health Care Collaborative \u2014 Grow Family Health",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "limited",
+    "observed_status": "restricted referral / historical wait supported",
+    "finding_identity_model_eligibility": "Forproviders continues referrals for postpartum dyads/family,infant feeding,and general primary care families with children<=5; physician/midwife/NP referral per person; wraparound services curtailed. Grow homepage(updatedNov2025),not registration page,says formerGROW/Sivasekaram patients afterJan1,2026 join waitlist.",
+    "correction_or_limit": "Retain limited and dated waitlist; correct source to /growfamilyhealth. Do not imply current general open roster or insured-care fee.",
+    "sources": [
+      "https://www.prismahcc.ca/forproviders",
+      "https://www.prismahcc.ca/growfamilyhealth",
+      "https://www.prismahcc.ca/growfamilyhealth/register"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c068",
+    "name": "St. Joseph\u2019s Family Medical Centre",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained",
+    "finding_identity_model_eligibility": "FHT confirms346PlattsLane; hospital describes ongoing supportive family medical care. No intake notice in inspected pages.",
+    "correction_or_limit": "Retain unknown.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/oxford-st-josephs-family-health-organization/",
+      "https://www.sjhc.london.on.ca/areas-of-care/family-medical-and-dental-centre"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c069",
+    "name": "Victoria Family Medical Centre",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "unknown",
+    "observed_status": "unknown intake retained, attribution correction",
+    "finding_identity_model_eligibility": "FHT confirms Victoria60Chesley; LHSC confirms direct519-433-8424. No intake statement in these pages.",
+    "correction_or_limit": "Retain unknown. Existing online_review wrongly cites StJoseph hospital pages: replace with actual Victoria/LHSC sources.",
+    "sources": [
+      "https://thamesvalleyfht.ca/locations/victoria-family-health-centre-london-health-sciences-centre/",
+      "https://www.lhsc.on.ca/patients-visitors/victoria-family-medical-centre"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c070",
+    "name": "West London Family Health Centre",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "not_accepting",
+    "observed_status": "not accepting supported",
+    "finding_identity_model_eligibility": "Clinic FAQ explicitly not accepting,all services booked,no walk-ins. Family physician ongoing/urgent distinction.",
+    "correction_or_limit": "Retain not_accepting.",
+    "sources": [
+      "https://www.westlondonfhc.com/faqs"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  },
+  {
+    "id": "c071",
+    "name": "Westmount Family Physicians",
+    "reviewed_on": "2026-11-18",
+    "existing_status": "not_accepting",
+    "observed_status": "not accepting supported",
+    "finding_identity_model_eligibility": "Clinic FAQ explicitly not accepting; after-hours not substitute for complex continuing family care.",
+    "correction_or_limit": "Retain not_accepting.",
+    "sources": [
+      "https://www.westmountfamilyphysicians.ca/faq"
+    ],
+    "access": "original_source_readable",
+    "source_date": "Undated unless date explicitly stated in finding; retrieval date is not publication date.",
+    "telephone_confirmed": false
+  }
+]

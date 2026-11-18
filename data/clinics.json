@@ -1058,7 +1058,7 @@
       "address": "182 Pinebush Road, Suite 201",
       "clinic_type": "MD",
       "status": "waitlist",
-      "intake_detail": "Own practice website directs applicants to Add me to your New Patient Waiting List; Dr Hayek is listed among clinicians.",
+      "intake_detail": "The practice advertises a clinic-wide new-patient waiting list. Dr. Fares Hayek is listed among its clinicians, but the notice does not establish his individual availability or guarantee assignment. This review recovered indexed clinic text, not a functioning live application form.",
       "phone": "519-621-2424",
       "providers": "Dr Fares Hayek",
       "evidence_url": "https://www.coronationfamilyphysicians.ca/",
@@ -1078,7 +1078,7 @@
         "reviewed_on": "2026-11-11",
         "method": "public_webpage_review",
         "source_url": "https://www.coronationfamilyphysicians.ca/",
-        "finding": "Own practice website directs applicants to Add me to your New Patient Waiting List; Dr Hayek is listed among clinicians.",
+        "finding": "The practice advertises a clinic-wide new-patient waiting list. Dr. Fares Hayek is listed among its clinicians, but the notice does not establish his individual availability or guarantee assignment. This review recovered indexed clinic text, not a functioning live application form.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -1093,7 +1093,14 @@
       "longitude": -80.3118052,
       "coordinate_source": "https://www.openstreetmap.org/way/139636280",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "The clinic-wide family-physician waiting list remains advertised in indexed first-party text. The clinic lists Dr. Hayek among several physicians, but this does not verify his individual capacity or assignment. The live page could not be substantively read in this pass; current form operation was not verified.",
+        "sources": [
+          "https://www.coronationfamilyphysicians.ca/"
+        ]
+      }
     },
     {
       "id": "c022",
@@ -2301,6 +2308,14 @@
         "reviewed_on": "2026-11-12",
         "field": "phone",
         "finding": "Current intake instructions provide an email/waitlist route, not a practice phone. An older university mobile or hospital switchboard is not substituted."
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Dr. Qamar’s official profile invites email waitlist requests for a practice opening January 2027. Old South’s general new-patient page also lists her for primary care. These describe advance registration, not immediate clinical availability or guaranteed placement. Both pages were directly readable on this review.",
+        "sources": [
+          "https://www.oldsouthfho.ca/doctor-profile-1-5-1",
+          "https://www.oldsouthfho.ca/new-patients"
+        ]
       }
     },
     {
@@ -2527,8 +2542,8 @@
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Physician-name search finds current register address; no clinic-owned intake page located.",
+        "reviewed_on": "2026-11-18",
+        "finding": "Direct access to the register returned 403. Indexed official-register material dated September 12, 2026 corroborates a family-medicine specialty and office identity, not a new-patient opening or an independently verified current longitudinal patient panel. Intake remains unconfirmed; no closure or service change is inferred.",
         "sources": [
           "https://register.cpso.on.ca/physician-info/?cpsonum=75971"
         ]
@@ -2575,10 +2590,10 @@
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "CPSO register independently confirms Dr. Rioux's unit number, primary business address and telephone.",
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Search finds a historical planned March 2023 transfer of an existing roster with hoped-for expansion; this does not establish November 2026 intake.",
+        "reviewed_on": "2026-11-18",
+        "finding": "The physician-register material reviewed establishes a family-medicine specialty and office identity, not a new-patient opening or an independently verified current longitudinal patient panel. Intake remains unconfirmed. No closure or change of service is inferred from the limited source scope.",
         "sources": [
-          "https://pub-elgincounty.escribemeetings.com/filestream.ashx?DocumentId=165"
+          "https://register.cpso.on.ca/physician-info/?cpsonum=116967"
         ]
       },
       "uncertainty_reason": "no_current_statement",
@@ -2809,11 +2824,10 @@
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Exact city/name search finds Cambridge practice directories; similarly named accepting clinic is in Bowmanville and was excluded. No Cambridge clinic-owned intake notice found.",
+        "reviewed_on": "2026-11-18",
+        "finding": "The physician-register material reviewed establishes a family-medicine specialty and office identity, not a new-patient opening or an independently verified current longitudinal patient panel. Intake remains unconfirmed. No closure or change of service is inferred from the limited source scope.",
         "sources": [
-          "https://register.cpso.on.ca/physician-info/?cpsonum=91809",
-          "https://kingstmedicalcenter.ca/"
+          "https://register.cpso.on.ca/physician-info/?cpsonum=91809"
         ]
       },
       "uncertainty_reason": "no_current_statement",
@@ -3183,10 +3197,10 @@
       "address": "1205 Oxford Street West",
       "clinic_type": "FHT",
       "status": "not_accepting",
-      "intake_detail": "Physician directory lists Dr. Debbie Norrie at Medway and says physicians other than Dr. Hassani are not accepting; no waitlist. August intake announcement names Beaverbrook and Stoney Creek, not Medway.",
+      "intake_detail": "The LFHT FAQ says physicians other than the named Hassani/Haghighi intake route are not accepting new patients and do not have a waitlist. Medway is identified in the physician directory. A separate August 26, 2026 intake announcement names Beaverbrook and Stoney Creek, not Medway.",
       "phone": "519-657-0002",
       "providers": "Dr. Debbie Norrie",
-      "evidence_url": "https://londonfht.ca/family-physicians/",
+      "evidence_url": "https://londonfht.ca/frequently-asked-questions/",
       "clinic_url": "https://londonfht.ca/family-physicians/",
       "source_published": "",
       "last_reviewed": "2026-11-12",
@@ -3202,8 +3216,8 @@
         "scope": "named_clinician",
         "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
-        "source_url": "https://londonfht.ca/family-physicians/",
-        "finding": "Physician directory lists Dr. Debbie Norrie at Medway and says physicians other than Dr. Hassani are not accepting; no waitlist. August intake announcement names Beaverbrook and Stoney Creek, not Medway.",
+        "source_url": "https://londonfht.ca/frequently-asked-questions/",
+        "finding": "The LFHT FAQ says physicians other than the named Hassani/Haghighi intake route are not accepting new patients and do not have a waitlist. Medway is identified in the physician directory. A separate August 26, 2026 intake announcement names Beaverbrook and Stoney Creek, not Medway.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -3213,7 +3227,16 @@
       "address_verification_source": "https://londonfht.ca/our-locations/",
       "address_verified_on": "2026-11-11",
       "address_verification_scope": "Physical clinic street address from named organization or official health-system source; not intake verification",
-      "phone_note": "Direct physician office number from LFHT physician directory."
+      "phone_note": "Direct physician office number from LFHT physician directory.",
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "LFHT physician listings identify the Medway practice. The FAQ, not the physician directory, supplies the no-new-patient/no-waitlist statement for other physicians. The separate August 26 application announcement names Beaverbrook and Stoney Creek, not Medway.",
+        "sources": [
+          "https://londonfht.ca/family-physicians/",
+          "https://londonfht.ca/frequently-asked-questions/",
+          "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/"
+        ]
+      }
     },
     {
       "id": "c066",
@@ -3274,7 +3297,7 @@
       "address": "320 Adelaide Street South",
       "clinic_type": "FHT",
       "status": "limited",
-      "intake_detail": "Grow Family Health accepts clinician referrals for families with children aged 5 and under and postpartum/infant care. Registration page says former GROW/Dr. Sivasekaram patients applying after January 1, 2026 join a waitlist. Confirm eligibility and placement; broader support services are curtailed.",
+      "intake_detail": "Grow Family Health accepts clinician referrals for families with children aged 5 and under and postpartum/infant care. Its Grow homepage, updated November 2025, says former GROW/Dr. Sivasekaram patients applying after January 1, 2026 join a waitlist. Confirm current eligibility and placement; broader support services are curtailed.",
       "phone": "519-878-8621",
       "providers": "",
       "evidence_url": "https://www.prismahcc.ca/forproviders",
@@ -3283,7 +3306,7 @@
       "last_reviewed": "2026-11-11",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
-      "notes": "Referral is required for each family member. See https://www.prismahcc.ca/forproviders and https://www.prismahcc.ca/growfamilyhealth/register .",
+      "notes": "Referral is required for each family member. Provider pathways: https://www.prismahcc.ca/forproviders . Historical waitlist notice: https://www.prismahcc.ca/growfamilyhealth . Registration information: https://www.prismahcc.ca/growfamilyhealth/register .",
       "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
@@ -3294,7 +3317,7 @@
         "reviewed_on": "2026-11-11",
         "method": "public_webpage_review",
         "source_url": "https://www.prismahcc.ca/forproviders",
-        "finding": "Grow Family Health accepts clinician referrals for families with children aged 5 and under and postpartum/infant care. Registration page says former GROW/Dr. Sivasekaram patients applying after January 1, 2026 join a waitlist. Confirm eligibility and placement; broader support services are curtailed.",
+        "finding": "Grow Family Health accepts clinician referrals for families with children aged 5 and under and postpartum/infant care. Its Grow homepage, updated November 2025, says former GROW/Dr. Sivasekaram patients applying after January 1, 2026 join a waitlist. Confirm current eligibility and placement; broader support services are curtailed.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -3309,7 +3332,16 @@
       "longitude": -81.2156151,
       "coordinate_source": "https://www.openstreetmap.org/node/2015444813",
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
-      "coordinate_reviewed_on": "2026-11-12"
+      "coordinate_reviewed_on": "2026-11-12",
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "The provider page describes restricted referral pathways for postpartum/infant care and families with children aged five and under. The Grow homepage, marked updated November 2025, supplies the January 1, 2026 cutoff and subsequent waitlist statement; it is not a newly dated capacity notice.",
+        "sources": [
+          "https://www.prismahcc.ca/forproviders",
+          "https://www.prismahcc.ca/growfamilyhealth",
+          "https://www.prismahcc.ca/growfamilyhealth/register"
+        ]
+      }
     },
     {
       "id": "c068",
@@ -3409,11 +3441,11 @@
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Hospital family-medicine information directs unattached patients toward regional resources; no office-specific intake established. Hospital corporate addresses should not replace the clinic location.",
+        "reviewed_on": "2026-11-18",
+        "finding": "Victoria Family Medical Centre is corroborated by its TVFHT location page and LHSC page at 60 Chesley Avenue; LHSC gives 519-433-8424. These sources do not establish a current new-patient opening. Earlier St. Joseph’s links were not the correct evidence for this office.",
         "sources": [
-          "https://www.sjhc.london.on.ca/family-medicine",
-          "https://www.sjhc.london.on.ca/areas-of-care/family-medical-and-dental-centre"
+          "https://thamesvalleyfht.ca/locations/victoria-family-health-centre-london-health-sciences-centre/",
+          "https://www.lhsc.on.ca/patients-visitors/victoria-family-medical-centre"
         ]
       },
       "uncertainty_reason": "no_current_statement",
@@ -5184,7 +5216,7 @@
       "intake_reviewed_by_phone": false,
       "status": "unknown",
       "evidence_url": "https://www.pccfht.ca/contacts/",
-      "intake_detail": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment. Separate Primary Care Access Clinic offers pre-booked non-emergency care for unattached people who live or work in Brantford, Brant or Norfolk; call 519-442-9834. This does not establish permanent enrolment in the family practice.",
+      "intake_detail": "Primary-care offices are confirmed, but current permanent attachment intake is not published. A separate, appointment-based Primary Care Access Clinic serves unattached people who live or work in Brantford, Brant or Norfolk; call 519-442-9834. Access-clinic care does not guarantee enrolment in the family practice.",
       "last_reviewed": "2026-11-12",
       "review_basis": "Individual public-source review; no telephone confirmation or guaranteed attachment.",
       "auto_updates_enabled": false,
@@ -5194,7 +5226,7 @@
         "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
         "source_url": "https://www.pccfht.ca/contacts/",
-        "finding": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment.",
+        "finding": "Primary-care offices are confirmed, but current permanent attachment intake is not published. A separate, appointment-based Primary Care Access Clinic serves unattached people who live or work in Brantford, Brant or Norfolk; call 519-442-9834. Access-clinic care does not guarantee enrolment in the family practice.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -5204,8 +5236,8 @@
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment. Separate Primary Care Access Clinic offers pre-booked non-emergency care for unattached people who live or work in Brantford, Brant or Norfolk; call 519-442-9834. This does not establish permanent enrolment in the family practice.",
+        "reviewed_on": "2026-11-18",
+        "finding": "Primary-care offices are confirmed, but current permanent attachment intake is not published. A separate, appointment-based Primary Care Access Clinic serves unattached people who live or work in Brantford, Brant or Norfolk; call 519-442-9834. Access-clinic care does not guarantee enrolment in the family practice.",
         "sources": [
           "https://www.pccfht.ca/primary-care-access-clinic/",
           "https://www.pccfht.ca/contacts/"
@@ -6123,7 +6155,7 @@
       "clinic_url": "",
       "source_published": "",
       "last_reviewed": "2026-11-12",
-      "intake_detail": "211 lists this registered-patient family practice as not accepting, but provides no current dated clinic notice. Current intake requires confirmation.",
+      "intake_detail": "The 211 listing, marked updated November 13, 2026, reports that this practice serves registered patients and is not accepting new patients. This is a regional-directory report, not a current clinic-issued notice; individual intake remains unconfirmed.",
       "clinic_address_verified": true,
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=111139",
       "address_verified_on": "2026-11-12",
@@ -6142,7 +6174,7 @@
         "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
         "source_url": "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/",
-        "finding": "211 lists this registered-patient family practice as not accepting, but provides no current dated clinic notice. Current intake requires confirmation.",
+        "finding": "The 211 listing, marked updated November 13, 2026, reports that this practice serves registered patients and is not accepting new patients. This is a regional-directory report, not a current clinic-issued notice; individual intake remains unconfirmed.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -6152,8 +6184,8 @@
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Search found 211 registered-patient listing and commercial pages, not a clinic-owned intake announcement.",
+        "reviewed_on": "2026-11-18",
+        "finding": "The 211 listing, marked updated November 13, 2026, reports that this practice serves registered patients and is not accepting new patients. This is a regional-directory report, not a current clinic-issued notice; individual intake remains unconfirmed.",
         "sources": [
           "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/"
         ]
@@ -6710,11 +6742,10 @@
         "enrolment_guaranteed": false
       },
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+        "reviewed_on": "2026-11-18",
+        "finding": "The register source reviewed in this pass corroborates Dr. Rosaria Domenicone’s family-medicine office at 959 Dundas Street, Suite 201, and 519-539-5621. It does not independently reconfirm the second named practitioner, Kocsis. No new-patient opening or waitlist was established.",
         "sources": [
-          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
-          "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+          "https://register.cpso.on.ca/physician-info/?cpsonum=62101"
         ]
       },
       "uncertainty_reason": "no_current_statement",
@@ -6957,8 +6988,8 @@
         "enrolment_guaranteed": false
       },
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Name and clinic search found CPSO current office and secondary directory, not a clinic-owned intake announcement.",
+        "reviewed_on": "2026-11-18",
+        "finding": "Current direct access to the physician-register page was blocked. An indexed official-register snapshot dated September 30, 2026 corroborates Dr. Muhammad Amin at 925 Wonderland Road South, Unit B, and 226-663-3334. This is not fresh intake evidence; current applications remain unconfirmed.",
         "sources": [
           "https://register.cpso.on.ca/physician-info/?cpsonum=96373"
         ]
@@ -7215,11 +7246,11 @@
       "care_model_source": "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
       "clinic_url": "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
       "evidence_url": "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
-      "intake_detail": "Practice identified in the completeness review. Current new-patient applications or waitlist availability not established from reviewed public sources.",
+      "intake_detail": "Current new-patient applications or waitlist availability are unconfirmed. Office-unit information also needs confirmation: older sources disagree between Unit 116A and Suite 208 at 230 Victoria Street. Call 519-640-9954 to confirm the practice and unit before visiting; no relocation or closure is established.",
       "source_published": "",
       "last_reviewed": "2026-11-12",
       "review_basis": "Clinic or FHO-owned page identifies this family-medicine office; no current new-patient intake notice established.",
-      "clinic_address_verified": true,
+      "clinic_address_verified": false,
       "address_verification_source": "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published clinical business address; not private corporate mailing address.",
@@ -7235,16 +7266,17 @@
         "reviewed_on": "2026-11-12",
         "method": "public_webpage_review",
         "source_url": "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
-        "finding": "Office identified; no current intake claim established.",
+        "finding": "Current new-patient applications or waitlist availability are unconfirmed. Office-unit information also needs confirmation: older sources disagree between Unit 116A and Suite 208 at 230 Victoria Street. Call 519-640-9954 to confirm the practice and unit before visiting; no relocation or closure is established.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Name search and Healthline confirm office and registered-patient services, without current new-patient intake.",
+        "reviewed_on": "2026-11-18",
+        "finding": "The Healthline page could not be freshly retrieved. Its indexed listing, last fully updated September 16, 2025, gives 230 Victoria Street, Unit 116A; an older cached CPSO page gives Suite 208 at the same street address. The current TVFHT Forest City page does not name Dr. Malu. Confirm the office and unit at 519-640-9954 before visiting. This conflict does not establish relocation or closure, and intake remains unknown.",
         "sources": [
-          "https://southwesthealthline.ca/displayService.aspx?id=132247",
-          "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+          "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
+          "https://thamesvalleyfht.ca/locations/forest-city-family-health-organization/",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=113661"
         ]
       },
       "uncertainty_reason": "no_current_statement",
@@ -8666,13 +8698,11 @@
       },
       "community_distance_km": 39,
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Healthline lists family medical care and 226-336-7512. Dr. Ezepue has a separate CPSO-listed line, 519-207-6601. Pain-clinic and pharmacy services at this address are separate; neither appointment booking nor a pharmacy review confirms family-practice intake.",
+        "reviewed_on": "2026-11-18",
+        "finding": "The stored Healthline source could not be freshly read: direct and web retrieval failed, and its official French edition timed out. Earlier evidence distinguishes family practice from pain-clinic and pharmacy services, but this pass did not reconfirm the current listing or any new-patient availability. Keep intake unconfirmed; source failure does not mean closure.",
         "sources": [
           "https://southwesthealthline.ca/displayService.aspx?id=224103",
-          "https://register.cpso.on.ca/physician-info/?cpsonum=122773",
-          "https://register.cpso.on.ca/physician-info/?cpsonum=116164",
-          "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg"
+          "https://www.lignesantesud-ouest.ca/displayService.aspx?id=224103"
         ]
       },
       "uncertainty_reason": "no_current_statement",

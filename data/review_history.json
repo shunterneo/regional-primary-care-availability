@@ -3003,5 +3003,404 @@
     "source": "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/",
     "type": "application_scope_clarification",
     "reviewer_note": "Named Hassani/Haghighi application remains documented, but it is not the only published LFHT application pathway: a separate August 26 announcement names Beaverbrook and Stoney Creek for availability-dependent applications. Preserve the named-form eligibility and reception discrepancy; broad announcement is not proof every clinician accepts. General location-page conflict remains relevant."
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c021",
+    "clinic_name": "Coronation Family Physicians — Dr. Fares Hayek",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "type": "full_directory_source_audit",
+    "source": "https://www.coronationfamilyphysicians.ca/",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review",
+      "intake_detail",
+      "intake_verification"
+    ],
+    "prior_values": {
+      "online_review": null,
+      "intake_detail": "Own practice website directs applicants to Add me to your New Patient Waiting List; Dr Hayek is listed among clinicians.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.coronationfamilyphysicians.ca/",
+        "finding": "Own practice website directs applicants to Add me to your New Patient Waiting List; Dr Hayek is listed among clinicians.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c047",
+    "clinic_name": "Old South FHO — Dr. Zarmeen Qamar",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "type": "full_directory_source_audit",
+    "source": "https://www.oldsouthfho.ca/doctor-profile-1-5-1",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review"
+    ],
+    "prior_values": {
+      "online_review": null
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c052",
+    "clinic_name": "Dr. Edward Vivoda — Family Medicine",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "full_directory_source_audit",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=75971",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Physician-name search finds current register address; no clinic-owned intake page located.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=75971"
+        ]
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c053",
+    "clinic_name": "Dr. Steven Rioux — Family Medicine",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "full_directory_source_audit",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=116967",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Search finds a historical planned March 2023 transfer of an existing roster with hoped-for expansion; this does not establish November 2026 intake.",
+        "sources": [
+          "https://pub-elgincounty.escribemeetings.com/filestream.ashx?DocumentId=165"
+        ]
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c057",
+    "clinic_name": "King Street Medical Centre",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "full_directory_source_audit",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=91809",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Exact city/name search finds Cambridge practice directories; similarly named accepting clinic is in Bowmanville and was excluded. No Cambridge clinic-owned intake notice found.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=91809",
+          "https://kingstmedicalcenter.ca/"
+        ]
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c065",
+    "clinic_name": "London FHT — Medway",
+    "old_status": "not_accepting",
+    "new_status": "not_accepting",
+    "type": "full_directory_source_audit",
+    "source": "https://londonfht.ca/frequently-asked-questions/",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review",
+      "intake_detail",
+      "evidence_url",
+      "intake_verification"
+    ],
+    "prior_values": {
+      "online_review": null,
+      "intake_detail": "Physician directory lists Dr. Debbie Norrie at Medway and says physicians other than Dr. Hassani are not accepting; no waitlist. August intake announcement names Beaverbrook and Stoney Creek, not Medway.",
+      "evidence_url": "https://londonfht.ca/family-physicians/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://londonfht.ca/family-physicians/",
+        "finding": "Physician directory lists Dr. Debbie Norrie at Medway and says physicians other than Dr. Hassani are not accepting; no waitlist. August intake announcement names Beaverbrook and Stoney Creek, not Medway.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c067",
+    "clinic_name": "Prisma Health Care Collaborative — Grow Family Health",
+    "old_status": "limited",
+    "new_status": "limited",
+    "type": "full_directory_source_audit",
+    "source": "https://www.prismahcc.ca/forproviders",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review",
+      "intake_detail",
+      "notes",
+      "intake_verification"
+    ],
+    "prior_values": {
+      "online_review": null,
+      "intake_detail": "Grow Family Health accepts clinician referrals for families with children aged 5 and under and postpartum/infant care. Registration page says former GROW/Dr. Sivasekaram patients applying after January 1, 2026 join a waitlist. Confirm eligibility and placement; broader support services are curtailed.",
+      "notes": "Referral is required for each family member. See https://www.prismahcc.ca/forproviders and https://www.prismahcc.ca/growfamilyhealth/register .",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "program",
+        "reviewed_on": "2026-11-11",
+        "method": "public_webpage_review",
+        "source_url": "https://www.prismahcc.ca/forproviders",
+        "finding": "Grow Family Health accepts clinician referrals for families with children aged 5 and under and postpartum/infant care. Registration page says former GROW/Dr. Sivasekaram patients applying after January 1, 2026 join a waitlist. Confirm eligibility and placement; broader support services are curtailed.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c069",
+    "clinic_name": "Victoria Family Medical Centre",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "full_directory_source_audit",
+    "source": "https://thamesvalleyfht.ca/locations/victoria-family-health-centre-london-health-sciences-centre/",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Hospital family-medicine information directs unattached patients toward regional resources; no office-specific intake established. Hospital corporate addresses should not replace the clinic location.",
+        "sources": [
+          "https://www.sjhc.london.on.ca/family-medicine",
+          "https://www.sjhc.london.on.ca/areas-of-care/family-medical-and-dental-centre"
+        ]
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c106",
+    "clinic_name": "PrimaCare Community FHT — Paris",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "full_directory_source_audit",
+    "source": "https://www.pccfht.ca/contacts/",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review",
+      "intake_detail",
+      "intake_verification"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment. Separate Primary Care Access Clinic offers pre-booked non-emergency care for unattached people who live or work in Brantford, Brant or Norfolk; call 519-442-9834. This does not establish permanent enrolment in the family practice.",
+        "sources": [
+          "https://www.pccfht.ca/primary-care-access-clinic/",
+          "https://www.pccfht.ca/contacts/"
+        ]
+      },
+      "intake_detail": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment. Separate Primary Care Access Clinic offers pre-booked non-emergency care for unattached people who live or work in Brantford, Brant or Norfolk; call 519-442-9834. This does not establish permanent enrolment in the family practice.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://www.pccfht.ca/contacts/",
+        "finding": "Primary-care offices confirmed; current attachment intake is not published. A separate appointment-based access clinic serves unattached people living or working in Brantford, Brant or Norfolk; it does not guarantee attachment.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c125",
+    "clinic_name": "Port Dover Family Health",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "full_directory_source_audit",
+    "source": "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review",
+      "intake_detail",
+      "intake_verification"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Search found 211 registered-patient listing and commercial pages, not a clinic-owned intake announcement.",
+        "sources": [
+          "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/"
+        ]
+      },
+      "intake_detail": "211 lists this registered-patient family practice as not accepting, but provides no current dated clinic notice. Current intake requires confirmation.",
+      "intake_verification": {
+        "tier": "third_party",
+        "scope": "named_clinician",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://211ontario.ca/service/79833710/port-dover-family-health-family-health-services/",
+        "finding": "211 lists this registered-patient family practice as not accepting, but provides no current dated clinic notice. Current intake requires confirmation.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c136",
+    "clinic_name": "Drs. Domenicone & Kocsis — Family Medicine",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "full_directory_source_audit",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=62101",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Individual physician-name searches and official TVFHT physician directory reviewed. Office contact information found, but no current physician-specific intake announcement. Regional NP attachment does not establish these physician rosters are open.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/woodstock-medical-clinic-site-1/",
+          "https://directory.oxfordcounty.ca/home/view/woodstock-medical-family-health-team"
+        ]
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c141",
+    "clinic_name": "Advanced Western Medical Clinic — Dr. Muhammad Amin",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "full_directory_source_audit",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=96373",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Name and clinic search found CPSO current office and secondary directory, not a clinic-owned intake announcement.",
+        "sources": [
+          "https://register.cpso.on.ca/physician-info/?cpsonum=96373"
+        ]
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c147",
+    "clinic_name": "Forest City FHO — Dr. Doosuur Malu",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "full_directory_source_audit",
+    "source": "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review",
+      "intake_detail",
+      "clinic_address_verified",
+      "intake_verification"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Name search and Healthline confirm office and registered-patient services, without current new-patient intake.",
+        "sources": [
+          "https://southwesthealthline.ca/displayService.aspx?id=132247",
+          "https://fm.schulich.uwo.ca/WebAPI/practiceprofile/PracticeProfileIndex/"
+        ]
+      },
+      "intake_detail": "Practice identified in the completeness review. Current new-patient applications or waitlist availability not established from reviewed public sources.",
+      "clinic_address_verified": true,
+      "intake_verification": {
+        "tier": "unverified",
+        "scope": "location",
+        "reviewed_on": "2026-11-12",
+        "method": "public_webpage_review",
+        "source_url": "https://www.southwesthealthline.ca/displayService.aspx?id=132247",
+        "finding": "Office identified; no current intake claim established.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c176",
+    "clinic_name": "PrimePoint Medical Clinic — Family Practice",
+    "old_status": "unknown",
+    "new_status": "unknown",
+    "type": "full_directory_source_audit",
+    "source": "https://southwesthealthline.ca/displayService.aspx?id=224103",
+    "reviewer_note": "Corrected public-source attribution, scope or uncertainty following independent directory review. No intake-status upgrade, outreach or fresh capacity confirmation.",
+    "changed_fields": [
+      "online_review"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-12",
+        "finding": "Healthline lists family medical care and 226-336-7512. Dr. Ezepue has a separate CPSO-listed line, 519-207-6601. Pain-clinic and pharmacy services at this address are separate; neither appointment booking nor a pharmacy review confirms family-practice intake.",
+        "sources": [
+          "https://southwesthealthline.ca/displayService.aspx?id=224103",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=122773",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=116164",
+          "https://fm.schulich.uwo.ca/webapi/practiceprofile/getpracticeprofilelocationdetails/39/pg"
+        ]
+      }
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "clinic_id": "c047",
+    "clinic_name": "Old South FHO — Dr. Zarmeen Qamar",
+    "old_status": "waitlist",
+    "new_status": "waitlist",
+    "type": "full_directory_source_audit",
+    "source": "https://www.oldsouthfho.ca/doctor-profile-1-5-1",
+    "reviewer_note": "Reconciled general acceptance wording against named clinician January2027 advance-waitlist notice; no intake-status change.",
+    "changed_fields": [
+      "online_review"
+    ],
+    "prior_values": {
+      "online_review": {
+        "reviewed_on": "2026-11-18",
+        "finding": "Dr. Qamar’s official profile invites email waitlist requests for a practice opening January 2027. Old South’s general new-patient page also lists her for primary care. These describe advance registration, not immediate clinical availability or guaranteed placement. Both pages were directly readable on this review.",
+        "sources": [
+          "https://www.oldsouthfho.ca/doctor-profile-1-5-1",
+          "https://www.oldsouthfho.ca/new-patients"
+        ]
+      }
+    }
   }
 ]
