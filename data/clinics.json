@@ -8,7 +8,7 @@
     "coordinate_source": "https://www.openstreetmap.org/way/564144865",
     "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit"
   },
-  "data_as_of": "2026-11-18",
+  "data_as_of": "2026-11-19",
   "clinics": [
     {
       "id": "c001",
@@ -11620,6 +11620,69 @@
         ]
       },
       "phone_note": "Dr. Kanwar: 226-663-3081; Dr. Cosma: 548-866-0351. Shared Unit 202, separate physician contacts."
+    },
+    {
+      "id": "c236",
+      "name": "Medicare Pharmacy and Medical Center — Kitchener",
+      "community": "Kitchener",
+      "address": "720 Westmount Road East, Unit 4, Kitchener, ON N2E 1J2",
+      "clinic_type": "MD",
+      "status": "unknown",
+      "intake_detail": "The clinic-owned site advertises Drs. Imran Malik, Elizabeth Araoye, Kenneth Ikwuazom, and Clement Ogbuakanne as accepting family-practice appointments, and offers online family-practice appointment booking or phone 519-900-8950. The same website also advertises walk-in visits. An appointment or a generic 'accepting new patients' label does not establish ongoing family-physician rostering; ask directly whether one of the named doctors can enrol you for continuing care. No confirmed attachment intake or eligibility criteria. Registered patient capacity and timing are unconfirmed.",
+      "phone": "519-900-8950",
+      "providers": "Dr. Imran Malik; Dr. Elizabeth Araoye; Dr. Kenneth Ikwuazom; Dr. Clement Ogbuakanne (currently advertised by clinic; current clinician-specific roster status unconfirmed)",
+      "evidence_url": "https://medicareclinicandpharmacy.com/booking/",
+      "clinic_url": "https://medicareclinicandpharmacy.com/",
+      "application_url": "https://medicareclinicandpharmacy.com/booking/",
+      "source_published": "",
+      "last_reviewed": "2026-11-19",
+      "intake_reviewed_on": "2026-11-19",
+      "care_model": "both",
+      "care_model_basis": "Current clinic-owned homepage promotes both family medicine continuity and separate episodic walk-in/same-day visits. Ongoing roster attachment is not explicitly established by new patient appointments.",
+      "care_model_source": "https://medicareclinicandpharmacy.com/",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-19",
+        "method": "public_webpage_review",
+        "source_url": "https://medicareclinicandpharmacy.com/booking/",
+        "finding": "Clinic advertises family-practice appointments for four doctors, but does not expressly confirm enrolment into ongoing physician rosters or distinguish booking from attachment. Kept unknown rather than accepting despite new-patient marketing.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "notes": "Official clinic site uses N2E 1J2; same-civic-address plaza/business references use N2E 2M6. Confirm postal code if mailing and confirm physician-specific attachment with clinic. Older /our-doctors/ pages list a different physician roster, so the live homepage and booking page were preferred; no clinician acceptance inferred beyond advertised appointments. Public plaza coordinate, not an individual clinic unit or entrance.",
+      "review_basis": "First-party clinic homepage, booking, about, and contact pages inspected 2026-11-19. Independent Wholehealth Pharmacy listing and same-civic commercial listing confirm 720 Westmount Road East. Family-practice appointments are not evidence of rostering. No patients contacted or information supplied.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://medicareclinicandpharmacy.com/contact-us/",
+      "address_verified_on": "2026-11-19",
+      "address_verification_scope": "Clinic-owned current contact page confirms Unit 4 and civic address; commercial plaza reference provides address-matched coordinate. Conflicting postal code documented.",
+      "latitude": 43.4186286,
+      "longitude": -80.5003774,
+      "coordinate_source": "https://opengovca.com/place/ChIJF-nL06D1K4gRPZNG17d7it8",
+      "coordinate_quality": "Public nearby commercial business at identical 720 Westmount Road East plaza, not an individual clinic entrance; 64.10 km straight-line from Tillsonburg reference point.",
+      "coordinate_reviewed_on": "2026-11-19",
+      "community_distance_km": 64.1,
+      "location_quality": "Public same-address retail plaza coordinate; not a surveyed clinic suite. Street and unit verified on clinic website.",
+      "confidence": "High for active physical family-practice + walk-in services and appointment route; unverified for physician roster acceptance; postal code and older clinician page conflict.",
+      "audit_scope": "Public-source evidence only; no phone contact, no patient records; location within 75 km by same-civic public point.",
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-19",
+        "finding": "Clinic first-party site explicitly calls the location a walk-in clinic and advertises same-day medical visits. Walk-in availability does not imply ongoing attachment.",
+        "sources": [
+          "https://medicareclinicandpharmacy.com/",
+          "https://medicareclinicandpharmacy.com/booking/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-19",
+        "finding": "Family-practice appointments advertised for four physicians and continuity described. Specific rostering and eligibility not confirmed. New-patient marketing does not establish attachment.",
+        "sources": [
+          "https://medicareclinicandpharmacy.com/",
+          "https://medicareclinicandpharmacy.com/booking/"
+        ]
+      },
+      "auto_updates_enabled": false
     }
   ]
 }
