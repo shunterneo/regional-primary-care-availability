@@ -3624,5 +3624,15 @@
     "reviewer_note": "First-party website documents mixed walk-in and family-practice appointments at 720 Westmount Road East Unit 4, Kitchener. Current homepage names four physicians; older /our-doctors list differs. New-patient appointment availability does NOT establish rostering. New location added only with attachment intake unknown; third-party same-civic retail point places address 64.10 km straight-line within radius. No patient data or phone calls.",
     "evidence_quote": "Dr. Imran Malik, Dr. Elizabeth, Dr. Kenneth & Dr. Clement are now accepting Family practice appointments.",
     "conflicts": "First-party clinic postal code N2E 1J2 versus other same-civic plaza sources N2E 2M6; older physician list differs."
+  },
+  {
+    "date": "2026-11-19",
+    "clinic_id": "c020",
+    "clinic_name": "Valleyview Medical Centre — Lynden",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "type": "operator_identity_conflict",
+    "source": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
+    "reviewer_note": "Two unrelated websites advertise same exact 175 Lynden Road Unit A5-A, with different names, numbers and clinic personnel. Public BCHS and 211 directories corroborate Valleyview and Dr. Tunde Omisore. Relationship with lyndenmedical.ca unverified. One physical location preserved, no new clinic or acceptance inferred from conflicting site. Intake label tied only to Valleyview's own documented family-practice registration, not alternate operator."
   }
 ]
