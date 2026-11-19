@@ -11738,6 +11738,122 @@
         ]
       },
       "auto_updates_enabled": false
+    },
+    {
+      "id": "c238",
+      "name": "Benton Medical Clinic",
+      "community": "Kitchener",
+      "address": "51 Benton Street",
+      "phone": "226-240-3014",
+      "providers": "",
+      "clinic_type": "Family physician practice and walk-in clinic",
+      "status": "accepting",
+      "care_model": "both",
+      "intake_detail": "The clinic advertises new patients for its family practice separately from walk-in care. Ask the front desk or call 226-240-3014 for family-practice registration. The online appointment portal is for existing patients, not enrolment. Provider capacity and placement are not guaranteed.",
+      "clinic_url": "https://bentonmedicalclinic.com/",
+      "evidence_url": "https://bentonmedicalclinic.com/",
+      "source_published": "",
+      "last_reviewed": "2026-11-19",
+      "intake_reviewed_on": "2026-11-19",
+      "review_basis": "Current public clinic webpages and CPSO practice location; online verification only, not a call or test submission.",
+      "care_model_basis": "First-party clinic page distinguishes ongoing family practice from walk-in visits.",
+      "care_model_source": "https://bentonmedicalclinic.com/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=267641",
+      "address_verified_on": "2026-11-19",
+      "address_verification_scope": "Provider register confirms a practice address, not patient intake.",
+      "latitude": 43.44764,
+      "longitude": -80.48851,
+      "coordinate_source": "https://mapcarta.com/W189631472",
+      "coordinate_quality": "Public building centre, not entrance.",
+      "coordinate_checked_on": "2026-11-19",
+      "location_quality": "Public building centre, not entrance. Straight-line check: about 67.5 km from the Tillsonburg origin.",
+      "auto_updates_enabled": false,
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-19",
+        "method": "public_webpage_review",
+        "source_url": "https://bentonmedicalclinic.com/",
+        "finding": "The clinic advertises new patients for its family practice separately from walk-in care. Ask the front desk or call 226-240-3014 for family-practice registration. The online appointment portal is for existing patients, not enrolment. Provider capacity and placement are not guaranteed.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-19",
+        "finding": "Walk-in visits are offered separately and do not enroll patients.",
+        "sources": [
+          "https://bentonmedicalclinic.com/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-19",
+        "finding": "The clinic advertises new patients for its family practice separately from walk-in care. Ask the front desk or call 226-240-3014 for family-practice registration. The online appointment portal is for existing patients, not enrolment. Provider capacity and placement are not guaranteed.",
+        "sources": [
+          "https://bentonmedicalclinic.com/",
+          "https://bentonmedicalclinic.com/book-online/"
+        ]
+      }
+    },
+    {
+      "id": "c239",
+      "name": "Waterloo St. Jacobs Urgent Care Clinic",
+      "community": "Waterloo",
+      "address": "820 King Street North, Unit 1",
+      "phone": "519-206-0211",
+      "providers": "Dr. Tolulope Ogunnowo; Dr. Sandra Uzuegbu",
+      "clinic_type": "Family physician practice and walk-in clinic",
+      "status": "accepting",
+      "care_model": "both",
+      "intake_detail": "The clinic advertises ongoing family medicine and names Dr. Tolulope Ogunnowo and Dr. Sandra Uzuegbu as accepting new patients. Use the separate family-practice intake page or call the clinic. Walk-in visits are not enrolment; submission does not guarantee placement.",
+      "clinic_url": "https://urgentcarewaterloo.ca/",
+      "evidence_url": "https://urgentcarewaterloo.ca/",
+      "application_url": "https://urgentcarewaterloo.ca/register/",
+      "source_published": "",
+      "last_reviewed": "2026-11-19",
+      "intake_reviewed_on": "2026-11-19",
+      "review_basis": "Current public clinic webpages and CPSO practice location; online verification only, not a call or test submission.",
+      "care_model_basis": "First-party clinic page distinguishes ongoing family practice from walk-in visits.",
+      "care_model_source": "https://urgentcarewaterloo.ca/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=154465",
+      "address_verified_on": "2026-11-19",
+      "address_verification_scope": "Provider register confirms a practice address, not patient intake.",
+      "latitude": 43.512613,
+      "longitude": -80.553401,
+      "coordinate_source": "https://ca.nextdoor.com/pages/cronin-verheul-heating-air-conditioning-ltd/",
+      "coordinate_quality": "Same-address business point; not clinic entrance.",
+      "coordinate_checked_on": "2026-11-19",
+      "location_quality": "Same-address business point; not clinic entrance. Straight-line check: about 73.3 km from the Tillsonburg origin.",
+      "auto_updates_enabled": false,
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-19",
+        "method": "public_webpage_review",
+        "source_url": "https://urgentcarewaterloo.ca/",
+        "finding": "The clinic advertises ongoing family medicine and names Dr. Tolulope Ogunnowo and Dr. Sandra Uzuegbu as accepting new patients. Use the separate family-practice intake page or call the clinic. Walk-in visits are not enrolment; submission does not guarantee placement.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-19",
+        "finding": "Walk-in visits are offered separately and do not enroll patients.",
+        "sources": [
+          "https://urgentcarewaterloo.ca/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-19",
+        "finding": "The clinic advertises ongoing family medicine and names Dr. Tolulope Ogunnowo and Dr. Sandra Uzuegbu as accepting new patients. Use the separate family-practice intake page or call the clinic. Walk-in visits are not enrolment; submission does not guarantee placement.",
+        "sources": [
+          "https://urgentcarewaterloo.ca/",
+          "https://urgentcarewaterloo.ca/services/",
+          "https://urgentcarewaterloo.ca/register/"
+        ]
+      }
     }
   ]
 }
