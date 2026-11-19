@@ -11854,6 +11854,65 @@
           "https://urgentcarewaterloo.ca/register/"
         ]
       }
+    },
+    {
+      "id": "c240",
+      "name": "WELL Health Medical Centres – Ancaster",
+      "community": "Ancaster",
+      "address": "1051 Garner Road West, inside Walmart, Ancaster, ON L9G 3K9",
+      "phone": "289-450-0321",
+      "providers": "",
+      "clinic_type": "Family physician practice and walk-in clinic",
+      "status": "waitlist",
+      "care_model": "both",
+      "intake_detail": "WELL lists this Ancaster location for family-doctor registration. On the clinic page, choose “Become a Patient,” not the separate walk-in booking button. WELL does not give a wait time or queue position. Registration is not a guarantee of enrolment or an immediate appointment.",
+      "clinic_url": "https://wellclinics.ca/ontario/ancaster/ancaster-whmc/",
+      "evidence_url": "https://wellclinics.ca/accepting-new-patients/ontario/",
+      "application_url": "https://wellclinics.ca/ontario/ancaster/ancaster-whmc/",
+      "source_published": "",
+      "last_reviewed": "2026-11-19",
+      "intake_reviewed_on": "2026-11-19",
+      "review_basis": "Location-specific entry on WELL’s Ontario family-doctor registration page and matching Become a Patient link on the branch page. The provider-linked Ocean form was not tested by submitting or entering information; wait time, placement and named clinician capacity are unknown.",
+      "care_model_basis": "WELL’s branch page lists primary care and separate walk-in services; its Ontario registration page explicitly lists this address for registration with a family doctor.",
+      "care_model_source": "https://wellclinics.ca/ontario/ancaster/ancaster-whmc/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.walmart.ca/en/store/3127",
+      "address_verified_on": "2026-11-19",
+      "address_verification_scope": "Branch and Walmart store directory corroborate the clinic at the store address; address only, not intake.",
+      "latitude": 43.198091,
+      "longitude": -80.014234,
+      "coordinate_source": "https://www.parkadvisor.com/ca/ontario/ancaster/321768/Walmart%2BAncaster%2BSupercentre%2B3127",
+      "coordinate_quality": "Address-matched Walmart building pin; not the clinic entrance.",
+      "coordinate_checked_on": "2026-11-19",
+      "location_quality": "Approximate building pin, about 68.4 km straight line from the Tillsonburg origin.",
+      "auto_updates_enabled": false,
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-19",
+        "method": "public_webpage_review",
+        "source_url": "https://wellclinics.ca/accepting-new-patients/ontario/",
+        "finding": "WELL lists this Ancaster location for family-doctor registration. On the clinic page, choose “Become a Patient,” not the separate walk-in booking button. WELL does not give a wait time or queue position. Registration is not a guarantee of enrolment or an immediate appointment.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-19",
+        "finding": "The branch advertises separate walk-in access; it is not family-practice enrolment.",
+        "sources": [
+          "https://wellclinics.ca/ontario/ancaster/ancaster-whmc/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-19",
+        "finding": "WELL lists this Ancaster location for family-doctor registration. On the clinic page, choose “Become a Patient,” not the separate walk-in booking button. WELL does not give a wait time or queue position. Registration is not a guarantee of enrolment or an immediate appointment.",
+        "sources": [
+          "https://wellclinics.ca/accepting-new-patients/ontario/",
+          "https://wellclinics.ca/ontario/ancaster/ancaster-whmc/",
+          "https://ocean.cognisantmd.com/intake/IntakePortal.html?eReqRef=a3f756d0-4dda-4c03-8b4b-c77db18154d7"
+        ]
+      }
     }
   ]
 }
