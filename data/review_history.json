@@ -3612,5 +3612,17 @@
     "new_status": "unknown",
     "source": "https://register.cpso.on.ca/physician-info/?cpsonum=113661",
     "reviewer_note": "Corrected evidence freshness: current live CPSO review gives Suite208, not merely an older cached record. Healthline September2025 Unit116A conflicts; no resolved office move or intake finding."
+  },
+  {
+    "date": "2026-11-19",
+    "clinic_id": "c236",
+    "clinic_name": "Medicare Pharmacy and Medical Center — Kitchener",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "type": "verified_new_practice_attachment_unconfirmed",
+    "source": "https://medicareclinicandpharmacy.com/booking/",
+    "reviewer_note": "First-party website documents mixed walk-in and family-practice appointments at 720 Westmount Road East Unit 4, Kitchener. Current homepage names four physicians; older /our-doctors list differs. New-patient appointment availability does NOT establish rostering. New location added only with attachment intake unknown; third-party same-civic retail point places address 64.10 km straight-line within radius. No patient data or phone calls.",
+    "evidence_quote": "Dr. Imran Malik, Dr. Elizabeth, Dr. Kenneth & Dr. Clement are now accepting Family practice appointments.",
+    "conflicts": "First-party clinic postal code N2E 1J2 versus other same-civic plaza sources N2E 2M6; older physician list differs."
   }
 ]
