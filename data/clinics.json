@@ -11693,6 +11693,51 @@
         ]
       },
       "auto_updates_enabled": false
+    },
+    {
+      "id": "c237",
+      "name": "Cambridge Medicare Clinic — Family Practice",
+      "community": "Cambridge",
+      "address": "1174 King Street East",
+      "clinic_type": "MD",
+      "status": "reported",
+      "intake_detail": "The on-site pharmacy says a family doctor at this address is accepting new patients. Its link opens the clinic's appointment portal, which includes a meet-and-greet option, not a dedicated enrolment form. Call the pharmacy at 519-219-8500 to confirm how to apply and which physician is taking patients. No placement guaranteed.",
+      "phone": "519-219-8500",
+      "phone_note": "Host pharmacy’s public number for confirming registration instructions, not a verified physician office line.",
+      "providers": "",
+      "evidence_url": "https://www.cambridgemedicalpharmacy.ca/visit",
+      "clinic_url": "https://app.avaros.ca/av/weblink/cambridge",
+      "source_published": "",
+      "last_reviewed": "2026-11-19",
+      "location_quality": "Community-level distance; public street address confirmed. No building coordinate asserted.",
+      "notes": "Public online review only. No telephone contact, personal information entry or test booking.",
+      "review_basis": "Host pharmacy intake notice plus browser review of the clinic's provider-linked appointment portal.",
+      "care_model": "ongoing",
+      "care_model_basis": "Host location explicitly advertises joining a family physician practice, separately from vaccine walk-ins.",
+      "care_model_source": "https://www.cambridgemedicalpharmacy.ca/visit",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://wwhealthline.ca/displayService.aspx?id=197039",
+      "address_verified_on": "2026-11-19",
+      "address_verification_scope": "Published street address corroborated; not entrance or map-point verification.",
+      "intake_verification": {
+        "tier": "authoritative_secondary",
+        "scope": "location",
+        "reviewed_on": "2026-11-19",
+        "method": "public_webpage_review",
+        "source_url": "https://www.cambridgemedicalpharmacy.ca/visit",
+        "finding": "The on-site pharmacy says a family doctor at this address is accepting new patients. Its link opens the clinic's appointment portal, which includes a meet-and-greet option, not a dedicated enrolment form. Call the pharmacy at 519-219-8500 to confirm how to apply and which physician is taking patients. No placement guaranteed.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-19",
+        "finding": "The on-site pharmacy says a family doctor at this address is accepting new patients. Its link opens the clinic's appointment portal, which includes a meet-and-greet option, not a dedicated enrolment form. Call the pharmacy at 519-219-8500 to confirm how to apply and which physician is taking patients. No placement guaranteed.",
+        "sources": [
+          "https://www.cambridgemedicalpharmacy.ca/visit",
+          "https://app.avaros.ca/av/weblink/cambridge"
+        ]
+      },
+      "auto_updates_enabled": false
     }
   ]
 }
