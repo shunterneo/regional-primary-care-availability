@@ -1009,7 +1009,7 @@
       "last_reviewed": "2026-11-11",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 48.1,
-      "notes": "",
+      "notes": "Source identity discrepancy (reviewed 2026-11-19): lyndenmedical.ca independently advertises a clinic at the exact same Unit A5-A but uses phone 905-595-6967 and names no doctors. Valleyview's own website, Brant Community Healthcare System and 211 identify Dr. Tunde Omisore / Valleyview at this unit, phone 519-398-7477. Relationship between names is unverified. Do not create a duplicate office or assume the alternate site is a separate practice. Confirm the operator by phone before visiting.",
       "review_basis": "Public clinic/program-specific application page reviewed November 11, 2026. NOT telephone-confirmed; registration is NOT guaranteed attachment.",
       "care_model": "both",
       "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
@@ -1048,6 +1048,16 @@
         "finding": "Official location page offers new family-practice registration requests and names Dr. Tunde Samuel Omisore. Ocean appointment booking is described for registered patients. A registration request does not guarantee enrolment.",
         "sources": [
           "https://valleyviewmedical.ca/locations/brantford-lynden-road"
+        ]
+      },
+      "operator_identity_review": {
+        "reviewed_on": "2026-11-19",
+        "status": "unresolved_conflicting_public_claims_same_unit",
+        "sources": [
+          "https://lyndenmedical.ca/",
+          "https://valleyviewmedical.ca/locations/brantford-lynden-road",
+          "https://www.bchsys.org/patients-and-visitors/finding-a-doctor/",
+          "https://211ontario.ca/service/97799476/agency/valleyview-medical-centre-brantford-walk-in-and-family-medicine-clinic/"
         ]
       }
     },
