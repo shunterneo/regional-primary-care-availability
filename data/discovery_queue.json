@@ -174,6 +174,18 @@
         "https://lnkd.in/gbgE7ENw",
         "https://form.jotform.com/262283813217254"
       ]
+    },
+    {
+      "id": "waterloo-family-care-future-20261119",
+      "detected_at": "2026-11-19T13:11:49+00:00",
+      "title": "Waterloo & K-W Walk-In Clinic announces future family-care registration",
+      "news_link": "https://www.waterlooclinic.com/family-doctor/",
+      "source_type": "official_clinic_future_service",
+      "proposed_action": "Verify which physical office will provide ongoing family physician service. Current walk-in clinics are 170 University Ave W Unit 13 Waterloo and 100 The Boardwalk Kitchener; no documented future clinic assignment. Do not publish as current family physician intake.",
+      "within_75km": "not individually checked",
+      "current_intake": "family care registration open for future service; not current clinician attachment",
+      "review_status": "pending",
+      "note": "Unverified office-specific future enrollment; do not treat walk-in visits as attachment."
     }
   ]
 }
