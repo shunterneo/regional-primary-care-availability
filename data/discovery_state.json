@@ -10,20 +10,24 @@
     "e8bc06968d802950": "2026-11-12T20:51:42+00:00",
     "5ebc6bc3d748fc97": "2026-11-14T18:45:12+00:00"
   },
-  "last_run": "2026-11-19T21:37:07+00:00",
+  "last_run": "2026-11-20T21:06:52+00:00",
   "last_summary": {
     "queries_attempted": 20,
-    "queries_failed": 1,
-    "feed_items_seen": 4,
+    "queries_failed": 2,
+    "feed_items_seen": 11,
     "new_leads_queued": 0,
     "duplicates_skipped": 0,
-    "headlines_filtered": 4,
+    "headlines_filtered": 11,
     "errors": [
       {
-        "query": "site:oxfordcounty.ca family physician opening",
-        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aoxfordcounty.ca+family+physician+opening+when%3A7d&"
+        "query": "London Ontario family practice accepting new patients",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=London+Ontario+family+practice+accepting+new+patients+when"
+      },
+      {
+        "query": "Kitchener Waterloo Ontario nurse practitioner family doctor roster",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Kitchener+Waterloo+Ontario+nurse+practitioner+family+docto"
       }
     ]
   },
-  "next_query_index": 37
+  "next_query_index": 16
 }
