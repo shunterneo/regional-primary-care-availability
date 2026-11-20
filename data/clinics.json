@@ -12041,7 +12041,7 @@
       "address": "385 Frederick Street, Suite 16, Kitchener, ON N2H 2P2",
       "clinic_type": "MD",
       "phone": "519-745-7482",
-      "providers": "Four family physicians (names available through first-party physician page; individual roster statuses not separately assessed)",
+      "providers": "Dr. Sabine Pfeifer; Dr. Melanie Quartermain; Dr. Michael Rondilla; Dr. Melissa Welsh (named on current clinic physician page)",
       "status": "not_accepting",
       "care_model": "ongoing",
       "intake_detail": "The clinic's own current homepage explicitly states it is not taking new patients and has no patient waitlist. Existing rostered patients can contact the office at 519-745-7482. This is a distinct practice at 385 Frederick St, NOT Frederick Street Family Medicine at 450 Frederick St.",
@@ -12084,7 +12084,8 @@
         "reviewed_on": "2026-11-20",
         "finding": "Four-physician ongoing family practice; no new-patient intake and no waitlist according to clinic's own live site.",
         "sources": [
-          "https://fredmedclinic.ca/"
+          "https://fredmedclinic.ca/",
+          "https://fredmedclinic.ca/our-staff/"
         ]
       },
       "auto_updates_enabled": false
