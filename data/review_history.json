@@ -3646,5 +3646,29 @@
     "reviewer_note": "First-party family practice and intake form explicitly support applying for ongoing care, separated from walk-in service. Independent Waterloo Wellington Healthline and location-matched OpenStreetMap node support office at 500 Fairway Road South Unit 14 (65.71 km straight-line). No guarantee of attachment, individual capacity unconfirmed, website contains a residual 'Nexa Clinic' template brand, online form security and CPSO listing not verified; public-only investigation.",
     "evidence_quote": "Ready to Meet Your Family Doctor? Register as a new patient and begin your journey to better health.",
     "conflicts": "Generic Nexa Clinic copy remains on official Fairway pages; third-party intake directories ask users to call for confirmation. Registration does not guarantee family-physician attachment."
+  },
+  {
+    "date": "2026-11-20",
+    "clinic_id": "c242",
+    "clinic_name": "Curex Walk-in Clinic & Family Medicine — Waterloo",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "type": "verified_new_practice_intake_conflict",
+    "source": "https://curexmedicalcenter.com/contact-us/",
+    "reviewer_note": "Current first-party website advertises named physicians taking patients and family-practice appointments, but another publicly accessible Curex-branded page explicitly denies family practice enrolment. A clinic's existence and walk-in services are confirmed; family roster availability remains unknown pending direct clinic clarification. Independent 211 Ontario and Waterloo Wellington Healthline corroborate 380 King Street N Unit 5. Address-matched public OSM clinic point 70.49 km straight-line from Tillsonburg origin. No patient data, calls or appointment submissions.",
+    "evidence_quote": "Current page names Dr. Christopher Nwoko and Dr. Altaf; legacy Curex page says not enrolling family-practice patients.",
+    "conflicts": "https://curexmedicalcenter.com/contact-us/ versus https://clementine-ranunculus-845s.squarespace.com/walk-in-clinic; dated publication history unknown. Status retained unknown, NOT accepting."
+  },
+  {
+    "date": "2026-11-20",
+    "clinic_id": "c243",
+    "clinic_name": "Frederick Street Medical Clinic — Kitchener",
+    "old_status": "not listed",
+    "new_status": "not_accepting",
+    "type": "verified_new_practice_explicit_negative_intake",
+    "source": "https://fredmedclinic.ca/",
+    "reviewer_note": "Official current practice homepage lists four family physicians and explicitly indicates that no new patients are being taken and no waitlist is kept. New directory record at 385 Frederick Street Suite 16, distinct from Frederick Street Family Medicine at 450 Frederick Street. A public same-address Frederick Mall building point places location 68.81 km straight-line from Tillsonburg origin. No client data or phone calls; web publication date not stated.",
+    "evidence_quote": "Not accepting new patients; no waitlist.",
+    "conflicts": "Avoid confusing clinic with separate Frederick Street Family Medicine (450 Frederick Street); 450 location existence and intake not verified this run."
   }
 ]
