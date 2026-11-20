@@ -11972,6 +11972,122 @@
           "https://fairwaymedical.ca/patient-registration/"
         ]
       }
+    },
+    {
+      "id": "c242",
+      "name": "Curex Walk-in Clinic & Family Medicine — Waterloo",
+      "community": "Waterloo",
+      "address": "380 King Street North, Unit 5, Waterloo, ON N2J 2Z3",
+      "clinic_type": "MD",
+      "phone": "519-579-8858",
+      "providers": "Dr. Christopher Nwoko and Dr. Altaf (named in current clinic banner; individual roster intake disputed)",
+      "status": "unknown",
+      "care_model": "both",
+      "intake_detail": "The live curexmedicalcenter.com pages advertise Dr. Christopher Nwoko and Dr. Altaf accepting new patients and offer physician-specific family-practice appointments. However, a still-accessible Curex-hosted Squarespace walk-in page explicitly states the clinic is not enrolling family-practice patients. The latter page may be older; publication dates are not established. Due to conflicting first-party statements, continuing family-doctor attachment is UNCONFIRMED pending direct clarification with 519-579-8858. Walk-in visits and same-day appointments do not establish enrolment.",
+      "clinic_url": "https://curexmedicalcenter.com/",
+      "evidence_url": "https://curexmedicalcenter.com/contact-us/",
+      "source_published": "",
+      "last_reviewed": "2026-11-20",
+      "review_basis": "Current public clinic website and 211 Ontario/Waterloo-Wellington Healthline confirm practice and walk-in address. Old Curex website conflicts with new patient-acceptance banner; status left unknown. No call or patient data.",
+      "care_model_basis": "Waterloo-Wellington Healthline specifically calls Curex a walk-in clinic with associated family practice; current official booking page names family practice appointments.",
+      "care_model_source": "https://www.wwhealthline.ca/displayservice.aspx?id=224012",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://211ontario.ca/service/92838440/",
+      "address_verified_on": "2026-11-20",
+      "address_verification_scope": "211 Ontario office address, not roster intake",
+      "latitude": 43.48303,
+      "longitude": -80.52602,
+      "coordinate_source": "https://mapcarta.com/N10120212693",
+      "coordinate_quality": "OpenStreetMap Curex Medical Centre point matching 380 King N Unit 5; not surveyed entrance",
+      "coordinate_checked_on": "2026-11-20",
+      "location_quality": "Clinic-specific public OSM point 70.49 km straight-line within 75 km.",
+      "notes": "Conflicting first-party texts: https://curexmedicalcenter.com/contact-us/ says named doctors accepting, while https://clementine-ranunculus-845s.squarespace.com/walk-in-clinic explicitly says no family-practice enrollment. Linked physician appointments are not proof of rostering.",
+      "intake_conflict": true,
+      "uncertainty_reason": "conflicting_statements",
+      "uncertainty_label": "Conflicting named-doctor intake notices",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "conflicting_first_party_pages",
+        "reviewed_on": "2026-11-20",
+        "method": "public_webpage_review",
+        "source_url": "https://curexmedicalcenter.com/contact-us/",
+        "finding": "Current website names physicians accepting patients but an older still-public clinic page explicitly says no family enrolment; direct clinic confirmation required.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-20",
+        "finding": "Walk-in visits clearly advertised and independently documented by 211; not ongoing attachment evidence.",
+        "sources": [
+          "https://curexmedicalcenter.com/",
+          "https://211ontario.ca/service/92838440/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-20",
+        "finding": "Family-practice appointments named on current clinic website. Conflict with an older Curex site denying enrolment prevents confirmed accepting status.",
+        "sources": [
+          "https://curexmedicalcenter.com/booking/",
+          "https://clementine-ranunculus-845s.squarespace.com/walk-in-clinic"
+        ]
+      },
+      "auto_updates_enabled": false
+    },
+    {
+      "id": "c243",
+      "name": "Frederick Street Medical Clinic — Kitchener",
+      "community": "Kitchener",
+      "address": "385 Frederick Street, Suite 16, Kitchener, ON N2H 2P2",
+      "clinic_type": "MD",
+      "phone": "519-745-7482",
+      "providers": "Four family physicians (names available through first-party physician page; individual roster statuses not separately assessed)",
+      "status": "not_accepting",
+      "care_model": "ongoing",
+      "intake_detail": "The clinic's own current homepage explicitly states it is not taking new patients and has no patient waitlist. Existing rostered patients can contact the office at 519-745-7482. This is a distinct practice at 385 Frederick St, NOT Frederick Street Family Medicine at 450 Frederick St.",
+      "clinic_url": "https://fredmedclinic.ca/",
+      "evidence_url": "https://fredmedclinic.ca/",
+      "source_published": "",
+      "last_reviewed": "2026-11-20",
+      "review_basis": "Current first-party website directly documents ongoing group family practice and explicit closed intake. 2026-27 posted holiday schedule supports site being maintained, but notice publication date itself is not provided. Same-address commercial plaza OSM point used, not an entrance.",
+      "care_model_basis": "The clinic itself describes four family physicians providing ongoing practice; does not advertise public walk-in enrollment.",
+      "care_model_source": "https://fredmedclinic.ca/",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://fredmedclinic.ca/",
+      "address_verified_on": "2026-11-20",
+      "address_verification_scope": "First-party office address",
+      "latitude": 43.45693,
+      "longitude": -80.47331,
+      "coordinate_source": "https://mapcarta.com/W43352719",
+      "coordinate_quality": "OpenStreetMap public Frederick Mall building point sharing 385 Frederick Street; not clinic-suite coordinate.",
+      "coordinate_checked_on": "2026-11-20",
+      "location_quality": "Address-matched OSM mall building, 68.81 km straight-line within 75 km.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-20",
+        "method": "public_webpage_review",
+        "source_url": "https://fredmedclinic.ca/",
+        "finding": "Official homepage explicitly states no new patients and no waiting list; this describes family practice, not walk-in.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "walk_in_review": {
+        "status": "not_available",
+        "reviewed_on": "2026-11-20",
+        "finding": "Clinic does not advertise unrestricted public walk-in service; its existing-patient group practice is separate from mall walk-in providers.",
+        "sources": [
+          "https://fredmedclinic.ca/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-20",
+        "finding": "Four-physician ongoing family practice; no new-patient intake and no waitlist according to clinic's own live site.",
+        "sources": [
+          "https://fredmedclinic.ca/"
+        ]
+      },
+      "auto_updates_enabled": false
     }
   ]
 }
