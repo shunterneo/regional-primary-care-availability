@@ -186,6 +186,18 @@
       "current_intake": "family care registration open for future service; not current clinician attachment",
       "review_status": "pending",
       "note": "Unverified office-specific future enrollment; do not treat walk-in visits as attachment."
+    },
+    {
+      "id": "frederick-family-medicine-450-review-20261120",
+      "detected_at": "2026-11-20T13:00:00+00:00",
+      "title": "Frederick Street Family Medicine — distinct practice at 450 Frederick St Unit 202",
+      "news_link": "https://www.wwhealthline.ca/displayservice.aspx?id=183707",
+      "source_type": "public_healthline_directory",
+      "proposed_action": "Verify active family-physician practice at this exact unit against its current first-party website or CPSO location and determine ongoing attachment eligibility, then check building point against 75 km straight-line origin before publication.",
+      "within_75km": "not verified from exact office coordinate",
+      "current_intake": "not verified",
+      "review_status": "pending",
+      "note": "Healthline last fully updated October 31, 2025; 2026 secondary listing corroborates address 450 Frederick St Unit 202 but not current first-party operating status or attachment. DISTINCT from Frederick Street Medical Clinic at 385 Frederick Street Suite 16 (c243). Do not classify walk-ins as accepting family attachment."
     }
   ]
 }
