@@ -3634,5 +3634,17 @@
     "type": "operator_identity_conflict",
     "source": "https://valleyviewmedical.ca/locations/brantford-lynden-road",
     "reviewer_note": "Two unrelated websites advertise same exact 175 Lynden Road Unit A5-A, with different names, numbers and clinic personnel. Public BCHS and 211 directories corroborate Valleyview and Dr. Tunde Omisore. Relationship with lyndenmedical.ca unverified. One physical location preserved, no new clinic or acceptance inferred from conflicting site. Intake label tied only to Valleyview's own documented family-practice registration, not alternate operator."
+  },
+  {
+    "date": "2026-11-20",
+    "clinic_id": "c241",
+    "clinic_name": "Fairway Medical Clinic — Kitchener",
+    "old_status": "not listed",
+    "new_status": "accepting",
+    "type": "verified_new_practice_official_family_registration",
+    "source": "https://fairwaymedical.ca/services/walk-in-practice-2/",
+    "reviewer_note": "First-party family practice and intake form explicitly support applying for ongoing care, separated from walk-in service. Independent Waterloo Wellington Healthline and location-matched OpenStreetMap node support office at 500 Fairway Road South Unit 14 (65.71 km straight-line). No guarantee of attachment, individual capacity unconfirmed, website contains a residual 'Nexa Clinic' template brand, online form security and CPSO listing not verified; public-only investigation.",
+    "evidence_quote": "Ready to Meet Your Family Doctor? Register as a new patient and begin your journey to better health.",
+    "conflicts": "Generic Nexa Clinic copy remains on official Fairway pages; third-party intake directories ask users to call for confirmation. Registration does not guarantee family-physician attachment."
   }
 ]
