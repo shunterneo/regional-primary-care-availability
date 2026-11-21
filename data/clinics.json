@@ -8,7 +8,7 @@
     "coordinate_source": "https://www.openstreetmap.org/way/564144865",
     "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit"
   },
-  "data_as_of": "2026-11-20",
+  "data_as_of": "2026-11-21",
   "clinics": [
     {
       "id": "c001",
@@ -12089,6 +12089,213 @@
         ]
       },
       "auto_updates_enabled": false
+    },
+    {
+      "name": "F.A.M.Y Medical — Dr. Yostos and Dr. Andraous",
+      "community": "London",
+      "address": "215 Fanshawe Park Road West, Suite 201, London, ON N6G 5A9",
+      "clinic_type": "MD",
+      "phone": "519-645-2444 ext. 3",
+      "providers": "Dr. Marina Philippe Yostos; Dr. Fady Andraous",
+      "care_model": "ongoing",
+      "status": "waitlist",
+      "clinic_url": "https://famymedical.com/",
+      "evidence_url": "https://famymedical.com/new-patient",
+      "application_url": "https://famymedical.com/new-patient",
+      "intake_detail": "The office's official new-patient application joins a WAITLIST to become an ongoing family-practice patient; submission explicitly does NOT register or attach the applicant. Clinic staff contact applicants only if a space becomes available; no current capacity, assignment to a particular physician or timeline is established. Do not confuse physician after-hours rotations with public intake. Reception: 519-645-2444 extension 3. Further eligibility terms may appear in the 10-page intake process; no personal details were submitted.",
+      "care_model_basis": "Clinic's own website identifies Dr. Yostos and Dr. Andraous's ongoing family practice in the Masonville FHO. New-patient form explicitly concerns joining the practice; the office's policies do not accept public walk-ins.",
+      "care_model_source": "https://famymedical.com/",
+      "source_published": "",
+      "last_reviewed": "2026-11-21",
+      "intake_reviewed_on": "2026-11-21",
+      "review_basis": "2026-11-21 live first-party homepage and 10-page application introduction; 215 Fanshawe Park Road West Suite 201 independently matched to public Fanshawe Medical Centre building point. No form submission, phone contact, or guaranteed roster place.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://famymedical.com/",
+      "address_verified_on": "2026-11-21",
+      "address_verification_scope": "Specific Suite 201 office given by clinic; the building's public map coordinates are NOT a suite entrance.",
+      "latitude": 43.02326,
+      "longitude": -81.29644,
+      "coordinate_source": "https://mapcarta.com/fr/W749116734",
+      "coordinate_quality": "Public OpenStreetMap Fanshawe Medical Centre building centre matching clinic-published address; not surveyed Suite 201 entrance",
+      "coordinate_checked_on": "2026-11-21",
+      "auto_updates_enabled": false,
+      "notes": "F.A.M.Y is a separate Dr. Yostos/Dr. Andraous intake (ext. 3) from Dr. Dina Al-Khatib's c140 practice (ext. 4), which shares a building/FHO after-hours rotation. This record does not alter c140. Official waitlist page has no publication date. A City of London planning file was supplied as supplemental civic-address context but was not independently retrieved in this check.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-21",
+        "method": "public_webpage_review",
+        "source_url": "https://famymedical.com/new-patient",
+        "finding": "Clinic-owned application says explicitly: completing the form adds a person to the waitlist to join the practice and does not register them as a patient. Eligibility and future roster space not promised.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-21",
+        "finding": "Clinic homepage identifies Dr. Yostos and Dr. Andraous and Suite 201 at 215 Fanshawe Park Rd W; separate application page offers a waitlist only. Not an immediate family-physician opening.",
+        "sources": [
+          "https://famymedical.com/",
+          "https://famymedical.com/new-patient",
+          "https://mapcarta.com/fr/W749116734"
+        ]
+      },
+      "walk_in_review": {
+        "status": "not_available",
+        "reviewed_on": "2026-11-21",
+        "finding": "Clinic-owned application policies state public walk-ins are not accepted; separate after-hours physician rotation for existing patients is not family-physician enrolment.",
+        "sources": [
+          "https://famymedical.com/new-patient",
+          "https://famymedical.com/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-21",
+        "finding": "Existing FHO family practice; explicitly advertises application to join ongoing practice's waitlist, with no guarantee of attachment.",
+        "sources": [
+          "https://famymedical.com/",
+          "https://famymedical.com/new-patient"
+        ]
+      },
+      "id": "c244",
+      "community_distance_km": 49.88,
+      "location_quality": "Public OpenStreetMap Fanshawe Medical Centre building centre matching clinic-published address; not surveyed Suite 201 entrance; 49.88 km straight-line from reference address, inside 75 km."
+    },
+    {
+      "name": "KWIC Walk-In Clinic — Manitou family practice",
+      "community": "Kitchener",
+      "address": "5 Manitou Drive, Suite 202, Kitchener, ON N2C 2J6",
+      "clinic_type": "MD",
+      "phone": "519-725-1111",
+      "providers": "Clinic physicians (no individual new-patient roster capacity confirmed); Dr. Kaveri Bharati is named for existing-patient transfer, NOT as a confirmed new-patient opening.",
+      "care_model": "both",
+      "status": "accepting",
+      "clinic_url": "https://www.kwicwalkin.ca/",
+      "evidence_url": "https://www.kwicwalkin.ca/",
+      "intake_detail": "Clinic's current official homepage explicitly advertises NOW ACCEPTING PATIENTS FOR FAMILY PRACTICE, separate from walk-in and virtual visits. To inquire about ongoing family-practice attachment email kwicfamilypractice@gmail.com or call 519-725-1111. Clinic advertises a booking link, but its Ocean form was not reviewed; it is NOT represented here as a verified enrolment form. No guaranteed enrolment, immediate roster place, named accepting doctor or specific patient eligibility was established. Dr. Bharati's existing-patient transfer notice does not establish her new-patient acceptance.",
+      "care_model_basis": "Official KWIC homepage distinguishes family-practice new-patient intake and family-physician hours from walk-in and virtual visits; secondary 211 and Healthline records document walk-in at the exact Manitou office only.",
+      "care_model_source": "https://www.kwicwalkin.ca/",
+      "source_published": "",
+      "last_reviewed": "2026-11-21",
+      "intake_reviewed_on": "2026-11-21",
+      "review_basis": "2026-11-21 first-party homepage specifically advertises family practice accepting patients; 211 Waterloo and Ontario Healthline corroborate physical 5 Manitou Drive office and separate walk-in care. No Ocean form fields inspected and no patient data or clinic calls.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://waterloo.211centralsouth.ca/detail/90178359/",
+      "address_verified_on": "2026-11-21",
+      "address_verification_scope": "Independent 211 building address and clinic's own Unit 202 listing; location coordinate corresponds to shared public building, not the Suite 202 entrance.",
+      "latitude": 43.41819,
+      "longitude": -80.454,
+      "coordinate_source": "https://waterloo.211centralsouth.ca/detail/90178359/",
+      "coordinate_quality": "Public building-location map point matched to 5 Manitou Drive; not surveyed Suite 202 entrance",
+      "coordinate_checked_on": "2026-11-21",
+      "auto_updates_enabled": false,
+      "notes": "Do not merge with KWIC c215 at 1360 Weber Street East, with another 5 Manitou Dr tenant in Suite 106A, or with Boardwalk clinics. 211 (updated 2026-05-12) and Healthline (updated 2026-10-23) describe walk-in service but do not contradict the newer first-party, explicitly separated family-practice invitation; they cannot prove an individual physician's new-patient capacity. Intake notice publication date unknown. Walk-in hours conflict between providers, so none given.",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-21",
+        "method": "public_webpage_review",
+        "source_url": "https://www.kwicwalkin.ca/",
+        "finding": "Official Suite 202 clinic homepage states NOW ACCEPTING PATIENTS FOR FAMILY PRACTICE and gives dedicated family-practice email. Walk-in, virtual and existing-patient transfer pathways are not evidence of enrolment. No physician-specific allocation or guarantee.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-21",
+        "finding": "First-party family practice invitation and dedicated inquiry email at Unit 202 verified, separately from walk-in. Current clinic-owned notice undated; third-party directories document walk-in service only.",
+        "sources": [
+          "https://www.kwicwalkin.ca/",
+          "https://waterloo.211centralsouth.ca/detail/90178359/",
+          "https://wwhealthline.ca/displayService.aspx?id=204608"
+        ]
+      },
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-21",
+        "finding": "Official clinic and Waterloo 211/Healthline publish walk-in care at this office; walk-in booking is not evidence of ongoing physician attachment.",
+        "sources": [
+          "https://www.kwicwalkin.ca/",
+          "https://waterloo.211centralsouth.ca/detail/90178359/",
+          "https://wwhealthline.ca/displayService.aspx?id=204608"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-21",
+        "finding": "Separate official announcement explicitly invites new patients for family practice and dedicated family-practice email, but does not prove roster space, doctor-specific openings or eligibility.",
+        "sources": [
+          "https://www.kwicwalkin.ca/"
+        ]
+      },
+      "id": "c245",
+      "community_distance_km": 65.21,
+      "location_quality": "Public building-location map point matched to 5 Manitou Drive; not surveyed Suite 202 entrance; 65.21 km straight-line from reference address, inside 75 km."
+    },
+    {
+      "name": "Manitou Family Clinic — Kitchener",
+      "community": "Kitchener",
+      "address": "5 Manitou Drive, Unit 106A, Kitchener, ON N2C 2J6",
+      "clinic_type": "MD",
+      "phone": "519-963-7554",
+      "providers": "Dr. Omogbenga Odusola (named by official practice website; current CPSO practice-location check not completed)",
+      "care_model": "both",
+      "status": "unknown",
+      "clinic_url": "https://manitouclinic.com/",
+      "evidence_url": "https://manitouclinic.com/",
+      "intake_detail": "First-party website advertises comprehensive family medicine, ongoing care and 'welcoming new patients', with meet-and-greet appointments, but it also advertises walk-in/same-day visits. The public material reviewed does NOT explicitly confirm that advertised new-patient appointments lead to ongoing family-physician roster attachment; therefore ongoing intake remains unknown/unconfirmed. For clarification contact 519-963-7554 or manitouclinic@verismohealth.com. No appointment or intake form was submitted and individual physician capacity is unconfirmed.",
+      "care_model_basis": "Official clinic website describes comprehensive family medicine, long-term chronic-disease follow-up and separately permits walk-in appointments. Distinct Unit 106A from KWIC's Unit 202.",
+      "care_model_source": "https://manitouclinic.com/",
+      "source_published": "",
+      "last_reviewed": "2026-11-21",
+      "review_basis": "2026-11-21 reviewed official family-medicine, contact and about pages. Exact public office unit independently corroborated by a same-unit commercial listing and a physician profile; same building public map point used. Template-like/management content and ambiguous new-patient language prevent confirmed roster intake.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://manitouclinic.com/contact-us/",
+      "address_verified_on": "2026-11-21",
+      "address_verification_scope": "First-party Unit 106A office; same unit also listed by Manitou PharmaChoice; coordinate is shared civic building, not suite entrance.",
+      "latitude": 43.41819,
+      "longitude": -80.454,
+      "coordinate_source": "https://waterloo.211centralsouth.ca/detail/90178359/",
+      "coordinate_quality": "5 Manitou Drive public building-location point also housing separate KWIC Suite 202, not a Unit 106A entrance",
+      "coordinate_checked_on": "2026-11-21",
+      "auto_updates_enabled": false,
+      "notes": "First-party site has some template/management copy and inconsistent posted hours; do not infer exact live capacity or practice status beyond website statements. The May 6, 2026 clinic article encourages first appointments, but does not prove current ongoing roster attachment. Distinct suite and phone from KWIC. Local PharmaChoice is a pharmacy in Unit 106A, not an extra primary-care clinic.",
+      "intake_verification": {
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "location",
+        "reviewed_on": "2026-11-21",
+        "method": "public_webpage_review",
+        "source_url": "https://manitouclinic.com/",
+        "finding": "Clinic describes family care and new patient meet-and-greet, but same-day/walk-in advertising and non-specific registration wording do not independently establish ongoing attachment or individual physician roster capacity.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-21",
+        "finding": "New patient invitation and ongoing family care claims present; ambiguous whether registration is for ongoing physician attachment. Secondary physician profile and Unit 106A pharmacy address support exact office location, but roster status unresolved.",
+        "sources": [
+          "https://manitouclinic.com/",
+          "https://manitouclinic.com/contact-us/",
+          "https://findfamilymd.com/family-physicians/dr-omogbenga-odusola/",
+          "https://www.pharmachoice.com/locations/manitou-pharmachoice/"
+        ]
+      },
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-21",
+        "finding": "Clinic's about page permits walk-ins and advertises same-day visits; those are not evidence of family-physician enrolment.",
+        "sources": [
+          "https://manitouclinic.com/about-us/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-21",
+        "finding": "Practice website advertises comprehensive family care, chronic condition follow-up and named physician; new-patient appointment invitation is not explicitly roster attachment.",
+        "sources": [
+          "https://manitouclinic.com/",
+          "https://manitouclinic.com/about-us/"
+        ]
+      },
+      "id": "c246",
+      "community_distance_km": 65.21,
+      "location_quality": "5 Manitou Drive public building-location point also housing separate KWIC Suite 202, not a Unit 106A entrance; 65.21 km straight-line from reference address, inside 75 km."
     }
   ]
 }
