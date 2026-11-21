@@ -194,10 +194,18 @@
       "news_link": "https://www.wwhealthline.ca/displayservice.aspx?id=183707",
       "source_type": "public_healthline_directory",
       "proposed_action": "Verify active family-physician practice at this exact unit against its current first-party website or CPSO location and determine ongoing attachment eligibility, then check building point against 75 km straight-line origin before publication.",
-      "within_75km": "not verified from exact office coordinate",
+      "within_75km": "verified at 69.0 km",
       "current_intake": "not verified",
-      "review_status": "pending",
-      "note": "Healthline last fully updated October 31, 2025; 2026 secondary listing corroborates address 450 Frederick St Unit 202 but not current first-party operating status or attachment. DISTINCT from Frederick Street Medical Clinic at 385 Frederick Street Suite 16 (c243). Do not classify walk-ins as accepting family attachment."
+      "review_status": "reviewed",
+      "note": "Healthline last fully updated October 31, 2025; 2026 secondary listing corroborates address 450 Frederick St Unit 202 but not current first-party operating status or attachment. DISTINCT from Frederick Street Medical Clinic at 385 Frederick Street Suite 16 (c243). Do not classify walk-ins as accepting family attachment.",
+      "reviewed_on": "2026-11-21",
+      "review_outcome": "Published as existing family practice; current intake unconfirmed",
+      "reviewer_note": "CPSO confirms Dr. Jodie Lynne Calvert Christie at 450 Frederick Street Unit 202, family medicine, 519-618-9260. Building point verified within 75 km; record c247. Not the separate clinic at 385 Frederick or Phoenix in Suite 301.",
+      "review_sources": [
+        "https://register.cpso.on.ca/physician-info/?cpsonum=61291",
+        "https://www.wwhealthline.ca/displayService.aspx?id=183707",
+        "https://mapcarta.com/N2187677694"
+      ]
     }
   ]
 }

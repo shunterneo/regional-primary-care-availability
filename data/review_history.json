@@ -3706,5 +3706,21 @@
     "reviewer_note": "2026-11-21 reviewed official family-medicine, contact and about pages. Exact public office unit independently corroborated by a same-unit commercial listing and a physician profile; same building public map point used. Template-like/management content and ambiguous new-patient language prevent confirmed roster intake.; care model both; check source publication date (not stated).",
     "evidence_summary": "Clinic describes family care and new patient meet-and-greet, but same-day/walk-in advertising and non-specific registration wording do not independently establish ongoing attachment or individual physician roster capacity.",
     "conflicts": "First-party site has some template/management copy and inconsistent posted hours; do not infer exact live capacity or practice status beyond website statements. The May 6, 2026 clinic article encourages first appointments, but does not prove current ongoing roster attachment. Distinct suite and phone from KWIC. Local PharmaChoice is a pharmacy in Unit 106A, not an extra primary-care clinic."
+  },
+  {
+    "date": "2026-11-21",
+    "clinic_id": "c247",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://register.cpso.on.ca/physician-info/?cpsonum=61291",
+    "reviewer_note": "CPSO confirms exact suite, specialty and phone, corroborated by Ontario Health atHome listing 183707. Map pin is for the building, not the suite entrance. No intake status inferred from directory sources."
+  },
+  {
+    "date": "2026-11-21",
+    "clinic_id": "c248",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.phoenixhealthcare.ca/",
+    "reviewer_note": "Official Kitchener contact page and CPSO 128221/81973 corroborate exact suite; building pin from OSM-based mapping. The shared homepage covers Kitchener and Waterloo. The presence of a printable form does not establish a current Kitchener waitlist."
   }
 ]
