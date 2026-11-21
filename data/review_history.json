@@ -3670,5 +3670,41 @@
     "reviewer_note": "Official current practice homepage lists four family physicians and explicitly indicates that no new patients are being taken and no waitlist is kept. New directory record at 385 Frederick Street Suite 16, distinct from Frederick Street Family Medicine at 450 Frederick Street. A public same-address Frederick Mall building point places location 68.81 km straight-line from Tillsonburg origin. No client data or phone calls; web publication date not stated.",
     "evidence_quote": "Not accepting new patients; no waitlist.",
     "conflicts": "Avoid confusing clinic with separate Frederick Street Family Medicine (450 Frederick Street); 450 location existence and intake not verified this run."
+  },
+  {
+    "date": "2026-11-21",
+    "clinic_id": "c244",
+    "clinic_name": "F.A.M.Y Medical — Dr. Yostos and Dr. Andraous",
+    "old_status": "not listed",
+    "new_status": "waitlist",
+    "type": "new_verified_family_practice_waitlist",
+    "source": "https://famymedical.com/new-patient",
+    "reviewer_note": "2026-11-21 live first-party homepage and 10-page application introduction; 215 Fanshawe Park Road West Suite 201 independently matched to public Fanshawe Medical Centre building point. No form submission, phone contact, or guaranteed roster place.; care model ongoing; check source publication date (not stated).",
+    "evidence_summary": "Clinic-owned application says explicitly: completing the form adds a person to the waitlist to join the practice and does not register them as a patient. Eligibility and future roster space not promised.",
+    "conflicts": "F.A.M.Y is a separate Dr. Yostos/Dr. Andraous intake (ext. 3) from Dr. Dina Al-Khatib's c140 practice (ext. 4), which shares a building/FHO after-hours rotation. This record does not alter c140. Official waitlist page has no publication date. A City of London planning file was supplied as supplemental civic-address context but was not independently retrieved in this check."
+  },
+  {
+    "date": "2026-11-21",
+    "clinic_id": "c245",
+    "clinic_name": "KWIC Walk-In Clinic — Manitou family practice",
+    "old_status": "not listed",
+    "new_status": "accepting",
+    "type": "new_verified_family_practice_applications",
+    "source": "https://www.kwicwalkin.ca/",
+    "reviewer_note": "2026-11-21 first-party homepage specifically advertises family practice accepting patients; 211 Waterloo and Ontario Healthline corroborate physical 5 Manitou Drive office and separate walk-in care. No Ocean form fields inspected and no patient data or clinic calls.; care model both; check source publication date (not stated).",
+    "evidence_summary": "Official Suite 202 clinic homepage states NOW ACCEPTING PATIENTS FOR FAMILY PRACTICE and gives dedicated family-practice email. Walk-in, virtual and existing-patient transfer pathways are not evidence of enrolment. No physician-specific allocation or guarantee.",
+    "conflicts": "Do not merge with KWIC c215 at 1360 Weber Street East, with another 5 Manitou Dr tenant in Suite 106A, or with Boardwalk clinics. 211 (updated 2026-05-12) and Healthline (updated 2026-10-23) describe walk-in service but do not contradict the newer first-party, explicitly separated family-practice invitation; they cannot prove an individual physician's new-patient capacity. Intake notice publication date unknown. Walk-in hours conflict between providers, so none given."
+  },
+  {
+    "date": "2026-11-21",
+    "clinic_id": "c246",
+    "clinic_name": "Manitou Family Clinic — Kitchener",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "type": "new_verified_practice_intake_unknown",
+    "source": "https://manitouclinic.com/",
+    "reviewer_note": "2026-11-21 reviewed official family-medicine, contact and about pages. Exact public office unit independently corroborated by a same-unit commercial listing and a physician profile; same building public map point used. Template-like/management content and ambiguous new-patient language prevent confirmed roster intake.; care model both; check source publication date (not stated).",
+    "evidence_summary": "Clinic describes family care and new patient meet-and-greet, but same-day/walk-in advertising and non-specific registration wording do not independently establish ongoing attachment or individual physician roster capacity.",
+    "conflicts": "First-party site has some template/management copy and inconsistent posted hours; do not infer exact live capacity or practice status beyond website statements. The May 6, 2026 clinic article encourages first appointments, but does not prove current ongoing roster attachment. Distinct suite and phone from KWIC. Local PharmaChoice is a pharmacy in Unit 106A, not an extra primary-care clinic."
   }
 ]
