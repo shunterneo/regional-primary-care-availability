@@ -100,8 +100,8 @@
           "content_hash": "1fa8de19713d16f8bffb0e6f3d666722b4c5f959a7ca104ac98e4ee3f37f0d52"
         }
       },
-      "last_attempt": "2026-11-21",
-      "last_success": "2026-11-21",
+      "last_attempt": "2026-11-22",
+      "last_success": "2026-11-22",
       "last_error": null,
       "error_category": null,
       "entry_count": 12,
@@ -162,8 +162,8 @@
           "content_hash": "b4b6918af57dfcb910ca2447a2e9403711a1814f07b9ab1db3a200a4f41d2c61"
         }
       },
-      "last_attempt": "2026-11-21",
-      "last_success": "2026-11-21",
+      "last_attempt": "2026-11-22",
+      "last_success": "2026-11-22",
       "last_error": null,
       "error_category": null,
       "entry_count": 6,
@@ -304,8 +304,8 @@
           "content_hash": "d653b99e5288a22f59b5aa1b4a854f1478d31c7f4e87c6473a3318ef7be12807"
         }
       },
-      "last_attempt": "2026-11-21",
-      "last_success": "2026-11-21",
+      "last_attempt": "2026-11-22",
+      "last_success": "2026-11-22",
       "last_error": null,
       "error_category": null,
       "entry_count": 16,
@@ -416,7 +416,7 @@
           "content_hash": "63f039146ab5673a1e2fd6bed5936a5f0c387bdfac1b6a0ed284affa3e645f41"
         }
       },
-      "last_attempt": "2026-11-21",
+      "last_attempt": "2026-11-22",
       "last_success": "2026-11-17",
       "last_error": "HTTPSConnectionPool(host='www.lignesantesud-ouest.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=London (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
       "error_category": "tls_error",
@@ -429,8 +429,8 @@
     },
     "woodstock_news": {
       "entries": {},
-      "last_attempt": "2026-11-21",
-      "last_success": "2026-11-21",
+      "last_attempt": "2026-11-22",
+      "last_success": "2026-11-22",
       "last_error": null,
       "error_category": null,
       "entry_count": 0,
@@ -451,8 +451,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-21",
-      "last_success": "2026-11-21",
+      "last_attempt": "2026-11-22",
+      "last_success": "2026-11-22",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -515,7 +515,7 @@
           "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
         }
       },
-      "last_attempt": "2026-11-21",
+      "last_attempt": "2026-11-22",
       "last_success": "2026-11-17",
       "last_error": "HTTPSConnectionPool(host='www.lignesantesud-ouest.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=Oxford (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
       "error_category": "tls_error",
@@ -579,7 +579,7 @@
           "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
         }
       },
-      "last_attempt": "2026-11-21",
+      "last_attempt": "2026-11-22",
       "last_success": "2026-11-17",
       "last_error": "HTTPSConnectionPool(host='www.lignesantesud-ouest.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075&region=Elgin (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
       "error_category": "tls_error",
@@ -787,7 +787,7 @@
           "content_hash": "40e5896b798fb019836724155e9b931531c13f253dc1cd19ce6187b033e15bcf"
         }
       },
-      "last_attempt": "2026-11-21",
+      "last_attempt": "2026-11-22",
       "last_success": "2026-11-17",
       "last_error": "HTTPSConnectionPool(host='www.lignesantesud-ouest.ca', port=443): Max retries exceeded with url: /listServices.aspx?id=10075 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)'))); preserved previous results",
       "error_category": "tls_error",
@@ -809,8 +809,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-21",
-      "last_success": "2026-11-21",
+      "last_attempt": "2026-11-22",
+      "last_success": "2026-11-22",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -831,8 +831,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-21",
-      "last_success": "2026-11-21",
+      "last_attempt": "2026-11-22",
+      "last_success": "2026-11-22",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -853,8 +853,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-21",
-      "last_success": "2026-11-21",
+      "last_attempt": "2026-11-22",
+      "last_success": "2026-11-22",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -865,7 +865,7 @@
       "event_sequence": 0
     }
   },
-  "last_run": "2026-11-21",
+  "last_run": "2026-11-22",
   "last_summary": {
     "sources": 12,
     "success": 8,
