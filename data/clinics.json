@@ -280,27 +280,27 @@
       "address": "990 Gainsborough Road",
       "clinic_type": "MD",
       "status": "reported",
-      "intake_detail": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
-      "phone": "519-601-8621",
+      "intake_detail": "TMC+ advertises a shared application for ongoing family care. The form opens with a Health Care Connect referral question; later steps and openings at this office are unverified. Call 519-601-8621, option 2, to confirm openings and how to apply.",
+      "phone": "519-601-8621 option 2",
       "providers": "",
       "evidence_url": "https://thompsonmedical.ca/new-patients/",
       "clinic_url": "https://thompsonmedical.ca/",
       "source_published": "",
-      "last_reviewed": "2026-11-18",
+      "last_reviewed": "2026-11-21",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Official network application page reviewed November 18, 2026; individual-location options not verified. No telephone confirmation or guaranteed enrolment.",
+      "review_basis": "Official shared intake page and contact listing reviewed November 21, 2026. First form screen observed; no answers entered or submission made. No office-specific capacity or enrolment confirmation.",
       "care_model": "both",
       "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
       "care_model_source": "https://thompsonmedical.ca/",
       "intake_verification": {
         "tier": "program_general",
         "scope": "organization",
-        "reviewed_on": "2026-11-18",
+        "reviewed_on": "2026-11-21",
         "method": "public_webpage_review",
         "source_url": "https://thompsonmedical.ca/new-patients/",
-        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
+        "finding": "TMC+ advertises a shared application for ongoing family care. The form opens with a Health Care Connect referral question; later steps and openings at this office are unverified. Call 519-601-8621, option 2, to confirm openings and how to apply.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -325,11 +325,11 @@
         "eligibility": "Patients rostered to TMC Hyde Park FHO physicians must contact their family physician rather than use the Adult Walk-In Clinic."
       },
       "ongoing_care_review": {
-        "reviewed_on": "2026-11-18",
-        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
+        "reviewed_on": "2026-11-21",
+        "finding": "TMC+ advertises a shared application for ongoing family care. The form opens with a Health Care Connect referral question; later steps and openings at this office are unverified. Call 519-601-8621, option 2, to confirm openings and how to apply.",
         "sources": [
           "https://thompsonmedical.ca/new-patients/",
-          "https://thompsonmedical.ca/team/"
+          "https://thompsonmedical.ca/contact/"
         ]
       },
       "application_url": "https://thompsonmedical.ca/new-patients/"
@@ -341,27 +341,27 @@
       "address": "130 Thompson Road",
       "clinic_type": "MD",
       "status": "reported",
-      "intake_detail": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
-      "phone": "519-601-8621",
+      "intake_detail": "TMC+ advertises a shared application for ongoing family care. The form opens with a Health Care Connect referral question; later steps and openings at this office are unverified. Call 519-601-8621, option 1, to confirm openings and how to apply.",
+      "phone": "519-601-8621 option 1",
       "providers": "",
       "evidence_url": "https://thompsonmedical.ca/new-patients/",
       "clinic_url": "https://thompsonmedical.ca/",
       "source_published": "",
-      "last_reviewed": "2026-11-18",
+      "last_reviewed": "2026-11-21",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Official network application page reviewed November 18, 2026; individual-location options not verified. No telephone confirmation or guaranteed enrolment.",
+      "review_basis": "Official shared intake page and contact listing reviewed November 21, 2026. First form screen observed; no answers entered or submission made. No office-specific capacity or enrolment confirmation.",
       "care_model": "both",
       "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
       "care_model_source": "https://thompsonmedical.ca/",
       "intake_verification": {
         "tier": "program_general",
         "scope": "organization",
-        "reviewed_on": "2026-11-18",
+        "reviewed_on": "2026-11-21",
         "method": "public_webpage_review",
         "source_url": "https://thompsonmedical.ca/new-patients/",
-        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
+        "finding": "TMC+ advertises a shared application for ongoing family care. The form opens with a Health Care Connect referral question; later steps and openings at this office are unverified. Call 519-601-8621, option 1, to confirm openings and how to apply.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -385,11 +385,11 @@
         ]
       },
       "ongoing_care_review": {
-        "reviewed_on": "2026-11-18",
-        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment.",
+        "reviewed_on": "2026-11-21",
+        "finding": "TMC+ advertises a shared application for ongoing family care. The form opens with a Health Care Connect referral question; later steps and openings at this office are unverified. Call 519-601-8621, option 1, to confirm openings and how to apply.",
         "sources": [
           "https://thompsonmedical.ca/new-patients/",
-          "https://thompsonmedical.ca/team/"
+          "https://thompsonmedical.ca/contact/"
         ]
       },
       "application_url": "https://thompsonmedical.ca/new-patients/"
@@ -511,27 +511,27 @@
       "address": "25 Elm Street, Unit 104",
       "clinic_type": "MD",
       "status": "reported",
-      "intake_detail": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment. This office is separate from Elmdale Health despite sharing a building.",
+      "intake_detail": "TMC+ advertises a shared application for ongoing family care. The form opens with a Health Care Connect referral question; later steps and openings at this office are unverified. Call 519-601-8621, option 3, to confirm openings and how to apply. This office is separate from Elmdale Health in the same building.",
       "phone": "519-601-8621 option 3",
       "providers": "",
       "evidence_url": "https://thompsonmedical.ca/new-patients/",
       "clinic_url": "https://thompsonmedical.ca/walk-in-clinic/",
       "source_published": "",
-      "last_reviewed": "2026-11-18",
+      "last_reviewed": "2026-11-21",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 39,
       "notes": "",
-      "review_basis": "Official network application page reviewed November 18, 2026; individual-location options not verified. No telephone confirmation or guaranteed enrolment.",
+      "review_basis": "Official shared intake page and contact listing reviewed November 21, 2026. First form screen observed; no answers entered or submission made. No office-specific capacity or enrolment confirmation.",
       "care_model": "both",
       "care_model_basis": "Official clinic site describes both ongoing family medicine and walk-in visits; intake pertains to family practice only.",
       "care_model_source": "https://thompsonmedical.ca/walk-in-clinic/",
       "intake_verification": {
         "tier": "program_general",
         "scope": "organization",
-        "reviewed_on": "2026-11-18",
+        "reviewed_on": "2026-11-21",
         "method": "public_webpage_review",
         "source_url": "https://thompsonmedical.ca/new-patients/",
-        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment. This office is separate from Elmdale Health despite sharing a building.",
+        "finding": "TMC+ advertises a shared application for ongoing family care. The form opens with a Health Care Connect referral question; later steps and openings at this office are unverified. Call 519-601-8621, option 3, to confirm openings and how to apply. This office is separate from Elmdale Health in the same building.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -556,11 +556,11 @@
         ]
       },
       "ongoing_care_review": {
-        "reviewed_on": "2026-11-18",
-        "finding": "TMC advertises a shared new-patient family-practice application and says the form will offer a location choice. The linked intake form could not be retrieved in this review, so the available location options and current intake at this individual office are unverified. Confirm the location and ongoing family-practice application route with TMC. This is a network-level lead, not confirmed office-specific availability or guaranteed enrolment. This office is separate from Elmdale Health despite sharing a building.",
+        "reviewed_on": "2026-11-21",
+        "finding": "TMC+ advertises a shared application for ongoing family care. The form opens with a Health Care Connect referral question; later steps and openings at this office are unverified. Call 519-601-8621, option 3, to confirm openings and how to apply. This office is separate from Elmdale Health in the same building.",
         "sources": [
           "https://thompsonmedical.ca/new-patients/",
-          "https://thompsonmedical.ca/team/"
+          "https://thompsonmedical.ca/contact/"
         ]
       },
       "application_url": "https://thompsonmedical.ca/new-patients/"

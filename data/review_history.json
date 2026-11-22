@@ -3722,5 +3722,35 @@
     "new_status": "unknown",
     "source": "https://www.phoenixhealthcare.ca/",
     "reviewer_note": "Official Kitchener contact page and CPSO 128221/81973 corroborate exact suite; building pin from OSM-based mapping. The shared homepage covers Kitchener and Waterloo. The presence of a printable form does not establish a current Kitchener waitlist."
+  },
+  {
+    "date": "2026-11-21",
+    "clinic_id": "c006",
+    "clinic_name": "TMC+ — Hyde Park",
+    "old_status": "reported",
+    "new_status": "reported",
+    "type": "public_intake_route_clarification",
+    "source": "https://thompsonmedical.ca/new-patients/",
+    "reviewer_note": "Official shared intake page and contact listing reviewed November 21, 2026. First form screen observed; no answers entered or submission made. No office-specific capacity or enrolment confirmation. Clinic lists phone option 2 for this office. Keep reported as a network-level lead."
+  },
+  {
+    "date": "2026-11-21",
+    "clinic_id": "c007",
+    "clinic_name": "TMC+ — Thompson Road",
+    "old_status": "reported",
+    "new_status": "reported",
+    "type": "public_intake_route_clarification",
+    "source": "https://thompsonmedical.ca/new-patients/",
+    "reviewer_note": "Official shared intake page and contact listing reviewed November 21, 2026. First form screen observed; no answers entered or submission made. No office-specific capacity or enrolment confirmation. Clinic lists phone option 1 for this office. Keep reported as a network-level lead."
+  },
+  {
+    "date": "2026-11-21",
+    "clinic_id": "c010",
+    "clinic_name": "TMC+ — St. Thomas",
+    "old_status": "reported",
+    "new_status": "reported",
+    "type": "public_intake_route_clarification",
+    "source": "https://thompsonmedical.ca/new-patients/",
+    "reviewer_note": "Official shared intake page and contact listing reviewed November 21, 2026. First form screen observed; no answers entered or submission made. No office-specific capacity or enrolment confirmation. Clinic lists phone option 3 for this office. Keep reported as a network-level lead."
   }
 ]
