@@ -206,6 +206,46 @@
         "https://www.wwhealthline.ca/displayService.aspx?id=183707",
         "https://mapcarta.com/N2187677694"
       ]
+    },
+    {
+      "id": "grchc-friendship-house-outreach-20261122",
+      "title": "Grand River CHC outreach drop-in — Friendship House",
+      "detected_at": "2026-11-22",
+      "url": "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+      "corroboration_url": "https://friendship-house-of-brant.org/prod-us",
+      "public_office_address": "452 Grey Street, Brantford, ON N3S 4X8",
+      "clinician_type": "NP and RN outreach team, Grand River Community Health Centre",
+      "care_model": "walk_in_only",
+      "intake_status": "not an ongoing family physician or NP attachment",
+      "start_date": "2026-11-03",
+      "hours_from_operator": "Wednesday 9–11 a.m.",
+      "eligibility": "Unattached residents facing barriers to access; operator excludes clients with an existing provider and some other groups. No OHIP card needed; check program page.",
+      "phone": "226-388-4725",
+      "review_status": "pending",
+      "within_75km": "Pending exact premises-coordinate confirmation; no community-centre fallback allowed",
+      "proposed_action": "Verify exact public building pin and 75-km straight-line radius, check duplicate outreach locations, then consider a distinct walk-in-only listing—not an accepting family practice.",
+      "note": "Official operator explicitly calls this an outreach drop-in clinic with no appointment. No roster claims. Not submitted to intake; no patient data.",
+      "evidence_checked_on": "2026-11-22"
+    },
+    {
+      "id": "grchc-st-andrews-outreach-20261122",
+      "title": "Grand River CHC outreach drop-in — St. Andrew's Church",
+      "detected_at": "2026-11-22",
+      "url": "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+      "corroboration_url": "https://www.standrewsbrantford.com/",
+      "public_office_address": "95 Darling Street, Brantford, ON N3T 2K7",
+      "clinician_type": "NP and RN outreach team, Grand River Community Health Centre",
+      "care_model": "walk_in_only",
+      "intake_status": "not an ongoing family physician or NP attachment",
+      "start_date": "2026-11-03",
+      "hours_from_operator": "Tuesday noon–3 p.m.; Wednesday noon–3 p.m.",
+      "eligibility": "Unattached residents facing barriers to access; operator excludes clients with an existing provider and some other groups. No OHIP card needed; check program page.",
+      "phone": "226-388-4725",
+      "review_status": "pending",
+      "within_75km": "Pending exact premises-coordinate confirmation; no community-centre fallback allowed",
+      "proposed_action": "Verify exact public building pin and 75-km straight-line radius, check duplicate outreach locations, then consider a distinct walk-in-only listing—not an accepting family practice.",
+      "note": "Official operator explicitly calls this an outreach drop-in clinic with no appointment. No roster claims. Not submitted to intake; no patient data.",
+      "evidence_checked_on": "2026-11-22"
     }
   ]
 }
