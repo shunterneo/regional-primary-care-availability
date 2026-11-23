@@ -11926,14 +11926,14 @@
       "care_model": "both",
       "intake_detail": "Clinic website separately advertises ongoing family practice and walk-in services; its family-practice page specifically invites new patients to register for continuing family-physician care. Contact 226-336-0767 to confirm roster eligibility and current clinician capacity before submitting any information. Online patient-registration form is provided, but its data-handling practices have not been independently assessed; registration does not guarantee attachment. Walk-in registration/appointments alone do not count as family-doctor enrolment.",
       "clinic_url": "https://fairwaymedical.ca/",
-      "evidence_url": "https://fairwaymedical.ca/services/walk-in-practice-2/",
+      "evidence_url": "https://fairwaymedical.ca/services/family-practice/",
       "application_url": "https://fairwaymedical.ca/patient-registration/",
       "source_published": "",
       "last_reviewed": "2026-11-20",
       "intake_reviewed_on": "2026-11-20",
       "review_basis": "Reviewed first-party family-practice and patient-registration pages, plus independently indexed Waterloo Wellington Healthline walk-in listing and an address-matched OpenStreetMap clinic point. No live appointment submission, telephone inquiry or Ontario licensing conclusion.",
       "care_model_basis": "First-party clinic service pages distinguish continuous family-physician care from separate walk-in treatment. Registration link appears on family-practice page.",
-      "care_model_source": "https://fairwaymedical.ca/services/walk-in-practice-2/",
+      "care_model_source": "https://fairwaymedical.ca/services/family-practice/",
       "clinic_address_verified": true,
       "address_verification_source": "https://www.wwhealthline.ca/displayService.aspx?id=227298",
       "address_verified_on": "2026-11-20",
@@ -11951,7 +11951,7 @@
         "scope": "location",
         "reviewed_on": "2026-11-20",
         "method": "public_webpage_review",
-        "source_url": "https://fairwaymedical.ca/services/walk-in-practice-2/",
+        "source_url": "https://fairwaymedical.ca/services/family-practice/",
         "finding": "First-party family-practice page advertises continuous care and specifically offers new-patient registration, distinct from its walk-in service. Clinic-wide applications advertised, but no individual physician roster guarantee or evidence of immediate appointment placement.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
@@ -11968,7 +11968,7 @@
         "reviewed_on": "2026-11-20",
         "finding": "Separate first-party family-practice page offers new-patient registration and continuous care. Current physician-specific capacity, eligibility and form security not independently confirmed.",
         "sources": [
-          "https://fairwaymedical.ca/services/walk-in-practice-2/",
+          "https://fairwaymedical.ca/services/family-practice/",
           "https://fairwaymedical.ca/patient-registration/"
         ]
       }
