@@ -14,6 +14,7 @@ from common import ROOT,load_data,is_url
 from intake_evidence import classify, REVIEW_CLASSIFIER_VERSION
 from auto_evidence import decisive_statement, observe, first_party, publication_candidate, scope_fingerprint
 from source_observation import REVIEW_VERSION, document_context, normalize_text
+from review_queue_policy import consolidate_pending, record_change
 DATA=ROOT/'data';state_path=DATA/'source_state.json';queue_path=DATA/'review_queue.json'
 state=json.loads(state_path.read_text());queue=json.loads(queue_path.read_text());clinics=load_data()['clinics']
 extra=json.loads((DATA/'discovery_sources.json').read_text())
@@ -142,7 +143,8 @@ def fetch_one(pair):
 def run():
     now=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
     items=list(urlmap.items())
-    changed=0;failed=0;baseline=0;ok=0;version_baselines=0
+    collapsed=consolidate_pending(queue)
+    changed=0;new_cases=0;failed=0;baseline=0;ok=0;version_baselines=0
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         for url,result in pool.map(fetch_one,items):
             prev=state['sources'].get(url,{})
@@ -182,7 +184,7 @@ def run():
                 version_baselines+=1;continue
             if oldhash!=newhash:
                 changed+=1
-                queue['items'].append({
+                created=record_change(queue, {
                   # Returning to an earlier content hash is a new transition,
                   # even if a review item for that content was already resolved.
                   # Unchanged repeated scans are deduplicated by the state hash.
@@ -197,7 +199,8 @@ def run():
                   'possible_claim':result['assessment']['classification'],
                   'matched_excerpts':result['assessment']['excerpts'],
                   'note':'Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.'})
-    state['last_run']=now;state['last_summary']={'urls':len(items),'success':ok,'failed':failed,'new_baselines':baseline,'extraction_version_baselines':version_baselines,'extraction_version':REVIEW_VERSION,'source_changes_queued':changed}
+                new_cases+=int(created)
+    state['last_run']=now;state['last_summary']={'urls':len(items),'success':ok,'failed':failed,'new_baselines':baseline,'extraction_version_baselines':version_baselines,'extraction_version':REVIEW_VERSION,'source_changes_detected':changed,'source_changes_queued':new_cases,'pending_duplicates_consolidated':collapsed}
     state_path.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     queue_path.write_text(json.dumps(queue,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print('Source monitor:',state['last_summary'])
