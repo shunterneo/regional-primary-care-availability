@@ -833,6 +833,29 @@
       "intake_status": "unconfirmed",
       "radius_checked": false,
       "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
+    },
+    {
+      "id": "36d7562b12397ff6d7",
+      "detected_at": "2026-11-24",
+      "title": "Huron Perth Ontario Health Team — attachment pathway",
+      "url": "https://hpaoht.ca/get-primary-care/",
+      "source_directory": "huron_perth_oht",
+      "source_name": "Huron Perth Ontario Health Team — attachment pathway",
+      "extraction_version": "directory-v4",
+      "source_signature": "8c4f20a023de656b7ebbfc6e63555436e7a92ed0f31e9defd20a572f675ff67e",
+      "source_url": "https://hpaoht.ca/get-primary-care/",
+      "source_mode": "page",
+      "event_sequence": 1,
+      "review_status": "pending",
+      "proposed_action": "Check modified directory text; confirm clinic-specific ongoing patient intake if applicable",
+      "prior_excerpt": "Register for a Family Doctor or Nurse Practitioner - Huron Perth & Area Ontario Health Team Health811 Call 811(TTY: 1-866-797-0007) Ontario Caregiver Helpline 1-833-416-2273(CARE) Register for a Family Doctor or Nurse Practitioner If you live in Huron or Perth County and are looking for a family doctor or nurse practitioner, or for care closer to home (within a 30-minute drive), you can register to be matched. You do not need to leave y",
+      "current_excerpt": "Register for a Family Doctor or Nurse Practitioner - Huron Perth & Area Ontario Health Team Health811 Call 811(TTY: 1-866-797-0007) Ontario Caregiver Helpline 1-833-416-2273(CARE) Register for a Family Doctor or Nurse Practitioner If you live in Huron or Perth County and are looking for a family doctor or nurse practitioner, or for care closer to home (within a 30-minute drive), you can register to be matched. You do not need to leave y",
+      "prior_content_hash": "c5521b192ad73e4304b0a4c7020e774572e31f3a5b5101d10e4eb3f4563b86a1",
+      "current_content_hash": "6bf446594130c8680590fd323a3d23a307e723e0fc2a3b40d7982febe443c426",
+      "preview_unchanged": true,
+      "intake_status": "unconfirmed",
+      "radius_checked": false,
+      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
     }
   ]
 }

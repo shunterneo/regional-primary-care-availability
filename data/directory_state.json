@@ -819,7 +819,7 @@
           "title": "Huron Perth Ontario Health Team — attachment pathway",
           "excerpt": "Register for a Family Doctor or Nurse Practitioner - Huron Perth & Area Ontario Health Team Health811 Call 811(TTY: 1-866-797-0007) Ontario Caregiver Helpline 1-833-416-2273(CARE) Register for a Family Doctor or Nurse Practitioner If you live in Huron or Perth County and are looking for a family doctor or nurse practitioner, or for care closer to home (within a 30-minute drive), you can register to be matched. You do not need to leave y",
           "link": "https://hpaoht.ca/get-primary-care/",
-          "content_hash": "c5521b192ad73e4304b0a4c7020e774572e31f3a5b5101d10e4eb3f4563b86a1",
+          "content_hash": "6bf446594130c8680590fd323a3d23a307e723e0fc2a3b40d7982febe443c426",
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
@@ -828,11 +828,11 @@
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
-      "fingerprint": "1569425e1710f5ce96550f4d4a9ea13329119e462b5187f20edc359c0f4329be",
+      "fingerprint": "a53d2df4b6424729cd879406ac607bc42439626d9d843d0b072838ec560ebb7a",
       "extraction_version": "directory-v4",
       "source_signature": "8c4f20a023de656b7ebbfc6e63555436e7a92ed0f31e9defd20a572f675ff67e",
       "baseline_reason": null,
-      "event_sequence": 0
+      "event_sequence": 1
     },
     "elmdale_family_physician": {
       "entries": {
@@ -866,7 +866,7 @@
     "version_baselines": 0,
     "zero_result_news": 1,
     "new_directory_leads": 1,
-    "listing_removals_to_review": 1,
+    "listing_removals_to_review": 0,
     "errors": []
   }
 }
