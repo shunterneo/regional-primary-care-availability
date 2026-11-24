@@ -792,6 +792,47 @@
         "c123"
       ],
       "reviewer_note": "Current LDAM entry matches existing c123 Dr. Gerald Okafor at Baseline Medical Clinic. Retained third-party reported category and visit/call registration route. Newly observed Migranium form could not be verified; no unverified application link added and no duplicate clinic created."
+    },
+    {
+      "id": "42fe4a3f0933656441",
+      "detected_at": "2026-11-24",
+      "title": "Dr. Isabella Callaghan",
+      "url": "https://www.doctors4cambridge.com/contact.htm",
+      "source_directory": "cambridge_recruitment",
+      "source_name": "Doctors4Cambridge — recruitment and accepting directory",
+      "extraction_version": "directory-v4",
+      "source_signature": "766bb5b31d9eccb36294cfa0b4de1299babd9578dc9f11b5b9bb413cc42bad8c",
+      "source_url": "https://www.doctors4cambridge.com/contact.htm",
+      "source_mode": "table",
+      "event_sequence": 2,
+      "review_status": "pending",
+      "proposed_action": "Check whether directory listing was removed or renamed",
+      "intake_status": "unconfirmed",
+      "radius_checked": false,
+      "note": "Removal from one webpage is NEVER proof that intake closed or that the clinic closed."
+    },
+    {
+      "id": "8920aa23ab64b567ec",
+      "detected_at": "2026-11-24",
+      "title": "Oxford OHT — primary care resources for unattached patients",
+      "url": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+      "source_directory": "oxford_oht",
+      "source_name": "Oxford OHT — primary care resources for unattached patients",
+      "extraction_version": "directory-v4",
+      "source_signature": "9446165d4ad80f8cd1007f2eea89e016eca11bf6b0270b4e2a759e4dc701527d",
+      "source_url": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+      "source_mode": "page",
+      "event_sequence": 1,
+      "review_status": "pending",
+      "proposed_action": "Check modified directory text; confirm clinic-specific ongoing patient intake if applicable",
+      "prior_excerpt": "Find Services – Oxford OHT Website Home About Us Our Work Our Partner Directory Partner Spotlights Find Services Resources Tillsonburg Unattached Care Clinic Cancer Screening Community Member Resources News and Events More Contact Get Involved Find Services Home Find Services Health Services for People Without a Family Doctor or Nurse Practitioner IF YOU ARE EXPERIENCING A HEALTH EMERGENCY, CALL 911 PDF Download - Full Colour (Sept 9, 2",
+      "current_excerpt": "Find Services – Oxford OHT Website Home About Us Our Work Our Partner Directory Partner Spotlights Find Services Resources Tillsonburg Unattached Care Clinic Cancer Screening Community Member Resources News and Events More Contact Get Involved Find Services Home Find Services Health Services for People Without a Family Doctor or Nurse Practitioner IF YOU ARE EXPERIENCING A HEALTH EMERGENCY, CALL 911 PDF Download - Full Colour (Sept 9, 2",
+      "prior_content_hash": "d48c2e897319170f3a467cbb85866138ec0e216025556b38c872d73b676afefe",
+      "current_content_hash": "8404e19a55413da950b4554c53510d8ed779095599d9812cdb062a0c4cb12183",
+      "preview_unchanged": true,
+      "intake_status": "unconfirmed",
+      "radius_checked": false,
+      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
     }
   ]
 }
