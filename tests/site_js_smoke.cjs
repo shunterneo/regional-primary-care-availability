@@ -19,7 +19,28 @@ const timers=[];const context={document,console,Math,Set,JSON,Intl,TextEncoder,s
 vm.runInNewContext(scriptMatch[1].replace('})();','globalThis.features={distanceTo,filtered,setFilter,chosen,filterControls,openEditor,reviewEdit,pdfBytes,docxBytes,csvBytes,exportRows,selectedClinics};})();'),context, {timeout:3000,filename:'site-inline.js'});
 assert.equal(ids.mTotal.textContent,N);assert.equal(ids.mIntake.textContent,numFor('accepting'));assert.equal(ids.mLeads.textContent,numFor('reported'));
 assert.equal(ids.results.children.length,N);assert.equal(ids.map.children.filter(x=>x.tag==='g').length,TOWNS);
-context.features.setFilter('status',['accepting']);assert.equal(ids.results.children.length,numFor('accepting')+3);
+const isQualifiedHofer=c=>c.id==='c073'&&c.display_status==='reported'&&c.care_model==='ongoing'&&c.evidence_url==='https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/'&&c.intake_verification?.tier==='authoritative_secondary'&&c.intake_verification?.scope==='named_clinician'&&c.intake_verification?.source_url===c.evidence_url&&c.uncertainty_reason==='no_first_party_confirmation';
+context.features.setFilter('status',['accepting']);assert.equal(ids.results.children.length,numFor('accepting')+3+Number(DATA.clinics.some(isQualifiedHofer)));
+const hofer=DATA.clinics.find(c=>c.id==='c073');
+assert(hofer,'Norwich clinic present');
+const hoferActive=isQualifiedHofer(hofer);
+if(hoferActive){
+ const card=ids.results.children.find(n=>n.innerText.includes(hofer.name));
+ assert(card,'Hofer discovery through Applications advertised filter');
+ assert(card.children.some(n=>n.className==='pills'&&n.children.some(p=>p.className==='pill reported'&&p.textContent.includes('Accepting (Oxford OHT report)'))),'Blue qualified acceptance badge');
+ assert(card.innerText.includes('The physician register confirms the office details, not openings.')&&card.innerText.includes('Confirm with the office'),'Ambiguity displayed adjacent to badge');
+ assert(card.innerText.includes('Oxford OHT intake report'),'Source named on the card');
+ assert.equal(ids.mIntake.textContent,numFor('accepting'),'No change to direct-only metric');
+ const activeHofer=context.features.filtered().find(c=>c.id==='c073');
+ const savedTier=activeHofer.intake_verification.tier;
+ activeHofer.intake_verification.tier='third_party';
+ assert(!context.features.filtered().some(c=>c.id==='c073'),'Non-OHT evidence is excluded from the applications filter');
+ activeHofer.intake_verification.tier=savedTier;
+ const old=activeHofer.display_status;
+ activeHofer.display_status='needs_review';
+ assert(!context.features.filtered().some(c=>c.id==='c073'),'Historical acceptance cannot bypass expiry');
+ activeHofer.display_status=old;
+}
 context.features.setFilter('status',['reported']);assert.equal(ids.results.children.length,numFor('reported'));
 context.features.setFilter('status',['all']);
 ids.search.handlers.input({target:{value:'Oxfordia'}});const match=C=>C.filter(c=>c.name.toLowerCase().includes('oxfordia')).length;assert.equal(ids.results.children.length,match(DATA.clinics));
@@ -42,8 +63,8 @@ assert.equal(context.features.distanceTo({latitude:null,longitude:null}),null);
 assert.equal(context.features.distanceTo({latitude:100,longitude:0}),null);
 assert(context.features.distanceTo({latitude:42.8654+25/6371*180/Math.PI,longitude:-80.7228})>24.9999);
 context.features.setFilter('town',['Tillsonburg','Kitchener']);assert(context.features.filtered().length>radiusRows.length);
-context.features.setFilter('status',['accepting']);assert(context.features.filtered().every(c=>c.display_status==='accepting'));
-context.features.setFilter('town',[]);assert(ids.surrounding.disabled);assert.equal(context.features.filtered().length,numFor('accepting')+3);
+context.features.setFilter('status',['accepting']);assert(context.features.filtered().every(c=>c.display_status==='accepting'||isQualifiedHofer(c)));
+context.features.setFilter('town',[]);assert(ids.surrounding.disabled);assert.equal(context.features.filtered().length,numFor('accepting')+3+Number(DATA.clinics.some(isQualifiedHofer)));
 ids.reset.handlers.click();assert.equal(context.features.filtered().length,N);assert(ids.surrounding.disabled);assert(!ids.surrounding.checked);
 console.log('PASS: surrounding-area inclusion, sort, missing/invalid coordinates, multiple communities, combined filters, filtered export and reset');
 console.log(`PASS: ${N} records; ${numFor("accepting")} direct; ${numFor("reported")} reported; clinic filters and ${TOWNS} SVG markers; no patient-address entry`);
@@ -58,6 +79,7 @@ console.log('PASS: selected/all exports, CSV injection protection, edit review a
 const researched=DATA.clinics.find(c=>c.online_review_text);
 assert(researched,'research finding present');
 assert(ids.results.children.some(card=>card.children.some(n=>n.className==='research')),'research disclosure rendered');
+if(hoferActive) for(const output of [f.csvBytes([hofer]),f.pdfBytes([hofer]),new TextDecoder().decode(f.docxBytes([hofer]))]){assert(output.includes('Oxford Ontario Health Team'));assert(output.includes('not a clinic-owned statement'));}
 assert(f.csvBytes([researched]).includes(researched.online_review.finding.replace(/"/g,'""')),'CSV preserves research finding');
 assert(f.pdfBytes([researched]).includes('Online research:'),'PDF preserves research context');
 assert(new TextDecoder().decode(f.docxBytes([researched])).includes('Online research:'),'Word preserves research context');
