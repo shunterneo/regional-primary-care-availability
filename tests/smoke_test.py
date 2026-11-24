@@ -15,6 +15,17 @@ sys.path.insert(0,str(ROOT/'scripts'))
 from common import effective_status
 expected_accepting=sum(effective_status(c,date.today())=='accepting' for c in records)
 expected_reported=sum(effective_status(c,date.today())=='reported' for c in records)
+def advertised_network_lead(c):
+ status=effective_status(c,date.today())
+ return status=='reported' and (
+  (c.get('id') in ('c006','c007','c010') and c.get('evidence_url')=='https://thompsonmedical.ca/new-patients/')
+  or (c.get('id')=='c073' and c.get('care_model')=='ongoing'
+      and c.get('evidence_url')=='https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/'
+      and (c.get('intake_verification') or {}).get('tier')=='authoritative_secondary'
+      and (c.get('intake_verification') or {}).get('scope')=='named_clinician'
+      and (c.get('intake_verification') or {}).get('source_url')==c.get('evidence_url')
+      and c.get('uncertainty_reason')=='no_first_party_confirmation'))
+expected_advertised=sum(advertised_network_lead(c) for c in records)
 class Quiet(http.server.SimpleHTTPRequestHandler):
  def log_message(self,*args): pass
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(ROOT/'site')))
@@ -37,12 +48,12 @@ with sync_playwright() as p:
  page.on('pageerror',lambda err:errors.append(str(err)))
  page.goto(url);page.wait_for_selector('.item')
  print('INITIAL',page.locator('#count').inner_text());assert page.locator('.item').count()==N
- choose_filter(page,'status','accepting');assert page.locator('.item').count()==expected_accepting
+ choose_filter(page,'status','accepting');assert page.locator('.item').count()==expected_accepting+expected_advertised
  choose_filter(page,'status','reported');assert page.locator('.item').count()==expected_reported
  choose_filter(page,'status','accepting','waitlist')
- assert page.locator('.item').count()==sum(effective_status(c,date.today()) in ('accepting','waitlist') for c in records)
+ assert page.locator('.item').count()==sum(effective_status(c,date.today()) in ('accepting','waitlist') or advertised_network_lead(c) for c in records)
  choose_filter(page,'town','Tillsonburg','Woodstock')
- assert page.locator('.item').count()==sum(effective_status(c,date.today()) in ('accepting','waitlist') and c['community'] in ('Tillsonburg','Woodstock') for c in records)
+ assert page.locator('.item').count()==sum((effective_status(c,date.today()) in ('accepting','waitlist') or advertised_network_lead(c)) and c['community'] in ('Tillsonburg','Woodstock') for c in records)
  choose_filter(page,'town','all')
  choose_filter(page,'status','all');page.locator('#search').fill('Oxfordia')
  assert page.locator('.item').count()==1 and 'Oxfordia' in page.locator('.item').first.inner_text()
