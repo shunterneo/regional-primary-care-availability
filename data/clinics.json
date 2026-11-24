@@ -8,7 +8,7 @@
     "coordinate_source": "https://www.openstreetmap.org/way/564144865",
     "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit"
   },
-  "data_as_of": "2026-11-21",
+  "data_as_of": "2026-11-24",
   "clinics": [
     {
       "id": "c001",
@@ -3597,28 +3597,28 @@
       "community": "Norwich",
       "address": "11 Stover Street North",
       "clinic_type": "MD",
-      "status": "unknown",
-      "intake_detail": "Public physician-register record identifies this practice; it does not establish new-patient intake. No current clinic-specific acceptance notice was located.",
+      "status": "reported",
+      "intake_detail": "Oxford Ontario Health Team currently lists Dr. Michael Hofer at 11 Stover Street North among primary-care providers accepting patients and publishes an email registration route: michaelhofermd@gmail.com, subject NEW PATIENT REGISTRATION. Call 226-325-0108 if clarification is needed. The OHT report is not a clinic-owned statement; individual eligibility, roster capacity and enrolment remain unconfirmed. No publication date is attached to this specific listing.",
       "phone": "226-325-0108",
       "providers": "Michael Hofer",
-      "evidence_url": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
+      "evidence_url": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
       "clinic_url": "",
-      "source_published": "2026-11-06",
-      "last_reviewed": "2026-11-11",
+      "source_published": "",
+      "last_reviewed": "2026-11-24",
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "community_distance_km": 17.1,
       "notes": "",
-      "review_basis": "Individual public-source review on 2026-11-11. Reviewed does not mean intake confirmed; no telephone verification.",
+      "review_basis": "Oxford OHT live public intake listing checked November 24, 2026; CPSO family medicine practice address and phone corroborate office identity, not intake. No office contact or application submitted.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
       "intake_verification": {
-        "tier": "unverified",
+        "tier": "authoritative_secondary",
         "scope": "named_clinician",
-        "reviewed_on": "2026-11-11",
+        "reviewed_on": "2026-11-24",
         "method": "public_webpage_review",
-        "source_url": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
-        "finding": "Public physician-register record identifies this practice; it does not establish new-patient intake. No current clinic-specific acceptance notice was located.",
+        "source_url": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+        "finding": "Oxford Ontario Health Team currently lists Dr. Michael Hofer at 11 Stover Street North among primary-care providers accepting patients and publishes an email registration route: michaelhofermd@gmail.com, subject NEW PATIENT REGISTRATION. Call 226-325-0108 if clarification is needed. The OHT report is not a clinic-owned statement; individual eligibility, roster capacity and enrolment remain unconfirmed. No publication date is attached to this specific listing.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -3634,15 +3634,27 @@
       "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit",
       "coordinate_reviewed_on": "2026-11-12",
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Physician-name search finds register office and patient-review pages, not a current clinic-owned intake statement.",
+        "reviewed_on": "2026-11-24",
+        "finding": "Oxford Ontario Health Team currently lists Dr. Michael Hofer at 11 Stover Street North among primary-care providers accepting patients and publishes an email registration route: michaelhofermd@gmail.com, subject NEW PATIENT REGISTRATION. Call 226-325-0108 if clarification is needed. The OHT report is not a clinic-owned statement; individual eligibility, roster capacity and enrolment remain unconfirmed. No publication date is attached to this specific listing.",
         "sources": [
+          "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
           "https://register.cpso.on.ca/physician-info/?cpsonum=86657"
         ]
       },
-      "uncertainty_reason": "no_current_statement",
-      "uncertainty_label": "No current office-specific intake established",
-      "professional_register_url": "https://register.cpso.on.ca/physician-info/?cpsonum=86657"
+      "uncertainty_reason": "no_first_party_confirmation",
+      "uncertainty_label": "Regional OHT intake report; direct confirmation outstanding",
+      "professional_register_url": "https://register.cpso.on.ca/physician-info/?cpsonum=86657",
+      "application_url": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+      "intake_reviewed_on": "2026-11-24",
+      "auto_updates_enabled": false,
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-24",
+        "finding": "Oxford Ontario Health Team currently lists Dr. Michael Hofer at 11 Stover Street North among primary-care providers accepting patients and publishes an email registration route: michaelhofermd@gmail.com, subject NEW PATIENT REGISTRATION. Call 226-325-0108 if clarification is needed. The OHT report is not a clinic-owned statement; individual eligibility, roster capacity and enrolment remain unconfirmed. No publication date is attached to this specific listing.",
+        "sources": [
+          "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+          "https://register.cpso.on.ca/physician-info/?cpsonum=86657"
+        ]
+      }
     },
     {
       "id": "c074",
@@ -12315,7 +12327,7 @@
       "source_published": "",
       "last_reviewed": "2026-11-21",
       "location_quality": "verified public clinic coordinate; user supplied",
-      "community_distance_km": 69.0,
+      "community_distance_km": 69,
       "latitude": 43.45868,
       "longitude": -80.47268,
       "coordinate_source": "https://mapcarta.com/N2187677694",
@@ -12341,7 +12353,7 @@
       "source_published": "",
       "last_reviewed": "2026-11-21",
       "location_quality": "verified public clinic coordinate; user supplied",
-      "community_distance_km": 69.0,
+      "community_distance_km": 69,
       "latitude": 43.45868,
       "longitude": -80.47268,
       "coordinate_source": "https://mapcarta.com/N2187677694",
