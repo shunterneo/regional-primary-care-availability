@@ -3752,5 +3752,15 @@
     "type": "public_intake_route_clarification",
     "source": "https://thompsonmedical.ca/new-patients/",
     "reviewer_note": "Official shared intake page and contact listing reviewed November 21, 2026. First form screen observed; no answers entered or submission made. No office-specific capacity or enrolment confirmation. Clinic lists phone option 3 for this office. Keep reported as a network-level lead."
+  },
+  {
+    "date": "2026-11-24",
+    "clinic_id": "c073",
+    "clinic_name": "Dr. Michael Hofer — Family Medicine",
+    "old_status": "unknown",
+    "new_status": "reported",
+    "type": "reviewed_authoritative_secondary_intake_report",
+    "source": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+    "reviewer_note": "Live Oxford OHT list gives exact named physician, civic address, phone and public email registration route. CPSO confirms family medicine and office identity, not intake. No dated clinic-owned statement or telephone confirmation; no green status or guaranteed attachment."
   }
 ]
