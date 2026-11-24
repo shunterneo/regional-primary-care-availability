@@ -249,6 +249,42 @@
       "proposed_action": "Verify exact public building pin and 75-km straight-line radius, check duplicate outreach locations, then consider a distinct walk-in-only listing—not an accepting family practice.",
       "note": "Official operator explicitly calls this an outreach drop-in clinic with no appointment. No roster claims. Not submitted to intake; no patient data.",
       "evidence_checked_on": "2026-11-22"
+    },
+    {
+      "detected_at": "2026-11-24T13:00:00+00:00",
+      "source_type": "authoritative_secondary",
+      "news_link": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+      "within_75km": "not verified",
+      "current_intake": "regional report only",
+      "review_status": "pending",
+      "id": "oxford-oht-thamesford-np-20261124",
+      "title": "Thamesford Medical Centre — NP registration via Health Care Connect",
+      "proposed_action": "Verify exact public clinic coordinates and named NP / attachment eligibility; add reviewed clinic record if distinct",
+      "note": "Oxford OHT lists NP intake at 141 Dundas Street West, 519-285-3770, via Health Care Connect. Township of Zorra and CPSO confirm Dr. Panagiotis Diavolitsis family practice at Unit 4 but do not establish NP intake or physician roster availability. No exact public building coordinate verified yet. See https://www.zorra.ca/our-services/protective-services/medical-and-police/ and https://register.cpso.on.ca/physician-info/?cpsonum=91209. No first-party accepting claim."
+    },
+    {
+      "detected_at": "2026-11-24T13:00:00+00:00",
+      "source_type": "authoritative_secondary",
+      "news_link": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+      "within_75km": "not verified",
+      "current_intake": "regional report only",
+      "review_status": "pending",
+      "id": "oxford-oht-woodstock-alnoman-20261124",
+      "title": "Oxford OHT names Dr. Mustafa Al-Noman — 300 Main Street Unit 4 Woodstock",
+      "proposed_action": "Verify physician identity with CPSO, current operator and exact address coordinates before adding",
+      "note": "OHT lists named doctor as accepting, 519-290-5080. CPSO #94552 and other sources associate the same office/phone with SHIFA Family Practice / Dr. Jehan Zaib and Dr. Ali Abdulhussein. Distinct new provider identity not established; no clinic-owned intake statement. Do not duplicate office or infer clinician identity. https://register.cpso.on.ca/physician-info/?cpsonum=94552."
+    },
+    {
+      "detected_at": "2026-11-24T13:00:00+00:00",
+      "source_type": "authoritative_secondary",
+      "news_link": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+      "within_75km": "existing Woodstock record; exact point not reverified",
+      "current_intake": "already listed; no new intake status claim",
+      "review_status": "pending",
+      "id": "oxfordia-suite-discrepancy-20261124",
+      "title": "Oxfordia Medical Centre — suite/telephone discrepancy",
+      "proposed_action": "Check current clinic-owned address and phone against OHT, amend c012 only after verification",
+      "note": "Oxford OHT lists Suite 304, phone 519-430-8186; existing c012 stores Suite 300 and 519-340-8186. Clinic homepage was unreadable in current direct retrieval. City announcement Oct 1 and local news Nov 13 corroborate ongoing family practice but not these exact details. Do not overwrite confirmed prior office details without stronger evidence."
     }
   ]
 }
