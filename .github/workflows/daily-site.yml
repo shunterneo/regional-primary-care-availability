@@ -82,6 +82,8 @@ jobs:
       - name: Run offline functional, privacy and evidence tests
         run: |
           python tests/reliability_test.py
+          python tests/review_queue_policy_test.py
+          python tests/live_publication_test.py
           node tests/freshness_test.cjs
           python tests/monitor_fixture_test.py
           python tests/source_recovery_test.py
@@ -167,3 +169,10 @@ jobs:
           path: site
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify deployed HTML, report, Word and PDF against build
+        if: steps.deployment.outcome == 'success'
+        run: |
+          python scripts/verify_live_publication.py \
+            --base-url 'https://shunterneo.github.io/regional-primary-care-availability/' \
+            --site-dir site

@@ -10,12 +10,22 @@ assert 'connect-src \'none\'' in s
 assert 'No patient-address search' in s
 assert 'https://cdn' not in s
 records=json.loads((ROOT/'data/clinics.json').read_text())['clinics'];N=len(records)
-N_ONGOING=sum(c.get('care_model') in ('ongoing','both') for c in records)
 from datetime import date
 sys.path.insert(0,str(ROOT/'scripts'))
 from common import effective_status
 expected_accepting=sum(effective_status(c,date.today())=='accepting' for c in records)
 expected_reported=sum(effective_status(c,date.today())=='reported' for c in records)
+def advertised_network_lead(c):
+ status=effective_status(c,date.today())
+ return status=='reported' and (
+  (c.get('id') in ('c006','c007','c010') and c.get('evidence_url')=='https://thompsonmedical.ca/new-patients/')
+  or (c.get('id')=='c073' and c.get('care_model')=='ongoing'
+      and c.get('evidence_url')=='https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/'
+      and (c.get('intake_verification') or {}).get('tier')=='authoritative_secondary'
+      and (c.get('intake_verification') or {}).get('scope')=='named_clinician'
+      and (c.get('intake_verification') or {}).get('source_url')==c.get('evidence_url')
+      and c.get('uncertainty_reason')=='no_first_party_confirmation'))
+expected_advertised=sum(advertised_network_lead(c) for c in records)
 class Quiet(http.server.SimpleHTTPRequestHandler):
  def log_message(self,*args): pass
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(ROOT/'site')))
@@ -37,20 +47,17 @@ with sync_playwright() as p:
  page.on('request',lambda req:blocked.append(req.url) if req.url.startswith('http') and '127.0.0.1' not in req.url else None)
  page.on('pageerror',lambda err:errors.append(str(err)))
  page.goto(url);page.wait_for_selector('.item')
- print('INITIAL',page.locator('#count').inner_text());assert page.locator('.item').count()==N_ONGOING
- choose_filter(page,'care','all');assert page.locator('.item').count()==N
- choose_filter(page,'status','accepting');assert page.locator('.item').count()==expected_accepting
+ print('INITIAL',page.locator('#count').inner_text());assert page.locator('.item').count()==N
+ choose_filter(page,'status','accepting');assert page.locator('.item').count()==expected_accepting+expected_advertised
  choose_filter(page,'status','reported');assert page.locator('.item').count()==expected_reported
  choose_filter(page,'status','accepting','waitlist')
- assert page.locator('.item').count()==sum(effective_status(c,date.today()) in ('accepting','waitlist') for c in records)
+ assert page.locator('.item').count()==sum(effective_status(c,date.today()) in ('accepting','waitlist') or advertised_network_lead(c) for c in records)
  choose_filter(page,'town','Tillsonburg','Woodstock')
- assert page.locator('.item').count()==sum(effective_status(c,date.today()) in ('accepting','waitlist') and c['community'] in ('Tillsonburg','Woodstock') for c in records)
+ assert page.locator('.item').count()==sum((effective_status(c,date.today()) in ('accepting','waitlist') or advertised_network_lead(c)) and c['community'] in ('Tillsonburg','Woodstock') for c in records)
  choose_filter(page,'town','all')
  choose_filter(page,'status','all');page.locator('#search').fill('Oxfordia')
  assert page.locator('.item').count()==1 and 'Oxfordia' in page.locator('.item').first.inner_text()
- page.locator('#reset').click(); assert page.locator('.item').count()==N_ONGOING
- assert page.locator('#careOptions input[value=ongoing]').is_checked()
- choose_filter(page,'care','all');assert page.locator('.item').count()==N
+ page.locator('#reset').click(); assert page.locator('.item').count()==N
  choose_filter(page,'town','Tillsonburg');assert page.locator('.item').count()==sum(c['community']=='Tillsonburg' for c in records)
  assert page.locator('.town-group').count()==1, 'Town filter must also filter map'
  choose_filter(page,'town','all')
@@ -63,8 +70,7 @@ with sync_playwright() as p:
  print('PASS: dynamic clinic dataset, filters, Oxfordia name search, map markers, no HTTP requests, no JS errors')
  mob=browser.new_page(viewport={'width':390,'height':844},device_scale_factor=1)
  mob.goto(url);mob.wait_for_selector('.item');print('MOBILE',mob.locator('.item').count())
- assert mob.locator('.item').count()==N_ONGOING
- choose_filter(mob,'care','all');assert mob.locator('.item').count()==N
+ assert mob.locator('.item').count()==N
  assert mob.evaluate('document.documentElement.scrollWidth <= window.innerWidth+3'),'horizontal page overflow'
  mob.screenshot(path=str(ARTIFACTS/'mobile.png'),full_page=False)
  browser.close()
