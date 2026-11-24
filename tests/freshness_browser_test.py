@@ -20,7 +20,7 @@ with sync_playwright() as p:
     page.goto((root/'site/index.html').as_uri())
     assert page.locator('#mIntake').inner_text()=='0','Old static build must not advertise expired openings'
     choose_filter(page,'status','accepting')
-    assert page.locator('#results .item').count()==0
+    assert page.locator('#results .item .pill.accepting').count()==0, 'Expired first-party green labels must not remain green even when separately labeled network leads are discoverable'
     choose_filter(page,'status','needs_review')
     assert page.locator('#results .item').count()>0
     page.click('#downloadOpen')
