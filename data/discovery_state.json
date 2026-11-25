@@ -10,28 +10,15 @@
     "e8bc06968d802950": "2026-11-12T20:51:42+00:00",
     "5ebc6bc3d748fc97": "2026-11-14T18:45:12+00:00"
   },
-  "last_run": "2026-11-24T23:02:43+00:00",
+  "last_run": "2026-11-25T22:34:31+00:00",
   "last_summary": {
     "queries_attempted": 20,
-    "queries_failed": 3,
-    "feed_items_seen": 14,
+    "queries_failed": 0,
+    "feed_items_seen": 3,
     "new_leads_queued": 0,
     "duplicates_skipped": 0,
-    "headlines_filtered": 14,
-    "errors": [
-      {
-        "query": "Mount Brydges Ilderton Ailsa Craig family doctor new patients",
-        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Mount+Brydges+Ilderton+Ailsa+Craig+family+doctor+new+patie"
-      },
-      {
-        "query": "Stratford Perth family physician nurse practitioner new patients",
-        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Stratford+Perth+family+physician+nurse+practitioner+new+pa"
-      },
-      {
-        "query": "London Ontario nurse practitioner clinic attachment enrollment",
-        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=London+Ontario+nurse+practitioner+clinic+attachment+enroll"
-      }
-    ]
+    "headlines_filtered": 3,
+    "errors": []
   },
-  "next_query_index": 14
+  "next_query_index": 34
 }
