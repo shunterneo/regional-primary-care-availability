@@ -3762,5 +3762,15 @@
     "type": "reviewed_authoritative_secondary_intake_report",
     "source": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
     "reviewer_note": "Live Oxford OHT list gives exact named physician, civic address, phone and public email registration route. CPSO confirms family medicine and office identity, not intake. No dated clinic-owned statement or telephone confirmation; no green status or guaranteed attachment."
+  },
+  {
+    "date": "2026-11-25",
+    "clinic_id": "c021",
+    "clinic_name": "Coronation Family Physicians",
+    "old_status": "waitlist",
+    "new_status": "accepting",
+    "type": "reviewed_clinic_first_party_intake_change",
+    "source": "https://www.coronationfamilyphysicians.ca/accepting-new-patients",
+    "reviewer_note": "Fresh indexed dedicated clinic intake page (crawled Nov 24) and homepage (crawled Nov 25) identify seven named family physicians accepting applications at the same Suite 201 office. Direct rendering and linked form inspection unavailable; applications do not guarantee attachment. Dr. Susan Rawal not listed as accepting. Existing single office record retained; existing address-matched coordinates yield 69.28 km straight-line."
   }
 ]
