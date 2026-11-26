@@ -100,8 +100,8 @@
           "content_hash": "1fa8de19713d16f8bffb0e6f3d666722b4c5f959a7ca104ac98e4ee3f37f0d52"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 12,
@@ -162,8 +162,8 @@
           "content_hash": "b4b6918af57dfcb910ca2447a2e9403711a1814f07b9ab1db3a200a4f41d2c61"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 6,
@@ -296,8 +296,8 @@
           "content_hash": "d653b99e5288a22f59b5aa1b4a854f1478d31c7f4e87c6473a3318ef7be12807"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 15,
@@ -408,8 +408,8 @@
           "content_hash": "63f039146ab5673a1e2fd6bed5936a5f0c387bdfac1b6a0ed284affa3e645f41"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 11,
@@ -421,8 +421,8 @@
     },
     "woodstock_news": {
       "entries": {},
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 0,
@@ -443,8 +443,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -507,8 +507,8 @@
           "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 5,
@@ -571,8 +571,8 @@
           "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 5,
@@ -779,8 +779,8 @@
           "content_hash": "40e5896b798fb019836724155e9b931531c13f253dc1cd19ce6187b033e15bcf"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 23,
@@ -795,22 +795,22 @@
         "page": {
           "key": "page",
           "title": "Norfolk Family Health Team — find a doctor or NP",
-          "excerpt": "Find a Doctor or Nurse Practitioner - Norfolk Family Health Team Skip to content FOR PATIENTS | FIND A DOCTOR or NURSE PRACTITIONER Find a Doctor or Nurse Practitioner Health Care Connect helps Ontarians who are without a family health care provider (family doctor or nurse practitioner) to find one. People without a family health care provider are referred to a family doctor or a nurse practitioner who is accepting new patients in their",
+          "excerpt": "One moment, please... Please wait while your request is being verified...",
           "link": "https://norfolkfht.ca/find-a-doctor/",
-          "content_hash": "07147f28afc994f366003191e8e9eef10b8f107a017c42396d249cd670f95c75",
+          "content_hash": "8cba8925c762de6847edc6a7dc3d0e17be4dc8b54f9f2f593f743d4de4beaf00",
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
-      "fingerprint": "87e9cd69679fa80bdd4c3d98a6193dcf5eeeac51bd234eef511c68ba5a5d0948",
+      "fingerprint": "aedaf7c3b2c0a25a9a6643a7f85eb806ef9393e9587d746bc4c1aed55fe0ccec",
       "extraction_version": "directory-v4",
       "source_signature": "c294e8b8de013daa139eb1cfd56dffa4029ea9f4d346e728a32350b91fa3773c",
       "baseline_reason": null,
-      "event_sequence": 0
+      "event_sequence": 1
     },
     "huron_perth_oht": {
       "entries": {
@@ -823,8 +823,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -845,8 +845,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-25",
-      "last_success": "2026-11-25",
+      "last_attempt": "2026-11-26",
+      "last_success": "2026-11-26",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -857,7 +857,7 @@
       "event_sequence": 0
     }
   },
-  "last_run": "2026-11-25",
+  "last_run": "2026-11-26",
   "last_summary": {
     "sources": 12,
     "success": 12,
@@ -865,7 +865,7 @@
     "baselines": 0,
     "version_baselines": 0,
     "zero_result_news": 1,
-    "new_directory_leads": 0,
+    "new_directory_leads": 1,
     "listing_removals_to_review": 0,
     "errors": []
   }

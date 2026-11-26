@@ -856,6 +856,29 @@
       "intake_status": "unconfirmed",
       "radius_checked": false,
       "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
+    },
+    {
+      "id": "132ec10368f499b1af",
+      "detected_at": "2026-11-26",
+      "title": "Norfolk Family Health Team — find a doctor or NP",
+      "url": "https://norfolkfht.ca/find-a-doctor/",
+      "source_directory": "norfolk_fht_resources",
+      "source_name": "Norfolk Family Health Team — find a doctor or NP",
+      "extraction_version": "directory-v4",
+      "source_signature": "c294e8b8de013daa139eb1cfd56dffa4029ea9f4d346e728a32350b91fa3773c",
+      "source_url": "https://norfolkfht.ca/find-a-doctor/",
+      "source_mode": "page",
+      "event_sequence": 1,
+      "review_status": "pending",
+      "proposed_action": "Check modified directory text; confirm clinic-specific ongoing patient intake if applicable",
+      "prior_excerpt": "Find a Doctor or Nurse Practitioner - Norfolk Family Health Team Skip to content FOR PATIENTS | FIND A DOCTOR or NURSE PRACTITIONER Find a Doctor or Nurse Practitioner Health Care Connect helps Ontarians who are without a family health care provider (family doctor or nurse practitioner) to find one. People without a family health care provider are referred to a family doctor or a nurse practitioner who is accepting new patients in their",
+      "current_excerpt": "One moment, please... Please wait while your request is being verified...",
+      "prior_content_hash": "07147f28afc994f366003191e8e9eef10b8f107a017c42396d249cd670f95c75",
+      "current_content_hash": "8cba8925c762de6847edc6a7dc3d0e17be4dc8b54f9f2f593f743d4de4beaf00",
+      "preview_unchanged": false,
+      "intake_status": "unconfirmed",
+      "radius_checked": false,
+      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
     }
   ]
 }
