@@ -284,7 +284,8 @@
       "id": "oxfordia-suite-discrepancy-20261124",
       "title": "Oxfordia Medical Centre — suite/telephone discrepancy",
       "proposed_action": "Check current clinic-owned address and phone against OHT, amend c012 only after verification",
-      "note": "Oxford OHT lists Suite 304, phone 519-430-8186; existing c012 stores Suite 300 and 519-340-8186. Clinic homepage was unreadable in current direct retrieval. City announcement Oct 1 and local news Nov 13 corroborate ongoing family practice but not these exact details. Do not overwrite confirmed prior office details without stronger evidence."
+      "note": "Oxford OHT lists Suite 304, phone 519-430-8186; existing c012 stores Suite 300 and 519-340-8186. Clinic homepage was unreadable in current direct retrieval. City announcement Oct 1 and local news Nov 13 corroborate ongoing family practice but not these exact details. Do not overwrite confirmed prior office details without stronger evidence. November 26 review: current OHT repeats discrepancy and official clinic page remains unreadable; public record now flags both contact versions and has previously verified same-building coordinates. Exact suite/telephone still pending.",
+      "last_reviewed": "2026-11-26"
     }
   ]
 }

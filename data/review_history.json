@@ -3772,5 +3772,15 @@
     "type": "reviewed_clinic_first_party_intake_change",
     "source": "https://www.coronationfamilyphysicians.ca/accepting-new-patients",
     "reviewer_note": "Fresh indexed dedicated clinic intake page (crawled Nov 24) and homepage (crawled Nov 25) identify seven named family physicians accepting applications at the same Suite 201 office. Direct rendering and linked form inspection unavailable; applications do not guarantee attachment. Dr. Susan Rawal not listed as accepting. Existing single office record retained; existing address-matched coordinates yield 69.28 km straight-line."
+  },
+  {
+    "date": "2026-11-26",
+    "clinic_id": "c012",
+    "clinic_name": "Oxfordia Medical Centre — Dr. Hamza Aman",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "type": "public_contact_conflict_and_building_coordinate_correction",
+    "source": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+    "reviewer_note": "Contact discrepancy (checked November 26, 2026): Oxford OHT lists Suite 304 and 519-430-8186; the previously reviewed clinic website listed Suite 300 and 519-340-8186. The clinic website could not be rendered today. Verify the suite and phone through the official registration website before visiting; the building address is consistent. Same-civic-address building coordinates copied from previously verified c095/c097, 29.77 km from configured origin. No new intake capacity inferred; prior clinic-first-party review date retained."
   }
 ]

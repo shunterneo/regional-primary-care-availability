@@ -613,17 +613,17 @@
       "address": "600 Princess Street, Suite 300",
       "clinic_type": "MD",
       "status": "accepting",
-      "intake_detail": "Oxfordia’s own website names Dr. Hamza Aman and invites new patients to book a registration visit through its linked Ocean booking service. Registration does not guarantee attachment.",
+      "intake_detail": "Oxfordia’s own website names Dr. Hamza Aman and invites new patients to book a registration visit through its linked Ocean booking service. Registration does not guarantee attachment. Contact discrepancy (checked November 26, 2026): Oxford OHT lists Suite 304 and 519-430-8186; the previously reviewed clinic website listed Suite 300 and 519-340-8186. The clinic website could not be rendered today. Verify the suite and phone through the official registration website before visiting; the building address is consistent.",
       "phone": "519-340-8186",
       "providers": "Dr. Hamza Aman",
       "evidence_url": "https://oxfordiamedical.com/",
       "clinic_url": "https://oxfordiamedical.com/",
       "source_published": "2026-10-01",
       "last_reviewed": "2026-11-12",
-      "location_quality": "Clinic street address and suite verified; map remains community-level.",
+      "location_quality": "Building address confirmed; same-building map point from prior reviewed records; suite and telephone discrepancy remains unresolved.",
       "community_distance_km": 30.2,
-      "notes": "Clinic-owned Woodstock address resolves the earlier discrepancy with a different CPSO primary business location.",
-      "review_basis": "Clinic-owned public page reviewed online on 2026-11-12; no telephone contact; application does not guarantee enrolment.",
+      "notes": "Clinic-owned Woodstock address resolves the earlier discrepancy with a different CPSO primary business location. Contact discrepancy (checked November 26, 2026): Oxford OHT lists Suite 304 and 519-430-8186; the previously reviewed clinic website listed Suite 300 and 519-340-8186. The clinic website could not be rendered today. Verify the suite and phone through the official registration website before visiting; the building address is consistent.",
+      "review_basis": "Clinic-owned public page reviewed online on 2026-11-12; no telephone contact; application does not guarantee enrolment. November 26, 2026: Oxford OHT continues to list Dr. Aman under accepting patients; City of Woodstock October 1 announcement confirms the registration pathway. Prior first-party intake date retained; direct page unreadable and phone/suite conflict remains.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.cityofwoodstock.ca/news/posts/new-family-physician-opens-oxfordia-medical-centre-in-woodstock/",
@@ -644,9 +644,16 @@
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Clinic-owned live homepage explicitly publishes physician, street address, suite and phone.",
       "additional_sources": [
-        "https://register.cpso.on.ca/physician-info/?cpsonum=277205"
+        "https://register.cpso.on.ca/physician-info/?cpsonum=277205",
+        "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+        "https://www.cityofwoodstock.ca/news/posts/new-family-physician-opens-oxfordia-medical-centre-in-woodstock/"
       ],
-      "auto_updates_enabled": false
+      "auto_updates_enabled": false,
+      "latitude": 43.13239,
+      "longitude": -80.751914,
+      "coordinate_source": "https://www.openstreetmap.org/node/2323818552",
+      "coordinate_quality": "Previously verified address-matched building point at the same civic address (c095 and c097); not a suite entrance. Original source not independently accessible on November 26.",
+      "coordinate_reviewed_on": "2026-11-12"
     },
     {
       "id": "c013",
