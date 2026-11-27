@@ -149,10 +149,11 @@
       "within_75km": "not verified",
       "current_intake": "not verified",
       "review_status": "pending",
-      "note": "Unverified lead only, not an active clinic listing or confirmed opening. The website advertises family-practice registration but labels both named doctors not accepting, shows every day closed, and provides no Tillsonburg booking phone. The new-patient page displays 416-555-0123. Coward PharmaChoice independently lists the same address, but that does not confirm or disprove a separate clinic. Do not use the medical-history form as a verified application route. Independent operation and identity evidence is required; do not infer fraud, closure or acceptance.",
+      "note": "Unverified lead only, not an active clinic listing or confirmed opening. The website advertises family-practice registration but labels both named doctors not accepting, shows every day closed, and provides no Tillsonburg booking phone. The new-patient page displays 416-555-0123. Coward PharmaChoice independently lists the same address, but that does not confirm or disprove a separate clinic. Do not use the medical-history form as a verified application route. Independent operation and identity evidence is required; do not infer fraud, closure or acceptance. November 27: direct page inaccessible; operation remains unverified.",
       "reviewed_on": "2026-11-17",
       "review_outcome": "Unverified; conflicting website content and direct access limitation",
-      "reviewer_note": "Direct access redirected to an inaccessible bare-domain page during this review. Indexed first-party text still mixes general family-practice registration wording with both named doctors not accepting, all days closed, no Tillsonburg booking phone, and a placeholder central phone. Indexed content is not fresh rendered-page verification. Keep pending, do not publish an active-clinic or acceptance claim, and do not direct patients to its medical-history form. Independent operating identity and clinic-controlled contact remain necessary; do not infer fraud or permanent closure."
+      "reviewer_note": "Direct access redirected to an inaccessible bare-domain page during this review. Indexed first-party text still mixes general family-practice registration wording with both named doctors not accepting, all days closed, no Tillsonburg booking phone, and a placeholder central phone. Indexed content is not fresh rendered-page verification. Keep pending, do not publish an active-clinic or acceptance claim, and do not direct patients to its medical-history form. Independent operating identity and clinic-controlled contact remain necessary; do not infer fraud or permanent closure.",
+      "last_reviewed": "2026-11-27"
     },
     {
       "id": "kgk-wellington-london-review-20261118",
@@ -188,7 +189,8 @@
       "within_75km": "not individually checked",
       "current_intake": "family care registration open for future service; not current clinician attachment",
       "review_status": "pending",
-      "note": "Unverified office-specific future enrollment; do not treat walk-in visits as attachment."
+      "note": "Unverified office-specific future enrollment; do not treat walk-in visits as attachment. November 27: operator page confirms advance registration for future family care, but does not identify which of its two locations will provide ongoing care. Keep pending location-specific verification; no form submitted.",
+      "last_reviewed": "2026-11-27"
     },
     {
       "id": "frederick-family-medicine-450-review-20261120",
@@ -224,11 +226,17 @@
       "hours_from_operator": "Wednesday 9–11 a.m.",
       "eligibility": "Unattached residents facing barriers to access; operator excludes clients with an existing provider and some other groups. No OHIP card needed; check program page.",
       "phone": "226-388-4725",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "within_75km": "Pending exact premises-coordinate confirmation; no community-centre fallback allowed",
       "proposed_action": "Verify exact public building pin and 75-km straight-line radius, check duplicate outreach locations, then consider a distinct walk-in-only listing—not an accepting family practice.",
       "note": "Official operator explicitly calls this an outreach drop-in clinic with no appointment. No roster claims. Not submitted to intake; no patient data.",
-      "evidence_checked_on": "2026-11-22"
+      "evidence_checked_on": "2026-11-22",
+      "reviewed_on": "2026-11-27",
+      "review_outcome": "Outreach drop-in only; no ongoing attachment evidence",
+      "reviewer_note": "Operator page independently reviewed: both Brantford sites provide non-urgent drop-in outreach from Nov 3, 2026; no site-specific roster application advertised. No intake status change.",
+      "review_sources": [
+        null
+      ]
     },
     {
       "id": "grchc-st-andrews-outreach-20261122",
@@ -244,11 +252,17 @@
       "hours_from_operator": "Tuesday noon–3 p.m.; Wednesday noon–3 p.m.",
       "eligibility": "Unattached residents facing barriers to access; operator excludes clients with an existing provider and some other groups. No OHIP card needed; check program page.",
       "phone": "226-388-4725",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "within_75km": "Pending exact premises-coordinate confirmation; no community-centre fallback allowed",
       "proposed_action": "Verify exact public building pin and 75-km straight-line radius, check duplicate outreach locations, then consider a distinct walk-in-only listing—not an accepting family practice.",
       "note": "Official operator explicitly calls this an outreach drop-in clinic with no appointment. No roster claims. Not submitted to intake; no patient data.",
-      "evidence_checked_on": "2026-11-22"
+      "evidence_checked_on": "2026-11-22",
+      "reviewed_on": "2026-11-27",
+      "review_outcome": "Outreach drop-in only; no ongoing attachment evidence",
+      "reviewer_note": "Operator page independently reviewed: both Brantford sites provide non-urgent drop-in outreach from Nov 3, 2026; no site-specific roster application advertised. No intake status change.",
+      "review_sources": [
+        null
+      ]
     },
     {
       "detected_at": "2026-11-24T13:00:00+00:00",
@@ -260,7 +274,8 @@
       "id": "oxford-oht-thamesford-np-20261124",
       "title": "Thamesford Medical Centre — NP registration via Health Care Connect",
       "proposed_action": "Verify exact public clinic coordinates and named NP / attachment eligibility; add reviewed clinic record if distinct",
-      "note": "Oxford OHT lists NP intake at 141 Dundas Street West, 519-285-3770, via Health Care Connect. Township of Zorra and CPSO confirm Dr. Panagiotis Diavolitsis family practice at Unit 4 but do not establish NP intake or physician roster availability. No exact public building coordinate verified yet. See https://www.zorra.ca/our-services/protective-services/medical-and-police/ and https://register.cpso.on.ca/physician-info/?cpsonum=91209. No first-party accepting claim."
+      "note": "Oxford OHT lists NP intake at 141 Dundas Street West, 519-285-3770, via Health Care Connect. Township of Zorra and CPSO confirm Dr. Panagiotis Diavolitsis family practice at Unit 4 but do not establish NP intake or physician roster availability. No exact public building coordinate verified yet. See https://www.zorra.ca/our-services/protective-services/medical-and-police/ and https://register.cpso.on.ca/physician-info/?cpsonum=91209. No first-party accepting claim. November 27: Oxford OHT page independently reopened and repeats the reported information; no new clinic-owned confirmation obtained.",
+      "last_reviewed": "2026-11-27"
     },
     {
       "detected_at": "2026-11-24T13:00:00+00:00",
@@ -272,7 +287,8 @@
       "id": "oxford-oht-woodstock-alnoman-20261124",
       "title": "Oxford OHT names Dr. Mustafa Al-Noman — 300 Main Street Unit 4 Woodstock",
       "proposed_action": "Verify physician identity with CPSO, current operator and exact address coordinates before adding",
-      "note": "OHT lists named doctor as accepting, 519-290-5080. CPSO #94552 and other sources associate the same office/phone with SHIFA Family Practice / Dr. Jehan Zaib and Dr. Ali Abdulhussein. Distinct new provider identity not established; no clinic-owned intake statement. Do not duplicate office or infer clinician identity. https://register.cpso.on.ca/physician-info/?cpsonum=94552."
+      "note": "OHT lists named doctor as accepting, 519-290-5080. CPSO #94552 and other sources associate the same office/phone with SHIFA Family Practice / Dr. Jehan Zaib and Dr. Ali Abdulhussein. Distinct new provider identity not established; no clinic-owned intake statement. Do not duplicate office or infer clinician identity. https://register.cpso.on.ca/physician-info/?cpsonum=94552. November 27: Oxford OHT page independently reopened and repeats the reported information; no new clinic-owned confirmation obtained.",
+      "last_reviewed": "2026-11-27"
     },
     {
       "detected_at": "2026-11-24T13:00:00+00:00",
@@ -284,8 +300,8 @@
       "id": "oxfordia-suite-discrepancy-20261124",
       "title": "Oxfordia Medical Centre — suite/telephone discrepancy",
       "proposed_action": "Check current clinic-owned address and phone against OHT, amend c012 only after verification",
-      "note": "Oxford OHT lists Suite 304, phone 519-430-8186; existing c012 stores Suite 300 and 519-340-8186. Clinic homepage was unreadable in current direct retrieval. City announcement Oct 1 and local news Nov 13 corroborate ongoing family practice but not these exact details. Do not overwrite confirmed prior office details without stronger evidence. November 26 review: current OHT repeats discrepancy and official clinic page remains unreadable; public record now flags both contact versions and has previously verified same-building coordinates. Exact suite/telephone still pending.",
-      "last_reviewed": "2026-11-26"
+      "note": "Oxford OHT lists Suite 304, phone 519-430-8186; existing c012 stores Suite 300 and 519-340-8186. Clinic homepage was unreadable in current direct retrieval. City announcement Oct 1 and local news Nov 13 corroborate ongoing family practice but not these exact details. Do not overwrite confirmed prior office details without stronger evidence. November 26 review: current OHT repeats discrepancy and official clinic page remains unreadable; public record now flags both contact versions and has previously verified same-building coordinates. Exact suite/telephone still pending. November 27: Oxford OHT page independently reopened and repeats the reported information; no new clinic-owned confirmation obtained.",
+      "last_reviewed": "2026-11-27"
     }
   ]
 }
