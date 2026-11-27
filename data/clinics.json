@@ -8,7 +8,7 @@
     "coordinate_source": "https://www.openstreetmap.org/way/564144865",
     "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit"
   },
-  "data_as_of": "2026-11-25",
+  "data_as_of": "2026-11-27",
   "clinics": [
     {
       "id": "c001",
@@ -12379,6 +12379,187 @@
       "coordinate_checked_on": "2026-11-21",
       "notes": "",
       "review_basis": "Official Kitchener contact page and CPSO 128221/81973 corroborate exact suite; building pin from OSM-based mapping. The shared homepage covers Kitchener and Waterloo. The presence of a printable form does not establish a current Kitchener waitlist."
+    },
+    {
+      "id": "c249",
+      "name": "De dwa da dehs nye>s Aboriginal Health Centre — Brantford",
+      "community": "Brantford",
+      "address": "36 King Street, Brantford, ON N3T 3C5",
+      "clinic_type": "AHAC",
+      "care_model": "ongoing",
+      "care_model_basis": "Official homepage explicitly welcomes new primary-care patients at all locations and states eligibility; official Brantford location page identifies 36 King Street as primary care, separate from 72 Brant Avenue mental health. Official primary-care service page describes MD/NP team and ongoing disease management. Ontario Health atHome listing corroborates address and care model (updated October 28, 2025). Address-matched Healthline directions link gives coordinates 43.1400,-80.2675; map point, not surveyed entrance. No telephone contact or form submission.",
+      "care_model_source": "https://aboriginalhealthcentre.com/brantford/",
+      "status": "limited",
+      "intake_detail": "The centre advertises new primary-care patient requests at all locations. Eligibility: people identifying as First Nations (status or non-status), Métis or Inuit, or a direct household member of a current DAHC patient. Submit the New Patient Request form on the official homepage or call the Brantford primary-care office. Application does not guarantee enrolment, a named clinician, or immediate attachment. Specific roster capacity and further eligibility are unconfirmed.",
+      "phone": "519-752-4340",
+      "providers": "Family physicians and nurse practitioners (team; individual capacity unknown)",
+      "evidence_url": "https://aboriginalhealthcentre.com/",
+      "clinic_url": "https://aboriginalhealthcentre.com/brantford/",
+      "source_published": "",
+      "last_reviewed": "2026-11-27",
+      "location_quality": "Public Healthline address-matched service map point; not a surveyed entrance.",
+      "community_distance_km": 47.98,
+      "latitude": 43.14,
+      "longitude": -80.2675,
+      "coordinate_source": "https://www.hnhbhealthline.ca/mapService.aspx?id=182578",
+      "coordinate_checked_on": "2026-11-27",
+      "coordinate_quality": "Address-matched public Healthline office map point",
+      "notes": "Official intake notice undated. Older Healthline listing gives general eligibility and documentation information; current first-party eligibility wording controls. No named provider availability. No form fields inspected.",
+      "review_basis": "Official homepage explicitly welcomes new primary-care patients at all locations and states eligibility; official Brantford location page identifies 36 King Street as primary care, separate from 72 Brant Avenue mental health. Official primary-care service page describes MD/NP team and ongoing disease management. Ontario Health atHome listing corroborates address and care model (updated October 28, 2025). Address-matched Healthline directions link gives coordinates 43.1400,-80.2675; map point, not surveyed entrance. No telephone contact or form submission.",
+      "confidence": "High for care model, location and advertised eligibility-limited application pathway; actual capacity unknown.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://aboriginalhealthcentre.com/brantford/",
+      "address_verified_on": "2026-11-27",
+      "address_verification_scope": "Public civic office address independently corroborated; no patient information.",
+      "auto_updates_enabled": false,
+      "intake_reviewed_by_phone": false,
+      "online_review": {
+        "reviewed_on": "2026-11-27",
+        "finding": "Official homepage explicitly welcomes new primary-care patients at all locations and states eligibility; official Brantford location page identifies 36 King Street as primary care, separate from 72 Brant Avenue mental health. Official primary-care service page describes MD/NP team and ongoing disease management. Ontario Health atHome listing corroborates address and care model (updated October 28, 2025). Address-matched Healthline directions link gives coordinates 43.1400,-80.2675; map point, not surveyed entrance. No telephone contact or form submission.",
+        "sources": [
+          "https://aboriginalhealthcentre.com/",
+          "https://aboriginalhealthcentre.com/brantford/",
+          "https://aboriginalhealthcentre.com/primary-health-care/",
+          "https://www.hnhbhealthline.ca/displayService.aspx?id=182578"
+        ]
+      },
+      "intake_reviewed_on": "2026-11-27",
+      "application_url": "https://aboriginalhealthcentre.com/",
+      "intake_verification": {
+        "tier": "clinic_first_party",
+        "scope": "location",
+        "reviewed_on": "2026-11-27",
+        "method": "public_webpage_review",
+        "source_url": "https://aboriginalhealthcentre.com/",
+        "finding": "The centre advertises new primary-care patient requests at all locations. Eligibility: people identifying as First Nations (status or non-status), Métis or Inuit, or a direct household member of a current DAHC patient. Submit the New Patient Request form on the official homepage or call the Brantford primary-care office. Application does not guarantee enrolment, a named clinician, or immediate attachment. Specific roster capacity and further eligibility are unconfirmed.",
+        "telephone_confirmed": false,
+        "enrolment_guaranteed": false
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-27",
+        "finding": "The centre advertises new primary-care patient requests at all locations. Eligibility: people identifying as First Nations (status or non-status), Métis or Inuit, or a direct household member of a current DAHC patient. Submit the New Patient Request form on the official homepage or call the Brantford primary-care office. Application does not guarantee enrolment, a named clinician, or immediate attachment. Specific roster capacity and further eligibility are unconfirmed.",
+        "sources": [
+          "https://aboriginalhealthcentre.com/",
+          "https://aboriginalhealthcentre.com/brantford/",
+          "https://aboriginalhealthcentre.com/primary-health-care/",
+          "https://www.hnhbhealthline.ca/displayService.aspx?id=182578"
+        ]
+      }
+    },
+    {
+      "id": "c250",
+      "name": "Brantford Medical — Brantford Commons",
+      "community": "Brantford",
+      "address": "300 King George Road, Unit H4, Brantford, ON N3R 5L8",
+      "clinic_type": "MD",
+      "care_model": "ongoing",
+      "care_model_basis": "First-party homepage retrieved November 27 identifies family practice and no walk-in clinic. Healthline (June 2, 2026) and 211 (February 5, 2026) corroborate civic address and telephone but the Healthline walk-in description conflicts with current official website. Healthline address-matched directions link gives 43.1805,-80.2799. Public office point, not surveyed entrance. No contact or form submission.",
+      "care_model_source": "https://brantfordmedical.ca/",
+      "status": "unknown",
+      "intake_detail": "Clinic website identifies family practice and states appointments are for registered patients, with no walk-in clinic. No current new-patient family-practice intake statement or enrolment form was found. Call the clinic to inquire; do not interpret appointment access or older directory walk-in wording as ongoing enrolment.",
+      "phone": "519-304-8010",
+      "providers": "Male and female family physicians (names not confirmed)",
+      "evidence_url": "https://brantfordmedical.ca/",
+      "clinic_url": "https://brantfordmedical.ca/",
+      "source_published": "",
+      "last_reviewed": "2026-11-27",
+      "location_quality": "Public Healthline address-matched service map point; not a surveyed entrance.",
+      "community_distance_km": 50.23,
+      "latitude": 43.1805,
+      "longitude": -80.2799,
+      "coordinate_source": "https://www.hnhbhealthline.ca/mapService.aspx?id=213002",
+      "coordinate_checked_on": "2026-11-27",
+      "coordinate_quality": "Address-matched public Healthline office map point",
+      "notes": "Official clinic notice undated. Healthline describes associated walk-in; current clinic homepage expressly says no walk-in. 211 postal code N3R 5L7 differs from Healthline N3R 5L8; civic address and unit match. Call to confirm current service and postal code.",
+      "review_basis": "First-party homepage retrieved November 27 identifies family practice and no walk-in clinic. Healthline (June 2, 2026) and 211 (February 5, 2026) corroborate civic address and telephone but the Healthline walk-in description conflicts with current official website. Healthline address-matched directions link gives 43.1805,-80.2799. Public office point, not surveyed entrance. No contact or form submission.",
+      "confidence": "High for office and family practice; no verified intake; conflicting walk-in descriptions.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.hnhbhealthline.ca/displayService.aspx?id=213002",
+      "address_verified_on": "2026-11-27",
+      "address_verification_scope": "Public civic office address independently corroborated; no patient information.",
+      "auto_updates_enabled": false,
+      "intake_reviewed_by_phone": false,
+      "online_review": {
+        "reviewed_on": "2026-11-27",
+        "finding": "First-party homepage retrieved November 27 identifies family practice and no walk-in clinic. Healthline (June 2, 2026) and 211 (February 5, 2026) corroborate civic address and telephone but the Healthline walk-in description conflicts with current official website. Healthline address-matched directions link gives 43.1805,-80.2799. Public office point, not surveyed entrance. No contact or form submission.",
+        "sources": [
+          "https://brantfordmedical.ca/",
+          "https://www.hnhbhealthline.ca/displayService.aspx?id=213002",
+          "https://211ontario.ca/service/79932864/"
+        ]
+      },
+      "walk_in_review": {
+        "status": "uncertain",
+        "reviewed_on": "2026-11-27",
+        "finding": "Current clinic website says no walk-in; June 2026 Healthline directory describes walk-in. Do not advertise walk-in access without clarification.",
+        "sources": [
+          "https://brantfordmedical.ca/",
+          "https://www.hnhbhealthline.ca/displayService.aspx?id=213002",
+          "https://211ontario.ca/service/79932864/"
+        ]
+      },
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-27",
+        "finding": "Clinic website identifies family practice and states appointments are for registered patients, with no walk-in clinic. No current new-patient family-practice intake statement or enrolment form was found. Call the clinic to inquire; do not interpret appointment access or older directory walk-in wording as ongoing enrolment.",
+        "sources": [
+          "https://brantfordmedical.ca/",
+          "https://www.hnhbhealthline.ca/displayService.aspx?id=213002",
+          "https://211ontario.ca/service/79932864/"
+        ]
+      }
+    },
+    {
+      "id": "c251",
+      "name": "Brantford West Medical Centre — walk-in",
+      "community": "Brantford",
+      "address": "164 Colborne Street West, Unit 2A, Brantford, ON N3T 2L1",
+      "clinic_type": "MD",
+      "care_model": "walk_in_only",
+      "care_model_basis": "Ontario Health atHome and 211 identify walk-in medical clinic at same address and phone. Indexed clinic homepage corroborates office and describes family-focused care without explicit roster attachment; direct page timed out. Classify documented service as walk-in only, ongoing model unverified pending direct evidence. Healthline address-matched directions link gives coordinates 43.1316,-80.2763, not surveyed entrance.",
+      "care_model_source": "https://www.brantfordclinic.com/",
+      "status": "unknown",
+      "intake_detail": "Documented episodic walk-in service for non-emergency medical needs; not an ongoing family physician or NP attachment pathway. The clinic website advertises family-focused care but does not establish ongoing patient rostering. Contact clinic for current walk-in hours and service eligibility; no family-practice applications verified.",
+      "phone": "519-304-9200",
+      "providers": "Physicians and nurses (names not confirmed)",
+      "evidence_url": "https://www.hnhbhealthline.ca/displayservice.aspx?id=183032",
+      "clinic_url": "https://www.brantfordclinic.com/",
+      "source_published": "",
+      "last_reviewed": "2026-11-27",
+      "location_quality": "Public Healthline address-matched service map point; not a surveyed entrance.",
+      "community_distance_km": 46.84,
+      "latitude": 43.1316,
+      "longitude": -80.2763,
+      "coordinate_source": "https://www.hnhbhealthline.ca/mapService.aspx?id=183032",
+      "coordinate_checked_on": "2026-11-27",
+      "coordinate_quality": "Address-matched public Healthline office map point",
+      "notes": "211 updated August 13, 2026; clinic page undated, direct rendering timed out. Do not infer ongoing attachment from family care terminology. Sources disagree on hours; no hours published in this record.",
+      "review_basis": "Ontario Health atHome and 211 identify walk-in medical clinic at same address and phone. Indexed clinic homepage corroborates office and describes family-focused care without explicit roster attachment; direct page timed out. Classify documented service as walk-in only, ongoing model unverified pending direct evidence. Healthline address-matched directions link gives coordinates 43.1316,-80.2763, not surveyed entrance.",
+      "confidence": "High for documented walk-in service and address; ongoing care and current hours unverified.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.hnhbhealthline.ca/displayservice.aspx?id=183032",
+      "address_verified_on": "2026-11-27",
+      "address_verification_scope": "Public civic office address independently corroborated; no patient information.",
+      "auto_updates_enabled": false,
+      "intake_reviewed_by_phone": false,
+      "online_review": {
+        "reviewed_on": "2026-11-27",
+        "finding": "Ontario Health atHome and 211 identify walk-in medical clinic at same address and phone. Indexed clinic homepage corroborates office and describes family-focused care without explicit roster attachment; direct page timed out. Classify documented service as walk-in only, ongoing model unverified pending direct evidence. Healthline address-matched directions link gives coordinates 43.1316,-80.2763, not surveyed entrance.",
+        "sources": [
+          "https://www.brantfordclinic.com/",
+          "https://www.hnhbhealthline.ca/displayservice.aspx?id=183032",
+          "https://211ontario.ca/service/79834675/brantford-west-medical-centre-walk-in-clinic/"
+        ]
+      },
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-27",
+        "finding": "Documented episodic walk-in service for non-emergency medical needs; not an ongoing family physician or NP attachment pathway. The clinic website advertises family-focused care but does not establish ongoing patient rostering. Contact clinic for current walk-in hours and service eligibility; no family-practice applications verified.",
+        "sources": [
+          "https://www.brantfordclinic.com/",
+          "https://www.hnhbhealthline.ca/displayservice.aspx?id=183032",
+          "https://211ontario.ca/service/79834675/brantford-west-medical-centre-walk-in-clinic/"
+        ]
+      }
     }
   ]
 }

@@ -3782,5 +3782,45 @@
     "type": "public_contact_conflict_and_building_coordinate_correction",
     "source": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
     "reviewer_note": "Contact discrepancy (checked November 26, 2026): Oxford OHT lists Suite 304 and 519-430-8186; the previously reviewed clinic website listed Suite 300 and 519-340-8186. The clinic website could not be rendered today. Verify the suite and phone through the official registration website before visiting; the building address is consistent. Same-civic-address building coordinates copied from previously verified c095/c097, 29.77 km from configured origin. No new intake capacity inferred; prior clinic-first-party review date retained."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c249",
+    "clinic_name": "De dwa da dehs nye>s Aboriginal Health Centre — Brantford",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "type": "reviewed_manual_clinic_addition",
+    "source": "https://aboriginalhealthcentre.com/",
+    "reviewer_note": "Official homepage explicitly welcomes new primary-care patients at all locations and states eligibility; official Brantford location page identifies 36 King Street as primary care, separate from 72 Brant Avenue mental health. Official primary-care service page describes MD/NP team and ongoing disease management. Ontario Health atHome listing corroborates address and care model (updated October 28, 2025). Address-matched Healthline directions link gives coordinates 43.1400,-80.2675; map point, not surveyed entrance. No telephone contact or form submission."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c249",
+    "clinic_name": "De dwa da dehs nye>s Aboriginal Health Centre — Brantford",
+    "old_status": "unknown",
+    "new_status": "limited",
+    "type": "reviewed_clinic_first_party_intake_change",
+    "source": "https://aboriginalhealthcentre.com/",
+    "reviewer_note": "The centre advertises new primary-care patient requests at all locations. Eligibility: people identifying as First Nations (status or non-status), Métis or Inuit, or a direct household member of a current DAHC patient. Submit the New Patient Request form on the official homepage or call the Brantford primary-care office. Application does not guarantee enrolment, a named clinician, or immediate attachment. Specific roster capacity and further eligibility are unconfirmed."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c250",
+    "clinic_name": "Brantford Medical — Brantford Commons",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "type": "reviewed_manual_clinic_addition",
+    "source": "https://brantfordmedical.ca/",
+    "reviewer_note": "First-party homepage retrieved November 27 identifies family practice and no walk-in clinic. Healthline (June 2, 2026) and 211 (February 5, 2026) corroborate civic address and telephone but the Healthline walk-in description conflicts with current official website. Healthline address-matched directions link gives 43.1805,-80.2799. Public office point, not surveyed entrance. No contact or form submission."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c251",
+    "clinic_name": "Brantford West Medical Centre — walk-in",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "type": "reviewed_manual_clinic_addition",
+    "source": "https://www.hnhbhealthline.ca/displayservice.aspx?id=183032",
+    "reviewer_note": "Ontario Health atHome and 211 identify walk-in medical clinic at same address and phone. Indexed clinic homepage corroborates office and describes family-focused care without explicit roster attachment; direct page timed out. Classify documented service as walk-in only, ongoing model unverified pending direct evidence. Healthline address-matched directions link gives coordinates 43.1316,-80.2763, not surveyed entrance."
   }
 ]
