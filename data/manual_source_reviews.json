@@ -68,31 +68,124 @@
       "finding": "About page is readable manually again. Its new-patient invitation is dental, not evidence that family-medicine rosters are open. Existing unconfirmed family-medicine status retained."
     },
     {
-      "source_url": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/",
+      "source_url": "https://starfht.ca/clinics_offices/avon-family-medicine-centre/",
       "reviewed_on": "2026-11-27",
       "method": "public_html_review",
-      "finding": "Official listing confirms the street address and phone number and explicitly says this is not a walk-in clinic. No current ongoing intake statement.",
-      "clinic_id": "c059"
+      "finding": "Official page confirms 511 Huron Street and 519-508-1212, says not open access, and does not establish family-practice intake."
     },
     {
-      "source_url": "https://thamesvalleyfht.ca/locations/oxford-st-josephs-family-health-organization/",
+      "source_url": "https://starfht.ca/clinics_offices/oloane-medical-clinic/",
       "reviewed_on": "2026-11-27",
       "method": "public_html_review",
-      "finding": "Official listing confirms the London address and phone number and directs callers to press 4. No current ongoing intake statement.",
-      "clinic_id": "c068"
+      "finding": "Official page confirms 700 O’Loane Avenue and 519-273-1060; same-day urgent appointments are described for existing patients, not new attachment."
     },
     {
-      "source_url": "https://thamesvalleyfht.ca/locations/elgin-community-health-hub/",
+      "source_url": "https://starfht.ca/clinics_offices/tavistock-community-health-inc/",
       "reviewed_on": "2026-11-27",
       "method": "public_html_review",
-      "finding": "Official listing confirms the address and appointment booking for non-FHT patients; it does not establish ongoing roster placement at this office.",
-      "clinic_id": "c079"
+      "finding": "Official page confirms 80 Maria Street and 519-655-2322; Wednesday afternoon is by appointment. No ongoing new-patient invitation found."
     },
     {
       "source_url": "https://thamesvalleyfht.ca/become-a-patient/",
       "reviewed_on": "2026-11-27",
       "method": "public_html_review",
-      "finding": "Central regional attachment-team application for nurse-practitioner care; not placement at a particular office or proof of a physician accepting."
+      "finding": "Official page advertises regional NP attachment applications. This does not establish named-clinician availability or placement at an individual office."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/chelsey-park-medical-centre/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "Current title is Oxford Medical Group, 312 Oxford Street West in London. Primary care number 519-432-6786 is distinct from the allied-health contact. Intake not stated."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/elgin-community-health-hub/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "230 First Avenue, Suite 109; public care appointment route for people without a provider, not confirmed permanent attachment."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/elmwood-family-health-organization/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "417 Wellington Street, Unit 111; 519-631-3223 is the practice contact. Existing patient appointments are not proof of new registration."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/forest-city-family-health-organization/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "450 Central Avenue, Lower Level LL99; listed number is for FHT services. No office-specific attachment invitation verified."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/london-602-queens-avenue/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "602 Queens Avenue; specialist low-barrier service for people experiencing homelessness. Official page explains referral and self-referral forms, not general roster intake."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "36 Heritage Drive, 519-666-1610. Explicitly not a walk-in clinic; new-patient attachment not stated."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/old-south-family-health-organization/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "460 Springbank Drive; suite and numbers vary by clinician. This team location page is for existing patient appointments, and it does not establish provider-specific roster openings. Dedicated intake pages are separate evidence."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/oxford-st-josephs-family-health-organization/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "346 Platt’s Lane in London; call 519-672-9660, press 4. No office-specific intake invitation found."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/strathroy-caradoc-family-health-organization/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "351 Frances Street, 226-726-8440; after-hours urgent clinic requires appointment, not an ongoing intake statement."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/strathroy-family-health-organization-ailsa-craig-site/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "147 Main Street, 519-293-3981 for family doctors; no new-patient intake statement."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/strathroy-family-health-organization/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "278 Metcalfe Street West, 519-245-3590 for existing family-doctor or NP contact; no stated roster opening."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/strathroy-medical-clinic/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "74 Front Street East, 519-245-0430 for family doctor or NP; new attachment not stated."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/victoria-family-health-centre-london-health-sciences-centre/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "60 Chesley Avenue; phone extension is for FHT appointments only, not confirmed new attachment."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/windemere-family-medical-centre/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "460 Wellington Street, Suite 301; reception is press 0. Extension 2285 is FHT only and after-hours care is for existing patients. New attachment not stated."
+    },
+    {
+      "source_url": "https://wchc.on.ca/registered-client-services/accepting-new-patients/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "Official form remains open for roster applications. It explicitly says the team is working through an existing list and prioritizing by need; site placement, wait and enrolment are not guaranteed."
+    },
+    {
+      "source_url": "https://wellclinics.ca/accepting-new-patients/ontario/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "Exact Ancaster and London locations appear with separate family-practice application links. The provider does not publish a position or wait time and does not guarantee placement."
     }
   ]
 }

@@ -3830,5 +3830,13 @@
     "new_status": "unknown",
     "source": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
     "reviewer_note": "Township of Zorra and the CPSO public register corroborate Suite 4 and the family practice. The Oxford Ontario Health Team describes a nurse-practitioner route through Health Care Connect, not direct physician registration. Approximate public street-address pin; not the unit entrance."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c143",
+    "old_status": "unknown",
+    "new_status": "waitlist",
+    "source": "https://wellclinics.ca/ontario/london/london-whmc/",
+    "reviewer_note": "The clinic’s London branch page has a separate Become a Patient link, and the Ontario intake page lists the same clinic at 140 Oxford Street East, Suite 300, with the same link. WELL does not publish a wait time or queue position. This is a family-practice registration route, not proof of appointment, capacity or attachment with any named clinician."
   }
 ]

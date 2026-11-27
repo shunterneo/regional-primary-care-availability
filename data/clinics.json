@@ -4015,7 +4015,8 @@
         ]
       },
       "uncertainty_reason": "no_current_statement",
-      "uncertainty_label": "No current office-specific intake established"
+      "uncertainty_label": "No current office-specific intake established",
+      "phone_note": "Call 519-631-5670 and press 0 for reception. Extension 2285 is for Family Health Team services. After-hours appointments are for existing Windemere patients only."
     },
     {
       "id": "c081",
@@ -7106,45 +7107,54 @@
       "phone": "519-473-6654",
       "providers": "Includes Dr. Victoria Soo; clinic has multiple family physicians",
       "clinic_type": "MD",
-      "status": "unknown",
+      "status": "waitlist",
       "care_model": "ongoing",
       "care_model_basis": "Clinic or FHO-owned page identifies this family-medicine office; no current new-patient intake notice established.",
       "care_model_source": "https://www.thamesriverfho.ca/doctors",
       "clinic_url": "https://wellclinics.ca/ontario/london/london-whmc/",
-      "evidence_url": "https://www.thamesriverfho.ca/doctors",
-      "intake_detail": "Clinic-owned page confirms the former HealthPark location at 140 Oxford Street East, Suite 300 and family-practice services. Existing appointment booking and network-wide acceptance navigation do not establish new-patient attachment at this branch. Expanded the existing Dr. Soo location record instead of duplicating the clinic.",
+      "evidence_url": "https://wellclinics.ca/ontario/london/london-whmc/",
+      "intake_detail": "WELL’s London location advertises a family-practice registration route. Select “Become a Patient” on the branch page, not “Book an Appointment.” WELL does not publish a wait time or queue position. Applying does not guarantee enrolment or placement with a particular clinician.",
       "source_published": "",
-      "last_reviewed": "2026-11-12",
-      "review_basis": "Clinic or FHO-owned page identifies this family-medicine office; no current new-patient intake notice established.",
+      "last_reviewed": "2026-11-27",
+      "review_basis": "The clinic’s London branch page has a separate Become a Patient link, and the Ontario intake page lists the same clinic at 140 Oxford Street East, Suite 300, with the same link. WELL does not publish a wait time or queue position. This is a family-practice registration route, not proof of appointment, capacity or attachment with any named clinician.",
       "clinic_address_verified": true,
       "address_verification_source": "https://www.thamesriverfho.ca/doctors",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Published clinical business address; not private corporate mailing address.",
       "location_quality": "Street address checked; map remains community-level approximate.",
       "community_distance_km": 44.6,
-      "notes": "",
+      "notes": "Location-specific application advertised; no direct form submission or capacity verification.",
       "auto_updates_enabled": false,
       "audit_scope": "Office discovered by register/FHO cross-check; not evidence of an opening.",
       "intake_reviewed_by_phone": false,
       "intake_verification": {
-        "tier": "unverified",
+        "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-27",
         "method": "public_webpage_review",
-        "source_url": "https://www.thamesriverfho.ca/doctors",
-        "finding": "Office identified; no current intake claim established.",
+        "source_url": "https://wellclinics.ca/ontario/london/london-whmc/",
+        "finding": "The clinic’s London branch page has a separate Become a Patient link, and the Ontario intake page lists the same clinic at 140 Oxford Street East, Suite 300, with the same link. WELL does not publish a wait time or queue position. This is a family-practice registration route, not proof of appointment, capacity or attachment with any named clinician.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
       "online_review": {
-        "reviewed_on": "2026-11-12",
-        "finding": "Clinic-owned page confirms the former HealthPark location at 140 Oxford Street East, Suite 300 and family-practice services. Existing appointment booking and network-wide acceptance navigation do not establish new-patient attachment at this branch. Expanded the existing Dr. Soo location record instead of duplicating the clinic.",
+        "reviewed_on": "2026-11-27",
+        "finding": "The clinic’s London branch page has a separate Become a Patient link, and the Ontario intake page lists the same clinic at 140 Oxford Street East, Suite 300, with the same link. WELL does not publish a wait time or queue position. This is a family-practice registration route, not proof of appointment, capacity or attachment with any named clinician.",
         "sources": [
-          "https://wellclinics.ca/ontario/london/london-whmc/"
+          "https://wellclinics.ca/ontario/london/london-whmc/",
+          "https://wellclinics.ca/accepting-new-patients/ontario/"
         ]
       },
-      "uncertainty_reason": "scope_unclear",
-      "uncertainty_label": "Application or program scope unclear"
+      "application_url": "https://wellclinics.ca/ontario/london/london-whmc/",
+      "intake_reviewed_on": "2026-11-27",
+      "ongoing_care_review": {
+        "reviewed_on": "2026-11-27",
+        "finding": "The clinic’s London branch page has a separate Become a Patient link, and the Ontario intake page lists the same clinic at 140 Oxford Street East, Suite 300, with the same link. WELL does not publish a wait time or queue position. This is a family-practice registration route, not proof of appointment, capacity or attachment with any named clinician.",
+        "sources": [
+          "https://wellclinics.ca/ontario/london/london-whmc/",
+          "https://wellclinics.ca/accepting-new-patients/ontario/"
+        ]
+      }
     },
     {
       "id": "c144",
