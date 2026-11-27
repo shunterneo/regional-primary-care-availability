@@ -54,6 +54,8 @@ report={
  'generated_on':today.isoformat(),'monitoring_health':monitoring_health(),'data_as_of':D.get('data_as_of',''), 'audit_summary':quality_summary,'count':len(clinics),'archived_count':len(archived),
  'communities':len({c['community'] for c in clinics}), 'verified_green_count':counts.get('accepting',0), 'status_counts':dict(counts),'evidence_policy':'clinic-specific public source; maximum 21 days; no phone/roster confirmation',
  'care_model_counts':dict(collections.Counter(c['care_model'] for c in clinics)),
+ 'clinic_coordinate_verified_count':sum('latitude' in c and 'longitude' in c for c in clinics),
+ 'clinic_coordinate_unverified_count':sum('latitude' not in c or 'longitude' not in c for c in clinics),
  'source_urls_monitored':len(source_state['sources']),'pending_source_reviews':len([r for r in queue['items'] if r.get('review_status')=='pending']),
  'pending_new_clinic_leads':len([r for r in discovery['items'] if r.get('review_status')=='pending']),
  'last_source_scan':source_state.get('last_run'),'last_discovery_scan':discovery_state.get('last_run'),
@@ -199,6 +201,7 @@ def make_pdf():
 site_json={
  'health_care_connect':{'text':HCC_TEXT,'url':HCC_URL,'reviewed_on':'2026-11-16'},
  'review_findings_counts':review_findings['counts'],
+ 'clinic_coordinate_unverified_count':report['clinic_coordinate_unverified_count'],
  'review_findings_input_errors':review_findings['input_errors'],
  'source_scan_summary':source_state.get('last_summary',{}),
  'generated_on':today.isoformat(), 'monitoring_health':monitoring_health(), 'data_as_of':D['data_as_of'], 'center':D['center'], 'community_coords':CITY_COORDS,
@@ -208,6 +211,7 @@ site_json={
 jsdata=json.dumps(site_json,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
 template=(ROOT/'scripts'/'site_template.html').read_text(encoding='utf8')
 template=template.replace('<!--HCC_GUIDANCE-->',html.escape(HCC_TEXT)).replace('HCC_SOURCE_URL',HCC_URL)
+template=template.replace('<!--LOCATION_VERIFICATION_COUNT-->',str(report['clinic_coordinate_unverified_count']))
 template=template.replace('// PDF_FONT_JS','const PDF_FONT='+ (ROOT/'scripts/fonts/pdf-font.json').read_text().strip()+';')
 template=template.replace('// FRESHNESS_JS',(ROOT/'scripts/freshness.js').read_text())
 template=template.replace('// FEATURES_JS',(ROOT/'scripts/site_features.js').read_text())
