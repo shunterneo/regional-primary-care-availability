@@ -2979,7 +2979,16 @@
         ]
       },
       "uncertainty_reason": "no_current_statement",
-      "uncertainty_label": "No current office-specific intake established"
+      "uncertainty_label": "No current office-specific intake established",
+      "walk_in_review": {
+        "status": "not_available",
+        "reviewed_on": "2026-11-27",
+        "finding": "The official clinic page expressly says this is not a walk-in clinic.",
+        "eligibility": "After-hours directions are for existing patients.",
+        "sources": [
+          "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/"
+        ]
+      }
     },
     {
       "id": "c060",
@@ -3423,7 +3432,8 @@
         ]
       },
       "uncertainty_reason": "no_current_statement",
-      "uncertainty_label": "No current office-specific intake established"
+      "uncertainty_label": "No current office-specific intake established",
+      "phone_note": "The official clinic listing directs callers to press 4."
     },
     {
       "id": "c069",
