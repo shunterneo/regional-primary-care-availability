@@ -66,6 +66,33 @@
       "reviewed_on": "2026-11-18",
       "method": "public_html_review",
       "finding": "About page is readable manually again. Its new-patient invitation is dental, not evidence that family-medicine rosters are open. Existing unconfirmed family-medicine status retained."
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/middlesex-centre-regional-medical-clinic/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "Official listing confirms the street address and phone number and explicitly says this is not a walk-in clinic. No current ongoing intake statement.",
+      "clinic_id": "c059"
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/oxford-st-josephs-family-health-organization/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "Official listing confirms the London address and phone number and directs callers to press 4. No current ongoing intake statement.",
+      "clinic_id": "c068"
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/locations/elgin-community-health-hub/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "Official listing confirms the address and appointment booking for non-FHT patients; it does not establish ongoing roster placement at this office.",
+      "clinic_id": "c079"
+    },
+    {
+      "source_url": "https://thamesvalleyfht.ca/become-a-patient/",
+      "reviewed_on": "2026-11-27",
+      "method": "public_html_review",
+      "finding": "Central regional attachment-team application for nurse-practitioner care; not placement at a particular office or proof of a physician accepting."
     }
   ]
 }

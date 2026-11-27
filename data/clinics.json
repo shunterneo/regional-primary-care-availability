@@ -12570,6 +12570,36 @@
           "https://211ontario.ca/service/79834675/brantford-west-medical-centre-walk-in-clinic/"
         ]
       }
+    },
+    {
+      "id": "c252",
+      "name": "Thamesford Medical Centre",
+      "community": "Thamesford",
+      "address": "141 Dundas Street West, Suite 4",
+      "clinic_type": "Primary care",
+      "care_model": "ongoing",
+      "care_model_basis": "Township of Zorra and the CPSO public register corroborate Suite 4 and the family practice. The Oxford Ontario Health Team describes a nurse-practitioner route through Health Care Connect, not direct physician registration. Approximate public street-address pin; not the unit entrance.",
+      "care_model_source": "https://www.zorra.ca/our-services/protective-services/medical-and-police/",
+      "status": "unknown",
+      "intake_detail": "Oxford Ontario Health Team lists a nurse-practitioner referral pathway at this site through Ontario Health Care Connect. Current clinic capacity and placement are not confirmed; call the clinic for clarification.",
+      "phone": "519-285-3770",
+      "providers": "",
+      "evidence_url": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+      "clinic_url": "https://www.zorra.ca/our-services/protective-services/medical-and-police/",
+      "source_published": "",
+      "last_reviewed": "2026-11-27",
+      "location_quality": "Public street-address match, approximate pin; not the unit entrance",
+      "community_distance_km": 31,
+      "latitude": 43.0580883,
+      "longitude": -80.9985427,
+      "coordinate_source": "https://www.openstreetmap.org/way/218398511",
+      "coordinate_checked_on": "2026-11-27",
+      "notes": "",
+      "review_basis": "Township of Zorra and the CPSO public register corroborate Suite 4 and the family practice. The Oxford Ontario Health Team describes a nurse-practitioner route through Health Care Connect, not direct physician registration. Approximate public street-address pin; not the unit entrance.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=91209",
+      "address_verified_on": "2026-11-27",
+      "address_verification_scope": "Township of Zorra and the CPSO register agree on the public clinic suite; no roster capacity inferred."
     }
   ]
 }

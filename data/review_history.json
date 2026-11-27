@@ -3822,5 +3822,13 @@
     "type": "reviewed_manual_clinic_addition",
     "source": "https://www.hnhbhealthline.ca/displayservice.aspx?id=183032",
     "reviewer_note": "Ontario Health atHome and 211 identify walk-in medical clinic at same address and phone. Indexed clinic homepage corroborates office and describes family-focused care without explicit roster attachment; direct page timed out. Classify documented service as walk-in only, ongoing model unverified pending direct evidence. Healthline address-matched directions link gives coordinates 43.1316,-80.2763, not surveyed entrance."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c252",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
+    "reviewer_note": "Township of Zorra and the CPSO public register corroborate Suite 4 and the family practice. The Oxford Ontario Health Team describes a nurse-practitioner route through Health Care Connect, not direct physician registration. Approximate public street-address pin; not the unit entrance."
   }
 ]
