@@ -805,11 +805,17 @@
       "source_url": "https://www.doctors4cambridge.com/contact.htm",
       "source_mode": "table",
       "event_sequence": 2,
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Check whether directory listing was removed or renamed",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "Removal from one webpage is NEVER proof that intake closed or that the clinic closed."
+      "note": "Removal from one webpage is NEVER proof that intake closed or that the clinic closed.",
+      "reviewed_on": "2026-11-27",
+      "review_outcome": "resolved",
+      "reviewer_note": "Current Cambridge recruitment directory no longer lists Dr. Callaghan; absence is not closure or intake evidence. No clinic status change.",
+      "review_sources": [
+        "https://www.doctors4cambridge.com/contact.htm"
+      ]
     },
     {
       "id": "8920aa23ab64b567ec",
@@ -846,7 +852,7 @@
       "source_url": "https://hpaoht.ca/get-primary-care/",
       "source_mode": "page",
       "event_sequence": 1,
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Check modified directory text; confirm clinic-specific ongoing patient intake if applicable",
       "prior_excerpt": "Register for a Family Doctor or Nurse Practitioner - Huron Perth & Area Ontario Health Team Health811 Call 811(TTY: 1-866-797-0007) Ontario Caregiver Helpline 1-833-416-2273(CARE) Register for a Family Doctor or Nurse Practitioner If you live in Huron or Perth County and are looking for a family doctor or nurse practitioner, or for care closer to home (within a 30-minute drive), you can register to be matched. You do not need to leave y",
       "current_excerpt": "Register for a Family Doctor or Nurse Practitioner - Huron Perth & Area Ontario Health Team Health811 Call 811(TTY: 1-866-797-0007) Ontario Caregiver Helpline 1-833-416-2273(CARE) Register for a Family Doctor or Nurse Practitioner If you live in Huron or Perth County and are looking for a family doctor or nurse practitioner, or for care closer to home (within a 30-minute drive), you can register to be matched. You do not need to leave y",
@@ -855,7 +861,13 @@
       "preview_unchanged": true,
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
+      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure.",
+      "reviewed_on": "2026-11-27",
+      "review_outcome": "resolved",
+      "reviewer_note": "OHT offers regional matching registration, not location-specific clinic acceptance. No clinic status change.",
+      "review_sources": [
+        "https://hpaoht.ca/get-primary-care/"
+      ]
     },
     {
       "id": "132ec10368f499b1af",
@@ -869,7 +881,7 @@
       "source_url": "https://norfolkfht.ca/find-a-doctor/",
       "source_mode": "page",
       "event_sequence": 1,
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Check modified directory text; confirm clinic-specific ongoing patient intake if applicable",
       "prior_excerpt": "Find a Doctor or Nurse Practitioner - Norfolk Family Health Team Skip to content FOR PATIENTS | FIND A DOCTOR or NURSE PRACTITIONER Find a Doctor or Nurse Practitioner Health Care Connect helps Ontarians who are without a family health care provider (family doctor or nurse practitioner) to find one. People without a family health care provider are referred to a family doctor or a nurse practitioner who is accepting new patients in their",
       "current_excerpt": "One moment, please... Please wait while your request is being verified...",
@@ -878,7 +890,13 @@
       "preview_unchanged": false,
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
+      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure.",
+      "reviewed_on": "2026-11-27",
+      "review_outcome": "resolved",
+      "reviewer_note": "Recorded security challenge was not clinic content. Current official page is readable and lists HCC plus secondary referrals; no Norfolk FHT site-specific intake established.",
+      "review_sources": [
+        "https://norfolkfht.ca/find-a-doctor/"
+      ]
     },
     {
       "id": "c344f72979b0c853f0",
@@ -914,11 +932,18 @@
       "event_sequence": 1,
       "excerpt": "Dr Obi Ohakanu Family Medicine Practice Serenity Medical Centre, 272 Oxford St W, London, Ontario N6H 1S9 519-963-4115 Ajouter au presse-papiers",
       "source_scope": "regional practice listing; verify address, care model and intake directly",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-27",
+      "review_outcome": "duplicate_pending_lead",
+      "reviewer_note": "Identical practice and service URL as c344f72979b0c853f0; direct directory inaccessible on review. Retain original pending lead.",
+      "review_sources": [
+        "https://www.lignesantesud-ouest.ca/displayService.aspx?id=227538"
+      ],
+      "duplicate_of": "c344f72979b0c853f0"
     },
     {
       "id": "3bf47da5af652a301f",
@@ -932,7 +957,7 @@
       "source_url": "https://norfolkfht.ca/find-a-doctor/",
       "source_mode": "page",
       "event_sequence": 2,
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Check modified directory text; confirm clinic-specific ongoing patient intake if applicable",
       "prior_excerpt": "One moment, please... Please wait while your request is being verified...",
       "current_excerpt": "Find a Doctor or Nurse Practitioner - Norfolk Family Health Team Skip to content FOR PATIENTS | FIND A DOCTOR or NURSE PRACTITIONER Find a Doctor or Nurse Practitioner Health Care Connect helps Ontarians who are without a family health care provider (family doctor or nurse practitioner) to find one. People without a family health care provider are referred to a family doctor or a nurse practitioner who is accepting new patients in their",
@@ -941,7 +966,13 @@
       "preview_unchanged": false,
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
+      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure.",
+      "reviewed_on": "2026-11-27",
+      "review_outcome": "resolved",
+      "reviewer_note": "Current official page offers HCC and referrals to Grand River CHC, PrimaCare and Waterford; these are secondary leads requiring operator-specific confirmation, not a Norfolk FHT opening.",
+      "review_sources": [
+        "https://norfolkfht.ca/find-a-doctor/"
+      ]
     }
   ]
 }
