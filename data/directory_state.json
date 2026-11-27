@@ -100,8 +100,8 @@
           "content_hash": "1fa8de19713d16f8bffb0e6f3d666722b4c5f959a7ca104ac98e4ee3f37f0d52"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
       "entry_count": 12,
@@ -162,8 +162,8 @@
           "content_hash": "b4b6918af57dfcb910ca2447a2e9403711a1814f07b9ab1db3a200a4f41d2c61"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
       "entry_count": 6,
@@ -296,8 +296,8 @@
           "content_hash": "d653b99e5288a22f59b5aa1b4a854f1478d31c7f4e87c6473a3318ef7be12807"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
       "entry_count": 15,
@@ -326,6 +326,14 @@
           "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=179278",
           "scope": "regional practice listing; verify address, care model and intake directly",
           "content_hash": "ef34514cf29ff1451f878dfc2da2c23d8a64bee91a8033e7c50ffc8d556fb496"
+        },
+        "obiohakanumedicine": {
+          "key": "obiohakanumedicine",
+          "title": "Dr Obi Ohakanu Family Medicine Practice",
+          "excerpt": "Dr Obi Ohakanu Family Medicine Practice Serenity Medical Centre, 272 Oxford St W, London, Ontario N6H 1S9 519-963-4115 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=227538",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "701ff92eb1dff510a68755ea393a406d19b8c0eaf309fc394da06c8d913b7bf6"
         },
         "londonsciencesvictoria": {
           "key": "londonsciencesvictoria",
@@ -408,21 +416,21 @@
           "content_hash": "63f039146ab5673a1e2fd6bed5936a5f0c387bdfac1b6a0ed284affa3e645f41"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
-      "entry_count": 11,
-      "fingerprint": "30039ebd841f715f3419c14535f9d348a2335a5881a4a6e2060f7a3024dbc9a9",
+      "entry_count": 12,
+      "fingerprint": "be9da9a4be1a1b8063c0c4214372087b210e7f53a85a15ec8d9e1fd9d8a62669",
       "extraction_version": "directory-v4",
       "source_signature": "cff9151f0dce91ac3594b9c4ffeb73924d71c075519541a7d7edda93a387393c",
       "baseline_reason": null,
-      "event_sequence": 0
+      "event_sequence": 1
     },
     "woodstock_news": {
       "entries": {},
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
       "entry_count": 0,
@@ -443,8 +451,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -507,8 +515,8 @@
           "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
       "entry_count": 5,
@@ -571,8 +579,8 @@
           "content_hash": "e1b7872a202bce575120d898cd1cba316d534cb0956258e8244519f8db5674c6"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
       "entry_count": 5,
@@ -601,6 +609,14 @@
           "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=179278",
           "scope": "regional practice listing; verify address, care model and intake directly",
           "content_hash": "ef34514cf29ff1451f878dfc2da2c23d8a64bee91a8033e7c50ffc8d556fb496"
+        },
+        "obiohakanumedicine": {
+          "key": "obiohakanumedicine",
+          "title": "Dr Obi Ohakanu Family Medicine Practice",
+          "excerpt": "Dr Obi Ohakanu Family Medicine Practice Serenity Medical Centre, 272 Oxford St W, London, Ontario N6H 1S9 519-963-4115 Ajouter au presse-papiers",
+          "link": "https://www.lignesantesud-ouest.ca/displayService.aspx?id=227538",
+          "scope": "regional practice listing; verify address, care model and intake directly",
+          "content_hash": "701ff92eb1dff510a68755ea393a406d19b8c0eaf309fc394da06c8d913b7bf6"
         },
         "russellmhall": {
           "key": "russellmhall",
@@ -779,38 +795,38 @@
           "content_hash": "40e5896b798fb019836724155e9b931531c13f253dc1cd19ce6187b033e15bcf"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
-      "entry_count": 23,
-      "fingerprint": "4f03caa5fed468c4849745bcedbb2ef7c6f6bf0ee35a574de9a090cbb422ba99",
+      "entry_count": 24,
+      "fingerprint": "fdeff59e442f85388e20e7dab1d8bac847fbab669acdac6fd41eb59b9ebd9227",
       "extraction_version": "directory-v4",
       "source_signature": "c3a49794e018a5e9e1551746a5e045d7efe50fe9bcebf7a099fe571943c8fcae",
       "baseline_reason": null,
-      "event_sequence": 0
+      "event_sequence": 1
     },
     "norfolk_fht_resources": {
       "entries": {
         "page": {
           "key": "page",
           "title": "Norfolk Family Health Team — find a doctor or NP",
-          "excerpt": "One moment, please... Please wait while your request is being verified...",
+          "excerpt": "Find a Doctor or Nurse Practitioner - Norfolk Family Health Team Skip to content FOR PATIENTS | FIND A DOCTOR or NURSE PRACTITIONER Find a Doctor or Nurse Practitioner Health Care Connect helps Ontarians who are without a family health care provider (family doctor or nurse practitioner) to find one. People without a family health care provider are referred to a family doctor or a nurse practitioner who is accepting new patients in their",
           "link": "https://norfolkfht.ca/find-a-doctor/",
-          "content_hash": "8cba8925c762de6847edc6a7dc3d0e17be4dc8b54f9f2f593f743d4de4beaf00",
+          "content_hash": "07147f28afc994f366003191e8e9eef10b8f107a017c42396d249cd670f95c75",
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
-      "fingerprint": "aedaf7c3b2c0a25a9a6643a7f85eb806ef9393e9587d746bc4c1aed55fe0ccec",
+      "fingerprint": "87e9cd69679fa80bdd4c3d98a6193dcf5eeeac51bd234eef511c68ba5a5d0948",
       "extraction_version": "directory-v4",
       "source_signature": "c294e8b8de013daa139eb1cfd56dffa4029ea9f4d346e728a32350b91fa3773c",
       "baseline_reason": null,
-      "event_sequence": 1
+      "event_sequence": 2
     },
     "huron_perth_oht": {
       "entries": {
@@ -823,8 +839,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -845,8 +861,8 @@
           "scope": "resource notice; no clinic-specific intake claim"
         }
       },
-      "last_attempt": "2026-11-26",
-      "last_success": "2026-11-26",
+      "last_attempt": "2026-11-27",
+      "last_success": "2026-11-27",
       "last_error": null,
       "error_category": null,
       "entry_count": 1,
@@ -857,7 +873,7 @@
       "event_sequence": 0
     }
   },
-  "last_run": "2026-11-26",
+  "last_run": "2026-11-27",
   "last_summary": {
     "sources": 12,
     "success": 12,
@@ -865,7 +881,7 @@
     "baselines": 0,
     "version_baselines": 0,
     "zero_result_news": 1,
-    "new_directory_leads": 1,
+    "new_directory_leads": 3,
     "listing_removals_to_review": 0,
     "errors": []
   }
