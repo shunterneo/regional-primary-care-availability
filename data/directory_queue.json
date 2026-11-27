@@ -912,11 +912,19 @@
       "event_sequence": 1,
       "excerpt": "Dr Obi Ohakanu Family Medicine Practice Serenity Medical Centre, 272 Oxford St W, London, Ontario N6H 1S9 519-963-4115 Ajouter au presse-papiers",
       "source_scope": "regional practice listing; verify address, care model and intake directly",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Verify practice identity, street address, provider, care model, 75km boundary, and direct official intake",
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "A third-party directory or news title is a research lead, not current acceptance evidence."
+      "note": "A third-party directory or news title is a research lead, not current acceptance evidence.",
+      "reviewed_on": "2026-11-27",
+      "review_outcome": "existing_location_verified_no_intake_change",
+      "reviewer_note": "CPSO lists Dr. Ohakanu at 272 Oxford Street West with a practice phone of 519-963-4115. The medical association lists a different pharmacy inquiry number. Neither links the named doctor to new-patient acceptance; status remains reported.",
+      "review_sources": [
+        "https://register.cpso.on.ca/physician-info/?cpsonum=158817",
+        "https://www.ldam.ca/find-a-doctor"
+      ],
+      "matched_clinic_id": "c035"
     },
     {
       "id": "69b624131f455700dc",

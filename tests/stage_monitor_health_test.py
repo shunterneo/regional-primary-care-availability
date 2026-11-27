@@ -37,7 +37,14 @@ class StageHealthTests(unittest.TestCase):
   self.assertTrue(m.assess_all(**f)['healthy'])
   f['source_state']['last_summary'].update(success=2,failed=1)
   self.assertFalse(m.assess_all(**f)['healthy'])
-  self.assertEqual(m.assess_all(**f)['failed_count'],0)
+  report=m.assess_all(**f)
+  self.assertEqual(report['failed_count'],0)
+  for key in ('clinic_evidence','discovery_pages'):
+   stage=report['stages'][key]
+   self.assertEqual(stage['failed_count'],0)
+   self.assertEqual(stage['declared_batch_failed_count'],1)
+   self.assertEqual(stage['declared_batch_scope'],'shared_clinic_and_discovery_sources')
+   self.assertTrue(any("not this stage's count" in p for p in stage['problems']))
 
  def test_all_automated_stages_and_manual_nonrun_are_honest(self):
   r=m.assess_all(**fixture());self.assertTrue(r['healthy']);self.assertTrue(r['automated_stages_healthy'])

@@ -7543,12 +7543,14 @@
       "new_hash": "ad59233f5fa2eb077c13790de0063c315ce76caca5664b09a7f9f0fb36cb0915",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "New patient Registration - Trusty Care Medical Centre 2025-10-04T08:59:11+00:00 2025-10-29T01:15:26+00:00 Skip to content Skip to footer 1-519-537-2992 info@trustycare.ca 925 Dundas St, Woodstock Phone Email Location Home About Us Our Team Medical Centre On-Site Laboratory Services IV Drip Therapy & Iron Infusion Chronic Disease Management Mental Health Care Acute Care Services Women’s Health Clin\nPlease complete the form below to register as a new patient.",
       "current_excerpt": "New patient Registration - Trusty Care Medical Centre 2025-10-04T08:59:11+00:00 2025-10-29T01:15:26+00:00 Skip to content Skip to footer 1-519-537-2992 info@trustycare.ca 925 Dundas St, Woodstock Phone Email Location Home About Us Our Team Medical Centre On-Site Laboratory Services IV Drip Therapy & Iron Infusion Chronic Disease Management Mental Health Care Acute Care Services Women’s Health Clin\nPlease complete the form below to register as a new patient.",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-27",
+      "review_decision": "Clinic registration and clinician page corroborate previous accepting status with limited places. Listing verification refreshed; no status change."
     },
     {
       "id": "6202a6b3db985c4406",
@@ -7563,7 +7565,7 @@
       "new_hash": "16fb7f5bc7e9f4c2a850da0461f7f691fcfc763041700d2dba77db1d56cb6dba",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Accepting New Patients We collect basic website visitor information on this website and store it in cookies.\nRead More > DONATE BOOK AN APPOINTMENT ABOUT US History, Mission, Vision, Values, Principles The Hub Model Accountability Quality Improvement Reports & Accreditation About the Board Careers IDEA PROGRAMS & SERVICES Community Children & Youth Adults & Older Adults Resources Health Accepting New Patients Community Health Centre Clinics Diabetes Education Program Health Promotion Social Work Communit\nLangs Community Health Centre is accepting new patients in Cambridge and North Dumfries.\nRegister with Health Care Connect Why Langs?\nLangs is a Community Health Centre: a team of doctors, nurse practitioners, nurses, dietitians, social workers, outreach workers, health care promoters, community workers, and more who work together so you see the right provider, at the right time, for wha",
       "current_excerpt": "Accepting New Patients We collect basic website visitor information on this website and store it in cookies.\nRead More > DONATE BOOK AN APPOINTMENT ABOUT US History, Mission, Vision, Values, Principles The Hub Model Accountability Quality Improvement Reports & Accreditation About the Board Careers IDEA PROGRAMS & SERVICES Community Children & Youth Adults & Older Adults Resources Health Accepting New Patients Community Health Centre Clinics Diabetes Education Program Health Promotion Social Work Communit\nLangs Community Health Centre is accepting new patients in Cambridge and North Dumfries.\nRegister with Health Care Connect Why Langs?\nLangs is a Community Health Centre: a team of doctors, nurse practitioners, nurses, dietitians, social workers, outreach workers, health care promoters, community workers, and more who work together so you see the right provider, at the right time, for what you actually need.\nRegister with Health Care Connect — Ontario's service that matches unattached patients with a provider by calling 1-800-445-1822 or clicking the link above.\nStart your registration with Health Care Connect today.",
       "possible_claim": "possible_accepting",
@@ -7572,7 +7574,9 @@
         "Read More > DONATE BOOK AN APPOINTMENT ABOUT US History, Mission, Vision, Values, Principles The Hub Model Accountability Quality Improvement Reports & Accreditation About the Board Careers IDEA PROGRAMS & SERVICES Community Children & Youth Adults & Older Adults Resources Health Accepting New Patients Community Health Centre Clinics Diabetes Education Program Health Promotion Social Work Communit",
         "Langs Community Health Centre is accepting new patients in Cambridge and North Dumfries."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-27",
+      "review_decision": "Official page confirms both locations still require provincial eligibility and matching. Added provincial telephone route; no status change."
     },
     {
       "id": "24ed58413c43cee4b1",
@@ -7605,14 +7609,16 @@
       "new_hash": "5306ca28bfb0b1855c7f285900911d2948a75213b83fcb71f50362cd7263efb7",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "We’re welcoming new patients for all of our locations and services, including Primary Care, Mental Health & Addictions, Traditional Healing, and more.\nPlease note: new patients must identify as Indigenous including First Nations (Status/Non-Status), Métis, or Inuit or or direct household member of an current patient at DAHC.\nIf you’d like to become a patient, please complete the “New Patient Request” form below.\nCookie Settings Accept All Manage consent Close Privacy Overview This website uses cookies to improve your experience while you navigate through the website.\nSAVE & ACCEPT De dwa da dehs nye>s Aboriginal Health Centre De dwa da dehs nye>s Aboriginal Health Centre Join the Team we're hiring This-is-our-shot CCA-Acredited By Canadian Centre for Accreditation De dwa da dehs nye>s Aboriginal Health Centre",
       "current_excerpt": "We’re welcoming new patients for all of our locations and services, including Primary Care, Mental Health & Addictions, Traditional Healing, and more.\nPlease note: new patients must identify as Indigenous including First Nations (Status/Non-Status), Métis, or Inuit or or direct household member of an current patient at DAHC.\nIf you’d like to become a patient, please complete the “New Patient Request” form below.\nCookie Settings Accept All Manage consent Close Privacy Overview This website uses cookies to improve your experience while you navigate through the website.\nSAVE & ACCEPT De dwa da dehs nye>s Aboriginal Health Centre De dwa da dehs nye>s Aboriginal Health Centre Join the Team we're hiring This-is-our-shot CCA-Acredited By Canadian Centre for Accreditation De dwa da dehs nye>s Aboriginal Health Centre",
       "possible_claim": "possible_accepting",
       "matched_excerpts": [
         "We’re welcoming new patients for all of our locations and services, including Primary Care, Mental Health & Addictions, Traditional Healing, and more."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-27",
+      "review_decision": "Official homepage confirms existing limited, eligibility-specific patient request route. Listing reviewed November 27 already; no change."
     }
   ]
 }

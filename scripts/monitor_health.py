@@ -275,7 +275,12 @@ def _strict_batch(stage,state,expected,now,directories=False):
         if unbound:issues.append(f'{unbound} directory records lack a matching current URL/mode signature')
     if isinstance(summary,dict) and _count(summary.get('failed')):
         stage['declared_batch_failed_count']=summary['failed']
-        if summary['failed']:issues.append(f"Latest batch declares {summary['failed']} failed checks; batch is not fully healthy")
+        stage['declared_batch_scope']='directories' if directories else 'shared_clinic_and_discovery_sources'
+        if summary['failed']:
+            if directories:
+                issues.append(f"Latest directory batch reported {summary['failed']} failed checks")
+            else:
+                issues.append(f"Shared clinic/discovery batch reported {summary['failed']} failed checks across all scanned URLs; this is not this stage's count")
         # Exact directory scope permits accounting consistency; source batches
         # may contain archived records and are intentionally not equated here.
         if directories and not missing and not outdated and all(isinstance(sources.get(k),dict) for k in expected):
