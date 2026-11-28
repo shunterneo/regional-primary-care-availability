@@ -3894,5 +3894,29 @@
     "new_status": "not_accepting",
     "source": "https://greygretzkymedicalcentre.ca/",
     "reviewer_note": "Current clinic homepage explicitly excludes new family patients; walk-in care remains available. Public-source review only; no telephone confirmation."
+  },
+  {
+    "date": "2026-11-28",
+    "clinic_id": "c253",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+    "reviewer_note": "Added Grand River CHC Friendship House outreach as walk-in only. Operator confirms service since November 3; public host and 211 corroborate address, 211 venue map supplies location 50.74 km from origin. No ongoing attachment evidence."
+  },
+  {
+    "date": "2026-11-28",
+    "clinic_id": "c254",
+    "old_status": "not listed",
+    "new_status": "unknown",
+    "source": "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+    "reviewer_note": "Added Grand River CHC St. Andrew’s Church outreach as walk-in only. Operator confirms service since November 3; public host and 211 corroborate address, 211 venue map supplies location 48.29 km from origin. No ongoing attachment evidence."
+  },
+  {
+    "date": "2026-11-28",
+    "clinic_id": "c221",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://aafiyat.ca/dr-ejaz-ahmed/",
+    "reviewer_note": "Named ongoing family-practice application remains advertised. Pending relocation to Duke Street is not confirmed effective; retain previous location and caution to confirm appointment address."
   }
 ]
