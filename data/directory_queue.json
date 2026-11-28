@@ -829,7 +829,7 @@
       "source_url": "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/",
       "source_mode": "page",
       "event_sequence": 1,
-      "review_status": "pending",
+      "review_status": "reviewed",
       "proposed_action": "Check modified directory text; confirm clinic-specific ongoing patient intake if applicable",
       "prior_excerpt": "Find Services – Oxford OHT Website Home About Us Our Work Our Partner Directory Partner Spotlights Find Services Resources Tillsonburg Unattached Care Clinic Cancer Screening Community Member Resources News and Events More Contact Get Involved Find Services Home Find Services Health Services for People Without a Family Doctor or Nurse Practitioner IF YOU ARE EXPERIENCING A HEALTH EMERGENCY, CALL 911 PDF Download - Full Colour (Sept 9, 2",
       "current_excerpt": "Find Services – Oxford OHT Website Home About Us Our Work Our Partner Directory Partner Spotlights Find Services Resources Tillsonburg Unattached Care Clinic Cancer Screening Community Member Resources News and Events More Contact Get Involved Find Services Home Find Services Health Services for People Without a Family Doctor or Nurse Practitioner IF YOU ARE EXPERIENCING A HEALTH EMERGENCY, CALL 911 PDF Download - Full Colour (Sept 9, 2",
@@ -838,7 +838,13 @@
       "preview_unchanged": true,
       "intake_status": "unconfirmed",
       "radius_checked": false,
-      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure."
+      "note": "Content change is NOT evidence of intake opening, closure or permanent practice closure.",
+      "reviewed_on": "2026-11-27",
+      "review_outcome": "resolved",
+      "reviewer_note": "Current Oxford OHT page reviewed; individual unresolved reports remain tracked in discovery queue, and Thamesford already listed as c252. No blanket intake claim.",
+      "review_sources": [
+        "https://oxfordoht.ca/primary-care-resources-without-a-family-doctor-or-nurse-practitioner/"
+      ]
     },
     {
       "id": "36d7562b12397ff6d7",

@@ -23,21 +23,21 @@
       "evidence_url": "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/",
       "clinic_url": "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/",
       "source_published": "",
-      "last_reviewed": "2026-11-17",
+      "last_reviewed": "2026-11-27",
       "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 48.1,
       "notes": "",
-      "review_basis": "Official clinic application webpage reviewed November 17, 2026, including its redirected canonical URL, email/reception submission routes and invitation to people without a family doctor or NP. No telephone confirmation; application does not guarantee attachment. Historical February 2026 package estimates remain explicitly dated, not newly verified.",
+      "review_basis": "Current official page explicitly invites unattached people to submit intake form to reception or clinic intake email. No attachment guarantee or current wait time verified. Public-source review only; no telephone confirmation.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/",
       "intake_verification": {
         "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-17",
+        "reviewed_on": "2026-11-27",
         "method": "public_webpage_review",
         "source_url": "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/",
-        "finding": "Clinic invites people without a family doctor or NP to apply using its New Client Intake Form, submitted to reception or intake@grchc.ca; application does not guarantee attachment.",
+        "finding": "Current official page explicitly invites unattached people to submit intake form to reception or clinic intake email. No attachment guarantee or current wait time verified.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -51,7 +51,8 @@
       "longitude": -80.255729,
       "coordinate_source": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open09/MapServer/26",
       "coordinate_quality": "Government planning point matched to published street address; not entrance-level geocoding.",
-      "application_url": "https://www.grandriverchc.ca/media/x52hwhsg/pc-client-intake-form-final-feb2026.pdf"
+      "application_url": "https://www.grandriverchc.ca/media/x52hwhsg/pc-client-intake-form-final-feb2026.pdf",
+      "intake_reviewed_on": "2026-11-27"
     },
     {
       "id": "c002",
@@ -177,21 +178,21 @@
       "evidence_url": "https://londonfht.ca/frequently-asked-questions/",
       "clinic_url": "https://londonfht.ca/family-physicians/",
       "source_published": "2026-08-26",
-      "last_reviewed": "2026-11-18",
+      "last_reviewed": "2026-11-27",
       "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "Conflict sources: https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/ and https://londonfht.ca/our-locations/. Clinic's own FAQ and physician directory specifically name Dr Behzad Hassani and NP Mahsa Haghighi as accepting applications at Beaverbrook; other LFHT physicians are stated not accepting. General locations page contradicts the August 26 announcement. Do not apply site-wide accepting status.",
-      "review_basis": "Current public clinic/program webpages reviewed November 18, 2026. No telephone confirmation or guaranteed enrolment.",
+      "review_basis": "FAQ explicitly names Hassani and NP and provides application route; general locations page conflicts. Named exception retained only; Stoney Creek remains unconfirmed. Public-source review only; no telephone confirmation.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://londonfht.ca/family-physicians/",
       "intake_verification": {
         "tier": "clinic_first_party",
         "scope": "named_clinician",
-        "reviewed_on": "2026-11-18",
+        "reviewed_on": "2026-11-27",
         "method": "public_webpage_review",
         "source_url": "https://londonfht.ca/frequently-asked-questions/",
-        "finding": "The FAQ advertises applications specifically to Dr. Behzad Hassani and NP Mahsa Haghighi; their August 2026 form is for people without a doctor or NP. Call 519-673-3900 to confirm reception: the FAQ says second floor while the form says Unit 1. Separately, the August 26, 2026 LFHT announcement invites applications at Beaverbrook and Stoney Creek, with placement depending on individual clinician availability. This broader invitation does not establish that every physician is accepting. Application does not guarantee enrolment.",
+        "finding": "FAQ explicitly names Hassani and NP and provides application route; general locations page conflicts. Named exception retained only; Stoney Creek remains unconfirmed.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -214,7 +215,8 @@
           "https://londonfht.ca/frequently-asked-questions/",
           "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/"
         ]
-      }
+      },
+      "intake_reviewed_on": "2026-11-27"
     },
     {
       "id": "c005",
@@ -3243,21 +3245,21 @@
       "evidence_url": "https://londonfht.ca/frequently-asked-questions/",
       "clinic_url": "https://londonfht.ca/family-physicians/",
       "source_published": "",
-      "last_reviewed": "2026-11-12",
+      "last_reviewed": "2026-11-27",
       "location_quality": "Street address source checked; map pin still community-centre approximate.",
       "community_distance_km": 44.6,
       "notes": "",
-      "review_basis": "Closure wording re-read on the organization's own webpage on 2026-11-12; no telephone confirmation. Applies to general ongoing-care attachment; separate program eligibility is not ruled out.",
+      "review_basis": "FAQ says other physicians not accepting and no waitlist; August announcement names only Beaverbrook and Stoney Creek. Public-source review only; no telephone confirmation.",
       "care_model": "ongoing",
       "care_model_basis": "Existing primary-care provider directory lists this as family physician, NP attachment or ongoing CHC/FHT care; walk-in service was not comprehensively assessed.",
       "care_model_source": "https://londonfht.ca/family-physicians/",
       "intake_verification": {
         "tier": "clinic_first_party",
         "scope": "named_clinician",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-27",
         "method": "public_webpage_review",
         "source_url": "https://londonfht.ca/frequently-asked-questions/",
-        "finding": "The LFHT FAQ says physicians other than the named Hassani/Haghighi intake route are not accepting new patients and do not have a waitlist. Medway is identified in the physician directory. A separate August 26, 2026 intake announcement names Beaverbrook and Stoney Creek, not Medway.",
+        "finding": "FAQ says other physicians not accepting and no waitlist; August announcement names only Beaverbrook and Stoney Creek.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -3276,7 +3278,8 @@
           "https://londonfht.ca/frequently-asked-questions/",
           "https://londonfht.ca/looking-for-a-primary-care-provider-apply-here-now/"
         ]
-      }
+      },
+      "intake_reviewed_on": "2026-11-27"
     },
     {
       "id": "c066",
@@ -5420,19 +5423,19 @@
       "community_distance_km": 39,
       "audit_scope": "Public source review; not a comprehensive practitioner census",
       "intake_reviewed_by_phone": false,
-      "status": "accepting",
+      "status": "unknown",
       "evidence_url": "https://centralchc.com/",
-      "intake_detail": "Ongoing physician/NP enrolment: clinic instructs prospective patients to call 519-633-7989 during opening hours. It is not a walk-in clinic. Serves St. Thomas, Central Elgin and Southwold Township; an OHIP card is not required. Eligibility and placement remain subject to clinic assessment. No current wait estimate or guaranteed placement verified.",
-      "last_reviewed": "2026-11-18",
-      "review_basis": "Current official enrolment instructions reviewed November 18, 2026; no telephone confirmation or guaranteed placement.",
+      "intake_detail": "Central Community Health Centre provides ongoing primary care in St. Thomas, Central Elgin and Southwold Township. Its redesigned website no longer displays the previously reviewed enrolment invitation. Current applications and capacity are unconfirmed; call 519-633-7989 about the current intake route. No closure inferred.",
+      "last_reviewed": "2026-11-27",
+      "review_basis": "Current homepage and programs page reviewed; previous enrolment invitation not visible. Downgraded to unconfirmed, not closed. Public-source review only; no telephone confirmation.",
       "auto_updates_enabled": false,
       "intake_verification": {
-        "tier": "clinic_first_party",
-        "scope": "location",
-        "reviewed_on": "2026-11-18",
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-27",
         "method": "public_webpage_review",
         "source_url": "https://centralchc.com/",
-        "finding": "Ongoing physician/NP enrolment: clinic instructs prospective patients to call 519-633-7989 during opening hours. It is not a walk-in clinic. Serves St. Thomas, Central Elgin and Southwold Township; an OHIP card is not required. Eligibility and placement remain subject to clinic assessment. No current wait estimate or guaranteed placement verified.",
+        "finding": "Central Community Health Centre provides ongoing primary care in St. Thomas, Central Elgin and Southwold Township. Its redesigned website no longer displays the previously reviewed enrolment invitation. Current applications and capacity are unconfirmed; call 519-633-7989 about the current intake route. No closure inferred.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -5449,12 +5452,12 @@
           "https://centralchc.com/contact/"
         ]
       },
-      "application_url": "https://centralchc.com/",
       "ongoing_care_review": {
-        "reviewed_on": "2026-11-18",
-        "finding": "Ongoing physician/NP enrolment: clinic instructs prospective patients to call 519-633-7989 during opening hours. It is not a walk-in clinic. Serves St. Thomas, Central Elgin and Southwold Township; an OHIP card is not required. Eligibility and placement remain subject to clinic assessment. No current wait estimate or guaranteed placement verified.",
+        "reviewed_on": "2026-11-27",
+        "finding": "Central Community Health Centre provides ongoing primary care in St. Thomas, Central Elgin and Southwold Township. Its redesigned website no longer displays the previously reviewed enrolment invitation. Current applications and capacity are unconfirmed; call 519-633-7989 about the current intake route. No closure inferred.",
         "sources": [
-          "https://centralchc.com/"
+          "https://centralchc.com/",
+          "https://centralchc.com/programs-services/"
         ]
       },
       "walk_in_review": {
@@ -5464,7 +5467,8 @@
         "sources": [
           "https://centralchc.com/"
         ]
-      }
+      },
+      "intake_reviewed_on": "2026-11-27"
     },
     {
       "id": "c110",
@@ -6145,32 +6149,32 @@
       "phone": "519-286-1665",
       "clinic_type": "Family physician",
       "providers": "Dr. Osaruonamen Augustine Ogboghodo; Dr. Jude Uba",
-      "status": "accepting",
+      "status": "unknown",
       "care_model": "both",
       "evidence_url": "https://courtlandclinic.com/",
       "clinic_url": "https://courtlandclinic.com/",
       "source_published": "",
-      "last_reviewed": "2026-11-12",
-      "intake_detail": "Clinic advertises new-patient applications for the two named physicians. Family medicine and walk-in services are both offered; confirm ongoing registration when booking. This is Courtland Avenue in Kitchener, not the village of Courtland.",
+      "last_reviewed": "2026-11-27",
+      "intake_detail": "Clinic names Dr. Osaruonamen Augustine Ogboghodo and Dr. Jude Uba as accepting new patients and offers booking, family medicine and walk-in care. The page does not explicitly establish that new appointments entail ongoing roster attachment. Call 519-286-1665 to confirm family-doctor enrolment. Courtland Avenue in Kitchener, not the village of Courtland.",
       "clinic_address_verified": true,
       "address_verification_source": "https://courtlandclinic.com/",
       "address_verified_on": "2026-11-12",
       "address_verification_scope": "Named clinic or regulator public office address",
       "care_model_source": "https://courtlandclinic.com/",
       "care_model_basis": "Named family practice in clinic/FHO or regulator source; capacity not inferred from registration.",
-      "review_basis": "Public source reviewed 12 November 2026; no telephone confirmation.",
+      "review_basis": "Current clinic page independently reviewed; generic new-patient booking and family-medicine services are not sufficient to establish ongoing attachment. Public-source review only; no telephone confirmation.",
       "audit_scope": "Public source review; not exhaustive practitioner census",
       "intake_reviewed_by_phone": false,
       "auto_updates_enabled": false,
       "location_quality": "Street address checked; address-matched map point, not entrance or unit.",
       "notes": "",
       "intake_verification": {
-        "tier": "clinic_first_party",
-        "scope": "named_clinician",
-        "reviewed_on": "2026-11-12",
+        "tier": "conflicting_or_unconfirmed",
+        "scope": "unverified",
+        "reviewed_on": "2026-11-27",
         "method": "public_webpage_review",
         "source_url": "https://courtlandclinic.com/",
-        "finding": "Clinic advertises new-patient applications for the two named physicians. Family medicine and walk-in services are both offered; confirm ongoing registration when booking. This is Courtland Avenue in Kitchener, not the village of Courtland.",
+        "finding": "Clinic names Dr. Osaruonamen Augustine Ogboghodo and Dr. Jude Uba as accepting new patients and offers booking, family medicine and walk-in care. The page does not explicitly establish that new appointments entail ongoing roster attachment. Call 519-286-1665 to confirm family-doctor enrolment. Courtland Avenue in Kitchener, not the village of Courtland.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -6188,12 +6192,13 @@
         ]
       },
       "ongoing_care_review": {
-        "reviewed_on": "2026-11-18",
-        "finding": "Official homepage advertises new-patient applications for Dr. Osaruonamen Augustine Ogboghodo and Dr. Jude Uba in its family-medicine context. Retain applications-advertised status; booking is not guaranteed attachment. Undated intake notice reviewed online.",
+        "reviewed_on": "2026-11-27",
+        "finding": "Clinic names Dr. Osaruonamen Augustine Ogboghodo and Dr. Jude Uba as accepting new patients and offers booking, family medicine and walk-in care. The page does not explicitly establish that new appointments entail ongoing roster attachment. Call 519-286-1665 to confirm family-doctor enrolment. Courtland Avenue in Kitchener, not the village of Courtland.",
         "sources": [
           "https://courtlandclinic.com/"
         ]
-      }
+      },
+      "intake_reviewed_on": "2026-11-27"
     },
     {
       "id": "c125",
@@ -9649,13 +9654,13 @@
       "clinic_type": "MD",
       "status": "limited",
       "care_model": "ongoing",
-      "intake_detail": "Comprehensive ongoing primary care for people affected by trauma. Currently accepts only internal referrals from specified St. Joseph’s programs/services and LHSC emergency departments. External community and self-referrals are not an advertised current pathway.",
+      "intake_detail": "Specialized ongoing primary care for people affected by trauma. The current hospital access page now describes the program as open to the public, and the hospital referral-forms page lists a primary-care referral form. Exact current external-provider referral eligibility, self-referral and capacity are not confirmed. Contact 519-646-6100 ext. 62956 for the current referral route; not a general family-practice opening.",
       "clinic_url": "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access",
       "evidence_url": "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access",
       "source_published": "",
-      "last_reviewed": "2026-11-18",
+      "last_reviewed": "2026-11-27",
       "notes": "",
-      "review_basis": "Current public clinic/program webpages reviewed November 18, 2026. No telephone confirmation or guaranteed enrolment.",
+      "review_basis": "Current hospital access page supersedes the earlier internal-only wording; hospital referral forms and contact page support a referral-based pathway, but do not establish unrestricted enrolment. Public-source review only; no telephone confirmation.",
       "care_model_basis": "Affiliated family-practice directory or clinic-owned description identifies ongoing family medicine.",
       "care_model_source": "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access",
       "clinic_address_verified": true,
@@ -9665,12 +9670,12 @@
       "auto_updates_enabled": false,
       "location_quality": "Approximate community point; not an address-matched clinic coordinate.",
       "intake_verification": {
-        "tier": "clinic_first_party",
-        "scope": "location",
-        "reviewed_on": "2026-11-18",
+        "tier": "program_general",
+        "scope": "program",
+        "reviewed_on": "2026-11-27",
         "method": "public_webpage_review",
         "source_url": "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access",
-        "finding": "Current program page still limits referrals to specified St. Joseph’s programs/services and LHSC emergency departments. Future external referral expansion is not a current self-referral or community-referral pathway.",
+        "finding": "Specialized ongoing primary care for people affected by trauma. The current hospital access page now describes the program as open to the public, and the hospital referral-forms page lists a primary-care referral form. Exact current external-provider referral eligibility, self-referral and capacity are not confirmed. Contact 519-646-6100 ext. 62956 for the current referral route; not a general family-practice opening.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },
@@ -9681,7 +9686,8 @@
         "sources": [
           "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access"
         ]
-      }
+      },
+      "intake_reviewed_on": "2026-11-27"
     },
     {
       "id": "c196",
@@ -10410,10 +10416,10 @@
       "clinic_url": "https://greygretzkymedicalcentre.ca/",
       "evidence_url": "https://greygretzkymedicalcentre.ca/",
       "source_published": "",
-      "last_reviewed": "2026-11-12",
-      "intake_reviewed_on": "2026-11-12",
+      "last_reviewed": "2026-11-27",
+      "intake_reviewed_on": "2026-11-27",
       "notes": "Public website review only; no telephone confirmation. Walk-in access does not establish ongoing family-practice attachment.",
-      "review_basis": "Clinic-owned public pages reviewed online on 2026-11-12; no telephone contact.",
+      "review_basis": "Current clinic homepage explicitly excludes new family patients; walk-in care remains available. Public-source review only; no telephone confirmation.",
       "care_model_basis": "Clinic describes itself as a walk-in and family practice clinic; explicit negative family-patient notice overrides the general meet-and-greet invitation.",
       "care_model_source": "https://greygretzkymedicalcentre.ca/",
       "clinic_address_verified": true,
@@ -10426,10 +10432,10 @@
       "intake_verification": {
         "tier": "clinic_first_party",
         "scope": "location",
-        "reviewed_on": "2026-11-12",
+        "reviewed_on": "2026-11-27",
         "method": "public_webpage_review",
         "source_url": "https://greygretzkymedicalcentre.ca/",
-        "finding": "Clinic website says, “We are not accepting new family patients at the moment.” Walk-in care is separately advertised; walk-in access does not mean registration with a family doctor. Call for the latest status.",
+        "finding": "Current clinic homepage explicitly excludes new family patients; walk-in care remains available.",
         "telephone_confirmed": false,
         "enrolment_guaranteed": false
       },

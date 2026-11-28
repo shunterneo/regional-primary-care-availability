@@ -3838,5 +3838,61 @@
     "new_status": "waitlist",
     "source": "https://wellclinics.ca/ontario/london/london-whmc/",
     "reviewer_note": "The clinic’s London branch page has a separate Become a Patient link, and the Ontario intake page lists the same clinic at 140 Oxford Street East, Suite 300, with the same link. WELL does not publish a wait time or queue position. This is a family-practice registration route, not proof of appointment, capacity or attachment with any named clinician."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c001",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/",
+    "reviewer_note": "Current official page explicitly invites unattached people to submit intake form to reception or clinic intake email. No attachment guarantee or current wait time verified. Public-source review only; no telephone confirmation."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c004",
+    "old_status": "accepting",
+    "new_status": "accepting",
+    "source": "https://londonfht.ca/frequently-asked-questions/",
+    "reviewer_note": "FAQ explicitly names Hassani and NP and provides application route; general locations page conflicts. Named exception retained only; Stoney Creek remains unconfirmed. Public-source review only; no telephone confirmation."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c065",
+    "old_status": "not_accepting",
+    "new_status": "not_accepting",
+    "source": "https://londonfht.ca/frequently-asked-questions/",
+    "reviewer_note": "FAQ says other physicians not accepting and no waitlist; August announcement names only Beaverbrook and Stoney Creek. Public-source review only; no telephone confirmation."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c109",
+    "old_status": "accepting",
+    "new_status": "unknown",
+    "source": "https://centralchc.com/",
+    "reviewer_note": "Current homepage and programs page reviewed; previous enrolment invitation not visible. Downgraded to unconfirmed, not closed. Public-source review only; no telephone confirmation."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c124",
+    "old_status": "accepting",
+    "new_status": "unknown",
+    "source": "https://courtlandclinic.com/",
+    "reviewer_note": "Current clinic page independently reviewed; generic new-patient booking and family-medicine services are not sufficient to establish ongoing attachment. Public-source review only; no telephone confirmation."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c195",
+    "old_status": "limited",
+    "new_status": "limited",
+    "source": "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access",
+    "reviewer_note": "Current hospital access page supersedes the earlier internal-only wording; hospital referral forms and contact page support a referral-based pathway, but do not establish unrestricted enrolment. Public-source review only; no telephone confirmation."
+  },
+  {
+    "date": "2026-11-27",
+    "clinic_id": "c211",
+    "old_status": "not_accepting",
+    "new_status": "not_accepting",
+    "source": "https://greygretzkymedicalcentre.ca/",
+    "reviewer_note": "Current clinic homepage explicitly excludes new family patients; walk-in care remains available. Public-source review only; no telephone confirmation."
   }
 ]

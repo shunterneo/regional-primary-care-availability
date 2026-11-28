@@ -4,7 +4,7 @@
     {
       "id": "a94c6cfb6cb7ecdcea",
       "detected_at": "2026-11-16",
-      "title": "Monthly-cycle registry cross-check \u2014 London and Middlesex",
+      "title": "Monthly-cycle registry cross-check — London and Middlesex",
       "url": "https://register.cpso.on.ca/Advanced-Search01/",
       "second_url": "https://registry.cno.org/",
       "region": "London and Middlesex",
@@ -12,7 +12,9 @@
       "review_status": "pending",
       "proposed_action": "Manually inspect public CPSO family-physician and CNO nurse-practitioner practice-location records; compare with active office list. Independently verify any unlisted address and whether ongoing primary care is offered.",
       "intake_status": "not provided by registries",
-      "note": "Official registers do NOT verify patient acceptance. No automated scraping or registry data ingestion."
+      "note": "Official registers do NOT verify patient acceptance. No automated scraping or registry data ingestion.",
+      "last_reviewed": "2026-11-27",
+      "reviewer_note": "CPSO advanced search accessible only as interactive form; CNO registry returned HTTP 403. Regional census not completed; manual review remains required."
     }
   ]
 }

@@ -2157,7 +2157,7 @@
       "new_hash": "dfda2baf0bf80aac85e46664b35e3f9f82264b42ca78f78f93146f91e8209454",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.\nPlease note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients.\nDoctors, Nurse Practitioners and Clinic Address Website Telephone Grandview Medical Centre FHT, welcomes two new physicians Dr.\n343 to register Langs North Dumfries Community Health Centre (for residents of North Dumfries) 2938 Greenfield Road, Ayr Please call 519-653-1470 Ext.\n343 to register Dr.\nSunil Bhatia Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge Please email [email protected] to request a Patient Registration Form Townline Walk-in & Medical Clinic 940 Jamieson Pkwy Register to become a patient with Dr.\nUnit B2 Register to become a patient with Dr.\n",
       "current_excerpt": "PRACTICING IN CAMBRIDGE WORK, PLAY, LIVE NEWS & EVENTS MEDICAL STUDENTS CONTACT Contact Us The following Doctors, Nurse Practitioner's are accepting patients.\nPlease note: We attempt to keep this information as accurate as possible, however, it is the discretion of the physician\\clinic as to when they are accepting new patients.\nDoctors, Nurse Practitioners and Clinic Address Website Telephone Grandview Medical Centre FHT, welcomes two new physicians Dr.\n343 to register Langs North Dumfries Community Health Centre (for residents of North Dumfries) 2938 Greenfield Road, Ayr Please call 519-653-1470 Ext.\n343 to register Dr.\nSunil Bhatia Saginaw Medical Centre 525 Saginaw Pkwy, Cambridge Please email [email protected] to request a Patient Registration Form Townline Walk-in & Medical Clinic 940 Jamieson Pkwy Register to become a patient with Dr.\nUnit B2 Register to become a patient with Dr.\nFares Hayek Coronation Family Physicians 182 Pinebush Road www.coronationfamilyphysicians.ca Dr.\nUnit B7A Please call to register (519) 740-1700 Dr.\nemeraldcaremax.ca/registration/ (519) 267-5030 Waterloo Region Nurse Practitioner Led Clinic 13 Water St.\nUnit #1 , Cambridge (519) 740-6437 Forbes Park Medical Centre 26 Forbes Street Please visit clinic to pick up application Physician details To view details for licensed physicians practising in Ontario, such as language spoken, visit the physici",
       "possible_claim": "possible_accepting",
@@ -2309,7 +2309,13 @@
         }
       ],
       "last_detected_at": "2026-11-27T21:58:36+00:00",
-      "observations_count": 11
+      "observations_count": 11,
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "Current regional directory still lists Mikhail, Ghali and Schuster; keep reported, not first-party. Forbes Park contradicts directory and remains not accepting per its own site.",
+      "review_sources": [
+        "https://www.doctors4cambridge.com/contact.htm"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "3d95bc8b26ed323d03",
@@ -3298,7 +3304,7 @@
       "new_hash": "85c4f424f9ab6d1a3da8dc7fcd5363128d14fb3cdb4ad5c58bf5481bf87e61a8",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Read more Breadcrumb Home Areas of Care Trauma and Violence Specialized Primary Care Program How To Access Program Menu Back to Areas of Care Trauma and Violence Specialized Primary Care Program Contact Details Services How to Access What to Expect Care Team Trauma and Violence Specialized Primary Care Program - How To Access Currently, the Trauma and Violence Specialized Primary Care Program only\nThe program also aims to expand research capacity and training opportunities, creating a sustainable and replicable model for trauma and violence informed specialized primary care across the province.",
       "current_excerpt": "The program aims to expand research capacity and training opportunities, creating a sustainable and replicable model for trauma and violence informed specialized primary care across the province.",
       "possible_claim": "unclear",
@@ -3417,7 +3423,13 @@
         }
       ],
       "last_detected_at": "2026-11-27T21:58:36+00:00",
-      "observations_count": 11
+      "observations_count": 11,
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "Current hospital page advertises public access; revised c195 to remove outdated internal-only claim while retaining limited status and unconfirmed referral specifics.",
+      "review_sources": [
+        "https://www.sjhc.london.on.ca/areas-of-care/trauma-and-violence-specialized-primary-care-program/how-to-access"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "9b9ac0d2d81326505a",
@@ -3499,7 +3511,7 @@
       "new_hash": "39817d9c7832131e56d7e9642eb186ce24ee18ff220bdd60344c67cbe591a266",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Menu Menu About us Who We Are Meet Our Team Careers Strategic Plan Health Services Family Physicians Social Workers Registered Nurses Nurse Practitioner Registered Dietitian Psychologist Pharmacist Respiratory Therapist Patient Resources Mutual Respect Programs & Services Frequently Asked Questions Health Connect Ontario/ Health811 Tools & Links Greenspace Portal Clinic & Events Updates Patient Ex\nPlease call 811 for assistance if you are looking for a doctor or nurse practitioner.\nPlease note that the London Family Health Team is NOT accepting any new patients at this time.\nClick here for details HEALTH CONNECT ONTARIO Free access to a Registered Nurse 24/7 at: \" 811 \" (TTY: 1-866-797-0007 ) Learn more family Doctor Office Information CLICK FOR DETAILS Funded by the province of Ontario Business Hours – Allied Health Staff ONLY Monday to Friday 8:30am-4:30pm Beaverbrook Location 1261 Bea",
       "current_excerpt": "Menu Menu About us Who We Are Meet Our Team Careers Strategic Plan Health Services Family Physicians Social Workers Registered Nurses Nurse Practitioner Registered Dietitian Psychologist Pharmacist Respiratory Therapist Patient Resources Mutual Respect Programs & Services Frequently Asked Questions Health Connect Ontario/ Health811 Tools & Links Greenspace Portal Clinic & Events Updates Patient Ex\nPlease call 811 for assistance if you are looking for a doctor or nurse practitioner.\nPlease note that the London Family Health Team is NOT accepting any new patients at this time.\nClick here for details HEALTH CONNECT ONTARIO Free access to a Registered Nurse 24/7 at: \" 811 \" (TTY: 1-866-797-0007 ) Learn more family Doctor Office Information CLICK FOR DETAILS Funded by the province of Ontario Business Hours – Allied Health Staff ONLY Monday to Friday 8:30am-4:30pm Beaverbrook Location 1261 Beaverbrook Ave Unit 1, ON N6H 0G6 Medway Location 1205 Oxford St W, London, ON N6H 1",
       "possible_claim": "possible_closed",
@@ -3614,7 +3626,13 @@
         }
       ],
       "last_detected_at": "2026-11-26T22:22:15+00:00",
-      "observations_count": 9
+      "observations_count": 9,
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "General locations page contradicts FAQ and Aug 26 announcement; c005 remains unknown, named c004 exception retained.",
+      "review_sources": [
+        "https://londonfht.ca/our-locations/"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "2971a284dd9eee5bf5",
@@ -3629,7 +3647,7 @@
       "new_hash": "848f5e368f59cb72ea77a67d58f47e3a201edeb060a58cde580c6ddbafe7cc22",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Menu Menu About us Who We Are Meet Our Team Careers Strategic Plan Health Services Family Physicians Social Workers Registered Nurses Nurse Practitioner Registered Dietitian Psychologist Pharmacist Respiratory Therapist Patient Resources Mutual Respect Programs & Services Frequently Asked Questions Health Connect Ontario/ Health811 Tools & Links Greenspace Portal Clinic & Events Updates Patient Ex\nFamily health teams include family doctors and other independent health professionals such as dietitians, nurse practitioners, registered nurses, social workers, etc.\nThe London Family Health Team includes registered nurses, social workers, a nurse practitioner, a pharmacist, a dietitian, a child psychologist, and a respiratory therapist.\nBehzad Hassani and his Nurse Practitioner are accepting new patients.\nOther physicians at the London Family Health Team are NOT accepting new patients at this",
       "current_excerpt": "Menu Menu About us Who We Are Meet Our Team Careers Strategic Plan Health Services Family Physicians Social Workers Registered Nurses Nurse Practitioner Registered Dietitian Psychologist Pharmacist Respiratory Therapist Patient Resources Mutual Respect Programs & Services Frequently Asked Questions Health Connect Ontario/ Health811 Tools & Links Greenspace Portal Clinic & Events Updates Patient Ex\nFamily health teams include family doctors and other independent health professionals such as dietitians, nurse practitioners, registered nurses, social workers, etc.\nThe London Family Health Team includes registered nurses, social workers, a nurse practitioner, a pharmacist, a dietitian, a child psychologist, and a respiratory therapist.\nBehzad Hassani and his Nurse Practitioner are accepting new patients.\nOther physicians at the London Family Health Team are NOT accepting new patients at this time.\nHealth Connect Ontario is a service that helps Ontarians find a physician.\nYou can either call them at 811 or visit them online to register for their services.\nIf you have a cough or cold, fever, sinus infection, urinary tract infection or skin rash or irritation which you feel cannot wait until a routine appointment with your Family Physician, then the After Hours Clinic is able to assist you.\nThe After Hours Clinic is not meant to replace the complex and continuing care that your Family",
       "possible_claim": "conflicting_or_conditional",
@@ -3683,7 +3701,13 @@
         }
       ],
       "last_detected_at": "2026-11-27T21:58:36+00:00",
-      "observations_count": 4
+      "observations_count": 4,
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "FAQ explicitly names Beaverbrook clinician exception and excludes other physicians; retained scoped classifications, noted conflict.",
+      "review_sources": [
+        "https://londonfht.ca/frequently-asked-questions/"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "67f8728a6a233fbe68",
@@ -4885,7 +4909,7 @@
       "new_hash": "1552c2194e9631ede4a0d22ee2b505b18522e93330524bc7417ab5b67e39c9d2",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Affiliated Physicians - Haldimand Family Health Team 2024-11-15T10:34:51-05:00 2026-11-03T11:29:39-05:00 Haldimand Family Health Team Are you looking for a Family Doctor?\nGive us a call at 905-768-9599 or email us at attach@haldimandfht.ca BOOK ONLINE: Choose a location | Cancel an appointment Find a Location info@haldimandfht.ca Clinic Hours Home About Us About Haldimand FHT Our Staff Affiliated Physicians Board of Directors Community Partners Careers Services Resources Events & Updates Events Calendar Health, Wellness & News Home About Us About Haldimand FHT Our \nAffiliated Physicians There are approximately 15 primary care physicians across Haldimand that are affiliated (officially connected) and utilize the team-based services of the Haldimand Family Health Team (FHT).\nThese physicians are grouped in teams called Family Health Organizations (FHO) that may practice together in the sam",
       "current_excerpt": "Affiliated Physicians - Haldimand Family Health Team 2024-11-15T10:34:51-05:00 2026-11-03T11:29:39-05:00 Skip to main content Haldimand Family Health Team Are you looking for a Family Doctor?\nGive us a call at 905-768-9599 or email us at attach@haldimandfht.ca BOOK ONLINE: Choose a location | Cancel an appointment Find a Location info@haldimandfht.ca Clinic Hours Home About Us About Haldimand FHT Our Staff Affiliated Physicians Board of Directors Community Partners Careers Services Resources Events & Updates Events Calendar Health, Wellness & News Home About Us About Haldimand FHT Our \nAffiliated Physicians There are approximately 15 primary care physicians across Haldimand that are affiliated (officially connected) and utilize the team-based services of the Haldimand Family Health Team (FHT).\nThese physicians are grouped in teams called Family Health Organizations (FHO) that may practice together in the same location or in separate locations.\nThe FHO physicians support each other within the FHO, providing coverage for each other during vacations and other times.\nCollaborative Care and Support The patients of the affiliated physicians have access to the team-based care provided by the Haldimand FHT for programming that focuses on health promotion, chronic disease prevention and providing people with education and support on a variety of health concerns.\nThe Haldimand FHT staff ",
       "possible_claim": "possible_accepting",
@@ -4893,7 +4917,13 @@
         "Chukwuemeka Ogbunando – Accepting patients P: 905-765-5886 Dr.",
         "Eric Sun – Accepting Patients P: 905-774-7541 | F: 1 -877-719-1949 Dr."
       ],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "FHT directory names Ogbunando at Argyle; other three linked locations have no named opening. Eric Sun at Dunnville separately listed; not an opening for these linked sites.",
+      "review_sources": [
+        "https://haldimandfht.ca/affiliated-physicians/"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "edcfd8d832b77295ea",
@@ -5428,7 +5458,7 @@
       "new_hash": "db00b4359f47f706f0edf2d42d30ccaf11eed5174ec840c975a68869768b8a3c",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Book online Courtland Medical Clinic Home Services About Contact Blog (519) 286-1665 Book appointment → Home Services About Contact Blog Book appointment → (519) 286-1665 Accepting new patients: Dr.\nJude Uba · Choose provider × Accepting new patients Choose a provider Dr.\nClear billing Accepted: OHIP, WSIB, and Blue Cross IFHP.\nPhysicians, nurses, and support staff working together — so you always have someone who knows you.\nOsaruonamen Augustine Ogboghodo Family Physician View profile → ON Dr.\nObiora Nelson Okonkwo Physician View profile → Clinical Support GB George Boctor Client View profile → SM Sandra Marcela Carrasco Mora Medical Office Administrator View profile → × Hours of operation Here when you need us .\nBook visit (519) 286-1665 Monday 9:30 AM – 6:00 PM Tuesday 9:30 AM – 6:00 PM Wednesday 9:30 AM – 6:00 PM Thursday 9:30 AM – 6:00 PM Friday 9:30 AM – 6:00 PM Saturday 9:30 AM – ",
       "current_excerpt": "Book online Courtland Medical Clinic Home Services About Contact Blog (519) 286-1665 Book appointment → Home Services About Contact Blog Book appointment → (519) 286-1665 Accepting new patients: Dr.\nJude Uba · Choose provider × Accepting new patients Choose a provider Dr.\nClear billing Accepted: OHIP, WSIB, and Blue Cross IFHP.\nPhysicians, nurses, and support staff working together — so you always have someone who knows you.\nOsaruonamen Augustine Ogboghodo Family Physician View profile → ON Dr.\nObiora Nelson Okonkwo Physician View profile → Clinical Support GB George Boctor Client View profile → SM Sandra Marcela Carrasco Mora Medical Office Administrator View profile → × Hours of operation Here when you need us .\nBook visit (519) 286-1665 Monday 9:30 AM – 6:00 PM Tuesday 9:30 AM – 6:00 PM Wednesday 9:30 AM – 6:00 PM Thursday 9:30 AM – 6:00 PM Friday 9:30 AM – 6:00 PM Saturday 9:30 AM – 2:30 PM Sunday Closed Clinic time: America/Toronto From the practice Staying informed shouldn’t be hard .\nPatient Resources 5 Things to Prepare Before Your First Appointment Starting with a new family doctor is an important step in taking control of your health.\nBook appointment Contact › Visit 1144 Courtland Avenue East Kitchener, ON · N2C 1N2 (519) 286-1665 (519) 286-4837 courtland@verismohealth.com Hours Monday 9:30 AM – 6:00 PM Tuesday 9:30 AM – 6:00 PM Wednesday 9:30 AM – 6:00 PM Thursday 9",
       "possible_claim": "possible_accepting",
@@ -5453,7 +5483,13 @@
           "extraction_version": "review-context-v2"
         }
       ],
-      "last_detected_at": "2026-11-22T20:22:32+00:00"
+      "last_detected_at": "2026-11-22T20:22:32+00:00",
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "Live homepage reviewed; generic named new-patient booking not explicit ongoing attachment. Downgraded c124 to unknown.",
+      "review_sources": [
+        "https://courtlandclinic.com/"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "29bcd1b4562fb73033",
@@ -6849,12 +6885,18 @@
       "new_hash": "139f675977e5e24c356853d7483b1fbd352a9d3471b5993d38e4faea4e57c100",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Seeking a Family Doctor or Nurse Practitioner | Grand River Community Health Centre This website uses cookies to enhance usability and provide you with a more personal experience.\nSkip to main content Skip to footer Grand River Community Health Centre Menu Your Health Expand sub pages Your Health Seeking a Family Doctor or Nurse Practitioner Flu Shot Clinic RSV Vaccine Clinic Gender Affirming Clinic Primary Care Access Clinic Midwife Outreach Nutrition Counselling Online Appointment Booking Partner Agencies Primary Health Care Seniors Assessment Service Social Prescribing a\nHow to Register Please complete our New Client Intake Form and submit it to reception during our operating hours.\nYou can also email the completed form to intake@grchc.ca .\nIf you prefer a paper copy, you are welcome to visit the Centre and ask our reception team for a New Client Intake Package.\nNew Client Intake Form",
       "current_excerpt": "Seeking a Family Doctor or Nurse Practitioner | Grand River Community Health Centre This website uses cookies to enhance usability and provide you with a more personal experience.\nSkip to main content Skip to footer Grand River Community Health Centre Menu Your Health Expand sub pages Your Health Seeking a Family Doctor or Nurse Practitioner Flu Shot Clinic RSV Vaccine Clinic Gender Affirming Clinic Midwife Outreach Nutrition Counselling Online Appointment Booking Partner Agencies Primary Health Care Seniors Assessment Service Social Prescribing and Navigation Social Work a\nHow to Register Please complete our New Client Intake Form and submit it to reception during our operating hours.\nYou can also email the completed form to intake@grchc.ca .\nIf you prefer a paper copy, you are welcome to visit the Centre and ask our reception team for a New Client Intake Package.\nNew Client Intake Form Additional Registration Option You can also register with Health Care Connect by calling 1-800-445-1822 or registering online through — https://hcc3.hcc.moh.gov.on.ca Completing both the GRCHC intake form and Health Care Connect registration may help you connect with a Family Doctor or Nurse Practitioner faster.\nGrand River Community Health Centre 363 Colborne Street Brantford, ON N3S 3N2 Your Health Seeking a Family Doctor or Nurse Practitioner Toggle Menu Html.Raw(currentTopLevel.Value (\"subN",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "Current official page confirms new client applications at 363 Colborne; retained c001 status.",
+      "review_sources": [
+        "https://www.grandriverchc.ca/your-health/seeking-a-family-doctor-or-nurse-practitioner/"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "05e2a741c5c20c5d51",
@@ -6909,12 +6951,18 @@
       "new_hash": "139f675977e5e24c356853d7483b1fbd352a9d3471b5993d38e4faea4e57c100",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Seeking a Family Doctor or Nurse Practitioner | Grand River Community Health Centre This website uses cookies to enhance usability and provide you with a more personal experience.\nSkip to main content Skip to footer Grand River Community Health Centre Menu Your Health Expand sub pages Your Health Seeking a Family Doctor or Nurse Practitioner Flu Shot Clinic RSV Vaccine Clinic Gender Affirming Clinic Primary Care Access Clinic Midwife Outreach Nutrition Counselling Online Appointment Booking Partner Agencies Primary Health Care Seniors Assessment Service Social Prescribing a\nHow to Register Please complete our New Client Intake Form and submit it to reception during our operating hours.\nYou can also email the completed form to intake@grchc.ca .\nIf you prefer a paper copy, you are welcome to visit the Centre and ask our reception team for a New Client Intake Package.\nNew Client Intake Form",
       "current_excerpt": "Seeking a Family Doctor or Nurse Practitioner | Grand River Community Health Centre This website uses cookies to enhance usability and provide you with a more personal experience.\nSkip to main content Skip to footer Grand River Community Health Centre Menu Your Health Expand sub pages Your Health Seeking a Family Doctor or Nurse Practitioner Flu Shot Clinic RSV Vaccine Clinic Gender Affirming Clinic Midwife Outreach Nutrition Counselling Online Appointment Booking Partner Agencies Primary Health Care Seniors Assessment Service Social Prescribing and Navigation Social Work a\nHow to Register Please complete our New Client Intake Form and submit it to reception during our operating hours.\nYou can also email the completed form to intake@grchc.ca .\nIf you prefer a paper copy, you are welcome to visit the Centre and ask our reception team for a New Client Intake Package.\nNew Client Intake Form Additional Registration Option You can also register with Health Care Connect by calling 1-800-445-1822 or registering online through — https://hcc3.hcc.moh.gov.on.ca Completing both the GRCHC intake form and Health Care Connect registration may help you connect with a Family Doctor or Nurse Practitioner faster.\nGrand River Community Health Centre 363 Colborne Street Brantford, ON N3S 3N2 Your Health Seeking a Family Doctor or Nurse Practitioner Toggle Menu Html.Raw(currentTopLevel.Value (\"subN",
       "possible_claim": "unclear",
       "matched_excerpts": [],
-      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically."
+      "note": "Raw public source content or its links changed. Text may be hidden, conditional or dynamically replaced. Verify the visible clinic-specific source; do not infer opening or closure automatically.",
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "Old URL redirects to same official intake page; duplicate source notice, no additional location opening.",
+      "review_sources": [
+        "https://www.grandriverchc.ca/your-health/new-clients/"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "84874ec65d9505d47b",
@@ -7059,7 +7107,7 @@
       "new_hash": "3f132c453799c6d9b050f32c60f37e707d913ebc0839e2b5c7b61a184d4ee72b",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Becoming a Patient – Waterloo Region Nurse Practitioner-Led Clinic Skip to primary navigation Skip to main content Waterloo Region Nurse Practitioner-Led Clinic Partnering for a Healthier Community About Us Our Team Board of Directors Quality Improvement & Strategic Plan Vision and Mission Careers Patient Information Becoming a Patient New Patient Information Package/Acknowledgments Appointment In\nIntake Form 2026 Download Is the Nurse Practitioner Clinic a Walk-In Clinic?\nNo, the Waterloo Region Nurse Practitioners Led Clinic is not a walk-in clinic.\nWe only provide care to patients who are registered with our clinic.\nWill I have the same Nurse Practitioner for my visits?\nYes, once you become a patient you will be assigned to a specific nurse practitioner and will see them on your subsequent visits.\nFor same day appointments, if your Nurse Practitioner is not available, someone else wil",
       "current_excerpt": "Becoming a Patient – Waterloo Region Nurse Practitioner-Led Clinic Skip to primary navigation Skip to main content Waterloo Region Nurse Practitioner-Led Clinic Partnering for a Healthier Community About Us Our Team Board of Directors Quality Improvement & Strategic Plan Vision and Mission Careers Patient Information Becoming a Patient New Patient Information Package/Acknowledgments Appointment In\nIntake Form 2026 Download Is the Nurse Practitioner Clinic a Walk-In Clinic?\nNo, the Waterloo Region Nurse Practitioners Led Clinic is not a walk-in clinic.\nWe only provide care to patients who are registered with our clinic.\nWill I have the same Nurse Practitioner for my visits?\nYes, once you become a patient you will be assigned to a specific nurse practitioner and will see them on your subsequent visits.\nFor same day appointments, if your Nurse Practitioner is not available, someone else will be available to see you.\nWho is part of the Waterloo Region Nurse Practitioner Led Clinic team?\nOur inter-professional team includes Nurse Practitioners, Registered Practical Nurses, Pharmacist, Dietitian, Social Workers and Physician Consultants.\nWe offer evening appointments © 2026 Waterloo Region Nurse Practitioner-Led Clinic | Log in Home About Us Becoming a Patient Services News Contact Us Privacy Policy Community Cancer Screening English English Deutsch Español Français Italiano Polski S",
       "possible_claim": "unclear",
@@ -7079,7 +7127,13 @@
         }
       ],
       "last_detected_at": "2026-11-27T14:34:45+00:00",
-      "observations_count": 2
+      "observations_count": 2,
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "Current page invites applications at any location; no specific site assignment or wait time guaranteed. Existing waitlist classifications retained.",
+      "review_sources": [
+        "https://wrnplc.ca/patient-information/"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "4d34a48547ac901747",
@@ -7376,7 +7430,7 @@
       "new_hash": "3f190989300b60b8d8366def157446f7a0e39caa3e25a5effcb0568de09fc603",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Important Update – For urgent medical needs when the Centre is closed, please call 519-633-7989 for our On Call Service.\nWe are now Accepting Clients!\nMai and Shelley have been providing treatment for vulnerable and homeless patients in St.Thomas, through… cedit_chc 14 December 2023 Laura Moon Wins Inspirational Woman of the Year Our heartfelt congratulations to staff member Laura Moon, Nurse Practitioner and Director of Primary Care for CCHC for being honoured as the St.\nTo book an appointment with your Physician or Nurse Practitioner, call (519) 633-7989 during our hours of operation.\nTo be enrolled as a patient, call the center during our hours of operation.\nCan I go to another General Practitioner While a client at CCHC?\nWhen you become a client of the CCHC, you are enrolled with the Physicians and Nurse Practitioners at the centre.\nIf you choose to see another primary care provider ",
       "current_excerpt": "Important Update – For urgent medical needs when the Centre is closed, please call 519-633-7989 for our On Call Service.\nWe are now Accepting Clients!\nMai and Shelley have been providing treatment for vulnerable and homeless patients in St.Thomas, through… cedit_chc 14 December 2023 Laura Moon Wins Inspirational Woman of the Year Our heartfelt congratulations to staff member Laura Moon, Nurse Practitioner and Director of Primary Care for CCHC for being honoured as the St.\nTo book an appointment with your Physician or Nurse Practitioner, call (519) 633-7989 during our hours of operation.\nTo be enrolled as a patient, call the center during our hours of operation.\nCan I go to another General Practitioner While a client at CCHC?\nWhen you become a client of the CCHC, you are enrolled with the Physicians and Nurse Practitioners at the centre.\nIf you choose to see another primary care provider outside of the CCHC, the Physician or Nurse Practitioner with whom you are registered can remove you from their client list.\nThomas, Ontario N5P 1B7 Clinic Hours Monday Tuesday Wednesday Thursday Friday Saturday Sunday 8:30 AM – 7:30 PM 8:30 AM -7:30 PM 1:00 PM – 4:30 PM 8:30 AM – 7:30 PM 8:30 AM – 4:30 PM (Closed 12pm-1pm for lunch) CLOSED CLOSED Central Community Health Centre CCHC is a charitable organization whose purpose is the delivery of comprehensive primary care, illness prevention, har",
       "possible_claim": "possible_accepting",
@@ -7400,7 +7454,13 @@
         }
       ],
       "last_detected_at": "2026-11-27T14:34:45+00:00",
-      "observations_count": 2
+      "observations_count": 2,
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "Current redesigned homepage no longer shows enrolment invitation; c109 downgraded to unknown, not closed.",
+      "review_sources": [
+        "https://centralchc.com/"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "c9fb155b70a62cbfa6",
@@ -7577,7 +7637,7 @@
       "new_hash": "e76c38ba813281cbbc9dc7b540ec0a04c21dffba8854f58e3247b972160bdd55",
       "extraction_version": "review-context-v2",
       "assessment_version": "intake-hints-v3",
-      "review_status": "pending",
+      "review_status": "reviewed",
       "prior_excerpt": "Medical Centre 422 Grey Street Brantford, ON N3S 4X8 519.759.7444 Fax: 519.759.7787 BOOK APPOINTMENT Open 6 Days A Week Office and Walk In Hours Monday, Wednesday, Friday 10AM - 5PM Tuesday & Thursday 9:30AM - 4PM Saturday 10AM - 2PM Sunday CLOSED Pharmacy 422 Grey Street Unit 2 Brantford, ON N3S 4X8 Tel: 519.759.0444 Fax: 519.759.0333 Welcome to Grey Gretzky Medical Centre, A Professional Walk-In\nWe are not accepting new family patients at the moment.\nBOOK APPOINTMENT Same Day Appointments Be seen by a Physician on your terms!\nFriendly Medical Service With the help of professional physicians OPEN 6 DAYS A WEEK!\nContact Info 422 Grey Street Brantford, ON N3S 4X8 Tel: 519.759.7444 Fax: 519.759.7787 Pharmacy: 422 Grey Street Unit 2 Brantford, ON N3S 4X8 Tel: 519.759.0444 Fax: 519.759.0333 Office and Walk In Hours Mon, Wed, Fri 10AM - 5PM Tue & Thu 9:30AM - 4PM Saturday 10AM - 2PM Sunday CL",
       "current_excerpt": "Medical Centre 422 Grey Street Brantford, ON N3S 4X8 519.759.7444 Fax: 519.759.7787 BOOK APPOINTMENT Open 6 Days A Week Office and Walk In Hours Monday, Wednesday, Friday 10AM - 5PM Tuesday & Thursday 9:30AM - 4PM Saturday 10AM - 2PM Sunday CLOSED Pharmacy 422 Grey Street Unit 2 Brantford, ON N3S 4X8 Tel: 519.759.0444 Fax: 519.759.0333 Welcome to Grey Gretzky Medical Centre, A Professional Walk-In\nWe are not accepting new family patients at the moment.\nBOOK APPOINTMENT Same Day Appointments Be seen by a Physician on your terms!\nFriendly Medical Service With the help of professional physicians OPEN 6 DAYS A WEEK!\nContact Info 422 Grey Street Brantford, ON N3S 4X8 Tel: 519.759.7444 Fax: 519.759.7787 Pharmacy: 422 Grey Street Unit 2 Brantford, ON N3S 4X8 Tel: 519.759.0444 Fax: 519.759.0333 Office and Walk In Hours Mon, Wed, Fri 10AM - 5PM Tue & Thu 9:30AM - 4PM Saturday 10AM - 2PM Sunday CLOSED Grey Gretzky Medical Centre | Powered by Global Printing Top Grey Gretzky Medical Centre Logo Grey Gretzky Medical ",
       "possible_claim": "unclear",
@@ -7597,7 +7657,13 @@
         }
       ],
       "last_detected_at": "2026-11-27T14:34:45+00:00",
-      "observations_count": 2
+      "observations_count": 2,
+      "reviewed_on": "2026-11-27",
+      "reviewer_note": "Clinic explicitly says no new family patients; walk-in access separate. Retained c211.",
+      "review_sources": [
+        "https://greygretzkymedicalcentre.ca/"
+      ],
+      "review_decision": "Independent public source review; see clinic history where amended."
     },
     {
       "id": "3ec518467bdaf9eeee",
