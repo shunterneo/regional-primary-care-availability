@@ -8,7 +8,7 @@
     "coordinate_source": "https://www.openstreetmap.org/way/564144865",
     "coordinate_quality": "Address-matched OpenStreetMap building/address point; not an entrance or unit"
   },
-  "data_as_of": "2026-11-27",
+  "data_as_of": "2026-11-28",
   "clinics": [
     {
       "id": "c001",
@@ -10914,8 +10914,8 @@
       "evidence_url": "https://aafiyat.ca/dr-ejaz-ahmed/",
       "clinic_url": "https://aafiyat.ca/kitchener/",
       "source_published": "",
-      "last_reviewed": "2026-11-16",
-      "intake_reviewed_on": "2026-11-16",
+      "last_reviewed": "2026-11-28",
+      "intake_reviewed_on": "2026-11-28",
       "location_quality": "Address-matched public OpenStreetMap unit-level pharmacy point at same 815 Weber Street East, Unit 5; not a surveyed family-clinic entrance. Approx. 67.2 km straight line from 96 Tillson Avenue; safely within 75 km.",
       "latitude": 43.43813,
       "longitude": -80.45972,
@@ -10923,12 +10923,12 @@
       "coordinate_quality": "Nearby pharmacy point at the same public commercial building and unit, not a clinic-specific surveyed entrance",
       "coordinate_checked_on": "2026-11-16",
       "notes": "Clinic reports opening October 8, 2026 at this address. Planned move to 150 Duke Street West in late November/early December 2026; new address is future-only and must NOT replace the current one until the clinic confirms relocation. No publication date was shown on the current intake page. Physician registration number is clinic-reported, not independently verified.",
-      "review_basis": "Public clinic-owned Kitchener and physician intake pages checked 2026-11-16. Original clinic page explicitly advertises named clinician's family-practice attachment, not merely walk-in visits. Public address corroborated by City of Kitchener site-plan records and same-unit OpenStreetMap business point. Current physical location lies ~67.15 km straight line from radius origin. No telephone or booking confirmation.",
+      "review_basis": "Rechecked first-party named family-practice intake and Kitchener location pages November 28, 2026. Named family practice registration still advertised; move to 150 Duke Street West remains announced for late November/early December, with actual appointment address to be confirmed by clinic. Previous address-matched coordinates retained; no new address asserted as operating. No telephone or form submission.",
       "confidence": "High for first-party named family-practice application and stated address; independent CPSO confirmation unavailable; relocation is announced but not yet effective.",
       "intake_verification": {
         "tier": "clinic_first_party",
         "scope": "named_clinician",
-        "reviewed_on": "2026-11-16",
+        "reviewed_on": "2026-11-28",
         "method": "public_webpage_review",
         "source_url": "https://aafiyat.ca/dr-ejaz-ahmed/",
         "finding": "Dr. Ejaz Ahmed is explicitly accepting new family-practice patients at the Kitchener location, distinct from same-day walk-ins. New patients are directed to call, text or WhatsApp 519-704-2444; roster placement and individual eligibility are not guaranteed by the page.",
@@ -10950,10 +10950,18 @@
         "eligibility": "Contact-first episodic care; staff must confirm a time and location."
       },
       "ongoing_care_review": {
-        "reviewed_on": "2026-11-18",
-        "finding": "Official Dr. Ahmed page explicitly advertises new family-practice patient registration, separately from episodic visits. Call/text/WhatsApp registration does not guarantee attachment. Location transition dates are published; any additional eligibility or capacity must be confirmed.",
+        "reviewed_on": "2026-11-28",
+        "finding": "Dr. Ejaz Ahmed is explicitly accepting new family-practice patients at the Kitchener location, distinct from same-day walk-ins. New patients are directed to call, text or WhatsApp 519-704-2444; roster placement and individual eligibility are not guaranteed by the page.",
         "sources": [
           "https://aafiyat.ca/dr-ejaz-ahmed/"
+        ]
+      },
+      "online_review": {
+        "reviewed_on": "2026-11-28",
+        "finding": "Rechecked first-party named family-practice intake and Kitchener location pages November 28, 2026. Named family practice registration still advertised; move to 150 Duke Street West remains announced for late November/early December, with actual appointment address to be confirmed by clinic. Previous address-matched coordinates retained; no new address asserted as operating. No telephone or form submission.",
+        "sources": [
+          "https://aafiyat.ca/dr-ejaz-ahmed/",
+          "https://aafiyat.ca/kitchener/"
         ]
       }
     },
@@ -12618,6 +12626,110 @@
       "address_verification_source": "https://register.cpso.on.ca/physician-info/?cpsonum=91209",
       "address_verified_on": "2026-11-27",
       "address_verification_scope": "Township of Zorra and the CPSO register agree on the public clinic suite; no roster capacity inferred."
+    },
+    {
+      "id": "c253",
+      "name": "Grand River CHC — Friendship House outreach drop-in",
+      "community": "Brantford",
+      "address": "452 Grey Street, Brantford, ON N3S 4X8",
+      "clinic_type": "CHC",
+      "care_model": "walk_in_only",
+      "care_model_basis": "GRCHC explicitly advertises non-urgent NP/RN outreach drop-in care at this host venue beginning November 3, 2026. Wednesdays 9–11 a.m. No appointment or referral required. This is episodic outreach, not evidence of ongoing family physician or NP enrolment. Host site and 211 independently corroborate civic address; 211 embedded map query supplies the address-matched coordinates (not a surveyed entrance).",
+      "care_model_source": "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+      "status": "unknown",
+      "intake_detail": "Outreach drop-in only; Wednesdays 9–11 a.m. People without a regular primary-care provider who face barriers to accessing care; an OHIP card is not required. The operator excludes people with a current provider, post-secondary/international students without local care, and people who do not face access barriers. Call for eligibility questions. No ongoing attachment application is advertised at this venue.",
+      "phone": "226-388-4725",
+      "providers": "Nurse practitioner, registered nurse, outreach and service navigation worker",
+      "evidence_url": "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+      "clinic_url": "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+      "source_published": "",
+      "last_reviewed": "2026-11-28",
+      "location_quality": "Address-matched public 211 venue point, not surveyed entrance.",
+      "community_distance_km": 50.74,
+      "latitude": 43.147689,
+      "longitude": -80.232466,
+      "coordinate_source": "https://211ontario.ca/service/79838948/friendship-house-of-brant-community-outreach-programs/",
+      "coordinate_checked_on": "2026-11-28",
+      "coordinate_quality": "Coordinates from public 211 site map embed query; corroborated exact host civic address.",
+      "notes": "Program began November 3, 2026; web page publication date unspecified. No current slot, phone or roster confirmation.",
+      "review_basis": "GRCHC explicitly advertises non-urgent NP/RN outreach drop-in care at this host venue beginning November 3, 2026. Wednesdays 9–11 a.m. No appointment or referral required. This is episodic outreach, not evidence of ongoing family physician or NP enrolment. Host site and 211 independently corroborate civic address; 211 embedded map query supplies the address-matched coordinates (not a surveyed entrance).",
+      "confidence": "High for published outreach model, eligibility and address; hours advertised, not independently confirmed by phone.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://friendship-house-of-brant.org/prod-us",
+      "address_verified_on": "2026-11-28",
+      "address_verification_scope": "Public outreach host civic address; operator and 211 corroborate, no personal data.",
+      "auto_updates_enabled": false,
+      "intake_reviewed_by_phone": false,
+      "online_review": {
+        "reviewed_on": "2026-11-28",
+        "finding": "GRCHC explicitly advertises non-urgent NP/RN outreach drop-in care at this host venue beginning November 3, 2026. Wednesdays 9–11 a.m. No appointment or referral required. This is episodic outreach, not evidence of ongoing family physician or NP enrolment. Host site and 211 independently corroborate civic address; 211 embedded map query supplies the address-matched coordinates (not a surveyed entrance).",
+        "sources": [
+          "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+          "https://friendship-house-of-brant.org/prod-us",
+          "https://211ontario.ca/service/79838948/friendship-house-of-brant-community-outreach-programs/"
+        ]
+      },
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-28",
+        "finding": "Outreach drop-in only; Wednesdays 9–11 a.m. People without a regular primary-care provider who face barriers to accessing care; an OHIP card is not required. The operator excludes people with a current provider, post-secondary/international students without local care, and people who do not face access barriers. Call for eligibility questions. No ongoing attachment application is advertised at this venue.",
+        "sources": [
+          "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/"
+        ],
+        "eligibility": "People without a regular primary-care provider who face barriers to accessing care; an OHIP card is not required. The operator excludes people with a current provider, post-secondary/international students without local care, and people who do not face access barriers. Call for eligibility questions."
+      }
+    },
+    {
+      "id": "c254",
+      "name": "Grand River CHC — St. Andrew’s Church outreach drop-in",
+      "community": "Brantford",
+      "address": "95 Darling Street, Brantford, ON N3T 2K7",
+      "clinic_type": "CHC",
+      "care_model": "walk_in_only",
+      "care_model_basis": "GRCHC explicitly advertises non-urgent NP/RN outreach drop-in care at this host venue beginning November 3, 2026. Tuesdays and Wednesdays noon–3 p.m. No appointment or referral required. This is episodic outreach, not evidence of ongoing family physician or NP enrolment. Host site and 211 independently corroborate civic address; 211 embedded map query supplies the address-matched coordinates (not a surveyed entrance).",
+      "care_model_source": "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+      "status": "unknown",
+      "intake_detail": "Outreach drop-in only; Tuesdays and Wednesdays noon–3 p.m. People without a regular primary-care provider who face barriers to accessing care; an OHIP card is not required. The operator excludes people with a current provider, post-secondary/international students without local care, and people who do not face access barriers. Call for eligibility questions. No ongoing attachment application is advertised at this venue.",
+      "phone": "226-388-4725",
+      "providers": "Nurse practitioner, registered nurse, outreach and service navigation worker",
+      "evidence_url": "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+      "clinic_url": "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+      "source_published": "",
+      "last_reviewed": "2026-11-28",
+      "location_quality": "Address-matched public 211 venue point, not surveyed entrance.",
+      "community_distance_km": 48.29,
+      "latitude": 43.14012,
+      "longitude": -80.262717,
+      "coordinate_source": "https://niagara.211centralsouth.ca/detail/79839177/site/",
+      "coordinate_checked_on": "2026-11-28",
+      "coordinate_quality": "Coordinates from public 211 site map embed query; corroborated exact host civic address.",
+      "notes": "Program began November 3, 2026; web page publication date unspecified. No current slot, phone or roster confirmation.",
+      "review_basis": "GRCHC explicitly advertises non-urgent NP/RN outreach drop-in care at this host venue beginning November 3, 2026. Tuesdays and Wednesdays noon–3 p.m. No appointment or referral required. This is episodic outreach, not evidence of ongoing family physician or NP enrolment. Host site and 211 independently corroborate civic address; 211 embedded map query supplies the address-matched coordinates (not a surveyed entrance).",
+      "confidence": "High for published outreach model, eligibility and address; hours advertised, not independently confirmed by phone.",
+      "clinic_address_verified": true,
+      "address_verification_source": "https://www.standrewsbrantford.com/",
+      "address_verified_on": "2026-11-28",
+      "address_verification_scope": "Public outreach host civic address; operator and 211 corroborate, no personal data.",
+      "auto_updates_enabled": false,
+      "intake_reviewed_by_phone": false,
+      "online_review": {
+        "reviewed_on": "2026-11-28",
+        "finding": "GRCHC explicitly advertises non-urgent NP/RN outreach drop-in care at this host venue beginning November 3, 2026. Tuesdays and Wednesdays noon–3 p.m. No appointment or referral required. This is episodic outreach, not evidence of ongoing family physician or NP enrolment. Host site and 211 independently corroborate civic address; 211 embedded map query supplies the address-matched coordinates (not a surveyed entrance).",
+        "sources": [
+          "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+          "https://www.standrewsbrantford.com/",
+          "https://niagara.211centralsouth.ca/detail/79839177/site/"
+        ]
+      },
+      "walk_in_review": {
+        "status": "advertised",
+        "reviewed_on": "2026-11-28",
+        "finding": "Outreach drop-in only; Tuesdays and Wednesdays noon–3 p.m. People without a regular primary-care provider who face barriers to accessing care; an OHIP card is not required. The operator excludes people with a current provider, post-secondary/international students without local care, and people who do not face access barriers. Call for eligibility questions. No ongoing attachment application is advertised at this venue.",
+        "sources": [
+          "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/"
+        ],
+        "eligibility": "People without a regular primary-care provider who face barriers to accessing care; an OHIP card is not required. The operator excludes people with a current provider, post-secondary/international students without local care, and people who do not face access barriers. Call for eligibility questions."
+      }
     }
   ]
 }
