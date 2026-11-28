@@ -228,16 +228,22 @@
       "eligibility": "Unattached residents facing barriers to access; operator excludes clients with an existing provider and some other groups. No OHIP card needed; check program page.",
       "phone": "226-388-4725",
       "review_status": "reviewed",
-      "within_75km": "Pending exact premises-coordinate confirmation; no community-centre fallback allowed",
+      "within_75km": "Verified 50.74 km from configured origin using public 211 address-matched venue map",
       "proposed_action": "Verify exact public building pin and 75-km straight-line radius, check duplicate outreach locations, then consider a distinct walk-in-only listing—not an accepting family practice.",
       "note": "Official operator explicitly calls this an outreach drop-in clinic with no appointment. No roster claims. Not submitted to intake; no patient data.",
       "evidence_checked_on": "2026-11-22",
-      "reviewed_on": "2026-11-27",
-      "review_outcome": "Outreach drop-in only; no ongoing attachment evidence",
-      "reviewer_note": "Operator page independently reviewed: both Brantford sites provide non-urgent drop-in outreach from Nov 3, 2026; no site-specific roster application advertised. No intake status change.",
+      "reviewed_on": "2026-11-28",
+      "review_outcome": "Published c253 as walk-in-only outreach; ongoing attachment unconfirmed",
+      "reviewer_note": "Operator and host pages corroborate civic venue; 211 embedded map uses explicit coordinates, not search-location parameters. No ongoing enrolment pathway advertised.",
       "review_sources": [
-        null
-      ]
+        "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+        "https://friendship-house-of-brant.org/prod-us",
+        "https://211ontario.ca/service/79838948/friendship-house-of-brant-community-outreach-programs/"
+      ],
+      "latitude": 43.147689,
+      "longitude": -80.232466,
+      "coordinate_source": "https://211ontario.ca/service/79838948/friendship-house-of-brant-community-outreach-programs/",
+      "clinic_id": "c253"
     },
     {
       "id": "grchc-st-andrews-outreach-20261122",
@@ -254,16 +260,22 @@
       "eligibility": "Unattached residents facing barriers to access; operator excludes clients with an existing provider and some other groups. No OHIP card needed; check program page.",
       "phone": "226-388-4725",
       "review_status": "reviewed",
-      "within_75km": "Pending exact premises-coordinate confirmation; no community-centre fallback allowed",
+      "within_75km": "Verified 48.29 km from configured origin using public 211 address-matched venue map",
       "proposed_action": "Verify exact public building pin and 75-km straight-line radius, check duplicate outreach locations, then consider a distinct walk-in-only listing—not an accepting family practice.",
       "note": "Official operator explicitly calls this an outreach drop-in clinic with no appointment. No roster claims. Not submitted to intake; no patient data.",
       "evidence_checked_on": "2026-11-22",
-      "reviewed_on": "2026-11-27",
-      "review_outcome": "Outreach drop-in only; no ongoing attachment evidence",
-      "reviewer_note": "Operator page independently reviewed: both Brantford sites provide non-urgent drop-in outreach from Nov 3, 2026; no site-specific roster application advertised. No intake status change.",
+      "reviewed_on": "2026-11-28",
+      "review_outcome": "Published c254 as walk-in-only outreach; ongoing attachment unconfirmed",
+      "reviewer_note": "Operator and host pages corroborate civic venue; 211 embedded map uses explicit coordinates, not search-location parameters. No ongoing enrolment pathway advertised.",
       "review_sources": [
-        null
-      ]
+        "https://www.grandriverchc.ca/community-programs-and-outreach/outreach-drop-in-clinic/",
+        "https://www.standrewsbrantford.com/",
+        "https://niagara.211centralsouth.ca/detail/79839177/site/"
+      ],
+      "latitude": 43.14012,
+      "longitude": -80.262717,
+      "coordinate_source": "https://niagara.211centralsouth.ca/detail/79839177/site/",
+      "clinic_id": "c254"
     },
     {
       "detected_at": "2026-11-24T13:00:00+00:00",
